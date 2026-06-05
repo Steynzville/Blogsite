@@ -1,0 +1,523 @@
+{
+  "site_title": "VELUCE",
+  "tagline": "Where Light Meets Design",
+  "subtitle": "Luxury Living Journal",
+  "categories": [],
+  "sections": [
+    {
+      "title": "Outdoor Lighting",
+      "level": 2,
+      "content": [
+        {
+          "title": "Upward Lighting: The Art of Architectural Grazing",
+          "level": 3
+        },
+        {
+          "title": "Copper Lanterns That Age with Grace",
+          "level": 3
+        },
+        {
+          "title": "The Science of Moonlighting in Tree Canopies",
+          "level": 3
+        },
+        {
+          "title": "LED Strip Integration in Modern Deck Design",
+          "level": 3
+        },
+        {
+          "title": "Fiber Optic Star Ceilings for Covered Patios",
+          "level": 3
+        },
+        {
+          "title": "Solar Pathway Lights That Don't Look Cheap",
+          "level": 3
+        },
+        {
+          "title": "Underwater Pool Lighting Design Principles",
+          "level": 3
+        },
+        {
+          "title": "Recessed Step Lighting for Safety and Style",
+          "level": 3
+        },
+        {
+          "title": "Smart Landscape Controllers Worth Investing In",
+          "level": 3
+        },
+        {
+          "title": "Wall Wash Techniques for Stone Facades",
+          "level": 3
+        },
+        {
+          "title": "Bollard Lights as Sculpture",
+          "level": 3
+        },
+        {
+          "title": "Color Temperature: Why 2700K Wins Every Time",
+          "level": 3
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Garden Lighting",
+      "level": 2,
+      "content": [
+        {
+          "title": "Hidden Uplighting for Mature Trees",
+          "level": 3
+        },
+        {
+          "title": "Pond and Water Feature Illumination",
+          "level": 3
+        },
+        {
+          "title": "Garden Pathway Moonlighting",
+          "level": 3
+        },
+        {
+          "title": "Perimeter Lighting for Privacy Hedges",
+          "level": 3
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Patio Decor",
+      "level": 2,
+      "content": [
+        {
+          "title": "The Outdoor Fireplace as Focal Point",
+          "level": 3
+        },
+        {
+          "title": "Modular Sectionals for Flexible Entertaining",
+          "level": 3
+        },
+        {
+          "title": "Outdoor Rugs That Defy the Elements",
+          "level": 3
+        },
+        {
+          "title": "Cantilever Umbrellas: Engineering Meets Elegance",
+          "level": 3
+        },
+        {
+          "title": "Fire Pit Tables: The New Centerpiece",
+          "level": 3
+        },
+        {
+          "title": "Outdoor Kitchen Cabinetry Materials Guide",
+          "level": 3
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Smart Home",
+      "level": 2,
+      "content": [
+        {
+          "title": "Whole-Home Lighting Control Systems",
+          "level": 3
+        },
+        {
+          "title": "Invisible HVAC: Underfloor and Ducted Mini-Split Design",
+          "level": 3
+        },
+        {
+          "title": "Architectural Speakers: Hearing Without Seeing",
+          "level": 3
+        },
+        {
+          "title": "Smart Blinds That Follow the Sun",
+          "level": 3
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Home Security",
+      "level": 2,
+      "content": [
+        {
+          "title": "Discreet Camera Placement",
+          "level": 3
+        },
+        {
+          "title": "Smart Access Control",
+          "level": 3
+        },
+        {
+          "title": "Perimeter Monitoring",
+          "level": 3
+        },
+        {
+          "title": "Integrated Alarm Systems",
+          "level": 3
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Luxury Interiors",
+      "level": 2,
+      "content": [
+        {
+          "title": "The 60-30-10 Color Rule for Sophisticated Spaces",
+          "level": 3
+        },
+        {
+          "title": "Natural Stone: Travertine, Marble, and Limestone Compared",
+          "level": 3
+        },
+        {
+          "title": "Layered Lighting for the Perfect Bedroom Retreat",
+          "level": 3
+        },
+        {
+          "title": "Spa Bathroom Design: Japanese Soaking Tubs to Rain Showers",
+          "level": 3
+        },
+        {
+          "title": "The Statement Sofa: Investment Pieces That Anchor a Room",
+          "level": 3
+        },
+        {
+          "title": "Cashmere Throws, Silk Curtains, and Linen Bedding",
+          "level": 3
+        },
+        {
+          "title": "Walk-In Closet Design: The Dressing Room as Sanctuary",
+          "level": 3
+        },
+        {
+          "title": "The Formal Dining Room Revival",
+          "level": 3
+        },
+        {
+          "title": "Warm Metals: Brass, Bronze, and Copper in Interior Design",
+          "level": 3
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Kitchen Essentials",
+      "level": 2,
+      "content": [
+        {
+          "title": "Range Cookers: La Cornue, Aga, and Wolf Compared",
+          "level": 3
+        },
+        {
+          "title": "The Kitchen Triangle Is Dead. Long Live the Kitchen Zones",
+          "level": 3
+        },
+        {
+          "title": "Quartzite vs. Porcelain: The Countertop Decision",
+          "level": 3
+        }
+      ],
+      "articles": []
+    }
+  ],
+  "images": [
+    {
+      "alt": "Upward Lighting: The Art of Architectural Grazing",
+      "src": "/upward-1.jpg"
+    },
+    {
+      "alt": "Copper Lanterns That Age with Grace",
+      "src": "/lantern-1.jpg"
+    },
+    {
+      "alt": "The Science of Moonlighting in Tree Canopies",
+      "src": "/canopy-1.jpg"
+    },
+    {
+      "alt": "LED Strip Integration in Modern Deck Design",
+      "src": "/deck-1.jpg"
+    },
+    {
+      "alt": "Fiber Optic Star Ceilings for Covered Patios",
+      "src": "/star-1.jpg"
+    },
+    {
+      "alt": "Solar Pathway Lights That Don't Look Cheap",
+      "src": "/path-1.jpg"
+    },
+    {
+      "alt": "Underwater Pool Lighting Design Principles",
+      "src": "/pool-1.jpg"
+    },
+    {
+      "alt": "Recessed Step Lighting for Safety and Style",
+      "src": "/stair-1.jpg"
+    },
+    {
+      "alt": "Smart Landscape Controllers Worth Investing In",
+      "src": "/smart-1.jpg"
+    },
+    {
+      "alt": "Wall Wash Techniques for Stone Facades",
+      "src": "/wash-1.jpg"
+    },
+    {
+      "alt": "Bollard Lights as Sculpture",
+      "src": "/bollard-1.jpg"
+    },
+    {
+      "alt": "Color Temperature: Why 2700K Wins Every Time",
+      "src": "/temp-1.jpg"
+    },
+    {
+      "alt": "Luxury garden at night with uplighting",
+      "src": "/garden-hero.jpg"
+    },
+    {
+      "alt": "The Outdoor Fireplace as Focal Point",
+      "src": "/patio-1.jpg"
+    },
+    {
+      "alt": "Modular Sectionals for Flexible Entertaining",
+      "src": "/patio-2.jpg"
+    },
+    {
+      "alt": "Outdoor Rugs That Defy the Elements",
+      "src": "/patio-3.jpg"
+    },
+    {
+      "alt": "Cantilever Umbrellas: Engineering Meets Elegance",
+      "src": "/patio-4.jpg"
+    },
+    {
+      "alt": "Fire Pit Tables: The New Centerpiece",
+      "src": "/patio-5.jpg"
+    },
+    {
+      "alt": "Outdoor Kitchen Cabinetry Materials Guide",
+      "src": "/patio-6.jpg"
+    },
+    {
+      "alt": "Luxury smart home interior at evening",
+      "src": "/smarthome-hero.jpg"
+    },
+    {
+      "alt": "Luxury home with security lighting at night",
+      "src": "/security-hero.jpg"
+    },
+    {
+      "alt": "The 60-30-10 Color Rule for Sophisticated Spaces",
+      "src": "/interior-1.jpg"
+    },
+    {
+      "alt": "Natural Stone: Travertine, Marble, and Limestone Compared",
+      "src": "/interior-2.jpg"
+    },
+    {
+      "alt": "Layered Lighting for the Perfect Bedroom Retreat",
+      "src": "/interior-3.jpg"
+    },
+    {
+      "alt": "Spa Bathroom Design: Japanese Soaking Tubs to Rain Showers",
+      "src": "/interior-4.jpg"
+    },
+    {
+      "alt": "The Statement Sofa: Investment Pieces That Anchor a Room",
+      "src": "/interior-5.jpg"
+    },
+    {
+      "alt": "Cashmere Throws, Silk Curtains, and Linen Bedding",
+      "src": "/interior-6.jpg"
+    },
+    {
+      "alt": "Walk-In Closet Design: The Dressing Room as Sanctuary",
+      "src": "/interior-7.jpg"
+    },
+    {
+      "alt": "The Formal Dining Room Revival",
+      "src": "/interior-8.jpg"
+    },
+    {
+      "alt": "Warm Metals: Brass, Bronze, and Copper in Interior Design",
+      "src": "/interior-9.jpg"
+    },
+    {
+      "alt": "Luxury modern kitchen with marble island",
+      "src": "/kitchen-hero.jpg"
+    }
+  ],
+  "navigation": [
+    {
+      "text": "VELUCE",
+      "href": "#"
+    },
+    {
+      "text": "Outdoor",
+      "href": "#outdoor"
+    },
+    {
+      "text": "Garden",
+      "href": "#garden"
+    },
+    {
+      "text": "Patio",
+      "href": "#patio"
+    },
+    {
+      "text": "Smart Home",
+      "href": "#smart-home"
+    },
+    {
+      "text": "Security",
+      "href": "#security"
+    },
+    {
+      "text": "Interiors",
+      "href": "#interiors"
+    },
+    {
+      "text": "Kitchen",
+      "href": "#kitchen"
+    },
+    {
+      "text": "Subscribe",
+      "href": "#newsletter"
+    },
+    {
+      "text": "Explore the Collection \u2192",
+      "href": "#"
+    },
+    {
+      "text": "Hidden Uplighting for Mature TreesConcealed fixtures that create dramatic shadow play through branches",
+      "href": "#"
+    },
+    {
+      "text": "Pond and Water Feature IlluminationSubmersible lighting techniques for reflective water surfaces",
+      "href": "#"
+    },
+    {
+      "text": "Garden Pathway MoonlightingDownlighting techniques that mimic natural moonlight on winding paths",
+      "href": "#"
+    },
+    {
+      "text": "Perimeter Lighting for Privacy HedgesGentle grazing light that defines garden boundaries after dark",
+      "href": "#"
+    },
+    {
+      "text": "LIGHTINGWhole-Home Lighting Control SystemsLutron, Control4, and Savant compared for seamless scene management",
+      "href": "#"
+    },
+    {
+      "text": "CLIMATEInvisible HVAC: Underfloor and Ducted Mini-Split DesignClimate control systems that disappear into architecture",
+      "href": "#"
+    },
+    {
+      "text": "AUDIOArchitectural Speakers: Hearing Without SeeingIn-wall and in-ceiling audio that delivers concert-hall quality",
+      "href": "#"
+    },
+    {
+      "text": "AUTOMATIONSmart Blinds That Follow the SunAutomated shading systems that optimize natural light and privacy",
+      "href": "#"
+    },
+    {
+      "text": "APPLIANCERange Cookers: La Cornue, Aga, and Wolf ComparedHeritage brands versus professional performance in luxury kitchen design",
+      "href": "#"
+    },
+    {
+      "text": "LAYOUTThe Kitchen Triangle Is Dead. Long Live the Kitchen ZonesWhy modern kitchen design favors workflow zones over geometric rules",
+      "href": "#"
+    },
+    {
+      "text": "MATERIALSQuartzite vs. Porcelain: The Countertop DecisionDurability, maintenance, and aesthetics of today's premium countertop materials",
+      "href": "#"
+    },
+    {
+      "text": "Outdoor Lighting",
+      "href": "#"
+    },
+    {
+      "text": "Garden Lighting",
+      "href": "#"
+    },
+    {
+      "text": "Patio Decor",
+      "href": "#"
+    },
+    {
+      "text": "Smart Home",
+      "href": "#"
+    },
+    {
+      "text": "Home Security",
+      "href": "#"
+    },
+    {
+      "text": "Luxury Interiors",
+      "href": "#"
+    },
+    {
+      "text": "Kitchen Essentials",
+      "href": "#"
+    },
+    {
+      "text": "About",
+      "href": "#"
+    },
+    {
+      "text": "Contact",
+      "href": "#"
+    },
+    {
+      "text": "Advertising",
+      "href": "#"
+    },
+    {
+      "text": "Partnerships",
+      "href": "#"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "#"
+    },
+    {
+      "text": "Terms of Use",
+      "href": "#"
+    },
+    {
+      "text": "Affiliate Disclosure",
+      "href": "#"
+    }
+  ],
+  "footer_links": [
+    {
+      "text": "About",
+      "href": "#"
+    },
+    {
+      "text": "Contact",
+      "href": "#"
+    },
+    {
+      "text": "Advertising",
+      "href": "#"
+    },
+    {
+      "text": "Partnerships",
+      "href": "#"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "#"
+    },
+    {
+      "text": "Terms of Use",
+      "href": "#"
+    },
+    {
+      "text": "Affiliate Disclosure",
+      "href": "#"
+    }
+  ]
+}

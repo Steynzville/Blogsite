@@ -10,6 +10,8 @@ import Category from "./pages/Category";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import Affiliate from "./pages/Affiliate";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -17,10 +19,12 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/article/:slug"} component={ArticleDetail} />
-      <Route path={"/category/:slug"} component={Category} />
-      <Route path={"/about"} component={About} />
-      <Route path={"/contact"} component={Contact} />
-      <Route path={"/privacy"} component={Privacy} />
+      <Route path={`/category/:slug`} component={Category} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/terms" component={Terms} />
+      <Route path="/affiliate" component={Affiliate} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

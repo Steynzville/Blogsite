@@ -3,6 +3,9 @@ import { Link } from 'wouter';
 import { Menu, X, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { trpc } from '@/lib/trpc';
+import { useMetaTags } from '@/lib/meta';
+import { useSchema } from '@/components/SchemaTag';
+import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 
 const CATEGORIES = [
   { name: 'Outdoor Lighting', slug: 'outdoor-lighting' },
@@ -18,6 +21,20 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { data: articles = [], isLoading } = trpc.articles.list.useQuery();
   const featuredArticles = articles.filter((a: any) => a.featured).slice(0, 3);
+
+  useMetaTags({
+    title: 'VELUCE - Luxury Living Journal | Home & Garden Design',
+    description: 'Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.',
+    url: typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space',
+    type: 'website',
+  });
+
+  if (typeof window !== 'undefined') {
+    useSchema(getHomepageSchema(window.location.origin));
+    useSchema(getOrganizationSchema(window.location.origin));
+  }
+
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space';
 
   return (
     <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">
@@ -260,6 +277,20 @@ export default function Home() {
                   <Link href="/privacy">
                     <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       Privacy Policy
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms">
+                    <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                      Terms of Use
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/affiliate">
+                    <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                      Affiliate Disclosure
                     </a>
                   </Link>
                 </li>

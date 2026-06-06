@@ -184,6 +184,16 @@ export default function Category() {
                   Privacy
                 </a>
               </Link>
+              <Link href="/terms">
+                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                  Terms
+                </a>
+              </Link>
+              <Link href="/affiliate">
+                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                  Affiliate
+                </a>
+              </Link>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8">

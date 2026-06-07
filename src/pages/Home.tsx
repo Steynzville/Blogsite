@@ -167,18 +167,18 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
         <div className="absolute inset-0">
-          <OptimizedImage 
-            src="/images/hero-luxury.jpg" 
-            alt="Luxury home design with architectural lighting"
-            className="w-full h-full object-cover object-[center_30%]"
-            priority={true}
-          />
+            <OptimizedImage 
+              src="/images/hero-luxury.jpg" 
+              alt="Luxury home design with architectural lighting"
+              className="w-full h-full object-cover object-[center_25%]"
+              priority={true}
+            />
           {/* Subtle dark gradient overlay to make text pop consistently across devices */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
         </div>
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light text-white mb-4 drop-shadow-xl tracking-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light text-white mb-4 drop-shadow-xl tracking-wide">
               Where Light Meets Design
             </h1>
             <p className="text-lg sm:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow-md font-light leading-relaxed">

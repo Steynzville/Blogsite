@@ -26,9 +26,16 @@ export interface Category {
   slug: string;
 }
 
+// Get the base path for GitHub Pages
+const getBasePath = (): string => {
+  if (typeof window === 'undefined') return '/Blogsite';
+  return import.meta.env.BASE_URL || '/Blogsite/';
+};
+
 // Function to fetch all articles
 export async function fetchAllArticles(): Promise<ArticleMetadata[]> {
-  const response = await fetch("/articles.json");
+  const basePath = getBasePath();
+  const response = await fetch(`${basePath}articles.json`);
   if (!response.ok) {
     console.error("Failed to fetch articles.json");
     return [];
@@ -40,7 +47,8 @@ export async function fetchAllArticles(): Promise<ArticleMetadata[]> {
 
 // Function to fetch a single article by slug
 export async function fetchArticleBySlug(slug: string): Promise<Article | undefined> {
-  const response = await fetch(`/articles/${slug}.json`);
+  const basePath = getBasePath();
+  const response = await fetch(`${basePath}articles/${slug}.json`);
   if (!response.ok) {
     console.error(`Failed to fetch article ${slug}.json`);
     return undefined;
@@ -50,7 +58,8 @@ export async function fetchArticleBySlug(slug: string): Promise<Article | undefi
 
 // Function to fetch articles by category
 export async function fetchArticlesByCategory(categorySlug: string): Promise<ArticleMetadata[]> {
-  const response = await fetch(`/categories/${categorySlug}.json`);
+  const basePath = getBasePath();
+  const response = await fetch(`${basePath}categories/${categorySlug}.json`);
   if (!response.ok) {
     console.error(`Failed to fetch category ${categorySlug}.json`);
     return [];
@@ -62,7 +71,8 @@ export async function fetchArticlesByCategory(categorySlug: string): Promise<Art
 
 // Function to fetch all categories
 export async function fetchAllCategories(): Promise<Category[]> {
-  const response = await fetch("/categories.json");
+  const basePath = getBasePath();
+  const response = await fetch(`${basePath}categories.json`);
   if (!response.ok) {
     console.error("Failed to fetch categories.json");
     return [];

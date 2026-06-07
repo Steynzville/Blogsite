@@ -140,7 +140,7 @@ export default function Home() {
       <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/images/hero-home.jpg" 
+            src="/images/hero-luxury.jpg" 
             alt="Luxury home design with architectural lighting"
             className="w-full h-full object-cover"
           />

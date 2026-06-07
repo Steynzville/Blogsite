@@ -4,17 +4,21 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // This script redirects 404s to index.html for SPA routing on GitHub Pages subpaths
-      var pathSegmentsToKeep = 1; // Keep /Blogsite
-      
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        '/Blogsite/?' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // This script redirects 404s to index.html for SPA routing on GitHub Pages
+      // It handles both custom domains and github.io subpaths
+      (function() {
+        var l = window.location;
+        var isCustomDomain = l.hostname !== 'steynzville.github.io';
+        var pathSegmentsToKeep = isCustomDomain ? 0 : 1;
+        
+        var redirectPath = l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~');
+        var redirectSearch = l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '';
+        
+        var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                     (isCustomDomain ? '' : '/Blogsite') + '/?' + redirectPath + redirectSearch + l.hash;
+        
+        l.replace(newUrl);
+      })();
     </script>
   </head>
   <body>

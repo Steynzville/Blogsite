@@ -21,9 +21,12 @@ const handleRedirect = () => {
   if (typeof window !== 'undefined' && window.location.search) {
     const search = window.location.search;
     if (search.startsWith('?')) {
+      // Extract the path from the query string
       const path = search.slice(1).replace(/~and~/g, '&');
       if (path && path !== '/') {
-        window.history.replaceState(null, '', import.meta.env.BASE_URL + path + window.location.hash);
+        const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+        const cleanPath = path.startsWith('/') ? path : `/${path}`;
+        window.history.replaceState(null, '', baseUrl + cleanPath + window.location.hash);
       }
     }
   }

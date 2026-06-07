@@ -1,5 +1,6 @@
 import { useParams, Link } from 'wouter';
-import { ArrowLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Moon, Sun } from 'lucide-react';
+import { useTheme } from '@/contexts/ThemeContext';
 import { useArticlesByCategory, useAllCategories } from '@/lib/articles';
 
 
@@ -7,6 +8,7 @@ import { useArticlesByCategory, useAllCategories } from '@/lib/articles';
 export default function Category() {
   const params = useParams();
   const slug = params.slug as string;
+  const { theme, toggleTheme } = useTheme();
 
   const { categories } = useAllCategories();
   const category = categories.find((c) => c.slug === slug);
@@ -29,26 +31,33 @@ export default function Category() {
   }
 
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/">
-            <a className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors cursor-pointer mb-4">
+            <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
             </a>
           </Link>
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+            aria-label="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
         </div>
       </header>
 
       {/* Category Header */}
-      <section className="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 dark:text-white mb-4">
             {category.name}
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-600 dark:text-gray-400">
             Explore our collection of articles on {category.name.toLowerCase()}. Discover expert insights, design tips, and luxury home solutions.
           </p>
         </div>
@@ -79,10 +88,10 @@ export default function Category() {
                       <p className="text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wider">
                         {article.category}
                       </p>
-                      <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 group-hover:text-gray-600 transition-colors">
+                      <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 dark:text-white group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
                         {article.title}
                       </h3>
-                      <p className="text-sm sm:text-base text-gray-600 line-clamp-2">
+                      <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 line-clamp-2">
                         {article.excerpt}
                       </p>
                     </div>
@@ -106,19 +115,19 @@ export default function Category() {
       </section>
 
       {/* Other Categories */}
-      <section className="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900 dark:text-white mb-8">
             Explore Other Categories
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {categories.filter((c) => c.slug !== slug).map((cat) => (
               <Link key={cat.slug} href={`/category/${cat.slug}`}>
-                <a className="group block p-6 sm:p-8 bg-white rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all cursor-pointer">
-                  <h3 className="text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">
+                <a className="group block p-6 sm:p-8 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-500 hover:shadow-lg transition-all cursor-pointer">
+                  <h3 className="text-xl font-serif font-bold text-gray-900 dark:text-white mb-2 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
                     {cat.name}
                   </h3>
-                  <p className="text-sm text-gray-600 flex items-center">
+                  <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center">
                     Explore articles <ChevronRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </p>
                 </a>
@@ -138,14 +147,27 @@ export default function Category() {
             Subscribe to receive curated articles on luxury home design.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
-            />
-            <button className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold whitespace-nowrap transition-colors">
-              Subscribe
-            </button>
+            <form 
+              className="flex flex-col sm:flex-row gap-3 w-full"
+              onSubmit={(e) => {
+                e.preventDefault();
+                alert('Thank you for subscribing! You will receive our latest design insights soon.');
+                (e.target as HTMLFormElement).reset();
+              }}
+            >
+              <input
+                type="email"
+                required
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-3 rounded-lg bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 border-none"
+              />
+              <button 
+                type="submit"
+                className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold whitespace-nowrap transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { useParams, Link } from 'wouter';
-import { ArrowLeft, Share2 } from 'lucide-react';
+import { ArrowLeft, Share2, Moon, Sun } from 'lucide-react';
+import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
 import { useArticle } from '@/lib/articles';
 import { useMetaTags } from '@/lib/meta';
@@ -10,6 +11,7 @@ import { useEffect } from 'react';
 export default function ArticleDetail() {
   const params = useParams();
   const slug = params.slug as string;
+  const { theme, toggleTheme } = useTheme();
 
   const { article, isLoading } = useArticle(slug);
 
@@ -63,16 +65,23 @@ export default function ArticleDetail() {
   }
 
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden" itemScope itemType="https://schema.org/Article">
+    <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden" itemScope itemType="https://schema.org/Article">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/">
-            <a className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors cursor-pointer mb-4">
+            <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
             </a>
           </Link>
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+            aria-label="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
         </div>
       </header>
 
@@ -93,13 +102,13 @@ export default function ArticleDetail() {
         {/* Article Header */}
         <div className="mb-8">
           <div className="flex items-center gap-4 mb-4">
-            <span className="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">
+            <span className="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-full">
               {article.category}
             </span>
             {article.publishedAt && (
               <time
                 dateTime={new Date(article.publishedAt).toISOString()}
-                className="text-sm text-gray-600"
+                className="text-sm text-gray-600 dark:text-gray-400"
                 itemProp="datePublished"
               >
                 {new Date(article.publishedAt).toLocaleDateString('en-US', {
@@ -111,11 +120,11 @@ export default function ArticleDetail() {
             )}
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-900 mb-4" itemProp="headline">
+          <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-900 dark:text-white mb-4" itemProp="headline">
             {article.title}
           </h1>
 
-          <p className="text-lg text-gray-600 leading-relaxed" itemProp="description">
+          <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed" itemProp="description">
             {article.excerpt || article.title}
           </p>
 
@@ -129,23 +138,23 @@ export default function ArticleDetail() {
 
         {/* Article Body */}
         <div
-          className="prose prose-lg max-w-none text-gray-700 mb-12"
+          className="prose prose-lg max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 dark:prose-invert mb-12"
           dangerouslySetInnerHTML={{ __html: article.content }}
           itemProp="articleBody"
         />
 
         {/* Divider */}
-        <div className="border-t border-gray-200 my-12" />
+        <div className="border-t border-gray-200 dark:border-gray-800 my-12" />
 
         {/* Article Meta */}
-        <div className="bg-gray-50 p-6 rounded-lg mb-12">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg mb-12">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 <strong>Category:</strong> {article.category}
               </p>
               {article.publishedAt && (
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-gray-600 dark:text-gray-400">
                   <strong>Published:</strong>{' '}
                   {new Date(article.publishedAt).toLocaleDateString('en-US', {
                     year: 'numeric',

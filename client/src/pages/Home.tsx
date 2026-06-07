@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
-import { Menu, X, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronRight, Moon, Sun } from 'lucide-react';
+import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
 import { useAllArticles, useAllCategories } from '@/lib/articles';
 import { useMetaTags } from '@/lib/meta';
@@ -11,6 +12,7 @@ import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
   const { articles, isLoading } = useAllArticles();
   const { categories } = useAllCategories();
   const featuredArticles = articles.filter((a) => a.featured).slice(0, 3);
@@ -31,15 +33,15 @@ export default function Home() {
   useSchema(orgSchema);
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">
+    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-x-hidden">
       {/* Header / Navigation */}
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
+      <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/">
               <a className="flex items-center space-x-2 cursor-pointer">
-                <div className="text-2xl font-serif font-bold text-gray-900">VELUCE</div>
+                <div className="text-2xl font-serif font-bold text-gray-900 dark:text-white">VELUCE</div>
                 <div className="hidden sm:block text-xs text-gray-500 font-light">Luxury Living Journal</div>
               </a>
             </Link>
@@ -48,11 +50,18 @@ export default function Home() {
             <nav className="hidden md:flex items-center space-x-8">
               {categories.map((cat) => (
                 <Link key={cat.slug} href={`/category/${cat.slug}`}>
-                  <a className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
+                  <a className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
                     {cat.name}
                   </a>
                 </Link>
               ))}
+              <button
+                onClick={toggleTheme}
+                className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                aria-label="Toggle theme"
+              >
+                {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+              </button>
             </nav>
 
             {/* Newsletter CTA */}
@@ -77,12 +86,22 @@ export default function Home() {
 
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
-            <div className="md:hidden pb-4 border-t border-gray-200">
+            <div className="md:hidden pb-4 border-t border-gray-200 dark:border-gray-800">
               <nav className="flex flex-col space-y-3 pt-4">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-sm font-medium text-gray-900 dark:text-white">Theme</span>
+                  <button
+                    onClick={toggleTheme}
+                    className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                    aria-label="Toggle theme"
+                  >
+                    {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+                  </button>
+                </div>
                 {categories.map((cat) => (
                   <Link key={cat.slug} href={`/category/${cat.slug}`}>
                     <a
-                      className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer"
+                      className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {cat.name}
@@ -102,12 +121,12 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+      <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 dark:text-white mb-4">
             Where Light Meets Design
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
             Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.
           </p>
           <Button 
@@ -125,9 +144,9 @@ export default function Home() {
       </section>
 
       {/* Featured Articles Grid */}
-      <section id="featured-articles" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
+      <section id="featured-articles" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mb-12">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 dark:text-white mb-12">
             Featured Articles
           </h2>
 
@@ -157,10 +176,10 @@ export default function Home() {
                     <p className="text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wider">
                       {article.category}
                     </p>
-                    <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 group-hover:text-gray-600 transition-colors">
+                    <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 dark:text-white group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
                       {article.title}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-600 line-clamp-2">
+                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 line-clamp-2">
                       {article.excerpt}
                     </p>
                   </div>
@@ -172,20 +191,20 @@ export default function Home() {
       </section>
 
       {/* Categories Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mb-12">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 dark:text-white mb-12">
             Explore by Category
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {categories.map((category: any) => (
               <Link key={category.slug} href={`/category/${category.slug}`}>
-                <a className="group block p-6 sm:p-8 bg-white rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all cursor-pointer">
-                  <h3 className="text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">
+                <a className="group block p-6 sm:p-8 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-500 hover:shadow-lg transition-all cursor-pointer">
+                  <h3 className="text-xl font-serif font-bold text-gray-900 dark:text-white mb-2 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
                     {category.name}
                   </h3>
-                  <p className="text-sm text-gray-600 flex items-center">
+                  <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center">
                     Explore articles <ChevronRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </p>
                 </a>
@@ -205,19 +224,27 @@ export default function Home() {
             Join thousands of design enthusiasts receiving curated articles on luxury home design, lighting, and smart home technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
-            />
-            <Button 
-              className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 whitespace-nowrap"
-              onClick={() => {
+            <form 
+              className="flex flex-col sm:flex-row gap-3 w-full"
+              onSubmit={(e) => {
+                e.preventDefault();
                 alert('Thank you for subscribing! You will receive our latest design insights soon.');
+                (e.target as HTMLFormElement).reset();
               }}
             >
-              Subscribe
-            </Button>
+              <input
+                type="email"
+                required
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-3 rounded-lg bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 border-none"
+              />
+              <Button 
+                type="submit"
+                className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 whitespace-nowrap font-semibold"
+              >
+                Subscribe
+              </Button>
+            </form>
           </div>
           <p className="text-xs sm:text-sm text-gray-400 mt-4">
             We respect your privacy. Unsubscribe at any time.

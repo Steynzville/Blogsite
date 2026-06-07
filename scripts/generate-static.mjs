@@ -8,6 +8,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = path.resolve(__dirname, '../content/articles');
 const PUBLIC_DIR = path.resolve(__dirname, '../client/public');
 
+// Configure marked for proper paragraph handling
+marked.setOptions({
+  breaks: false,
+  gfm: true,
+});
+
 async function loadArticles() {
   const articleFiles = await fs.readdir(ARTICLES_DIR);
   const articles = [];
@@ -18,9 +24,14 @@ async function loadArticles() {
       const fileContent = await fs.readFile(filePath, 'utf-8');
       const { data, content } = matter(fileContent);
 
+      // Ensure proper paragraph formatting with double line breaks
+      let processedContent = content.trim();
+      // Replace multiple line breaks with exactly two
+      processedContent = processedContent.replace(/\n\n+/g, '\n\n');
+
       articles.push({
         ...data,
-        content: await marked.parse(content),
+        content: await marked.parse(processedContent),
         slug: file.replace('.md', ''),
       });
     }

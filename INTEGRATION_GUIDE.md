@@ -7,7 +7,7 @@ This guide provides step-by-step instructions for configuring Formspree and Mail
 1. [Formspree Setup (Contact Form)](#formspree-setup)
 2. [MailerLite Setup (Newsletter)](#mailerlite-setup)
 3. [Affiliate Components](#affiliate-components)
-4. [Deployment to GitHub Pages](#deployment-to-netlify)
+4. [Deployment to GitHub Pages](#deployment-to-github-pages)
 5. [Testing](#testing)
 
 ---

@@ -101,38 +101,7 @@ export default function Privacy() {
           </p>
         </div>
 
-        {/* Newsletter CTA */}
-        <div className="mt-12 p-8 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
-          <h3 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mb-4">
-            Get Design Insights Delivered
-          </h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-6">
-            Subscribe to receive curated articles on luxury home design.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <form 
-              className="flex flex-col sm:flex-row gap-3 w-full"
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert('Thank you for subscribing! You will receive our latest design insights soon.');
-                (e.target as HTMLFormElement).reset();
-              }}
-            >
-              <input
-                type="email"
-                required
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
-              />
-              <button 
-                type="submit"
-                className="bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold whitespace-nowrap transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
+
       </article>
 
       {/* Footer */}

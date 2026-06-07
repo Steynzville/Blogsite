@@ -47,8 +47,8 @@ VELUCE has been converted from a database-backed application to a **fully static
 - **marked** - Markdown to HTML conversion
 
 ### Infrastructure
-- **Netlify** - Hosting and automated deployments
-- **Netlify Forms** - Serverless contact form handling
+- **GitHub Pages - Hosting and automated deployments
+- **Formspree - Serverless contact form handling
 - **GitHub** - Source control and CI/CD trigger
 
 ## Getting Started
@@ -96,11 +96,11 @@ pnpm build
 This command runs the static generation script followed by the Vite build. The final output is in the `dist/` directory.
 
 ### Deployment
-The site is configured for **Netlify**. Every push to the `main` branch triggers an automatic build and deployment.
+The site is configured for **GitHub Pages**. Every push to the `main` branch triggers an automatic build and deployment via GitHub Actions.
 
 - **No Database Required**: No MySQL or TiDB setup is needed for production.
 - **No Backend Server**: The site runs entirely as static files.
-- **Netlify Forms**: Contact form submissions are handled automatically by Netlify and can be forwarded to your email via the Netlify dashboard.
+- **Formspree**: Contact form submissions are handled by Formspree and forwarded to your specified email address.
 
 ## SEO & Metadata
 

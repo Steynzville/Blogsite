@@ -9,7 +9,7 @@ VELUCE has been successfully migrated from a database-backed React/Express/tRPC/
 2.  **Content Migration**: All 23 articles were extracted from the database and converted into Markdown files in `/content/articles/`.
 3.  **Static Generation**: Implemented a build-time script (`scripts/generate-static.mjs`) that converts Markdown to static JSON and generates a sitemap.
 4.  **Frontend Update**: Refactored the React application to fetch content from static JSON files instead of an API.
-5.  **Netlify Optimization**: Configured `netlify.toml` and implemented Netlify Forms for the contact page.
+5.  **GitHub Pages Optimization: Configured GitHub Actions for automated deployment and integrated Formspree for the contact page.
 6.  **Dark Mode**: Implemented a site-wide dark/light mode toggle.
 7.  **Visual Refinements**: Added a full-bleed hero image, redesigned category cards with thumbnails, and updated all article images to be unique and relevant.
 
@@ -19,7 +19,7 @@ VELUCE has been successfully migrated from a database-backed React/Express/tRPC/
 `Markdown Files (.md)` → `generate-static.mjs` → `Static JSON (.json)` → `React Frontend (Vite)`
 
 #### Deployment
-`GitHub Push` → `Netlify Build` → `Static Hosting`
+`GitHub Push` → `GitHub Actions Build` → `Static Hosting`
 
 ### Dependencies
 
@@ -45,7 +45,7 @@ VELUCE has been successfully migrated from a database-backed React/Express/tRPC/
 ### Deployment Verification
 - **Build Command**: `node scripts/generate-static.mjs && vite build`
 - **Output Directory**: `dist/`
-- **Netlify Compatibility**: The site is 100% compatible with Netlify's standard static hosting. No database or backend environment variables are required.
+- **GitHub Pages Compatibility: The site is 100% compatible with GitHub Pages standard static hosting. No database or backend environment variables are required.
 
 ### Future Maintenance
 - **New Articles**: Add a `.md` file to `/content/articles/`.

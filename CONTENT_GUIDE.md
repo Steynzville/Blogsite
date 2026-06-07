@@ -32,7 +32,7 @@ title: "My New Article Title"
 slug: "my-new-article-title"
 category: "Outdoor Lighting" # Must be one of the existing categories or a new one you define
 excerpt: "A short, engaging summary of your article for listings."
-heroImage: "/path/to/your/hero-image.jpg" # Path relative to the `client/public` directory
+heroImage: "/path/to/your/hero-image.jpg" # Path relative to the `public` directory
 featured: false # Set to true if you want this article to be featured on the homepage
 seoTitle: "SEO-Optimized Title for Search Engines | VELUCE"
 metaDescription: "A concise description for search engine results."
@@ -70,7 +70,7 @@ Read more about [Markdown syntax](https://www.markdownguide.org/basic-syntax/).
 console.log("Hello, world!");
 ```
 
-Remember to place any images referenced in `heroImage` or within the article content in the `client/public` directory or a subdirectory within it (e.g., `client/public/images/`).
+Remember to place any images referenced in `heroImage` or within the article content in the `public` directory or a subdirectory within it (e.g., `public/images/`).
 
 ### Required Frontmatter Fields:
 
@@ -88,7 +88,7 @@ Remember to place any images referenced in `heroImage` or within the article con
 
 ### Step 3: Commit to GitHub
 
-Once your Markdown file is created and includes the necessary frontmatter, commit it to your GitHub repository in the `content/articles/` directory. When you push your changes, Netlify will automatically detect the new file, trigger a build, and deploy the updated site with your new article.
+Once your Markdown file is created and includes the necessary frontmatter, commit it to your GitHub repository in the `content/articles/` directory. When you push your changes, GitHub Actions will automatically detect the new file, trigger a build, and deploy the updated site with your new article to GitHub Pages.
 
 ```bash
 git add content/articles/my-new-article-title.md
@@ -98,8 +98,8 @@ git push origin main
 
 ## Important Notes
 
-*   **Image Paths**: Ensure all image paths (e.g., in `heroImage` or `![alt text](/path/to/image.jpg)`) are relative to the `client/public` directory.
+*   **Image Paths**: Ensure all image paths (e.g., in `heroImage` or `![alt text](/path/to/image.jpg)`) are relative to the `public` directory.
 *   **Category Management**: If you introduce a new category, the static site generator will automatically pick it up and create a category page for it.
-*   **Build Process**: The `pnpm build` command (which Netlify runs) now includes a step to generate all static JSON files (articles, categories, sitemap) from your Markdown content before the Vite build process. This ensures your site is always up-to-date with your latest content.
+*   **Build Process**: The `pnpm build` command (which GitHub Actions runs) now includes a step to generate all static JSON files (articles, categories, sitemap) from your Markdown content before the Vite build process. This ensures your site is always up-to-date with your latest content.
 
 By following these steps, you can easily manage and publish content on your static VELUCE Blogsite.

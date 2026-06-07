@@ -170,16 +170,15 @@ export default function Home() {
           <OptimizedImage 
             src="/images/hero-luxury.jpg" 
             alt="Luxury home design with architectural lighting"
-            className="w-full h-full object-cover object-[center_60%]"
+            className="w-full h-full object-cover object-[center_30%]"
             priority={true}
           />
-          {/* Layered overlays for better text readability and luxury feel */}
-          <div className="absolute inset-0 bg-black/30"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/40"></div>
+          {/* Subtle dark gradient overlay to make text pop consistently across devices */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
         </div>
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-white mb-4 drop-shadow-lg tracking-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light text-white mb-4 drop-shadow-xl tracking-tight">
               Where Light Meets Design
             </h1>
             <p className="text-lg sm:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow-md font-light leading-relaxed">

@@ -11,6 +11,13 @@
     "format": "prettier --write .",
     "test": "vitest run"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "@tailwindcss/oxide"
+    ]
+  },
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@hookform/resolvers": "^5.2.2",

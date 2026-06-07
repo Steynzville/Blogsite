@@ -9,7 +9,14 @@ import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 
-
+// Helper to get correct image URL for GitHub Pages
+const getImageUrl = (path: string) => {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  return `${baseUrl}${cleanPath}`;
+};
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,11 +28,11 @@ export default function Home() {
   useMetaTags({
     title: 'VELUCE - Luxury Living Journal | Home & Garden Design',
     description: 'Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.',
-    url: typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space',
+    url: typeof window !== 'undefined' ? window.location.origin : 'https://steynzville.github.io/Blogsite',
     type: 'website',
   });
 
-  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space';
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://steynzville.github.io/Blogsite';
 
   const homepageSchema = getHomepageSchema(baseUrl);
   const orgSchema = getOrganizationSchema(baseUrl);
@@ -140,7 +147,7 @@ export default function Home() {
       <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/images/hero-luxury.jpg" 
+            src={getImageUrl("/images/hero-luxury.jpg")} 
             alt="Luxury home design with architectural lighting"
             className="w-full h-full object-cover"
           />
@@ -181,7 +188,7 @@ export default function Home() {
                   <div className="overflow-hidden rounded-lg bg-gray-100 mb-4 h-48 sm:h-56 md:h-64">
                     {article.heroImage && (
                       <img
-                        src={article.heroImage}
+                        src={getImageUrl(article.heroImage)}
                         alt={article.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
@@ -223,7 +230,7 @@ export default function Home() {
                 'smart-home': '/images/categories/smart-home.jpg',
                 'landscape-design': '/images/categories/landscape-design.jpg',
               };
-              const imageUrl = categoryImages[category.slug] || '/images/categories/outdoor-lighting.jpg';
+              const imageUrl = getImageUrl(categoryImages[category.slug] || '/images/categories/outdoor-lighting.jpg');
               
               return (
                 <Link key={category.slug} href={`/category/${category.slug}`}>
@@ -370,7 +377,7 @@ function NewsletterSection() {
               className="mt-1 w-4 h-4 rounded border-gray-400 text-amber-500 focus:ring-amber-400"
             />
             <span>
-              I agree to receive emails and have read the <a href="/privacy" className="text-amber-400 hover:text-amber-300 underline">privacy policy</a>
+              I agree to receive emails and have read the <Link href="/privacy" className="text-amber-400 hover:text-amber-300 underline">privacy policy</Link>
             </span>
           </label>
         </form>

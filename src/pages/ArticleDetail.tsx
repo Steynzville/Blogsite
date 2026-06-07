@@ -7,7 +7,16 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getArticleSchema } from '@/lib/schema';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+
+// Helper to get correct image URL for GitHub Pages
+const getImageUrl = (path: string) => {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  return `${baseUrl}${cleanPath}`;
+};
 
 export default function ArticleDetail() {
   const params = useParams();
@@ -16,6 +25,8 @@ export default function ArticleDetail() {
   const [shareSuccess, setShareSuccess] = useState(false);
 
   const { article, isLoading } = useArticle(slug);
+
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://steynzville.github.io/Blogsite';
 
   const handleShare = async () => {
     if (!article) return;
@@ -48,8 +59,6 @@ export default function ArticleDetail() {
     }
   };
 
-  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space';
-
   useMetaTags({
     title: article ? `${article.title} | VELUCE - Luxury Living Journal` : 'Article Not Found | VELUCE',
     description: article ? (article.excerpt || article.title) : 'The article you are looking for does not exist.',
@@ -58,14 +67,14 @@ export default function ArticleDetail() {
     author: article ? 'VELUCE' : undefined,
     publishedDate: article?.publishedAt ? new Date(article.publishedAt).toISOString() : undefined,
     modifiedDate: article?.updatedAt ? new Date(article.updatedAt).toISOString() : undefined,
-    image: article?.heroImage || undefined,
+    image: article ? getImageUrl(article.heroImage) : undefined,
   });
 
-  const schema = article ? getArticleSchema({
+  const schema = article ? getArticleSchema(baseUrl, {
     ...article,
     excerpt: article.excerpt || article.title,
-    heroImage: article.heroImage || undefined,
-  } as any, baseUrl) : null;
+    heroImage: article.heroImage ? getImageUrl(article.heroImage) : undefined,
+  } as any) : null;
 
   useSchema(schema || {});
 
@@ -80,7 +89,6 @@ export default function ArticleDetail() {
   }
 
   if (!article) {
-
     return (
       <div className="min-h-screen bg-white flex items-center justify-center px-4">
         <div className="text-center">
@@ -124,7 +132,7 @@ export default function ArticleDetail() {
         {article.heroImage && (
           <div className="mb-8 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden">
             <img
-              src={article.heroImage}
+              src={getImageUrl(article.heroImage)}
               alt={article.title}
               className="w-full h-96 object-cover"
               itemProp="image"

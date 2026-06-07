@@ -1,30 +1,41 @@
 import { Link } from 'wouter';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Moon, Sun } from 'lucide-react';
+import Footer from '@/components/Footer';
+import { useTheme } from '@/contexts/ThemeContext';
 
 export default function Terms() {
+  const { theme, toggleTheme } = useTheme();
+
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/">
-            <a className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors cursor-pointer mb-4">
+            <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
             </a>
           </Link>
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+            aria-label="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
         </div>
       </header>
 
       {/* Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-900 mb-8">
+        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-900 dark:text-white mb-8">
           Terms of Use
         </h1>
 
-        <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
+        <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 space-y-6">
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               1. Acceptance of Terms
             </h2>
             <p>
@@ -33,7 +44,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               2. Use License
             </h2>
             <p>
@@ -51,7 +62,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               3. Disclaimer
             </h2>
             <p>
@@ -63,7 +74,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               4. Limitations
             </h2>
             <p>
@@ -72,7 +83,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               5. Accuracy of Materials
             </h2>
             <p>
@@ -81,7 +92,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               6. Links
             </h2>
             <p>
@@ -90,7 +101,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               7. Modifications
             </h2>
             <p>
@@ -99,7 +110,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               8. Governing Law
             </h2>
             <p>
@@ -108,7 +119,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mt-8 mb-4">
+            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
               9. Contact Information
             </h2>
             <p>
@@ -116,8 +127,8 @@ export default function Terms() {
             </p>
           </section>
 
-          <div className="mt-12 p-6 bg-gray-50 rounded-lg border border-gray-200">
-            <p className="text-sm text-gray-600">
+          <div className="mt-12 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               <strong>Last Updated:</strong> June 2026
             </p>
           </div>
@@ -125,43 +136,7 @@ export default function Terms() {
       </article>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8 mt-12">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div>
-              <h4 className="text-white font-serif font-bold">VELUCE</h4>
-              <p className="text-sm text-gray-400">Luxury Living Journal</p>
-            </div>
-            <div className="flex gap-6 text-sm">
-              <Link href="/about">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  About
-                </a>
-              </Link>
-              <Link href="/contact">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Contact
-                </a>
-              </Link>
-              <Link href="/privacy">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Privacy
-                </a>
-              </Link>
-              <Link href="/terms">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Terms
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8">
-            <p className="text-sm text-gray-400 text-center">
-              © {new Date().getFullYear()} VELUCE. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

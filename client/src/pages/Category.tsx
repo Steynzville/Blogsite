@@ -2,6 +2,7 @@ import { useParams, Link } from 'wouter';
 import { ArrowLeft, ChevronRight, Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useArticlesByCategory, useAllCategories } from '@/lib/articles';
+import Footer from '@/components/Footer';
 
 
 
@@ -173,48 +174,7 @@ export default function Category() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div>
-              <h4 className="text-white font-serif font-bold">VELUCE</h4>
-              <p className="text-sm text-gray-400">Luxury Living Journal</p>
-            </div>
-            <div className="flex gap-6 text-sm">
-              <Link href="/about">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  About
-                </a>
-              </Link>
-              <Link href="/contact">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Contact
-                </a>
-              </Link>
-              <Link href="/privacy">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Privacy
-                </a>
-              </Link>
-              <Link href="/terms">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Terms
-                </a>
-              </Link>
-              <Link href="/affiliate">
-                <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                  Affiliate
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8">
-            <p className="text-sm text-gray-400 text-center">
-              © {new Date().getFullYear()} VELUCE. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

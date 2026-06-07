@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = path.resolve(__dirname, '../content/articles');
-const PUBLIC_DIR = path.resolve(__dirname, '../client/public');
+const PUBLIC_DIR = path.resolve(__dirname, '../public');
 
 // Configure marked for proper paragraph handling
 marked.setOptions({
@@ -90,7 +90,7 @@ async function generateCategoryPages(articles) {
 }
 
 async function generateSitemap(articles) {
-  const baseUrl = 'https://veluce.manus.space';
+  const baseUrl = 'https://steynzville.github.io/Blogsite';
   let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   sitemap += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 

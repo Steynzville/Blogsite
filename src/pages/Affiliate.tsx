@@ -127,14 +127,7 @@ export default function Affiliate() {
             </p>
           </section>
 
-          <div className="mt-12 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              <strong>Last Updated:</strong> June 2026
-            </p>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-              Questions? Contact us at steyn.enslin@heatrecovery.co.za
-            </p>
-          </div>
+
         </div>
       </article>
 

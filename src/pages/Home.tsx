@@ -43,19 +43,7 @@ export default function Home() {
   useSchema(homepageSchema);
   useSchema(orgSchema);
 
-  // Preload critical hero image
-  useEffect(() => {
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.as = 'image';
-    link.href = getImageUrl('/images/optimized/hero-luxury-lg.webp');
-    link.imageSrcset = `${getImageUrl('/images/optimized/hero-luxury-sm.webp')} 800w, ${getImageUrl('/images/optimized/hero-luxury-md.webp')} 1200w, ${getImageUrl('/images/optimized/hero-luxury-lg.webp')} 1920w`;
-    link.imageSizes = "(max-width: 800px) 100vw, (max-width: 1200px) 50vw, 33vw";
-    document.head.appendChild(link);
-    return () => {
-      document.head.removeChild(link);
-    };
-  }, []);
+
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-x-hidden">
@@ -167,7 +155,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden bg-gray-900">
-        <div className="absolute inset-0 aspect-video">
+        <div className="absolute inset-0">
           <OptimizedImage 
             src="/images/hero-luxury.jpg" 
             alt="Luxury home design with architectural lighting"

@@ -110,14 +110,22 @@ export default function Home() {
           <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.
           </p>
-          <Button className="bg-gray-900 text-white hover:bg-gray-800 px-8 py-6 text-base">
+          <Button 
+            className="bg-gray-900 text-white hover:bg-gray-800 px-8 py-6 text-base"
+            onClick={() => {
+              const featuredSection = document.getElementById('featured-articles');
+              if (featuredSection) {
+                featuredSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
             Explore the Collection <ChevronRight className="ml-2" size={20} />
           </Button>
         </div>
       </section>
 
       {/* Featured Articles Grid */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
+      <section id="featured-articles" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mb-12">
             Featured Articles
@@ -202,7 +210,12 @@ export default function Home() {
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
             />
-            <Button className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 whitespace-nowrap">
+            <Button 
+              className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 whitespace-nowrap"
+              onClick={() => {
+                alert('Thank you for subscribing! You will receive our latest design insights soon.');
+              }}
+            >
               Subscribe
             </Button>
           </div>

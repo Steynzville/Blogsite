@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { Link } from 'wouter';
 import { Menu, X, ChevronRight, Moon, Sun, CheckCircle, AlertCircle } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -12,6 +12,7 @@ import { OptimizedImage } from '@/components/OptimizedImage';
 import AboutSection from '@/components/AboutSection';
 
 const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
+const NewsletterSection = lazy(() => Promise.resolve({ default: InternalNewsletterSection }));
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -293,7 +294,7 @@ export default function Home() {
 }
 
 // MailerLite Newsletter Component
-function NewsletterSection() {
+function InternalNewsletterSection() {
   const [email, setEmail] = useState('');
   const [gdprConsent, setGdprConsent] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);

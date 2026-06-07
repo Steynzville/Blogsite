@@ -134,6 +134,11 @@
 }
 
 @layer components {
+  /* Ensure paragraphs in article content have proper spacing */
+  .prose p {
+    @apply mb-6;
+  }
+
   /**
    * Custom container utility that centers content and adds responsive padding.
    *

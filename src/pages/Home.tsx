@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'wouter';
 import { Menu, X, ChevronRight, Moon, Sun, CheckCircle, AlertCircle } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -8,6 +8,7 @@ import { useAllArticles, useAllCategories } from '@/lib/articles';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
+import { OptimizedImage } from '@/components/OptimizedImage';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -39,6 +40,20 @@ export default function Home() {
 
   useSchema(homepageSchema);
   useSchema(orgSchema);
+
+  // Preload critical hero image
+  useEffect(() => {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'image';
+    link.href = getImageUrl('/images/optimized/hero-luxury-lg.webp');
+    link.imageSrcset = `${getImageUrl('/images/optimized/hero-luxury-sm.webp')} 800w, ${getImageUrl('/images/optimized/hero-luxury-md.webp')} 1200w, ${getImageUrl('/images/optimized/hero-luxury-lg.webp')} 1920w`;
+    link.imageSizes = "(max-width: 800px) 100vw, (max-width: 1200px) 50vw, 33vw";
+    document.head.appendChild(link);
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-x-hidden">
@@ -146,10 +161,11 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src={getImageUrl("/images/hero-luxury.jpg")} 
+          <OptimizedImage 
+            src="/images/hero-luxury.jpg" 
             alt="Luxury home design with architectural lighting"
             className="w-full h-full object-cover"
+            priority={true}
           />
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
@@ -187,8 +203,8 @@ export default function Home() {
                 <a className="group cursor-pointer">
                   <div className="overflow-hidden rounded-lg bg-gray-100 mb-4 h-48 sm:h-56 md:h-64">
                     {article.heroImage && (
-                      <img
-                        src={getImageUrl(article.heroImage)}
+                      <OptimizedImage
+                        src={article.heroImage}
                         alt={article.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
@@ -230,13 +246,13 @@ export default function Home() {
                 'smart-home': '/images/categories/smart-home.jpg',
                 'landscape-design': '/images/categories/landscape-design.jpg',
               };
-              const imageUrl = getImageUrl(categoryImages[category.slug] || '/images/categories/outdoor-lighting.jpg');
+              const imageUrl = categoryImages[category.slug] || '/images/categories/outdoor-lighting.jpg';
               
               return (
                 <Link key={category.slug} href={`/category/${category.slug}`}>
                   <a className="group block overflow-hidden rounded-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 cursor-pointer">
                     <div className="relative h-48 overflow-hidden bg-gray-200 dark:bg-gray-800">
-                      <img 
+                      <OptimizedImage 
                         src={imageUrl}
                         alt={category.name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
@@ -334,8 +350,8 @@ function NewsletterSection() {
           <div className="mb-6 p-4 bg-green-900/30 border border-green-600 rounded-lg flex items-start gap-3 max-w-md mx-auto">
             <CheckCircle size={20} className="text-green-400 flex-shrink-0 mt-0.5" />
             <div className="text-left">
-              <p className="font-semibold text-green-100">Subscribed successfully!</p>
-              <p className="text-sm text-green-200">Check your email for a confirmation message.</p>
+              <p className="font-semibold text-green-400">Successfully subscribed!</p>
+              <p className="text-sm text-gray-300">Welcome to VELUCE. You'll receive our next update soon.</p>
             </div>
           </div>
         )}
@@ -343,48 +359,43 @@ function NewsletterSection() {
         {submitError && (
           <div className="mb-6 p-4 bg-red-900/30 border border-red-600 rounded-lg flex items-start gap-3 max-w-md mx-auto">
             <AlertCircle size={20} className="text-red-400 flex-shrink-0 mt-0.5" />
-            <div className="text-left">
-              <p className="font-semibold text-red-100">Error</p>
-              <p className="text-sm text-red-200">{submitError}</p>
-            </div>
+            <p className="text-left text-sm text-red-200">{submitError}</p>
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto">
-          <div className="flex flex-col sm:flex-row gap-3">
+        <form onSubmit={handleSubmit} className="max-w-md mx-auto">
+          <div className="flex flex-col sm:flex-row gap-3 mb-4">
             <input
               type="email"
+              required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              required
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-400 border-none"
+              className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
             />
             <Button 
               type="submit"
               disabled={isSubmitting}
-              className="bg-amber-500 text-white hover:bg-amber-600 disabled:opacity-50 disabled:cursor-not-allowed px-6 py-3 whitespace-nowrap font-semibold transition-colors"
+              className="bg-white text-gray-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors disabled:opacity-50"
             >
               {isSubmitting ? 'Subscribing...' : 'Subscribe'}
             </Button>
           </div>
-
-          <label className="flex items-start gap-2 text-sm text-gray-300 cursor-pointer">
+          
+          <div className="flex items-start gap-3 text-left">
             <input
               type="checkbox"
+              id="gdpr"
+              required
               checked={gdprConsent}
               onChange={(e) => setGdprConsent(e.target.checked)}
-              className="mt-1 w-4 h-4 rounded border-gray-400 text-amber-500 focus:ring-amber-400"
+              className="mt-1 rounded border-gray-600 bg-gray-800 text-gray-600 focus:ring-gray-400"
             />
-            <span>
-              I agree to receive emails and have read the <Link href="/privacy" className="text-amber-400 hover:text-amber-300 underline">privacy policy</Link>
-            </span>
-          </label>
+            <label htmlFor="gdpr" className="text-xs text-gray-400 leading-relaxed">
+              I agree to receive the VELUCE newsletter and accept the privacy policy. You can unsubscribe at any time.
+            </label>
+          </div>
         </form>
-
-        <p className="text-xs sm:text-sm text-gray-400 mt-4">
-          We respect your privacy. Unsubscribe at any time.
-        </p>
       </div>
     </section>
   );

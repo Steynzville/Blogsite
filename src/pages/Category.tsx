@@ -3,15 +3,7 @@ import { ArrowLeft, ChevronRight, Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useArticlesByCategory, useAllCategories } from '@/lib/articles';
 import Footer from '@/components/Footer';
-
-// Helper to get correct image URL for GitHub Pages
-const getImageUrl = (path: string) => {
-  if (!path) return '';
-  if (path.startsWith('http')) return path;
-  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
-  const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  return `${baseUrl}${cleanPath}`;
-};
+import { OptimizedImage } from '@/components/OptimizedImage';
 
 export default function Category() {
   const params = useParams();
@@ -85,8 +77,8 @@ export default function Category() {
                   <a className="group cursor-pointer">
                     <div className="overflow-hidden rounded-lg bg-gray-100 mb-4 h-48 sm:h-56 md:h-64">
                       {article.heroImage && (
-                        <img
-                          src={getImageUrl(article.heroImage)}
+                        <OptimizedImage
+                          src={article.heroImage}
                           alt={article.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />

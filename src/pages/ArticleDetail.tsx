@@ -7,7 +7,8 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getArticleSchema } from '@/lib/schema';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { OptimizedImage } from '@/components/OptimizedImage';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -78,6 +79,25 @@ export default function ArticleDetail() {
 
   useSchema(schema || {});
 
+  // Preload hero image
+  useEffect(() => {
+    if (article?.heroImage) {
+      const fileName = article.heroImage.split('/').pop()?.split('.').shift();
+      if (fileName) {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = getImageUrl(`/images/optimized/${fileName}-lg.webp`);
+        link.imageSrcset = `${getImageUrl(`/images/optimized/${fileName}-sm.webp`)} 800w, ${getImageUrl(`/images/optimized/${fileName}-md.webp`)} 1200w, ${getImageUrl(`/images/optimized/${fileName}-lg.webp`)} 1920w`;
+        link.imageSizes = "(max-width: 800px) 100vw, (max-width: 1200px) 50vw, 33vw";
+        document.head.appendChild(link);
+        return () => {
+          document.head.removeChild(link);
+        };
+      }
+    }
+  }, [article]);
+
   if (isLoading) {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center px-4">
@@ -131,11 +151,12 @@ export default function ArticleDetail() {
         {/* Hero Image */}
         {article.heroImage && (
           <div className="mb-8 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden">
-            <img
-              src={getImageUrl(article.heroImage)}
+            <OptimizedImage
+              src={article.heroImage}
               alt={article.title}
               className="w-full h-96 object-cover"
               itemProp="image"
+              priority={true}
             />
           </div>
         )}

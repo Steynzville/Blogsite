@@ -211,8 +211,8 @@ export default function Home() {
             ) : null}
             {featuredArticles.map((article: any) => (
               <Link key={article.slug} href={`/article/${article.slug}`}>
-                <a className="group cursor-pointer">
-                  <div className="overflow-hidden rounded-lg bg-gray-100 mb-4 h-48 sm:h-56 md:h-64">
+                <a className="group cursor-pointer block h-full">
+                  <div className="overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 mb-4 h-48 sm:h-56 md:h-64 shadow-sm group-hover:shadow-lg transition-shadow duration-300">
                     {article.heroImage && (
                       <OptimizedImage
                         src={article.heroImage}
@@ -221,14 +221,14 @@ export default function Home() {
                       />
                     )}
                   </div>
-                  <div className="space-y-2">
-                    <p className="text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wider">
+                  <div className="space-y-3">
+                    <p className="text-xs sm:text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wider">
                       {article.category}
                     </p>
-                    <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 dark:text-white group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight">
                       {article.title}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 line-clamp-2">
+                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 line-clamp-2 leading-relaxed">
                       {article.excerpt}
                     </p>
                   </div>

@@ -167,12 +167,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
         <div className="absolute inset-0">
-            <OptimizedImage 
-              src="/images/hero-luxury.jpg" 
-              alt="Luxury home design with architectural lighting"
-              className="w-full h-full object-cover object-[center_25%]"
-              priority={true}
-            />
+          <OptimizedImage 
+            src="/images/hero-luxury.jpg" 
+            alt="Luxury home design with architectural lighting"
+            className="w-full h-full object-cover object-[center_25%]"
+            priority={true}
+          />
           {/* Subtle dark gradient overlay to make text pop consistently across devices */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
         </div>

@@ -38,7 +38,8 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const dirPath = pathParts.join('/');
   
   // Construct optimized paths
-  const optimizedDir = `${baseUrl}${dirPath}/optimized`;
+  // All optimized images are stored in /images/optimized regardless of their source folder
+  const optimizedDir = `${baseUrl}/images/optimized`;
   
   const srcSet = [
     `${optimizedDir}/${fileName}-sm.webp 800w`,
@@ -46,7 +47,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     `${optimizedDir}/${fileName}-lg.webp 1920w`,
   ].join(', ');
 
-  const fallbackSrc = `${optimizedDir}/${fileName}.webp`;
+  const fallbackSrc = `${baseUrl}${src}`;
 
   return (
     <picture>

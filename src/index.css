@@ -179,55 +179,27 @@
 }
 
 /* ============================================================
-   MailerLite Embedded Form Overrides
-   Target: #newsletter-section .ml-embedded
-   Goal: Match the existing dark newsletter card design
-   (bg-gradient-to-r from-gray-900 to-gray-800, white text,
-    white button, gray-400 placeholder, rounded-lg inputs)
+   MailerLite Embedded Form — Minimal Colour Overrides Only
+   We do NOT touch display, visibility, height, width, padding
+   or background on any container — those are left to MailerLite
+   so the form renders correctly. Only the input field colours
+   and the submit button colours are overridden here.
    ============================================================ */
 
-/* Strip the default MailerLite card wrapper so our section
-   background shows through cleanly */
-#newsletter-section .ml-form-embedContainer,
-#newsletter-section .ml-form-embedWrapper,
-#newsletter-section .ml-form-embedBody {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 auto !important;
-  max-width: 28rem !important; /* matches max-w-md */
-}
-
-/* Hide the MailerLite header/logo block — we have our own h2 */
-#newsletter-section .ml-form-embedContent h4,
-#newsletter-section .ml-form-embedContent p,
-#newsletter-section .ml-form-embedContent .ml-form-embedHeader {
-  display: none !important;
-}
-
-/* Email input — matches existing:
-   flex-1 px-4 py-3 rounded-lg bg-white/10 border border-gray-600
-   text-white placeholder-gray-400 */
+/* --- Email input: dark-transparent background to sit on the
+      dark gradient section, white text, gray border ---------- */
 #newsletter-section .ml-block-input input[type="email"],
 #newsletter-section .ml-block-input input[type="text"],
 #newsletter-section .ml-form-fieldRow input {
-  width: 100% !important;
-  padding: 0.75rem 1rem !important;
-  border-radius: 0.5rem !important;
-  background: rgba(255, 255, 255, 0.10) !important;
-  border: 1px solid #4b5563 !important; /* gray-600 */
+  background-color: rgba(255, 255, 255, 0.10) !important;
+  border-color: #4b5563 !important;
   color: #ffffff !important;
-  font-size: 1rem !important;
-  outline: none !important;
-  box-shadow: none !important;
-  margin-bottom: 0.75rem !important;
 }
 
 #newsletter-section .ml-block-input input[type="email"]::placeholder,
 #newsletter-section .ml-block-input input[type="text"]::placeholder,
 #newsletter-section .ml-form-fieldRow input::placeholder {
-  color: #9ca3af !important; /* gray-400 */
+  color: #9ca3af !important;
 }
 
 #newsletter-section .ml-block-input input[type="email"]:focus,
@@ -237,95 +209,25 @@
   box-shadow: 0 0 0 2px rgba(156, 163, 175, 0.35) !important;
 }
 
-/* Subscribe button — matches existing:
-   bg-white text-gray-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold */
+/* --- Submit button: white background, dark text ------------ */
 #newsletter-section .ml-button,
 #newsletter-section .ml-form-embedSubmit button,
 #newsletter-section button[type="submit"] {
-  width: 100% !important;
-  background: #ffffff !important;
-  color: #111827 !important; /* gray-900 */
-  border: none !important;
-  border-radius: 0.5rem !important;
-  padding: 0.75rem 2rem !important;
-  font-size: 1rem !important;
+  background-color: #ffffff !important;
+  color: #111827 !important;
   font-weight: 600 !important;
-  cursor: pointer !important;
-  transition: background-color 0.15s ease !important;
-  box-shadow: none !important;
-  margin-top: 0 !important;
 }
 
 #newsletter-section .ml-button:hover,
 #newsletter-section .ml-form-embedSubmit button:hover,
 #newsletter-section button[type="submit"]:hover {
-  background: #f3f4f6 !important; /* gray-100 */
+  background-color: #f3f4f6 !important;
 }
 
-/* GDPR / consent checkbox row */
-#newsletter-section .ml-form-checkboxRow,
-#newsletter-section .ml-form-gdprRow {
-  display: flex !important;
-  align-items: flex-start !important;
-  gap: 0.75rem !important;
-  text-align: left !important;
-  margin-top: 1rem !important;
-}
-
-#newsletter-section .ml-form-checkboxRow input[type="checkbox"],
-#newsletter-section .ml-form-gdprRow input[type="checkbox"] {
-  margin-top: 0.125rem !important;
-  width: 1rem !important;
-  height: 1rem !important;
-  flex-shrink: 0 !important;
-  border-radius: 0.25rem !important;
-  border: 1px solid #4b5563 !important;
-  background: #1f2937 !important; /* gray-800 */
-  accent-color: #9ca3af !important;
-}
-
+/* --- GDPR label text: light gray to be readable on dark bg - */
 #newsletter-section .ml-form-checkboxRow label,
 #newsletter-section .ml-form-gdprRow label,
 #newsletter-section .ml-form-checkboxRow p,
 #newsletter-section .ml-form-gdprRow p {
-  font-size: 0.75rem !important; /* text-xs */
-  color: #9ca3af !important;    /* gray-400 */
-  line-height: 1.5 !important;
-  margin: 0 !important;
-}
-
-/* Success message — matches existing green success block */
-#newsletter-section .ml-form-successContent,
-#newsletter-section .ml-subscribe-success {
-  background: rgba(6, 78, 59, 0.30) !important; /* green-900/30 */
-  border: 1px solid #16a34a !important;          /* green-600 */
-  border-radius: 0.5rem !important;
-  padding: 1rem !important;
-  color: #4ade80 !important;                     /* green-400 */
-  font-size: 0.875rem !important;
-  text-align: left !important;
-  max-width: 28rem !important;
-  margin: 0 auto !important;
-}
-
-/* Error message — matches existing red error block */
-#newsletter-section .ml-form-errorMessages,
-#newsletter-section .ml-error {
-  background: rgba(127, 29, 29, 0.30) !important; /* red-900/30 */
-  border: 1px solid #dc2626 !important;            /* red-600 */
-  border-radius: 0.5rem !important;
-  padding: 0.75rem 1rem !important;
-  color: #fca5a5 !important;                       /* red-200 */
-  font-size: 0.875rem !important;
-  text-align: left !important;
-  margin-bottom: 1rem !important;
-}
-
-/* Remove any extra spacing MailerLite injects */
-#newsletter-section .ml-form-embedContainer .ml-form-align-center {
-  text-align: center !important;
-}
-
-#newsletter-section .ml-form-embedContainer * {
-  box-sizing: border-box !important;
+  color: #9ca3af !important;
 }

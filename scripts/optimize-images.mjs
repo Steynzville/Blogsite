@@ -34,7 +34,7 @@ async function optimizeImage(filePath) {
     try {
       await sharp(filePath)
         .resize(size.width, null, { withoutEnlargement: true })
-        .webp({ quality: 80 })
+        .webp({ quality: 65, effort: 6 })
         .toFile(outputPath);
       
       const stats = fs.statSync(outputPath);

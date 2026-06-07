@@ -9,6 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 // Lazy load non-critical routes
 const ArticleDetail = lazy(() => import("./pages/ArticleDetail"));
+const Articles = lazy(() => import("./pages/Articles"));
 const Category = lazy(() => import("./pages/Category"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -41,6 +42,7 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/article/:slug" component={ArticleDetail} />
+          <Route path="/articles" component={Articles} />
           <Route path="/category/:slug" component={Category} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />

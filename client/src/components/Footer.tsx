@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h4 className="text-white font-serif font-bold mb-4">VELUCE</h4>
             <p className="text-sm text-gray-400">
@@ -17,21 +17,7 @@ export default function Footer() {
           <div>
             <h5 className="text-white font-semibold mb-4 text-sm">Categories</h5>
             <ul className="space-y-2 text-sm">
-              {categories.slice(0, 3).map((cat: any) => (
-                <li key={cat.slug}>
-                  <Link href={`/category/${cat.slug}`}>
-                    <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-                      {cat.name}
-                    </a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h5 className="text-white font-semibold mb-4 text-sm">More</h5>
-            <ul className="space-y-2 text-sm">
-              {categories.slice(3).map((cat: any) => (
+              {categories.map((cat: any) => (
                 <li key={cat.slug}>
                   <Link href={`/category/${cat.slug}`}>
                     <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">

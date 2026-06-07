@@ -93,10 +93,12 @@ export default function Contact() {
           <form 
             name="contact" 
             method="POST" 
+            action="/success"
             data-netlify="true"
             className="space-y-6"
           >
             <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="_redirect" value="/" />
             <div>
               <label htmlFor="name" className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
                 Name

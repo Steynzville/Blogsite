@@ -9,6 +9,7 @@ import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
+import { SearchBar } from '@/components/SearchBar';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -86,6 +87,11 @@ export default function Home() {
                 {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
               </button>
             </nav>
+
+            {/* Search Bar */}
+            <div className="hidden lg:block flex-1 max-w-xs mx-8">
+              <SearchBar articles={articles} />
+            </div>
 
             {/* Newsletter CTA */}
             <div className="hidden md:block">

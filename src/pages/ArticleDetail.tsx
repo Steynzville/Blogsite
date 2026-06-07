@@ -2,13 +2,14 @@ import { useParams, Link } from 'wouter';
 import { ArrowLeft, Share2, Moon, Sun, Check } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
-import { useArticle } from '@/lib/articles';
+import { useArticle, useAllArticles } from '@/lib/articles';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getArticleSchema } from '@/lib/schema';
 import { useState, useEffect } from 'react';
 import { OptimizedImage } from '@/components/OptimizedImage';
+import { RelatedArticles } from '@/components/RelatedArticles';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -26,6 +27,7 @@ export default function ArticleDetail() {
   const [shareSuccess, setShareSuccess] = useState(false);
 
   const { article, isLoading } = useArticle(slug);
+  const { articles: allArticles } = useAllArticles();
 
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://steynzville.github.io/Blogsite';
 
@@ -261,6 +263,11 @@ export default function ArticleDetail() {
           </p>
         </div>
       </article>
+
+      {/* Related Articles */}
+      {article && allArticles.length > 1 && (
+        <RelatedArticles currentArticle={article} allArticles={allArticles} />
+      )}
 
       {/* Footer */}
       <Footer />

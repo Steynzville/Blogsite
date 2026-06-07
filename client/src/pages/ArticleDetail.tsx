@@ -1,5 +1,5 @@
 import { useParams, Link } from 'wouter';
-import { ArrowLeft, Share2, Moon, Sun } from 'lucide-react';
+import { ArrowLeft, Share2, Moon, Sun, Check } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
 import { useArticle } from '@/lib/articles';
@@ -7,14 +7,46 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getArticleSchema } from '@/lib/schema';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function ArticleDetail() {
   const params = useParams();
   const slug = params.slug as string;
   const { theme, toggleTheme } = useTheme();
+  const [shareSuccess, setShareSuccess] = useState(false);
 
   const { article, isLoading } = useArticle(slug);
+
+  const handleShare = async () => {
+    if (!article) return;
+
+    const url = typeof window !== 'undefined' ? window.location.href : `${baseUrl}/article/${article.slug}`;
+    const title = article.title;
+    const text = article.excerpt || article.title;
+
+    // Try Web Share API first (works on mobile and some desktop browsers)
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title,
+          text,
+          url,
+        });
+        return;
+      } catch (error) {
+        // User cancelled or error occurred, fall back to clipboard
+      }
+    }
+
+    // Fallback: Copy to clipboard
+    try {
+      await navigator.clipboard.writeText(`${title}\n${url}`);
+      setShareSuccess(true);
+      setTimeout(() => setShareSuccess(false), 2000);
+    } catch (error) {
+      console.error('Failed to copy to clipboard:', error);
+    }
+  };
 
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space';
 
@@ -129,11 +161,23 @@ export default function ArticleDetail() {
             {article.excerpt || article.title}
           </p>
 
-          <div className="mt-6 flex gap-4">
-            <Button variant="outline" size="sm">
-              <Share2 size={16} className="mr-2" />
-              Share
+          <div className="mt-6 flex gap-4 items-center">
+            <Button variant="outline" size="sm" onClick={handleShare}>
+              {shareSuccess ? (
+                <>
+                  <Check size={16} className="mr-2" />
+                  Copied!
+                </>
+              ) : (
+                <>
+                  <Share2 size={16} className="mr-2" />
+                  Share
+                </>
+              )}
             </Button>
+            {shareSuccess && (
+              <span className="text-sm text-gray-600 dark:text-gray-400">Link copied to clipboard</span>
+            )}
           </div>
         </div>
 

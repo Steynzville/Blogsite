@@ -166,13 +166,15 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
-        <div className="absolute inset-0">
+      <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden bg-gray-900">
+        <div className="absolute inset-0 aspect-video">
           <OptimizedImage 
             src="/images/hero-luxury.jpg" 
             alt="Luxury home design with architectural lighting"
             className="w-full h-full object-cover object-[center_25%]"
             priority={true}
+            width={1920}
+            height={1080}
           />
           {/* Subtle dark gradient overlay to make text pop consistently across devices */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
@@ -212,12 +214,14 @@ export default function Home() {
             {featuredArticles.map((article: any) => (
               <Link key={article.slug} href={`/article/${article.slug}`}>
                 <a className="group cursor-pointer block h-full">
-                  <div className="overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 mb-4 h-48 sm:h-56 md:h-64 shadow-sm group-hover:shadow-lg transition-shadow duration-300">
+                  <div className="overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 mb-4 h-48 sm:h-56 md:h-64 shadow-sm group-hover:shadow-lg transition-shadow duration-300 aspect-video">
                     {article.heroImage && (
                       <OptimizedImage
                         src={article.heroImage}
                         alt={article.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        width={800}
+                        height={450}
                       />
                     )}
                   </div>

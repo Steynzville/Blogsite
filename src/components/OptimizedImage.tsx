@@ -48,13 +48,19 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   ].join(', ');
 
   const fallbackSrc = `${baseUrl}${src}`;
+  
+  // Determine sizes based on image context (hero vs article card)
+  const isHero = src.includes('hero');
+  const sizes = isHero 
+    ? '100vw' 
+    : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw';
 
   return (
     <picture>
       <source
         type="image/webp"
         srcSet={srcSet}
-        sizes="(max-width: 800px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        sizes={sizes}
       />
       <img
         src={fallbackSrc}

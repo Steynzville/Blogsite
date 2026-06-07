@@ -34,9 +34,7 @@ export default function Privacy() {
         </h1>
 
         <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 space-y-6">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            Last updated: {new Date().toLocaleDateString()}
-          </p>
+
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Introduction</h2>
           <p className="leading-relaxed">

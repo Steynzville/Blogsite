@@ -3,6 +3,7 @@ import { Link } from 'wouter';
 import { Menu, X, ChevronRight, Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
+import Footer from '@/components/Footer';
 import { useAllArticles, useAllCategories } from '@/lib/articles';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';

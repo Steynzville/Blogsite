@@ -1,59 +1,12 @@
 import { ArrowLeft, Mail, Moon, Sun, CheckCircle, AlertCircle } from 'lucide-react';
-import { useState } from 'react';
 import { Link } from 'wouter';
+import { useForm, ValidationError } from '@formspree/react';
 import Footer from '@/components/Footer';
 import { useTheme } from '@/contexts/ThemeContext';
 
 export default function Contact() {
   const { theme, toggleTheme } = useTheme();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [submitError, setSubmitError] = useState('');
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitError('');
-    setSubmitSuccess(false);
-
-    try {
-      const response = await fetch('https://formspree.io/f/xyzqwert', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        }),
-      });
-
-      if (response.ok) {
-        setSubmitSuccess(true);
-        setFormData({ name: '', email: '', subject: '', message: '' });
-        setTimeout(() => setSubmitSuccess(false), 5000);
-      } else {
-        setSubmitError('Failed to send message. Please try again.');
-      }
-    } catch (error) {
-      setSubmitError('An error occurred. Please try again.');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  const [state, handleSubmit] = useForm('mwvjlbwj');
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">
@@ -121,7 +74,7 @@ export default function Contact() {
 
           {/* Contact Form - Formspree Integration */}
           <div>
-            {submitSuccess && (
+            {state.succeeded && (
               <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg flex items-start gap-3">
                 <CheckCircle size={20} className="text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
                 <div>
@@ -131,12 +84,12 @@ export default function Contact() {
               </div>
             )}
 
-            {submitError && (
+            {state.errors && state.errors.length > 0 && (
               <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg flex items-start gap-3">
                 <AlertCircle size={20} className="text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-semibold text-red-900 dark:text-red-100">Error</p>
-                  <p className="text-sm text-red-800 dark:text-red-200">{submitError}</p>
+                  <p className="text-sm text-red-800 dark:text-red-200">Failed to send message. Please try again.</p>
                 </div>
               </div>
             )}
@@ -153,12 +106,11 @@ export default function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  value={formData.name}
-                  onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
                   placeholder="Your name"
                 />
+                <ValidationError prefix="Name" field="name" errors={state.errors} className="text-red-500 text-xs mt-1" />
               </div>
 
               <div>
@@ -169,12 +121,11 @@ export default function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
                   placeholder="your@email.com"
                 />
+                <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-500 text-xs mt-1" />
               </div>
 
               <div>
@@ -185,12 +136,11 @@ export default function Contact() {
                   type="text"
                   id="subject"
                   name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
                   placeholder="What is this about?"
                 />
+                <ValidationError prefix="Subject" field="subject" errors={state.errors} className="text-red-500 text-xs mt-1" />
               </div>
 
               <div>
@@ -200,21 +150,20 @@ export default function Contact() {
                 <textarea
                   id="message"
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
                   required
                   rows={6}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400"
                   placeholder="Your message..."
                 />
+                <ValidationError prefix="Message" field="message" errors={state.errors} className="text-red-500 text-xs mt-1" />
               </div>
 
               <button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={state.submitting}
                 className="w-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed px-6 py-3 rounded-lg font-semibold transition-colors"
               >
-                {isSubmitting ? 'Sending...' : 'Send Message'}
+                {state.submitting ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           </div>

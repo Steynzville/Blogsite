@@ -10,6 +10,7 @@ import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import { SearchBar } from '@/components/SearchBar';
+import AboutSection from '@/components/AboutSection';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -188,6 +189,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <AboutSection />
+
       {/* Featured Articles Grid */}
       <section id="featured-articles" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
@@ -344,13 +348,13 @@ function NewsletterSection() {
   };
 
   return (
-    <section id="newsletter-section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+    <section id="newsletter-section" className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-4">
-          Get Design Insights Delivered
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold mb-6 drop-shadow-lg">
+          Stay in the Loop
         </h2>
-        <p className="text-base sm:text-lg text-gray-300 mb-8">
-          Join thousands of design enthusiasts receiving curated articles on luxury home design, lighting, and smart home technology.
+        <p className="text-lg sm:text-xl text-gray-300 mb-12 leading-relaxed">
+          Join thousands of design enthusiasts receiving curated articles on luxury home design, architectural lighting, and smart home technology.
         </p>
 
         {submitSuccess && (
@@ -370,26 +374,26 @@ function NewsletterSection() {
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-          <div className="flex flex-col sm:flex-row gap-3 mb-4">
+        <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
+          <div className="flex flex-col sm:flex-row gap-4 mb-6">
             <input
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
+              placeholder="your@email.com"
+              className="flex-1 px-6 py-4 rounded-lg bg-white/10 border border-gray-500 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent transition-all"
             />
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="bg-white text-gray-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors disabled:opacity-50"
+              className="bg-white text-gray-900 hover:bg-gray-100 px-10 py-4 rounded-lg font-bold text-lg transition-colors disabled:opacity-50 whitespace-nowrap"
             >
               {isSubmitting ? 'Subscribing...' : 'Subscribe'}
             </Button>
           </div>
 
-          <div className="flex items-start gap-3 text-left">
+          <div className="flex items-start gap-3 text-left mb-4">
             <input
               type="checkbox"
               id="gdpr"
@@ -398,11 +402,14 @@ function NewsletterSection() {
               onChange={(e) => setGdprConsent(e.target.checked)}
               className="mt-1 rounded border-gray-600 bg-gray-800 text-gray-600 focus:ring-gray-400"
             />
-            <label htmlFor="gdpr" className="text-xs text-gray-400 leading-relaxed">
+            <label htmlFor="gdpr" className="text-sm text-gray-300 leading-relaxed">
               I agree to receive the VELUCE newsletter and accept the privacy policy. You can unsubscribe at any time.
             </label>
           </div>
         </form>
+        <p className="text-xs text-gray-500 mt-6">
+          We respect your inbox. Unsubscribe anytime.
+        </p>
       </div>
     </section>
   );

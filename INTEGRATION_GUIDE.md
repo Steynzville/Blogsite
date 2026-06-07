@@ -7,7 +7,7 @@ This guide provides step-by-step instructions for configuring Formspree and Mail
 1. [Formspree Setup (Contact Form)](#formspree-setup)
 2. [MailerLite Setup (Newsletter)](#mailerlite-setup)
 3. [Affiliate Components](#affiliate-components)
-4. [Deployment to Netlify](#deployment-to-netlify)
+4. [Deployment to GitHub Pages](#deployment-to-netlify)
 5. [Testing](#testing)
 
 ---
@@ -193,44 +193,38 @@ import AffiliateGrid from '@/components/AffiliateGrid';
 
 ---
 
-## Deployment to Netlify
+## Deployment to GitHub Pages
 
 ### Step 1: Connect GitHub Repository
 
-1. Go to [netlify.com](https://netlify.com)
-2. Click **Add new site** → **Import an existing project**
-3. Select GitHub and authorize
-4. Choose `Steynzville/Blogsite` repository
-5. Click **Deploy**
+1. Go to your GitHub repository (`https://github.com/Steynzville/Blogsite`).
+2. Navigate to **Settings** → **Pages**.
+3. Under "Build and deployment", select "GitHub Actions" as the source.
+4. The workflow will automatically be recognized and run on pushes to the `main` branch.
 
-### Step 2: Configure Build Settings
+### Step 2: Verify GitHub Pages Configuration
 
-Netlify should auto-detect:
-- **Build command**: `npm run build`
+Your GitHub Actions workflow (`.github/workflows/deploy.yml`) is already configured to:
+- **Build command**: `pnpm run build`
 - **Publish directory**: `dist`
 
-If not, manually set them in **Site settings** → **Build & deploy**.
+Ensure that in your repository's **Settings** → **Pages**, the "Source" is set to "GitHub Actions" and the workflow is selected.
 
 ### Step 3: Set Environment Variables (Optional)
 
-If using environment variables for API keys:
+If using environment variables for API keys (e.g., for MailerLite if you move to a server-side setup, though currently not needed for this static setup):
 
-1. Go to **Site settings** → **Build & deploy** → **Environment**
-2. Add variables:
-   - `VITE_FORMSPREE_ID`: Your Formspree form ID
-   - `VITE_MAILERLITE_API_KEY`: Your MailerLite API key
+1. In your GitHub repository, go to **Settings** → **Secrets and variables** → **Actions**.
+2. Add repository secrets:
+   - `VITE_FORMSPREE_ID`: Your Formspree form ID (if you choose to use it as an environment variable)
+   - `VITE_MAILERLITE_API_KEY`: Your MailerLite API key (if you choose to use it as an environment variable)
 
-3. Update components to use these variables:
+3. Note: For this static setup, the Formspree ID is directly in `Contact.tsx` and MailerLite API key is not used client-side due to security concerns. This section is for future reference if you integrate server-side logic or more complex client-side environment variables.
 
-```javascript
-const formspreeId = import.meta.env.VITE_FORMSPREE_ID;
-const mailerliteKey = import.meta.env.VITE_MAILERLITE_API_KEY;
-```
+### Step 4: Formspree Spam Protection
 
-### Step 4: Enable Form Handling (Netlify Forms)
-
-1. In **Site settings** → **Forms**, enable **Netlify Forms**
-2. This provides additional spam filtering and form management
+1. In your Formspree dashboard, enable **CAPTCHA** for spam protection.
+2. This provides additional spam filtering and form management.
 
 ---
 
@@ -287,7 +281,7 @@ const mailerliteKey = import.meta.env.VITE_MAILERLITE_API_KEY;
 | Issue | Solution |
 |-------|----------|
 | Build fails | Run `npm install` and `npm run build` locally |
-| Netlify deploy fails | Check build logs in Netlify dashboard |
+| GitHub Actions deploy fails | Check build logs in GitHub Actions |
 | Dark mode not working | Clear browser cache and hard refresh |
 
 ---
@@ -306,7 +300,8 @@ const mailerliteKey = import.meta.env.VITE_MAILERLITE_API_KEY;
 
 - **Formspree Documentation**: https://formspree.io/docs
 - **MailerLite Documentation**: https://mailerlite.com/help
-- **Netlify Documentation**: https://docs.netlify.com
+- **GitHub Pages Documentation**: https://docs.github.com/en/pages
+- **GitHub Actions Documentation**: https://docs.github.com/en/actions
 - **GDPR Compliance**: https://gdpr-info.eu/
 
 ---
@@ -317,7 +312,7 @@ const mailerliteKey = import.meta.env.VITE_MAILERLITE_API_KEY;
 2. ✅ Set up MailerLite account and get API key
 3. ✅ Update Contact.tsx with Formspree ID
 4. ✅ Update Home.tsx with MailerLite API key
-5. ✅ Deploy to Netlify
+5. ✅ Deploy to GitHub Pages
 6. ✅ Test all integrations
 7. ✅ Monitor submissions and subscribers
 

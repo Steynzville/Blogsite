@@ -19,5 +19,20 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"), // Output directly to dist
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor': ['react', 'react-dom', 'wouter'],
+          'formspree': ['@formspree/react'],
+          'search': ['fuse.js'],
+        },
+      },
+    },
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      },
+    },
   },
 });

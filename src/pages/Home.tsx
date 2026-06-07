@@ -322,7 +322,7 @@ function NewsletterSection() {
         },
         body: JSON.stringify({
           email,
-          groups: ['189644809551480716'],
+          groups: ['189644908318950798'],
           fields: { source: 'VELUCE Blog Newsletter' },
         }),
       });

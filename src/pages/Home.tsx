@@ -9,8 +9,9 @@ import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
-import { SearchBar } from '@/components/SearchBar';
 import AboutSection from '@/components/AboutSection';
+
+const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -79,7 +80,9 @@ export default function Home() {
 
             {/* Search Bar */}
             <div className="hidden lg:block flex-1 max-w-xs mx-8">
-              <SearchBar articles={articles} />
+              <Suspense fallback={<div className="h-10 w-full bg-gray-100 dark:bg-gray-800 animate-pulse rounded-lg" />}>
+                <SearchBar articles={articles} />
+              </Suspense>
             </div>
 
             {/* Newsletter CTA */}
@@ -154,7 +157,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden bg-gray-900">
+      <section className="hero-section relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
           <OptimizedImage 
             src="/images/hero-luxury.jpg" 
@@ -279,7 +282,9 @@ export default function Home() {
       </section>
 
       {/* Newsletter Section - MailerLite Integration */}
-      <NewsletterSection />
+      <Suspense fallback={<div className="py-20 bg-gray-50 dark:bg-gray-800" />}>
+        <NewsletterSection />
+      </Suspense>
 
       {/* Footer */}
       <Footer />

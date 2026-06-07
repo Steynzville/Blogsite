@@ -90,16 +90,20 @@ async function generateCategoryPages(articles) {
 }
 
 async function generateSitemap(articles) {
-  const baseUrl = 'https://steynzville.github.io/Blogsite';
+  const baseUrl = 'https://velucedesign.com';
   let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   sitemap += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
   // Add home page
   sitemap += `  <url>\n    <loc>${baseUrl}/</loc>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
+  // Add All Articles page
+  sitemap += `  <url>\n    <loc>${baseUrl}/articles</loc>\n    <changefreq>daily</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+
   // Add articles
   for (const article of articles) {
-    sitemap += `  <url>\n    <loc>${baseUrl}/article/${article.slug}</loc>\n    <lastmod>${new Date(article.updatedAt).toISOString()}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+    const lastMod = article.updatedAt ? new Date(article.updatedAt).toISOString() : new Date().toISOString();
+    sitemap += `  <url>\n    <loc>${baseUrl}/article/${article.slug}</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   }
 
   // Add categories

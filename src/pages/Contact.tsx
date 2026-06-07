@@ -83,7 +83,11 @@ export default function Contact() {
                 <Button 
                   variant="outline" 
                   className="mt-8"
-                  onClick={() => window.location.reload()}
+                  onClick={() => {
+                    // Reset Formspree state by reloading the component or navigating
+                    // For SPAs on GH Pages, a safe way to reset the form state is to navigate back to the same page
+                    window.location.href = window.location.pathname;
+                  }}
                 >
                   Send another message
                 </Button>

@@ -3,10 +3,11 @@ import { Link } from 'wouter';
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from '@/components/Footer';
 import { useTheme } from '@/contexts/ThemeContext';
+import { Button } from '@/components/ui/button';
 
 export default function Contact() {
   const { theme, toggleTheme } = useTheme();
-  const [state, handleSubmit] = useForm('mwvjlbwj');
+  const [state, handleSubmit] = useForm('xvznkjdl');
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">
@@ -75,12 +76,17 @@ export default function Contact() {
           {/* Contact Form - Formspree Integration */}
           <div>
             {state.succeeded && (
-              <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg flex items-start gap-3">
-                <CheckCircle size={20} className="text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-semibold text-green-900 dark:text-green-100">Message sent successfully!</p>
-                  <p className="text-sm text-green-800 dark:text-green-200">Thank you for reaching out. We'll get back to you soon.</p>
-                </div>
+              <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg flex flex-col items-center justify-center text-center py-12">
+                <CheckCircle size={48} className="text-green-600 dark:text-green-400 mb-4" />
+                <h2 className="text-2xl font-serif font-bold text-green-900 dark:text-green-100 mb-2">Thank you!</h2>
+                <p className="text-green-800 dark:text-green-200">Your message has been sent successfully. We'll get back to you soon.</p>
+                <Button 
+                  variant="outline" 
+                  className="mt-8"
+                  onClick={() => window.location.reload()}
+                >
+                  Send another message
+                </Button>
               </div>
             )}
 
@@ -94,10 +100,11 @@ export default function Contact() {
               </div>
             )}
 
-            <form 
-              onSubmit={handleSubmit}
-              className="space-y-6"
-            >
+            {!state.succeeded && (
+              <form 
+                onSubmit={handleSubmit}
+                className="space-y-6"
+              >
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
                   Name
@@ -158,14 +165,15 @@ export default function Contact() {
                 <ValidationError prefix="Message" field="message" errors={state.errors} className="text-red-500 text-xs mt-1" />
               </div>
 
-              <button
-                type="submit"
-                disabled={state.submitting}
-                className="w-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed px-6 py-3 rounded-lg font-semibold transition-colors"
-              >
-                {state.submitting ? 'Sending...' : 'Send Message'}
-              </button>
-            </form>
+                <button
+                  type="submit"
+                  disabled={state.submitting}
+                  className="w-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  {state.submitting ? 'Sending...' : 'Send Message'}
+                </button>
+              </form>
+            )}
           </div>
         </div>
       </div>

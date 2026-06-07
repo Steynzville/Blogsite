@@ -1,7 +1,7 @@
 import { useParams, Link } from 'wouter';
 import { ArrowLeft, Share2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { trpc } from '@/lib/trpc';
+import { useArticle } from '@/lib/articles';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getArticleSchema } from '@/lib/schema';
@@ -11,7 +11,7 @@ export default function ArticleDetail() {
   const params = useParams();
   const slug = params.slug as string;
 
-  const { data: article, isLoading } = trpc.articles.bySlug.useQuery({ slug });
+  const { article, isLoading } = useArticle(slug);
 
   useEffect(() => {
     if (article) {
@@ -21,7 +21,7 @@ export default function ArticleDetail() {
         url: `${typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space'}/article/${article.slug}`,
         type: 'article',
         author: 'VELUCE',
-        publishedDate: article.createdAt ? new Date(article.createdAt).toISOString() : undefined,
+        publishedDate: article.publishedAt ? new Date(article.publishedAt).toISOString() : undefined,
         modifiedDate: article.updatedAt ? new Date(article.updatedAt).toISOString() : undefined,
       });
 
@@ -103,13 +103,13 @@ export default function ArticleDetail() {
             <span className="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">
               {article.category}
             </span>
-            {article.createdAt && (
+            {article.publishedAt && (
               <time
-                dateTime={new Date(article.createdAt).toISOString()}
+                dateTime={new Date(article.publishedAt).toISOString()}
                 className="text-sm text-gray-600"
                 itemProp="datePublished"
               >
-                {new Date(article.createdAt).toLocaleDateString('en-US', {
+                {new Date(article.publishedAt).toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric',
@@ -151,10 +151,10 @@ export default function ArticleDetail() {
               <p className="text-sm text-gray-600">
                 <strong>Category:</strong> {article.category}
               </p>
-              {article.createdAt && (
+              {article.publishedAt && (
                 <p className="text-sm text-gray-600">
                   <strong>Published:</strong>{' '}
-                  {new Date(article.createdAt).toLocaleDateString('en-US', {
+                  {new Date(article.publishedAt).toLocaleDateString('en-US', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',

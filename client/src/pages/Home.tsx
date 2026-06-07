@@ -2,25 +2,18 @@ import { useState } from 'react';
 import { Link } from 'wouter';
 import { Menu, X, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { trpc } from '@/lib/trpc';
+import { useAllArticles, useAllCategories } from '@/lib/articles';
 import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 
-const CATEGORIES = [
-  { name: 'Outdoor Lighting', slug: 'outdoor-lighting' },
-  { name: 'Garden Lighting', slug: 'garden-lighting' },
-  { name: 'Patio Decor', slug: 'patio-decor' },
-  { name: 'Smart Home', slug: 'smart-home' },
-  { name: 'Home Security', slug: 'home-security' },
-  { name: 'Luxury Interiors', slug: 'luxury-interiors' },
-  { name: 'Kitchen Essentials', slug: 'kitchen-essentials' },
-];
+
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { data: articles = [], isLoading } = trpc.articles.list.useQuery();
-  const featuredArticles = articles.filter((a: any) => a.featured).slice(0, 3);
+  const { articles, isLoading } = useAllArticles();
+  const { categories } = useAllCategories();
+  const featuredArticles = articles.filter((a) => a.featured).slice(0, 3);
 
   useMetaTags({
     title: 'VELUCE - Luxury Living Journal | Home & Garden Design',
@@ -52,7 +45,7 @@ export default function Home() {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              {CATEGORIES.map((cat) => (
+              {categories.map((cat) => (
                 <Link key={cat.slug} href={`/category/${cat.slug}`}>
                   <a className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
                     {cat.name}
@@ -85,7 +78,7 @@ export default function Home() {
           {mobileMenuOpen && (
             <div className="md:hidden pb-4 border-t border-gray-200">
               <nav className="flex flex-col space-y-3 pt-4">
-                {CATEGORIES.map((cat) => (
+                {categories.map((cat) => (
                   <Link key={cat.slug} href={`/category/${cat.slug}`}>
                     <a
                       className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer"
@@ -177,7 +170,7 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {CATEGORIES.map((category) => (
+            {categories.map((category: any) => (
               <Link key={category.slug} href={`/category/${category.slug}`}>
                 <a className="group p-6 md:p-8 bg-white rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all cursor-pointer">
                   <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">
@@ -231,7 +224,7 @@ export default function Home() {
             <div>
               <h5 className="text-white font-semibold mb-4 text-sm">Categories</h5>
               <ul className="space-y-2 text-sm">
-                {CATEGORIES.slice(0, 3).map((cat) => (
+                {categories.slice(0, 3).map((cat: any) => (
                   <li key={cat.slug}>
                     <Link href={`/category/${cat.slug}`}>
                       <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
@@ -245,7 +238,7 @@ export default function Home() {
             <div>
               <h5 className="text-white font-semibold mb-4 text-sm">More</h5>
               <ul className="space-y-2 text-sm">
-                {CATEGORIES.slice(3).map((cat) => (
+                {categories.slice(3).map((cat: any) => (
                   <li key={cat.slug}>
                     <Link href={`/category/${cat.slug}`}>
                       <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">

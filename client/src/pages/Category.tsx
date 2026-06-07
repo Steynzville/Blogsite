@@ -1,26 +1,16 @@
 import { useParams, Link } from 'wouter';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
-import { trpc } from '@/lib/trpc';
+import { useArticlesByCategory, useAllCategories } from '@/lib/articles';
 
-const CATEGORIES = [
-  { name: 'Outdoor Lighting', slug: 'outdoor-lighting' },
-  { name: 'Garden Lighting', slug: 'garden-lighting' },
-  { name: 'Patio Decor', slug: 'patio-decor' },
-  { name: 'Smart Home', slug: 'smart-home' },
-  { name: 'Home Security', slug: 'home-security' },
-  { name: 'Luxury Interiors', slug: 'luxury-interiors' },
-  { name: 'Kitchen Essentials', slug: 'kitchen-essentials' },
-];
+
 
 export default function Category() {
   const params = useParams();
   const slug = params.slug as string;
 
-  const category = CATEGORIES.find((c) => c.slug === slug);
-  const { data: articles = [], isLoading } = trpc.articles.byCategory.useQuery(
-    { category: category?.name || '' },
-    { enabled: !!category }
-  );
+  const { categories } = useAllCategories();
+  const category = categories.find((c) => c.slug === slug);
+  const { articles = [], isLoading } = useArticlesByCategory(slug);
 
   if (!category) {
     return (
@@ -122,7 +112,7 @@ export default function Category() {
             Explore Other Categories
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {CATEGORIES.filter((c) => c.slug !== slug).map((cat) => (
+            {categories.filter((c) => c.slug !== slug).map((cat) => (
               <Link key={cat.slug} href={`/category/${cat.slug}`}>
                 <a className="group p-6 md:p-8 bg-white rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all cursor-pointer">
                   <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">

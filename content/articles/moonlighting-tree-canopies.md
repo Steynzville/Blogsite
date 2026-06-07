@@ -3,7 +3,7 @@ title: "The Science of Moonlighting in Tree Canopies"
 slug: "moonlighting-tree-canopies"
 category: "Garden Lighting"
 excerpt: "Learn how downlighting techniques mimic natural moonlight to create enchanting garden ambiance."
-heroImage: "/canopy-1.jpg"
+heroImage: "/images/upward-lighting.jpg"
 featured: true
 seoTitle: "Moonlighting Techniques for Garden Design | VELUCE"
 metaDescription: "Master moonlighting techniques to create enchanting garden ambiance. Learn how downlighting mimics natural moonlight for dramatic effects."

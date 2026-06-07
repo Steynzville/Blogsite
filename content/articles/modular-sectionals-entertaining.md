@@ -3,7 +3,7 @@ title: "Modular Sectionals for Flexible Entertaining"
 slug: "modular-sectionals-entertaining"
 category: "Patio Decor"
 excerpt: "Reconfigurable seating systems that adapt to any gathering size."
-heroImage: "/patio-2.jpg"
+heroImage: "/images/modular-sectional.jpg"
 featured: true
 seoTitle: "Outdoor Sectionals for Luxury Patios | Modular Furniture Guide"
 metaDescription: "Transform your patio with modular outdoor sectionals. Learn how reconfigurable seating adapts to any gathering size and style."

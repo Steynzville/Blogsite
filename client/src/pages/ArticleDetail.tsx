@@ -13,28 +13,26 @@ export default function ArticleDetail() {
 
   const { article, isLoading } = useArticle(slug);
 
-  useEffect(() => {
-    if (article) {
-      useMetaTags({
-        title: `${article.title} | VELUCE - Luxury Living Journal`,
-        description: article.excerpt || article.title,
-        url: `${typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space'}/article/${article.slug}`,
-        type: 'article',
-        author: 'VELUCE',
-        publishedDate: article.publishedAt ? new Date(article.publishedAt).toISOString() : undefined,
-        modifiedDate: article.updatedAt ? new Date(article.updatedAt).toISOString() : undefined,
-      });
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space';
 
-      if (typeof window !== 'undefined') {
-        const articleData = {
-          ...article,
-          excerpt: article.excerpt || article.title,
-          heroImage: article.heroImage || undefined,
-        };
-        useSchema(getArticleSchema(articleData as any, window.location.origin));
-      }
-    }
-  }, [article]);
+  useMetaTags({
+    title: article ? `${article.title} | VELUCE - Luxury Living Journal` : 'Article Not Found | VELUCE',
+    description: article ? (article.excerpt || article.title) : 'The article you are looking for does not exist.',
+    url: article ? `${baseUrl}/article/${article.slug}` : (typeof window !== 'undefined' ? window.location.href : baseUrl),
+    type: article ? 'article' : 'website',
+    author: article ? 'VELUCE' : undefined,
+    publishedDate: article?.publishedAt ? new Date(article.publishedAt).toISOString() : undefined,
+    modifiedDate: article?.updatedAt ? new Date(article.updatedAt).toISOString() : undefined,
+    image: article?.heroImage || undefined,
+  });
+
+  const schema = article ? getArticleSchema({
+    ...article,
+    excerpt: article.excerpt || article.title,
+    heroImage: article.heroImage || undefined,
+  } as any, baseUrl) : null;
+
+  useSchema(schema || {});
 
   if (isLoading) {
     return (
@@ -47,11 +45,6 @@ export default function ArticleDetail() {
   }
 
   if (!article) {
-    useMetaTags({
-      title: 'Article Not Found | VELUCE',
-      description: 'The article you are looking for does not exist.',
-      url: typeof window !== 'undefined' ? window.location.href : 'https://veluce.manus.space',
-    });
 
     return (
       <div className="min-h-screen bg-white flex items-center justify-center px-4">

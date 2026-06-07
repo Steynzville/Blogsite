@@ -22,12 +22,13 @@ export default function Home() {
     type: 'website',
   });
 
-  if (typeof window !== 'undefined') {
-    useSchema(getHomepageSchema(window.location.origin));
-    useSchema(getOrganizationSchema(window.location.origin));
-  }
-
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://veluce.manus.space';
+
+  const homepageSchema = getHomepageSchema(baseUrl);
+  const orgSchema = getOrganizationSchema(baseUrl);
+
+  useSchema(homepageSchema);
+  useSchema(orgSchema);
 
   return (
     <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">

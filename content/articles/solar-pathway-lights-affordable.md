@@ -3,7 +3,7 @@ title: "Solar Pathway Lights That Don't Look Cheap"
 slug: "solar-pathway-lights-affordable"
 category: "Outdoor Lighting"
 excerpt: "Solar pathway lights with premium design and sustainable performance."
-heroImage: "/path-1.jpg"
+heroImage: "/images/landscape-lighting.jpg"
 featured: false
 seoTitle: "Premium Solar Pathway Lights | VELUCE"
 metaDescription: "Discover luxury solar pathway lights that combine sustainability with sophisticated design. Complete guide to premium solar lighting."

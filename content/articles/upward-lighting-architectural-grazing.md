@@ -3,7 +3,7 @@ title: "Upward Lighting: The Art of Architectural Grazing"
 slug: "upward-lighting-architectural-grazing"
 category: "Outdoor Lighting"
 excerpt: "Discover how upward lighting transforms architectural facades into dramatic focal points after sunset."
-heroImage: "/upward-1.jpg"
+heroImage: "/images/upward-lighting.jpg"
 featured: true
 seoTitle: "Upward Lighting Techniques for Luxury Homes | VELUCE"
 metaDescription: "Master architectural grazing techniques to transform your home's facade into an illuminated masterpiece. Complete guide to upward lighting design."

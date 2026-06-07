@@ -111,11 +111,11 @@ export default function Category() {
           <h2 className="text-2xl sm:text-3xl font-serif font-bold text-gray-900 mb-8">
             Explore Other Categories
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {categories.filter((c) => c.slug !== slug).map((cat) => (
               <Link key={cat.slug} href={`/category/${cat.slug}`}>
-                <a className="group p-6 md:p-8 bg-white rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all cursor-pointer">
-                  <h3 className="text-lg sm:text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">
+                <a className="group block p-6 sm:p-8 bg-white rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all cursor-pointer">
+                  <h3 className="text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-gray-600 transition-colors">
                     {cat.name}
                   </h3>
                   <p className="text-sm text-gray-600 flex items-center">

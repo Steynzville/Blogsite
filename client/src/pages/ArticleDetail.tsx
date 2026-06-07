@@ -209,11 +209,27 @@ export default function ArticleDetail() {
                 </p>
               )}
             </div>
-            <Button variant="outline" size="sm">
-              <Share2 size={16} className="mr-2" />
-              Share Article
+            <Button variant="outline" size="sm" onClick={handleShare}>
+              {shareSuccess ? (
+                <>
+                  <Check size={16} className="mr-2" />
+                  Copied!
+                </>
+              ) : (
+                <>
+                  <Share2 size={16} className="mr-2" />
+                  Share Article
+                </>
+              )}
             </Button>
           </div>
+        </div>
+
+        {/* Affiliate Disclosure */}
+        <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 p-4 rounded-lg mb-12">
+          <p className="text-sm text-blue-900 dark:text-blue-200">
+            <strong>Disclosure:</strong> This article may contain affiliate links to Amazon, AliExpress, and other retailers. We earn a small commission from qualifying purchases at no extra cost to you. This helps support our mission to bring you quality content about luxury home design and living.
+          </p>
         </div>
       </article>
 

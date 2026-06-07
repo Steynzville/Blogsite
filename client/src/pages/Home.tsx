@@ -70,6 +70,12 @@ export default function Home() {
               <Button
                 variant="outline"
                 className="text-sm border-gray-300 text-gray-700 hover:bg-gray-50"
+                onClick={() => {
+                  const newsletterSection = document.getElementById('newsletter-section');
+                  if (newsletterSection) {
+                    newsletterSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
               >
                 Subscribe
               </Button>
@@ -112,6 +118,15 @@ export default function Home() {
                 <Button
                   variant="outline"
                   className="text-sm border-gray-300 text-gray-700 hover:bg-gray-50 w-full mt-2"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    const newsletterSection = document.getElementById('newsletter-section');
+                    if (newsletterSection) {
+                      setTimeout(() => {
+                        newsletterSection.scrollIntoView({ behavior: 'smooth' });
+                      }, 100);
+                    }
+                  }}
                 >
                   Subscribe
                 </Button>
@@ -122,30 +137,29 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 dark:text-white mb-4">
-            Where Light Meets Design
-          </h1>
-          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-            Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.
-          </p>
-          <Button 
-            className="bg-gray-900 text-white hover:bg-gray-800 px-8 py-6 text-base"
-            onClick={() => {
-              const featuredSection = document.getElementById('featured-articles');
-              if (featuredSection) {
-                featuredSection.scrollIntoView({ behavior: 'smooth' });
-              }
-            }}
-          >
-            Explore the Collection <ChevronRight className="ml-2" size={20} />
-          </Button>
+      <section className="relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src="/images/hero-home.jpg" 
+            alt="Luxury home design with architectural lighting"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
+        </div>
+        <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-white mb-4">
+              Where Light Meets Design
+            </h1>
+            <p className="text-lg sm:text-xl text-gray-100 max-w-2xl mx-auto">
+              Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Featured Articles Grid */}
-      <section id="featured-articles" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 dark:bg-gray-900">
+      <section id="featured-articles" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 dark:text-white mb-12">
             Featured Articles
@@ -198,25 +212,48 @@ export default function Home() {
             Explore by Category
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {categories.map((category: any) => (
-              <Link key={category.slug} href={`/category/${category.slug}`}>
-                <a className="group block p-6 sm:p-8 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-500 hover:shadow-lg transition-all cursor-pointer">
-                  <h3 className="text-xl font-serif font-bold text-gray-900 dark:text-white mb-2 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
-                    {category.name}
-                  </h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center">
-                    Explore articles <ChevronRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
-                  </p>
-                </a>
-              </Link>
-            ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {categories.map((category: any) => {
+              const categoryImages: Record<string, string> = {
+                'outdoor-lighting': '/images/categories/outdoor-lighting.jpg',
+                'patio-decor': '/images/categories/patio-decor.jpg',
+                'garden-lighting': '/images/categories/garden-lighting.jpg',
+                'luxury-interiors': '/images/categories/luxury-interiors.jpg',
+                'home-security': '/images/categories/home-security.jpg',
+                'smart-home': '/images/categories/smart-home.jpg',
+                'landscape-design': '/images/categories/landscape-design.jpg',
+              };
+              const imageUrl = categoryImages[category.slug] || '/images/categories/outdoor-lighting.jpg';
+              
+              return (
+                <Link key={category.slug} href={`/category/${category.slug}`}>
+                  <a className="group block overflow-hidden rounded-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 cursor-pointer">
+                    <div className="relative h-48 overflow-hidden bg-gray-200 dark:bg-gray-800">
+                      <img 
+                        src={imageUrl}
+                        alt={category.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300"></div>
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-serif font-bold text-gray-900 dark:text-white mb-2 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
+                        {category.name}
+                      </h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center">
+                        Explore articles <ChevronRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                      </p>
+                    </div>
+                  </a>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+      <section id="newsletter-section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-4">
             Get Design Insights Delivered
@@ -241,7 +278,7 @@ export default function Home() {
               />
               <Button 
                 type="submit"
-                className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 whitespace-nowrap font-semibold"
+                className="bg-amber-500 text-white hover:bg-amber-600 px-6 py-3 whitespace-nowrap font-semibold transition-colors"
               >
                 Subscribe
               </Button>

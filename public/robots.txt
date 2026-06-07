@@ -3,9 +3,9 @@ Allow: /
 Disallow: /admin
 Disallow: /api
 Disallow: /*.json$
-Disallow: /*.xml$
+# Disallow: /*.xml$
 
-Sitemap: https://veluce.manus.space/sitemap.xml
+Sitemap: https://velucedesign.com/sitemap.xml
 
 # Pinterest
 User-agent: Pinterestbot

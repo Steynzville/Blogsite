@@ -179,12 +179,35 @@
 }
 
 /* ============================================================
-   MailerLite Embedded Form — Minimal Colour Overrides Only
-   We do NOT touch display, visibility, height, width, padding
-   or background on any container — those are left to MailerLite
-   so the form renders correctly. Only the input field colours
-   and the submit button colours are overridden here.
+   MailerLite Embedded Form — Naked Card Reset + Colour Overrides
+   Strip the default MailerLite card layers (background, border,
+   padding, box-shadow) without touching display/visibility so
+   the form still renders, then apply site colours to the input
+   and button.
    ============================================================ */
+
+/* --- Strip the MailerLite card wrapper layers --------------- */
+#newsletter-section .ml-form-embedContainer,
+#newsletter-section .ml-form-embedWrapper,
+#newsletter-section .ml-form-embedContent {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+/* --- Also strip the inner form block ----------------------- */
+#newsletter-section .ml-block-form {
+  border: none !important;
+  background: transparent !important;
+}
+
+/* --- Hide the duplicate MailerLite heading/subtext --------- */
+/* (Our own h2 and p already sit above the embed div)          */
+#newsletter-section .ml-form-embedContent h4,
+#newsletter-section .ml-form-embedContent .ml-form-embedHeader {
+  display: none !important;
+}
 
 /* --- Email input: dark-transparent background to sit on the
       dark gradient section, white text, gray border ---------- */

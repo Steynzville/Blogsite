@@ -1,6 +1,6 @@
 # VELUCE - Luxury Living Journal
 
-A modern, mobile-responsive editorial publication focused on luxury home design, lighting, and lifestyle. Built with React, TypeScript, and a full-stack Node.js architecture.
+A modern, mobile-responsive editorial publication focused on luxury home design, lighting, and lifestyle. VELUCE is built as a **pure static site** for maximum performance, security, and ease of deployment.
 
 ## Overview
 
@@ -15,6 +15,21 @@ VELUCE is a content-first publication featuring 23 cornerstone articles across 7
 
 The platform is optimized for Pinterest traffic, search engine visibility, and email growth with a complete SEO infrastructure including sitemaps, structured data, and Open Graph metadata.
 
+## Static Architecture
+
+VELUCE has been converted from a database-backed application to a **fully static publication**.
+
+### Content Pipeline
+1. **Markdown Content**: Articles are stored as Markdown files in `/content/articles/` with frontmatter metadata.
+2. **Build-time Processing**: A custom script (`scripts/generate-static.mjs`) processes these Markdown files at build time.
+3. **Static JSON Generation**: The script generates static JSON files in the `public/` directory:
+   - Individual article data: `/public/articles/[slug].json`
+   - Article listings: `/public/articles.json`
+   - Category-specific listings: `/public/categories/[slug].json`
+   - Main category list: `/public/categories.json`
+4. **Sitemap Generation**: An XML sitemap is automatically generated at `/public/sitemap.xml` based on the available articles.
+5. **Frontend Rendering**: The React frontend fetches these static JSON files at runtime to display content, ensuring lightning-fast loads and zero database dependencies.
+
 ## Tech Stack
 
 ### Frontend
@@ -23,366 +38,75 @@ The platform is optimized for Pinterest traffic, search engine visibility, and e
 - **Tailwind CSS 4** - Styling and responsive design
 - **Wouter** - Client-side routing
 - **Vite** - Build tool and dev server
-- **tRPC** - Type-safe API client
+- **Lucide React** - Icon library
+- **Framer Motion** - Animations
 
-### Backend
-- **Node.js** - Runtime
-- **Express 4** - Web server
-- **tRPC 11** - RPC framework
-- **MySQL/TiDB** - Database
-- **Drizzle ORM** - Database ORM
-
-### Testing & Quality
-- **Vitest** - Unit testing framework
-- **TypeScript** - Static type checking
-- **Prettier** - Code formatting
+### Content Management
+- **Markdown** - Content format
+- **gray-matter** - Frontmatter parsing
+- **marked** - Markdown to HTML conversion
 
 ### Infrastructure
-- **Manus Platform** - Hosting and deployment
-- **AWS S3** - File storage (via Manus proxy)
-- **OAuth 2.0** - Authentication
+- **Netlify** - Hosting and automated deployments
+- **Netlify Forms** - Serverless contact form handling
+- **GitHub** - Source control and CI/CD trigger
 
-## Installation
+## Getting Started
 
 ### Prerequisites
-- Node.js 22.13.0 or higher
-- pnpm 10.4.1 or higher
-- MySQL 8.0+ or TiDB (database)
+- Node.js 22 or higher
+- pnpm 10 or higher
 
 ### Setup Steps
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/Steynzville/Blogsite.git
-cd Blogsite
-```
+   ```bash
+   git clone https://github.com/Steynzville/Blogsite.git
+   cd Blogsite
+   ```
 
 2. **Install dependencies**
-```bash
-pnpm install
-```
+   ```bash
+   pnpm install
+   ```
 
-3. **Set up environment variables**
-```bash
-cp .env.example .env.local
-```
-
-Edit `.env.local` with your configuration:
-- `DATABASE_URL` - MySQL connection string
-- `JWT_SECRET` - Session signing secret
-- `VITE_APP_ID` - OAuth application ID
-- `OAUTH_SERVER_URL` - OAuth provider URL
-- `VITE_OAUTH_PORTAL_URL` - OAuth login portal
-- `OWNER_OPEN_ID` - Owner's OAuth ID
-- `OWNER_NAME` - Owner's name
-- `BUILT_IN_FORGE_API_URL` - Manus API URL
-- `BUILT_IN_FORGE_API_KEY` - Manus API key
-- `VITE_FRONTEND_FORGE_API_URL` - Frontend Manus API URL
-- `VITE_FRONTEND_FORGE_API_KEY` - Frontend Manus API key
-
-4. **Set up the database**
-```bash
-pnpm drizzle-kit generate
-pnpm drizzle-kit migrate
-```
-
-5. **Seed the database with articles**
-```bash
-node seed-articles-full.mjs
-```
-
-## Local Development
-
-### Start the dev server
-```bash
-pnpm dev
-```
-
-The application will be available at `http://localhost:3000`
-
-### Features during development
-- Hot Module Replacement (HMR) for instant updates
-- TypeScript type checking
-- Vite dev server with fast refresh
-
-### Run tests
-```bash
-pnpm test
-```
-
-### Run specific test file
-```bash
-pnpm test server/articles.test.ts
-```
-
-### Type checking
-```bash
-pnpm check
-```
-
-### Code formatting
-```bash
-pnpm format
-```
-
-## Build & Production
-
-### Build for production
-```bash
-pnpm build
-```
-
-This creates:
-- `dist/` - Compiled frontend and backend
-
-### Start production server
-```bash
-pnpm start
-```
-
-The server will listen on the port specified in `PORT` environment variable (default: 3000).
-
-## Database Setup
-
-### Schema
-The project uses Drizzle ORM with the following main tables:
-- `users` - User accounts and authentication
-- `articles` - Article content and metadata
-
-### Migrations
-Migrations are stored in `drizzle/migrations/` and generated by:
-```bash
-pnpm drizzle-kit generate
-```
-
-### Seeding
-Articles are seeded using the seed script:
-```bash
-node seed-articles-full.mjs
-```
-
-## Project Structure
-
-```
-veluce-luxury-journal/
-├── client/                      # Frontend React application
-│   ├── src/
-│   │   ├── pages/              # Page components
-│   │   ├── components/         # Reusable components
-│   │   ├── lib/                # Utilities (tRPC, meta, schema)
-│   │   ├── contexts/           # React contexts
-│   │   ├── hooks/              # Custom hooks
-│   │   ├── App.tsx             # Main app component
-│   │   ├── main.tsx            # Entry point
-│   │   └── index.css           # Global styles
-│   ├── public/                 # Static files
-│   └── index.html              # HTML template
-├── server/                      # Backend Node.js/Express
-│   ├── _core/                  # Core infrastructure
-│   │   ├── index.ts            # Express server setup
-│   │   ├── context.ts          # tRPC context
-│   │   ├── oauth.ts            # OAuth integration
-│   │   ├── llm.ts              # LLM integration
-│   │   └── ...
-│   ├── routers.ts              # tRPC procedures
-│   ├── db.ts                   # Database queries
-│   ├── storage.ts              # File storage helpers
-│   ├── sitemap.ts              # Sitemap generation
-│   └── *.test.ts               # Test files
-├── drizzle/                     # Database schema & migrations
-│   ├── schema.ts               # Drizzle schema
-│   ├── migrations/             # Generated SQL migrations
-│   └── relations.ts            # Schema relations
-├── shared/                      # Shared types and constants
-├── vite.config.ts              # Vite configuration
-├── tsconfig.json               # TypeScript configuration
-├── package.json                # Dependencies
-└── README.md                   # This file
-```
-
-## API Routes
-
-### Public Routes
-- `GET /` - Homepage
-- `GET /article/:slug` - Article detail page
-- `GET /category/:slug` - Category archive page
-- `GET /about` - About page
-- `GET /contact` - Contact page
-- `GET /privacy` - Privacy policy
-- `GET /terms` - Terms of use
-- `GET /affiliate` - Affiliate disclosure
-- `GET /sitemap.xml` - XML sitemap
-- `GET /robots.txt` - Robots file
-
-### tRPC API Routes
-- `POST /api/trpc/articles.list` - Get all articles
-- `POST /api/trpc/articles.bySlug` - Get article by slug
-- `POST /api/trpc/articles.byCategory` - Get articles by category
-- `POST /api/trpc/auth.me` - Get current user
-- `POST /api/trpc/auth.logout` - Logout user
-
-## SEO Implementation
-
-### Sitemap
-- Dynamic sitemap generation at `/sitemap.xml`
-- Includes all articles, categories, and pages
-- Automatic priority and changefreq settings
-
-### Robots.txt
-- Located at `/robots.txt`
-- Configured for search engines (Google, Bing, Pinterest)
-- Disallows admin and API routes
-
-### Structured Data
-- JSON-LD schema for articles
-- JSON-LD schema for categories
-- JSON-LD schema for organization
-- JSON-LD schema for homepage
-
-### Meta Tags
-- Open Graph metadata on all pages
-- Twitter Card metadata on all pages
-- Optimized title tags and meta descriptions
-- Canonical URLs
-
-## Testing
-
-### Test Coverage
-- **Articles Router Tests** (10 tests)
-  - List all articles
-  - Get article by slug
-  - Get articles by category
-  - Error handling
-
-- **Auth Tests** (1 test)
-  - Logout functionality
-
-### Running Tests
-```bash
-# Run all tests
-pnpm test
-
-# Run specific test file
-pnpm test server/articles.test.ts
-
-# Watch mode
-pnpm test --watch
-```
-
-## Deployment
-
-### Manus Platform
-The project is configured for deployment on the Manus platform:
-
-1. Push code to GitHub
-2. Connect repository to Manus
-3. Configure environment variables in Manus dashboard
-4. Deploy via Manus UI
-
-### Environment Variables for Production
-Set these in your deployment environment:
-- `DATABASE_URL` - Production database connection
-- `JWT_SECRET` - Secure random string
-- `NODE_ENV` - Set to "production"
-- All OAuth and API credentials
-
-### Build Output
-- Frontend: Compiled to `dist/client/`
-- Backend: Compiled to `dist/index.js`
-- Total size: ~2MB (optimized)
-
-## Performance
-
-### Frontend Optimization
-- Tailwind CSS with PurgeCSS (removes unused styles)
-- Code splitting with Vite
-- Image optimization
-- Mobile-first responsive design
-
-### Backend Optimization
-- tRPC with automatic batching
-- Database query optimization with Drizzle
-- Efficient JSON serialization with SuperJSON
-- Caching headers on static assets
-
-### Mobile Responsiveness
-- All pages tested on mobile, tablet, desktop
-- Touch-friendly navigation
-- Optimized images and typography
-- No horizontal scrolling
+3. **Start the dev server**
+   ```bash
+   pnpm dev
+   ```
+   The application will be available at `http://localhost:5173`.
 
 ## Content Management
 
-### Articles
-Articles are stored in the database with the following fields:
-- `slug` - URL-friendly identifier
-- `title` - Article title
-- `category` - Article category
-- `excerpt` - Short description
-- `content` - Full HTML content
-- `heroImage` - Featured image URL
-- `featured` - Boolean for homepage display
-- `createdAt` - Publication date
-- `updatedAt` - Last modified date
-
 ### Adding New Articles
-1. Add article to database via tRPC mutation or direct SQL
-2. Article automatically appears in category and search
-3. Sitemap regenerates automatically
+To add a new article, simply:
+1. Create a new `.md` file in `/content/articles/`.
+2. Add the required frontmatter (title, category, excerpt, heroImage, etc.).
+3. Write your content in Markdown.
+4. Commit and push to GitHub.
 
-### Categories
-Seven main categories:
-- Outdoor Lighting
-- Garden Lighting
-- Patio Decor
-- Smart Home
-- Home Security
-- Luxury Interiors
-- Kitchen Essentials
+Refer to `CONTENT_GUIDE.md` for detailed instructions on metadata fields and formatting.
 
-## Troubleshooting
+## Build & Deployment
 
-### Database Connection Issues
+### Production Build
 ```bash
-# Test database connection
-mysql -u [user] -p [password] -h [host] [database]
-
-# Check DATABASE_URL format
-# Format: mysql://user:password@host:port/database
+pnpm build
 ```
+This command runs the static generation script followed by the Vite build. The final output is in the `dist/` directory.
 
-### Port Already in Use
-```bash
-# Kill process on port 3000
-lsof -ti:3000 | xargs kill -9
-```
+### Deployment
+The site is configured for **Netlify**. Every push to the `main` branch triggers an automatic build and deployment.
 
-### Vite HMR Issues
-Clear cache and restart:
-```bash
-rm -rf node_modules/.vite
-pnpm dev
-```
+- **No Database Required**: No MySQL or TiDB setup is needed for production.
+- **No Backend Server**: The site runs entirely as static files.
+- **Netlify Forms**: Contact form submissions are handled automatically by Netlify and can be forwarded to your email via the Netlify dashboard.
 
-### TypeScript Errors
-```bash
-# Regenerate types
-pnpm check
-```
+## SEO & Metadata
 
-## Contributing
-
-### Code Style
-- Use Prettier for formatting
-- Follow TypeScript strict mode
-- Write tests for new features
-- Keep components under 200 lines
-
-### Pull Request Process
-1. Create feature branch from `main`
-2. Make changes and write tests
-3. Run `pnpm test` and `pnpm check`
-4. Submit PR with description
+- **Sitemap**: Automatically updated at `/sitemap.xml` on every build.
+- **Structured Data**: JSON-LD schema is included for all articles and categories.
+- **Meta Tags**: Open Graph and Twitter metadata are dynamically set for each page.
 
 ## License
 
@@ -393,16 +117,3 @@ This project is proprietary and confidential.
 For issues or questions:
 - Email: steyn.enslin@heatrecovery.co.za
 - GitHub Issues: https://github.com/Steynzville/Blogsite/issues
-
-## Changelog
-
-### Version 1.0.0 (June 2026)
-- Initial release
-- 23 cornerstone articles
-- 7 category pages
-- 5 legal pages
-- Complete SEO implementation
-- Mobile-responsive design
-- Full tRPC API
-- Database integration
-- Test coverage

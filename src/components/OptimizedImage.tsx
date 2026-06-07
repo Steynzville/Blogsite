@@ -42,6 +42,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const optimizedDir = `${baseUrl}/images/optimized`;
   
   const srcSet = [
+    `${optimizedDir}/${fileName}-xs.webp 480w`,
     `${optimizedDir}/${fileName}-sm.webp 800w`,
     `${optimizedDir}/${fileName}-md.webp 1200w`,
     `${optimizedDir}/${fileName}-lg.webp 1920w`,
@@ -52,7 +53,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   // Determine sizes based on image context (hero vs article card)
   const isHero = src.includes('hero');
   const sizes = isHero 
-    ? '100vw' 
+    ? '(max-width: 768px) 100vw, 1536px' 
     : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw';
 
   return (

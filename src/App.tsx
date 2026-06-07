@@ -1,18 +1,20 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+
 import NotFound from "@/pages/NotFound";
 import { Route, Switch, Router as WouterRouter } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { lazy, Suspense } from "react";
 import Home from "./pages/Home";
-import ArticleDetail from "./pages/ArticleDetail";
-import Category from "./pages/Category";
 import ScrollToTop from "./components/ScrollToTop";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Privacy from "./pages/Privacy";
-import Terms from "./pages/Terms";
-import Affiliate from "./pages/Affiliate";
+
+// Lazy load non-critical routes
+const ArticleDetail = lazy(() => import("./pages/ArticleDetail"));
+const Category = lazy(() => import("./pages/Category"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Privacy = lazy(() => import("./pages/Privacy"));
+const Terms = lazy(() => import("./pages/Terms"));
+const Affiliate = lazy(() => import("./pages/Affiliate"));
 
 // Handle GitHub Pages SPA redirect
 const handleRedirect = () => {
@@ -32,18 +34,20 @@ handleRedirect();
 function Router() {
   return (
     <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/article/:slug" component={ArticleDetail} />
-        <Route path="/category/:slug" component={Category} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/privacy" component={Privacy} />
-        <Route path="/terms" component={Terms} />
-        <Route path="/affiliate" component={Affiliate} />
-        <Route path="/404" component={NotFound} />
-        <Route component={NotFound} />
-      </Switch>
+      <Suspense fallback={<div className="min-h-screen bg-white dark:bg-gray-900" />}>
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/article/:slug" component={ArticleDetail} />
+          <Route path="/category/:slug" component={Category} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/privacy" component={Privacy} />
+          <Route path="/terms" component={Terms} />
+          <Route path="/affiliate" component={Affiliate} />
+          <Route path="/404" component={NotFound} />
+          <Route component={NotFound} />
+        </Switch>
+      </Suspense>
     </WouterRouter>
   );
 }
@@ -55,11 +59,8 @@ function App() {
         defaultTheme="light"
         switchable
       >
-        <TooltipProvider>
-          <Toaster />
-          <ScrollToTop />
-          <Router />
-        </TooltipProvider>
+        <ScrollToTop />
+        <Router />
       </ThemeProvider>
     </ErrorBoundary>
   );

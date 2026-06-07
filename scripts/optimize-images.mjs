@@ -10,6 +10,7 @@ const IMAGES_DIR = path.join(__dirname, '../public/images');
 const OUTPUT_DIR = path.join(__dirname, '../public/images/optimized');
 
 const SIZES = [
+  { name: 'xs', width: 480 },
   { name: 'sm', width: 800 },
   { name: 'md', width: 1200 },
   { name: 'lg', width: 1920 }
@@ -32,9 +33,12 @@ async function optimizeImage(filePath) {
     const outputPath = path.join(OUTPUT_DIR, outputFileName);
 
     try {
+      const isHero = fileName.includes('hero');
+      const quality = isHero ? 60 : 65; // More aggressive for hero images
+      
       await sharp(filePath)
         .resize(size.width, null, { withoutEnlargement: true })
-        .webp({ quality: 65, effort: 6 })
+        .webp({ quality, effort: 6 })
         .toFile(outputPath);
       
       const stats = fs.statSync(outputPath);

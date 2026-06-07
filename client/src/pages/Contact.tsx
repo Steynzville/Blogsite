@@ -1,4 +1,4 @@
-import { ArrowLeft, Mail, Moon, Sun, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Mail, Moon, Sun, CheckCircle, AlertCircle } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
@@ -28,20 +28,20 @@ export default function Contact() {
     setSubmitSuccess(false);
 
     try {
-      const response = await fetch('/', {
+      const response = await fetch('https://formspree.io/f/xyzqwert', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
-          'form-name': 'contact',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
           message: formData.message,
-        }).toString(),
+        }),
       });
 
-      if (response.ok || response.status === 404) {
-        // Netlify returns 404 on success for static sites, so we treat both as success
+      if (response.ok) {
         setSubmitSuccess(true);
         setFormData({ name: '', email: '', subject: '', message: '' });
         setTimeout(() => setSubmitSuccess(false), 5000);
@@ -119,7 +119,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Contact Form - Using Netlify Forms with AJAX */}
+          {/* Contact Form - Formspree Integration */}
           <div>
             {submitSuccess && (
               <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg flex items-start gap-3">
@@ -132,23 +132,19 @@ export default function Contact() {
             )}
 
             {submitError && (
-              <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
-                <p className="text-red-900 dark:text-red-100">{submitError}</p>
+              <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg flex items-start gap-3">
+                <AlertCircle size={20} className="text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="font-semibold text-red-900 dark:text-red-100">Error</p>
+                  <p className="text-sm text-red-800 dark:text-red-200">{submitError}</p>
+                </div>
               </div>
             )}
 
             <form 
-              name="contact" 
-              method="POST" 
-              data-netlify="true"
               onSubmit={handleSubmit}
               className="space-y-6"
             >
-              <input type="hidden" name="form-name" value="contact" />
-              <p className="hidden">
-                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-              </p>
-              
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
                   Name

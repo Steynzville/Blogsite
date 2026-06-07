@@ -137,40 +137,7 @@ export default function Category() {
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-12 md:py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-4">
-            Get Design Insights Delivered
-          </h2>
-          <p className="text-gray-300 mb-6">
-            Subscribe to receive curated articles on luxury home design.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <form 
-              className="flex flex-col sm:flex-row gap-3 w-full"
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert('Thank you for subscribing! You will receive our latest design insights soon.');
-                (e.target as HTMLFormElement).reset();
-              }}
-            >
-              <input
-                type="email"
-                required
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 border-none"
-              />
-              <button 
-                type="submit"
-                className="bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold whitespace-nowrap transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+
 
       {/* Footer */}
       <Footer />

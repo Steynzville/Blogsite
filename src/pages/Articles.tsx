@@ -65,9 +65,11 @@ export default function Articles() {
       );
     }
 
-    // Sort by newest first
-    return result.sort((a: any, b: any) => {
-      return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+    // Sort by newest first (create a copy to avoid mutating state)
+    return [...result].sort((a: any, b: any) => {
+      const dateA = new Date(a.publishedAt).getTime();
+      const dateB = new Date(b.publishedAt).getTime();
+      return dateB - dateA;
     });
   }, [articles, selectedCategory, searchQuery, fuse]);
 

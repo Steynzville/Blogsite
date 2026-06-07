@@ -3,7 +3,7 @@ title: "The Outdoor Fireplace as Focal Point"
 slug: "outdoor-fireplace-focal-point"
 category: "Patio Decor"
 excerpt: "Why a stone fireplace transforms a patio from functional to unforgettable."
-heroImage: "/images/modular-sectional.jpg"
+heroImage: "/images/outdoor-fireplace.jpg"
 featured: true
 seoTitle: "Outdoor Fireplace Design for Luxury Patios | VELUCE"
 metaDescription: "Transform your patio with a statement outdoor fireplace. Complete guide to design, materials, and installation for luxury outdoor spaces."

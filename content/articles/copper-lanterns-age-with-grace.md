@@ -3,7 +3,7 @@ title: "Copper Lanterns That Age with Grace"
 slug: "copper-lanterns-age-with-grace"
 category: "Outdoor Lighting"
 excerpt: "Explore how copper outdoor lighting fixtures develop natural patina while maintaining structural integrity and performance."
-heroImage: "/lantern-1.jpg"
+heroImage: "/images/copper-lanterns.jpg"
 featured: true
 seoTitle: "Copper Outdoor Lanterns for Luxury Homes | VELUCE"
 metaDescription: "Explore how copper lanterns develop natural patina while maintaining beauty and performance. Complete guide to selecting and maintaining copper fixtures."

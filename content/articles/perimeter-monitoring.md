@@ -3,7 +3,7 @@ title: "Perimeter Monitoring and Security Lighting"
 slug: "perimeter-monitoring"
 category: "Home Security"
 excerpt: "Integrated perimeter monitoring and security lighting systems."
-heroImage: "/security-hero.jpg"
+heroImage: "/images/perimeter-monitoring.jpg"
 featured: true
 seoTitle: "Perimeter Security Systems for Luxury Homes | VELUCE"
 metaDescription: "Complete guide to perimeter monitoring and security lighting. Learn how to protect your property with integrated surveillance and illumination."

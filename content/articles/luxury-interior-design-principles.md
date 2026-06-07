@@ -3,7 +3,7 @@ title: "Luxury Interior Design: Creating Spaces of Timeless Elegance"
 slug: "luxury-interior-design-principles"
 category: "Luxury Interiors"
 excerpt: "Explore the fundamental principles that define luxury interior spaces and create lasting beauty."
-heroImage: "/interior-hero.jpg"
+heroImage: "/images/interior-design.jpg"
 featured: true
 seoTitle: "Luxury Interior Design Principles | VELUCE"
 metaDescription: "Master luxury interior design principles for timeless elegance. Learn proportion, materials, color, and lighting for sophisticated spaces."

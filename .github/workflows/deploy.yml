@@ -2,8 +2,7 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -13,21 +12,23 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      
+        with:
+          fetch-depth: 0   # Important for some generators
+
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
           version: 10
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -36,32 +37,31 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-
-
       - name: Run linter
         run: pnpm check
         continue-on-error: true
 
-      - name: Build with optimizations
+      - name: Build static site from Markdown
         run: pnpm run build
         env:
           VITE_CRITICAL_CSS_URL: https://velucedesign.com/
-          VITE_CRITICAL_CSS_URLS: '{"/":"/","/article/upward-light":"/article/upward-light"}'
+          VITE_CRITICAL_CSS_URLS: '{"/":"/","/article/upward-lighting-architectural-grazing":"/article/upward-lighting-architectural-grazing"}'
           VITE_MAILERLITE_API_KEY: ${{ secrets.VITE_MAILERLITE_API_KEY }}
           NODE_ENV: production
 
-      - name: Generate sitemap and robots
+      - name: Verify Markdown processing
         run: |
-          echo "Sitemap and robots.txt generated during build"
-          ls -lh dist/sitemap.xml dist/robots.txt || echo "Files not found"
-
-      - name: Verify build output
-        run: |
-          echo "Build output size:"
-          du -sh dist/
+          echo "=== Build Output Check ==="
+          ls -la dist/ || echo "dist/ not found"
           echo ""
-          echo "Asset breakdown:"
-          find dist -type f -name "*.js" -o -name "*.css" -o -name "*.webp" -o -name "*.jpg" | head -20
+          echo "Checking for article HTML files:"
+          find dist -name "*.html" | head -15
+          echo ""
+          echo "Checking upward lighting article:"
+          ls -la dist/article/upward-lighting-architectural-grazing* 2>/dev/null || echo "Article folder not found"
+
+      - name: Generate sitemap & robots.txt
+        run: pnpm run generate-sitemap || echo "Sitemap script not found - skipping"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -81,5 +81,6 @@ jobs:
 
       - name: Deployment Summary
         run: |
-          echo "✅ Deployment complete!"
-          echo "🌐 Site URL: https://velucedesign.com"
+          echo "✅ Deployment successful!"
+          echo "🌐 Live site: https://velucedesign.com"
+          echo "⏱️  Check your article in 1-2 minutes"

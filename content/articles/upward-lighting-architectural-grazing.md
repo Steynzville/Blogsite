@@ -28,7 +28,9 @@ internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration
 
 Upward lighting — known in professional design circles as **architectural grazing** — is one of the most sophisticated techniques in outdoor illumination. By positioning fixtures at ground level and directing light upward along vertical surfaces, you create stunning shadow play that reveals depth, dimension, and character that daylight simply cannot show.
 
-![Architectural grazing on textured stone wall at night](/images/architectural-grazing-stone-wall.jpg)
+<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+  <img src="/images/architectural-grazing-stone-wall.jpg" alt="Architectural grazing on textured stone wall at night" loading="lazy">
+</a>
 
 When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental after dark.
 
@@ -79,7 +81,9 @@ Architectural grazing transforms specific areas of a luxury home:
 
 Among the dozens of up/down wall fixtures currently available, **I particularly like the DASTOR Up and Down Wall Lights** for residential grazing applications.
 
-![Modern DASTOR up/down wall light close-up](/images/modern-up-down-wall-light.jpg)
+<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+  <img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
+</a>
 
 **Why This Fixture Works for Grazing:**
 
@@ -93,7 +97,9 @@ Among the dozens of up/down wall fixtures currently available, **I particularly 
 
 ### Layering Your Outdoor Lighting System
 
-![DASTOR lights creating rhythm on exterior wall](/images/exterior-lighting-rhythm.jpg)
+<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+  <img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
+</a>
 
 Grazing is most powerful when combined with other layers. A complete outdoor lighting system includes:
 
@@ -175,3 +181,5 @@ Well-executed upward lighting transforms how a property feels after dark. Start 
 > "The goal is not to light everything. The goal is to light what matters."
 
 **[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (20% off | Amazon's Choice)
+
+---

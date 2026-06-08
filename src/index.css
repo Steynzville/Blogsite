@@ -211,18 +211,20 @@
     color: #e5e7eb;
   }
 
-  /* Blockquote Styling */
+  /* Blockquote Styling - Refined as Pull-Quote */
   .prose blockquote {
-    border-left: 4px solid #2563eb;
-    padding-left: 1.5rem;
-    margin: 1.5rem 0;
+    border-left: 6px solid #2563eb;
+    padding: 1.5rem 2rem;
+    margin: 2.5rem 0;
     font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
     background-color: #f3f4f6;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-top-right-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-    color: #4b5563;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: #1f2937;
+    text-align: center;
   }
 
   .dark .prose blockquote {

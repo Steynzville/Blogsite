@@ -2,8 +2,8 @@
 title: "Upward Lighting: The Art of Architectural Grazing"
 slug: "upward-lighting-architectural-grazing"
 category: "Outdoor Lighting"
-excerpt: "Discover how upward lighting transforms architectural facades into dramatic focal points after sunset."
-heroImage: "/images/architectural-grazing.jpg"
+excerpt: "Discover how upward lighting transforms ordinary architectural facades into dramatic, textured focal points after dark — and why modern homeowners are choosing DASTOR up/down lights."
+heroImage: "/images/hero-dastor-patio-dusk.jpg)"
 featured: true
 seoTitle: "Upward Lighting Techniques for Luxury Homes | VELUCE"
 metaDescription: "Master architectural grazing techniques to transform your home's facade into an illuminated masterpiece. Complete guide to upward lighting design."
@@ -15,18 +15,15 @@ relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-moder
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
 
+Fixture selection is critical for upward lighting — also known as **architectural grazing** — one of the most sophisticated techniques in outdoor illumination design. By directing light upward along vertical surfaces like stone or brick walls, you create stunning shadow play that reveals depth, dimension, and character that daylight simply cannot show.
 
-Fixture selection is critical for Upward lighting, also known as architectural grazing, is one of the most sophisticated techniques in outdoor illumination design. By positioning fixtures at ground level and directing light upward along vertical surfaces—such as stone walls, textured facades, or architectural columns—you create stunning shadow play that reveals depth, dimension, and character that daylight alone cannot show.
+![Architectural grazing on textured stone wall at night](/images/architectural-grazing-stone-wall.jpg)
 
-![Architectural grazing on textured stone wall at night](/images/architectural-grazing-example.jpg)
-
-When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental at night. The effect is especially powerful on homes featuring natural stone, brick with deep mortar lines, or modern facades with interesting geometry.
+When light grazes upward across a textured surface, it casts dramatic shadows that highlight every ridge and detail. This technique makes even modest architecture feel monumental and luxurious at night.
 
 ### Choosing the Right Fixtures
 
-Fixture selection is critical for achieving a refined result. Narrow-beam spotlights (typically 15–30 degrees) deliver precise, controlled illumination while minimizing unwanted spill and glare. LED technology has made this approach more practical than ever, offering excellent color rendering, energy efficiency, and the ability to fine-tune color temperature.
-
-**For a clean, modern upward grazing effect, I highly recommend the DASTOR Up and Down Wall Lights.** Their adjustable design, high-quality build, and elegant finish make them an exceptional choice for architectural highlighting.
+For a clean, modern upward lighting effect, **I highly recommend the DASTOR Up and Down Wall Lights**. Their adjustable design, premium build, and elegant finish make them ideal for architectural highlighting.
 
 [Shop DASTOR Up and Down Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)
 
@@ -36,38 +33,32 @@ Fixture selection is critical for achieving a refined result. Narrow-beam spotli
 - Weather-resistant and durable
 - Excellent light control with minimal glare
 
-Warm white light (around 2700K) beautifully enhances natural stone and traditional materials, while slightly cooler tones (3000–3500K) work well with contemporary architecture.
+![Modern DASTOR up/down wall light close-up](/images/modern-up-down-wall-light.jpg)
 
-### Optimal Placement
+### Real-World Impact
 
-![Upward lighting angle diagram](/images/upward-lighting-diagram.jpg)
+![DASTOR lights creating rhythm on exterior wall](/images/exterior-lighting-rhythm.jpg)
 
-- **10–15 ft walls**: Place lights 15–45 ft away, spaced 8–10 ft apart for strong texture emphasis.
-- **15–25 ft walls**: Place lights 25–75 ft away, spaced 10–12 ft apart for dramatic grazing.
-- **25+ ft walls**: Place lights 40–100+ ft away, spaced 12–15 ft apart for monumental scale.
+![DASTOR up/down lighting on steps](/images/up-down-lighting-steps.jpg)
 
-**Pro Tips:**
-- Always use fully shielded fixtures with proper cutoff to prevent light trespass and sky glow.
-- Test angles at night — small adjustments make a big difference.
+Modern homes are quietly switching to dusk-to-dawn up/down lighting for both beauty and practicality. Well-designed exterior lighting creates rhythm and turns simple walls into architectural statements.
 
-### Before vs After
+![Why this lighting feels more architectural](/images/architectural-wall-light-detail.jpg)
 
-![Before: Flat unlit facade at night](/images/before-upward-lighting.jpg)
-![After: Dramatic architectural grazing](/images/after-upward-lighting.jpg)
+### Before vs After Effect
 
-**Before**: Flat, unremarkable facade at night.  
-**After**: Rich texture, depth, and architectural drama that enhances curb appeal and creates a luxurious nighttime presence.
+A flat, unlit facade becomes rich with texture, depth, and drama — instantly boosting curb appeal and nighttime ambiance.
 
-### Integrating with Landscape Design
+### Integrating with Outdoor Living
 
-Thoughtful coordination with surrounding elements elevates the entire composition. Trees and shrubs in the foreground can create beautiful silhouettes when backlit. Strategic planting helps layer the lighting design and adds depth.
+![DASTOR Up and Down Wall Lights on Modern Patio at Night](/images/dastor-patio-night.jpg)
 
-### Maintenance and Longevity
+As seen in the images above, combining DASTOR upward lighting with fire pits, seating areas, and thoughtful landscaping creates an inviting outdoor living space you’ll actually use long after sunset. The warm, layered glow turns your backyard into a true extension of your home.
 
-Ground-mounted fixtures require regular attention. Choose robust, weather-resistant models with sealed optics. A simple seasonal cleaning schedule prevents debris buildup and maintains peak performance.
+### Maintenance & Longevity
 
-Well-executed upward lighting transforms how a property feels after dark. A home that appears ordinary by day can become a striking architectural presence at night — enhancing curb appeal, perceived value, security, and the enjoyment of outdoor spaces well into the evening.
+Choose robust, weather-resistant fixtures with sealed optics. A simple seasonal cleaning keeps them performing at their best for years.
 
-For most homeowners, starting with a single focal area (such as the main facade or a standout architectural feature) allows refinement before expanding the design.
+Well-executed upward lighting transforms how a property feels after dark. Start with your main facade or entry area and expand from there.
 
 [Shop DASTOR Up and Down Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)

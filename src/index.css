@@ -139,6 +139,30 @@
     @apply mb-6;
   }
 
+  /* Markdown Typography Improvements */
+  .prose a {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  .prose ul, .prose ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .prose strong {
+    color: inherit;
+    font-weight: 600;
+  }
+
+  .dark .prose a {
+    color: #60a5fa;
+  }
+
   /**
    * Custom container utility that centers content and adds responsive padding.
    *

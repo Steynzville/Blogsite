@@ -34,20 +34,16 @@ Fixture selection is critical for achieving a refined result. Narrow-beam spotli
 
 Warm white light (around 2700K) beautifully enhances natural stone and traditional materials, while slightly cooler tones (3000–3500K) work well with contemporary architecture.
 
-### Optimal Placement Guide
-
-| Wall Height | Recommended Distance | Fixture Spacing | Expected Effect |
-|-------------|----------------------|-----------------|-----------------|
-| 10–15 ft    | 15–45 ft            | 8–10 ft         | Strong texture emphasis |
-| 15–25 ft    | 25–75 ft            | 10–12 ft        | Dramatic grazing |
-| 25+ ft      | 40–100+ ft          | 12–15 ft        | Monumental scale |
+### Optimal Placement
+- **10–15 ft walls**: Place lights 15–45 ft away, spaced 8–10 ft apart for strong texture emphasis.
+- **15–25 ft walls**: Place lights 25–75 ft away, spaced 10–12 ft apart for dramatic grazing.
+- **25+ ft walls**: Place lights 40–100+ ft away, spaced 12–15 ft apart for monumental scale.
 
 **Pro Tips:**
-- Always use fully shielded fixtures with proper cutoff to prevent light trespass and sky glow.
+- Always use fully shielded fixtures to prevent light trespass and sky glow.
 - Test angles at night — small adjustments make a big difference.
 
-### Before vs After Upward Lighting
-
+### Before vs After
 **Before**: Flat, unremarkable facade at night.  
 **After**: Rich texture, depth, and architectural drama that enhances curb appeal and creates a luxurious nighttime presence.
 
@@ -55,4 +51,8 @@ Warm white light (around 2700K) beautifully enhances natural stone and tradition
 Thoughtful coordination with surrounding elements elevates the entire composition. Trees and shrubs in the foreground can create beautiful silhouettes when backlit. Strategic planting helps layer the lighting design and adds depth.
 
 ### Maintenance and Longevity
-Ground-mounted fixtures require regular attention. Choose robust, weather-resistant models with sealed optics. A simple seasonal
+Ground-mounted fixtures require regular attention. Choose robust, weather-resistant models with sealed optics. A simple seasonal cleaning schedule prevents debris buildup and maintains peak performance.
+
+Well-executed upward lighting transforms how a property feels after dark. A home that appears ordinary by day can become a striking architectural presence at night — enhancing curb appeal, perceived value, security, and the enjoyment of outdoor spaces well into the evening.
+
+For most homeowners, starting with a single focal area (such as the main facade or a standout architectural feature) allows refinement before expanding the design.

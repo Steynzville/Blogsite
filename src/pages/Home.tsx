@@ -114,7 +114,7 @@ export default function Home() {
 
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
-            <div className="md:hidden pb-4 border-t border-gray-200 dark:border-gray-800">
+            <div className="md:hidden pb-4 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
               <nav className="flex flex-col space-y-3 pt-4">
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-sm font-medium text-black dark:text-white">Theme</span>

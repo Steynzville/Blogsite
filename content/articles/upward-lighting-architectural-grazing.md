@@ -15,13 +15,14 @@ relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-moder
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
 
-Upward lighting, also known as architectural grazing, is one of the most sophisticated techniques in outdoor illumination design. By positioning fixtures at ground level and directing light upward along vertical surfaces—such as stone walls, textured facades, or architectural columns—you create stunning shadow play that reveals depth, dimension, and character that daylight alone cannot show.
+
+Fixture selection is critical for Upward lighting, also known as architectural grazing, is one of the most sophisticated techniques in outdoor illumination design. By positioning fixtures at ground level and directing light upward along vertical surfaces—such as stone walls, textured facades, or architectural columns—you create stunning shadow play that reveals depth, dimension, and character that daylight alone cannot show.
 
 ![Architectural grazing on textured stone wall at night](/images/architectural-grazing-example.jpg)
 
 When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental at night. The effect is especially powerful on homes featuring natural stone, brick with deep mortar lines, or modern facades with interesting geometry.
 
-## Choosing the Right Fixtures
+### Choosing the Right Fixtures
 
 Fixture selection is critical for achieving a refined result. Narrow-beam spotlights (typically 15–30 degrees) deliver precise, controlled illumination while minimizing unwanted spill and glare. LED technology has made this approach more practical than ever, offering excellent color rendering, energy efficiency, and the ability to fine-tune color temperature.
 

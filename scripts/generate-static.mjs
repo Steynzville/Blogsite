@@ -131,19 +131,46 @@ async function generateStaticHtml(articles) {
   const distDir = path.resolve(__dirname, '../dist');
   const indexHtml = await fs.readFile(path.join(distDir, 'index.html'), 'utf-8');
   
+  const categories = Array.from(new Set(articles.map(a => a.category))).map(c => ({
+    name: c,
+    slug: c.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-*|-*$/g, '')
+  }));
+
   const routes = [
-    '/articles',
-    ...articles.map(a => `/article/${a.slug}`),
-    ...Array.from(new Set(articles.map(a => a.category))).map(c => `/category/${c.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-*|-*$/g, '')}`),
-    '/about', '/contact', '/privacy', '/terms', '/affiliate'
+    { path: '/articles', title: 'All Articles — VELUCE Luxury Living Journal', description: 'Browse all articles from VELUCE. Expert insights on architectural lighting, luxury interiors, and smart home design.' },
+    ...articles.map(a => ({
+      path: `/article/${a.slug}`,
+      title: `${a.title} — VELUCE`,
+      description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`
+    })),
+    ...categories.map(c => ({
+      path: `/category/${c.slug}`,
+      title: `${c.name} — VELUCE`,
+      description: `Discover articles and insights about ${c.name} in our luxury living journal.`
+    })),
+    { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.' },
+    { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.' },
+    { path: '/privacy', title: 'Privacy Policy — VELUCE', description: 'Read the VELUCE privacy policy to understand how we handle your data.' },
+    { path: '/terms', title: 'Terms of Use — VELUCE', description: 'Review the terms and conditions for using the VELUCE website.' },
+    { path: '/affiliate', title: 'Affiliate Disclosure — VELUCE', description: 'Information regarding our affiliate partnerships and how they support our content.' }
   ];
 
   for (const route of routes) {
-    const routeDir = path.join(distDir, route);
+    const routeDir = path.join(distDir, route.path);
     await fs.mkdir(routeDir, { recursive: true });
-    await fs.writeFile(path.join(routeDir, 'index.html'), indexHtml);
+    
+    // Inject specific meta tags into the template
+    let customizedHtml = indexHtml
+      .replace(/<title>.*?<\/title>/, `<title>${route.title}</title>`)
+      .replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${route.description}" />`);
+    
+    // Add canonical tag
+    const canonicalUrl = `${SITE_URL}${route.path}/`;
+    customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
+    
+    await fs.writeFile(path.join(routeDir, 'index.html'), customizedHtml);
   }
-  console.log(`Generated static HTML for ${routes.length} routes.`);
+  console.log(`Generated customized static HTML for ${routes.length} routes.`);
 }
 
 async function main() {

@@ -21,7 +21,9 @@ When light travels upward across a textured surface, it casts pronounced shadows
 
 Fixture selection is critical for achieving a refined result. Narrow-beam spotlights (typically 15–30 degrees) deliver precise, controlled illumination while minimizing unwanted spill and glare. LED technology has made this approach more practical than ever, offering excellent color rendering, energy efficiency, and the ability to fine-tune color temperature.
 
-For a clean, modern upward grazing effect, I recommend the DASTOR Up and Down Wall Lights. Their adjustable design, high-quality build, and elegant finish make them an excellent choice for architectural highlighting. Shop DASTOR Up and Down Lights
+For a clean, modern upward grazing effect, I recommend the **DASTOR Up and Down Wall Lights**. Their adjustable design, high-quality build, and elegant finish make them an excellent choice for architectural highlighting. 
+
+[Shop DASTOR Up and Down Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)
 
 Warm white light (around 2700K) beautifully enhances natural stone and traditional materials, while slightly cooler tones (3000–3500K) work well with contemporary architecture.
 

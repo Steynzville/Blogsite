@@ -15,14 +15,16 @@ export default defineConfig({
       gzipSize: true,
       brotliSize: true,
     }),
+    // Disable critical CSS inlining for now to avoid build failure in CI
+    /*
     critical({
-      criticalUrl: "https://velucedesign.com/", // Adjust if needed for specific pages
+      criticalUrl: "https://velucedesign.com/", 
       criticalUrls: [
         { url: "https://velucedesign.com/", route: "/" },
         { url: "https://velucedesign.com/article/upward-light", route: "/article/upward-light" },
       ],
-      // Add other critical CSS options as needed
     }),
+    */
   ],
   resolve: {
     alias: {

@@ -115,7 +115,26 @@ DASTOR lights feature die-cast aluminum bodies, IP65 waterproofing, and easily r
 
 ### Frequently Asked Questions
 
-*(Your FAQ section remains exactly as written — already well structured.)*
+**What's the difference between upward lighting and wall washing?**  
+Upward lighting (grazing) positions fixtures close to the wall to create shadow play. Wall washing positions fixtures further away to evenly illuminate the surface. Grazing emphasizes texture and detail; washing creates a more uniform appearance.
+
+**How many fixtures do I need for upward lighting?**  
+Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture.
+
+**Can upward lighting work on modern smooth facades?**  
+Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture.
+
+**Does DASTOR include bulbs?**  
+Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included.
+
+**Is the DASTOR light waterproof?**  
+Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant.
+
+**How long does installation take?**  
+Approximately 15 minutes per fixture. All mounting hardware is included.
+
+**What is the warranty?**  
+24-month manufacturer warranty.
 
 ### Final Thoughts
 

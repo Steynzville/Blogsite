@@ -3,7 +3,6 @@
  */
 
 export interface Article {
-  id: number;
   slug: string;
   title: string;
   excerpt: string;
@@ -11,18 +10,18 @@ export interface Article {
   category: string;
   heroImage?: string;
   featured?: boolean;
-  createdAt?: Date;
-  updatedAt?: Date;
+  publishedAt?: string;
+  updatedAt?: string;
 }
 
-export function getArticleSchema(article: Article, baseUrl: string) {
+export function getArticleSchema(baseUrl: string, article: Article) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.excerpt,
     image: article.heroImage ? `${baseUrl}${article.heroImage}` : `${baseUrl}/og-image.png`,
-    datePublished: article.createdAt ? new Date(article.createdAt).toISOString() : new Date().toISOString(),
+    datePublished: article.publishedAt ? new Date(article.publishedAt).toISOString() : new Date().toISOString(),
     dateModified: article.updatedAt ? new Date(article.updatedAt).toISOString() : new Date().toISOString(),
     author: {
       '@type': 'Organization',

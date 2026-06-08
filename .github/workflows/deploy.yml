@@ -36,9 +36,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install critical CSS plugin
-        run: pnpm add -D vite-plugin-critical-css
-
       - name: Run linter
         run: pnpm check
         continue-on-error: true

@@ -2,9 +2,17 @@ import { Link } from 'wouter';
 import { ArrowLeft, Moon, Sun } from 'lucide-react';
 import Footer from '@/components/Footer';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useMetaTags } from '@/lib/meta';
 
 export default function About() {
   const { theme, toggleTheme } = useTheme();
+
+  useMetaTags({
+    title: 'About VELUCE — Luxury Living Journal',
+    description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.',
+    url: 'https://velucedesign.com/about',
+    type: 'website',
+  });
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">

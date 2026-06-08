@@ -2,6 +2,7 @@ import { useParams, Link } from 'wouter';
 import { ArrowLeft, ChevronRight, Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useArticlesByCategory, useAllCategories } from '@/lib/articles';
+import { useMetaTags } from '@/lib/meta';
 import Footer from '@/components/Footer';
 import { OptimizedImage } from '@/components/OptimizedImage';
 
@@ -13,6 +14,13 @@ export default function Category() {
   const { categories } = useAllCategories();
   const category = categories.find((c) => c.slug === slug);
   const { articles = [], isLoading } = useArticlesByCategory(slug);
+
+  useMetaTags({
+    title: `${category?.name || 'Category'} — VELUCE`,
+    description: `Explore our collection of articles on ${category?.name?.toLowerCase() || 'this category'}. Discover expert insights, design tips, and luxury home solutions.`,
+    url: `https://velucedesign.com/category/${slug}`,
+    type: 'website',
+  });
 
   if (!category) {
     return (

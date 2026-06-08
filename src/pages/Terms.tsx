@@ -2,9 +2,17 @@ import { Link } from 'wouter';
 import { ArrowLeft, Moon, Sun } from 'lucide-react';
 import Footer from '@/components/Footer';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useMetaTags } from '@/lib/meta';
 
 export default function Terms() {
   const { theme, toggleTheme } = useTheme();
+
+  useMetaTags({
+    title: 'Terms of Use — VELUCE',
+    description: 'The terms and provisions governing the use of the VELUCE Luxury Living Journal website.',
+    url: 'https://velucedesign.com/terms',
+    type: 'website',
+  });
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">

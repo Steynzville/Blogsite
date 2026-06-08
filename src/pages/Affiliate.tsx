@@ -2,9 +2,17 @@ import { Link } from 'wouter';
 import { ArrowLeft, Moon, Sun } from 'lucide-react';
 import Footer from '@/components/Footer';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useMetaTags } from '@/lib/meta';
 
 export default function Affiliate() {
   const { theme, toggleTheme } = useTheme();
+
+  useMetaTags({
+    title: 'Affiliate Disclosure — VELUCE',
+    description: 'Transparency about our recommendations and how we earn money through affiliate partnerships.',
+    url: 'https://velucedesign.com/affiliate',
+    type: 'website',
+  });
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">

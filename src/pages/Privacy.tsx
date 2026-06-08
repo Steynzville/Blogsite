@@ -2,9 +2,17 @@ import { Link } from 'wouter';
 import { ArrowLeft, Moon, Sun } from 'lucide-react';
 import Footer from '@/components/Footer';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useMetaTags } from '@/lib/meta';
 
 export default function Privacy() {
   const { theme, toggleTheme } = useTheme();
+
+  useMetaTags({
+    title: 'Privacy Policy — VELUCE',
+    description: 'Our policies regarding the collection, use, and disclosure of personal data when you use our Site.',
+    url: 'https://velucedesign.com/privacy',
+    type: 'website',
+  });
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden">

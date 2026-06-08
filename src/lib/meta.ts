@@ -32,8 +32,9 @@ export function setMetaTags(meta: MetaData) {
     updateOrCreateMetaTag('twitter:image', meta.image);
   }
 
-  // URL
+  // URL & Canonical
   updateOrCreateMetaTag('og:url', meta.url);
+  updateOrCreateCanonicalTag(meta.url);
 
   // Type
   if (meta.type) {
@@ -72,6 +73,16 @@ function updateOrCreateMetaTag(property: string, content: string) {
   }
 
   tag.setAttribute('content', content);
+}
+
+function updateOrCreateCanonicalTag(url: string) {
+  let tag = document.querySelector('link[rel="canonical"]');
+  if (!tag) {
+    tag = document.createElement('link');
+    tag.setAttribute('rel', 'canonical');
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute('href', url);
 }
 
 export function useMetaTags(meta: MetaData) {

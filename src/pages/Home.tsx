@@ -33,7 +33,7 @@ export default function Home() {
   useMetaTags({
     title: 'VELUCE - Luxury Living Journal | Home & Garden Design',
     description: 'Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.',
-    url: typeof window !== 'undefined' ? window.location.origin : 'https://steynzville.github.io/Blogsite',
+    url: 'https://velucedesign.com/',
     type: 'website',
   });
 

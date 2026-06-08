@@ -15,13 +15,13 @@ export default defineConfig({
       gzipSize: true,
       brotliSize: true,
     }),
-    critical({
-      criticalUrl: "https://velucedesign.com/", 
-      criticalUrls: [
-        { url: "https://velucedesign.com/", route: "/" },
-        { url: "https://velucedesign.com/article/upward-lighting-architectural-grazing/", route: "/article/upward-lighting-architectural-grazing/" },
-      ],
-    }),
+    // critical({
+    //   criticalUrl: "https://velucedesign.com/", 
+    //   criticalUrls: [
+    //     { url: "https://velucedesign.com/", route: "/" },
+    //     { url: "https://velucedesign.com/article/upward-lighting-architectural-grazing/", route: "/article/upward-lighting-architectural-grazing/" },
+    //   ],
+    // }),
   ],
   resolve: {
     alias: {

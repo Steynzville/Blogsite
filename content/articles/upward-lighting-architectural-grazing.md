@@ -15,9 +15,6 @@ relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-moder
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
 
-![DASTOR Up and Down Wall Lights on Modern Patio at Dusk](/images/hero-dastor-patio-dusk.jpg)
-
-Discover how upward lighting transforms ordinary facades into dramatic, textured focal points — and why it's one of the most powerful tools in luxury landscape design.
 
 ### What Is Architectural Grazing?
 

@@ -48,13 +48,14 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   // All optimized images are stored in /images/optimized regardless of their source folder
   const optimizedDir = `${baseUrl}/images/optimized`;
   
-  // WebP srcset with 5 breakpoints
+  // WebP srcset with breakpoints (omitting xl if not present for hero)
   const webpSrcSet = [
     `${optimizedDir}/${fileName}-xs.webp 480w`,
     `${optimizedDir}/${fileName}-sm.webp 768w`,
     `${optimizedDir}/${fileName}-md.webp 1024w`,
     `${optimizedDir}/${fileName}-lg.webp 1536w`,
-    `${optimizedDir}/${fileName}-xl.webp 1920w`,
+    // Only include xl if it's not the hero image (which only goes up to lg in current optimization script)
+    ...(!isHero ? [`${optimizedDir}/${fileName}-xl.webp 1920w`] : [`${optimizedDir}/${fileName}.webp 1920w`]),
   ].join(', ');
 
   // JPEG srcset for fallback
@@ -63,7 +64,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     `${optimizedDir}/${fileName}-sm.jpg 768w`,
     `${optimizedDir}/${fileName}-md.jpg 1024w`,
     `${optimizedDir}/${fileName}-lg.jpg 1536w`,
-    `${optimizedDir}/${fileName}-xl.jpg 1920w`,
+    ...(!isHero ? [`${optimizedDir}/${fileName}-xl.jpg 1920w`] : [`${optimizedDir}/${fileName}.jpg 1920w`]),
   ].join(', ');
 
   const fallbackSrc = `${optimizedDir}/${fileName}.jpg`;

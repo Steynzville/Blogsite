@@ -56,7 +56,7 @@ export default function Home() {
             {/* Logo */}
             <Link href="/">
               <a className="flex items-center space-x-2 cursor-pointer">
-                <div className="text-2xl font-serif font-bold text-gray-900 dark:text-gray-100">VELUCE</div>
+                <div className="text-2xl font-serif font-bold text-black dark:text-white">VELUCE</div>
                 <div className="hidden sm:block text-xs text-gray-500 font-light">Luxury Living Journal</div>
               </a>
             </Link>
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="md:hidden pb-4 border-t border-gray-200 dark:border-gray-800">
               <nav className="flex flex-col space-y-3 pt-4">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-medium text-gray-900 dark:text-gray-100">Theme</span>
+                  <span className="text-sm font-medium text-black dark:text-white">Theme</span>
                   <button
                     onClick={toggleTheme}
                     className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"

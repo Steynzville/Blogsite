@@ -44,6 +44,9 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const fileNameWithExt = pathParts.pop() || '';
   const fileName = fileNameWithExt.split('.').shift() || '';
   
+  // Determine sizes based on image context (hero vs article card)
+  const isHero = src.includes('hero');
+
   // Construct optimized paths
   // All optimized images are stored in /images/optimized regardless of their source folder
   const optimizedDir = `${baseUrl}/images/optimized`;
@@ -55,7 +58,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     `${optimizedDir}/${fileName}-md.webp 1024w`,
     `${optimizedDir}/${fileName}-lg.webp 1536w`,
     // Only include xl if it's not the hero image (which only goes up to lg in current optimization script)
-    ...(!isHero ? [`${optimizedDir}/${fileName}-xl.webp 1920w`] : [`${optimizedDir}/${fileName}.webp 1920w`]),
+    ...(isHero ? [`${optimizedDir}/${fileName}.webp 1920w`] : [`${optimizedDir}/${fileName}-xl.webp 1920w`]),
   ].join(', ');
 
   // JPEG srcset for fallback
@@ -64,13 +67,10 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     `${optimizedDir}/${fileName}-sm.jpg 768w`,
     `${optimizedDir}/${fileName}-md.jpg 1024w`,
     `${optimizedDir}/${fileName}-lg.jpg 1536w`,
-    ...(!isHero ? [`${optimizedDir}/${fileName}-xl.jpg 1920w`] : [`${optimizedDir}/${fileName}.jpg 1920w`]),
+    ...(isHero ? [`${optimizedDir}/${fileName}.jpg 1920w`] : [`${optimizedDir}/${fileName}-xl.jpg 1920w`]),
   ].join(', ');
 
   const fallbackSrc = `${optimizedDir}/${fileName}.jpg`;
-  
-  // Determine sizes based on image context (hero vs article card)
-  const isHero = src.includes('hero');
   const sizes = isHero 
     ? '(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1920px' 
     : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw';

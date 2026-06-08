@@ -153,13 +153,15 @@ export default function ArticleDetail() {
         {/* Hero Image */}
         {article.heroImage && (
           <div className="mb-8 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden">
-            <OptimizedImage
-              src={article.heroImage}
-              alt={article.title}
-              className="w-full h-96 object-cover"
-              itemProp="image"
-              priority={true}
-            />
+<OptimizedImage
+	              src={article.heroImage}
+	              alt={article.title}
+	              className="w-full h-96 object-cover"
+	              itemProp="image"
+	              priority={true}
+	              loading="eager"
+	              fetchPriority="high"
+	            />
           </div>
         )}
 

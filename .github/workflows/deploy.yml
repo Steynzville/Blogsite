@@ -36,6 +36,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Install critical CSS plugin
+        run: pnpm add -D vite-plugin-critical-css
+
       - name: Run linter
         run: pnpm check
         continue-on-error: true
@@ -43,6 +46,8 @@ jobs:
       - name: Build with optimizations
         run: pnpm run build
         env:
+          VITE_CRITICAL_CSS_URL: https://velucedesign.com/
+          VITE_CRITICAL_CSS_URLS: '{"/":"/","/article/upward-light":"/article/upward-light"}'
           VITE_MAILERLITE_API_KEY: ${{ secrets.VITE_MAILERLITE_API_KEY }}
           NODE_ENV: production
 

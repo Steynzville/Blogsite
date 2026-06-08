@@ -54,7 +54,7 @@ async function optimizeImage(filePath) {
 
     try {
       // More aggressive quality for hero images
-      const quality = isHero ? (size.name === 'xs' ? 45 : 55) : (size.name === 'xs' ? 50 : 65);
+      const quality = isHero ? (size.name === 'xs' ? 35 : 45) : (size.name === 'xs' ? 40 : 55);
       
       await sharp(filePath)
         .resize(size.width, null, { withoutEnlargement: true })
@@ -76,7 +76,7 @@ async function optimizeImage(filePath) {
     const outputPath = path.join(OUTPUT_DIR, outputFileName);
 
     try {
-      const quality = isHero ? (size.name === 'xs' ? 50 : 60) : (size.name === 'xs' ? 55 : 70);
+      const quality = isHero ? (size.name === 'xs' ? 40 : 50) : (size.name === 'xs' ? 45 : 60);
       
       await sharp(filePath)
         .resize(size.width, null, { withoutEnlargement: true })
@@ -95,7 +95,7 @@ async function optimizeImage(filePath) {
   // Create original size WebP (for <picture> fallback)
   const originalWebp = path.join(OUTPUT_DIR, `${fileName}.webp`);
   try {
-    const quality = isHero ? 60 : 75;
+    const quality = isHero ? 50 : 65;
     await sharp(filePath)
       .webp({ quality, effort: 6 })
       .toFile(originalWebp);
@@ -109,7 +109,7 @@ async function optimizeImage(filePath) {
   // Create original size JPEG (for <picture> fallback)
   const originalJpeg = path.join(OUTPUT_DIR, `${fileName}.jpg`);
   try {
-    const quality = isHero ? 65 : 80;
+    const quality = isHero ? 55 : 70;
     await sharp(filePath)
       .jpeg({ quality, progressive: true, mozjpeg: true })
       .toFile(originalJpeg);

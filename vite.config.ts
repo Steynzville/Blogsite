@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "node:path";
 import { defineConfig } from "vite";
 import { visualizer } from "rollup-plugin-visualizer";
+import critical from "vite-plugin-critical-css";
 
 export default defineConfig({
   base: '/',
@@ -13,6 +14,14 @@ export default defineConfig({
       filename: "stats.html",
       gzipSize: true,
       brotliSize: true,
+    }),
+    critical({
+      criticalUrl: "https://velucedesign.com/", // Adjust if needed for specific pages
+      criticalUrls: [
+        { url: "https://velucedesign.com/", route: "/" },
+        { url: "https://velucedesign.com/article/upward-light", route: "/article/upward-light" },
+      ],
+      // Add other critical CSS options as needed
     }),
   ],
   resolve: {
@@ -35,6 +44,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         // Content hash for cache busting
+
         entryFileNames: 'js/[name]-[hash].js',
         chunkFileNames: 'js/[name]-[hash].js',
         assetFileNames: ({ name }) => {

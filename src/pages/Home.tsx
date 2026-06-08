@@ -160,14 +160,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section relative h-96 sm:h-[28rem] md:h-[32rem] overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
-          <OptimizedImage 
-            src="/images/hero-luxury.jpg" 
-            alt="Luxury home design with architectural lighting"
-            className="w-full h-full object-cover object-[center_25%]"
-            priority={true}
-            width={1920}
-            height={1080}
-          />
+<OptimizedImage 
+	            src="/images/hero-luxury.jpg" 
+	            alt="Luxury home design with architectural lighting"
+	            className="w-full h-full object-cover object-[center_25%]"
+	            priority={true}
+	            width={1920}
+	            height={1080}
+	            loading="eager"
+	            fetchPriority="high"
+	          />
           {/* Solid dark overlay for text readability */}
           <div className="absolute inset-0 bg-black/50" />
         </div>

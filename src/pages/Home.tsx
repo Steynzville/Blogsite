@@ -168,15 +168,15 @@ export default function Home() {
             width={1920}
             height={1080}
           />
-          {/* Subtle dark gradient overlay to make text pop consistently across devices */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
+          {/* Solid dark overlay for text readability */}
+          <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light text-white mb-4 drop-shadow-xl tracking-wide">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light text-white mb-4 drop-shadow-lg tracking-wide">
               Where Light Meets Design
             </h1>
-            <p className="text-lg sm:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow-md font-light leading-relaxed">
+            <p className="text-lg sm:text-xl text-white max-w-2xl mx-auto drop-shadow-md font-light leading-relaxed">
               Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.
             </p>
           </div>

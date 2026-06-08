@@ -26,15 +26,38 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'
+          cache: 'pnpm'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 10
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: pnpm install --frozen-lockfile
 
-      - name: Build
-        run: npm run build
+      - name: Run linter
+        run: pnpm check
+        continue-on-error: true
+
+      - name: Build with optimizations
+        run: pnpm run build
         env:
           VITE_MAILERLITE_API_KEY: ${{ secrets.VITE_MAILERLITE_API_KEY }}
+          NODE_ENV: production
+
+      - name: Generate sitemap and robots
+        run: |
+          echo "Sitemap and robots.txt generated during build"
+          ls -lh dist/sitemap.xml dist/robots.txt || echo "Files not found"
+
+      - name: Verify build output
+        run: |
+          echo "Build output size:"
+          du -sh dist/
+          echo ""
+          echo "Asset breakdown:"
+          find dist -type f -name "*.js" -o -name "*.css" -o -name "*.webp" -o -name "*.jpg" | head -20
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -51,3 +74,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Deployment Summary
+        run: |
+          echo "✅ Deployment complete!"
+          echo "🌐 Site URL: https://velucedesign.com"

@@ -13,12 +13,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD7K3dQ32p0_8U18_X773B-H0.woff2" as="font" type="font/woff2" crossorigin>
     <style>
-      :root { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
+      /* Critical CSS for above-the-fold content */
+      :root { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; --tw-bg-opacity: 1; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; padding: 0; background: #ffffff; color: #111827; }
       .font-serif { font-family: "Playfair Display", serif; }
-      body { margin: 0; background: #ffffff; }
-      .hero-section { height: 24rem; background: #111827; }
-      @media (min-width: 640px) { .hero-section { height: 28rem; } }
-      @media (min-width: 768px) { .hero-section { height: 32rem; } }
+      
+      /* Hero section critical styles */
+      .hero-section { position: relative; height: 24rem; background: #111827; overflow: hidden; }
+      .hero-section h1 { font-size: 2.25rem; line-height: 2.5rem; font-weight: 300; color: #ffffff; margin: 1rem 0; text-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+      .hero-section p { font-size: 1.125rem; color: #ffffff; text-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+      
+      /* Header critical styles */
+      header { position: sticky; top: 0; z-index: 50; background: #ffffff; border-bottom: 1px solid #e5e7eb; }
+      
+      /* Responsive hero */
+      @media (min-width: 640px) { 
+        .hero-section { height: 28rem; }
+        .hero-section h1 { font-size: 3rem; line-height: 3.5rem; }
+      }
+      @media (min-width: 768px) { 
+        .hero-section { height: 32rem; }
+        .hero-section h1 { font-size: 3.75rem; line-height: 4.5rem; }
+      }
+      
+      /* Prevent layout shift */
+      img { display: block; }
+      picture { display: block; }
     </style>
     <!-- MailerLite Universal -->
     <script>

@@ -51,13 +51,13 @@ export default function Home() {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-x-hidden">
       {/* Header / Navigation */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 transition-colors duration-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/">
               <a className="flex items-center space-x-2 cursor-pointer">
                 <div className="text-2xl font-serif font-bold text-black dark:text-white">VELUCE</div>
-                <div className="hidden sm:block text-xs text-gray-500 font-light">Luxury Living Journal</div>
+                <div className="hidden sm:block text-xs text-gray-500 font-light dark:text-gray-400">Luxury Living Journal</div>
               </a>
             </Link>
 

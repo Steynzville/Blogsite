@@ -131,7 +131,7 @@ export default function ArticleDetail() {
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden" itemScope itemType="https://schema.org/Article">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 transition-colors duration-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center bg-white dark:bg-gray-900">
           <Link href="/">
             <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />

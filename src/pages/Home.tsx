@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-x-hidden">
       {/* Header / Navigation */}
-      <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+      <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 transition-colors duration-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
@@ -114,8 +114,8 @@ export default function Home() {
 
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
-            <div className="md:hidden pb-4 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-              <nav className="flex flex-col space-y-3 pt-4">
+            <div className="md:hidden pb-4 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 transition-colors duration-200">
+              <nav className="flex flex-col space-y-3 pt-4 px-2">
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-sm font-medium text-black dark:text-white">Theme</span>
                   <button

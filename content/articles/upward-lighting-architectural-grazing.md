@@ -19,22 +19,40 @@ Upward lighting, also known as architectural grazing, is one of the most sophist
 
 When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental at night. The effect is especially powerful on homes featuring natural stone, brick with deep mortar lines, or modern facades with interesting geometry.
 
+### Choosing the Right Fixtures
 Fixture selection is critical for achieving a refined result. Narrow-beam spotlights (typically 15–30 degrees) deliver precise, controlled illumination while minimizing unwanted spill and glare. LED technology has made this approach more practical than ever, offering excellent color rendering, energy efficiency, and the ability to fine-tune color temperature.
 
-For a clean, modern upward grazing effect, I highly recommend the **DASTOR Up and Down Wall Lights**. Their adjustable design, high-quality build, and elegant finish make them an exceptional choice for architectural highlighting. 
+**For a clean, modern upward grazing effect, I highly recommend the DASTOR Up and Down Wall Lights.** Their adjustable design, high-quality build, and elegant finish make them an exceptional choice for architectural highlighting.
 
 [Shop DASTOR Up and Down Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)
 
+**Key Benefits of DASTOR Lights:**
+- Adjustable up/down beam direction
+- Premium finish suitable for luxury homes
+- Weather-resistant and durable
+- Excellent light control with minimal glare
+
 Warm white light (around 2700K) beautifully enhances natural stone and traditional materials, while slightly cooler tones (3000–3500K) work well with contemporary architecture.
 
-Distance and angle are everything. Fixtures placed too close create harsh shadows; too far, and the definition is lost. A good rule of thumb is to position lights at a distance of 1.5 to 3 times the height of the surface being illuminated. For a 20-foot wall, this typically means 30–60 feet away, allowing the beam to graze rather than blast the surface.
+### Optimal Placement Guide
 
-Always use fully shielded fixtures with proper cutoff to prevent light trespass and sky glow. This protects neighboring properties and preserves the beauty of the night sky.
+| Wall Height | Recommended Distance | Fixture Spacing | Expected Effect |
+|-------------|----------------------|-----------------|-----------------|
+| 10–15 ft    | 15–45 ft            | 8–10 ft         | Strong texture emphasis |
+| 15–25 ft    | 25–75 ft            | 10–12 ft        | Dramatic grazing |
+| 25+ ft      | 40–100+ ft          | 12–15 ft        | Monumental scale |
 
-Thoughtful coordination with surrounding elements elevates the entire composition. Trees and shrubs can either enhance layered depth or block light if poorly placed. Strategic planting in the foreground can create beautiful silhouettes when backlit by upward illumination.
+**Pro Tips:**
+- Always use fully shielded fixtures with proper cutoff to prevent light trespass and sky glow.
+- Test angles at night — small adjustments make a big difference.
 
-Ground-mounted fixtures require regular attention. Choose robust, weather-resistant models with sealed optics. A simple cleaning schedule prevents debris buildup and ensures consistent performance through all seasons.
+### Before vs After Upward Lighting
 
-Well-executed upward lighting transforms how a property feels after dark. A home that appears ordinary by day can become a striking architectural presence at night—enhancing curb appeal, perceived value, security, and the enjoyment of outdoor spaces well into the evening.
+**Before**: Flat, unremarkable facade at night.  
+**After**: Rich texture, depth, and architectural drama that enhances curb appeal and creates a luxurious nighttime presence.
 
-For most homeowners, starting with a single focal area (such as the main facade or a standout architectural feature) allows refinement before expanding the design.
+### Integrating with Landscape Design
+Thoughtful coordination with surrounding elements elevates the entire composition. Trees and shrubs in the foreground can create beautiful silhouettes when backlit. Strategic planting helps layer the lighting design and adds depth.
+
+### Maintenance and Longevity
+Ground-mounted fixtures require regular attention. Choose robust, weather-resistant models with sealed optics. A simple seasonal

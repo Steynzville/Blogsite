@@ -215,11 +215,11 @@ export default function ArticleDetail() {
         </div>
 
         {/* Article Body */}
-        <div
-          className="prose prose-lg max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:mb-6 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 dark:prose-invert mb-12"
-          dangerouslySetInnerHTML={{ __html: article.content }}
-          itemProp="articleBody"
-        />
+	        <div
+	          className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:mb-6 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 mb-12"
+	          dangerouslySetInnerHTML={{ __html: article.content }}
+	          itemProp="articleBody"
+	        />
 
         {/* Divider */}
         <div className="border-t border-gray-200 dark:border-gray-800 my-12" />

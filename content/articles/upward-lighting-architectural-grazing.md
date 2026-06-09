@@ -32,6 +32,7 @@ Upward lighting — known in professional design circles as **architectural graz
   <img src="/images/architectural-grazing-stone-wall.jpg" alt="Architectural grazing on textured stone wall at night" loading="lazy">
 </a>
 
+
 When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental after dark.
 
 Well-executed upward lighting transforms how a property feels after dark. A home that appears ordinary by day becomes a striking architectural presence at night — enhancing curb appeal, perceived value, and the enjoyment of outdoor spaces well into the evening.
@@ -85,6 +86,7 @@ Among the dozens of up/down wall fixtures currently available, **I particularly 
   <img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
 </a>
 
+
 **Why This Fixture Works for Grazing:**
 
 - Up and down light pattern creates shadow play above and below the fixture
@@ -101,16 +103,15 @@ Among the dozens of up/down wall fixtures currently available, **I particularly 
   <img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
 </a>
 
+
 Grazing is most powerful when combined with other layers. A complete outdoor lighting system includes:
 
 | Layer | Purpose | Recommended Product |
 |-------|---------|---------------------|
-| **Facade grazing** | Defines architecture | DASTOR up/down wall lights |
-| **Tree and shrub uplighting** | Adds depth and drama | NYMPHY solar spotlights |
-| **Path lighting** | Guides movement | Solar in-ground lights |
-| **Ambient glow** | Warms the space | LED strip lighting |
-
-**[→ Shop NYMPHY Solar Spotlights on Amazon](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20)** (4.3★ | 17,000+ reviews)
+| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) (4.5★ | 1,327 reviews) |
+| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) (4.3★ | 17,000+ reviews) |
+| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) (4.4★ | 15,000+ reviews) |
+| **Ambient and accent lighting** | Warms seating areas and architectural features | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | RGB | Music sync) |
 
 ### Installation Guidelines for Architectural Grazing
 
@@ -178,8 +179,8 @@ Approximately 15 minutes per fixture. All mounting hardware is included.
 
 Well-executed upward lighting transforms how a property feels after dark. Start with a single focal area — your main facade, a courtyard wall, or a retaining garden wall — and expand from there. Combine facade grazing with landscape uplighting for a complete, layered outdoor lighting system that feels intentional, luxurious, and thoroughly designed.
 
-> "The goal is not to light everything. The goal is to light what matters."
-
 **[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (20% off | Amazon's Choice)
+
+> "The goal is not to light everything. The goal is to light what matters."
 
 ---

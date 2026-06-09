@@ -11,10 +11,9 @@ wordCount: 1420
 publishedAt: "2026-06-09T00:00:00.000000"
 updatedAt: "2026-06-09T00:00:00.000000"
 faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "How long does installation take?", "answer": "Installation time varies depending on experience and wiring conditions, but most homeowners comfortable with basic electrical work can complete the process in under an hour per fixture. All mounting hardware is included."}, {"question": "Is the DASTOR light waterproof?", "answer": "Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant."}, {"question": "What is the warranty?", "answer": "24-month manufacturer warranty."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury."}]
-relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-modern-deck"]
-internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
+relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-lighting-outdoor-guide"]
+internalLinks: [{"text": "LED Strip Lighting for Outdoors", "slug": "led-strip-lighting-outdoor-guide"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
-
 
 ### Quick Takeaways
 
@@ -105,7 +104,7 @@ Grazing is most powerful when combined with other layers. A complete outdoor lig
 | **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) |
 | **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | Warm white architectural tape) |
 
-*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Integration for Modern Decks](/article/led-strip-integration-modern-deck) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
+*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy](/article/led-strip-lighting-outdoor-guide) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
 
 ### Installation Guidelines for Architectural Grazing
 

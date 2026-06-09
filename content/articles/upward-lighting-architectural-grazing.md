@@ -184,6 +184,14 @@ Approximately 15 minutes per fixture. All mounting hardware is included.
 
 Well-executed upward lighting transforms how a property feels after dark. Start with a single focal area — your main facade, a courtyard wall, or a retaining garden wall — and expand from there. Combine facade grazing with landscape uplighting for a complete, layered outdoor lighting system that feels intentional, luxurious, and thoroughly designed.
 
+> "The goal is not to light everything. The goal is to light what matters."
+
 **[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (20% off | Amazon's Choice)
 
-> "The goal is not to light everything. The goal is to light what matters."
+### Explore More Outdoor Lighting
+
+Looking for additional lighting options? Visit my curated collection of outdoor lighting favorites on Amazon:
+
+👉 **[Browse the Outdoor Lighting Collection →](https://tr.ee/x9keXp)**
+
+Discover solar spotlights, path lights, step lights, LED strips, and complete landscape lighting systems — all hand-picked for luxury homes.

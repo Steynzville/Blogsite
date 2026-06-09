@@ -176,7 +176,7 @@ Architectural grazing is one of the most cost-effective ways to elevate a home's
 
 > "The goal is not to light everything. The goal is to light what matters."
 
-In luxury design, grazing is not just illumination — it's a statement of architectural prestige.
+In luxury design, restraint often creates the strongest impression.
 
 **[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (Amazon's Choice)
 

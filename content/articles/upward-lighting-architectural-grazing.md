@@ -15,10 +15,6 @@ relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-moder
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
 
-<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
-  <img src="/images/hero-dastor-patio-dusk.jpg" alt="DASTOR Up and Down Wall Lights on Modern Patio at Dusk" loading="lazy">
-</a>
-<br>
 
 ### Quick Takeaways
 

@@ -13,6 +13,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   src, 
   alt, 
   className, 
+  style,
   priority = false,
   width,
   height,
@@ -27,6 +28,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
         src={src} 
         alt={alt} 
         className={className} 
+        style={style}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : 'auto'}
         decoding="async"
@@ -94,6 +96,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
         src={fallbackSrc}
         alt={alt}
         className={className}
+        style={style}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : 'auto'}
         decoding="async"

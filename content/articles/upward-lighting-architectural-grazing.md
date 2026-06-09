@@ -102,10 +102,10 @@ Grazing is most powerful when combined with other layers. A complete outdoor lig
 
 | Layer | Purpose | Recommended Product |
 |-------|---------|---------------------|
-| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) |
-| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) |
-| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) |
-| **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (Warm white architectural tape) |
+| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) (4.5★ | 1,327 reviews) |
+| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) (4.3★ | 17,000+ reviews) |
+| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) (4.4★ | 15,000+ reviews) |
+| **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | Warm white architectural tape) |
 
 ### Installation Guidelines for Architectural Grazing
 

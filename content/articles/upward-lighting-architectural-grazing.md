@@ -153,7 +153,7 @@ Upward lighting (grazing) positions fixtures close to the wall to create shadow 
 Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture.
 
 **Can upward lighting work on modern smooth facades?**  
-Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture.
+Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry.
 
 **Does DASTOR include bulbs?**  
 Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included.

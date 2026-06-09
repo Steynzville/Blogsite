@@ -28,9 +28,7 @@ internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration
 
 Upward lighting — known in professional design circles as **architectural grazing** — is one of the most sophisticated techniques in outdoor illumination. By directing light upward along vertical surfaces, you create stunning shadow play that reveals depth, dimension, and character that daylight simply cannot show.
 
-<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
-  <img src="/images/architectural-grazing-wall-mounted.jpg" alt="VELUCE architectural grazing diagram showing wall-mounted up/down sconce with upward and downward warm amber light beams grazing textured stone wall surface" loading="lazy">
-</a>
+<img src="/images/architectural-grazing-wall-mounted.jpg" alt="VELUCE architectural grazing diagram showing wall-mounted up/down sconce with upward and downward warm amber light beams grazing textured stone wall surface" loading="lazy">
 <br>
 
 When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental after dark.
@@ -102,9 +100,9 @@ Grazing is most powerful when combined with other layers. A complete outdoor lig
 
 | Layer | Purpose | Recommended Product |
 |-------|---------|---------------------|
-| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) (4.5★ | 1,327 reviews) |
-| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) (4.3★ | 17,000+ reviews) |
-| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) (4.4★ | 15,000+ reviews) |
+| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) |
+| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) |
+| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) |
 | **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | Warm white architectural tape) |
 
 ### Installation Guidelines for Architectural Grazing
@@ -120,7 +118,13 @@ All mounting hardware is included, and installation takes approximately 15 minut
 
 ### Common Upward Lighting Mistakes
 
-Achieving a refined result requires avoiding a few common errors. Balanced fixture spacing ensures depth and elegance rather than a flat, over-lit appearance. Warm white LEDs (2700K-3000K) create an inviting glow, while cool white reads as clinical. Consistent spacing prevents the eye from focusing on the fixtures themselves rather than the architecture. Lighting every surface eliminates the contrast that makes grazing effective — restraint is essential. Finally, combining facade lighting with landscape layers creates a complete, intentional composition rather than an incomplete effort.
+Achieving a refined result requires avoiding a few common errors:
+
+- **Over-lighting** — Balanced fixture spacing ensures depth and elegance rather than a flat, over-lit appearance.
+- **Wrong color temperature** — Warm white LEDs (2700K-3000K) create an inviting glow; cool white reads as clinical.
+- **Inconsistent spacing** — Prevents the eye from focusing on the fixtures themselves rather than the architecture.
+- **Lighting every surface** — Eliminates the contrast that makes grazing effective. Restraint is essential.
+- **Ignoring landscape layers** — Combining facade lighting with tree and path lighting creates a complete, intentional composition.
 
 Well-executed architectural grazing is subtle. The goal is to make the architecture look better, not to draw attention to the lights themselves.
 
@@ -168,7 +172,7 @@ Yes — well-executed architectural lighting is consistently cited by real estat
 
 ### Final Thoughts
 
-Well-executed upward lighting transforms how a property feels after dark. Start with a single focal area — your main facade, a courtyard wall, or a retaining garden wall — and expand from there. Combine facade grazing with landscape uplighting for a complete, layered outdoor lighting system that feels intentional, luxurious, and thoroughly designed.
+Architectural grazing is one of the most cost-effective ways to elevate a home's nighttime presence. Start with a single focal area — your main facade, a courtyard wall, or a retaining garden wall — and expand from there. Combine facade grazing with landscape uplighting for a complete, layered outdoor lighting system that feels intentional, luxurious, and thoroughly designed.
 
 > "The goal is not to light everything. The goal is to light what matters."
 

@@ -10,7 +10,7 @@ metaDescription: "Discover how architectural grazing with upward lighting transf
 wordCount: 1385
 publishedAt: "2026-06-09T00:00:00.000000"
 updatedAt: "2026-06-09T00:00:00.000000"
-faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "Is installation homeowner-friendly?", "answer": "All mounting hardware is included, making installation straightforward for homeowners comfortable with basic electrical work."}, {"question": "Is the DASTOR light waterproof?", "answer": "Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant."}, {"question": "What is the warranty?", "answer": "24-month manufacturer warranty."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury."}]
+faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "How long does installation take?", "answer": "Installation time varies depending on experience and wiring conditions, but most homeowners comfortable with basic electrical work can complete the process in under an hour per fixture. All mounting hardware is included."}, {"question": "Is the DASTOR light waterproof?", "answer": "Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant."}, {"question": "What is the warranty?", "answer": "24-month manufacturer warranty."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury."}]
 relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-modern-deck"]
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
@@ -37,7 +37,7 @@ Well-executed upward lighting transforms how a property feels after dark. A home
 
 ### Why Grazing Works: The Psychology of Light
 
-Architectural grazing succeeds for three psychological reasons. First, shadows create the illusion of three-dimensionality on flat surfaces, making walls appear deeper and more substantial. Second, light draws the eye upward, emphasizing height and architectural importance. Third, well-lit architecture instinctively reads as more valuable — a principle widely associated with luxury residential design.
+Architectural grazing succeeds for three psychological reasons. First, shadows create the illusion of three-dimensionality on flat surfaces, making walls appear deeper and more substantial. Second, light draws the eye upward, emphasizing height and architectural importance. Third, thoughtful exterior lighting can enhance perceptions of quality, craftsmanship, and prestige.
 
 ### Best Surfaces for Architectural Grazing
 
@@ -87,7 +87,7 @@ Among the dozens of up/down wall fixtures currently available, **the DASTOR Up a
 - Die-cast aluminum construction — built for coastal and wet climates
 - GU10 bulbs included
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (4.5★ | 1,327 reviews)
+**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)**
 
 ### Layering Your Outdoor Lighting System
 
@@ -160,8 +160,8 @@ Yes, but the effect is more subtle. Modern facades benefit from upward lighting 
 **Does DASTOR include bulbs?**  
 Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included.
 
-**Is installation homeowner-friendly?**  
-All mounting hardware is included, making installation straightforward for homeowners comfortable with basic electrical work.
+**How long does installation take?**  
+Installation time varies depending on experience and wiring conditions, but most homeowners comfortable with basic electrical work can complete the process in under an hour per fixture. All mounting hardware is included.
 
 **Is the DASTOR light waterproof?**  
 Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant.
@@ -182,7 +182,7 @@ Architectural grazing is one of the most cost-effective ways to elevate a home's
 
 In luxury design, restraint often creates the strongest impression.
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (Amazon's Choice)
+**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)**
 
 ### Explore More Outdoor Lighting
 

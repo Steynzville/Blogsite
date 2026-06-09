@@ -89,6 +89,7 @@ export default function Category() {
                           src={article.heroImage}
                           alt={article.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                          style={{ objectPosition: article.imagePosition || 'center center' }}
                         />
                       )}
                     </div>

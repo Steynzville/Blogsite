@@ -9,6 +9,7 @@ interface Article {
   excerpt: string;
   category: string;
   heroImage?: string;
+  imagePosition?: string;
 }
 
 interface RelatedArticlesProps {
@@ -51,6 +52,7 @@ export const RelatedArticles: React.FC<RelatedArticlesProps> = ({
                       src={article.heroImage}
                       alt={article.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      style={{ objectPosition: article.imagePosition || 'center center' }}
                     />
                   )}
                 </div>

@@ -209,15 +209,16 @@ export default function Home() {
               <Link key={article.slug} href={`/article/${article.slug}`}>
                 <a className="group cursor-pointer block h-full">
                   <div className="overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 mb-4 h-48 sm:h-56 md:h-64 shadow-sm group-hover:shadow-lg transition-shadow duration-300 aspect-video">
-                    {article.heroImage && (
-                      <OptimizedImage
-                        src={article.heroImage}
-                        alt={article.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        width={800}
-                        height={450}
-                      />
-                    )}
+	                    {article.heroImage && (
+	                      <OptimizedImage
+	                        src={article.heroImage}
+	                        alt={article.title}
+	                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+	                        style={{ objectPosition: article.imagePosition || 'center center' }}
+	                        width={800}
+	                        height={450}
+	                      />
+	                    )}
                   </div>
                   <div className="space-y-3">
                     <p className="text-xs sm:text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wider">

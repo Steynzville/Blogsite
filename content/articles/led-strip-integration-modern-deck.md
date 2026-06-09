@@ -4,6 +4,7 @@ slug: "led-strip-lighting-outdoor-guide"
 category: "Outdoor Lighting"
 excerpt: "Not all LED strips work outdoors. Learn the difference between 220V, 12V, and solar strips — and when to choose step lights or spotlights instead."
 heroImage: "/images/led-strip-hero.jpg"
+imagePosition: "center 70%"
 featured: true
 seoTitle: "Outdoor LED Strip Lighting Guide: 220V vs 12V vs Solar | VELUCE"
 metaDescription: "Complete guide to outdoor LED strip lighting. Compare 220V, 12V, and solar strips. Learn placement, waterproofing, and when NOT to use strips."

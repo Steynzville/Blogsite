@@ -220,11 +220,11 @@ A single strip is rarely enough. Complete outdoor lighting combines multiple lay
 
 | Layer | Product | Purpose |
 |-------|---------|---------|
-| Deck/pergola lighting | 220V or 12V COB strip | Defines structure, creates ambience |
-| Stair safety | Solar step lights | Prevents trips, soft guidance |
-| Path definition | Solar ground lights | Flush-mount, walkway edges |
-| Tree and shrub uplighting | Solar spotlights | Adds depth beyond the deck |
-| Wall grazing (optional) | Solar wall lights | Connects deck to house architecture |
+| Deck/pergola lighting | [220V or 12V COB strip](https://steynenslin.s.gy/TUYAcobLED) | Defines structure, creates ambience |
+| Stair safety | [Solar step lights](https://steynenslin.s.gy/SolarStep) | Prevents trips, soft guidance |
+| Path definition | [Solar ground lights](https://steynenslin.s.gy/SolarInground) | Flush-mount, walkway edges |
+| Tree and shrub uplighting | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) | Adds depth beyond the deck |
+| Wall grazing (optional) | [Solar wall lights](https://steynenslin.s.gy/SolarWall) | Connects deck to house architecture |
 
 *For a complete guide to facade lighting, see our article on [Upward Lighting: The Art of Architectural Grazing](/article/upward-lighting-architectural-grazing).*
 
@@ -301,7 +301,12 @@ Start with the three questions at the top of this guide:
 
 In outdoor lighting, restraint and precision always outperform enthusiasm and excess.
 
-**[→ Shop 220V Smart COB LED Strip](https://steynenslin.s.gy/TUYAcobLED)** | **[→ Shop 12V/24V DC COB Strip](https://steynenslin.s.gy/24vDCplugLED)** | **[→ Shop Solar LED Strip](https://steynenslin.s.gy/SolarLED)**
+**Shop LED strips:**
+- [220V Smart COB LED Strip](https://steynenslin.s.gy/TUYAcobLED)
+- [12V/24V DC COB Strip](https://steynenslin.s.gy/24vDCplugLED)
+- [Solar LED Strip](https://steynenslin.s.gy/SolarLED)
+
+---
 
 ## Explore More Outdoor Lighting
 

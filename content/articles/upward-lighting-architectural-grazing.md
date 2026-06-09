@@ -7,10 +7,10 @@ heroImage: "/images/hero-dastor-patio-dusk.jpg"
 featured: true
 seoTitle: "Upward Lighting: The Art of Architectural Grazing for Luxury Homes | VELUCE"
 metaDescription: "Discover how architectural grazing with upward lighting transforms ordinary facades into dramatic, textured focal points at night. Complete guide for luxury homes."
-wordCount: 1500
+wordCount: 1385
 publishedAt: "2026-06-09T00:00:00.000000"
 updatedAt: "2026-06-09T00:00:00.000000"
-faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Upward lighting (grazing) positions fixtures close to the wall to create shadow play. Wall washing positions fixtures further away to evenly illuminate the surface. Grazing emphasizes texture and detail; washing creates a more uniform appearance."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is consistently cited by real estate professionals as a high-return investment in curb appeal and perceived luxury."}]
+faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury."}]
 relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-modern-deck"]
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
@@ -105,6 +105,8 @@ Grazing is most powerful when combined with other layers. A complete outdoor lig
 | **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) |
 | **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | Warm white architectural tape) |
 
+*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Integration for Modern Decks](/led-strip-integration-modern-deck) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
+
 ### Installation Guidelines for Architectural Grazing
 
 | Rule of Thumb          | Recommendation                     |
@@ -114,7 +116,7 @@ Grazing is most powerful when combined with other layers. A complete outdoor lig
 | Beam angle             | 15-30 degrees for true grazing     |
 | Color temperature      | 2700K–3000K for warm, inviting glow |
 
-All mounting hardware is included, and installation takes approximately 15 minutes per fixture.
+All mounting hardware is included, making installation straightforward for homeowners comfortable with basic electrical work.
 
 ### Common Upward Lighting Mistakes
 
@@ -147,7 +149,7 @@ A simple seasonal cleaning keeps them performing for years. For long-term mainte
 ### Frequently Asked Questions
 
 **What's the difference between upward lighting and wall washing?**  
-Upward lighting (grazing) positions fixtures close to the wall to create shadow play. Wall washing positions fixtures further away to evenly illuminate the surface. Grazing emphasizes texture and detail; washing creates a more uniform appearance.
+Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect.
 
 **How many fixtures do I need for upward lighting?**  
 Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture.
@@ -162,13 +164,15 @@ Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included.
 Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant.
 
 **How long does installation take?**  
-Approximately 15 minutes per fixture. All mounting hardware is included.
+All mounting hardware is included, making installation straightforward for homeowners comfortable with basic electrical work.
 
 **What is the warranty?**  
 24-month manufacturer warranty.
 
 **Can upward lighting increase property value?**  
-Yes — well-executed architectural lighting is consistently cited by real estate professionals as a high-return investment in curb appeal and perceived luxury.
+Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury.
+
+*For homeowners drawn to timeless materials, our article on [Copper Lanterns That Age With Grace](/copper-lanterns-age-with-grace) explores another elegant approach to exterior lighting design.*
 
 ### Final Thoughts
 

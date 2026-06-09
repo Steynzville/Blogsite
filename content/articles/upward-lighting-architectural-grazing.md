@@ -150,6 +150,11 @@ Quality fixtures require minimal maintenance. DASTOR lights feature:
 
 A simple seasonal cleaning keeps them performing for years. For long-term maintenance, stock spare bulbs:
 
+<a href="(https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20)" target="_blank" rel="nofollow sponsored">
+  <img src="/images/bulb.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
+</a>
+
+<br>
 **[→ Shop GU10 LED Replacement Bulbs (3000K warm white)](https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20)**
 
 ### Frequently Asked Questions

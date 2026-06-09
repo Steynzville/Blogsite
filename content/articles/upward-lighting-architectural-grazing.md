@@ -7,10 +7,10 @@ heroImage: "/images/hero-dastor-patio-dusk.jpg"
 featured: true
 seoTitle: "Upward Lighting: The Art of Architectural Grazing for Luxury Homes | VELUCE"
 metaDescription: "Discover how architectural grazing with upward lighting transforms ordinary facades into dramatic, textured focal points at night. Complete guide for luxury homes."
-wordCount: 1950
+wordCount: 1500
 publishedAt: "2026-06-09T00:00:00.000000"
 updatedAt: "2026-06-09T00:00:00.000000"
-faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Upward lighting (grazing) positions fixtures close to the wall to create shadow play. Wall washing positions fixtures further away to evenly illuminate the surface. Grazing emphasizes texture and detail; washing creates a more uniform appearance."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is consistently cited by real estate professionals as a high-return investment in curb appeal and perceived luxury."}]
+faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Upward lighting (grazing) positions fixtures close to the wall to create shadow play. Wall washing positions fixtures further away to evenly illuminate the surface. Grazing emphasizes texture and detail; washing creates a more uniform appearance."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is consistently cited by real estate professionals as a high-return investment in curb appeal and perceived luxury."}]
 relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-integration-modern-deck"]
 internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
 ---
@@ -20,7 +20,7 @@ internalLinks: [{"text": "LED Strip Integration", "slug": "led-strip-integration
 
 - Architectural grazing reveals texture through shadow
 - Natural stone and brick produce the strongest results
-- Wall-mounted up/down lights achieve grazing through narrow beam angles
+- Use narrow-beam up/down lights placed close to the wall
 - Warm white lighting (2700K–3000K) creates the most inviting effect
 - Layer facade lighting with tree and path lighting for a luxury result
 

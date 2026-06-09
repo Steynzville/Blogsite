@@ -31,8 +31,8 @@ Upward lighting — known in professional design circles as **architectural graz
 <a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
   <img src="/images/architectural-grazing-stone-wall.jpg" alt="Architectural grazing on textured stone wall at night" loading="lazy">
 </a>
-
 <br>
+
 When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental after dark.
 
 Well-executed upward lighting transforms how a property feels after dark. A home that appears ordinary by day becomes a striking architectural presence at night — enhancing curb appeal, perceived value, and the enjoyment of outdoor spaces well into the evening.
@@ -85,8 +85,8 @@ Among the dozens of up/down wall fixtures currently available, **I particularly 
 <a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
   <img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
 </a>
+<br>
 
-<br> 
 **Why This Fixture Works for Grazing:**
 
 - Up and down light pattern creates shadow play above and below the fixture
@@ -102,8 +102,8 @@ Among the dozens of up/down wall fixtures currently available, **I particularly 
 <a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
   <img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
 </a>
-
 <br>
+
 Grazing is most powerful when combined with other layers. A complete outdoor lighting system includes:
 
 | Layer | Purpose | Recommended Product |
@@ -154,8 +154,8 @@ A simple seasonal cleaning keeps them performing for years. For long-term mainte
 href="https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
   <img src="/images/bulb.jpg" alt="Replacement bulbs" loading="lazy">
 </a>
-
 <br>
+
 **[→ Shop GU10 LED Replacement Bulbs (3000K warm white)](https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20)**
 
 ### Frequently Asked Questions

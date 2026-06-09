@@ -290,8 +290,6 @@
     padding-right: 1rem;
   }
 
-
-
   @media (min-width: 640px) {
     .container {
       padding-left: 1.5rem; /* 24px - tablet padding */
@@ -308,3 +306,10 @@
   }
 }
 
+/* Force LED article hero image to show lower portion (fire pit area) */
+a[href*="led-strip-lighting-outdoor-guide"] .h-48 img,
+a[href*="led-strip-lighting-outdoor-guide"] .h-56 img,
+a[href*="led-strip-lighting-outdoor-guide"] .h-64 img,
+a[href*="led-strip-lighting-outdoor-guide"] .aspect-video img {
+  object-position: center 70% !important;
+}

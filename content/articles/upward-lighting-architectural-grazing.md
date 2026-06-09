@@ -122,7 +122,7 @@ Achieving a refined result requires avoiding a few common errors:
 
 - **Over-lighting** — Balanced fixture spacing ensures depth and elegance rather than a flat, over-lit appearance.
 - **Wrong color temperature** — Warm white LEDs (2700K-3000K) create an inviting glow; cool white reads as clinical.
-- **Inconsistent spacing** — Prevents the eye from focusing on the fixtures themselves rather than the architecture.
+- **Inconsistent spacing** — Draws the eye to the fixtures themselves rather than the architecture.
 - **Lighting every surface** — Eliminates the contrast that makes grazing effective. Restraint is essential.
 - **Ignoring landscape layers** — Combining facade lighting with tree and path lighting creates a complete, intentional composition.
 
@@ -178,7 +178,7 @@ Architectural grazing is one of the most cost-effective ways to elevate a home's
 
 In luxury design, grazing is not just illumination — it's a statement of architectural prestige.
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (20% off | Amazon's Choice)
+**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)** (Amazon's Choice)
 
 ### Explore More Outdoor Lighting
 

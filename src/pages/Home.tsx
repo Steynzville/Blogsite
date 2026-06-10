@@ -249,6 +249,7 @@ export default function Home() {
             {categories.map((category: any) => {
               const categoryImages: Record<string, string> = {
                 'outdoor-lighting': '/images/categories/outdoor-lighting.jpg',
+                'kitchen-essentials': '/images/categories/kitchen-essentials.jpg',
                 'patio-decor': '/images/categories/patio-decor.jpg',
                 'garden-lighting': '/images/categories/garden-lighting.jpg',
                 'luxury-interiors': '/images/categories/luxury-interiors.jpg',

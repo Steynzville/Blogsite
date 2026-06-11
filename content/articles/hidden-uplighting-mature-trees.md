@@ -4,7 +4,7 @@ slug: "hidden-uplighting-mature-trees"
 category: "Garden Lighting"
 excerpt: "Concealed fixtures that create dramatic shadow play through branches."
 heroImage: "/images/tree-uplighting.jpg"
-featured: true
+featured: false
 seoTitle: "Tree Uplighting Techniques for Luxury Gardens | VELUCE"
 metaDescription: "Create dramatic shadow play with hidden uplighting. Complete guide to illuminating mature trees and creating garden focal points."
 wordCount: 2100

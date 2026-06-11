@@ -4,7 +4,7 @@ slug: "smart-home-lighting-control"
 category: "Smart Home"
 excerpt: "Lutron, Control4, and Savant compared for seamless scene management."
 heroImage: "/images/lighting-control.jpg"
-featured: true
+featured: false
 seoTitle: "Smart Lighting Systems for Luxury Homes | Lutron, Control4, Savant"
 metaDescription: "Compare leading smart lighting platforms: Lutron, Control4, and Savant. Learn how to choose the right system for your luxury home."
 wordCount: 2600

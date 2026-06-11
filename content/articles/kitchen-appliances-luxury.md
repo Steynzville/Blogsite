@@ -4,7 +4,7 @@ slug: "kitchen-appliances-luxury"
 category: "Kitchen Essentials"
 excerpt: "Heritage brands and professional performance in luxury kitchen design."
 heroImage: "/images/kitchen-appliances.jpg"
-featured: true
+featured: false
 seoTitle: "Luxury Kitchen Appliances | Premium Brands and Performance"
 metaDescription: "Explore luxury kitchen appliances from leading brands. Learn performance, design, and integration for premium kitchens."
 wordCount: 2100

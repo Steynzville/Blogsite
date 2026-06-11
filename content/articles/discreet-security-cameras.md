@@ -4,7 +4,7 @@ slug: "discreet-security-cameras"
 category: "Home Security"
 excerpt: "Cameras concealed within architectural elements — light fixtures, eaves, and landscape features."
 heroImage: "/images/security-cameras.jpg"
-featured: true
+featured: false
 seoTitle: "Hidden Security Cameras for Luxury Homes | VELUCE"
 metaDescription: "Learn how to integrate security cameras seamlessly into architecture. Complete guide to discreet camera placement for luxury homes."
 wordCount: 2400

@@ -4,7 +4,7 @@ slug: "invisible-hvac-design"
 category: "Smart Home"
 excerpt: "Climate control systems that disappear into architecture."
 heroImage: "/images/hvac-design.jpg"
-featured: true
+featured: false
 seoTitle: "Luxury HVAC Design | Underfloor and Mini-Split Systems"
 metaDescription: "Discover invisible HVAC systems for luxury homes. Learn underfloor heating and ducted mini-splits that maintain architectural integrity."
 wordCount: 2300

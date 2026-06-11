@@ -4,7 +4,7 @@ slug: "hidden-uplighting-mature-trees"
 category: "Garden Lighting"
 excerpt: "Concealed solar fixtures that create dramatic shadow play through branches — transforming mature trees into nighttime garden anchors."
 heroImage: "/images/tree-uplighting.jpg"
-featured: true
+featured: false
 seoTitle: "Tree Uplighting Techniques for Luxury Gardens | VELUCE"
 metaDescription: "Create dramatic shadow play with hidden solar uplighting. Complete guide to illuminating mature trees and creating garden focal points with solar spotlights and inground lights."
 wordCount: 2400

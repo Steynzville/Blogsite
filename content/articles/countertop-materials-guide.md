@@ -4,7 +4,7 @@ slug: "countertop-materials-guide"
 category: "Kitchen Essentials"
 excerpt: "Durability, maintenance, and aesthetics of today's premium countertop materials."
 heroImage: "/images/countertop-materials.jpg"
-featured: true
+featured: false
 seoTitle: "Kitchen Countertops | Quartzite vs Porcelain Guide"
 metaDescription: "Compare quartzite and porcelain countertops for luxury kitchens. Learn durability, maintenance, and design options."
 wordCount: 2200

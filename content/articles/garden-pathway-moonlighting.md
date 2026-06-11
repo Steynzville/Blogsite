@@ -4,7 +4,7 @@ slug: "garden-pathway-moonlighting"
 category: "Garden Lighting"
 excerpt: "Downlighting techniques that mimic natural moonlight on winding paths."
 heroImage: "/images/pathway-moonlighting.jpg"
-featured: true
+featured: false
 seoTitle: "Garden Pathway Lighting Design | Moonlighting Techniques"
 metaDescription: "Create enchanting garden pathways with moonlighting techniques. Learn downlighting methods that mimic natural moonlight on winding paths."
 wordCount: 2000

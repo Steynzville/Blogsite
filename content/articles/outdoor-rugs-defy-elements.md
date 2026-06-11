@@ -4,7 +4,7 @@ slug: "outdoor-rugs-defy-elements"
 category: "Patio Decor"
 excerpt: "Weather-resistant textiles that anchor your patio design."
 heroImage: "/images/outdoor-rugs.jpg"
-featured: true
+featured: false
 seoTitle: "Luxury Outdoor Rugs for Patios | Weather-Resistant Guide"
 metaDescription: "Discover weather-resistant outdoor rugs that anchor patio design. Learn materials, maintenance, and styling for luxury outdoor spaces."
 wordCount: 2100

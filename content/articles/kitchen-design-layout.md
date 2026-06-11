@@ -4,7 +4,7 @@ slug: "kitchen-design-layout"
 category: "Kitchen Essentials"
 excerpt: "Understand kitchen layout principles and design strategies for functional luxury spaces."
 heroImage: "/images/kitchen-layout.jpg"
-featured: true
+featured: false
 seoTitle: "Luxury Kitchen Design and Layout | VELUCE"
 metaDescription: "Master kitchen design principles and layout planning. Learn work triangles, zones, and design for luxury kitchens."
 wordCount: 2300

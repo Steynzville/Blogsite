@@ -4,7 +4,7 @@ slug: "smart-access-control"
 category: "Home Security"
 excerpt: "Keyless entry systems with biometric recognition and remote guest access."
 heroImage: "/images/access-control.jpg"
-featured: true
+featured: false
 seoTitle: "Smart Door Locks for Luxury Homes | Access Control Guide"
 metaDescription: "Discover smart access control systems for luxury homes. Learn biometric locks, keyless entry, and remote guest access for security and convenience."
 wordCount: 2200

@@ -11,8 +11,8 @@ wordCount: 2400
 publishedAt: "2026-06-12T00:00:00.000000"
 updatedAt: "2026-06-12T00:00:00.000000"
 faq: [{"question": "Can uplighting damage mature trees?", "answer": "No, when properly installed. Modern solar LED fixtures generate minimal heat. Use ground-mounted stakes rather than drilling into tree trunks."}, {"question": "How many solar spotlights do I need to uplight a tree?", "answer": "Small trees may need one fixture. Large specimens often require 3-5 solar spotlights positioned around the drip line for even coverage."}, {"question": "What's the best color temperature for tree uplighting?", "answer": "Warm white (2700K-3000K) is most popular for creating an inviting, natural atmosphere that enhances bark texture and green foliage."}, {"question": "Do solar uplights work in winter?", "answer": "Yes, but with shorter runtime. Shorter daylight hours reduce charging capacity. Position solar panels for maximum winter sun exposure and expect 4-6 hours of illumination rather than 8-10."}, {"question": "How far from a tree trunk should I place uplights?", "answer": "Generally 5-15 feet, depending on tree size. Position fixtures at the tree's drip line (edge of the canopy) for optimal angle through the branches."}, {"question": "Can I use the same solar lights for trees and pathways?", "answer": "Different beam angles suit different purposes. Solar spotlights (narrow beam) work best for trees. Solar inground lights (wider distribution) are better for pathways and garden edges."}]
-relatedArticles: ["garden-pathway-moonlighting", "led-strip-lighting-outdoor-guide"]
-internalLinks: [{"text": "Garden Pathway Moonlighting", "slug": "garden-pathway-moonlighting"}, {"text": "LED Strip Lighting for Outdoors", "slug": "led-strip-lighting-outdoor-guide"}]
+relatedArticles: ["garden-pathway-moonlighting", "fire-pit-tables-centerpiece", "led-strip-integration-modern-deck"]
+internalLinks: [{"text": "Pathway Moonlighting", "slug": "garden-pathway-moonlighting"}, {"text": "Fire Pit Tables", "slug": "fire-pit-tables-centerpiece"}, {"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}]
 ---
 
 ## Quick Takeaways
@@ -180,7 +180,7 @@ Generally 5-15 feet, depending on tree size. Position fixtures at the tree's dri
 **Can I use the same solar lights for trees and pathways?**  
 Different beam angles suit different purposes. Solar spotlights (narrow beam) work best for trees. Solar inground lights (wider distribution) are better for pathways and garden edges.
 
-*For homeowners drawn to layered garden lighting, our article on [LED Strip Lighting for Outdoors](/article/led-strip-lighting-outdoor-guide) explores another approach to defining garden edges and pathways.*
+*For homeowners drawn to layered garden lighting, our article on [LED Strip Integration for Modern Decks](/article/led-strip-integration-modern-deck) explores another approach to defining garden edges and pathways.*
 
 > The finest gardens are those that reveal themselves slowly after sunset.
 
@@ -194,4 +194,4 @@ Trees don't become important at night by accident. They become important by desi
 
 **Browse solar uplighting and inground lights →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
 
-**Save garden lighting ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/) 
+**Save garden lighting ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)

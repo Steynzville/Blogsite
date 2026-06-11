@@ -4,7 +4,7 @@ slug: "natural-stone-materials"
 category: "Luxury Interiors"
 excerpt: "Compare the beauty, durability, and maintenance of travertine, marble, and limestone — three timeless natural stones for luxury interiors."
 heroImage: "/images/stone-materials.jpg"
-featured: true
+featured: false
 seoTitle: "Natural Stone for Luxury Interiors | Travertine vs Marble vs Limestone | VELUCE"
 metaDescription: "Compare travertine, marble, and limestone for luxury interiors. Learn characteristics, maintenance requirements, applications, and which stone suits your home best."
 wordCount: 2900

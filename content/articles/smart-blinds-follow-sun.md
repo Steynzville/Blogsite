@@ -4,7 +4,7 @@ slug: "smart-blinds-follow-sun"
 category: "Smart Home"
 excerpt: "Automated shading systems that optimize natural light and privacy."
 heroImage: "/images/smart-blinds.jpg"
-featured: true
+featured: false
 seoTitle: "Automated Blinds for Luxury Homes | Smart Shading Systems"
 metaDescription: "Discover automated blinds that optimize natural light and privacy. Learn smart shading systems for luxury homes and energy efficiency."
 wordCount: 2200

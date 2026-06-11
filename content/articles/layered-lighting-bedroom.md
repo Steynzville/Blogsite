@@ -4,7 +4,7 @@ slug: "layered-lighting-bedroom"
 category: "Luxury Interiors"
 excerpt: "Create sophisticated bedroom lighting that supports relaxation and functionality."
 heroImage: "/images/bedroom-lighting.jpg"
-featured: true
+featured: false
 seoTitle: "Bedroom Lighting Design | Layered Lighting for Luxury Spaces"
 metaDescription: "Master layered lighting design for luxury bedrooms. Learn ambient, task, and accent lighting for perfect bedroom ambiance."
 wordCount: 2100

@@ -4,7 +4,7 @@ slug: "moonlighting-tree-canopies"
 category: "Garden Lighting"
 excerpt: "Learn how downlighting techniques mimic natural moonlight to create enchanting garden ambiance."
 heroImage: "/images/tree-canopies.jpg"
-featured: true
+featured: false
 seoTitle: "Moonlighting Techniques for Garden Design | VELUCE"
 metaDescription: "Master moonlighting techniques to create enchanting garden ambiance. Learn how downlighting mimics natural moonlight for dramatic effects."
 wordCount: 2500

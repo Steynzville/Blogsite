@@ -104,19 +104,14 @@ Orientation matters more than height. Lights should direct light **down and acro
 
 With all four axes now defined, the complete spatial model emerges:
 
-| Axis | Pillar | Function | Light Behavior |
-|------|--------|----------|----------------|
-| **X** | Fire Pit Tables | Horizontal gravity — social convergence | Warm, flickering, central |
-| **Y** | Tree Uplighting | Vertical gravity — perception hierarchy | Directed upward, shadow-creating |
-| **Z** | Pathway Lighting | Directional gravity — movement logic | Pools on ground, rhythm-based |
-| **A** | Pathway Moonlighting | Ambient gravity — atmospheric mood | Soft, diffuse, from above |
+**The 4-Axis Spatial Model:**
 
-Together, they form a complete spatial operating system for outdoor experience design:
+- **X (Fire Pit Tables):** Horizontal gravity — social convergence. Warm, flickering, central.
+- **Y (Tree Uplighting):** Vertical gravity — perception hierarchy. Directed upward, shadow-creating.
+- **Z (Pathway Lighting):** Directional gravity — movement logic. Pools on ground, rhythm-based.
+- **A (Pathway Moonlighting):** Ambient gravity — atmospheric mood. Soft, diffuse, from above.
 
-- **X (Gathering)** — Fire gathers people
-- **Y (Perception)** — Trees organize attention
-- **Z (Circulation)** — Paths guide movement
-- **A (Atmosphere)** — Moonlight creates mood
+Together, they form a complete spatial operating system for outdoor experience design.
 
 *For the complete guide to fire as horizontal gravity, see [Fire Pit Tables](/article/fire-pit-tables-centerpiece). For trees as vertical gravity, see [Hidden Uplighting for Mature Trees](/article/hidden-uplighting-mature-trees). For moonlighting as ambient gravity, see [Garden Pathway Moonlighting](/article/garden-pathway-moonlighting).*
 

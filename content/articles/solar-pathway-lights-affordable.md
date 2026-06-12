@@ -33,8 +33,6 @@ For years, solar lighting earned its poor reputation. Thin plastic stakes, cold 
 
 Modern solar pathway lights have finally caught up to this philosophy. Gone are the days of dim, blue-tinged plastic stakes. Today's premium solar lights combine sustainable energy with sophisticated design, offering genuine alternatives to wired systems.
 
-<img src="/images/solar-lights.jpg" alt="Garden pathway at dusk with four modern hexagonal black solar path lights casting warm golden glow onto stone pavers, surrounded by pink and yellow roses and lush greenery" width="1200" height="800" loading="lazy">
-
 ## What Makes a Solar Path Light Look Premium
 
 The difference between cheap and premium isn't price alone. It's light quality, weather protection, and restraint.
@@ -103,11 +101,20 @@ Position lights **6-12 inches from the path edge**, aiming light across the walk
 
 ## Solar vs. Low-Voltage vs. Line Voltage
 
-| Type | Pros | Cons | Best For |
-|------|------|------|----------|
-| **Solar** | No wiring, no electrician, zero operating cost | Less bright, dependent on sun exposure | Remote areas, existing gardens, DIY |
-| **Low-voltage** | Brighter, reliable, professional | Requires transformer and wiring | New construction, large landscapes |
-| **Line voltage** | Maximum brightness | Requires electrician, higher cost | Commercial, security-focused |
+**Solar:**
+- **Pros:** No wiring, no electrician, zero operating cost
+- **Cons:** Less bright, dependent on sun exposure
+- **Best for:** Remote areas, existing gardens, DIY
+
+**Low-voltage:**
+- **Pros:** Brighter, reliable, professional
+- **Cons:** Requires transformer and wiring
+- **Best for:** New construction, large landscapes
+
+**Line voltage:**
+- **Pros:** Maximum brightness
+- **Cons:** Requires electrician, higher cost
+- **Best for:** Commercial, security-focused
 
 For most homeowners, **solar works well for pathway accent lighting** in areas with good sun exposure.
 
@@ -116,7 +123,7 @@ For most homeowners, **solar works well for pathway accent lighting** in areas w
 ### Modern Cylinder Lights
 
 <img src="/images/solar-modern-path-lights.jpg" alt="Modern curved concrete walkway at dusk with sleek cylindrical solar path lights casting warm white glow, contemporary home with floor-to-ceiling windows in background" width="1200" height="800" loading="lazy">
-
+<br>
 Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beautifully with modern architecture and geometric hardscaping.
 
 **Key features:**
@@ -129,7 +136,7 @@ Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beau
 ### Traditional Lantern Lights
 
 <img src="/images/solar-lantern-path-lights.jpg" alt="Rustic irregular stone path at dusk with traditional lantern-style solar lights casting warm golden glow, lush garden foliage framing the scene" width="1200" height="800" loading="lazy">
-
+<br>
 Classic lantern-style lights with decorative details and warm golden illumination. They complement natural stone paths and traditional architecture.
 
 **Key features:**

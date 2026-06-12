@@ -4,7 +4,7 @@ slug: "pergola-lighting-outdoor-room"
 category: "Patio Decor"
 excerpt: "A pergola is not a roof — it's a frame for light. Discover how integrated LED strips, string lights, and layered illumination transform open structures into intimate evening spaces."
 heroImage: "/images/pergola-hero.jpg"
-featured: false
+featured: true
 seoTitle: "Pergola Lighting Design: Create an Outdoor Room | VELUCE"
 metaDescription: "Master pergola lighting design to create an outdoor room after dark. Learn how integrated LED strips, string lights, and layered illumination transform open structures."
 wordCount: 2650

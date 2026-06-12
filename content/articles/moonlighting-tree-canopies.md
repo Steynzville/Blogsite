@@ -30,7 +30,7 @@ Natural moonlight doesn't announce itself. It arrives softly, indirectly, creati
 In moonlighting landscape lighting, fixtures are concealed high above the garden so the effect resembles natural moonlight filtering through branches. The result is not illumination — it's atmosphere.
 
 <img src="/images/tree-canopies.jpg" alt="Large mature tree illuminated by a combination of uplighting from ground level and downlighting from the canopy, creating dramatic shadow play and dappled light on the ground beneath a starry night sky" width="1200" height="800" loading="lazy">
-
+<br>
 *This scene combines uplighting to reveal the trunk's texture with moonlighting (downlighting from the canopy) to create dappled shadows on the ground — a layered approach to tree illumination.*
 
 ## What Is Moonlighting?
@@ -49,7 +49,7 @@ This technique works best in gardens designed for wandering rather than efficien
 | **Uplighting** | From ground, aimed upward | Dramatic shadow, vertical emphasis | Revealing trunk texture, canopy structure |
 
 <img src="/images/moonlighting-vs-uplighting-diagram.jpg" alt="Educational diagram showing the difference between moonlighting (downlighting from canopy) and uplighting (lighting from ground level) on a single mature tree at twilight, with warm golden light contrasting against dark blue sky" width="1200" height="800" loading="lazy">
-
+<br>
 Used together, they create a complete tree illumination system — uplighting reveals the trunk and lower canopy, while moonlighting casts soft light downward through the branches. This layered approach is what you see in the hero image above.
 
 **[→ Shop Narrow-Beam Spotlights for Tree Lighting](https://steynenslin.s.gy/SolarSpot)**

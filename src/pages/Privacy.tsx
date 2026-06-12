@@ -37,58 +37,81 @@ export default function Privacy() {
 
       {/* Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 dark:text-white mb-8">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 dark:text-white mb-4">
           Privacy Policy
         </h1>
+        
+        <div className="space-y-2 mb-8">
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            Last updated: June 12, 2026
+          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            This Privacy Policy applies to information collected through velucedesign.com.
+          </p>
+        </div>
 
         <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 space-y-6">
-
-
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Introduction</h2>
           <p className="leading-relaxed">
-            VELUCE ("we," "us," "our," or "Company") operates the VELUCE website (the "Site"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Site and the choices you have associated with that data.
+            This Privacy Policy explains what information we collect, how we use it, and the choices available to you when you visit VELUCE. We are committed to handling personal information in accordance with applicable privacy laws, including South Africa's Protection of Personal Information Act (POPIA).
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Information Collection and Use</h2>
-          <p className="leading-relaxed">
-            We collect several different types of information for various purposes to provide and improve our service to you.
-          </p>
-
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">Types of Data Collected</h3>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Information We Collect</h2>
           <ul className="list-disc list-inside space-y-2 ml-4">
-            <li><strong>Personal Data:</strong> While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). This may include, but is not limited to:
-              <ul className="list-disc list-inside space-y-1 ml-4 mt-2">
-                <li>Email address</li>
-                <li>First name and last name</li>
-                <li>Cookies and Usage Data</li>
-              </ul>
-            </li>
-            <li><strong>Usage Data:</strong> We may also collect information on how the Site is accessed and used ("Usage Data"). This may include information such as your computer's Internet Protocol address, browser type, browser version, the pages you visit, the time and date of your visit, and other diagnostic data.</li>
+            <li><strong>Personal Data:</strong> When you contact us through our contact form, you provide your name, email address, and any message content you choose to share.</li>
+            <li><strong>Usage Data:</strong> We automatically collect basic information about how you access and use the Site, including your IP address, browser type, pages visited, and time of visit.</li>
+            <li><strong>Cookies:</strong> We use cookies and similar technologies, including those provided by analytics services such as Google Analytics, to understand how visitors use our Site and to improve performance. You can disable cookies in your browser settings, although some features may not function properly.</li>
           </ul>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Use of Data</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">How We Use Your Information</h2>
           <p className="leading-relaxed">
-            VELUCE uses the collected data for various purposes:
+            We use collected information to:
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
-            <li>To provide and maintain our Site</li>
-            <li>To notify you about changes to our Site</li>
-            <li>To allow you to participate in interactive features of our Site when you choose to do so</li>
-            <li>To provide customer support</li>
-            <li>To gather analysis or valuable information so that we can improve our Site</li>
-            <li>To monitor the usage of our Site</li>
-            <li>To detect, prevent and address technical issues</li>
-            <li>To send you newsletters and marketing communications (with your consent)</li>
+            <li>Respond to messages submitted through our contact form</li>
+            <li>Maintain and protect the security of the Site</li>
+            <li>Operate, maintain, and improve the functionality and content of the Site</li>
+            <li>Analyze Site usage and performance to improve content and user experience</li>
           </ul>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Security of Data</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Third-Party Service Providers</h2>
           <p className="leading-relaxed">
-            The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+            We use trusted third-party service providers to help operate our Site. These providers may process limited information on our behalf:
+          </p>
+          <ul className="list-disc list-inside space-y-2 ml-4">
+            <li><strong>Formspree:</strong> Processes contact form submissions on our behalf.</li>
+            <li><strong>Google Analytics:</strong> We use Google Analytics to collect anonymized usage data such as page views, device information, and general interaction patterns. This helps us understand and improve Site performance.</li>
+          </ul>
+          <p className="leading-relaxed">
+            You can learn more about how Formspree handles personal information by reviewing <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">their privacy policy</a>.
+          </p>
+          <p className="leading-relaxed">
+            You can learn more about how Google handles data collected through Google Analytics by visiting <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">Google's Privacy Policy</a>.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Changes to This Privacy Policy</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Data Retention</h2>
           <p className="leading-relaxed">
-            We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this Privacy Policy.
+            We retain personal information only for as long as reasonably necessary to respond to inquiries, comply with legal obligations, resolve disputes, and enforce our agreements.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Security</h2>
+          <p className="leading-relaxed">
+            We take reasonable measures to protect your information. However, no method of transmission over the Internet is 100% secure. We strive to use commercially acceptable means to protect your Personal Data.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Children's Privacy</h2>
+          <p className="leading-relaxed">
+            VELUCE is intended for a general audience and is not directed toward children under 13 years of age. We do not knowingly collect personally identifiable information from anyone under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Your Rights</h2>
+          <p className="leading-relaxed">
+            Depending on your location and applicable law, you may have rights relating to the personal information we hold about you, including the right to request access to, correction of, or deletion of that information. To exercise these rights, please contact us using the information below.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Changes to This Policy</h2>
+          <p className="leading-relaxed">
+            We may update this Privacy Policy from time to time. We will post any changes on this page and update the "Last updated" date.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Contact Us</h2>
@@ -100,14 +123,7 @@ export default function Privacy() {
               steyn.enslin@heatrecovery.co.za
             </a>
           </p>
-
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Your Rights</h2>
-          <p className="leading-relaxed">
-            You have the right to access, update, or delete your personal information at any time by contacting us. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy.
-          </p>
         </div>
-
-
       </article>
 
       {/* Footer */}

@@ -100,7 +100,7 @@ Orientation matters more than height. Lights should direct light **down and acro
 
 **[→ Shop Solar Step Lights for Path Edges](https://steynenslin.s.gy/SolarStep)**
 
-## The Hierarchy of Garden Light (Completed)
+## The Hierarchy of Garden Light
 
 With all four axes now defined, the complete spatial model emerges:
 
@@ -172,8 +172,6 @@ Ground-level path lighting uses fixtures at or below the walking surface to guid
 Pathway lighting is not about fixtures. It's about rhythm. Space lights 6-8 feet apart for gentle guidance. Aim down, not out. Use warm white. Walk the path at night and adjust until movement feels unconscious.
 
 A path during the day announces itself. A path at night reveals itself — step by step, pool by pool, until the garden has led you exactly where it wants you to go.
-
-**Explore curated solar lighting systems designed for complete pathway control →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
 
 ## Explore More
 

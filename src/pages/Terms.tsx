@@ -9,7 +9,7 @@ export default function Terms() {
 
   useMetaTags({
     title: 'Terms of Use — VELUCE',
-    description: 'The terms and provisions governing the use of the VELUCE Luxury Living Journal website.',
+    description: 'The terms and provisions governing the use of the VELUCE website.',
     url: 'https://velucedesign.com/terms',
     type: 'website',
   });
@@ -37,105 +37,82 @@ export default function Terms() {
 
       {/* Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-gray-900 dark:text-white mb-8">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-gray-900 dark:text-white mb-4">
           Terms of Use
         </h1>
 
+        <div className="space-y-2 mb-8">
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            Last updated: June 12, 2026
+          </p>
+        </div>
+
         <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 space-y-6">
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              1. Acceptance of Terms
-            </h2>
-            <p>
-              By accessing and using the VELUCE Luxury Living Journal website (the "Site"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">1. Acceptance of Terms</h2>
+          <p>
+            By accessing and using VELUCE (the "Site"), you agree to be bound by these Terms of Use. If you do not agree, please do not use the Site.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              2. Use License
-            </h2>
-            <p>
-              Permission is granted to temporarily download one copy of the materials (information or software) on VELUCE for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
-            </p>
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Modifying or copying the materials</li>
-              <li>Using the materials for any commercial purpose or for any public display</li>
-              <li>Attempting to decompile or reverse engineer any software contained on the Site</li>
-              <li>Removing any copyright or other proprietary notations from the materials</li>
-              <li>Transferring the materials to another person or "mirroring" the materials on any other server</li>
-              <li>Violating any applicable laws or regulations</li>
-              <li>Accessing or searching the Site by any means other than our publicly supported interfaces</li>
-            </ul>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">2. Content Is for Informational Purposes Only</h2>
+          <p>
+            The content on VELUCE is provided for general informational and inspirational purposes only. It does not constitute professional design, architectural, engineering, financial, or purchasing advice. Any decisions you make based on this content are at your own discretion.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              3. Disclaimer
-            </h2>
-            <p>
-              The materials on VELUCE are provided on an 'as is' basis. VELUCE makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
-            </p>
-            <p>
-              Further, VELUCE does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">3. Intellectual Property</h2>
+          <p>
+            All original content on VELUCE, including articles, images, graphics, and written materials, is owned by VELUCE unless otherwise stated.
+          </p>
+          <p>
+            You may share links to our content and quote short excerpts, provided that clear attribution is given and the original content is not misrepresented.
+          </p>
+          <p>
+            Full articles or substantial portions may not be republished without prior written permission.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              4. Limitations
-            </h2>
-            <p>
-              In no event shall VELUCE or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on VELUCE, even if VELUCE or an authorized representative has been notified orally or in writing of the possibility of such damage.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">4. User Submissions</h2>
+          <p>
+            If you submit content (such as messages, feedback, or other materials), you grant VELUCE a non-exclusive right to use such content for the purpose of operating, improving, and displaying the Site. You remain responsible for any content you submit.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              5. Accuracy of Materials
-            </h2>
-            <p>
-              The materials appearing on VELUCE could include technical, typographical, or photographic errors. VELUCE does not warrant that any of the materials on its website are accurate, complete, or current. VELUCE may make changes to the materials contained on its website at any time without notice.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">5. Affiliate Links</h2>
+          <p>
+            Some articles on VELUCE contain affiliate links, which may result in a commission at no additional cost to you. For complete transparency, please review our <Link href="/affiliate" className="text-gray-900 dark:text-white underline">Affiliate Disclosure</Link>.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              6. Links
-            </h2>
-            <p>
-              VELUCE has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by VELUCE of the site. Use of any such linked website is at the user's own risk.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">6. Disclaimer of Warranties</h2>
+          <p>
+            The content on VELUCE is provided "as is" without any representations or warranties, express or implied. VELUCE does not guarantee the accuracy, completeness, timeliness, or usefulness of any information presented.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              7. Modifications
-            </h2>
-            <p>
-              VELUCE may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">7. Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by law, VELUCE shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of or inability to use the Site, even if advised of the possibility of such damages.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              8. Governing Law
-            </h2>
-            <p>
-              These terms and conditions are governed by and construed in accordance with the laws of South Africa, and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">8. External Links</h2>
+          <p>
+            VELUCE may contain links to third-party websites or products. These links are provided for convenience only. We are not responsible for the content, availability, or practices of any third-party site, and we are not liable for any transactions or interactions you have with them.
+          </p>
 
-          <section>
-            <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              9. Contact Information
-            </h2>
-            <p>
-              If you have any questions about these Terms of Use, please contact us at steyn.enslin@heatrecovery.co.za.
-            </p>
-          </section>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">9. Modifications to Terms</h2>
+          <p>
+            We may update these Terms of Use at any time. Changes will be posted on this page with an updated "Last updated" date. Your continued use of the Site constitutes acceptance of any changes.
+          </p>
 
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">10. Governing Law</h2>
+          <p>
+            These Terms of Use are governed by the laws of South Africa. Any disputes arising from these Terms or your use of the Site shall be subject to the exclusive jurisdiction of the courts of South Africa.
+          </p>
 
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">11. Contact Us</h2>
+          <p>
+            If you have any questions about these Terms of Use, please contact us at:
+          </p>
+          <p className="font-semibold">
+            <a href="mailto:steyn.enslin@heatrecovery.co.za" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
+              steyn.enslin@heatrecovery.co.za
+            </a>
+          </p>
         </div>
       </article>
 

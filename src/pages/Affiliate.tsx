@@ -101,7 +101,12 @@ export default function Affiliate() {
             We are committed to providing honest, valuable content about luxury home design and improvement. Our affiliate relationships help us continue creating high-quality articles, guides, and resources at no cost to you.
           </p>
           <p>
-            If you ever have questions about our recommendations or affiliate relationships, please contact us at <a href="mailto:steyn.enslin@heatrecovery.co.za" className="text-gray-900 dark:text-white underline">steyn.enslin@heatrecovery.co.za</a>.
+            If you ever have questions about our recommendations or affiliate relationships, please contact us at:
+          </p>
+          <p className="font-semibold">
+            <a href="mailto:hello@velucedesign.com" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
+              hello@velucedesign.com
+            </a>
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">FTC Compliance</h2>

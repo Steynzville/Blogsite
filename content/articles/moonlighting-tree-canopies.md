@@ -51,7 +51,7 @@ This technique works best in gardens designed for wandering rather than efficien
 <img src="/images/moonlighting-vs-uplighting-diagram.jpg" alt="Educational diagram showing the difference between moonlighting (downlighting from canopy) and uplighting (lighting from ground level) on a single mature tree at twilight, with warm golden light contrasting against dark blue sky" width="1200" height="800" loading="lazy">
 <br>
 Used together, they create a complete tree illumination system — uplighting reveals the trunk and lower canopy, while moonlighting casts soft light downward through the branches. This layered approach is what you see in the hero image above.
-
+<br>
 **[→ Shop Narrow-Beam Spotlights for Tree Lighting](https://steynenslin.s.gy/SolarSpot)**
 
 *Note: Wired fixtures remain the preferred option for permanent moonlighting installations, while solar spotlights can work effectively in lower-access applications or where wiring is impractical.*

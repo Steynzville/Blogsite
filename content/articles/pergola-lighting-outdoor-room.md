@@ -31,8 +31,6 @@ Unlike a solid roof, a pergola doesn't block light — it frames it. The beams b
 
 This is the fundamental insight of pergola lighting: you aren't lighting a room. You're lighting a frame. And the most beautiful frames are those where the light source remains invisible — only the glow remains.
 
-<img src="/images/pergola-hero.jpg" alt="Modern dark-framed pergola with integrated warm LED strip lighting in the beams, surrounding a comfortable L-shaped sectional sofa and circular coffee table at twilight" width="1200" height="800" loading="lazy">
-
 ## The Three Layers of Pergola Lighting
 
 Most pergolas fail at night because they rely on one light source. A single string light draped across the beams creates a festive look but uneven illumination. A single floodlight washes out the space.
@@ -54,6 +52,7 @@ The most sophisticated pergola lighting begins with linear LED strips integrated
 Recess them into the underside of beams. Tuck them into channels along the perimeter. Hide them along the top of support posts. The goal is invisibility — the structure glows, not the fixtures.
 
 <img src="/images/pergola-led-strips.jpg" alt="Warm wooden deck at twilight with L-shaped beige sectional sofa, dark coffee table, and continuous warm LED strip lighting tracing the pergola beams and deck edge, creating a floating effect" width="1200" height="800" loading="lazy">
+<br>
 
 **Best practices for LED strip installation:**
 - Use warm white (2700K-3000K) — cool white destroys the atmosphere
@@ -74,6 +73,7 @@ String lights are the quickest way to transform a pergola from structure to sanc
 Drape them in a zigzag pattern across the beams for a canopy effect. Run them along the perimeter for a defined edge. Hang them directly over a dining table for focused illumination.
 
 <img src="/images/pergola-string-lights.jpg" alt="Outdoor lounge area at twilight with dark pergola, Edison bulb string lights hanging from beams, L-shaped sofa with plush cushions, coffee table with candles, and glowing swimming pool in background" width="1200" height="800" loading="lazy">
+<br>
 
 **String light guidelines:**
 - Choose warm white (2700K) bulbs — Edison-style or globe
@@ -87,6 +87,7 @@ Drape them in a zigzag pattern across the beams for a canopy effect. Run them al
 A pergola feels exposed without surrounding illumination. Uplighting on nearby trees, shrubs, and walls creates a sense of enclosure — softening the transition between structure and garden.
 
 <img src="/images/pergola-layered-lighting.jpg" alt="Outdoor kitchen and dining area under dark pergola at twilight, with integrated ceiling lights, stainless steel grill, stone countertops, bar stools, glowing swimming pool, and city skyline in background" width="1200" height="800" loading="lazy">
+<br>
 
 **Where to place uplights:**
 - At the base of trees flanking the pergola
@@ -100,6 +101,7 @@ A pergola feels exposed without surrounding illumination. Uplighting on nearby t
 A dining table requires functional illumination. LED strips integrated into beams directly above the table provide even, shadow-free light.
 
 <img src="/images/pergola-dining-lighting.jpg" alt="Slatted dark pergola ceiling at twilight with warm LED strips integrated into beams, casting even glow over a dining table with wooden table and dark woven chairs below" width="1200" height="800" loading="lazy">
+<br>
 
 **Dining lighting principles:**
 - Light the table surface, not the surrounding floor
@@ -111,6 +113,7 @@ A dining table requires functional illumination. LED strips integrated into beam
 Pergolas over hot tubs or spas need lighting that enhances relaxation without glare. Warm, low-level illumination creates a sanctuary.
 
 <img src="/images/pergola-spa-lighting.jpg" alt="Wooden deck at twilight with built-in hot tub glowing blue, pergola with warm LED strips in beams, stone path with step lighting, and lush landscaping with uplighted trees" width="1200" height="800" loading="lazy">
+<br>
 
 **Spa lighting tips:**
 - Use step lights on stairs and transitions (safety first)
@@ -124,6 +127,7 @@ Pergolas over hot tubs or spas need lighting that enhances relaxation without gl
 For lounging areas, prioritize warmth and intimacy over brightness. Fire pits provide natural focal light. The fire becomes the lowest and most natural light source in the hierarchy — everything else is layered around it.
 
 <img src="/images/pergola-fire-pit.jpg" alt="Outdoor lounge at twilight with circular fire pit, Adirondack-style chairs, dark pergola with hanging string lights, and curved LED strip along garden bed edge" width="1200" height="800" loading="lazy">
+<br>
 
 **Lounge lighting principles:**
 - Let the fire pit provide the primary warm glow
@@ -144,11 +148,20 @@ Most cheap outdoor lights use cool white LEDs because they appear brighter. But 
 
 ## Solar vs. Low-Voltage vs. Line Voltage
 
-| Type | Pros | Cons | Best For |
-|------|------|------|----------|
-| **Solar** | No wiring, no electrician, zero operating cost | Less bright, dependent on sun exposure | String lights, spotlights, accent lighting |
-| **Low-voltage (12V/24V)** | Brighter, reliable, DIY-friendly | Requires transformer and outlet access | LED strips, permanent installations |
-| **Line voltage (220V)** | Maximum brightness, longest runs | Requires electrician, higher cost | Commercial, integrated fixtures |
+**Solar:**
+- **Pros:** No wiring, no electrician, zero operating cost
+- **Cons:** Less bright, dependent on sun exposure
+- **Best for:** String lights, spotlights, accent lighting (requires strong sunlight exposure)
+
+**Low-voltage (12V/24V):**
+- **Pros:** Brighter, reliable, DIY-friendly
+- **Cons:** Requires transformer and outlet access
+- **Best for:** LED strips, permanent installations
+
+**Line voltage (220V):**
+- **Pros:** Maximum brightness, longest runs
+- **Cons:** Requires electrician, higher cost
+- **Best for:** Commercial, integrated fixtures, high-efficiency long runs
 
 Solar is suitable for most pergola accent applications where wiring is impractical. For permanent LED strip installations, low-voltage (plug-in transformer or hardwired systems) are the standard.
 

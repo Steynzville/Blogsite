@@ -60,7 +60,7 @@ export default function Privacy() {
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li><strong>Personal Data:</strong> When you contact us through our contact form, you provide your name, email address, and any message content you choose to share.</li>
             <li><strong>Usage Data:</strong> We automatically collect basic information about how you access and use the Site, including your IP address, browser type, pages visited, and time of visit.</li>
-            <li><strong>Cookies:</strong> We use cookies and similar technologies, including those provided by analytics services such as Google Analytics, to understand how visitors use our Site and to improve performance. You can disable cookies in your browser settings, although some features may not function properly.</li>
+            <li><strong>Cookies:</strong> We may use cookies or similar technologies provided by third-party services necessary for certain features of the Site, such as processing contact form submissions. You can instruct your browser to refuse cookies, although some parts of the Site may not function properly.</li>
           </ul>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">How We Use Your Information</h2>
@@ -71,7 +71,6 @@ export default function Privacy() {
             <li>Respond to messages submitted through our contact form</li>
             <li>Maintain and protect the security of the Site</li>
             <li>Operate, maintain, and improve the functionality and content of the Site</li>
-            <li>Analyze Site usage and performance to improve content and user experience</li>
           </ul>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Third-Party Service Providers</h2>
@@ -80,13 +79,9 @@ export default function Privacy() {
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li><strong>Formspree:</strong> Processes contact form submissions on our behalf.</li>
-            <li><strong>Google Analytics:</strong> We use Google Analytics to collect anonymized usage data such as page views, device information, and general interaction patterns. This helps us understand and improve Site performance.</li>
           </ul>
           <p className="leading-relaxed">
             You can learn more about how Formspree handles personal information by reviewing <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">their privacy policy</a>.
-          </p>
-          <p className="leading-relaxed">
-            You can learn more about how Google handles data collected through Google Analytics by visiting <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">Google's Privacy Policy</a>.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Data Retention</h2>
@@ -119,8 +114,8 @@ export default function Privacy() {
             If you have any questions about this Privacy Policy, please contact us at:
           </p>
           <p className="font-semibold">
-            <a href="mailto:steyn.enslin@heatrecovery.co.za" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
-              steyn.enslin@heatrecovery.co.za
+            <a href="mailto:hello@velucedesign.com" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
+              hello@velucedesign.com
             </a>
           </p>
         </div>

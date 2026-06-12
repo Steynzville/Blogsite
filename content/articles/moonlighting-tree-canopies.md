@@ -10,7 +10,7 @@ metaDescription: "Master moonlighting landscape lighting to create enchanting ga
 wordCount: 2450
 publishedAt: "2026-06-12T00:00:00.000000"
 updatedAt: "2026-06-12T00:00:00.000000"
-faq: [{"question": "What trees work best for moonlighting?", "answer": "Trees with open branching patterns (like Japanese maples, birches, or crabapples) create beautiful shadow effects. Avoid dense, solid canopies that block light entirely. Deciduous trees transform dramatically throughout the seasons — the intricate shadows of summer often become bolder and more graphic once leaves fall."}, {"question": "How high should moonlighting fixtures be mounted?", "answer": "Typically 15-25 feet above ground level. The exact height depends on tree structure and desired shadow pattern. Professional designers can calculate optimal placement."}, {"question": "Is moonlighting safe for trees?", "answer": "Yes, when properly installed. Use non-invasive mounting systems and ensure fixtures don't damage branches. LED fixtures generate minimal heat, making them tree-safe."}, {"question": "Can I combine moonlighting with uplighting?", "answer": "Yes — uplighting reveals trunk texture and lower canopy structure, while moonlighting creates dappled shadows on the ground. Used together, they create a complete, layered tree illumination system."}, {"question": "What's the difference between moonlighting and uplighting?", "answer": "Moonlighting uses downlighting from above to create dappled shadows on the ground. Uplighting uses ground-level fixtures aimed upward to reveal trunk texture and canopy structure. Both work beautifully together."}]
+faq: [{"question": "What trees work best for moonlighting?", "answer": "Trees with open branching patterns (like Japanese maples, birches, or crabapples) create beautiful shadow effects. Avoid dense, solid canopies that block light entirely. Deciduous trees transform dramatically throughout the seasons — the intricate shadows of summer often become bolder and more graphic once leaves fall."}, {"question": "How high should moonlighting fixtures be mounted?", "answer": "Typically 15-25 feet above ground level. The exact height depends on tree structure and desired shadow pattern."}, {"question": "Is moonlighting safe for trees?", "answer": "Yes, when properly installed. Use non-invasive mounting systems and ensure fixtures don't damage branches. LED fixtures generate minimal heat, making them tree-safe."}, {"question": "Can I combine moonlighting with uplighting?", "answer": "Yes — uplighting reveals trunk texture and lower canopy structure, while moonlighting creates dappled shadows on the ground. Used together, they create a complete, layered tree illumination system."}, {"question": "What's the difference between moonlighting and uplighting?", "answer": "Moonlighting uses downlighting from above to create dappled shadows on the ground. Uplighting uses ground-level fixtures aimed upward to reveal trunk texture and canopy structure. Both work beautifully together."}]
 relatedArticles: ["hidden-uplighting-mature-trees", "garden-pathway-moonlighting", "led-strip-integration-modern-deck"]
 internalLinks: [{"text": "Hidden Uplighting", "slug": "hidden-uplighting-mature-trees"}, {"text": "Garden Pathways", "slug": "garden-pathway-moonlighting"}, {"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}]
 ---
@@ -114,14 +114,14 @@ Deciduous trees transform dramatically throughout the seasons. The intricate sha
 
 Moonlighting works best as part of a complete lighting system:
 
-| Layer | Technique | Role | Typical Fixture Type |
-|-------|-----------|------|----------------------|
-| **Canopy** | Moonlighting | Creates dappled shadows, atmosphere | Narrow-beam spotlight |
-| **Trunk** | Uplighting | Reveals texture, vertical structure | Adjustable spotlight |
-| **Paths** | Ground-level lighting | Guides movement safely | Inground marker light |
-| **Edges** | Accent lighting | Defines garden boundaries | Linear LED lighting |
+- **Canopy (Moonlighting):** Creates dappled shadows, atmosphere — fixed, natural-direction fixtures
+- **Trunk (Uplighting):** Reveals texture, vertical structure — adjustable spotlights
+- **Paths (Ground-level lighting):** Guides movement safely — inground or low-profile markers
+- **Edges (Accent lighting):** Defines garden boundaries — linear LED strips
 
-*For a complete guide to uplighting trees, see our article on [Hidden Uplighting for Mature Trees](/article/hidden-uplighting-mature-trees). For pathway lighting, see [Garden Pathway Moonlighting](/article/garden-pathway-moonlighting). For edge lighting, see [LED Strip Integration for Modern Decks](/article/led-strip-integration-modern-deck).*
+*For a complete guide to uplighting trees, see [Hidden Uplighting for Mature Trees](/article/hidden-uplighting-mature-trees). For pathway lighting, see [Garden Pathway Lighting](/article/garden-pathway-moonlighting).*
+
+**[Explore the complete VELUCE outdoor lighting collection →](https://tr.ee/Sp8jyc)**
 
 ## What Happens at Dusk
 

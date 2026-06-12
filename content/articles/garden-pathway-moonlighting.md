@@ -70,11 +70,17 @@ It is not navigation. It is environmental tone.
 
 ## Moonlighting vs Other Systems
 
-| Technique | Origin | Function | Axis |
-|-----------|--------|----------|------|
-| Moonlighting | Elevated concealed | Ambient field | A |
-| Path lighting | Ground level | Movement guidance | Z |
-| Uplighting | Ground upward | Vertical emphasis | Y |
+**Moonlighting (A-axis):** Elevated concealed light creating an ambient field. Shapes atmosphere, not movement.
+
+**Path lighting (Z-axis):** Ground-level light guiding movement rhythm. Directional, functional, circulation-focused.
+
+**Uplighting (Y-axis):** Ground-upward light revealing vertical structure. Perception-focused, dramatic shadow creation.
+
+**System context:**
+- **X (Gathering):** Fire Pit Tables — social convergence
+- **Y (Perception):** Tree Uplighting — vertical structure
+- **Z (Circulation):** Pathway Lighting — directional movement
+- **A (Atmosphere):** Pathway Moonlighting — ambient field
 
 ## Where It Works
 
@@ -138,12 +144,10 @@ Trees remain the most effective due to organic light fragmentation.
 
 Moonlighting operates as part of a four-layer spatial system:
 
-| Layer | System | Axis | Function |
-|------|--------|------|----------|
-| Ambient | Moonlighting | A | Environmental field |
-| Movement | Path lighting | Z | Direction |
-| Structure | Uplighting | Y | Vertical form |
-| Social | Fire | X | Gathering point |
+- **Ambient (A-axis):** Moonlighting — environmental field
+- **Movement (Z-axis):** Path lighting — direction
+- **Structure (Y-axis):** Uplighting — vertical form
+- **Social (X-axis):** Fire — gathering point
 
 ## The Experience of Arrival
 

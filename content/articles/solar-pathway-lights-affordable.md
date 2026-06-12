@@ -128,6 +128,7 @@ For most homeowners, **solar works well for pathway accent lighting** in areas w
 <br>
 Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beautifully with modern architecture and geometric hardscaping.
 <br>
+<br>
 
 **Key features:**
 - Clean, minimalist design
@@ -143,6 +144,7 @@ Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beau
 </a>
 <br>
 Classic lantern-style lights with decorative details and warm golden illumination. They complement natural stone paths and traditional architecture.
+<br>
 <br>
 
 **Key features:**

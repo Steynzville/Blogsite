@@ -74,6 +74,8 @@ This is where beam control matters more than brightness.
 
 Placement determines everything. Follow these guidelines:
 
+<img src="/images/tree-uplighting-placement-diagram.jpg" alt="Educational diagram showing correct placement of uplighting fixtures around a mature tree at the drip line 5-15 feet from trunk, with fixtures aimed upward at 30-45 degree angle into the canopy" width="1200" height="800" loading="lazy">
+<br>
 **Distance from trunk:** 5-15 feet, depending on tree size. Position at the drip line (edge of the canopy) so light travels up through branches, not straight into the trunk.
 
 **Angle:** Aim the fixture so the light beam enters the lower canopy and spreads upward. Avoid aiming directly at the trunk — that creates a flat, uninteresting column of light.

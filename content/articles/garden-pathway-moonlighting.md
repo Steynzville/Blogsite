@@ -154,7 +154,7 @@ Moonlighting operates as part of a four-layer spatial system:
 At dusk, the garden does not activate — it emerges.
 
 <img src="/images/moonlighting-atmospheric.jpg" alt="Soft overhead lighting filtering through garden canopy onto winding path, creating diffused moonlight atmosphere across stone surface" width="1200" height="800" loading="lazy">
-
+<br>
 Light appears indirectly, from above perception rather than within it. Surfaces become legible without being defined. Edges remain unresolved.
 
 Movement becomes interpretive, not instructed.

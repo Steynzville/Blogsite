@@ -8,8 +8,8 @@ export default function About() {
   const { theme, toggleTheme } = useTheme();
 
   useMetaTags({
-    title: 'About VELUCE — Luxury Living Journal',
-    description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.',
+    title: 'About VELUCE — Design Journal',
+    description: 'VELUCE is an independent design journal exploring how environments shape human experience. Principles over trends, intention over excess.',
     url: 'https://velucedesign.com/about',
     type: 'website',
   });
@@ -43,44 +43,42 @@ export default function About() {
 
         <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 space-y-6">
           <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-            VELUCE is a luxury living publication dedicated to the art and science of high-end home design. We explore the intersection of aesthetics, functionality, and craftsmanship that defines luxury living.
+            VELUCE is an independent design journal exploring how environments shape human experience. Through light, materials, technology, and spatial composition, we examine the principles that transform houses into homes that feel intuitive, calm, and enduring. We are interested not only in how spaces look, but in how they guide movement, focus attention, encourage gathering, and influence the way people live within them.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Our Mission</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Design with Intention</h2>
           <p className="leading-relaxed">
-            We believe that luxury is not about excess—it's about intention. Every design choice, every material selection, and every lighting placement tells a story. Our mission is to help homeowners, designers, and architects understand the principles that transform ordinary spaces into extraordinary homes.
+            Luxury is not about excess — it's about intention. The finest spaces feel effortless because every element has a reason to exist. Our mission is to help you understand the principles that transform ordinary spaces into extraordinary homes.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">What We Cover</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">What You'll Find Here</h2>
           <p className="leading-relaxed">
-            VELUCE publishes in-depth articles on:
+            VELUCE publishes in-depth guides on:
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
-            <li><strong>Outdoor Lighting</strong> - Architectural grazing, landscape illumination, and exterior ambiance</li>
-            <li><strong>Garden Lighting</strong> - Moonlighting techniques, pathway design, and botanical highlighting</li>
-            <li><strong>Patio Decor</strong> - Outdoor furniture, textiles, and entertaining spaces</li>
-            <li><strong>Smart Home</strong> - Integrated technology, automation, and intelligent design</li>
-            <li><strong>Home Security</strong> - Discreet security systems, access control, and perimeter monitoring</li>
-            <li><strong>Luxury Interiors</strong> - Design principles, materials, and spatial composition</li>
-            <li><strong>Kitchen Essentials</strong> - Culinary spaces, appliances, and workflow optimization</li>
+            <li><strong>Outdoor Lighting</strong> — Architectural grazing, landscape illumination, and the art of shadow</li>
+            <li><strong>Garden Lighting</strong> — Moonlighting techniques, pathway composition, and botanical highlighting</li>
+            <li><strong>Patio Decor</strong> — Furniture, textiles, and the geometry of outdoor gathering</li>
+            <li><strong>Smart Home</strong> — Integrated technology and invisible automation</li>
+            <li><strong>Home Security</strong> — Discreet systems that protect without announcing themselves</li>
+            <li><strong>Luxury Interiors</strong> — Materials, proportion, and the psychology of space</li>
+            <li><strong>Kitchen Essentials</strong> — Culinary workflow, appliances, and the architecture of cooking</li>
           </ul>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Our Approach</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Principles Over Trends</h2>
           <p className="leading-relaxed">
-            Each article is thoroughly researched and written by design professionals with decades of combined experience. We don't just tell you what to do—we explain the principles behind it. Whether you're a homeowner planning renovations or a design professional seeking inspiration, you'll find actionable insights grounded in design theory and real-world application.
+            We don't chase trends or publish disposable advice. VELUCE focuses on the underlying principles that make spaces work — the relationships between light and shadow, technology and simplicity, beauty and function. The details change. Good design principles endure.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Why VELUCE?</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Why VELUCE Exists</h2>
           <p className="leading-relaxed">
-            In a world of generic design advice and mass-market solutions, VELUCE stands apart. We focus on quality over quantity, depth over breadth. Every article is crafted to be a reference you'll return to again and again—a resource that grows more valuable as your design knowledge deepens.
+            In a world of generic advice and disposable content, VELUCE stands apart. We focus on depth over breadth, quality over quantity. Every article is written to remain useful long after trends fade — a reference designed to reward repeated reading.
           </p>
 
           <p className="leading-relaxed">
-            Whether you're exploring your first outdoor lighting project or refining a complete home renovation, VELUCE is here to guide you toward spaces that are not just beautiful, but intentional.
+            Whether you're planning your first outdoor lighting project or refining a complete home renovation, VELUCE is here to guide you toward spaces that are not just beautiful, but intentional.
           </p>
         </div>
-
-
       </article>
 
       {/* Footer */}

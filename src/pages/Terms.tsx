@@ -109,8 +109,8 @@ export default function Terms() {
             If you have any questions about these Terms of Use, please contact us at:
           </p>
           <p className="font-semibold">
-            <a href="mailto:steyn.enslin@heatrecovery.co.za" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
-              steyn.enslin@heatrecovery.co.za
+            <a href="mailto:hello@velucedesign.com" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
+              hello@velucedesign.com
             </a>
           </p>
         </div>

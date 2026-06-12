@@ -52,6 +52,7 @@ This technique works best in gardens designed for wandering rather than efficien
 <br>
 Used together, they create a complete tree illumination system — uplighting reveals the trunk and lower canopy, while moonlighting casts soft light downward through the branches. This layered approach is what you see in the hero image above.
 <br>
+<br>
 
 **[→ Shop Narrow-Beam Spotlights for Tree Lighting](https://steynenslin.s.gy/SolarSpot)**
 

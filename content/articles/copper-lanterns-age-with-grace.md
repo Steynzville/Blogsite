@@ -4,7 +4,7 @@ slug: "copper-lanterns-age-with-grace"
 category: "Outdoor Lighting"
 excerpt: "Discover why copper lanterns are a multi-generational investment in outdoor beauty — and why their natural aging process makes them more valuable over time."
 heroImage: "/images/copper-lanterns.jpg"
-featured: true
+featured: false
 seoTitle: "Copper Outdoor Lanterns for Luxury Homes: Patina & Longevity Guide | VELUCE"
 metaDescription: "Complete guide to copper lanterns for luxury homes. Learn how natural patina develops, maintenance tips, and why copper outperforms other materials."
 wordCount: 1950

@@ -26,6 +26,13 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li className="pt-2">
+                <Link href="/articles">
+                  <a className="text-gray-400 hover:text-white transition-colors cursor-pointer font-medium">
+                    Browse All Articles →
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

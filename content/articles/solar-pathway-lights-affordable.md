@@ -1,7 +1,7 @@
 ---
 title: "Solar Pathway Lights That Don't Look Cheap"
 slug: "solar-pathway-lights-affordable"
-category: "Outdoor Lighting"
+category: "Garden Lighting"
 excerpt: "Modern solar pathway lights have evolved far beyond cheap plastic. Discover premium designs that combine sustainable energy with sophisticated landscape aesthetics."
 heroImage: "/images/solar-lights.jpg"
 featured: false

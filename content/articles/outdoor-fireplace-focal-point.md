@@ -33,13 +33,19 @@ The outdoor fireplace is architecture, not decoration. It should feel as permane
 
 ## Why an Outdoor Fireplace, Not a Fire Pit?
 
-| Feature | Outdoor Fireplace | Fire Pit |
-|---------|-------------------|----------|
-| **Heat direction** | Directional (forward-focused) | 360-degree (surround) |
-| **Spatial role** | Anchors one end of the space | Centers the space |
-| **Seating arrangement** | Linear, facing the fire | Circular, surrounding the fire |
-| **Architectural weight** | High (vertical, monumental) | Low (horizontal, grounded) |
-| **Best for** | Defined outdoor rooms, cooler climates | Informal gatherings, mild evenings |
+**Outdoor Fireplace:**
+- **Heat direction:** Directional (forward-focused)
+- **Spatial role:** Anchors one end of the space
+- **Seating arrangement:** Linear, facing the fire
+- **Architectural weight:** High (vertical, monumental)
+- **Best for:** Defined outdoor rooms, cooler climates
+
+**Fire Pit:**
+- **Heat direction:** 360-degree (surround)
+- **Spatial role:** Centers the space
+- **Seating arrangement:** Circular, surrounding the fire
+- **Architectural weight:** Low (horizontal, grounded)
+- **Best for:** Informal gatherings, mild evenings
 
 Both have their place. The fireplace is for defined rooms and cooler evenings. The fire pit is for casual gathering and 360-degree warmth. Choose based on how you want people to interact with the space.
 
@@ -67,18 +73,39 @@ Where the fireplace sits matters as much as how it looks.
 
 **Access:** Ensure clear pathways for bringing firewood and for maintenance access to the chimney.
 
-## Material Selection: What Lasts
+## Material Selection: What Lasts Outdoors
 
 Not all materials belong outdoors. Freeze-thaw cycles, moisture, and temperature fluctuations destroy inferior options.
 
-| Material | Durability | Aesthetic | Best For |
-|----------|------------|-----------|----------|
-| **Granite** | Excellent — withstands everything | Elegant, refined | Contemporary, traditional |
-| **Limestone** | Very good — softer, develops patina | Warm, natural | Mediterranean, rustic |
-| **Slate** | Excellent — dense, weather-resistant | Dark, dramatic | Modern, contemporary |
-| **Brick** | Good — depends on quality | Classic, warm | Traditional, colonial |
-| **Stucco/Concrete** | Good — requires sealing | Clean, minimalist | Modern, Mediterranean |
-| **Steel** | Good — requires coating | Industrial, sleek | Contemporary, minimalist |
+**Granite:**
+- **Durability:** Excellent — withstands everything
+- **Aesthetic:** Elegant, refined
+- **Best for:** Contemporary, traditional
+
+**Limestone:**
+- **Durability:** Very good — softer, develops patina
+- **Aesthetic:** Warm, natural
+- **Best for:** Mediterranean, rustic
+
+**Slate:**
+- **Durability:** Excellent — dense, weather-resistant
+- **Aesthetic:** Dark, dramatic
+- **Best for:** Modern, contemporary
+
+**Brick:**
+- **Durability:** Good — depends on quality
+- **Aesthetic:** Classic, warm
+- **Best for:** Traditional, colonial
+
+**Stucco/Concrete:**
+- **Durability:** Good — requires sealing
+- **Aesthetic:** Clean, minimalist
+- **Best for:** Modern, Mediterranean
+
+**Steel:**
+- **Durability:** Good — requires coating
+- **Aesthetic:** Industrial, sleek
+- **Best for:** Contemporary, minimalist
 
 **Material caveats:** Some sandstones, soft brick varieties, untreated concrete, and marble may perform poorly in harsh freeze-thaw climates unless properly detailed and maintained. Choose materials suited to your local climate.
 

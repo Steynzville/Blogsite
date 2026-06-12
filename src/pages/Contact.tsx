@@ -53,10 +53,10 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Email</p>
                     <a
-                      href="mailto:steyn.enslin@heatrecovery.co.za"
+                      href="mailto:hello@velucedesign.com"
                       className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                     >
-                      steyn.enslin@heatrecovery.co.za
+                      hello@velucedesign.com
                     </a>
                     <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
                       We typically respond within 48 hours.

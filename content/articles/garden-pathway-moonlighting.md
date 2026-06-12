@@ -76,13 +76,6 @@ It is not navigation. It is environmental tone.
 | Path lighting | Ground level | Movement guidance | Z |
 | Uplighting | Ground upward | Vertical emphasis | Y |
 
-System context:
-
-- X: Gathering (Fire)
-- Y: Perception (Trees)
-- Z: Circulation (Paths)
-- A: Atmosphere (Moonlight)
-
 ## Where It Works
 
 | Setting | Role |
@@ -95,7 +88,7 @@ System context:
 
 Not suitable for service routes or primary circulation paths requiring clarity and speed.
 
-## Concealment Principle
+## The Principle of Concealment
 
 The system depends on one rule:
 
@@ -108,19 +101,19 @@ Installation parameters:
 
 If the fixture is visible, the system becomes decorative lighting rather than atmospheric design.
 
-## Spacing Logic
+## Spacing and Atmospheric Density
 
 Spacing defines density, not direction.
 
 | Spacing | Effect |
 |---------|--------|
-| 15–20 ft | Continuous wash |
-| 20–30 ft | Rhythmic separation |
+| 15–20 ft (curves) | Continuous wash |
+| 20–30 ft (straight paths) | Rhythmic separation |
 | 30+ ft | Sparse atmospheric points |
 
 Curves require tighter spacing to preserve continuity. Straight sections tolerate wider intervals.
 
-## Color Temperature
+## Color Temperature and Perception
 
 | Temp | Effect |
 |------|--------|
@@ -130,7 +123,7 @@ Curves require tighter spacing to preserve continuity. Straight sections tolerat
 
 Moonlight is inherently warm and diffuse. Higher temperatures introduce artificial sharpness.
 
-## Mounting Context
+## Mounting Contexts
 
 | Type | Use |
 |------|-----|
@@ -141,7 +134,9 @@ Moonlight is inherently warm and diffuse. Higher temperatures introduce artifici
 
 Trees remain the most effective due to organic light fragmentation.
 
-## Layered System
+## Layered Garden Light System
+
+Moonlighting operates as part of a four-layer spatial system:
 
 | Layer | System | Axis | Function |
 |------|--------|------|----------|
@@ -150,11 +145,11 @@ Trees remain the most effective due to organic light fragmentation.
 | Structure | Uplighting | Y | Vertical form |
 | Social | Fire | X | Gathering point |
 
-## Experience at Dusk
-
-<img src="/images/moonlighting-atmospheric.jpg" alt="Soft overhead lighting filtering through garden canopy onto winding path, creating diffused moonlight atmosphere across stone surface" width="1200" height="800" loading="lazy">
+## The Experience of Arrival
 
 At dusk, the garden does not activate — it emerges.
+
+<img src="/images/moonlighting-atmospheric.jpg" alt="Soft overhead lighting filtering through garden canopy onto winding path, creating diffused moonlight atmosphere across stone surface" width="1200" height="800" loading="lazy">
 
 Light appears indirectly, from above perception rather than within it. Surfaces become legible without being defined. Edges remain unresolved.
 
@@ -199,6 +194,21 @@ Path lighting directs movement. Moonlighting shapes perception.
 
 **Best color temperature?**  
 2700K warm white.
+
+## The Hierarchy of Garden Light
+
+With all four axes now defined, the complete spatial model emerges:
+
+**The 4-Axis Spatial Model:**
+
+- **X (Fire Pit Tables):** Horizontal gravity — social convergence. Warm, flickering, central.
+- **Y (Tree Uplighting):** Vertical gravity — perception hierarchy. Directed upward, shadow-creating.
+- **Z (Pathway Lighting):** Directional gravity — movement logic. Pools on ground, rhythm-based.
+- **A (Pathway Moonlighting):** Ambient gravity — atmospheric mood. Soft, diffuse, from above.
+
+Together, they form a complete spatial operating system for outdoor experience design.
+
+*For the complete guide to fire as horizontal gravity, see [Fire Pit Tables](/article/fire-pit-tables-centerpiece). For trees as vertical gravity, see [Hidden Uplighting for Mature Trees](/article/hidden-uplighting-mature-trees). For pathway movement as directional gravity, see [Garden Pathway Lighting](/article/garden-pathway-lighting).*
 
 ## The Bottom Line
 

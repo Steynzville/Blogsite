@@ -27,8 +27,6 @@ internalLinks: [
 ]
 ---
 
-# Natural Stone Countertops: Choosing Materials That Age Beautifully
-
 ## Quick Takeaways
 
 - For residential kitchens, four natural stones dominate the conversation: granite, marble, quartzite, and soapstone

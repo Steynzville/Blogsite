@@ -27,8 +27,6 @@ internalLinks: [
 ]
 ---
 
-# Smart Access Control: When the Key Disappears
-
 ## Quick Takeaways
 
 - The finest entry system is the one you never think about — no fumbling, no lost keys, no locked out moments

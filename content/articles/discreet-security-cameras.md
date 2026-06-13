@@ -26,8 +26,6 @@ internalLinks: [
 ]
 ---
 
-# Discreet Security Cameras: When Protection Disappears Into Architecture
-
 ## Quick Takeaways
 
 - The best security system is the one you never notice

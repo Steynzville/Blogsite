@@ -27,8 +27,6 @@ internalLinks: [
 ]
 ---
 
-# Perimeter Monitoring and Security Lighting: The First Threshold
-
 ## Quick Takeaways
 
 - The finest protection begins at the property edge, not the front door

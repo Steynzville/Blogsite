@@ -27,8 +27,6 @@ internalLinks: [
 ]
 ---
 
-# Quartzite vs. Porcelain Countertops: Choosing Between Natural and Engineered
-
 ## Quick Takeaways
 
 - Quartzite is natural stone; porcelain is engineered ceramic — this fundamental difference shapes everything

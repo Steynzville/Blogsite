@@ -4,12 +4,12 @@ slug: "fire-pit-tables-centerpiece"
 category: "Patio Decor"
 excerpt: "Discover how fire pit tables combine warmth, ambiance, and functionality — transforming patios into sophisticated evening gathering spaces."
 heroImage: "/images/fire-pit-tables.jpg"
-featured: false
+featured: true
 seoTitle: "Best Fire Pit Tables for Luxury Patios: Gas vs Wood Guide | VELUCE"
 metaDescription: "Explore the best fire pit tables for luxury patios. Compare propane, natural gas, and wood-burning designs, learn safety essentials, and discover how to integrate fire features into sophisticated outdoor spaces."
 wordCount: 3000
-publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+publishedAt: "2026-06-13T00:00:00.000000"
+updatedAt: "2026-06-13T00:00:00.000000"
 faq: [{"question": "Are fire pit tables safe to use on a wooden deck?", "answer": "Yes, but with precautions. Use a heat shield or fire-resistant mat beneath the table. Gas fire pits produce less radiant heat than wood-burning units. Always follow manufacturer clearance requirements."}, {"question": "What's better: propane or natural gas fire pit table?", "answer": "Natural gas is more convenient and cost-effective if you have an existing gas line. Propane offers flexibility for moving the table but requires tank refills. Natural gas burns cleaner, while propane provides higher BTU output per cubic foot."}, {"question": "Can I leave my fire pit table outside in winter?", "answer": "High-quality models with weather-resistant materials can remain outdoors year-round. Use a waterproof cover. Remove glass beads and protect the burner from moisture. In extreme climates, consider storing indoors or in a sheltered area."}, {"question": "How much heat does a fire pit table produce?", "answer": "Most residential fire pit tables produce 30,000-60,000 BTUs, though larger luxury models can exceed 100,000 BTUs. In calm conditions, this is often enough to provide noticeable to comfortable warmth within roughly a 5-8 foot radius, depending on wind conditions and flame height."}, {"question": "Do fire pit tables require electricity?", "answer": "Most residential fire pit tables do not require household electricity. Many use piezo or battery-powered ignition systems, while premium built-in models may incorporate electrical ignition or smart controls."}, {"question": "What are fire glass beads made of?", "answer": "Fire glass is tempered glass specifically designed for gas fire pits. It withstands extreme temperatures, won't melt or discolor, and reflects flame light for a stunning visual effect. Unlike lava rock, fire glass doesn't trap debris as easily and maintains its appearance with minimal cleaning."}]
 relatedArticles: ["hidden-uplighting-mature-trees", "garden-pathway-moonlighting", "led-strip-integration-modern-deck"]
 internalLinks: [{"text": "Tree Uplighting", "slug": "hidden-uplighting-mature-trees"}, {"text": "Pathway Moonlighting", "slug": "garden-pathway-moonlighting"}, {"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}]

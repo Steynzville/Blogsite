@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Natural Stone Countertops Guide | Materials That Age Beautifully | VELUCE"
 metaDescription: "A guide to natural stone countertops: granite, marble, quartzite, and soapstone. Learn how to choose materials that develop patina and age with intention."
 wordCount: 2800
-publishedAt: "2026-06-13T00:00:00.000000"
-updatedAt: "2026-06-13T00:00:00.000000"
+publishedAt: "2026-05-13T00:00:00.000000"
+updatedAt: "2026-05-13T00:00:00.000000"
 faq: [
   {"question": "Which natural stone countertop is most durable?", "answer": "Granite and quartzite are the most durable natural stone options. Both resist heat, scratching, and staining when properly sealed. Quartzite is harder than granite but more expensive. For kitchens with heavy daily cooking, these are the most practical choices."},
   {"question": "Do marble countertops stain easily?", "answer": "Marble is more porous and softer than granite, making it susceptible to etching from acidic substances like lemon juice or wine. Many homeowners accept this as part of marble's natural patina. Regular sealing slows staining but does not prevent it entirely."},

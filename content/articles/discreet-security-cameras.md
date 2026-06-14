@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Discreet Security Cameras for Luxury Homes | Invisible Protection | VELUCE"
 metaDescription: "Learn how to integrate security cameras seamlessly into architecture. The best protection is the kind that never announces itself."
 wordCount: 2600
-publishedAt: "2026-06-13T00:00:00.000000"
-updatedAt: "2026-06-13T00:00:00.000000"
+publishedAt: "2026-06-09T00:00:00.000000"
+updatedAt: "2026-06-09T00:00:00.000000"
 faq: [
   {"question": "Are discreet security cameras legal?", "answer": "Yes, on your own property. However, audio recording has different legal standards across jurisdictions, and you must respect neighbors' privacy. Avoid recording areas where people have a reasonable expectation of privacy, even on property you own. Consult local laws before installation."},
   {"question": "Do hidden cameras work as well as visible ones?", "answer": "Modern discreet cameras offer the same image quality, resolution, and features as their visible counterparts. The trade-off is psychological: visible cameras deter, hidden cameras document. Many luxury homes use a hybrid approach."},

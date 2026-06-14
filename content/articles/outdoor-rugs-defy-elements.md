@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Outdoor Rugs for Patios: Weather-Resistant Design Guide | VELUCE"
 metaDescription: "Discover weather-resistant outdoor rugs that anchor patio design. Learn materials, maintenance, and styling for luxury outdoor spaces."
 wordCount: 2300
-publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+publishedAt: "2026-05-12T00:00:00.000000"
+updatedAt: "2026-05-12T00:00:00.000000"
 faq: [{"question": "What's the best material for outdoor rugs?", "answer": "Solution-dyed polypropylene offers excellent durability and fade resistance. Wool blends provide luxury with good weather resistance. Natural fibers like jute work well in covered areas."}, {"question": "How do I prevent outdoor rugs from molding?", "answer": "Ensure proper drainage by placing rugs on permeable surfaces. Allow air circulation underneath. Clean regularly and store during harsh weather if possible. Elevate one edge while drying to prevent trapped moisture."}, {"question": "Can outdoor rugs be used in covered patios?", "answer": "Yes. Covered patios allow use of more delicate materials since they're protected from direct weather exposure. This expands design options significantly."}, {"question": "What size outdoor rug do I need for my patio?", "answer": "The rug should extend under at least the front legs of all furniture in the seating arrangement. Aim for 6-12 inches of exposed flooring beyond the rug's edges for proper proportion."}]
 relatedArticles: ["modular-sectionals-entertaining", "outdoor-fireplace-focal-point", "pergola-lighting-outdoor-room"]
 internalLinks: [{"text": "Modular Sectionals", "slug": "modular-sectionals-entertaining"}, {"text": "Outdoor Fireplaces", "slug": "outdoor-fireplace-focal-point"}, {"text": "Pergola Lighting", "slug": "pergola-lighting-outdoor-room"}]

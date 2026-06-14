@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-static.mjs && node scripts/optimize-images-advanced.mjs && vite build",
+    "build": "node scripts/generate-static.mjs && node scripts/optimize-images-advanced.mjs && vite build && node scripts/generate-static.mjs --prerender",
     "preview": "vite preview",
     "check": "tsc --noEmit",
     "format": "prettier --write .",

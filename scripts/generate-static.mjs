@@ -167,7 +167,15 @@ async function generateSitemap(articles) {
 
 async function generateStaticHtml(articles) {
   const distDir = path.resolve(__dirname, '../dist');
-  const indexHtml = await fs.readFile(path.join(distDir, 'index.html'), 'utf-8');
+  
+  // Try to read index.html from dist
+  let indexHtml;
+  try {
+    indexHtml = await fs.readFile(path.join(distDir, 'index.html'), 'utf-8');
+  } catch (e) {
+    console.log('index.html not found in dist/. Skipping prerendering.');
+    return;
+  }
   
   const categories = Array.from(new Set(articles.map(a => a.category))).map(c => ({
     name: c,
@@ -198,13 +206,29 @@ async function generateStaticHtml(articles) {
     await fs.mkdir(routeDir, { recursive: true });
     
     // Inject specific meta tags into the template
-    let customizedHtml = indexHtml
-      .replace(/<title>.*?<\/title>/, `<title>${route.title}</title>`)
-      .replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${route.description}" />`);
+    let customizedHtml = indexHtml;
     
-    // Add canonical tag
+    // Update title
+    if (customizedHtml.includes('<title>')) {
+      customizedHtml = customizedHtml.replace(/<title>.*?<\/title>/, `<title>${route.title}</title>`);
+    } else {
+      customizedHtml = customizedHtml.replace('</head>', `  <title>${route.title}</title>\n  </head>`);
+    }
+    
+    // Update or add description
+    if (customizedHtml.includes('name="description"')) {
+      customizedHtml = customizedHtml.replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${route.description}" />`);
+    } else {
+      customizedHtml = customizedHtml.replace('</head>', `  <meta name="description" content="${route.description}" />\n  </head>`);
+    }
+    
+    // Handle canonical tag: replace existing or add new
     const canonicalUrl = `${SITE_URL}${route.path}/`;
-    customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
+    if (customizedHtml.includes('<link rel="canonical"')) {
+      customizedHtml = customizedHtml.replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${canonicalUrl}" />`);
+    } else {
+      customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
+    }
     
     await fs.writeFile(path.join(routeDir, 'index.html'), customizedHtml);
   }
@@ -212,21 +236,21 @@ async function generateStaticHtml(articles) {
 }
 
 async function main() {
-  console.log('Starting static content generation...');
-  const articles = await loadArticles();
-  await generateArticlePages(articles);
-  await generateCategoryPages(articles);
-  await generateSitemap(articles);
+  const isPrerender = process.argv.includes('--prerender');
   
-  // Only generate static HTML if dist exists (during build)
-  try {
-    await fs.access(path.resolve(__dirname, '../dist'));
+  if (!isPrerender) {
+    console.log('Starting static content generation...');
+    const articles = await loadArticles();
+    await generateArticlePages(articles);
+    await generateCategoryPages(articles);
+    await generateSitemap(articles);
+    console.log('Static content generation complete.');
+  } else {
+    console.log('Starting static HTML prerendering...');
+    const articles = await loadArticles();
     await generateStaticHtml(articles);
-  } catch (e) {
-    console.log('Skipping static HTML generation as dist/ does not exist.');
+    console.log('Static HTML prerendering complete.');
   }
-  
-  console.log('Static content generation complete.');
 }
 
 main().catch(console.error);

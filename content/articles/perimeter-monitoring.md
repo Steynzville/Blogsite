@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Perimeter Security and Lighting for Luxury Homes | VELUCE"
 metaDescription: "Complete guide to perimeter monitoring and security lighting. Learn how layered protection begins at the property edge, not the front door."
 wordCount: 2800
-publishedAt: "2026-06-13T00:00:00.000000"
-updatedAt: "2026-06-13T00:00:00.000000"
+publishedAt: "2026-05-13T00:00:00.000000"
+updatedAt: "2026-05-13T00:00:00.000000"
 faq: [
   {"question": "How many perimeter cameras do I need?", "answer": "This depends entirely on property layout, not square footage. Every approach path, gate, and ground-floor entry point needs coverage. Blind spots are vulnerabilities. A professional site assessment is the only reliable way to determine optimal placement."},
   {"question": "Is motion-activated lighting effective for security?", "answer": "Yes. Motion lights are the single most visible deterrent at the perimeter. They announce detection instantly. For luxury properties, consider layering always-on low-level path lighting with motion-activated flood zones — the contrast is the signal."},

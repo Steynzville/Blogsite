@@ -17,19 +17,37 @@ const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Affiliate = lazy(() => import("./pages/Affiliate"));
 
-// Handle GitHub Pages SPA redirect
+// Handle GitHub Pages SPA redirect and slug redirects
 const handleRedirect = () => {
-  if (typeof window !== 'undefined' && window.location.search) {
-    const search = window.location.search;
-    if (search.startsWith('?')) {
-      // Extract the path from the query string
-      const path = search.slice(1).replace(/~and~/g, '&');
-      if (path && path !== '/') {
-        const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
-        const cleanPath = path.startsWith('/') ? path : `/${path}`;
-        window.history.replaceState(null, '', baseUrl + cleanPath + window.location.hash);
-      }
+  if (typeof window === 'undefined') return;
+
+  const search = window.location.search;
+  const pathname = window.location.pathname;
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+  // 1. Handle GitHub Pages 404.html redirect
+  if (search && search.startsWith('?')) {
+    const path = search.slice(1).replace(/~and~/g, '&');
+    if (path && path !== '/') {
+      const cleanPath = path.startsWith('/') ? path : `/${path}`;
+      window.history.replaceState(null, '', baseUrl + cleanPath + window.location.hash);
+      return;
     }
+  }
+
+  // 2. Handle Slug Redirects (Client-side)
+  const redirects: Record<string, string> = {
+    '/article/countertop-materials-guide': '/article/natural-stone-countertops-guide',
+    '/article/led-strip-lighting-outdoor-guide': '/article/led-strip-integration-modern-deck',
+    // Add trailing slash variants if needed, but wouter usually handles them
+  };
+
+  // Normalize pathname for comparison (remove trailing slash)
+  const normalizedPath = pathname.replace(/\/$/, "");
+  
+  if (redirects[normalizedPath]) {
+    const target = redirects[normalizedPath];
+    window.location.replace(baseUrl + target + (window.location.search || "") + (window.location.hash || ""));
   }
 };
 

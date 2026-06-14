@@ -1,6 +1,6 @@
 ---
 title: "LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy"
-slug: "led-strip-lighting-outdoor-guide"
+slug: "led-strip-integration-modern-deck"
 category: "Outdoor Lighting"
 excerpt: "Not all LED strips work outdoors. Learn the difference between 220V, 12V, and solar strips — and when to choose step lights or spotlights instead."
 heroImage: "/images/led-strip-hero.jpg"

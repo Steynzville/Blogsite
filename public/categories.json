@@ -1,21 +1,5 @@
 [
   {
-    "name": "Outdoor Lighting",
-    "slug": "outdoor-lighting"
-  },
-  {
-    "name": "Patio Decor",
-    "slug": "patio-decor"
-  },
-  {
-    "name": "Garden Lighting",
-    "slug": "garden-lighting"
-  },
-  {
-    "name": "Luxury Interiors",
-    "slug": "luxury-interiors"
-  },
-  {
     "name": "Home Security",
     "slug": "home-security"
   },
@@ -26,5 +10,21 @@
   {
     "name": "Kitchen Essentials",
     "slug": "kitchen-essentials"
+  },
+  {
+    "name": "Luxury Interiors",
+    "slug": "luxury-interiors"
+  },
+  {
+    "name": "Patio Decor",
+    "slug": "patio-decor"
+  },
+  {
+    "name": "Garden Lighting",
+    "slug": "garden-lighting"
+  },
+  {
+    "name": "Outdoor Lighting",
+    "slug": "outdoor-lighting"
   }
 ]

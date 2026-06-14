@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Garden Pathway Moonlighting | Downlighting Techniques | VELUCE"
 metaDescription: "Garden pathway moonlighting uses elevated concealed lighting to create soft atmospheric downlighting that mimics natural moonlight on garden paths."
 wordCount: 2150
-publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+publishedAt: "2026-05-12T00:00:00.000000"
+updatedAt: "2026-05-12T00:00:00.000000"
 faq: [
   {
     "question": "How bright should pathway moonlighting be?",

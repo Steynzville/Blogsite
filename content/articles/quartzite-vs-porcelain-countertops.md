@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Quartzite vs. Porcelain Countertops | Natural vs Engineered | VELUCE"
 metaDescription: "Compare quartzite and porcelain countertops for luxury kitchens. Learn how natural variation and engineered precision serve different design philosophies."
 wordCount: 2400
-publishedAt: "2026-06-13T00:00:00.000000"
-updatedAt: "2026-06-13T00:00:00.000000"
+publishedAt: "2026-05-13T00:00:00.000000"
+updatedAt: "2026-05-13T00:00:00.000000"
 faq: [
   {"question": "Which countertop material is more durable?", "answer": "Both are exceptionally durable for different reasons. Quartzite is harder and more scratch-resistant. Porcelain is non-porous and more stain-resistant. Neither chips easily, though porcelain requires more care during installation due to brittleness."},
   {"question": "Which requires less maintenance?", "answer": "Porcelain requires virtually no maintenance beyond regular cleaning. Quartzite needs periodic sealing every 2-3 years, though some dense slabs may go longer. The water-drop test is the only reliable way to know when sealing is needed."},

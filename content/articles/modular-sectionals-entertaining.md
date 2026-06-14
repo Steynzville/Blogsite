@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Outdoor Modular Sectionals for Flexible Luxury Patios | VELUCE"
 metaDescription: "Transform your patio with modular outdoor sectionals. Learn how reconfigurable seating adapts to any gathering size and style — from intimate evenings to large parties."
 wordCount: 2400
-publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+publishedAt: "2026-05-12T00:00:00.000000"
+updatedAt: "2026-05-12T00:00:00.000000"
 faq: [{"question": "What's the best material for outdoor sectional cushions?", "answer": "High-performance fabrics like Sunbrella or similar brands resist fading, moisture, and mold. Quick-drain foam cores prevent water accumulation and mildew."}, {"question": "How do I clean outdoor sectional cushions?", "answer": "Most high-performance fabrics can be cleaned with mild soap, water, and a soft brush. Check manufacturer recommendations for specific care instructions."}, {"question": "Are modular sectionals more expensive than traditional outdoor sofas?", "answer": "Typically yes, but the flexibility and longevity often justify the premium. Quality modular systems can remain serviceable for a decade or more with proper care and component replacement."}, {"question": "How do I choose the right size modular sectional for my patio?", "answer": "Measure your patio and leave at least 24 inches of walkway space around the arrangement. The sectional should occupy roughly 40-60% of the seating area's floor space for proper proportion."}]
 relatedArticles: ["outdoor-fireplace-focal-point", "pergola-lighting-outdoor-room", "fire-pit-tables-centerpiece", "garden-pathway-lighting"]
 internalLinks: [{"text": "Outdoor Fireplaces", "slug": "outdoor-fireplace-focal-point"}, {"text": "Pergola Lighting", "slug": "pergola-lighting-outdoor-room"}, {"text": "Fire Pit Tables", "slug": "fire-pit-tables-centerpiece"}, {"text": "Pathway Lighting", "slug": "garden-pathway-lighting"}]

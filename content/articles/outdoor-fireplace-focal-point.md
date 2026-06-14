@@ -8,8 +8,8 @@ featured: false
 seoTitle: "Outdoor Fireplace Design for Luxury Patios | VELUCE"
 metaDescription: "Transform your patio with a statement outdoor fireplace. Complete guide to design, materials, and installation for luxury outdoor spaces."
 wordCount: 2350
-publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+publishedAt: "2026-06-06T00:00:00.000000"
+updatedAt: "2026-06-06T00:00:00.000000"
 faq: [{"question": "What's the best material for an outdoor fireplace?", "answer": "Natural stone (granite, limestone, slate) offers the best combination of durability, beauty, and longevity. Quality brick is also excellent. Some sandstones, soft brick varieties, untreated concrete, and marble may perform poorly in harsh freeze-thaw climates unless properly detailed and maintained."}, {"question": "How much does an outdoor fireplace cost?", "answer": "Custom masonry fireplaces typically range from $5,000-$20,000+ depending on materials, size, and complexity. Prefabricated options are more affordable but less customizable."}, {"question": "Can I build an outdoor fireplace myself?", "answer": "While possible, outdoor fireplaces require proper engineering for safe draft and longevity. Professional installation is recommended, especially for masonry fireplaces."}, {"question": "What's the difference between an outdoor fireplace and a fire pit?", "answer": "A fireplace provides directional heat and a vertical architectural anchor. A fire pit offers 360-degree warmth and a more informal gathering experience. Both have distinct roles in outdoor design."}]
 relatedArticles: ["fire-pit-tables-centerpiece", "pergola-lighting-outdoor-room", "garden-pathway-lighting"]
 internalLinks: [{"text": "Fire Pit Tables", "slug": "fire-pit-tables-centerpiece"}, {"text": "Pergola Lighting", "slug": "pergola-lighting-outdoor-room"}, {"text": "Pathway Lighting", "slug": "garden-pathway-lighting"}]

@@ -1,21 +1,10 @@
-User-agent: *
+User-agent: Pinterestbot
 Allow: /
 
+User-agent: *
+Allow: /
 Disallow: /admin
 Disallow: /api
 Disallow: /*.json$
 
-# Allow sitemaps
-Allow: /sitemap.xml
-
 Sitemap: https://velucedesign.com/sitemap.xml
-
-# Specific bots
-User-agent: Pinterestbot
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /

@@ -3,6 +3,10 @@ Allow: /
 
 User-agent: *
 Allow: /
+Allow: /articles.json
+Allow: /articles/*.json
+Allow: /categories.json
+Allow: /categories/*.json
 Disallow: /admin
 Disallow: /api
 Disallow: /*.json$

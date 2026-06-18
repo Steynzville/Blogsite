@@ -183,29 +183,31 @@ async function generateStaticHtml(articles) {
   }));
 
   const routes = [
-    { path: '/articles', title: 'All Articles — VELUCE Luxury Living Journal', description: 'Browse all articles from VELUCE. Expert insights on architectural lighting, luxury interiors, and smart home design.' },
+    { path: '/articles', title: 'All Articles — VELUCE Luxury Living Journal', description: 'Browse all articles from VELUCE. Expert insights on architectural lighting, luxury interiors, and smart home design.', content: '<h1>All Articles</h1><p>Browse our latest insights on luxury living.</p>' },
     ...articles.map(a => ({
       path: `/article/${a.slug}`,
       title: `${a.title} — VELUCE`,
-      description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`
+      description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`,
+      content: `<h1>${a.title}</h1><div>${a.content}</div>`
     })),
     ...categories.map(c => ({
       path: `/category/${c.slug}`,
       title: `${c.name} — VELUCE`,
-      description: `Discover articles and insights about ${c.name} in our luxury living journal.`
+      description: `Discover articles and insights about ${c.name} in our luxury living journal.`,
+      content: `<h1>Category: ${c.name}</h1><p>Insights and articles about ${c.name}.</p>`
     })),
-    { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.' },
-    { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.' },
-    { path: '/privacy', title: 'Privacy Policy — VELUCE', description: 'Read the VELUCE privacy policy to understand how we handle your data.' },
-    { path: '/terms', title: 'Terms of Use — VELUCE', description: 'Review the terms and conditions for using the VELUCE website.' },
-    { path: '/affiliate', title: 'Affiliate Disclosure — VELUCE', description: 'Information regarding our affiliate partnerships and how they support our content.' }
+    { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.', content: '<h1>About VELUCE</h1><p>Premier luxury living journal.</p>' },
+    { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.', content: '<h1>Contact Us</h1><p>Get in touch with the VELUCE team.</p>' },
+    { path: '/privacy', title: 'Privacy Policy — VELUCE', description: 'Read the VELUCE privacy policy to understand how we handle your data.', content: '<h1>Privacy Policy</h1>' },
+    { path: '/terms', title: 'Terms of Use — VELUCE', description: 'Review the terms and conditions for using the VELUCE website.', content: '<h1>Terms of Use</h1>' },
+    { path: '/affiliate', title: 'Affiliate Disclosure — VELUCE', description: 'Information regarding our affiliate partnerships and how they support our content.', content: '<h1>Affiliate Disclosure</h1>' }
   ];
 
   for (const route of routes) {
     const routeDir = path.join(distDir, route.path);
     await fs.mkdir(routeDir, { recursive: true });
     
-    // Inject specific meta tags into the template
+    // Inject specific meta tags and content into the template
     let customizedHtml = indexHtml;
     
     // Update title
@@ -228,6 +230,11 @@ async function generateStaticHtml(articles) {
       customizedHtml = customizedHtml.replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${canonicalUrl}" />`);
     } else {
       customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
+    }
+
+    // Inject the actual content into the #root div for Googlebot to see
+    if (customizedHtml.includes('<div id="root"></div>')) {
+      customizedHtml = customizedHtml.replace('<div id="root"></div>', `<div id="root">${route.content}</div>`);
     }
     
     await fs.writeFile(path.join(routeDir, 'index.html'), customizedHtml);

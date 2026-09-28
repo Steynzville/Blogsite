@@ -1,18 +1,22 @@
 # Short.io affiliate link reconciliation — 28 September 2026
 
-Source: signed-in Short.io dashboard for `steynenslin.s.gy`, compared with `content/articles/*.md` on the merged `main` branch. This is a dashboard and source audit, not an end-to-end sale or commission test. Formspree is the separate contact/new-user form service and does not route these affiliate clicks.
+This report records the initial authenticated dashboard audit and subsequent repairs. Formspree handles the separate contact form; it does not route affiliate clicks. Read the article source, `ops/shortlinks.json`, and current Short.io/Linktree state together.
 
-| Observation | Result |
-| --- | --- |
-| Short.io account records | 15: one homepage link and 14 product links |
-| Distinct short links in article source | 12; all 12 exact slugs exist in the account |
-| Product destinations | All 14 use the same existing `rzekl.com` tracking-link path, with an AliExpress URL in `ulp` |
-| Article destinations with AliExpress share URLs | 10 use `a.aliexpress.com` URLs; their final product pages and eligibility remain unverified |
-| Article destinations with direct product URLs | `24vDCplugLED` has a syntactically normal AliExpress product URL; `SolarLED` has a malformed product path |
-| Account links unused in current articles | `Home`, `SolarSecurity`, `SolarDeck` |
+## Initial observation (historical)
 
-`SolarLED` currently has an encoded `ulp` value whose product path begins `https://www.aliexpress.com/item/1005007008038230.htmlaRUE...`. Characters are attached directly after `.html`, followed by a long string of encoded share/tracking parameters. That is not a normal AliExpress item path. The account record has been left unchanged: saving a shortened URL with those parameters removed was rejected by automatic approval review because attribution could be affected. Obtain a freshly generated, verified deeplink for the *same exact product* in the authorised Admitad account, confirm programme approval and eligible geography/traffic, then replace only this Short.io destination and test the reader path. Do not blindly strip or graft tracking parameters.
+The dashboard then contained 15 records (one homepage, 14 products), including all 12 article slugs. The `SolarLED` destination had a malformed nested AliExpress item path, and Linktree's `COBled` card pointed to a Short.io slug with no record. Ten article destinations used `a.aliexpress.com` share URLs. The first public Linktree audit later found the 12V/24V card linking directly to an Admitad wrapper rather than through `24vDCplugLED`. These findings describe the state **before** the corrections below; they are not open repair tasks.
 
-The other ten article links that wrap AliExpress share URLs are structurally plausible in the dashboard, but the existence of a Short.io record and a `rzekl.com` URL does not establish that the merchant product still exists, the share URL reaches it, or purchases will credit this publisher. The cloud browser's site-safety policy blocked a live trace at AliExpress; no alternate route was used. Admitad publisher approval, conversion reports and deeplink generation were unavailable behind its human-verification screen. Short.io's own conversion column showed zero for these records, which is not evidence of zero Admitad commissions.
+## Current mapping and evidence
 
-The `ops/shortlinks.json` allowlist now makes `pnpm ops:audit` fail if an article introduces a Short.io slug that has not been reconciled with the account. It catches source drift only. It cannot inspect mutable Short.io destinations or verify merchant attribution on its own. Any new short link must be checked in Short.io and Admitad before adding it to the allowlist. No recurring Sol agent, live link monitor, or external publishing automation is active merely because the repository includes prompts and CI.
+| Slug | Placement and intent | Current evidence |
+| --- | --- | --- |
+| `TUYAcobLED` | Article 220V smart/Tuya COB LED strip | Existing Short.io record; owner confirmed product intent and routing. Final listing and credited sale remain unverified. |
+| `24vDCplugLED` | Article 12V/24V IP67 DC COB strip and corresponding Linktree card | Existing Short.io record. Owner replaced the card's direct Admitad URL with this short URL and manually tested it on 28 September. The bypass finding is resolved. |
+| `SolarLED` | Article and Linktree solar outdoor LED strip | Existing Short.io slug retained; malformed destination replaced with a newly generated Admitad deeplink for AliExpress item `1005009013305099`. Admitad Link Checker reported Active. Owner restored the Linktree card. |
+| `COBled` | Separate Linktree 12V/24V high-density COB strip | Short.io slug created for a newly generated Admitad deeplink for item `1005003279313941`; Link Checker reported Active. Owner corrected card title to “12V/24V High-Density COB LED Strip” and manually tested routing. It is not the article's 220V CTA. |
+
+The public Linktree shop was observed at 13 products after SolarLED and COBled were restored, with their card URLs pointing to the respective Short.io slugs. The later `24vDCplugLED` and COBled title changes are owner-tested; this cloud browser has not independently refreshed them because its Linktree admin session expired. No affiliate URL or parameter was reconstructed from the malformed original.
+
+The existence of a Short.io record, an Admitad `rzekl.com` wrapper, or an Active Link Checker result does not prove current merchant stock, the right electrical variant for a buyer, geographic eligibility, or an attributed commission. AliExpress final redirects could not be opened under the cloud browser's site-safety policy. The remaining article and shop products still need those checks; the initial zero Short.io conversions is not evidence of zero Admitad commissions.
+
+`ops/shortlinks.json` is the slug registry. `pnpm ops:audit` checks source slugs and direct Amazon/Temu links, but cannot inspect mutable account destinations or stock. Reuse existing slugs, validate changes in Admitad, update Short.io/Linktree, then record evidence and verification scope in the registry and `ops/state.json`. No recurring live link monitor or autonomous publisher is active merely because this repository includes operator instructions.

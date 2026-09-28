@@ -3,15 +3,16 @@
   "updated_at": "2026-09-28",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
-  "baseline_sha": "9413ffe",
-  "branch": "veluce/affiliate-link-inventory",
-  "deployment": "pr_1_merged_and_build_success_reported_by_owner_live_affiliate_path_unverified",
+  "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
+  "branch": "veluce/live-affiliate-verification",
+  "deployment": "PR #3 open/unmerged; SolarLED and COBled Short.io destinations repaired. Owner restored and tested the 24vDCplugLED Linktree short link and corrected COBled title to 12V/24V High-Density COB LED Strip. Source CTAs reconciled to distinct 220V, 12V/24V and solar slugs; changes pending PR review/deployment.",
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
     "pinterest": "not_connected",
-    "admitad": "publisher_account_blocked_by_human_verification_2026-09-28",
-    "short_io": "dashboard_read_15_links_2026-09-28"
+    "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
+    "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
+    "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
   },
   "decisions": [
     {
@@ -33,48 +34,44 @@
     "PR review follow-up removed remaining direct Amazon shopping links in three articles; preserved images and editorial text",
     "Configured separate MailerLite VELUCE Newsletter group and embedded double-opt-in form; historical welcome email was Formspree",
     "Owner confirmed MailerLite confirmation and welcome emails from a fresh signup",
-    "Reconciled all 12 article Short.io slugs with the account's 15 records; found malformed SolarLED destination"
+    "Reconciled all 12 article Short.io slugs with the account's 15 records; found malformed SolarLED destination",
+    "Enriched existing shortlink registry with per-slug verification status; source audit now reports commercial placements and rejects Temu/source-registry drift",
+    "Authenticated cloud-browser Admitad and Linktree investigation: AliExpress WW joined, existing rzekl deeplink base matched, ad space unvalidated",
+    "Hid defective SolarLED and COBled entries in Linktree admin; verified public shop has 11 products",
+    "Temporarily removed four SolarLED commercial clicks from two article sources in PR #3 pending replacement; subsequently restored after Admitad/Short.io repair",
+    "Owner supplied replacement AliExpress item IDs 1005009013305099 and 1005003279313941; generated Admitad AliExpress WW deeplinks and checked both Active in Link Checker",
+    "Repaired SolarLED Short.io destination while preserving slug and historical clicks; created COBled Short.io record with existing Linktree slug",
+    "Restored four SolarLED article placements in PR #3 source after Short.io repair, with product specification caution",
+    "Owner unhid SolarLED and COBled Linktree cards on mobile; screenshots show Short.io URL fields, public cloud browser renders 13 products with both images",
+    "Owner repointed 12V/24V IP67 Linktree card to 24vDCplugLED and manually tested it; prior direct Admitad bypass resolved",
+    "Owner corrected separate COBled Linktree title to 12V/24V High-Density COB LED Strip and confirmed routing",
+    "Reconciled two ambiguous article table labels to distinct 220V TUYAcobLED and 12V/24V 24vDCplugLED CTAs"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Review the affiliate-link inventory PR and its source-audit safeguard",
-      "status": "review_required"
+      "action": "Verify current AliExpress stock, specifications, shipping and credited sale for the repaired products where access permits; the owner manually tested the Linktree/Short.io paths",
+      "status": "merchant_validation_required"
     },
     {
       "id": "N2",
-      "action": "Confirm MailerLite unsubscribe and sender deliverability; rotate any former deployed API key if it existed",
-      "status": "partial_acceptance"
+      "action": "Audit remaining 11 Linktree products and 11 active article shortlink slugs end-to-end; prioritize clicks and preserve existing public slugs",
+      "status": "merchant_path_unverified"
     },
     {
       "id": "N3",
-      "action": "Obtain minimum private measurement exports from MEASUREMENT.md once",
-      "status": "access_required"
+      "action": "Review PR #3 after this validation pass; do not merge without owner instruction",
+      "status": "pr_review_required"
     },
     {
       "id": "N4",
-      "action": "Generate and verify an exact-product replacement for SolarLED in Admitad, then repair the Short.io destination; validate the remaining merchant paths, approval and geography",
-      "status": "admitad_verification_and_exact_change_approval_required"
+      "action": "Confirm MailerLite unsubscribe and rotate any formerly exposed API key",
+      "status": "partial_acceptance"
     },
     {
       "id": "N5",
-      "action": "Audit existing product-image provenance before reuse",
-      "status": "ready"
-    },
-    {
-      "id": "N6",
-      "action": "Use actual traffic/commission to select one existing-page experiment",
+      "action": "Obtain actual traffic and approved commission metrics for profit prioritisation",
       "status": "measurement_required"
-    },
-    {
-      "id": "N7",
-      "action": "Review analytics/privacy configuration and SPA pageviews in account",
-      "status": "access_required"
-    },
-    {
-      "id": "N8",
-      "action": "Validate first exact-SKU brief and prepare two distinct Pinterest angles after rights and merchant gates",
-      "status": "evidence_required"
     }
   ],
   "blocked": [
@@ -94,14 +91,19 @@
       "impact": "Campaigns can be prepared, not claimed published"
     },
     {
-      "id": "B5",
-      "item": "AliExpress redirect trace blocked by cloud-browser site-safety policy; Admitad account presents human verification",
-      "impact": "Merchant landing, publisher approval and commission attribution remain unverified"
+      "id": "B7",
+      "item": "Admitad SteynEnslin ad space shows unvalidated ownership",
+      "impact": "Program Joined and click counts do not prove approved commission or attribution for a sale."
     },
     {
-      "id": "B6",
-      "item": "SolarLED's Short.io destination has malformed AliExpress product path; automatic approval review rejected saving a trimmed URL",
-      "impact": "Live affiliate destination remains unchanged until exact replacement is verified and approved"
+      "id": "B5",
+      "item": "Cloud browser site-safety policy expressly rejects AliExpress product search and affiliate redirect",
+      "impact": "No exact replacement product, stock, variant, shipping or final landing can be certified here. Do not bypass via another browser or indirect route."
+    },
+    {
+      "id": "B9",
+      "item": "AliExpress final merchant page cannot be opened by cloud browser safety policy",
+      "impact": "Both deeplinks pass Admitad Link Checker but live listing stock, variant fit, shipping and real commission attribution are not independently certified."
     }
   ],
   "products": [
@@ -121,15 +123,26 @@
   "experiments": [],
   "campaigns": [],
   "pages_created": [],
-  "measurements": [],
-  "approval_required": [
+  "measurements": [
     {
-      "item": "Replace SolarLED's Short.io destination with a verified exact-product Admitad deeplink",
-      "reason": "Automatic approval review rejected trimming the malformed existing URL because its nested tracking parameters might affect commissions; obtain fresh account evidence and explicit approval for the exact replacement"
+      "period": "2026-09-01/2026-09-28",
+      "source": "Admitad statistics, authenticated cloud browser",
+      "clicks": 25,
+      "actions": 0,
+      "earnings": 0,
+      "status": "VERIFIED LIVE; not a net-profit estimate"
+    },
+    {
+      "period": "2026-09-28",
+      "source": "Short.io authenticated dashboard",
+      "solar_led_clicks": 22,
+      "cob_led_record": "created; 0 clicks",
+      "status": "VERIFIED LIVE Short.io dashboard; clicks not conversions"
     }
   ],
-  "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/1",
-  "pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
+  "approval_required": [],
+  "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
+  "pull_request": "https://github.com/Steynzville/Blogsite/pull/3",
   "delivery": {
     "original_local_commits": [
       "39dfdc4a122fe2ff2e21f2603d7f5fea3fbcd60b",
@@ -142,6 +155,6 @@
     "original_trees_verified_equal": true,
     "github_write_access": "restored via connector",
     "merge_authorized": false,
-    "ci": "PR #1 merged and build success reported by owner; PR #2 checks pending"
+    "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
   }
 }

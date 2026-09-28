@@ -14,5 +14,193 @@
     "TUYAcobLED",
     "solar-ball-lights",
     "solar-lantern-lights"
-  ]
+  ],
+  "records": [
+    {
+      "slug": "24vDCplugLED",
+      "public_url": "https://steynenslin.s.gy/24vDCplugLED",
+      "product_category": "12V/24V IP67 COB LED strip",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "owner_tested_linktree_to_shortio; final_merchant_and_commission_unverified",
+      "last_verified_at": "2026-09-28",
+      "replacement_history": [
+        {
+          "date": "2026-09-28",
+          "from": "direct Admitad card URL",
+          "to": "https://steynenslin.s.gy/24vDCplugLED",
+          "reason": "Owner restored managed Short.io routing and tested the card"
+        }
+      ],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null,
+      "evidence": "Historical public observation: Linktree card pointed directly to an Admitad wrapper for item 1005008309273832. Owner subsequently changed the card to https://steynenslin.s.gy/24vDCplugLED and manually tested the path on 2026-09-28. This replaces the prior Short.io-bypass finding. Product stock and credited sale remain unverified by this run."
+    },
+    {
+      "slug": "Rug",
+      "public_url": "https://steynenslin.s.gy/Rug",
+      "product_category": "outdoor rug",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "Smart-blinds",
+      "public_url": "https://steynenslin.s.gy/Smart-blinds",
+      "product_category": "smart blinds",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "Solar-string",
+      "public_url": "https://steynenslin.s.gy/Solar-string",
+      "product_category": "solar string lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarInground",
+      "public_url": "https://steynenslin.s.gy/SolarInground",
+      "product_category": "solar inground lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarLED",
+      "public_url": "https://steynenslin.s.gy/SolarLED",
+      "product_category": "solar LED strip",
+      "merchant": "AliExpress WW (Admitad Link Checker Active; listing stock unverified)",
+      "affiliate_network": "Admitad AliExpress WW (generated deeplink; Link Checker Active)",
+      "verification": "verified_live_shortio_to_admitad_deeplink; final_merchant_unverified",
+      "last_verified_at": "2026-09-28",
+      "replacement_history": [
+        {
+          "date": "2026-09-28",
+          "from_item": "1005007008038230",
+          "to_item": "1005009013305099",
+          "reason": "Malformed nested URL in prior Short.io destination; owner supplied replacement"
+        }
+      ],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": "https://www.aliexpress.com/item/1005009013305099.html",
+      "evidence": "Owner supplied replacement product; Admitad program joined and Link Checker reported ad space, program, URL and deeplink Active. Short.io authenticated editor saved existing SolarLED slug with generated rzekl deeplink to item 1005009013305099; 22 historical clicks. Cloud browser policy prevented final merchant landing/stock and actual sale attribution verification. Owner screenshot shows Linktree card unhidden with SolarLED URL; public shop rendered 13 products and displayed Solar Neon LED card on 2026-09-28. Owner reconfirmed solar outdoor LED strip intent on 2026-09-28."
+    },
+    {
+      "slug": "SolarSpot",
+      "public_url": "https://steynenslin.s.gy/SolarSpot",
+      "product_category": "solar spotlights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarStep",
+      "public_url": "https://steynenslin.s.gy/SolarStep",
+      "product_category": "solar step lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarWall",
+      "public_url": "https://steynenslin.s.gy/SolarWall",
+      "product_category": "solar wall lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "TUYAcobLED",
+      "public_url": "https://steynenslin.s.gy/TUYAcobLED",
+      "product_category": "220V smart/Tuya COB LED strip",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null,
+      "evidence": "Article source uses this slug for the 220V smart/Tuya COB option. Owner confirms routing and product intent 2026-09-28; final listing, stock and sale attribution not independently verified."
+    },
+    {
+      "slug": "solar-ball-lights",
+      "public_url": "https://steynenslin.s.gy/solar-ball-lights",
+      "product_category": "solar ball lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "solar-lantern-lights",
+      "public_url": "https://steynenslin.s.gy/solar-lantern-lights",
+      "product_category": "solar lantern lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    }
+  ],
+  "linktree_only_observed": [
+    {
+      "slug": "SolarSecurity",
+      "public_url": "https://steynenslin.s.gy/SolarSecurity",
+      "verification": "pending_live_product_and_attribution",
+      "observed_at": "2026-09-28"
+    },
+    {
+      "slug": "SolarDeck",
+      "public_url": "https://steynenslin.s.gy/SolarDeck",
+      "verification": "pending_live_product_and_attribution",
+      "observed_at": "2026-09-28"
+    },
+    {
+      "slug": "COBled",
+      "public_url": "https://steynenslin.s.gy/COBled",
+      "verification": "owner_tested_linktree_to_shortio; admitad_link_checker_active; final_merchant_unverified",
+      "observed_at": "2026-09-28",
+      "evidence": "Owner supplied replacement product; Admitad Link Checker reported ad space, program, URL and deeplink Active. Authenticated Short.io created COBled slug pointing at generated rzekl deeplink to item 1005003279313941. Owner screenshot shows Linktree card unhidden with COBled URL; public shop rendered 13 products and displayed COB LED card on 2026-09-28. Final merchant listing/stock and actual sale attribution not verified. Owner corrected Linktree title to 12V/24V High-Density COB LED Strip and manually tested the routing 2026-09-28. This is separate from article 220V TUYAcobLED and 12V/24V DC 24vDCplugLED CTAs.",
+      "final_destination": "https://www.aliexpress.com/item/1005003279313941.html",
+      "affiliate_network": "Admitad AliExpress WW (generated deeplink; Link Checker Active)",
+      "product_category": "separate 12V/24V high-density COB LED strip"
+    }
+  ],
+  "scope": "Source mappings: TUYAcobLED is article 220V smart/Tuya; 24vDCplugLED is article 12V/24V IP67 DC; SolarLED is solar outdoor; COBled is a separate Linktree 12V/24V high-density strip. Owner changed the formerly direct 24vDCplugLED Linktree card to its Short.io slug and tested it. Admitad Link Checker Active for newly generated SolarLED/COBled deeplinks. Final AliExpress stock and credited sale remain unverified by cloud browser."
 }

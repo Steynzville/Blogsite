@@ -9,6 +9,12 @@
     },
     {
       "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://steynenslin.s.gy/24vDCplugLED",
+      "kind": "unverified_shortlink",
+      "line": 191
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
       "url": "https://steynenslin.s.gy/SolarStep",
       "kind": "unverified_shortlink",
       "line": 192
@@ -179,31 +185,31 @@
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarStep",
       "kind": "unverified_shortlink",
-      "line": 132
+      "line": 134
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarInground",
       "kind": "unverified_shortlink",
-      "line": 138
+      "line": 140
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarWall",
       "kind": "unverified_shortlink",
-      "line": 144
+      "line": 146
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarSpot",
       "kind": "unverified_shortlink",
-      "line": 226
+      "line": 228
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 315
+      "line": 317
     },
     {
       "file": "luxury-interior-design-principles.md",
@@ -392,5 +398,131 @@
       "line": 181
     }
   ],
-  "issues": []
+  "issues": [],
+  "commercial": [
+    {
+      "slug": "24vDCplugLED",
+      "sources": [
+        "copper-lanterns-age-with-grace.md",
+        "led-strip-integration-modern-deck.md",
+        "pergola-lighting-outdoor-room.md"
+      ],
+      "verification": "owner_tested_linktree_to_shortio; final_merchant_and_commission_unverified",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": "2026-09-28"
+    },
+    {
+      "slug": "Rug",
+      "sources": [
+        "outdoor-rugs-defy-elements.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "Smart-blinds",
+      "sources": [
+        "smart-blinds-follow-sun.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "Solar-string",
+      "sources": [
+        "pergola-lighting-outdoor-room.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "SolarInground",
+      "sources": [
+        "copper-lanterns-age-with-grace.md",
+        "garden-pathway-lighting.md",
+        "hidden-uplighting-mature-trees.md",
+        "led-strip-integration-modern-deck.md",
+        "pergola-lighting-outdoor-room.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "SolarLED",
+      "sources": [
+        "hidden-uplighting-mature-trees.md",
+        "led-strip-integration-modern-deck.md"
+      ],
+      "verification": "verified_live_shortio_to_admitad_deeplink; final_merchant_unverified",
+      "merchant": "AliExpress WW (Admitad Link Checker Active; listing stock unverified)",
+      "last_verified_at": "2026-09-28"
+    },
+    {
+      "slug": "SolarSpot",
+      "sources": [
+        "copper-lanterns-age-with-grace.md",
+        "hidden-uplighting-mature-trees.md",
+        "led-strip-integration-modern-deck.md",
+        "moonlighting-tree-canopies.md",
+        "pergola-lighting-outdoor-room.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "SolarStep",
+      "sources": [
+        "copper-lanterns-age-with-grace.md",
+        "garden-pathway-lighting.md",
+        "led-strip-integration-modern-deck.md",
+        "pergola-lighting-outdoor-room.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "SolarWall",
+      "sources": [
+        "led-strip-integration-modern-deck.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "TUYAcobLED",
+      "sources": [
+        "copper-lanterns-age-with-grace.md",
+        "led-strip-integration-modern-deck.md",
+        "pergola-lighting-outdoor-room.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "solar-ball-lights",
+      "sources": [
+        "solar-pathway-lights-affordable.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    },
+    {
+      "slug": "solar-lantern-lights",
+      "sources": [
+        "solar-pathway-lights-affordable.md"
+      ],
+      "verification": "pending_live_product_and_attribution",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": null
+    }
+  ]
 }

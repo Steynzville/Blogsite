@@ -106,7 +106,9 @@ For areas where running power is impractical — a remote garden pergola, a shed
 
 **The catch:** SMD chip (not COB) means visible dots if the strip is exposed. Use this where the strip is hidden or for accent lighting only. Also needs direct sunlight — shaded areas won't fully charge.
 
-**[→ Shop Solar LED Strip on AliExpress](https://steynenslin.s.gy/SolarLED)**
+**[→ Explore Solar LED Strip on AliExpress](https://steynenslin.s.gy/SolarLED)**
+
+Check the current power, weather rating, length and availability against your installation before choosing a kit.
 
 ## Where to Install LED Strips (And Where to Avoid)
 
@@ -220,7 +222,7 @@ A single strip is rarely enough. Complete outdoor lighting combines multiple lay
 
 | Layer | Product | Purpose |
 |-------|---------|---------|
-| Deck/pergola lighting | [220V or 12V COB strip](https://steynenslin.s.gy/TUYAcobLED) | Defines structure, creates ambience |
+| Deck/pergola lighting | [220V smart COB](https://steynenslin.s.gy/TUYAcobLED) or [12V/24V DC COB](https://steynenslin.s.gy/24vDCplugLED) | Defines structure, creates ambience |
 | Stair safety | [Solar step lights](https://steynenslin.s.gy/SolarStep) | Prevents trips, soft guidance |
 | Path definition | [Solar ground lights](https://steynenslin.s.gy/SolarInground) | Flush-mount, walkway edges |
 | Tree and shrub uplighting | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) | Adds depth beyond the deck |

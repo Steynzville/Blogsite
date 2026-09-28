@@ -120,7 +120,7 @@ A single uplighted tree is striking. A garden with layered lighting is transform
 |-------|---------|---------------------|
 | **Tree uplighting** | Creates vertical drama, anchors the garden | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) |
 | **Path lighting** | Guides movement, defines circulation | [Solar inground lights](https://steynenslin.s.gy/SolarInground) |
-| **Edge lighting** | Defines garden beds, adds low-level glow | Solar LED strips (verify current listing and specifications) |
+| **Edge lighting** | Defines garden beds, adds low-level glow | [Solar LED strips](https://steynenslin.s.gy/SolarLED) (verify the current specifications) |
 | **Accent lighting** | Highlights specific plants or features | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) (narrow beam) |
 
 This is the difference between structure and circulation in a garden. Trees anchor. Paths guide. Edges define. When they begin working together, the garden stops behaving like separate elements.

@@ -43,18 +43,11 @@ jobs:
       - name: Validate operating checks
         run: pnpm test && pnpm ops:audit
 
-      - name: Require a verified newsletter destination
-        env:
-          NEWSLETTER_FORM_URL: ${{ vars.VITE_NEWSLETTER_FORM_URL }}
-        run: |
-          node --input-type=module -e 'const value = process.env.NEWSLETTER_FORM_URL; if (!value) throw Error("Set the verified public VITE_NEWSLETTER_FORM_URL repository variable before deployment"); const url = new URL(value); if (url.protocol !== "https:") throw Error("Newsletter form URL must use HTTPS")'
-
       - name: Build static site from Markdown
         run: pnpm run build
         env:
           VITE_CRITICAL_CSS_URL: https://velucedesign.com/
           VITE_CRITICAL_CSS_URLS: '{"/":"/","/article/upward-lighting-architectural-grazing":"/article/upward-lighting-architectural-grazing"}'
-          VITE_NEWSLETTER_FORM_URL: ${{ vars.VITE_NEWSLETTER_FORM_URL }}
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
           NODE_ENV: production
 

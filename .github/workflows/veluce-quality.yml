@@ -29,8 +29,8 @@ jobs:
           mkdir -p visual-review
           python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/veluce-preview.log 2>&1 &
           pnpm dlx playwright@1.56.1 install chromium
-          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,5000" --wait-for-selector="#newsletter-section" --wait-for-timeout=1500 http://127.0.0.1:8765/ visual-review/home-desktop.png
-          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,7000" --wait-for-selector="#newsletter-section" --wait-for-timeout=1500 http://127.0.0.1:8765/ visual-review/home-mobile.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,5000" --wait-for-selector=".ml-embedded input[type=email]" --wait-for-timeout=1500 http://127.0.0.1:8765/ visual-review/home-desktop.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,7000" --wait-for-selector=".ml-embedded input[type=email]" --wait-for-timeout=1500 http://127.0.0.1:8765/ visual-review/home-mobile.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,14000" --wait-for-selector="picture img" --wait-for-timeout=1500 'http://127.0.0.1:8765/article/upward-lighting-architectural-grazing/?utm_source=pinterest&utm_medium=organic_social' visual-review/article-desktop.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,14000" --wait-for-selector="picture img" --wait-for-timeout=1500 'http://127.0.0.1:8765/article/upward-lighting-architectural-grazing/?utm_source=pinterest&utm_medium=organic_social' visual-review/article-mobile.png
       - uses: actions/upload-artifact@v4

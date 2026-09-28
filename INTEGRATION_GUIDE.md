@@ -4,21 +4,21 @@ Read `VELUCE_OPERATING_SYSTEM.md` and `ops/state.json` first. This guide covers 
 
 ## Contact form: Formspree
 
-`src/pages/Contact.tsx` uses Formspree's React integration. It sends contact messages through the existing configured form and shows success or error feedback. PR #1 does not replace that integration. Check the Formspree dashboard to verify messages; do not treat contact submissions as newsletter consent or add those addresses to a mailing list.
+`src/pages/Contact.tsx` uses Formspree's React integration (`xvznkjdl`). It sends contact messages through the existing configured form and shows success or error feedback. PR #1 does not replace that integration. Steyn's June welcome-email example came from the existing Formspree new-user signup, not MailerLite. Keep that welcome flow and Formspree submissions separate from the new newsletter group; do not infer newsletter consent from them.
 
 To check the contact page, submit a clearly marked test message through `/contact/`, confirm the on-page result and verify it appears in the existing Formspree contact form. Keep test messages out of business lead counts. Do not post private submissions or account exports to this public repository.
 
-## Newsletter: public provider signup form
+## Newsletter: MailerLite
 
-The homepage newsletter is separate. Its former implementation called MailerLite's private subscriber API from browser JavaScript. That path was removed because a `VITE_*` build variable is included in the public site bundle even if GitHub supplied it from a secret. The existing provider account and welcome-email workflow need account-level verification before publication.
+The homepage newsletter is separate. Its former source called MailerLite's private subscriber API from browser JavaScript. That path was removed because a `VITE_*` build variable is included in the public site bundle even if GitHub supplied it from a secret. The old code does not establish the source of Steyn's historical welcome email; he identified Formspree as its source.
 
-Use a verified HTTPS hosted signup form from the actual newsletter provider. Configure its public URL as the GitHub repository **variable** `VITE_NEWSLETTER_FORM_URL`. The homepage then links to that real signup form. This is a public link, never an API token. The production deployment intentionally fails when this variable is missing or not HTTPS, so the PR cannot silently replace a working signup with a dead end.
+The newly created MailerLite account uses the **VELUCE Newsletter** group and **VELUCE Journal Newsletter** embedded form. The public embed configuration is in `index.html` and `Home.tsx`; the latter provides the form's public share URL as a fallback. These are public form values, never a private API token. The form's double opt-in switch is on. The new welcome automation is separate from the historical Formspree message.
 
-Before merging, verify the destination belongs to the intended Veluce account, the correct subscriber group receives signups, the consent and privacy language is accurate, and unsubscribe works. Submit one clearly marked test subscription, confirm receipt and any confirmation or welcome message, then remove that test subscriber if appropriate. Do not claim a newsletter signup is working based only on a successful build or a historical email.
+Before merging, submit a fresh test subscription through the site, confirm the confirmation email and group membership, and verify the welcome automation and unsubscribe. The existing Formspree email is evidence only for its own earlier flow. The new MailerLite workflow uses a free template but remains a draft until its sender and delivery can be accepted. Do not claim a live signup works based on the public form preview or a successful build alone.
 
-Formspree's existing contact form is not a newsletter list. Its newsletter-provider plugin is a paid feature on current plans, so do not enable it or upgrade without the owner's approval. A provider-native public form is the zero-spend path if the existing provider account supports it.
+No Formspree submission is copied into MailerLite. Do not enable a paid Formspree integration or upgrade either service without approval. MailerLite's free tier has subscriber and monthly-email limits; the current 14-day trial does not authorize a paid plan. The draft sender is the account's Gmail address, which MailerLite warns may affect delivery. Use a verified custom sending domain when DNS access is available; do not invent authentication records or claim inbox delivery without a test.
 
-If the former MailerLite private key was configured in GitHub or deployed in a public JavaScript bundle, the account owner must revoke or rotate it and remove the obsolete GitHub secret. Do not retrieve, print, test or place the old key in a browser variable. The public universal-script account ID in `index.html` is distinct from a private API token; review whether that script is needed after the newsletter form is chosen.
+If the former MailerLite private key was configured in GitHub or deployed in a public JavaScript bundle, the account owner must revoke or rotate it and remove the obsolete GitHub secret. Do not retrieve, print, test or place the old key in a browser variable. The old public universal-script account ID was replaced with the new account ID.
 
 ## Other integrations and checks
 
@@ -29,4 +29,4 @@ If the former MailerLite private key was configured in GitHub or deployed in a p
 
 ## Validation and release
 
-Run `pnpm check`, `pnpm test`, `pnpm ops:audit`, `pnpm build`, and `pnpm ops:validate`. Inspect desktop and mobile navigation, article disclosure, outbound links, newsletter destination, theme, contact form and a UTM landing page. Review the PR and successful CI before merging; verify GitHub Pages and a fresh subscription after deployment. Keep the current production site live until these gates pass.
+Run `pnpm check`, `pnpm test`, `pnpm ops:audit`, `pnpm build`, and `pnpm ops:validate`. Inspect desktop and mobile navigation, article disclosure, outbound links, embedded newsletter form and fallback URL, theme, contact form and a UTM landing page. Review the PR and successful CI before merging; verify GitHub Pages and a fresh subscription after deployment. Keep the current production site live until these gates pass.

@@ -14,14 +14,8 @@ import AboutSection from '@/components/AboutSection';
 const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
 const NewsletterSection = lazy(() => Promise.resolve({ default: InternalNewsletterSection }));
 
-function newsletterFormUrl(): string | null {
-  try {
-    const url = new URL(import.meta.env.VITE_NEWSLETTER_FORM_URL);
-    return url.protocol === 'https:' ? url.href : null;
-  } catch {
-    return null;
-  }
-}
+// Public MailerLite form for the VELUCE Newsletter group. No subscriber API token is used.
+const NEWSLETTER_FORM_URL = 'https://preview.mailerlite.io/forms/2666266/199848087687006170/share';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -107,7 +101,7 @@ export default function Home() {
                   }
                 }}
               >
-                {newsletterFormUrl() ? 'Subscribe' : 'Explore'}
+                Subscribe
               </Button>
             </div>
 
@@ -158,7 +152,7 @@ export default function Home() {
                     }
                   }}
                 >
-                  {newsletterFormUrl() ? 'Subscribe' : 'Explore'}
+                  Subscribe
                 </Button>
               </nav>
             </div>
@@ -306,16 +300,17 @@ export default function Home() {
   );
 }
 
-// Public hosted form only: private email-provider credentials never belong in a static bundle.
 function InternalNewsletterSection() {
-  const formUrl = newsletterFormUrl();
   return (
     <section id="newsletter-section" className="py-16 sm:py-24 px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white text-center">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-serif font-bold mb-6">Stay in the Loop</h2>
         <p className="text-lg text-gray-300 mb-8">Get occasional Veluce articles and ideas for thoughtful interiors, lighting and outdoor living.</p>
-        {formUrl ? <a href={formUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-gray-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">Subscribe to the newsletter</a>
-          : <p className="text-gray-300">Newsletter signup is temporarily unavailable.</p>}
+        <div className="ml-embedded mx-auto max-w-md" data-form="0WdayS" />
+        <p className="mt-6 text-sm text-gray-300">
+          If the form does not load, <a href={NEWSLETTER_FORM_URL} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">open the signup page</a>.
+          {' '}You can unsubscribe at any time. See our <Link href="/privacy" className="underline underline-offset-4 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">privacy policy</Link>.
+        </p>
       </div>
     </section>
   );

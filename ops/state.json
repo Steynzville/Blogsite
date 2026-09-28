@@ -30,7 +30,8 @@
     "Removed explicit Amazon tracking and unresolved Amazon short CTAs; corrected disclosures",
     "Implemented tracking, redirect repair, native product brief generator, economics calculator and regression checks",
     "Restored GitHub delivery: two exact original trees transported; PR #1 open, no merge/deployment",
-    "PR review follow-up removed remaining direct Amazon shopping links in three articles; preserved images and editorial text"
+    "PR review follow-up removed remaining direct Amazon shopping links in three articles; preserved images and editorial text",
+    "Configured separate MailerLite VELUCE Newsletter group, embedded double-opt-in form and draft welcome automation; historical welcome email was Formspree"
   ],
   "next_actions": [
     {
@@ -40,8 +41,8 @@
     },
     {
       "id": "N2",
-      "action": "Identify existing newsletter provider account and verified public form URL; configure VITE_NEWSLETTER_FORM_URL, test real signup and confirmation; rotate former MailerLite key if deployed",
-      "status": "owner_access_required"
+      "action": "Test fresh MailerLite subscription, confirmation, group membership, welcome delivery and unsubscribe; resolve sender-domain warning and rotate any former deployed API key",
+      "status": "acceptance_required"
     },
     {
       "id": "N3",
@@ -97,8 +98,8 @@
     },
     {
       "id": "B6",
-      "item": "Public newsletter form URL and actual provider account not verified; account access was blocked by automatic approval review",
-      "impact": "Deployment gate blocks PR rollout until working signup is configured and verified"
+      "item": "New MailerLite form preview loads, but fresh end-to-end signup and email delivery are unverified; welcome automation is a draft",
+      "impact": "Do not merge newsletter change or claim a live welcome email until acceptance checks pass"
     }
   ],
   "products": [

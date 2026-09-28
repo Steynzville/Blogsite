@@ -82,11 +82,12 @@
       "product_category": "solar LED strip",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
       "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
-      "verification": "malformed_nested_product_url",
-      "last_verified_at": null,
+      "verification": "verified_live_malformed_shortio_destination; article_sources_removed_pending_pr",
+      "last_verified_at": "2026-09-28",
       "replacement_history": [],
       "tracking_purpose": "commercial product CTA",
-      "final_destination": null
+      "final_destination": null,
+      "evidence": "Authenticated Short.io dashboard 2026-09-28: nested AliExpress URL has extra characters after .html; 22 clicks. Linktree card hidden live. Final merchant unavailable in cloud browser; attribution not certified."
     },
     {
       "slug": "SolarSpot",
@@ -177,9 +178,10 @@
     {
       "slug": "COBled",
       "public_url": "https://steynenslin.s.gy/COBled",
-      "verification": "no_matching_shortio_record_in_prior_dashboard_audit",
-      "observed_at": "2026-09-28"
+      "verification": "verified_live_shortio_404; linktree_card_hidden",
+      "observed_at": "2026-09-28",
+      "evidence": "Authenticated Short.io dashboard lacks COBled; public short URL rendered 404. Linktree admin card hidden; refreshed public shop shows 11 products."
     }
   ],
-  "scope": "Article slugs verified in dashboard, not final merchant or commission. Linktree-only observations require refresh after owner edits."
+  "scope": "Authenticated dashboard and Linktree UI verified for SolarLED and COBled. AliExpress final listing/stock and actual commission attribution remain unverified because cloud-browser safety blocks the redirect. Other merchant paths remain pending."
 }

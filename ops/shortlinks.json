@@ -156,26 +156,28 @@
     {
       "slug": "solar-ball-lights",
       "public_url": "https://steynenslin.s.gy/solar-ball-lights",
-      "product_category": "solar ball lights",
+      "product_category": "modern cylindrical solar pathway lights",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
       "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
       "verification": "pending_live_product_and_attribution",
       "last_verified_at": null,
       "replacement_history": [],
       "tracking_purpose": "commercial product CTA",
-      "final_destination": null
+      "final_destination": null,
+      "evidence": "Owner manually confirmed 2026-09-28 that this legacy slug resolves through the existing Admitad wrapper to the modern cylindrical solar pathway-light product. Article CTA should remain Modern Cylinder -> solar-ball-lights. Final sale attribution remains unverified."
     },
     {
       "slug": "solar-lantern-lights",
       "public_url": "https://steynenslin.s.gy/solar-lantern-lights",
-      "product_category": "solar lantern lights",
+      "product_category": "traditional lantern-style solar pathway lights",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
       "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
       "verification": "pending_live_product_and_attribution",
       "last_verified_at": null,
       "replacement_history": [],
       "tracking_purpose": "commercial product CTA",
-      "final_destination": null
+      "final_destination": null,
+      "evidence": "Owner manually confirmed 2026-09-28 that this slug resolves through the existing Admitad wrapper to the traditional lantern-style solar pathway-light product. Article CTA should remain Traditional Lantern -> solar-lantern-lights. Final sale attribution remains unverified."
     }
   ],
   "linktree_only_observed": [

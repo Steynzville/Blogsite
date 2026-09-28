@@ -93,12 +93,6 @@
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
-      "url": "https://steynenslin.s.gy/SolarLED",
-      "kind": "unverified_shortlink",
-      "line": 123
-    },
-    {
-      "file": "hidden-uplighting-mature-trees.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
       "line": 197
@@ -171,12 +165,6 @@
     },
     {
       "file": "led-strip-integration-modern-deck.md",
-      "url": "https://steynenslin.s.gy/SolarLED",
-      "kind": "unverified_shortlink",
-      "line": 109
-    },
-    {
-      "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarStep",
       "kind": "unverified_shortlink",
       "line": 132
@@ -197,13 +185,13 @@
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarSpot",
       "kind": "unverified_shortlink",
-      "line": 226
+      "line": 224
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 315
+      "line": 312
     },
     {
       "file": "luxury-interior-design-principles.md",
@@ -446,13 +434,10 @@
     },
     {
       "slug": "SolarLED",
-      "sources": [
-        "hidden-uplighting-mature-trees.md",
-        "led-strip-integration-modern-deck.md"
-      ],
-      "verification": "malformed_nested_product_url",
+      "sources": [],
+      "verification": "verified_live_malformed_shortio_destination; article_sources_removed_pending_pr",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": "2026-09-28"
     },
     {
       "slug": "SolarSpot",

@@ -3,15 +3,16 @@
   "updated_at": "2026-09-28",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
-  "baseline_sha": "9413ffe",
-  "branch": "veluce/affiliate-link-inventory",
-  "deployment": "pr_1_merged_and_build_success_reported_by_owner_live_affiliate_path_unverified",
+  "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
+  "branch": "veluce/live-affiliate-verification",
+  "deployment": "PRs 1 and 2 merged; affiliate merchant paths unverified",
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
     "pinterest": "not_connected",
-    "admitad": "publisher_account_blocked_by_human_verification_2026-09-28",
-    "short_io": "dashboard_read_15_links_2026-09-28"
+    "admitad": "Opera Connector unavailable (UNAVAILABLE Browser not connected) at 2026-09-28 16:28 SAST; prior cloud session redirected to login",
+    "short_io": "dashboard_read_15_links_2026-09-28",
+    "linktree": "public shop previously observed 13 AliExpress products; current signed-in Opera refresh blocked by connector"
   },
   "decisions": [
     {
@@ -33,48 +34,34 @@
     "PR review follow-up removed remaining direct Amazon shopping links in three articles; preserved images and editorial text",
     "Configured separate MailerLite VELUCE Newsletter group and embedded double-opt-in form; historical welcome email was Formspree",
     "Owner confirmed MailerLite confirmation and welcome emails from a fresh signup",
-    "Reconciled all 12 article Short.io slugs with the account's 15 records; found malformed SolarLED destination"
+    "Reconciled all 12 article Short.io slugs with the account's 15 records; found malformed SolarLED destination",
+    "Enriched existing shortlink registry with per-slug verification status; source audit now reports commercial placements and rejects Temu/source-registry drift"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Review the affiliate-link inventory PR and its source-audit safeguard",
-      "status": "review_required"
+      "action": "Restore Opera Connector connection; refresh Linktree, Short.io, Admitad and AliExpress authenticated views",
+      "status": "human_connection_required"
     },
     {
       "id": "N2",
-      "action": "Confirm MailerLite unsubscribe and sender deliverability; rotate any former deployed API key if it existed",
-      "status": "partial_acceptance"
+      "action": "Verify 13 Linktree product click paths, especially COBled missing dashboard slug and malformed SolarLED; repair or remove only after exact destination evidence",
+      "status": "account_access_required"
     },
     {
       "id": "N3",
-      "action": "Obtain minimum private measurement exports from MEASUREMENT.md once",
-      "status": "access_required"
+      "action": "Validate each article slug end-to-end, programme eligibility, merchant stock and geography; update registry evidence and preserve slugs",
+      "status": "account_access_required"
     },
     {
       "id": "N4",
-      "action": "Generate and verify an exact-product replacement for SolarLED in Admitad, then repair the Short.io destination; validate the remaining merchant paths, approval and geography",
-      "status": "admitad_verification_and_exact_change_approval_required"
+      "action": "Confirm MailerLite unsubscribe and rotate any formerly exposed API key",
+      "status": "partial_acceptance"
     },
     {
       "id": "N5",
-      "action": "Audit existing product-image provenance before reuse",
-      "status": "ready"
-    },
-    {
-      "id": "N6",
-      "action": "Use actual traffic/commission to select one existing-page experiment",
+      "action": "Obtain actual traffic and approved commission metrics for profit prioritisation",
       "status": "measurement_required"
-    },
-    {
-      "id": "N7",
-      "action": "Review analytics/privacy configuration and SPA pageviews in account",
-      "status": "access_required"
-    },
-    {
-      "id": "N8",
-      "action": "Validate first exact-SKU brief and prepare two distinct Pinterest angles after rights and merchant gates",
-      "status": "evidence_required"
     }
   ],
   "blocked": [
@@ -95,13 +82,13 @@
     },
     {
       "id": "B5",
-      "item": "AliExpress redirect trace blocked by cloud-browser site-safety policy; Admitad account presents human verification",
-      "impact": "Merchant landing, publisher approval and commission attribution remain unverified"
+      "item": "Opera Browser Connector returns UNAVAILABLE Browser not connected after owner reconnect; cloud AliExpress path is site-safety blocked",
+      "impact": "No authenticated product, programme, attribution or final merchant verification this run"
     },
     {
       "id": "B6",
-      "item": "SolarLED's Short.io destination has malformed AliExpress product path; automatic approval review rejected saving a trimmed URL",
-      "impact": "Live affiliate destination remains unchanged until exact replacement is verified and approved"
+      "item": "SolarLED malformed nested destination; Linktree COBled absent from previously observed Short.io records",
+      "impact": "Do not mark live paths as valid or change affiliate destination without exact replacement evidence"
     }
   ],
   "products": [
@@ -122,14 +109,9 @@
   "campaigns": [],
   "pages_created": [],
   "measurements": [],
-  "approval_required": [
-    {
-      "item": "Replace SolarLED's Short.io destination with a verified exact-product Admitad deeplink",
-      "reason": "Automatic approval review rejected trimming the malformed existing URL because its nested tracking parameters might affect commissions; obtain fresh account evidence and explicit approval for the exact replacement"
-    }
-  ],
-  "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/1",
-  "pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
+  "approval_required": [],
+  "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
+  "pull_request": null,
   "delivery": {
     "original_local_commits": [
       "39dfdc4a122fe2ff2e21f2603d7f5fea3fbcd60b",
@@ -142,6 +124,6 @@
     "original_trees_verified_equal": true,
     "github_write_access": "restored via connector",
     "merge_authorized": false,
-    "ci": "PR #1 merged and build success reported by owner; PR #2 checks pending"
+    "ci": "Local checks passed; follow-up PR checks pending"
   }
 }

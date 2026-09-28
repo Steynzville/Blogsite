@@ -14,5 +14,172 @@
     "TUYAcobLED",
     "solar-ball-lights",
     "solar-lantern-lights"
-  ]
+  ],
+  "records": [
+    {
+      "slug": "24vDCplugLED",
+      "public_url": "https://steynenslin.s.gy/24vDCplugLED",
+      "product_category": "12V/24V COB LED strip",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "Rug",
+      "public_url": "https://steynenslin.s.gy/Rug",
+      "product_category": "outdoor rug",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "Smart-blinds",
+      "public_url": "https://steynenslin.s.gy/Smart-blinds",
+      "product_category": "smart blinds",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "Solar-string",
+      "public_url": "https://steynenslin.s.gy/Solar-string",
+      "product_category": "solar string lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarInground",
+      "public_url": "https://steynenslin.s.gy/SolarInground",
+      "product_category": "solar inground lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarLED",
+      "public_url": "https://steynenslin.s.gy/SolarLED",
+      "product_category": "solar LED strip",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "malformed_nested_product_url",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarSpot",
+      "public_url": "https://steynenslin.s.gy/SolarSpot",
+      "product_category": "solar spotlights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarStep",
+      "public_url": "https://steynenslin.s.gy/SolarStep",
+      "product_category": "solar step lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "SolarWall",
+      "public_url": "https://steynenslin.s.gy/SolarWall",
+      "product_category": "solar wall lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "TUYAcobLED",
+      "public_url": "https://steynenslin.s.gy/TUYAcobLED",
+      "product_category": "COB LED strip",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "solar-ball-lights",
+      "public_url": "https://steynenslin.s.gy/solar-ball-lights",
+      "product_category": "solar ball lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    },
+    {
+      "slug": "solar-lantern-lights",
+      "public_url": "https://steynenslin.s.gy/solar-lantern-lights",
+      "product_category": "solar lantern lights",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
+      "verification": "pending_live_product_and_attribution",
+      "last_verified_at": null,
+      "replacement_history": [],
+      "tracking_purpose": "commercial product CTA",
+      "final_destination": null
+    }
+  ],
+  "linktree_only_observed": [
+    {
+      "slug": "SolarSecurity",
+      "public_url": "https://steynenslin.s.gy/SolarSecurity",
+      "verification": "pending_live_product_and_attribution",
+      "observed_at": "2026-09-28"
+    },
+    {
+      "slug": "SolarDeck",
+      "public_url": "https://steynenslin.s.gy/SolarDeck",
+      "verification": "pending_live_product_and_attribution",
+      "observed_at": "2026-09-28"
+    },
+    {
+      "slug": "COBled",
+      "public_url": "https://steynenslin.s.gy/COBled",
+      "verification": "no_matching_shortio_record_in_prior_dashboard_audit",
+      "observed_at": "2026-09-28"
+    }
+  ],
+  "scope": "Article slugs verified in dashboard, not final merchant or commission. Linktree-only observations require refresh after owner edits."
 }

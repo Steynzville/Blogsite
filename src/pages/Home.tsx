@@ -1,6 +1,6 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { Link } from 'wouter';
-import { Menu, X, ChevronRight, Moon, Sun, CheckCircle, AlertCircle } from 'lucide-react';
+import { Menu, X, ChevronRight, Moon, Sun } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
 import Footer from '@/components/Footer';
@@ -13,6 +13,15 @@ import AboutSection from '@/components/AboutSection';
 
 const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
 const NewsletterSection = lazy(() => Promise.resolve({ default: InternalNewsletterSection }));
+
+function newsletterFormUrl(): string | null {
+  try {
+    const url = new URL(import.meta.env.VITE_NEWSLETTER_FORM_URL);
+    return url.protocol === 'https:' ? url.href : null;
+  } catch {
+    return null;
+  }
+}
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -98,7 +107,7 @@ export default function Home() {
                   }
                 }}
               >
-                Explore
+                {newsletterFormUrl() ? 'Subscribe' : 'Explore'}
               </Button>
             </div>
 
@@ -149,7 +158,7 @@ export default function Home() {
                     }
                   }}
                 >
-                  Explore
+                  {newsletterFormUrl() ? 'Subscribe' : 'Explore'}
                 </Button>
               </nav>
             </div>
@@ -299,18 +308,15 @@ export default function Home() {
 
 // Public hosted form only: private email-provider credentials never belong in a static bundle.
 function InternalNewsletterSection() {
-  const configured = import.meta.env.VITE_NEWSLETTER_FORM_URL;
-  let formUrl: string | null = null;
-  try {
-    const url = new URL(configured);
-    if (url.protocol === 'https:') formUrl = url.href;
-  } catch { /* No verified public form configured. */ }
+  const formUrl = newsletterFormUrl();
   return (
-    <section id="newsletter-section" className="py-16 px-6 bg-gray-900 text-white text-center">
-      <h2 className="text-4xl font-serif font-bold mb-6">Keep exploring Veluce</h2>
-      <p className="text-lg text-gray-300 mb-8">Ideas for thoughtful interiors, lighting and outdoor living.</p>
-      {formUrl ? <a href={formUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg">Subscribe to the newsletter</a>
-        : <Link href="/articles" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg">Browse the journal</Link>}
+    <section id="newsletter-section" className="py-16 sm:py-24 px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white text-center">
+      <div className="max-w-2xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl font-serif font-bold mb-6">Stay in the Loop</h2>
+        <p className="text-lg text-gray-300 mb-8">Get occasional Veluce articles and ideas for thoughtful interiors, lighting and outdoor living.</p>
+        {formUrl ? <a href={formUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-gray-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">Subscribe to the newsletter</a>
+          : <p className="text-gray-300">Newsletter signup is temporarily unavailable.</p>}
+      </div>
     </section>
   );
 }

@@ -15,7 +15,7 @@ for (const file of files) {
   const url=match[0]; let host; try{host=new URL(url).hostname}catch{continue}
   const kind= /(^|\.)(amazon\.[a-z.]+|amzn\.to|amzn\.eu)$/.test(host)?'amazon':commercialKind(url)||'external';
   report.links.push({file,url,kind,line:raw.slice(0,raw.indexOf(url)).split('\n').length});
-  if(kind==='amazon' && (host.startsWith('amzn.') || /[?&](tag|linkCode|ascsubtag)=/i.test(url))) report.issues.push({file,kind:'obsolete_amazon',url});
+  if(kind==='amazon') report.issues.push({file,kind:'amazon_outbound',url});
  }
  for(const m of content.matchAll(/(?:href=["']|\]\()\/article\/([a-z0-9-]+)/g)) if(!slugs.has(m[1])) report.issues.push({file,kind:'missing_internal_article',slug:m[1]});
 }

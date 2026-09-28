@@ -103,12 +103,9 @@ Biometric systems have matured dramatically in recent years. What once required 
 
 For those seeking a biometric system that requires no hub and no monthly fees, the **eufy Security Smart Lock C220** offers self-learning AI fingerprint recognition that improves with each use. Built-in Wi-Fi enables remote control from anywhere, with six ways to unlock providing redundancy.
 
-<a href="https://www.amazon.com/dp/B0C7C69FPS" target="_blank" rel="nofollow sponsored">
-  <img src="/images/eufy-c220-lock.jpg" alt="eufy Security Smart Lock C220 mounted on a warm wood front door" width="800" height="533" loading="lazy">
-</a>
+<img src="/images/eufy-c220-lock.jpg" alt="eufy Security Smart Lock C220 mounted on a warm wood front door" width="800" height="533" loading="lazy">
 <br>
 
-[→ More on the eufy Smart Lock C220](https://www.amazon.com/dp/B0C7C69FPS)
 
 <br>
 
@@ -129,12 +126,9 @@ When a lock combines keypad access with biometric fingerprint scanning and built
 
 Home begins with your fingerprints. The **Philips Wi-Fi Smart Lock** combines a backlit keypad with a circular fingerprint scanner (0.3-second identification, 99.9% recognition rate, storage for 20 fingerprints). Built-in Wi-Fi enables remote access management, and the system operates on standard AA alkaline batteries.
 
-<a href="https://www.amazon.com/dp/B0F5QKCD3S" target="_blank" rel="nofollow sponsored">
-  <img src="/images/philips-wifi-lock.jpg" alt="Philips Wi-Fi Smart Lock with fingerprint scanner being activated by a finger" width="800" height="533" loading="lazy">
-</a>
+<img src="/images/philips-wifi-lock.jpg" alt="Philips Wi-Fi Smart Lock with fingerprint scanner being activated by a finger" width="800" height="533" loading="lazy">
 <br>
 
-[→ More on the Philips Wi-Fi Smart Lock](https://www.amazon.com/dp/B0F5QKCD3S)
 
 <br>
 

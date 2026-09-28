@@ -29,17 +29,18 @@
     "Audited 26 article sources and existing deployment/metadata/tracking",
     "Removed explicit Amazon tracking and unresolved Amazon short CTAs; corrected disclosures",
     "Implemented tracking, redirect repair, native product brief generator, economics calculator and regression checks",
-    "Restored GitHub delivery: two exact original trees transported; PR #1 open, no merge/deployment"
+    "Restored GitHub delivery: two exact original trees transported; PR #1 open, no merge/deployment",
+    "PR review follow-up removed remaining direct Amazon shopping links in three articles; preserved images and editorial text"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Review PR #1, confirm latest CI and desktop/mobile preview acceptance; do not merge during this delivery task",
+      "action": "Review updated PR #1 and desktop/mobile preview; leave unmerged pending newsletter signup acceptance",
       "status": "review_required"
     },
     {
       "id": "N2",
-      "action": "Check former MailerLite key configuration; revoke/rotate if deployed; supply verified public hosted signup URL",
+      "action": "Identify existing newsletter provider account and verified public form URL; configure VITE_NEWSLETTER_FORM_URL, test real signup and confirmation; rotate former MailerLite key if deployed",
       "status": "owner_access_required"
     },
     {
@@ -93,6 +94,11 @@
       "id": "B5",
       "item": "Review browser cannot reach local preview (ERR_BLOCKED_BY_CLIENT)",
       "impact": "Changed UI mobile/desktop visual validation pending; do not auto-merge"
+    },
+    {
+      "id": "B6",
+      "item": "Public newsletter form URL and actual provider account not verified; account access was blocked by automatic approval review",
+      "impact": "Deployment gate blocks PR rollout until working signup is configured and verified"
     }
   ],
   "products": [
@@ -127,6 +133,6 @@
     "original_trees_verified_equal": true,
     "github_write_access": "restored via connector",
     "merge_authorized": false,
-    "ci": "Check latest PR head; local seven tests/typecheck/audit/prerender checks passed"
+    "ci": "Pending rerun on follow-up commit; prior final-head CI passed"
   }
 }

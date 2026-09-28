@@ -129,7 +129,7 @@
     }
   ],
   "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/1",
-  "pull_request": null,
+  "pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
   "delivery": {
     "original_local_commits": [
       "39dfdc4a122fe2ff2e21f2603d7f5fea3fbcd60b",
@@ -142,6 +142,6 @@
     "original_trees_verified_equal": true,
     "github_write_access": "restored via connector",
     "merge_authorized": false,
-    "ci": "PR #1 merged and build success reported by owner; new inventory PR pending"
+    "ci": "PR #1 merged and build success reported by owner; PR #2 checks pending"
   }
 }

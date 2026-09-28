@@ -80,14 +80,21 @@
       "slug": "SolarLED",
       "public_url": "https://steynenslin.s.gy/SolarLED",
       "product_category": "solar LED strip",
-      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "affiliate_network": "Admitad (existing rzekl wrapper; publisher credit unverified)",
-      "verification": "verified_live_malformed_shortio_destination; article_sources_removed_pending_pr",
+      "merchant": "AliExpress WW (Admitad Link Checker Active; listing stock unverified)",
+      "affiliate_network": "Admitad AliExpress WW (generated deeplink; Link Checker Active)",
+      "verification": "verified_live_shortio_to_admitad_deeplink; final_merchant_unverified",
       "last_verified_at": "2026-09-28",
-      "replacement_history": [],
+      "replacement_history": [
+        {
+          "date": "2026-09-28",
+          "from_item": "1005007008038230",
+          "to_item": "1005009013305099",
+          "reason": "Malformed nested URL in prior Short.io destination; owner supplied replacement"
+        }
+      ],
       "tracking_purpose": "commercial product CTA",
-      "final_destination": null,
-      "evidence": "Authenticated Short.io dashboard 2026-09-28: nested AliExpress URL has extra characters after .html; 22 clicks. Linktree card hidden live. Final merchant unavailable in cloud browser; attribution not certified."
+      "final_destination": "https://www.aliexpress.com/item/1005009013305099.html",
+      "evidence": "Owner supplied replacement product; Admitad program joined and Link Checker reported ad space, program, URL and deeplink Active. Short.io authenticated editor saved existing SolarLED slug with generated rzekl deeplink to item 1005009013305099; 22 historical clicks. Cloud browser policy prevented final merchant landing/stock and actual sale attribution verification. Linktree card remains hidden pending reauthentication."
     },
     {
       "slug": "SolarSpot",
@@ -178,10 +185,12 @@
     {
       "slug": "COBled",
       "public_url": "https://steynenslin.s.gy/COBled",
-      "verification": "verified_live_shortio_404; linktree_card_hidden",
+      "verification": "verified_live_shortio_to_admitad_deeplink; linktree_card_hidden; final_merchant_unverified",
       "observed_at": "2026-09-28",
-      "evidence": "Authenticated Short.io dashboard lacks COBled; public short URL rendered 404. Linktree admin card hidden; refreshed public shop shows 11 products."
+      "evidence": "Owner supplied replacement product; Admitad Link Checker reported ad space, program, URL and deeplink Active. Authenticated Short.io created COBled slug pointing at generated rzekl deeplink to item 1005003279313941. Linktree card remains hidden pending reauthentication. Final merchant listing/stock and actual sale attribution not verified.",
+      "final_destination": "https://www.aliexpress.com/item/1005003279313941.html",
+      "affiliate_network": "Admitad AliExpress WW (generated deeplink; Link Checker Active)"
     }
   ],
-  "scope": "Authenticated dashboard and Linktree UI verified for SolarLED and COBled. AliExpress final listing/stock and actual commission attribution remain unverified because cloud-browser safety blocks the redirect. Other merchant paths remain pending."
+  "scope": "Authenticated Short.io saved SolarLED and COBled generated Admitad deeplinks; Admitad Link Checker Active. Linktree cards remain hidden due expired-session sign-in loop. Final AliExpress listing/stock and sale attribution unverified because cloud browser safety blocks redirect. Other merchant paths pending."
 }

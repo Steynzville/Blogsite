@@ -11,10 +11,10 @@ test('tracking distinguishes unknown shortlinks and excludes ordinary references
 test('tracking never blocks navigation and works without analytics',()=>{const events={};const doc={addEventListener:(k,v)=>events[k]=v,removeEventListener:k=>delete events[k]};const calls=[];const win={location:{pathname:'/article/a'},gtag:(...a)=>calls.push(a)};const stop=installCommerceTracking(doc,win);events.click({target:{closest:()=>({href:'https://steynenslin.s.gy/Rug',dataset:{}})}});assert.equal(calls.length,1);delete win.gtag;assert.doesNotThrow(()=>events.click({target:{closest:()=>null}}));stop();assert.equal(Object.keys(events).length,0)});
 test('solar pathway CTAs preserve cylinder and lantern product mappings',()=>{
  const article=fs.readFileSync('content/articles/solar-pathway-lights-affordable.md','utf8');
- assert.ok(article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-ball-lights)'));
- assert.ok(article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
- assert.ok(!article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
- assert.ok(!article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-ball-lights)'));
+ assert.ok(article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
+ assert.ok(article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-ball-lights)'));
+ assert.ok(!article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-ball-lights)'));
+ assert.ok(!article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
 });
 test('economics includes downside and rejects missing rates',()=>{const scenarios=JSON.parse(fs.readFileSync('ops/economics-scenarios.json'));const base=economics(scenarios[0]);assert.ok(base.affiliateRevenue>0);assert.ok(economics(scenarios[2]).contributionPerOrder<base.contributionPerOrder);assert.throws(()=>economics({...scenarios[0],paymentRate:null}));assert.throws(()=>economics({...scenarios[0],approvalRate:2}))});
 test('unverified drafts cannot generate commercial pages',()=>{assert.ok(validateProduct({}).length>0);assert.ok(validateProduct(JSON.parse(fs.readFileSync('ops/templates/product.json'))).includes('Product is not verified'))});

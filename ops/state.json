@@ -12,7 +12,7 @@
     "pinterest": "not_connected",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0.",
-    "linktree": "VERIFIED LIVE PUBLIC 2026-09-28: shop renders 13 products, including Solar Neon LED and COB LED images; owner screenshots show both unhidden in admin and destination fields set to SolarLED and COBled Short.io slugs. Admin cloud session remains inaccessible."
+    "linktree": "VERIFIED LIVE PUBLIC 2026-09-28: shop renders 13 products, including Solar Neon LED and COB LED images; owner screenshots show both unhidden in admin and destination fields set to SolarLED and COBled Short.io slugs. Admin cloud session remains inaccessible. Public card hrefs verified for SolarLED and COBled; 12V/24V COB card bypasses Short.io with direct Admitad wrapper."
   },
   "decisions": [
     {
@@ -49,6 +49,11 @@
       "id": "N1",
       "action": "Check replacement item specifications, stock and shipping on a permitted merchant device; the two Linktree cards are restored, Short.io and Admitad paths saved",
       "status": "merchant_validation_required"
+    },
+    {
+      "id": "N6",
+      "action": "In Linktree admin, change the 12V/24V COB strip card from its direct Admitad URL to existing https://steynenslin.s.gy/24vDCplugLED after confirming the Short.io target still matches; then verify public href. Review restored card titles/specifications against replacement listings.",
+      "status": "admin_authentication_and_product_validation_required"
     },
     {
       "id": "N2",
@@ -106,6 +111,11 @@
       "id": "B8",
       "item": "Linktree admin cloud session expired and sign-in loop persists; owner restored both products on mobile",
       "impact": "Public shop shows 13 products and the two restored cards, but their individual public click controls and final merchant landing could not be fully exercised in cloud browser."
+    },
+    {
+      "id": "B10",
+      "item": "Public 12V/24V COB product links directly to Admitad instead of Short.io; existing Short.io slug is present",
+      "impact": "Affiliate wrapper visible, but the Linktree click bypasses Short.io measurement and cannot be edited through expired admin cloud session."
     }
   ],
   "products": [

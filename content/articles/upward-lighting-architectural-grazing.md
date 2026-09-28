@@ -9,7 +9,7 @@ seoTitle: "Upward Lighting: The Art of Architectural Grazing for Luxury Homes | 
 metaDescription: "Discover how architectural grazing with upward lighting transforms ordinary facades into dramatic, textured focal points at night. Complete guide for luxury homes."
 wordCount: 1420
 publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+updatedAt: "2026-09-28"
 faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "How long does installation take?", "answer": "Installation time varies depending on experience and wiring conditions, but most homeowners comfortable with basic electrical work can complete the process in under an hour per fixture. All mounting hardware is included."}, {"question": "Is the DASTOR light waterproof?", "answer": "Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant."}, {"question": "What is the warranty?", "answer": "24-month manufacturer warranty."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury."}]
 relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-lighting-outdoor-guide"]
 internalLinks: [{"text": "LED Strip Lighting for Outdoors", "slug": "led-strip-lighting-outdoor-guide"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
@@ -73,9 +73,7 @@ Architectural grazing transforms specific areas of a luxury home:
 
 Among the dozens of up/down wall fixtures currently available, **the DASTOR Up and Down Wall Lights stand out as a practical choice** for residential grazing applications. The fixture mounts flush on the wall, and its narrow beam angles send light upward and downward across the stone surface — creating the shadow play that defines architectural grazing.
 
-<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
-  <img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
-</a>
+<img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
 <br>
 
 **Why This Fixture Works for Grazing:**
@@ -86,25 +84,22 @@ Among the dozens of up/down wall fixtures currently available, **the DASTOR Up a
 - Die-cast aluminum construction — built for coastal and wet climates
 - GU10 bulbs included
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)**
 
 ### Layering Your Outdoor Lighting System
 
-<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
-  <img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
-</a>
+<img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
 <br>
 
 Grazing is most powerful when combined with other layers. A complete outdoor lighting system includes:
 
 | Layer | Purpose | Recommended Product |
 |-------|---------|---------------------|
-| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) |
-| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) |
-| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) |
-| **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | Warm white architectural tape) |
+| **Facade grazing** | Defines architecture | DASTOR Up and Down Wall Lights |
+| **Tree and shrub uplighting** | Adds depth and drama | NYMPHY Solar Spotlights |
+| **Path and ground lighting** | Defines walkways and garden edges | INCX Solar Ground Lights |
+| **Ambient and accent lighting** | Warms seating areas | FUSSION LED Strip Lights (400FT | Warm white architectural tape) |
 
-*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy](/article/led-strip-lighting-outdoor-guide) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
+*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy](/article/led-strip-integration-modern-deck) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
 
 ### Installation Guidelines for Architectural Grazing
 
@@ -139,11 +134,8 @@ Quality fixtures require minimal maintenance. DASTOR lights feature:
 - **GU10 LED bulbs** — easily replaceable
 
 A simple seasonal cleaning keeps them performing for years. For long-term maintenance, stock spare bulbs:
-<a href="https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
-  <img src="/images/bulb.jpg" alt="GU10 LED replacement bulb 3000K warm white" loading="lazy">
-</a>
+<img src="/images/bulb.jpg" alt="GU10 LED replacement bulb 3000K warm white" loading="lazy">
 
-**[→ Shop GU10 LED Replacement Bulbs (3000K warm white)](https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20)**
 
 ### Frequently Asked Questions
 
@@ -181,7 +173,6 @@ Architectural grazing is one of the most cost-effective ways to elevate a home's
 
 In luxury design, restraint often creates the strongest impression.
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)**
 
 ### Explore More Outdoor Lighting
 

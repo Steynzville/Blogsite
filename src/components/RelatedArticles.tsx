@@ -44,7 +44,7 @@ export const RelatedArticles: React.FC<RelatedArticlesProps> = ({
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {relatedArticles.map((article) => (
-            <Link key={article.slug} href={`/article/${article.slug}`}>
+            <Link key={article.slug} href={`/article/${article.slug}`} asChild>
               <a className="group block overflow-hidden rounded-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-all duration-300 cursor-pointer h-full flex flex-col">
                 <div className="relative h-48 overflow-hidden bg-gray-200 dark:bg-gray-800">
                   {article.heroImage && (

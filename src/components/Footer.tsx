@@ -19,7 +19,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               {categories.map((cat: any) => (
                 <li key={cat.slug}>
-                  <Link href={`/category/${cat.slug}`}>
+                  <Link href={`/category/${cat.slug}`} asChild>
                     <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       {cat.name}
                     </a>
@@ -27,7 +27,7 @@ export default function Footer() {
                 </li>
               ))}
               <li className="pt-2">
-                <Link href="/articles">
+                <Link href="/articles" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer font-medium">
                     Browse All Articles →
                   </a>
@@ -39,35 +39,35 @@ export default function Footer() {
             <h5 className="text-white font-semibold mb-4 text-sm">Legal</h5>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/about">
+                <Link href="/about" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                     About
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="/contact" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                     Contact
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/privacy">
+                <Link href="/privacy" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                     Privacy Policy
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/terms">
+                <Link href="/terms" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                     Terms of Use
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/affiliate">
+                <Link href="/affiliate" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                     Affiliate Disclosure
                   </a>

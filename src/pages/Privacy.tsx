@@ -19,7 +19,7 @@ export default function Privacy() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -43,7 +43,7 @@ export default function Privacy() {
         
         <div className="space-y-2 mb-8">
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Last updated: June 12, 2026
+            Last updated: September 28, 2026
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             This Privacy Policy applies to information collected through velucedesign.com.
@@ -59,6 +59,7 @@ export default function Privacy() {
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Information We Collect</h2>
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li><strong>Personal Data:</strong> When you contact us through our contact form, you provide your name, email address, and any message content you choose to share.</li>
+            <li><strong>Newsletter:</strong> If you sign up, you provide your email address to receive the VELUCE Journal. You must confirm your email before joining the active mailing list.</li>
             <li><strong>Usage Data:</strong> We automatically collect basic information about how you access and use the Site, including your IP address, browser type, pages visited, and time of visit.</li>
             <li><strong>Cookies:</strong> We may use cookies or similar technologies provided by third-party services necessary for certain features of the Site, such as processing contact form submissions. You can instruct your browser to refuse cookies, although some parts of the Site may not function properly.</li>
           </ul>
@@ -69,6 +70,7 @@ export default function Privacy() {
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li>Respond to messages submitted through our contact form</li>
+            <li>Send occasional journal updates to people who confirmed their newsletter subscription; every newsletter includes a way to unsubscribe</li>
             <li>Maintain and protect the security of the Site</li>
             <li>Operate, maintain, and improve the functionality and content of the Site</li>
           </ul>
@@ -79,14 +81,15 @@ export default function Privacy() {
           </p>
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li><strong>Formspree:</strong> Processes contact form submissions on our behalf.</li>
+            <li><strong>MailerLite:</strong> Hosts our newsletter signup form, manages confirmed subscriptions, and sends newsletter and confirmation emails.</li>
           </ul>
           <p className="leading-relaxed">
-            You can learn more about how Formspree handles personal information by reviewing <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">their privacy policy</a>.
+            Read the <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">Formspree privacy policy</a> and <a href="https://www.mailerlite.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">MailerLite privacy policy</a> for more about their handling of information. MailerLite's signup form and emails may use cookies or similar technology as described in its policy.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Data Retention</h2>
           <p className="leading-relaxed">
-            We retain personal information only for as long as reasonably necessary to respond to inquiries, comply with legal obligations, resolve disputes, and enforce our agreements.
+            We keep contact information for as long as reasonably needed to respond to inquiries or meet legal obligations. We keep newsletter subscription information while you remain subscribed, subject to any records we need to retain for legal or suppression purposes. You can unsubscribe using a link in any newsletter or contact us to request deletion.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Security</h2>

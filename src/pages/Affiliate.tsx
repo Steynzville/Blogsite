@@ -19,7 +19,7 @@ export default function Affiliate() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -43,15 +43,15 @@ export default function Affiliate() {
 
         <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 space-y-6">
           <p>
-            VELUCE participates in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+            VELUCE uses affiliate links through Admitad, including links to participating AliExpress products. If you buy through an eligible link, we may receive a commission at no extra cost to you.
           </p>
           <p>
-            We also participate in affiliate programs including AliExpress, Short.io, and Linktree.
+            Short.io and Linktree may be used to manage links; they are not the retailers. VELUCE is no longer an Amazon Associate. Any ordinary Amazon product links are provided as references and do not earn us Amazon affiliate commissions.
           </p>
           
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">How We Use Affiliate Links</h2>
           <p>
-            When you click an affiliate link on VELUCE and make a purchase, we may earn a small commission at no additional cost to you. We only recommend products we genuinely believe in — typically those we have tested or that align with our design philosophy of intention and longevity.
+            When you click an affiliate link on VELUCE and make a purchase, we may earn a small commission at no additional cost to you. Recommendations are based on the stated product information and relevance to our design coverage. Hands-on testing is identified explicitly when it has actually occurred.
           </p>
           
           <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">Editorial Independence</h2>
@@ -60,7 +60,7 @@ export default function Affiliate() {
           </p>
           
           <p className="mt-12 text-sm text-gray-500 dark:text-gray-400">
-            Last updated: June 2026
+            Last updated: 28 September 2026
           </p>
         </div>
       </article>

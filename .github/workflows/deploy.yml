@@ -35,19 +35,24 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true pnpm install --frozen-lockfile
 
       - name: Run linter
         run: pnpm check
-        continue-on-error: true
+
+      - name: Validate operating checks
+        run: pnpm test && pnpm ops:audit
 
       - name: Build static site from Markdown
         run: pnpm run build
         env:
           VITE_CRITICAL_CSS_URL: https://velucedesign.com/
           VITE_CRITICAL_CSS_URLS: '{"/":"/","/article/upward-lighting-architectural-grazing":"/article/upward-lighting-architectural-grazing"}'
-          VITE_MAILERLITE_API_KEY: ${{ secrets.VITE_MAILERLITE_API_KEY }}
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
           NODE_ENV: production
+
+      - name: Validate generated pages and operating state
+        run: pnpm ops:validate
 
       - name: Verify Markdown processing
         run: |

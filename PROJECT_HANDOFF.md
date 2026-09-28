@@ -1,3 +1,5 @@
+> Current operations: read [VELUCE_OPERATING_SYSTEM.md](VELUCE_OPERATING_SYSTEM.md). Do not follow legacy Amazon membership or client-side API-key guidance below.
+
 # PROJECT HANDOFF: VELUCE Static Migration
 
 ## Status: COMPLETE

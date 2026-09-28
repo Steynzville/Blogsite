@@ -1,0 +1,9 @@
+{
+  "period_start": null, "period_end": null, "page": null, "source_medium": null,
+  "country": null, "currency": "ZAR", "evidence": "unavailable", "source_reference": null,
+  "retrieved_at": null, "sessions": null, "engaged_sessions": null,
+  "pinterest_outbound_clicks": null, "commercial_clicks": null,
+  "approved_commission": null, "pending_commission": null, "reversals": null,
+  "cash_received": null, "operating_costs": null, "operator_hours": null,
+  "attribution_coverage": "unknown", "commission_cohort_mature": false
+}

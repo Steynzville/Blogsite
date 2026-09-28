@@ -80,14 +80,14 @@ export default function AffiliateBlock({
             <a
               href={affiliateUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored nofollow noopener noreferrer"
               className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
             >
-              View on Amazon
+              View at retailer
               <ExternalLink size={16} />
             </a>
             <p className="text-xs text-gray-600 dark:text-gray-400 mt-3">
-              As an Amazon Associate, we earn from qualifying purchases.
+              We may earn a commission from purchases through affiliate links.
             </p>
           </div>
         </div>

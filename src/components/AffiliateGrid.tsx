@@ -98,7 +98,7 @@ export default function AffiliateGrid({
               <a
                 href={product.affiliateUrl}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored nofollow noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 w-full bg-amber-600 hover:bg-amber-700 text-white px-3 py-2 rounded font-semibold text-sm transition-colors"
               >
                 View
@@ -110,7 +110,7 @@ export default function AffiliateGrid({
       </div>
 
       <p className="text-xs text-gray-600 dark:text-gray-400 mt-6 text-center">
-        As an Amazon Associate, we earn from qualifying purchases. These recommendations are based on product quality and relevance to our readers.
+        We may earn a commission from purchases through affiliate links. These recommendations are based on product quality and relevance to our readers.
       </p>
     </div>
   );

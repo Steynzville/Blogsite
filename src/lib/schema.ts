@@ -20,9 +20,9 @@ export function getArticleSchema(baseUrl: string, article: Article) {
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.excerpt,
-    image: article.heroImage ? `${baseUrl}${article.heroImage}` : `${baseUrl}/og-image.png`,
-    datePublished: article.publishedAt ? new Date(article.publishedAt).toISOString() : new Date().toISOString(),
-    dateModified: article.updatedAt ? new Date(article.updatedAt).toISOString() : new Date().toISOString(),
+    image: article.heroImage ? new URL(article.heroImage, baseUrl).href : `${baseUrl}/images/hero-luxury.jpg`,
+    datePublished: article.publishedAt ? new Date(article.publishedAt).toISOString() : undefined,
+    dateModified: (article.updatedAt || article.publishedAt) ? new Date(article.updatedAt || article.publishedAt!).toISOString() : undefined,
     author: {
       '@type': 'Organization',
       name: 'VELUCE',
@@ -33,7 +33,7 @@ export function getArticleSchema(baseUrl: string, article: Article) {
       name: 'VELUCE',
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/logo.png`,
+        url: `${baseUrl}/favicon.svg`,
         width: 250,
         height: 60,
       },
@@ -72,15 +72,13 @@ export function getOrganizationSchema(baseUrl: string) {
     name: 'VELUCE',
     alternateName: 'VELUCE Luxury Living Journal',
     url: baseUrl,
-    logo: `${baseUrl}/logo.png`,
+    logo: `${baseUrl}/favicon.svg`,
     description: 'Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.',
     sameAs: [
-      'https://www.pinterest.com/veluce',
-      'https://www.instagram.com/veluce',
+      'https://www.pinterest.com/steynenslin/',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+27-XXX-XXX-XXXX',
       contactType: 'Customer Service',
       email: 'steyn.enslin@heatrecovery.co.za',
     },
@@ -94,13 +92,6 @@ export function getHomepageSchema(baseUrl: string) {
     name: 'VELUCE - Luxury Living Journal',
     url: baseUrl,
     description: 'Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${baseUrl}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
+
   };
 }

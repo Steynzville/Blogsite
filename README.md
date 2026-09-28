@@ -1,10 +1,12 @@
+> Current operations: read [VELUCE_OPERATING_SYSTEM.md](VELUCE_OPERATING_SYSTEM.md). Do not follow legacy Amazon membership or client-side API-key guidance below.
+
 # VELUCE - Luxury Living Journal
 
 A modern, mobile-responsive editorial publication focused on luxury home design, lighting, and lifestyle. VELUCE is built as a **pure static site** for maximum performance, security, and ease of deployment.
 
 ## Overview
 
-VELUCE is a content-first publication featuring 23 cornerstone articles across 7 categories:
+VELUCE is a content-first publication featuring 26 source articles across 7 categories:
 - Outdoor Lighting
 - Garden Lighting
 - Patio Decor
@@ -47,8 +49,8 @@ VELUCE has been converted from a database-backed application to a **fully static
 - **marked** - Markdown to HTML conversion
 
 ### Infrastructure
-- **GitHub Pages - Hosting and automated deployments
-- **Formspree - Serverless contact form handling
+- **GitHub Pages** - Hosting and automated deployments
+- **Formspree** - Serverless contact form handling
 - **GitHub** - Source control and CI/CD trigger
 
 ## Getting Started

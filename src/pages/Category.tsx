@@ -27,7 +27,7 @@ export default function Category() {
       <div className="min-h-screen bg-white flex items-center justify-center px-4">
         <div className="text-center">
           <h1 className="text-3xl font-serif font-bold text-gray-900 mb-4">Category Not Found</h1>
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-900 hover:text-gray-600 cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -43,7 +43,7 @@ export default function Category() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -81,7 +81,7 @@ export default function Category() {
           ) : articles.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {articles.map((article: any) => (
-                <Link key={article.slug} href={`/article/${article.slug}`}>
+                <Link key={article.slug} href={`/article/${article.slug}`} asChild>
                   <a className="group cursor-pointer">
                     <div className="overflow-hidden rounded-lg bg-gray-100 mb-4 h-48 sm:h-56 md:h-64">
                       {article.heroImage && (
@@ -113,7 +113,7 @@ export default function Category() {
               <p className="text-lg text-gray-600 mb-6">
                 Articles coming soon in this category.
               </p>
-              <Link href="/">
+              <Link href="/" asChild>
                 <a className="inline-flex items-center text-gray-900 hover:text-gray-600 cursor-pointer">
                   Explore other categories <ChevronRight size={20} className="ml-2" />
                 </a>
@@ -131,7 +131,7 @@ export default function Category() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {categories.filter((c) => c.slug !== slug).map((cat) => (
-              <Link key={cat.slug} href={`/category/${cat.slug}`}>
+              <Link key={cat.slug} href={`/category/${cat.slug}`} asChild>
                 <a className="group block p-6 sm:p-8 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-500 hover:shadow-lg transition-all cursor-pointer">
                   <h3 className="text-xl font-serif font-bold text-gray-900 dark:text-white mb-2 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
                     {cat.name}

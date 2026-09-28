@@ -222,7 +222,7 @@ A single strip is rarely enough. Complete outdoor lighting combines multiple lay
 
 | Layer | Product | Purpose |
 |-------|---------|---------|
-| Deck/pergola lighting | [220V or 12V COB strip](https://steynenslin.s.gy/TUYAcobLED) | Defines structure, creates ambience |
+| Deck/pergola lighting | [220V smart COB](https://steynenslin.s.gy/TUYAcobLED) or [12V/24V DC COB](https://steynenslin.s.gy/24vDCplugLED) | Defines structure, creates ambience |
 | Stair safety | [Solar step lights](https://steynenslin.s.gy/SolarStep) | Prevents trips, soft guidance |
 | Path definition | [Solar ground lights](https://steynenslin.s.gy/SolarInground) | Flush-mount, walkway edges |
 | Tree and shrub uplighting | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) | Adds depth beyond the deck |

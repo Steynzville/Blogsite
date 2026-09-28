@@ -6,6 +6,8 @@ import anchor from 'markdown-it-anchor';
 import attrs from 'markdown-it-attrs';
 import container from 'markdown-it-container';
 import { fileURLToPath } from 'url';
+import { commercialKind } from '../src/lib/commerce.mjs';
+const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = path.resolve(__dirname, '../content/articles');
@@ -46,10 +48,11 @@ md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
       if (relIndex < 0) {
         tokens[idx].attrPush(['rel', 'noopener noreferrer']);
       } else {
-        tokens[idx].attrs[relIndex][1] = 'noopener noreferrer';
+        tokens[idx].attrs[relIndex][1] += ' noopener noreferrer';
       }
     }
   }
+  if (aIndex >= 0 && commercialKind(tokens[idx].attrs[aIndex][1])) tokens[idx].attrJoin('rel', 'sponsored nofollow');
   return defaultRender(tokens, idx, options, env, self);
 };
 
@@ -140,7 +143,7 @@ async function generateSitemap(articles) {
 
   // Add articles
   for (const article of articles) {
-    const lastMod = article.updatedAt ? new Date(article.updatedAt).toISOString() : new Date().toISOString();
+    const lastMod = article.updatedAt ? new Date(article.updatedAt).toISOString() : new Date(article.publishedAt).toISOString();
     sitemap += `  <url>\n    <loc>${SITE_URL}/article/${article.slug}/</loc>\n    <lastmod>${lastMod}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   }
 
@@ -188,7 +191,8 @@ async function generateStaticHtml(articles) {
       path: `/article/${a.slug}`,
       title: `${a.title} — VELUCE`,
       description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`,
-      content: `<h1>${a.title}</h1><div>${a.content}</div>`
+      image: a.heroImage,
+      content: `<h1>${escapeHtml(a.title)}</h1><p>Some links may earn Veluce a commission at no extra cost to you. Purchases, delivery and returns are handled by the retailer. <a href="/affiliate/">Affiliate disclosure</a>.</p><div>${a.content}</div>`
     })),
     ...categories.map(c => ({
       path: `/category/${c.slug}`,
@@ -212,16 +216,16 @@ async function generateStaticHtml(articles) {
     
     // Update title
     if (customizedHtml.includes('<title>')) {
-      customizedHtml = customizedHtml.replace(/<title>.*?<\/title>/, `<title>${route.title}</title>`);
+      customizedHtml = customizedHtml.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(route.title)}</title>`);
     } else {
-      customizedHtml = customizedHtml.replace('</head>', `  <title>${route.title}</title>\n  </head>`);
+      customizedHtml = customizedHtml.replace('</head>', `  <title>${escapeHtml(route.title)}</title>\n  </head>`);
     }
     
     // Update or add description
     if (customizedHtml.includes('name="description"')) {
-      customizedHtml = customizedHtml.replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${route.description}" />`);
+      customizedHtml = customizedHtml.replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${escapeHtml(route.description)}" />`);
     } else {
-      customizedHtml = customizedHtml.replace('</head>', `  <meta name="description" content="${route.description}" />\n  </head>`);
+      customizedHtml = customizedHtml.replace('</head>', `  <meta name="description" content="${escapeHtml(route.description)}" />\n  </head>`);
     }
     
     // Handle canonical tag: replace existing or add new
@@ -231,6 +235,8 @@ async function generateStaticHtml(articles) {
     } else {
       customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
     }
+
+    customizedHtml = customizedHtml.replace('</head>', `<meta property="og:title" content="${escapeHtml(route.title)}" /><meta property="og:description" content="${escapeHtml(route.description)}" /><meta property="og:url" content="${canonicalUrl}" /><meta property="og:type" content="${route.path.startsWith('/article/') ? 'article' : 'website'}" /><meta property="og:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /><meta name="twitter:card" content="summary_large_image" /></head>`);
 
     // Inject the actual content into the #root div for Googlebot to see
     if (customizedHtml.includes('<div id="root"></div>')) {
@@ -260,4 +266,4 @@ async function main() {
   }
 }
 
-main().catch(console.error);
+main().catch(error => { console.error(error); process.exitCode = 1; });

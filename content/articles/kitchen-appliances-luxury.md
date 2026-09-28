@@ -128,7 +128,7 @@ High-performance ranges demand high-performance ventilation. A 60,000 BTU gas ra
 - 6 speed settings for quiet operation
 - Widely praised for balancing serious extraction power with everyday usability
 
-**[→ Shop Hauslane Range Hood](https://amzn.to/4e9PAKI)**
+
 
 ## Wine Storage and Beverage Centers
 
@@ -153,7 +153,7 @@ The luxury kitchen increasingly includes dedicated zones for wine and beverages.
 - Quiet operation (43 dB)
 - A solid choice for keeping beverages accessible without crowding the main refrigerator
 
-**[→ Shop KoolMore Beverage Cooler](https://amzn.to/49Xy8q8)**
+
 
 ## Daily Rituals
 
@@ -167,7 +167,7 @@ The first espresso of the morning. Bread browning while the house wakes. Dough k
 - Powerful steam wand for microfoam and latte art
 - A modern classic among home espresso enthusiasts
 
-**[→ Shop Breville Barista Express](https://amzn.to/4enAYWI)**
+
 
 **Recommended: KitchenAid Classic Stand Mixer**
 - 4.5 quart tilt-head design
@@ -175,7 +175,7 @@ The first espresso of the morning. Bread browning while the house wakes. Dough k
 - Trusted heritage brand
 - An enduring benchmark for home baking
 
-**[→ Shop KitchenAid Stand Mixer](https://amzn.to/3QeRPTO)**
+
 
 **Recommended: Smeg 2-Slice Toaster**
 - Italian design, pastel blue finish
@@ -183,7 +183,7 @@ The first espresso of the morning. Bread browning while the house wakes. Dough k
 - Extra-wide slots for bagels and thick bread
 - Beloved as much for its personality as its practicality
 
-**[→ Shop Smeg Toaster](https://amzn.to/4uF4Xj7)**
+
 
 ## Finishes: The Visual Harmony
 
@@ -234,7 +234,7 @@ Yes. Built-in refrigerators are shallower (24-27 inches) than standard-depth mod
 **What CFM ventilation do I need for a luxury range?**  
 High-performance ranges require 600-1200 CFM. Gas ranges need 1 CFM per 100 BTUs. Induction and electric need less. Always follow local codes; many jurisdictions require makeup air systems above 400 CFM.
 
-*For homeowners building complete kitchen systems, our articles on [Kitchen Layout](/article/kitchen-design-layout) and [Countertop Materials](/article/countertop-materials-guide) explore other approaches to creating functional, beautiful cooking spaces.*
+*For homeowners building complete kitchen systems, our articles on [Kitchen Layout](/article/kitchen-design-layout) and [Countertop Materials](/article/quartzite-vs-porcelain-countertops) explore other approaches to creating functional, beautiful cooking spaces.*
 
 > The finest kitchens are not defined by their appliances alone. They are defined by the harmony between performance and presence — between how a space cooks and how it feels.
 

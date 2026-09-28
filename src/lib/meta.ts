@@ -28,8 +28,8 @@ export function setMetaTags(meta: MetaData) {
 
   // Image
   if (meta.image) {
-    updateOrCreateMetaTag('og:image', meta.image);
-    updateOrCreateMetaTag('twitter:image', meta.image);
+    updateOrCreateMetaTag('og:image', new URL(meta.image, 'https://velucedesign.com').href);
+    updateOrCreateMetaTag('twitter:image', new URL(meta.image, 'https://velucedesign.com').href);
   }
 
   // URL & Canonical
@@ -54,7 +54,7 @@ export function setMetaTags(meta: MetaData) {
 
   // Twitter Card
   updateOrCreateMetaTag('twitter:card', 'summary_large_image');
-  updateOrCreateMetaTag('twitter:site', '@veluce');
+
 }
 
 function updateOrCreateMetaTag(property: string, content: string) {
@@ -82,7 +82,10 @@ function updateOrCreateCanonicalTag(url: string) {
     tag.setAttribute('rel', 'canonical');
     document.head.appendChild(tag);
   }
-  tag.setAttribute('href', url);
+  const canonical = new URL(url, 'https://velucedesign.com');
+  canonical.search = ''; canonical.hash = '';
+  canonical.pathname = canonical.pathname.replace(/\/?$/, '/');
+  tag.setAttribute('href', canonical.href);
 }
 
 export function useMetaTags(meta: MetaData) {

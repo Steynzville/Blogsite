@@ -101,7 +101,7 @@ export default function Articles() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -203,7 +203,7 @@ export default function Articles() {
               {/* Articles Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
                 {paginatedArticles.map((article: any) => (
-                  <Link key={article.slug} href={`/article/${article.slug}`}>
+                  <Link key={article.slug} href={`/article/${article.slug}`} asChild>
                     <a className="group cursor-pointer block h-full">
                       <div className="overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 mb-4 h-48 sm:h-56 md:h-64 shadow-sm group-hover:shadow-lg transition-shadow duration-300 aspect-video">
                         {article.heroImage && (

@@ -73,7 +73,7 @@ Architectural grazing transforms specific areas of a luxury home:
 
 Among the dozens of up/down wall fixtures currently available, **the DASTOR Up and Down Wall Lights stand out as a practical choice** for residential grazing applications. The fixture mounts flush on the wall, and its narrow beam angles send light upward and downward across the stone surface — creating the shadow play that defines architectural grazing.
 
-<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+<a href="https://www.amazon.com/dp/B0BL7G9HB4" target="_blank" rel="nofollow sponsored">
   <img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
 </a>
 <br>
@@ -86,11 +86,11 @@ Among the dozens of up/down wall fixtures currently available, **the DASTOR Up a
 - Die-cast aluminum construction — built for coastal and wet climates
 - GU10 bulbs included
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)**
+**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4)**
 
 ### Layering Your Outdoor Lighting System
 
-<a href="https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+<a href="https://www.amazon.com/dp/B0BL7G9HB4" target="_blank" rel="nofollow sponsored">
   <img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
 </a>
 <br>
@@ -99,12 +99,12 @@ Grazing is most powerful when combined with other layers. A complete outdoor lig
 
 | Layer | Purpose | Recommended Product |
 |-------|---------|---------------------|
-| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20) |
-| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP?tag=steynenslin-20) |
-| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3?tag=steynenslin-20) |
-| **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z?tag=steynenslin-20) (400FT | Warm white architectural tape) |
+| **Facade grazing** | Defines architecture | [DASTOR Up and Down Wall Lights](https://www.amazon.com/dp/B0BL7G9HB4) |
+| **Tree and shrub uplighting** | Adds depth and drama | [NYMPHY Solar Spotlights](https://www.amazon.com/dp/B0BG9X6FYP) |
+| **Path and ground lighting** | Defines walkways and garden edges | [INCX Solar Ground Lights](https://www.amazon.com/dp/B0DN6RCLL3) |
+| **Ambient and accent lighting** | Warms seating areas | [FUSSION LED Strip Lights](https://www.amazon.com/dp/B0DH285N9Z) (400FT | Warm white architectural tape) |
 
-*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy](/article/led-strip-lighting-outdoor-guide) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
+*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy](/article/led-strip-integration-modern-deck) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
 
 ### Installation Guidelines for Architectural Grazing
 
@@ -139,11 +139,11 @@ Quality fixtures require minimal maintenance. DASTOR lights feature:
 - **GU10 LED bulbs** — easily replaceable
 
 A simple seasonal cleaning keeps them performing for years. For long-term maintenance, stock spare bulbs:
-<a href="https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+<a href="https://www.amazon.com/gp/product/B0DRTSJ9BD" target="_blank" rel="nofollow sponsored">
   <img src="/images/bulb.jpg" alt="GU10 LED replacement bulb 3000K warm white" loading="lazy">
 </a>
 
-**[→ Shop GU10 LED Replacement Bulbs (3000K warm white)](https://www.amazon.com/gp/product/B0DRTSJ9BD?tag=steynenslin-20)**
+**[→ Shop GU10 LED Replacement Bulbs (3000K warm white)](https://www.amazon.com/gp/product/B0DRTSJ9BD)**
 
 ### Frequently Asked Questions
 
@@ -181,7 +181,7 @@ Architectural grazing is one of the most cost-effective ways to elevate a home's
 
 In luxury design, restraint often creates the strongest impression.
 
-**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4?tag=steynenslin-20)**
+**[→ Shop DASTOR Up and Down Wall Lights on Amazon](https://www.amazon.com/dp/B0BL7G9HB4)**
 
 ### Explore More Outdoor Lighting
 

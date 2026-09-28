@@ -67,6 +67,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => query && setIsOpen(true)}
           placeholder={placeholder}
+          aria-label="Search articles"
           className="w-full pl-10 pr-10 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 dark:focus:ring-gray-500"
         />
         {query && (
@@ -89,7 +90,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
       {isOpen && results.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg z-50 max-h-96 overflow-y-auto">
           {results.map((article) => (
-            <Link key={article.slug} href={`/article/${article.slug}`}>
+            <Link key={article.slug} href={`/article/${article.slug}`} asChild>
               <a
                 className="block px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 border-b border-gray-100 dark:border-gray-700 last:border-b-0 cursor-pointer transition-colors"
                 onClick={() => {

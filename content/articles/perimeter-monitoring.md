@@ -93,12 +93,12 @@ At the perimeter, visible cameras serve a different purpose than cameras near th
 
 For those seeking an integrated floodlight and camera in a single fixture, the **Ring Floodlight Cam Wired Plus** combines motion-activated 1080p HD video with 2000-lumen LED floodlights. When motion is detected, lights illuminate and recording begins — a coordinated response that requires no separate components. Two-way talk and a built-in security siren add response options, while real-time mobile alerts keep you informed from anywhere.
 
-<a href="https://www.amazon.com/dp/B08F6GPQQ7?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+<a href="https://www.amazon.com/dp/B08F6GPQQ7" target="_blank" rel="nofollow sponsored">
   <img src="/images/ring-floodlight-cam.jpg" alt="Ring Floodlight Cam Wired Plus mounted on a modern home exterior at night, illuminating the driveway" width="800" height="533" loading="lazy">
 </a>
 <br>
 
-[→ More on the Ring Floodlight Cam](https://www.amazon.com/dp/B08F6GPQQ7?tag=steynenslin-20)
+[→ More on the Ring Floodlight Cam](https://www.amazon.com/dp/B08F6GPQQ7)
 
 <br>
 
@@ -130,12 +130,12 @@ A motion-activated light is simple technology. It is also the single most effect
 
 For perimeter pathways, driveways, and dark corners, the **Aootek Solar Motion Sensor Lights** offer a wire-free solution with 120 LEDs and a 270° wide angle. Three selectable modes (motion sensor only, permanent low-level on, or smart brightness control) allow you to dial in the exact behavior each zone requires. IP65 waterproofing ensures reliable operation in any weather, and the solar panel eliminates wiring entirely — ideal for properties where running low-voltage cable is impractical.
 
-<a href="https://www.amazon.com/dp/B0DSKF9KDR?tag=steynenslin-20" target="_blank" rel="nofollow sponsored">
+<a href="https://www.amazon.com/dp/B0DSKF9KDR" target="_blank" rel="nofollow sponsored">
   <img src="/images/aootek-solar-lights.jpg" alt="Aootek solar motion sensor lights installed along a dark pathway, casting warm illumination" width="800" height="533" loading="lazy">
 </a>
 <br>
 
-[→ More on Aootek Solar Lights](https://www.amazon.com/dp/B0DSKF9KDR?tag=steynenslin-20)
+[→ More on Aootek Solar Lights](https://www.amazon.com/dp/B0DSKF9KDR)
 
 <br>
 

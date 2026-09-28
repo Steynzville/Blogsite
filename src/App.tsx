@@ -17,23 +17,8 @@ const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Affiliate = lazy(() => import("./pages/Affiliate"));
 
-// Handle GitHub Pages SPA redirect
-const handleRedirect = () => {
-  if (typeof window !== 'undefined' && window.location.search) {
-    const search = window.location.search;
-    if (search.startsWith('?')) {
-      // Extract the path from the query string
-      const path = search.slice(1).replace(/~and~/g, '&');
-      if (path && path !== '/') {
-        const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
-        const cleanPath = path.startsWith('/') ? path : `/${path}`;
-        window.history.replaceState(null, '', baseUrl + cleanPath + window.location.hash);
-      }
-    }
-  }
-};
-
-handleRedirect();
+import { restoreRedirect } from './lib/redirect.mjs';
+restoreRedirect(window);
 
 function Router() {
   return (

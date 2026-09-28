@@ -216,7 +216,7 @@ Quality sealers share three characteristics: they penetrate rather than coat, th
 
 For those seeking a reliable option, **Miracle Sealants 511 Impregnator Sealer** has been specified by fabricators for years. It penetrates deep into natural stone, provides both water and oil protection, and dries completely invisible. A single quart covers up to 1,000 square feet.
 
-[→ Shop Miracle Sealants 511 Impregnator Sealer](https://amzn.to/4v3ZwLv)
+
 
 <br>
 
@@ -245,7 +245,7 @@ A proper stone cleaner removes everyday messes without damaging the surface. The
 
 **STONE PH Countertop Cleaner Spray** offers a ready-to-use formula specifically balanced for natural stone. It cleans without etching, leaves no streaks, and the neutral pH means it can be used daily without concern.
 
-[→ Shop STONE PH Countertop Cleaner](https://amzn.to/4vRI9Oi)
+
 
 <br>
 

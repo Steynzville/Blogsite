@@ -110,7 +110,7 @@ A beautiful kitchen with inadequate storage is not luxurious. It is frustrating.
 
 **Zone storage:** Store items near where they are used. Pots near the stove. Dishes near the dishwasher or sink. Baking sheets near the oven.
 
-*For a complete guide to countertop materials that withstand daily use, see our article on [Countertop Materials Guide](/article/countertop-materials-guide).*
+*For a complete guide to countertop materials that withstand daily use, see our article on [Countertop Materials Guide](/article/quartzite-vs-porcelain-countertops).*
 
 ## Lighting: Layered and Dimmable
 
@@ -183,7 +183,7 @@ The work triangle connects sink, stove, and refrigerator. It remains a useful gu
 **How much counter space do I need?**  
 Aim for at least 18-24 inches of continuous counter space on both sides of the stove and sink. Total counter space should be roughly 15-25% of the kitchen's floor area. More is better for serious cooks.
 
-*For homeowners building complete kitchen systems, our articles on [Countertop Materials](/article/countertop-materials-guide) and [Luxury Kitchen Appliances](/article/kitchen-appliances-luxury) explore other approaches to creating functional, beautiful cooking spaces.*
+*For homeowners building complete kitchen systems, our articles on [Countertop Materials](/article/quartzite-vs-porcelain-countertops) and [Luxury Kitchen Appliances](/article/kitchen-appliances-luxury) explore other approaches to creating functional, beautiful cooking spaces.*
 
 > The finest kitchens are not designed for a single moment. They are designed for the rhythm of daily life — weeknights and weekends, breakfasts and banquets, cooking and cleaning and lingering.
 

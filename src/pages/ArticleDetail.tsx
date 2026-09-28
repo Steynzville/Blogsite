@@ -116,7 +116,7 @@ export default function ArticleDetail() {
         <div className="text-center">
           <h1 className="text-3xl font-serif font-bold text-gray-900 mb-4">Article Not Found</h1>
           <p className="text-gray-600 mb-8">The article you're looking for doesn't exist.</p>
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-900 hover:text-gray-600 cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -132,7 +132,7 @@ export default function ArticleDetail() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 transition-colors duration-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center bg-white dark:bg-gray-900">
-          <Link href="/">
+          <Link href="/" asChild>
             <a className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
               <ArrowLeft size={20} className="mr-2" />
               Back to Home
@@ -215,6 +215,7 @@ export default function ArticleDetail() {
           </div>
         </div>
 
+        <p className="mb-6 text-sm text-gray-600 dark:text-gray-400">Some links may earn Veluce a commission at no extra cost to you. Purchases, delivery and returns are handled by the retailer. <a href="/affiliate/" className="underline">Affiliate disclosure</a>.</p>
         {/* Article Body */}
 	        <div
 	          className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:mb-6 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 mb-12 text-gray-900 dark:text-gray-100"
@@ -262,7 +263,7 @@ export default function ArticleDetail() {
         {/* Affiliate Disclosure */}
         <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 p-4 rounded-lg mb-12">
           <p className="text-sm text-blue-900 dark:text-blue-200">
-            <strong>Disclosure:</strong> This article may contain affiliate links to Amazon, AliExpress, and other retailers. We earn a small commission from qualifying purchases at no extra cost to you. This helps support our mission to bring you quality content about luxury home design and living.
+            <strong>Disclosure:</strong> This article may contain affiliate links to AliExpress and other participating retailers. We earn a small commission from qualifying purchases at no extra cost to you. This helps support our mission to bring you quality content about luxury home design and living.
           </p>
         </div>
       </article>

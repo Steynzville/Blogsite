@@ -106,7 +106,7 @@ For areas where running power is impractical — a remote garden pergola, a shed
 
 **The catch:** SMD chip (not COB) means visible dots if the strip is exposed. Use this where the strip is hidden or for accent lighting only. Also needs direct sunlight — shaded areas won't fully charge.
 
-**[→ Shop Solar LED Strip on AliExpress](https://steynenslin.s.gy/SolarLED)**
+The previously featured solar strip listing is under review. Check current specifications and availability before choosing a kit.
 
 ## Where to Install LED Strips (And Where to Avoid)
 
@@ -143,9 +143,7 @@ SMD strips (including the solar version) look terrible exposed — visible dots 
 
 **[→ Shop Solar Wall Lights on AliExpress](https://steynenslin.s.gy/SolarWall)**
 
-<a href="https://steynenslin.s.gy/SolarLED" target="_blank" rel="nofollow sponsored">
-  <img src="/images/step-lights-alternative.jpg" alt="A winding garden path illuminated by warm LED strips recessed in a pebble trench, with stepping stones for foot traffic — the correct alternative to putting strips on walking surfaces" loading="lazy">
-</a>
+<img src="/images/step-lights-alternative.jpg" alt="A winding garden path illuminated by warm LED strips recessed in a pebble trench, with stepping stones for foot traffic — the correct alternative to putting strips on walking surfaces" loading="lazy">
 
 ## COB vs SMD: The Dot Problem Explained
 
@@ -304,7 +302,6 @@ In outdoor lighting, restraint and precision always outperform enthusiasm and ex
 **Shop LED strips:**
 - [220V Smart COB LED Strip](https://steynenslin.s.gy/TUYAcobLED)
 - [12V/24V DC COB Strip](https://steynenslin.s.gy/24vDCplugLED)
-- [Solar LED Strip](https://steynenslin.s.gy/SolarLED)
 
 ---
 

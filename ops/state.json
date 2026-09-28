@@ -5,14 +5,14 @@
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
   "branch": "veluce/live-affiliate-verification",
-  "deployment": "PRs 1 and 2 merged; affiliate merchant paths unverified",
+  "deployment": "PRs 1 and 2 merged; PR #3 open/unmerged. Linktree two defective cards temporarily hidden live; article protection pending PR deployment; user requests replacement and restoration after validation.",
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
     "pinterest": "not_connected",
-    "admitad": "Opera Connector unavailable (UNAVAILABLE Browser not connected) at 2026-09-28 16:28 SAST; prior cloud session redirected to login",
-    "short_io": "dashboard_read_15_links_2026-09-28",
-    "linktree": "public shop previously observed 13 AliExpress products; current signed-in Opera refresh blocked by connector"
+    "admitad": "VERIFIED LIVE: cloud browser signed in 2026-09-28; AliExpress WW Joined; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings; ad space unvalidated",
+    "short_io": "VERIFIED LIVE: authenticated dashboard 15 records; SolarLED malformed nested product URL, 22 clicks; COBled absent and public slug 404",
+    "linktree": "VERIFIED LIVE: authenticated admin hid COBled and SolarLED; public shop refreshed from 13 to 11 products, no Amazon/Temu visible"
   },
   "decisions": [
     {
@@ -35,23 +35,26 @@
     "Configured separate MailerLite VELUCE Newsletter group and embedded double-opt-in form; historical welcome email was Formspree",
     "Owner confirmed MailerLite confirmation and welcome emails from a fresh signup",
     "Reconciled all 12 article Short.io slugs with the account's 15 records; found malformed SolarLED destination",
-    "Enriched existing shortlink registry with per-slug verification status; source audit now reports commercial placements and rejects Temu/source-registry drift"
+    "Enriched existing shortlink registry with per-slug verification status; source audit now reports commercial placements and rejects Temu/source-registry drift",
+    "Authenticated cloud-browser Admitad and Linktree investigation: AliExpress WW joined, existing rzekl deeplink base matched, ad space unvalidated",
+    "Hid defective SolarLED and COBled entries in Linktree admin; verified public shop has 11 products",
+    "Temporarily removed four SolarLED commercial clicks from two article sources in PR #3 while replacement is blocked; restore them with verified affiliate destination"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Restore Opera Connector connection; refresh Linktree, Short.io, Admitad and AliExpress authenticated views",
-      "status": "human_connection_required"
+      "action": "Obtain exact comparable AliExpress product URLs verified by owner on their device, then generate Admitad deeplinks, test Link Checker, repair existing SolarLED Short.io destination and create COBled only after matching product evidence; restore Linktree cards and article CTAs after live verification",
+      "status": "live_product_validation_required"
     },
     {
       "id": "N2",
-      "action": "Verify 13 Linktree product click paths, especially COBled missing dashboard slug and malformed SolarLED; repair or remove only after exact destination evidence",
-      "status": "account_access_required"
+      "action": "Audit remaining 11 Linktree products and 11 active article shortlink slugs end-to-end; prioritize clicks and preserve existing public slugs",
+      "status": "merchant_path_unverified"
     },
     {
       "id": "N3",
-      "action": "Validate each article slug end-to-end, programme eligibility, merchant stock and geography; update registry evidence and preserve slugs",
-      "status": "account_access_required"
+      "action": "Deploy PR #3 after review so SolarLED article CTAs no longer point to malformed destination",
+      "status": "pr_review_required"
     },
     {
       "id": "N4",
@@ -81,14 +84,19 @@
       "impact": "Campaigns can be prepared, not claimed published"
     },
     {
-      "id": "B5",
-      "item": "Opera Browser Connector returns UNAVAILABLE Browser not connected after owner reconnect; cloud AliExpress path is site-safety blocked",
-      "impact": "No authenticated product, programme, attribution or final merchant verification this run"
+      "id": "B6",
+      "item": "SolarLED Short.io target has malformed nested product URL; COBled public URL returns Short.io 404 and has no account record",
+      "impact": "Both Linktree cards hidden. Existing SolarLED article CTAs removed in PR #3; Short.io slugs left intact pending evidenced replacement."
     },
     {
-      "id": "B6",
-      "item": "SolarLED malformed nested destination; Linktree COBled absent from previously observed Short.io records",
-      "impact": "Do not mark live paths as valid or change affiliate destination without exact replacement evidence"
+      "id": "B7",
+      "item": "Admitad SteynEnslin ad space shows unvalidated ownership",
+      "impact": "Program Joined and click counts do not prove approved commission or attribution for a sale."
+    },
+    {
+      "id": "B5",
+      "item": "Cloud browser site-safety policy expressly rejects AliExpress product search and affiliate redirect",
+      "impact": "No exact replacement product, stock, variant, shipping or final landing can be certified here. Do not bypass via another browser or indirect route."
     }
   ],
   "products": [
@@ -108,7 +116,23 @@
   "experiments": [],
   "campaigns": [],
   "pages_created": [],
-  "measurements": [],
+  "measurements": [
+    {
+      "period": "2026-09-01/2026-09-28",
+      "source": "Admitad statistics, authenticated cloud browser",
+      "clicks": 25,
+      "actions": 0,
+      "earnings": 0,
+      "status": "VERIFIED LIVE; not a net-profit estimate"
+    },
+    {
+      "period": "2026-09-28",
+      "source": "Short.io authenticated dashboard",
+      "solar_led_clicks": 22,
+      "cob_led_record": "absent",
+      "status": "VERIFIED LIVE; clicks not conversions"
+    }
+  ],
   "approval_required": [],
   "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
   "pull_request": "https://github.com/Steynzville/Blogsite/pull/3",
@@ -124,6 +148,6 @@
     "original_trees_verified_equal": true,
     "github_write_access": "restored via connector",
     "merge_authorized": false,
-    "ci": "Local checks passed; follow-up PR checks pending"
+    "ci": "2026-09-28 local TypeScript, 7 tests, 26-article audit (0 issues), production build (39 routes), state validation and diff/secret pattern scan passed"
   }
 }

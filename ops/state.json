@@ -3,15 +3,15 @@
   "updated_at": "2026-09-28",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
-  "baseline_sha": "ad95128",
-  "branch": "veluce/operating-system",
-  "deployment": "review_pr_open_not_merged_not_deployed",
+  "baseline_sha": "9413ffe",
+  "branch": "veluce/affiliate-link-inventory",
+  "deployment": "pr_1_merged_and_build_success_reported_by_owner_live_affiliate_path_unverified",
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
     "pinterest": "not_connected",
-    "admitad": "not_connected",
-    "short_io": "not_connected"
+    "admitad": "publisher_account_blocked_by_human_verification_2026-09-28",
+    "short_io": "dashboard_read_15_links_2026-09-28"
   },
   "decisions": [
     {
@@ -29,20 +29,22 @@
     "Audited 26 article sources and existing deployment/metadata/tracking",
     "Removed explicit Amazon tracking and unresolved Amazon short CTAs; corrected disclosures",
     "Implemented tracking, redirect repair, native product brief generator, economics calculator and regression checks",
-    "Restored GitHub delivery: two exact original trees transported; PR #1 open, no merge/deployment",
+    "PR #1 merged; owner reported a successful build",
     "PR review follow-up removed remaining direct Amazon shopping links in three articles; preserved images and editorial text",
-    "Configured separate MailerLite VELUCE Newsletter group, embedded double-opt-in form and draft welcome automation; historical welcome email was Formspree"
+    "Configured separate MailerLite VELUCE Newsletter group and embedded double-opt-in form; historical welcome email was Formspree",
+    "Owner confirmed MailerLite confirmation and welcome emails from a fresh signup",
+    "Reconciled all 12 article Short.io slugs with the account's 15 records; found malformed SolarLED destination"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Review updated PR #1 and desktop/mobile preview; leave unmerged pending newsletter signup acceptance",
+      "action": "Review the affiliate-link inventory PR and its source-audit safeguard",
       "status": "review_required"
     },
     {
       "id": "N2",
-      "action": "Test fresh MailerLite subscription, confirmation, group membership, welcome delivery and unsubscribe; resolve sender-domain warning and rotate any former deployed API key",
-      "status": "acceptance_required"
+      "action": "Confirm MailerLite unsubscribe and sender deliverability; rotate any former deployed API key if it existed",
+      "status": "partial_acceptance"
     },
     {
       "id": "N3",
@@ -51,8 +53,8 @@
     },
     {
       "id": "N4",
-      "action": "Resolve 14 Short.io/Linktree destinations in account export; verify programme/product/geography eligibility",
-      "status": "access_required"
+      "action": "Generate and verify an exact-product replacement for SolarLED in Admitad, then repair the Short.io destination; validate the remaining merchant paths, approval and geography",
+      "status": "admitad_verification_and_exact_change_approval_required"
     },
     {
       "id": "N5",
@@ -93,13 +95,13 @@
     },
     {
       "id": "B5",
-      "item": "Review browser cannot reach local preview (ERR_BLOCKED_BY_CLIENT)",
-      "impact": "Changed UI mobile/desktop visual validation pending; do not auto-merge"
+      "item": "AliExpress redirect trace blocked by cloud-browser site-safety policy; Admitad account presents human verification",
+      "impact": "Merchant landing, publisher approval and commission attribution remain unverified"
     },
     {
       "id": "B6",
-      "item": "New MailerLite form preview loads, but fresh end-to-end signup and email delivery are unverified; welcome automation is a draft",
-      "impact": "Do not merge newsletter change or claim a live welcome email until acceptance checks pass"
+      "item": "SolarLED's Short.io destination has malformed AliExpress product path; automatic approval review rejected saving a trimmed URL",
+      "impact": "Live affiliate destination remains unchanged until exact replacement is verified and approved"
     }
   ],
   "products": [
@@ -120,8 +122,14 @@
   "campaigns": [],
   "pages_created": [],
   "measurements": [],
-  "approval_required": [],
-  "pull_request": "https://github.com/Steynzville/Blogsite/pull/1",
+  "approval_required": [
+    {
+      "item": "Replace SolarLED's Short.io destination with a verified exact-product Admitad deeplink",
+      "reason": "Automatic approval review rejected trimming the malformed existing URL because its nested tracking parameters might affect commissions; obtain fresh account evidence and explicit approval for the exact replacement"
+    }
+  ],
+  "prior_pull_request": "https://github.com/Steynzville/Blogsite/pull/1",
+  "pull_request": "https://github.com/Steynzville/Blogsite/pull/2",
   "delivery": {
     "original_local_commits": [
       "39dfdc4a122fe2ff2e21f2603d7f5fea3fbcd60b",
@@ -134,6 +142,6 @@
     "original_trees_verified_equal": true,
     "github_write_access": "restored via connector",
     "merge_authorized": false,
-    "ci": "Pending rerun on follow-up commit; prior final-head CI passed"
+    "ci": "PR #1 merged and build success reported by owner; PR #2 checks pending"
   }
 }

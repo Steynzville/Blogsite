@@ -5,14 +5,14 @@
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
   "branch": "veluce/live-affiliate-verification",
-  "deployment": "PR #3 open/unmerged; Short.io SolarLED and COBled repaired live. Linktree cards remain hidden pending account reauthentication; restored SolarLED article CTAs in PR pending review/deployment.",
+  "deployment": "PR #3 open/unmerged; Short.io SolarLED and COBled repaired live. Owner restored both Linktree cards; public shop rendered 13 products. Restored SolarLED article CTAs in PR pending review/deployment.",
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
     "pinterest": "not_connected",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0.",
-    "linktree": "VERIFIED LIVE prior: SolarLED and COBled hidden, public shop 11 products. Current cloud session expired and Sign in again loops; restoration BLOCKED BY AUTHENTICATION."
+    "linktree": "VERIFIED LIVE PUBLIC 2026-09-28: shop renders 13 products, including Solar Neon LED and COB LED images; owner screenshots show both unhidden in admin and destination fields set to SolarLED and COBled Short.io slugs. Admin cloud session remains inaccessible."
   },
   "decisions": [
     {
@@ -41,13 +41,14 @@
     "Temporarily removed four SolarLED commercial clicks from two article sources in PR #3 while replacement is blocked; restore them with verified affiliate destination",
     "Owner supplied replacement AliExpress item IDs 1005009013305099 and 1005003279313941; generated Admitad AliExpress WW deeplinks and checked both Active in Link Checker",
     "Repaired SolarLED Short.io destination while preserving slug and historical clicks; created COBled Short.io record with existing Linktree slug",
-    "Restored four SolarLED article placements in PR #3 source after Short.io repair, with product specification caution"
+    "Restored four SolarLED article placements in PR #3 source after Short.io repair, with product specification caution",
+    "Owner unhid SolarLED and COBled Linktree cards on mobile; screenshots show Short.io URL fields, public cloud browser renders 13 products with both images"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Reauthenticate Linktree cloud session and unhide SolarLED and COBled cards, retaining their Short.io URLs; verify public shop. Check item specifications, stock and shipping on a permitted merchant device.",
-      "status": "blocked_by_authentication_and_merchant_access"
+      "action": "Check replacement item specifications, stock and shipping on a permitted merchant device; the two Linktree cards are restored, Short.io and Admitad paths saved",
+      "status": "merchant_validation_required"
     },
     {
       "id": "N2",
@@ -97,14 +98,14 @@
       "impact": "No exact replacement product, stock, variant, shipping or final landing can be certified here. Do not bypass via another browser or indirect route."
     },
     {
-      "id": "B8",
-      "item": "Linktree admin session expired; Sign in again loops back to expired-session page in cloud browser",
-      "impact": "SolarLED and COBled cards remain hidden. Short.io repairs are live, article restoration is in PR #3 source."
-    },
-    {
       "id": "B9",
       "item": "AliExpress final merchant page cannot be opened by cloud browser safety policy",
       "impact": "Both deeplinks pass Admitad Link Checker but live listing stock, variant fit, shipping and real commission attribution are not independently certified."
+    },
+    {
+      "id": "B8",
+      "item": "Linktree admin cloud session expired and sign-in loop persists; owner restored both products on mobile",
+      "impact": "Public shop shows 13 products and the two restored cards, but their individual public click controls and final merchant landing could not be fully exercised in cloud browser."
     }
   ],
   "products": [

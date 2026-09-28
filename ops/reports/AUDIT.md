@@ -23,7 +23,7 @@ Baseline TypeScript check passed. Updated TypeScript, production build, Node reg
 
 `pnpm ops:audit` inventories 26 articles and 24 unique current external URLs, zero reported content issues. `pnpm ops:validate` checks state and 26 article HTML outputs. Build generates 39 non-home HTML routes. Local metrics are not proof of live GA4 receipt, mobile layout or realised conversion.
 
-## Delivery blockers
+## Initial delivery blockers (resolved where noted below)
 
 Git clone/read succeeds. `git push` fails for absent HTTPS credentials. GitHub connected API reports repository push permission in metadata, but actual create-branch action returns 403 `Resource not accessible by integration`. Do not assume metadata grants effective write access. No remote branch/PR/deployment created.
 
@@ -32,3 +32,11 @@ Live browser works, but the review browser cannot reach localhost preview (`ERR_
 ## Deferred work
 
 Owner-access key rotation/public hosted form; private analytics and affiliate exports; hidden shortlink destinations; image provenance; complete legacy claims/product compatibility audit; consent/retention configuration; field CWV; exact product experiments and Pinterest campaign production. These are explicit bounded Sol tasks in state, not completed results.
+
+## Delivery follow-up — 28 September 2026
+
+Repository write access was restored through the connector. Review PR: https://github.com/Steynzville/Blogsite/pull/1 (not merged). Shell HTTPS credentials remain unavailable, so the connector transported both original trees without recreating implementation. Local commits 39dfdc4 / 3a70a04 remain preserved; remote equivalents 6d472ca / 493ab65 have identical tree SHAs dd4c35e03810ca6a1a9ad484be272acdd2a54c55 / 63048460462481ba776e7ba36d5ffb9baee46a92.
+
+Delivery rerun passed TypeScript, seven regression tests, source audit and prerender/state validation. A credential-pattern scan across 109 changed file versions in the two original commits found no private-key blocks, GitHub token patterns, AWS access keys, provider-secret prefixes or JWTs. Existing public tracking IDs and placeholder configuration are not private credentials. Scan is scoped and cannot prove that a formerly deployed key was never exposed.
+
+Remote CI status is authoritative on the current PR head; do not reuse an earlier commit's result. Original visual-preview/account-evidence limitations still apply. Steyn explicitly requested a PR for review only. No merge, production deployment or spending was performed.

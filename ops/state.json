@@ -5,7 +5,7 @@
   "spend_authorized": false,
   "baseline_sha": "ad95128",
   "branch": "veluce/operating-system",
-  "deployment": "not_deployed_local_commits_only",
+  "deployment": "review_pr_open_not_merged_not_deployed",
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
@@ -28,13 +28,14 @@
   "completed": [
     "Audited 26 article sources and existing deployment/metadata/tracking",
     "Removed explicit Amazon tracking and unresolved Amazon short CTAs; corrected disclosures",
-    "Implemented tracking, redirect repair, native product brief generator, economics calculator and regression checks"
+    "Implemented tracking, redirect repair, native product brief generator, economics calculator and regression checks",
+    "Restored GitHub delivery: two exact original trees transported; PR #1 open, no merge/deployment"
   ],
   "next_actions": [
     {
       "id": "N1",
-      "action": "Restore repository write access, push prepared commits, run CI and complete browser validation before merge",
-      "status": "access_required"
+      "action": "Review PR #1, confirm latest CI and desktop/mobile preview acceptance; do not merge during this delivery task",
+      "status": "review_required"
     },
     {
       "id": "N2",
@@ -89,11 +90,6 @@
       "impact": "Campaigns can be prepared, not claimed published"
     },
     {
-      "id": "B4",
-      "item": "Git push lacks credentials; GitHub create_branch returns 403 Resource not accessible by integration",
-      "impact": "No remote checkpoint or PR; restore write access then push recovery branch"
-    },
-    {
       "id": "B5",
       "item": "Review browser cannot reach local preview (ERR_BLOCKED_BY_CLIENT)",
       "impact": "Changed UI mobile/desktop visual validation pending; do not auto-merge"
@@ -117,5 +113,20 @@
   "campaigns": [],
   "pages_created": [],
   "measurements": [],
-  "approval_required": []
+  "approval_required": [],
+  "pull_request": "https://github.com/Steynzville/Blogsite/pull/1",
+  "delivery": {
+    "original_local_commits": [
+      "39dfdc4a122fe2ff2e21f2603d7f5fea3fbcd60b",
+      "3a70a047e798c0f18c9f7fae54825937216efba9"
+    ],
+    "transported_commits": [
+      "6d472ca60d984965b6d9cbd754078bdc0d9cf9d9",
+      "493ab65c835a9b5d97d85567a7012a40de6784ca"
+    ],
+    "original_trees_verified_equal": true,
+    "github_write_access": "restored via connector",
+    "merge_authorized": false,
+    "ci": "Check latest PR head; local seven tests/typecheck/audit/prerender checks passed"
+  }
 }

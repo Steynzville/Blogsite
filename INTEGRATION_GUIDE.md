@@ -1,3 +1,5 @@
+> Current operations: read [VELUCE_OPERATING_SYSTEM.md](VELUCE_OPERATING_SYSTEM.md). Do not follow legacy Amazon membership or client-side API-key guidance below.
+
 # VELUCE Blog - Serverless Integration Guide
 
 This guide provides step-by-step instructions for configuring Formspree and MailerLite with your VELUCE blog. The blog is now fully static with no database dependencies.
@@ -66,71 +68,9 @@ In the Formspree dashboard:
 
 ## MailerLite Setup
 
-MailerLite handles newsletter subscriptions with GDPR compliance.
+Use the existing account's verified **public hosted subscription form**, configured as the GitHub repository variable `VITE_NEWSLETTER_FORM_URL`. Never put a private MailerLite API token in static browser code or any `VITE_*` value. With no public form configured, the site offers a journal link and collects no email addresses.
 
-### Step 1: Create a MailerLite Account
-
-1. Go to [mailerlite.com](https://mailerlite.com)
-2. Sign up with your email
-3. Create a new account (or use existing)
-4. Verify your email
-
-### Step 2: Create an Audience
-
-1. In MailerLite, go to **Audiences**
-2. Click **Create Audience**
-3. Name it `VELUCE Blog Subscribers`
-4. Set up your sender information:
-   - Sender name: `VELUCE`
-   - Sender email: `newsletter@veluce.manus.space` (or your domain)
-5. Click **Create**
-
-### Step 3: Get Your API Key
-
-1. Go to **Settings** → **API**
-2. Create a new API token (v1 or v2)
-3. Copy your API key
-
-### Step 4: Update Home.tsx
-
-In `/client/src/pages/Home.tsx`, find the `NewsletterSection` component and update the API endpoint:
-
-```javascript
-const response = await fetch('https://api.mailerlite.com/api/v1/subscribers', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    'X-MailerLite-ApiDomain': 'api.mailerlite.com',
-    'Authorization': 'Bearer YOUR_API_KEY', // Add this header
-  },
-  body: JSON.stringify({
-    email: email,
-    fields: {
-      source: 'VELUCE Blog Newsletter',
-    },
-    status: 'active',
-  }),
-});
-```
-
-Replace `YOUR_API_KEY` with your actual MailerLite API key.
-
-### Step 5: Create a Welcome Campaign (Optional)
-
-1. In MailerLite, go to **Campaigns**
-2. Click **Create Campaign**
-3. Choose **Automation**
-4. Set up a welcome email for new subscribers
-5. Customize the email with your branding
-
-### Step 6: GDPR Compliance
-
-The newsletter form includes a GDPR consent checkbox. MailerLite automatically:
-- Stores consent records
-- Allows easy unsubscribe
-- Complies with GDPR/CCPA regulations
-
----
+Before enabling the public form, verify its identity, consent wording, privacy link, unsubscribe mechanism and successful real subscription through the provider. Do not create a paid plan, send a campaign or enrol a person without authorisation. If the old private token was configured/deployed, revoke or rotate it through the account and remove the obsolete GitHub secret. The public account identifier used by the universal embed is not a private API token.
 
 ## Affiliate Components
 
@@ -212,14 +152,7 @@ Ensure that in your repository's **Settings** → **Pages**, the "Source" is set
 
 ### Step 3: Set Environment Variables (Optional)
 
-If using environment variables for API keys (e.g., for MailerLite if you move to a server-side setup, though currently not needed for this static setup):
-
-1. In your GitHub repository, go to **Settings** → **Secrets and variables** → **Actions**.
-2. Add repository secrets:
-   - `VITE_FORMSPREE_ID`: Your Formspree form ID (if you choose to use it as an environment variable)
-   - `VITE_MAILERLITE_API_KEY`: Your MailerLite API key (if you choose to use it as an environment variable)
-
-3. Note: For this static setup, the Formspree ID is directly in `Contact.tsx` and MailerLite API key is not used client-side due to security concerns. This section is for future reference if you integrate server-side logic or more complex client-side environment variables.
+Only public configuration belongs in `VITE_*`. For newsletter links set the repository variable `VITE_NEWSLETTER_FORM_URL` to the verified hosted form URL. Do not expose private tokens through build variables, even if their source is a GitHub secret. See VELUCE_OPERATING_SYSTEM.md for deployment and key-remediation gates.
 
 ### Step 4: Formspree Spam Protection
 
@@ -254,7 +187,7 @@ If using environment variables for API keys (e.g., for MailerLite if you move to
 1. Add affiliate components to an article using the examples above
 2. Verify images load correctly
 3. Test affiliate links open in new tabs
-4. Verify Amazon Associates disclosure appears
+4. Verify the current merchant-neutral affiliate disclosure appears before the CTA
 
 ---
 
@@ -272,8 +205,8 @@ If using environment variables for API keys (e.g., for MailerLite if you move to
 
 | Issue | Solution |
 |-------|----------|
-| Subscribers not appearing | Verify API key is correct and has write permissions |
-| CORS errors | Check API endpoint and headers |
+| Subscribers not appearing | Check the public hosted form configuration in the existing provider account |
+| CORS errors | Use the public hosted form; do not call private APIs in the browser |
 | Emails not sent | Verify sender email is verified in MailerLite |
 
 ### General Issues
@@ -309,9 +242,9 @@ If using environment variables for API keys (e.g., for MailerLite if you move to
 ## Next Steps
 
 1. ✅ Set up Formspree account and get form ID
-2. ✅ Set up MailerLite account and get API key
+2. ✅ Verify the existing public newsletter form
 3. ✅ Update Contact.tsx with Formspree ID
-4. ✅ Update Home.tsx with MailerLite API key
+4. ✅ Configure the public hosted newsletter URL
 5. ✅ Deploy to GitHub Pages
 6. ✅ Test all integrations
 7. ✅ Monitor submissions and subscribers
@@ -319,4 +252,4 @@ If using environment variables for API keys (e.g., for MailerLite if you move to
 ---
 
 **Last Updated**: June 2026  
-**Status**: Ready for Production
+**Status**: Legacy integration examples; current release gates are in VELUCE_OPERATING_SYSTEM.md

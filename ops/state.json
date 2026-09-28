@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-28",
+  "model": "affiliate_now_local_hybrid_gated",
+  "spend_authorized": false,
+  "baseline_sha": "ad95128",
+  "branch": "veluce/operating-system",
+  "deployment": "not_deployed_local_commits_only",
+  "data_access": {
+    "ga4": "not_connected",
+    "search_console": "not_connected",
+    "pinterest": "not_connected",
+    "admitad": "not_connected",
+    "short_io": "not_connected"
+  },
+  "decisions": [
+    {
+      "id": "D1",
+      "decision": "Retain static affiliate site; local hybrid requires evidence and approval",
+      "reason": "No verified direct unit economics, supplier SLA or working capital"
+    },
+    {
+      "id": "D2",
+      "decision": "No PagePilot subscription or migration",
+      "reason": "Shopify dependency/cost, no verified native export or ecommerce MCP, no demonstrated incremental profit"
+    }
+  ],
+  "completed": [
+    "Audited 26 article sources and existing deployment/metadata/tracking",
+    "Removed explicit Amazon tracking and unresolved Amazon short CTAs; corrected disclosures",
+    "Implemented tracking, redirect repair, native product brief generator, economics calculator and regression checks"
+  ],
+  "next_actions": [
+    {
+      "id": "N1",
+      "action": "Restore repository write access, push prepared commits, run CI and complete browser validation before merge",
+      "status": "access_required"
+    },
+    {
+      "id": "N2",
+      "action": "Check former MailerLite key configuration; revoke/rotate if deployed; supply verified public hosted signup URL",
+      "status": "owner_access_required"
+    },
+    {
+      "id": "N3",
+      "action": "Obtain minimum private measurement exports from MEASUREMENT.md once",
+      "status": "access_required"
+    },
+    {
+      "id": "N4",
+      "action": "Resolve 14 Short.io/Linktree destinations in account export; verify programme/product/geography eligibility",
+      "status": "access_required"
+    },
+    {
+      "id": "N5",
+      "action": "Audit existing product-image provenance before reuse",
+      "status": "ready"
+    },
+    {
+      "id": "N6",
+      "action": "Use actual traffic/commission to select one existing-page experiment",
+      "status": "measurement_required"
+    },
+    {
+      "id": "N7",
+      "action": "Review analytics/privacy configuration and SPA pageviews in account",
+      "status": "access_required"
+    },
+    {
+      "id": "N8",
+      "action": "Validate first exact-SKU brief and prepare two distinct Pinterest angles after rights and merchant gates",
+      "status": "evidence_required"
+    }
+  ],
+  "blocked": [
+    {
+      "id": "B1",
+      "item": "Account attribution and approved revenue unavailable",
+      "impact": "No measured profit claim or product winner"
+    },
+    {
+      "id": "B2",
+      "item": "No verified supplier quote/returns SLA/entity/tax/working-capital approval",
+      "impact": "Direct sales disabled"
+    },
+    {
+      "id": "B3",
+      "item": "No Pinterest publishing connection",
+      "impact": "Campaigns can be prepared, not claimed published"
+    },
+    {
+      "id": "B4",
+      "item": "Git push lacks credentials; GitHub create_branch returns 403 Resource not accessible by integration",
+      "impact": "No remote checkpoint or PR; restore write access then push recovery branch"
+    },
+    {
+      "id": "B5",
+      "item": "Review browser cannot reach local preview (ERR_BLOCKED_BY_CLIENT)",
+      "impact": "Changed UI mobile/desktop visual validation pending; do not auto-merge"
+    }
+  ],
+  "products": [
+    {
+      "id": "local-non-electrical-decor",
+      "status": "investigate",
+      "evidence": "hypothesis",
+      "reason": "Potentially lower fulfilment and support burden; no SKU selected"
+    },
+    {
+      "id": "existing-lighting-recommendations",
+      "status": "verify",
+      "evidence": "existing_content",
+      "reason": "Existing links/content, eligibility and electrical claims require review"
+    }
+  ],
+  "experiments": [],
+  "campaigns": [],
+  "pages_created": [],
+  "measurements": [],
+  "approval_required": []
+}

@@ -40,6 +40,9 @@ jobs:
       - name: Run linter
         run: pnpm check
 
+      - name: Validate operating checks
+        run: pnpm test && pnpm ops:audit
+
       - name: Build static site from Markdown
         run: pnpm run build
         env:
@@ -48,6 +51,9 @@ jobs:
           VITE_NEWSLETTER_FORM_URL: ${{ vars.VITE_NEWSLETTER_FORM_URL }}
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
           NODE_ENV: production
+
+      - name: Validate generated pages and operating state
+        run: pnpm ops:validate
 
       - name: Verify Markdown processing
         run: |

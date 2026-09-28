@@ -1,3 +1,5 @@
+> Current operations: read [VELUCE_OPERATING_SYSTEM.md](VELUCE_OPERATING_SYSTEM.md). Do not follow legacy Amazon membership or client-side API-key guidance below.
+
 # Affiliate Components - Usage Guide
 
 This guide explains how to use the reusable affiliate block components throughout your VELUCE blog articles.

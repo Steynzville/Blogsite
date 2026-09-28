@@ -1,255 +1,32 @@
-> Current operations: read [VELUCE_OPERATING_SYSTEM.md](VELUCE_OPERATING_SYSTEM.md). Do not follow legacy Amazon membership or client-side API-key guidance below.
+# Veluce integrations
 
-# VELUCE Blog - Serverless Integration Guide
+Read `VELUCE_OPERATING_SYSTEM.md` and `ops/state.json` first. This guide covers the site's current contact and newsletter connections. The two forms have different purposes and must remain separate.
 
-This guide provides step-by-step instructions for configuring Formspree and MailerLite with your VELUCE blog. The blog is now fully static with no database dependencies.
+## Contact form: Formspree
 
-## Table of Contents
+`src/pages/Contact.tsx` uses Formspree's React integration. It sends contact messages through the existing configured form and shows success or error feedback. PR #1 does not replace that integration. Check the Formspree dashboard to verify messages; do not treat contact submissions as newsletter consent or add those addresses to a mailing list.
 
-1. [Formspree Setup (Contact Form)](#formspree-setup)
-2. [MailerLite Setup (Newsletter)](#mailerlite-setup)
-3. [Affiliate Components](#affiliate-components)
-4. [Deployment to GitHub Pages](#deployment-to-github-pages)
-5. [Testing](#testing)
+To check the contact page, submit a clearly marked test message through `/contact/`, confirm the on-page result and verify it appears in the existing Formspree contact form. Keep test messages out of business lead counts. Do not post private submissions or account exports to this public repository.
 
----
+## Newsletter: public provider signup form
 
-## Formspree Setup
+The homepage newsletter is separate. Its former implementation called MailerLite's private subscriber API from browser JavaScript. That path was removed because a `VITE_*` build variable is included in the public site bundle even if GitHub supplied it from a secret. The existing provider account and welcome-email workflow need account-level verification before publication.
 
-Formspree handles all contact form submissions and sends them directly to your email.
+Use a verified HTTPS hosted signup form from the actual newsletter provider. Configure its public URL as the GitHub repository **variable** `VITE_NEWSLETTER_FORM_URL`. The homepage then links to that real signup form. This is a public link, never an API token. The production deployment intentionally fails when this variable is missing or not HTTPS, so the PR cannot silently replace a working signup with a dead end.
 
-### Step 1: Create a Formspree Account
+Before merging, verify the destination belongs to the intended Veluce account, the correct subscriber group receives signups, the consent and privacy language is accurate, and unsubscribe works. Submit one clearly marked test subscription, confirm receipt and any confirmation or welcome message, then remove that test subscriber if appropriate. Do not claim a newsletter signup is working based only on a successful build or a historical email.
 
-1. Go to [formspree.io](https://formspree.io)
-2. Sign up with your email address
-3. Verify your email
+Formspree's existing contact form is not a newsletter list. Its newsletter-provider plugin is a paid feature on current plans, so do not enable it or upgrade without the owner's approval. A provider-native public form is the zero-spend path if the existing provider account supports it.
 
-### Step 2: Create a New Form
+If the former MailerLite private key was configured in GitHub or deployed in a public JavaScript bundle, the account owner must revoke or rotate it and remove the obsolete GitHub secret. Do not retrieve, print, test or place the old key in a browser variable. The public universal-script account ID in `index.html` is distinct from a private API token; review whether that script is needed after the newsletter form is chosen.
 
-1. In the Formspree dashboard, click **"New Form"**
-2. Name it `VELUCE Contact Form`
-3. Set the email address to: `steyn.enslin@heatrecovery.co.za`
-4. Click **Create**
+## Other integrations and checks
 
-### Step 3: Get Your Form ID
+- Google Analytics is present in `index.html`. `ops/MEASUREMENT.md` defines the commercial-click event and the account-level checks needed before using it to make profit decisions.
+- Affiliate links must come from an approved programme and exact eligible product. `pnpm ops:audit` catches direct Amazon exits and obvious source errors; it cannot verify Short.io destinations or commissions.
+- Pinterest URLs with UTM parameters must land on their intended article. Test one real campaign-shaped URL after deployment.
+- Keep credentials and private customer data out of this public repository. Only public configuration belongs in `VITE_*` variables.
 
-1. After creating the form, you'll see a form ID (e.g., `f/xyzqwert`)
-2. Copy this ID
+## Validation and release
 
-### Step 4: Update Contact.tsx
-
-In `/client/src/pages/Contact.tsx`, replace the Formspree endpoint:
-
-```javascript
-const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({
-    name: formData.name,
-    email: formData.email,
-    subject: formData.subject,
-    message: formData.message,
-  }),
-});
-```
-
-Replace `YOUR_FORM_ID` with your actual Formspree form ID.
-
-### Step 5: Configure Formspree Settings (Optional)
-
-In the Formspree dashboard:
-- Enable **CAPTCHA** for spam protection
-- Set up **email notifications** for new submissions
-- Configure **auto-reply** emails to users
-
----
-
-## MailerLite Setup
-
-Use the existing account's verified **public hosted subscription form**, configured as the GitHub repository variable `VITE_NEWSLETTER_FORM_URL`. Never put a private MailerLite API token in static browser code or any `VITE_*` value. With no public form configured, the site offers a journal link and collects no email addresses.
-
-Before enabling the public form, verify its identity, consent wording, privacy link, unsubscribe mechanism and successful real subscription through the provider. Do not create a paid plan, send a campaign or enrol a person without authorisation. If the old private token was configured/deployed, revoke or rotate it through the account and remove the obsolete GitHub secret. The public account identifier used by the universal embed is not a private API token.
-
-## Affiliate Components
-
-Two reusable components are available for product recommendations:
-
-### AffiliateBlock (Single Product)
-
-Use for featuring a single product prominently:
-
-```tsx
-import AffiliateBlock from '@/components/AffiliateBlock';
-
-<AffiliateBlock
-  title="Luxury Outdoor Lighting System"
-  description="Transform your outdoor space with this premium LED lighting system featuring smart home integration and weather-resistant design."
-  image="/images/product-lighting.jpg"
-  productName="Smart Outdoor LED System"
-  productBrand="LuxeLights"
-  affiliateUrl="https://amazon.com/dp/ASIN"
-  price="$299.99"
-  rating={4.8}
-  badge="Best Seller"
-/>
-```
-
-### AffiliateGrid (Multiple Products)
-
-Use for showcasing multiple related products:
-
-```tsx
-import AffiliateGrid from '@/components/AffiliateGrid';
-
-<AffiliateGrid
-  title="Recommended Lighting Fixtures"
-  subtitle="Curated products to enhance your luxury home design"
-  products={[
-    {
-      id: '1',
-      name: 'Smart Outdoor Lights',
-      brand: 'LuxeLights',
-      description: 'Weather-resistant LED system',
-      image: '/images/product-1.jpg',
-      price: '$299.99',
-      rating: 4.8,
-      affiliateUrl: 'https://amazon.com/dp/ASIN1',
-      badge: 'Best Seller',
-    },
-    // ... more products
-  ]}
-  columns={3}
-/>
-```
-
-### Adding Affiliate Links
-
-1. Find Amazon product ASINs (product IDs)
-2. Create affiliate links using your Amazon Associates account
-3. Replace URLs in components with your affiliate links
-4. Include the Amazon Associates disclosure (already included in components)
-
----
-
-## Deployment to GitHub Pages
-
-### Step 1: Connect GitHub Repository
-
-1. Go to your GitHub repository (`https://github.com/Steynzville/Blogsite`).
-2. Navigate to **Settings** → **Pages**.
-3. Under "Build and deployment", select "GitHub Actions" as the source.
-4. The workflow will automatically be recognized and run on pushes to the `main` branch.
-
-### Step 2: Verify GitHub Pages Configuration
-
-Your GitHub Actions workflow (`.github/workflows/deploy.yml`) is already configured to:
-- **Build command**: `pnpm run build`
-- **Publish directory**: `dist`
-
-Ensure that in your repository's **Settings** → **Pages**, the "Source" is set to "GitHub Actions" and the workflow is selected.
-
-### Step 3: Set Environment Variables (Optional)
-
-Only public configuration belongs in `VITE_*`. For newsletter links set the repository variable `VITE_NEWSLETTER_FORM_URL` to the verified hosted form URL. Do not expose private tokens through build variables, even if their source is a GitHub secret. See VELUCE_OPERATING_SYSTEM.md for deployment and key-remediation gates.
-
-### Step 4: Formspree Spam Protection
-
-1. In your Formspree dashboard, enable **CAPTCHA** for spam protection.
-2. This provides additional spam filtering and form management.
-
----
-
-## Testing
-
-### Test Contact Form
-
-1. Navigate to `/contact` on your live site
-2. Fill out the form with test data
-3. Submit the form
-4. Verify you receive an email at `steyn.enslin@heatrecovery.co.za`
-5. Check Formspree dashboard for submission records
-
-### Test Newsletter Signup
-
-1. Navigate to the homepage
-2. Scroll to the newsletter section
-3. Enter a test email address
-4. Check the GDPR consent checkbox
-5. Click **Subscribe**
-6. Verify the success message appears
-7. Check MailerLite audience for the new subscriber
-8. Verify you receive a confirmation email
-
-### Test Affiliate Components
-
-1. Add affiliate components to an article using the examples above
-2. Verify images load correctly
-3. Test affiliate links open in new tabs
-4. Verify the current merchant-neutral affiliate disclosure appears before the CTA
-
----
-
-## Troubleshooting
-
-### Formspree Issues
-
-| Issue | Solution |
-|-------|----------|
-| Form submissions not received | Verify form ID is correct in Contact.tsx |
-| CORS errors | Ensure Formspree endpoint is correct |
-| Spam submissions | Enable CAPTCHA in Formspree settings |
-
-### MailerLite Issues
-
-| Issue | Solution |
-|-------|----------|
-| Subscribers not appearing | Check the public hosted form configuration in the existing provider account |
-| CORS errors | Use the public hosted form; do not call private APIs in the browser |
-| Emails not sent | Verify sender email is verified in MailerLite |
-
-### General Issues
-
-| Issue | Solution |
-|-------|----------|
-| Build fails | Run `npm install` and `npm run build` locally |
-| GitHub Actions deploy fails | Check build logs in GitHub Actions |
-| Dark mode not working | Clear browser cache and hard refresh |
-
----
-
-## Security Best Practices
-
-1. **Never commit API keys** to GitHub. Use environment variables instead.
-2. **Use HTTPS** for all external API calls (already enforced)
-3. **Enable CAPTCHA** on Formspree to prevent spam
-4. **Monitor submissions** regularly in Formspree and MailerLite dashboards
-5. **Keep dependencies updated** by running `npm update` regularly
-
----
-
-## Support & Resources
-
-- **Formspree Documentation**: https://formspree.io/docs
-- **MailerLite Documentation**: https://mailerlite.com/help
-- **GitHub Pages Documentation**: https://docs.github.com/en/pages
-- **GitHub Actions Documentation**: https://docs.github.com/en/actions
-- **GDPR Compliance**: https://gdpr-info.eu/
-
----
-
-## Next Steps
-
-1. ✅ Set up Formspree account and get form ID
-2. ✅ Verify the existing public newsletter form
-3. ✅ Update Contact.tsx with Formspree ID
-4. ✅ Configure the public hosted newsletter URL
-5. ✅ Deploy to GitHub Pages
-6. ✅ Test all integrations
-7. ✅ Monitor submissions and subscribers
-
----
-
-**Last Updated**: June 2026  
-**Status**: Legacy integration examples; current release gates are in VELUCE_OPERATING_SYSTEM.md
+Run `pnpm check`, `pnpm test`, `pnpm ops:audit`, `pnpm build`, and `pnpm ops:validate`. Inspect desktop and mobile navigation, article disclosure, outbound links, newsletter destination, theme, contact form and a UTM landing page. Review the PR and successful CI before merging; verify GitHub Pages and a fresh subscription after deployment. Keep the current production site live until these gates pass.

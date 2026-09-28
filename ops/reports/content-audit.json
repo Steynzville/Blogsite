@@ -93,6 +93,12 @@
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
+      "url": "https://steynenslin.s.gy/SolarLED",
+      "kind": "unverified_shortlink",
+      "line": 123
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
       "line": 197
@@ -165,33 +171,39 @@
     },
     {
       "file": "led-strip-integration-modern-deck.md",
+      "url": "https://steynenslin.s.gy/SolarLED",
+      "kind": "unverified_shortlink",
+      "line": 109
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarStep",
       "kind": "unverified_shortlink",
-      "line": 132
+      "line": 134
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarInground",
       "kind": "unverified_shortlink",
-      "line": 138
+      "line": 140
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarWall",
       "kind": "unverified_shortlink",
-      "line": 144
+      "line": 146
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarSpot",
       "kind": "unverified_shortlink",
-      "line": 224
+      "line": 228
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 312
+      "line": 317
     },
     {
       "file": "luxury-interior-design-principles.md",
@@ -434,9 +446,12 @@
     },
     {
       "slug": "SolarLED",
-      "sources": [],
-      "verification": "verified_live_malformed_shortio_destination; article_sources_removed_pending_pr",
-      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "sources": [
+        "hidden-uplighting-mature-trees.md",
+        "led-strip-integration-modern-deck.md"
+      ],
+      "verification": "verified_live_shortio_to_admitad_deeplink; final_merchant_unverified",
+      "merchant": "AliExpress WW (Admitad Link Checker Active; listing stock unverified)",
       "last_verified_at": "2026-09-28"
     },
     {

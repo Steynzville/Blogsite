@@ -157,7 +157,7 @@ async function generateSitemap(articles) {
   }
 
   // Add static pages
-  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate'];
+  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint'];
   for (const page of staticPages) {
     sitemap += `  <url>\n    <loc>${SITE_URL}${page}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
   }
@@ -200,6 +200,13 @@ async function generateStaticHtml(articles) {
       description: `Discover articles and insights about ${c.name} in our luxury living journal.`,
       content: `<h1>Category: ${c.name}</h1><p>Insights and articles about ${c.name}.</p>`
     })),
+    {
+      path: '/outdoor-lighting-blueprint',
+      title: 'Outdoor Lighting Blueprint — VELUCE',
+      description: 'Plan a professional-looking outdoor nightscape before you buy. The Veluce 4-Axis Nightscape System includes a 48-page blueprint, calculator, AI prompt pack and offline studio tools.',
+      image: '/images/architectural-grazing-stone-wall.jpg',
+      content: '<h1>Outdoor Lighting Blueprint</h1><p>The Veluce 4-Axis Nightscape System helps homeowners audit the night, define the effect, compare fixtures and plan before purchasing.</p>'
+    },
     { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.', content: '<h1>About VELUCE</h1><p>Premier luxury living journal.</p>' },
     { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.', content: '<h1>Contact Us</h1><p>Get in touch with the VELUCE team.</p>' },
     { path: '/privacy', title: 'Privacy Policy — VELUCE', description: 'Read the VELUCE privacy policy to understand how we handle your data.', content: '<h1>Privacy Policy</h1>' },

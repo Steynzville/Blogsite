@@ -5,7 +5,7 @@ The paid product is intentionally **not stored under `public/`**. The website co
 ## Product
 
 - Name: Veluce Outdoor Lighting Blueprint — The 4-Axis Nightscape System
-- Launch price: US$27
+- Launch price: R299
 - Customer file: `Veluce_Outdoor_Lighting_Blueprint_PREMIUM_CUSTOMER_PACK.zip`
 - License: personal, non-transferable use
 

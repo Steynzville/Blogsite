@@ -37,6 +37,10 @@ jobs:
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,12000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/outdoor-lighting-blueprint/ visual-review/product-mobile.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,8000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/outdoor-lighting-blueprint/ visual-review/thank-you-desktop.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,9000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/outdoor-lighting-blueprint/ visual-review/thank-you-mobile.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,11000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/luxury-outdoor-room-planner/ visual-review/outdoor-room-product-desktop.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,13000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/luxury-outdoor-room-planner/ visual-review/outdoor-room-product-mobile.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,8000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/luxury-outdoor-room-planner/ visual-review/outdoor-room-thank-you-desktop.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,9000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/luxury-outdoor-room-planner/ visual-review/outdoor-room-thank-you-mobile.png
       - uses: actions/upload-artifact@v4
         with:
           name: veluce-visual-review

@@ -43,7 +43,7 @@ export default function Privacy() {
         
         <div className="space-y-2 mb-8">
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Last updated: September 28, 2026
+            Last updated: September 29, 2026
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             This Privacy Policy applies to information collected through velucedesign.com.
@@ -60,6 +60,7 @@ export default function Privacy() {
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li><strong>Personal Data:</strong> When you contact us through our contact form, you provide your name, email address, and any message content you choose to share.</li>
             <li><strong>Newsletter:</strong> If you sign up, you provide your email address to receive the VELUCE Journal. You must confirm your email before joining the active mailing list.</li>
+            <li><strong>Purchases:</strong> If you buy a digital product, the checkout provider may collect payment and billing details directly. VELUCE may receive limited order information such as your name, email address, product purchased, order status and transaction reference where needed for delivery, support, accounting or fraud prevention.</li>
             <li><strong>Usage Data:</strong> We automatically collect basic information about how you access and use the Site, including your IP address, browser type, pages visited, and time of visit.</li>
             <li><strong>Cookies:</strong> We may use cookies or similar technologies provided by third-party services necessary for certain features of the Site, such as processing contact form submissions. You can instruct your browser to refuse cookies, although some parts of the Site may not function properly.</li>
           </ul>
@@ -82,6 +83,7 @@ export default function Privacy() {
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li><strong>Formspree:</strong> Processes contact form submissions on our behalf.</li>
             <li><strong>MailerLite:</strong> Hosts our newsletter signup form, manages confirmed subscriptions, and sends newsletter and confirmation emails.</li>
+            <li><strong>Checkout and digital-delivery provider:</strong> When digital products are offered for sale, the provider identified at checkout processes the transaction and may deliver the purchased files. Payment-card details are handled by that provider rather than stored by VELUCE.</li>
           </ul>
           <p className="leading-relaxed">
             Read the <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">Formspree privacy policy</a> and <a href="https://www.mailerlite.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white underline">MailerLite privacy policy</a> for more about their handling of information. MailerLite's signup form and emails may use cookies or similar technology as described in its policy.

@@ -28,7 +28,7 @@ export default function OutdoorLightingProductCard() {
                 <ArrowRight size={15} />
               </a>
             </Link>
-            <span className="text-sm text-stone-400">US$27 · one-time purchase</span>
+            <span className="text-sm text-stone-400">R299 · one-time purchase</span>
           </div>
         </div>
       </div>

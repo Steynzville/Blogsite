@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h4 className="text-white font-serif font-bold mb-4">VELUCE</h4>
             <p className="text-sm text-gray-400">
@@ -30,6 +30,18 @@ export default function Footer() {
                 <Link href="/articles" asChild>
                   <a className="text-gray-400 hover:text-white transition-colors cursor-pointer font-medium">
                     Browse All Articles →
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 className="text-white font-semibold mb-4 text-sm">Veluce Studio</h5>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/outdoor-lighting-blueprint" asChild>
+                  <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    Outdoor Lighting Blueprint
                   </a>
                 </Link>
               </li>

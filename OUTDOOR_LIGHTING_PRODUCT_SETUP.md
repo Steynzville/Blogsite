@@ -22,15 +22,15 @@ The customer ZIP contains:
 1. Create the digital product in the chosen checkout provider and upload the customer ZIP there.
 2. Configure the provider to deliver the ZIP only after successful payment.
 3. Copy the provider's HTTPS checkout URL.
-4. In the Cloudflare Pages build environment set:
+4. In GitHub → repository **Settings → Secrets and variables → Actions → Variables**, create:
 
-   `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL=<secure checkout URL>`
+   `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL=<Paystack shareable product URL>`
 
 5. Set Paystack's **Redirect after payment** URL to:
 
    `https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
 
-6. Redeploy the site.
+6. Redeploy the site. The GitHub Pages workflow reads this repository variable during the Vite build.
 
 Until this environment variable contains an HTTPS URL, the sales page intentionally renders **Checkout opening shortly** instead of exposing a broken or insecure purchase link.
 

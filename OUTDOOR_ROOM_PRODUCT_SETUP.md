@@ -57,9 +57,9 @@ Complete one end-to-end Test Mode purchase and confirm:
 
 Only product-preview artwork should be committed to `public/images/`:
 
-- `outdoor-room-planner-hero.jpg`
-- `outdoor-room-planner-cover.jpg`
-- `outdoor-room-layout-recipe.jpg`
-- `outdoor-room-planner-workbook.jpg`
+- `outdoor-room-planner-hero.svg`
+- `outdoor-room-planner-cover.svg`
+- `outdoor-room-layout-recipe.svg`
+- `outdoor-room-planner-workbook.svg`
 
 Do **not** commit the paid PDFs, XLSX, HTML Studio Tool or ZIP to `public/`.

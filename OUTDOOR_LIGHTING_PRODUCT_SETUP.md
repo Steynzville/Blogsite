@@ -21,10 +21,11 @@ The customer ZIP contains:
 
 1. Create the digital product in the chosen checkout provider and upload the customer ZIP there.
 2. Configure the provider to deliver the ZIP only after successful payment.
-3. Copy the provider's HTTPS checkout URL.
-4. In GitHub → repository **Settings → Secrets and variables → Actions → Variables**, create:
+3. The Paystack Product Link is:
 
-   `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL=<Paystack shareable product URL>`
+   `https://paystack.com/buy/veluce-outdoor-lighting-blueprint--the-4-axis-nightsc-abosiv`
+
+4. The GitHub Pages build is already configured to use this exact public Product Link for `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL`.
 
 5. Leave Paystack's **Redirect after payment** field blank so successful buyers remain in Paystack's native digital-download flow and can access their unique protected download page.
 
@@ -36,9 +37,9 @@ The customer ZIP contains:
 
    `Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your files are available to download below, and your receipt contains a link to return to this download page. Once you've saved your files, continue with the recommended workflow at: https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
 
-7. Redeploy the site. The GitHub Pages workflow reads this repository variable during the Vite build.
+7. Redeploy the site after merge. The GitHub Pages workflow supplies the Paystack Product Link during the Vite build.
 
-Until this environment variable contains an HTTPS URL, the sales page intentionally renders **Checkout opening shortly** instead of exposing a broken or insecure purchase link.
+The sales page still fails safely to **Checkout opening shortly** if the checkout URL is ever removed or invalid.
 
 ## Security rule
 

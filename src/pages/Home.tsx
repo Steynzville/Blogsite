@@ -9,7 +9,7 @@ import { useMetaTags } from '@/lib/meta';
 import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
-import AboutSection from '@/components/AboutSection';
+import AboutSection from '@/components/AboutSection';\nimport OutdoorLightingProductCard from '@/components/OutdoorLightingProductCard';
 
 const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
 const NewsletterSection = lazy(() => Promise.resolve({ default: InternalNewsletterSection }));

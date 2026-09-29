@@ -8,7 +8,7 @@ const steps = [
   {
     icon: Download,
     title: 'Download your files from Paystack',
-    body: 'Paystack handles the secure delivery of your purchase. If you were redirected here before downloading, use the download access in your Paystack confirmation page or confirmation email.',
+    body: 'Paystack handles the secure delivery of your purchase. Download and save your files from the protected Paystack download page first; your payment receipt also contains the link you can use to return to that download page.',
   },
   {
     icon: FileText,
@@ -83,7 +83,7 @@ export default function OutdoorLightingThankYou() {
               Your nightscape starts here.
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-stone-300 sm:text-lg">
-              Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your customer files are delivered securely through Paystack. Save them somewhere you can return to as your project develops.
+              Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your customer files are delivered securely through Paystack. Once you have saved them, use this page as your starting point for the recommended workflow.
             </p>
           </div>
         </section>

@@ -9,6 +9,7 @@ const steps = [
   { icon: Sofa, title: 'Start with Purpose', body: 'Open the premium planner and write the room brief before looking at furniture. Name the primary use, people, time of day and non-negotiables.' },
   { icon: LayoutGrid, title: 'Map Zones + Flow', body: 'Use the site, zone and circulation sheets to decide where each activity belongs and how people naturally move through the space.' },
   { icon: Calculator, title: 'Test Scale + Budget', body: 'Enter candidate furniture dimensions and prices into the workbook. Check footprint, room load, budget and weighted product fit before ordering.' },
+  { icon: LayoutGrid, title: 'Run controlled AI iterations', body: 'Photograph the real room, open the AI Visualization Lab, preserve the architecture and change one variable at a time. Log the strongest versions in the workbook AI Iteration Lab before returning to real measurements.' },
 ];
 
 export default function OutdoorRoomThankYou() {

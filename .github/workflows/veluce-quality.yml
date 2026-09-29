@@ -33,6 +33,8 @@ jobs:
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,7000" --wait-for-selector=".ml-embedded input[type=email]" --wait-for-timeout=1500 http://127.0.0.1:8765/ visual-review/home-mobile.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,14000" --wait-for-selector="picture img" --wait-for-timeout=1500 'http://127.0.0.1:8765/article/upward-lighting-architectural-grazing/?utm_source=pinterest&utm_medium=organic_social' visual-review/article-desktop.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,14000" --wait-for-selector="picture img" --wait-for-timeout=1500 'http://127.0.0.1:8765/article/upward-lighting-architectural-grazing/?utm_source=pinterest&utm_medium=organic_social' visual-review/article-mobile.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,10000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/outdoor-lighting-blueprint/ visual-review/product-desktop.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,12000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/outdoor-lighting-blueprint/ visual-review/product-mobile.png
       - uses: actions/upload-artifact@v4
         with:
           name: veluce-visual-review

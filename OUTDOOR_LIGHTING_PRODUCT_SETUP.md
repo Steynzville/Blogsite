@@ -26,7 +26,11 @@ The customer ZIP contains:
 
    `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL=<secure checkout URL>`
 
-5. Redeploy the site.
+5. Set Paystack's **Redirect after payment** URL to:
+
+   `https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
+
+6. Redeploy the site.
 
 Until this environment variable contains an HTTPS URL, the sales page intentionally renders **Checkout opening shortly** instead of exposing a broken or insecure purchase link.
 
@@ -37,6 +41,7 @@ Do not commit the customer ZIP, PDF, calculator, AI prompt PDF or Studio Tools t
 ## Routes
 
 - Sales page: `/outdoor-lighting-blueprint`
+- Post-purchase redirect: `/thank-you/outdoor-lighting-blueprint` (intentionally noindex and excluded from the sitemap)
 - Homepage: promotional product card links to the sales page
 - Sitemap/prerender: the product route is generated like other static Veluce pages
 

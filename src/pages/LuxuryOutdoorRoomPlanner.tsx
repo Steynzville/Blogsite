@@ -86,7 +86,7 @@ export default function LuxuryOutdoorRoomPlanner() {
       <main>
         <section className="relative min-h-[82svh] overflow-hidden">
           <img
-            src="/images/outdoor-room-planner-hero.jpg"
+            src="/images/outdoor-room-planner-hero.svg"
             alt="Editorial top-down illustration of a planned outdoor lounge and dining room"
             className="absolute inset-0 h-full w-full object-cover"
           />
@@ -164,7 +164,7 @@ export default function LuxuryOutdoorRoomPlanner() {
             <div>
               <div className="max-w-[360px] overflow-hidden border border-[#cdbda6] bg-[#0c0a08] shadow-[0_24px_60px_rgba(23,18,15,0.22)]">
                 <img
-                  src="/images/outdoor-room-planner-cover.jpg"
+                  src="/images/outdoor-room-planner-cover.svg"
                   alt="Cover of the Veluce Luxury Outdoor Room Planner"
                   className="h-auto w-full"
                   loading="lazy"
@@ -192,14 +192,14 @@ export default function LuxuryOutdoorRoomPlanner() {
           <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
             <div className="grid gap-6 md:grid-cols-3">
               <figure className="overflow-hidden border border-white/10 bg-[#0c0a08]">
-                <img src="/images/outdoor-room-layout-recipe.jpg" alt="Veluce compact patio layout recipe" className="h-80 w-full object-cover object-top" loading="lazy" />
+                <img src="/images/outdoor-room-layout-recipe.svg" alt="Veluce compact patio layout recipe" className="h-80 w-full object-cover object-top" loading="lazy" />
                 <figcaption className="p-5">
                   <h3 className="font-serif text-2xl text-white">Eight layout recipes</h3>
                   <p className="mt-2 text-sm leading-relaxed text-stone-400">Compact patios, narrow verandas, courtyards, pergolas, fire lounges, family flex spaces, poolside rooms and large terraces.</p>
                 </figcaption>
               </figure>
               <figure className="overflow-hidden border border-white/10 bg-[#0c0a08]">
-                <img src="/images/outdoor-room-planner-workbook.jpg" alt="Veluce project budget and shopping workbook" className="h-80 w-full object-cover object-left" loading="lazy" />
+                <img src="/images/outdoor-room-planner-workbook.svg" alt="Veluce project budget and shopping workbook" className="h-80 w-full object-cover object-left" loading="lazy" />
                 <figcaption className="p-5">
                   <h3 className="font-serif text-2xl text-white">Editable project workbook</h3>
                   <p className="mt-2 text-sm leading-relaxed text-stone-400">Track dimensions, furniture footprint, room load, budget, purchase status and a weighted product score before you commit.</p>

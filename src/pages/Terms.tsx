@@ -43,7 +43,7 @@ export default function Terms() {
 
         <div className="space-y-2 mb-8">
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Last updated: June 12, 2026
+            Last updated: September 29, 2026
           </p>
         </div>
 
@@ -79,32 +79,43 @@ export default function Terms() {
             Some articles on VELUCE contain affiliate links, which may result in a commission at no additional cost to you. For complete transparency, please review our <Link href="/affiliate" className="text-gray-900 dark:text-white underline">Affiliate Disclosure</Link>.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">6. Disclaimer of Warranties</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">6. Digital Products</h2>
+          <p>
+            Digital products offered by VELUCE are licensed for personal, non-transferable use unless the product page states otherwise. You may not resell, redistribute, republish, publicly share the download files, or use the included templates as a competing resale product.
+          </p>
+          <p>
+            Payment and initial digital delivery may be handled by a third-party checkout or digital-delivery provider identified during checkout. That provider's terms may also apply to the transaction.
+          </p>
+          <p>
+            Digital-content cancellation and refund rights differ by location. Nothing in these Terms excludes rights that cannot lawfully be waived. If a purchased file is defective or inaccessible, please contact us so we can make reasonable efforts to provide a working copy.
+          </p>
+
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">7. Disclaimer of Warranties</h2>
           <p>
             The content on VELUCE is provided "as is" without any representations or warranties, express or implied. VELUCE does not guarantee the accuracy, completeness, timeliness, or usefulness of any information presented.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">7. Limitation of Liability</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">8. Limitation of Liability</h2>
           <p>
             To the fullest extent permitted by law, VELUCE shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of or inability to use the Site, even if advised of the possibility of such damages.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">8. External Links</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">9. External Links</h2>
           <p>
             VELUCE may contain links to third-party websites or products. These links are provided for convenience only. We are not responsible for the content, availability, or practices of any third-party site, and we are not liable for any transactions or interactions you have with them.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">9. Modifications to Terms</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">10. Modifications to Terms</h2>
           <p>
             We may update these Terms of Use at any time. Changes will be posted on this page with an updated "Last updated" date. Your continued use of the Site constitutes acceptance of any changes.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">10. Governing Law</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">11. Governing Law</h2>
           <p>
             These Terms of Use are governed by the laws of South Africa. Any disputes arising from these Terms or your use of the Site shall be subject to the exclusive jurisdiction of the courts of South Africa.
           </p>
 
-          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">11. Contact Us</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 dark:text-white mt-8">12. Contact Us</h2>
           <p>
             If you have any questions about these Terms of Use, please contact us at:
           </p>

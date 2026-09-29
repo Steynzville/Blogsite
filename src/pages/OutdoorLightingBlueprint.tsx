@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
-const PRICE = 'US$27';
+const PRICE = 'R299';
 const checkoutUrl = (import.meta.env.VITE_OUTDOOR_LIGHTING_CHECKOUT_URL || '').trim();
 const checkoutReady = /^https:\/\//i.test(checkoutUrl);
 

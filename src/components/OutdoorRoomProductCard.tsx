@@ -23,7 +23,7 @@ export default function OutdoorRoomProductCard() {
         </div>
         <div className="relative min-h-[360px]">
           <img
-            src="/images/outdoor-room-planner-hero.jpg"
+            src="/images/outdoor-room-planner-hero.svg"
             alt="Veluce Outdoor Room Planner editorial illustration"
             className="absolute inset-0 h-full w-full object-cover"
             loading="lazy"

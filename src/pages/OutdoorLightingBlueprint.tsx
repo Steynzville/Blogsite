@@ -121,6 +121,28 @@ export default function OutdoorLightingBlueprint() {
         <section id="inside" className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10 lg:py-24">
             <div>
+              <div className="mb-10 max-w-[360px] overflow-hidden border border-[#cdbda6] bg-[#0c0a08] shadow-[0_24px_60px_rgba(23,18,15,0.22)]">
+                <div className="relative aspect-[2/3]">
+                  <img
+                    src="/images/tree-uplighting.jpg"
+                    alt="Veluce Outdoor Lighting Blueprint cover"
+                    className="absolute inset-0 h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/90" />
+                  <div className="absolute inset-x-0 top-0 flex justify-between px-5 pt-5 text-[7px] uppercase tracking-[0.28em] text-stone-200">
+                    <span>Veluce · Luxury Living Journal</span>
+                    <span>First Edition · 2026</span>
+                  </div>
+                  <div className="absolute inset-x-0 bottom-0 p-6 text-white">
+                    <p className="text-[9px] uppercase tracking-[0.32em] text-[#d8bd94]">Veluce</p>
+                    <p className="mt-4 font-serif text-[2.15rem] leading-[0.98]">Outdoor Lighting<br />Blueprint</p>
+                    <p className="mt-4 font-serif text-sm italic text-stone-300">The 4-Axis Nightscape System</p>
+                    <div className="mt-5 h-px w-14 bg-[#d8bd94]" />
+                    <p className="mt-5 text-[8px] uppercase tracking-[0.2em] text-stone-200">Plan the effect. Place the light. Buy with confidence.</p>
+                  </div>
+                </div>
+              </div>
               <p className="text-[11px] uppercase tracking-[0.28em] text-[#9b7448]">What you get</p>
               <h2 className="mt-3 font-serif text-4xl leading-tight sm:text-5xl">A planning system, not another inspiration ebook.</h2>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-stone-700">

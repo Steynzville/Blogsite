@@ -27,11 +27,42 @@ const included = [
 ];
 
 const faqs = [
-  ['Is this an electrical installation manual?', 'No. It is a design-planning system. Electrical rules, cable methods, wet-area requirements and licensed-trade requirements vary by location and product. Follow manufacturer instructions and local regulations, and use a qualified professional wherever required.'],
-  ['Do I need design software?', 'No. You can use the PDF, a simple sketch or printed site plan, the included spreadsheet, and the offline Studio Tools file.'],
-  ['Does it tell me exactly which fixture brand to buy?', 'It teaches you how to define the effect first and compare candidate fixtures against suitability, light quality, glare control, build, serviceability, warranty, aesthetic fit and power-system fit.'],
-  ['Can I use the AI prompts with a photo of my own home?', 'Yes. The prompt pack is designed around real dusk photographs and explicitly asks the image tool to preserve your existing architecture while testing lighting concepts.'],
-  ['How is the product delivered?', 'After purchase, your checkout provider delivers a single customer ZIP containing the Blueprint PDF, Excel workbook, AI prompt PDF, offline Studio Tools and a quick-start file.'],
+  [
+    'I have saved lots of outdoor-lighting inspiration, but how do I turn it into a plan for my own home?',
+    'That inspiration-to-execution gap is exactly what the Blueprint is designed to solve. Start with the 20-Minute Night Walk Audit, map the property by the four lighting jobs, then use the worksheets and worked layouts to turn the look you like into a practical lighting plan for your own spaces.'
+  ],
+  [
+    'How can I get a professionally designed look without knowing professional lighting design?',
+    'The 4-Axis Nightscape System breaks the designer look into four understandable jobs: Gathering, Perception, Circulation and Atmosphere. The Blueprint demonstrates how to layer those jobs, control contrast and preserve darkness so you can make deliberate design decisions without needing specialist design software.'
+  ],
+  [
+    'How do I know what type of light should go where?',
+    'Instead of starting with a fixture catalogue, the Blueprint teaches you to define the effect and purpose first. Its decision cards, fixture decision process and worked examples then help you translate each job into an appropriate lighting approach before you compare products.'
+  ],
+  [
+    'How do I avoid buying too many lights or making the garden look harsh and over-lit?',
+    'The Blueprint includes the Too Much Light Test and teaches spacing, contrast, glare control and selective darkness. The goal is not to fill every dark area with a fixture; it is to spend the light where it creates depth, safety or atmosphere and deliberately leave the rest quiet.'
+  ],
+  [
+    'How do I work out how many fixtures I actually need and keep the project within budget?',
+    'Use the editable project calculator to build the plan by zone, estimate fixture quantities, wattage and cost, and compare alternatives before purchasing. The weighted fixture scorecard also helps you judge candidates on more than price alone.'
+  ],
+  [
+    'Can I see how the idea might look on my own house before I spend money?',
+    'Yes. The Blueprint shows you how to photograph your property at dusk, and the included 25-prompt AI Visualization Pack is designed to test lighting concepts against photographs of your actual home while asking the image tool to preserve the existing architecture.'
+  ],
+  [
+    'I keep finding attractive lights online. How do I know whether a product is actually suitable for my project?',
+    'The product scorecard gives you a consistent way to compare candidate fixtures against suitability, light quality, glare control, build, serviceability, warranty, aesthetic fit and power-system fit. That shifts the decision from “Do I like this light?” to “Will this light create the effect I planned?”'
+  ],
+  [
+    'Is this an electrical installation manual?',
+    'No. The Blueprint is a design-planning system that helps you decide what you want the lighting to achieve before installation. Electrical rules, cable methods, wet-area requirements and licensed-trade requirements vary by location and product, so follow manufacturer instructions and local regulations and use a qualified professional wherever required.'
+  ],
+  [
+    'What do I receive after purchase?',
+    'Paystack provides secure access to the complete Veluce toolkit: the 48-page Blueprint, editable project calculator and fixture scorecard, AI Visualization Prompt Pack, offline Studio Tools and quick-start material. Together they take you from the first night audit through planning, visualization and confident product comparison.'
+  ],
 ];
 
 function PurchaseButton({ compact = false }: { compact?: boolean }) {

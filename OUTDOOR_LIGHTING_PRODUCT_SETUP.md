@@ -26,11 +26,17 @@ The customer ZIP contains:
 
    `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL=<Paystack shareable product URL>`
 
-5. Set Paystack's **Redirect after payment** URL to:
+5. Leave Paystack's **Redirect after payment** field blank so successful buyers remain in Paystack's native digital-download flow and can access their unique protected download page.
+
+6. In Paystack's **Success message**, include the Veluce getting-started URL as plain text:
 
    `https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
 
-6. Redeploy the site. The GitHub Pages workflow reads this repository variable during the Vite build.
+   Recommended message:
+
+   `Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your files are available to download below, and your receipt contains a link to return to this download page. Once you've saved your files, continue with the recommended workflow at: https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
+
+7. Redeploy the site. The GitHub Pages workflow reads this repository variable during the Vite build.
 
 Until this environment variable contains an HTTPS URL, the sales page intentionally renders **Checkout opening shortly** instead of exposing a broken or insecure purchase link.
 
@@ -41,7 +47,7 @@ Do not commit the customer ZIP, PDF, calculator, AI prompt PDF or Studio Tools t
 ## Routes
 
 - Sales page: `/outdoor-lighting-blueprint`
-- Post-purchase redirect: `/thank-you/outdoor-lighting-blueprint` (intentionally noindex and excluded from the sitemap)
+- Post-purchase getting-started page: `/thank-you/outdoor-lighting-blueprint` (linked from the Paystack success message; intentionally noindex and excluded from the sitemap)
 - Homepage: promotional product card links to the sales page
 - Sitemap/prerender: the product route is generated like other static Veluce pages
 

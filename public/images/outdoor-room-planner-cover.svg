@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350">
+<defs><radialGradient id="gl"><stop stop-color="#b99a67" stop-opacity=".27"/><stop offset="1" stop-color="#b99a67" stop-opacity="0"/></radialGradient></defs>
+<rect width="900" height="1350" fill="#11100e"/><rect y="0" width="900" height="780" fill="#191713"/><circle cx="310" cy="500" r="280" fill="url(#gl)"/>
+<rect x="500" y="120" width="330" height="520" fill="#24211c"/><rect x="535" y="95" width="315" height="28" fill="#6a5640"/>
+<rect x="555" y="120" width="18" height="430" fill="#594938"/><rect x="630" y="120" width="18" height="430" fill="#594938"/><rect x="705" y="120" width="18" height="430" fill="#594938"/><rect x="780" y="120" width="18" height="430" fill="#594938"/>
+<rect x="90" y="520" width="300" height="84" rx="14" fill="#5e574e" stroke="#aa9f91"/><circle cx="430" cy="650" r="42" fill="#8b6250" stroke="#b99a67" stroke-width="3"/>
+<text x="55" y="58" fill="#cbc0af" font-family="Arial" font-size="13" letter-spacing="4">VELUCE · LUXURY LIVING JOURNAL</text><text x="845" y="58" fill="#cbc0af" text-anchor="end" font-family="Arial" font-size="13" letter-spacing="3">FIRST EDITION · 2026</text>
+<rect y="780" width="900" height="570" fill="#0d0c0a"/><text x="65" y="875" fill="#b99a67" font-family="Arial" font-weight="700" font-size="18" letter-spacing="5">VELUCE STUDIO</text>
+<text x="65" y="970" fill="#fff" font-family="Georgia" font-size="67">Luxury Outdoor</text><text x="65" y="1040" fill="#fff" font-family="Georgia" font-size="67">Room Planner</text>
+<text x="65" y="1100" fill="#cbbfab" font-family="Georgia" font-style="italic" font-size="30">The 5-Layer Outdoor Room Method</text><path d="M65 1145H175" stroke="#b99a67" stroke-width="3"/>
+<text x="65" y="1210" fill="#fff" font-family="Arial" font-size="18" font-weight="700" letter-spacing="3">ZONE IT. SCALE IT. FLOW IT.</text><text x="65" y="1245" fill="#fff" font-family="Arial" font-size="18" font-weight="700" letter-spacing="3">FURNISH IT WITH CONFIDENCE.</text>
+</svg>

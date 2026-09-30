@@ -151,6 +151,13 @@ The most successful fireplaces don't stand alone — they're woven into the fabr
 
 *For a complete guide to outdoor lighting layering, see our article on [Pergola Lighting](/article/pergola-lighting-outdoor-room).*
 
+### Useful accessories for a wood-burning outdoor fireplace
+
+The fireplace itself should remain architectural. The accessories around it work best when they are durable, simple, and easy to store rather than visually dominant.
+
+- <a href="https://steynenslin.s.gy/fireplace-tool-set" target="_blank" rel="nofollow sponsored">→ Browse the black steel fireplace tool set</a> — a practical companion for tending a wood fire.
+- <a href="https://steynenslin.s.gy/firewood-carrier" target="_blank" rel="nofollow sponsored">→ Browse the canvas firewood carrier</a> — useful for moving logs cleanly between storage and the fireplace.
+
 ## Maintenance: Protect Your Investment
 
 An outdoor fireplace is a permanent structure. Protect it.

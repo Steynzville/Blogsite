@@ -122,7 +122,7 @@ For most homeowners, **solar works well for pathway accent lighting** in areas w
 
 ### Modern Cylinder Lights
 
-<a href="https://steynenslin.s.gy/solar-lantern-lights" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/solar-lantern-lights" target="_blank">
   <img src="/images/solar-modern-path-lights.jpg" alt="Modern curved concrete walkway at dusk with sleek cylindrical solar path lights casting warm white glow, contemporary home with floor-to-ceiling windows in background" width="1200" height="800" loading="lazy">
 </a>
 <br>
@@ -139,7 +139,7 @@ Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beau
 
 ### Traditional Lantern Lights
 
-<a href="https://steynenslin.s.gy/solar-ball-lights" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/solar-ball-lights" target="_blank">
   <img src="/images/solar-lantern-path-lights.jpg" alt="Rustic irregular stone path at dusk with traditional lantern-style solar lights casting warm golden glow, lush garden foliage framing the scene" width="1200" height="800" loading="lazy">
 </a>
 <br>

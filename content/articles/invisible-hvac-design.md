@@ -140,8 +140,8 @@ Invisible HVAC reaches its full potential with intelligent controls.
 
 You do not always need to replace the mechanical system to improve the control layer. Infrared control can add app-based scheduling to many existing split air conditioners, while independent room sensors help you understand whether the space is actually reaching the temperature and humidity you intended.
 
-- <a href="https://steynenslin.s.gy/ac-ir-controller" target="_blank" rel="nofollow sponsored">→ Browse the Tuya smart IR air-conditioner controller</a> — check that your specific AC remote protocol is supported.
-- <a href="https://steynenslin.s.gy/temp-humidity-sensor" target="_blank" rel="nofollow sponsored">→ Browse the Zigbee temperature and humidity sensor</a> — useful as a separate room-level feedback point for automations and comfort monitoring.
+- <a href="https://steynenslin.s.gy/ac-ir-controller" target="_blank">→ Browse the Tuya smart IR air-conditioner controller</a> — check that your specific AC remote protocol is supported.
+- <a href="https://steynenslin.s.gy/temp-humidity-sensor" target="_blank">→ Browse the Zigbee temperature and humidity sensor</a> — useful as a separate room-level feedback point for automations and comfort monitoring.
 
 ## Underfloor vs. Mini-Split: Which First?
 

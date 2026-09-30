@@ -66,7 +66,7 @@ This is what designers specify for new builds and major renovations. The strip r
 
 **[→ Shop 220V Smart COB LED Strip on AliExpress](https://steynenslin.s.gy/TUYAcobLED)**
 
-<a href="https://steynenslin.s.gy/TUYAcobLED" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/TUYAcobLED" target="_blank">
   <img src="/images/led-strip-220v-installed.jpg" alt="220V COB LED strip installed under a pergola ceiling in an outdoor kitchen, showing continuous warm white light" loading="lazy">
 </a>
 
@@ -87,7 +87,7 @@ Same COB technology as the 220V version, but runs on low voltage. You plug a tra
 
 **[→ Shop 12V/24V DC COB LED Strip on AliExpress](https://steynenslin.s.gy/24vDCplugLED)**
 
-<a href="https://steynenslin.s.gy/24vDCplugLED" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/24vDCplugLED" target="_blank">
   <img src="/images/led-strip-12v-installed.jpg" alt="12V DC COB LED strip recessed in a pebble trench alongside a curved fire pit patio, creating a floating halo effect" loading="lazy">
 </a>
 
@@ -145,7 +145,7 @@ SMD strips (including the solar version) look terrible exposed — visible dots 
 
 **[→ Shop Solar Wall Lights on AliExpress](https://steynenslin.s.gy/SolarWall)**
 
-<a href="https://steynenslin.s.gy/SolarLED" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/SolarLED" target="_blank">
   <img src="/images/step-lights-alternative.jpg" alt="A winding garden path illuminated by warm LED strips recessed in a pebble trench, with stepping stones for foot traffic — the correct alternative to putting strips on walking surfaces" loading="lazy">
 </a>
 

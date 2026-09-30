@@ -148,9 +148,9 @@ Low-level lighting beneath the bed frame, inside millwork, or along circulation 
 
 The most effective bedroom lighting often comes from the fixtures you barely notice. Low-level night lighting and portable accent light can add function without competing with the main decorative fixtures.
 
-- <a href="https://steynenslin.s.gy/motion-night-light" target="_blank" rel="nofollow sponsored">→ Browse the rechargeable warm-white motion night light</a> — useful for low-level circulation lighting without switching on the ambient layer.
-- <a href="https://steynenslin.s.gy/picture-light" target="_blank" rel="nofollow sponsored">→ Browse the rechargeable picture light</a> — a low-commitment way to add an accent layer over art or shelving.
-- <a href="https://steynenslin.s.gy/smart-dimmer" target="_blank" rel="nofollow sponsored">→ Browse the smart dimmer</a> — for compatible mains circuits; confirm voltage, neutral-wire requirements, load compatibility, and local installation requirements before use.
+- <a href="https://steynenslin.s.gy/motion-night-light" target="_blank">→ Browse the rechargeable warm-white motion night light</a> — useful for low-level circulation lighting without switching on the ambient layer.
+- <a href="https://steynenslin.s.gy/picture-light" target="_blank">→ Browse the rechargeable picture light</a> — a low-commitment way to add an accent layer over art or shelving.
+- <a href="https://steynenslin.s.gy/smart-dimmer" target="_blank">→ Browse the smart dimmer</a> — for compatible mains circuits; confirm voltage, neutral-wire requirements, load compatibility, and local installation requirements before use.
 
 ## Control: The Conductor
 

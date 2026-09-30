@@ -205,8 +205,8 @@ The sectional shouldn't float in isolation. Connect it to the rest of the outdoo
 
 Modular seating works best when the individual pieces behave like one composition when you want them to, then separate easily when the layout changes.
 
-- <a href="https://steynenslin.s.gy/sofa-connectors" target="_blank" rel="nofollow sponsored">→ Browse sectional sofa connector clips</a> — useful where modules tend to drift apart on smooth paving or decking; check frame spacing and tube dimensions first.
-- <a href="https://steynenslin.s.gy/sectional-sofa-cover" target="_blank" rel="nofollow sponsored">→ Browse the outdoor sectional sofa cover</a> — measure the complete arranged footprint rather than a single module before choosing a size.
+- <a href="https://steynenslin.s.gy/sofa-connectors" target="_blank">→ Browse sectional sofa connector clips</a> — useful where modules tend to drift apart on smooth paving or decking; check frame spacing and tube dimensions first.
+- <a href="https://steynenslin.s.gy/sectional-sofa-cover" target="_blank">→ Browse the outdoor sectional sofa cover</a> — measure the complete arranged footprint rather than a single module before choosing a size.
 
 ## Maintenance: Protecting Your Investment
 

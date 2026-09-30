@@ -30,7 +30,7 @@ const included = [
   'Printable site, zone, circulation and furniture-plan sheets',
   'Editable Excel project planner with budget, product scorecard and AI Iteration Lab',
   '10-page quick-reference Layout Recipe Cards',
-  '45-page AI Outdoor Room Visualization Lab with 36 photo-first prompts',
+  '45-page AI Outdoor Room Visualization Lab with 37 photo-first prompts',
   'Offline Outdoor Room Studio with built-in AI prompt builder',
   '8-page Canva-editable planning-sheet design in Veluce Studio',
   '12-page Canva AI Prompt Cards source for future branded editions',
@@ -197,13 +197,13 @@ export default function LuxuryOutdoorRoomPlanner() {
                 <p className="text-[11px] uppercase tracking-[0.28em] text-[#c9a87a]">AI Visualization Lab</p>
                 <h2 className="mt-3 font-serif text-4xl text-white sm:text-5xl">Start with your real room. Explore what is possible before you buy.</h2>
                 <p className="mt-6 text-base leading-relaxed text-stone-400">
-                  Product #2 now puts AI iteration at the centre of the workflow: photograph the actual space, lock the architecture, change one variable at a time, compare the result, then check it against real measurements and the project plan.
+                  Product #2 puts AI iteration at the centre of the workflow: photograph the actual space, lock the architecture, change one variable at a time, compare the result, then check it against real measurements and the project plan. Photo → Plan → Prompt → Compare → Measure → Refine.
                 </p>
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 {[
                   ['Photo-first workflow', 'Guidance for taking a useful source image so AI works from your actual patio, deck, pergola or courtyard instead of inventing a generic room.'],
-                  ['36 controlled prompts', 'Layouts, furniture scale, materials, planting, privacy, shade, atmosphere, budget refinement, critique and final reality-check prompts.'],
+                  ['37 controlled prompts', 'Audit, layouts, furniture scale, materials, planting, privacy, shade, atmosphere, budget refinement, guest and family stress-tests, product comparisons, critique and final reality checks.'],
                   ['Iteration discipline', 'Preserve the roofline, doors, windows, floor footprint and camera position. Change one design variable at a time so each image teaches you something.'],
                   ['Decision logging', 'The Excel workbook includes an AI Iteration Lab so you can record what changed, what worked, what failed and what to test next.'],
                 ].map(([title, body]) => (
@@ -242,11 +242,11 @@ export default function LuxuryOutdoorRoomPlanner() {
                 </p>
                 <div className="mt-8 border-t border-white/10 pt-6">
                   <FileText size={20} className="text-[#c9a87a]" />
-                  <p className="mt-3 text-sm text-stone-300">48-page premium planner + 10-page recipe-card companion.</p>
+                  <p className="mt-3 text-sm text-stone-300">48-page premium planner + 10-page recipe cards + 10-page Visual Direction Gallery using eight room studies.</p>
                 </div>
                 <div className="mt-5 border-t border-white/10 pt-6">
                   <Calculator size={20} className="text-[#c9a87a]" />
-                  <p className="mt-3 text-sm text-stone-300">Editable workbook + offline Studio Tool for real measurements and budget testing.</p>
+                  <p className="mt-3 text-sm text-stone-300">Editable workbook + enhanced offline Studio with room brief, zone split, furniture load, budget, product scorecard, 37-prompt AI library and iteration log.</p>
                 </div>
               </div>
             </div>
@@ -268,7 +268,7 @@ export default function LuxuryOutdoorRoomPlanner() {
                 ['How do I keep the project within budget without buying the cheapest option?', 'The workbook allocates the budget by category, tracks planned and committed spend, and pairs with a weighted scorecard covering fit, function, durability, comfort, aesthetic fit, serviceability and value.'],
                 ['Can I use AI to see what the room could look like before I spend money?', 'Yes. The 45-page AI Outdoor Room Visualization Lab is built around your own real photograph. It includes photo guidance, a preservation lock, an iteration workflow and 36 prompts for layouts, scale, materials, planting, shade, atmosphere, budget refinement and critique. The goal is controlled comparison, not fantasy rendering.'],
                 ['How do I stop AI from redesigning my house when I only want to test furniture or styling?', 'The prompt system begins with a preservation lock that tells the model to keep the roofline, doors, windows, structural walls, floor footprint, fixed paving, garden or pool boundaries and camera position unchanged. You then change one design variable at a time.'],
-                ['What files do I receive?', 'The customer pack contains the 48-page premium planner, the 45-page AI Visualization Lab with 36 prompts, the editable Excel project workbook with AI Iteration Lab, the 10-page Layout Recipe Cards, the offline Outdoor Room Studio with AI prompt builder, the Canva planning-sheet PDF and quick-start material.'],
+                ['What files do I receive?', 'The customer pack contains the 48-page premium planner, the 45-page AI Visualization Lab with 37 prompts, the editable Excel project workbook with AI Iteration Lab, the 10-page Layout Recipe Cards, a 10-page Visual Direction Gallery, the enhanced offline Outdoor Room Studio with all 37 prompts, local saving and planning tools, the Canva planning-sheet PDF and quick-start material.'],
               ].map(([q, a]) => (
                 <details key={q} className="group py-5">
                   <summary className="cursor-pointer list-none font-serif text-xl">

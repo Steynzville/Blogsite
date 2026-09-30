@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29",
+  "updated_at": "2026-09-30",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; one organic Pin published 2026-09-29 to Outdoor Lighting Ideas.",
+    "pinterest": "Authenticated shared browser; five organic Pins published through 2026-09-30 with live destination verification.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -136,6 +136,36 @@
       "title": "Solar Pathway Lighting Ideas That Look Elegant",
       "description": "Discover solar pathway lights that give a garden a warm, considered glow. See how modern cylinder and traditional lantern styles, thoughtful spacing and warm white light can elevate a walkway without looking cheap. Explore the Veluce guide to solar garden lighting.",
       "board": "Outdoor Lighting Ideas"
+    },
+    {
+      "pin_id": "296815431716193436",
+      "pin_url": "https://za.pinterest.com/pin/296815431716193436/",
+      "published_at": "2026-09-29",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "creative_angle": "Elegant pale-stone rectangular gas fire pit table with amber flames and dark reflective fire glass, framed by cream lounge seating on a landscaped contemporary patio at blue hour; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Fire Pit Table Ideas for a Luxury Patio",
+      "description": "Create a warm, sophisticated outdoor gathering space with the right fire pit table. Compare gas and wood-burning designs, materials, sizing, placement and safety for a beautiful luxury patio that feels welcoming after sunset.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
+    },
+    {
+      "pin_id": "296815431716197325",
+      "pin_url": "https://za.pinterest.com/pin/296815431716197325/",
+      "published_at": "2026-09-30",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "creative_angle": "Sculptural mature tree transformed into a nighttime garden anchor with concealed warm uplighting, layered planting and a curving stone path beneath a deep blue sky; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Tree Uplighting Ideas for a Dramatic Garden",
+      "description": "Turn a mature tree into a beautiful nighttime focal point with hidden warm-white uplighting. Learn the best fixture placement, beam angles and layering techniques for elegant garden lighting without visible glare.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration"
+    },
+    {
+      "pin_id": "296815431716197333",
+      "pin_url": "https://za.pinterest.com/pin/296815431716197333/",
+      "published_at": "2026-09-30",
+      "destination": "https://velucedesign.com/article/copper-lanterns-age-with-grace/",
+      "creative_angle": "Symmetrical stone-and-timber home entrance at blue hour with a pair of substantial aged-copper wall lanterns casting warm amber light beside a dark wood and glass door; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Copper Outdoor Lanterns That Get Better With Age",
+      "description": "Discover why solid copper outdoor lanterns are a timeless choice for elegant entrances. Learn how natural patina develops, what quality details matter and how copper lighting can last for generations with minimal care.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration"
     }
   ],
   "pages_created": [],

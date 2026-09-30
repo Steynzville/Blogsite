@@ -74,9 +74,9 @@ This is where beam control matters more than brightness.
 
 Solar is convenient where trenching or cable routes are impractical. For a permanent landscape scheme, however, a **12V wired spotlight** gives you predictable output regardless of daily charging conditions and can be integrated into a larger low-voltage system.
 
-- <a href="https://steynenslin.s.gy/wired-landscape-spotlight" target="_blank" rel="nofollow sponsored">→ Browse the 12V wired landscape spotlight</a> — choose the warm-white 12V variant for the low-voltage system described here.
-- <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank" rel="nofollow sponsored">→ Browse the 220V-to-12V/24V outdoor transformer</a> — mains stays at the supply point while the landscape circuit runs low voltage.
-- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank" rel="nofollow sponsored">→ Browse IP68 low-voltage cable connectors</a> — for weather-protected cable joins.
+- <a href="https://steynenslin.s.gy/wired-landscape-spotlight" target="_blank">→ Browse the 12V wired landscape spotlight</a> — choose the warm-white 12V variant for the low-voltage system described here.
+- <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — mains stays at the supply point while the landscape circuit runs low voltage.
+- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage cable connectors</a> — for weather-protected cable joins.
 
 ## Positioning Solar Uplights Correctly
 

@@ -157,6 +157,13 @@ The material surrounding the flame shapes how light moves through the space.
 
 Fire glass has become the premium choice for contemporary designs. The tempered glass beads reflect flame light, creating a shimmering effect that pure fire cannot achieve.
 
+### Useful accessories for a gas fire-pit table
+
+The fire feature itself should remain the design priority, but two accessories can materially improve everyday ownership: weather protection and suitable decorative media.
+
+- <a href="https://steynenslin.s.gy/fire-pit-cover" target="_blank" rel="nofollow sponsored">→ Browse the weather-resistant fire-pit table cover</a> — check the dimensions against your table before ordering.
+- <a href="https://steynenslin.s.gy/fire-glass" target="_blank" rel="nofollow sponsored">→ Browse reflective fire glass</a> — for compatible propane or natural-gas burners only. Follow the fire-pit manufacturer's requirements for approved media, depth, and clearance.
+
 ## Sizing + Placement
 
 | Patio size | Table size | Seating distance |

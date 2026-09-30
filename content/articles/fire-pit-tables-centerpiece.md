@@ -161,8 +161,8 @@ Fire glass has become the premium choice for contemporary designs. The tempered 
 
 The fire feature itself should remain the design priority, but two accessories can materially improve everyday ownership: weather protection and suitable decorative media.
 
-- <a href="https://steynenslin.s.gy/fire-pit-cover" target="_blank" rel="nofollow sponsored">→ Browse the weather-resistant fire-pit table cover</a> — check the dimensions against your table before ordering.
-- <a href="https://steynenslin.s.gy/fire-glass" target="_blank" rel="nofollow sponsored">→ Browse reflective fire glass</a> — for compatible propane or natural-gas burners only. Follow the fire-pit manufacturer's requirements for approved media, depth, and clearance.
+- <a href="https://steynenslin.s.gy/fire-pit-cover" target="_blank">→ Browse the weather-resistant fire-pit table cover</a> — check the dimensions against your table before ordering.
+- <a href="https://steynenslin.s.gy/fire-glass" target="_blank">→ Browse reflective fire glass</a> — for compatible propane or natural-gas burners only. Follow the fire-pit manufacturer's requirements for approved media, depth, and clearance.
 
 ## Sizing + Placement
 

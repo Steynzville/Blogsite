@@ -173,6 +173,13 @@ The rug shouldn't float in isolation. Connect it to the rest of the outdoor room
 
 *For a complete guide to outdoor lighting layering, see our article on [Pergola Lighting](/article/pergola-lighting-outdoor-room).*
 
+### Two useful additions around the rug itself
+
+The existing polypropylene recommendation remains a solid reference point. These two catalogue options broaden the choice without changing the basic material advice above.
+
+- <a href="https://steynenslin.s.gy/outdoor-rug-pp" target="_blank">→ Browse an alternative reversible polypropylene outdoor rug</a> — useful if you want a second pattern/size direction while keeping the same weather-tolerant material family.
+- <a href="https://steynenslin.s.gy/rug-gripper" target="_blank">→ Browse the non-slip rug-gripper underlay</a> — check the current listing for outdoor suitability and make sure it can drain and dry properly in your installation.
+
 ## Maintenance: Protecting Your Investment
 
 **Weekly:**

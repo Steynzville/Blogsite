@@ -112,6 +112,14 @@ Trees with **open branching patterns** create the most beautiful shadow effects.
 
 Deciduous trees transform dramatically throughout the seasons. The intricate shadows of summer often become bolder and more graphic once leaves fall, requiring occasional fixture adjustments.
 
+### Building a wired low-voltage moonlighting layer
+
+For a permanent system, low-voltage wiring gives you consistent output and avoids relying on a solar panel positioned high in or near the canopy. The light source still needs to disappear visually, and any tree attachment should use a suitable non-invasive mounting method.
+
+- <a href="https://steynenslin.s.gy/tree-spotlight-12v" target="_blank">→ Browse the 12V directional landscape/tree spotlight</a> — a candidate for directional lighting where the mounting arrangement suits the tree and desired beam.
+- <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — for converting the supply to low voltage before the landscape circuit.
+- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage connectors</a> — for weather-protected joins on the low-voltage side.
+
 ## Layering Moonlighting with Other Garden Lights
 
 Moonlighting works best as part of a complete lighting system:

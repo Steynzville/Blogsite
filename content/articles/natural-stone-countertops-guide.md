@@ -253,6 +253,14 @@ A proper stone cleaner removes everyday messes without damaging the surface. The
 
 ---
 
+### Practical care products for natural stone
+
+The safest maintenance kit is usually simple. Avoid treating a marketplace product description as proof of stone compatibility: always check the current label and your fabricator's guidance before using a cleaner or treatment on marble, quartzite, granite, or soapstone.
+
+- <a href="https://steynenslin.s.gy/microfiber-cloths" target="_blank">→ Browse soft microfiber cleaning cloths</a> — useful for daily wiping without introducing an abrasive surface.
+- <a href="https://steynenslin.s.gy/silicone-trivet" target="_blank">→ Browse the heat-resistant silicone trivet</a> — a simple protective layer beneath hot cookware.
+- <a href="https://steynenslin.s.gy/stone-cleaner" target="_blank">→ Browse the stone-cleaner candidate</a> — only use it if the current product label explicitly confirms suitability for your exact stone and the pH requirements discussed above.
+
 ## Daily Maintenance That Preserves
 
 Sealing and cleaning matter. But daily habits matter more.

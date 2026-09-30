@@ -122,6 +122,14 @@ Not all solid copper lanterns are equal. Look for these indicators of quality:
 - ✅ 18-20 gauge for durability
 - ❌ Thin, flimsy copper that dents easily
 
+### Product options that fit the copper approach
+
+If you want to carry the material story into the fixtures themselves, these are the most relevant catalogue options. For mains-powered fittings, confirm the current voltage, dimensions, weather rating, and material specification before ordering, and use a qualified installer where required.
+
+- <a href="https://steynenslin.s.gy/copper-wall-lantern" target="_blank">→ Browse the copper outdoor wall lantern</a> — a wall-mounted option for entries, verandas, and exterior elevations.
+- <a href="https://steynenslin.s.gy/brass-pendant-lantern" target="_blank">→ Browse the brass/copper outdoor pendant lantern</a> — suited to covered porches and sheltered outdoor rooms; select the appropriate mains-voltage version.
+- <a href="https://steynenslin.s.gy/copper-polish" target="_blank">→ Browse copper/metal polish</a> — useful only if you deliberately want to maintain a brighter finish rather than allowing a natural patina to develop.
+
 ## Maintenance: Less Than You Think
 
 Copper requires minimal intervention. Your approach depends on your aesthetic preference.

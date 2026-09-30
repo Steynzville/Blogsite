@@ -84,6 +84,13 @@ Light is the only design material you cannot see — only its effects. Throughou
 
 *For a complete guide to lighting layering, see our article on [Layered Lighting for the Perfect Bedroom Retreat](/article/layered-lighting-bedroom).*
 
+### Two low-commitment ways to improve the lighting layer
+
+Before replacing major fixtures, smaller interventions can sharpen the hierarchy of a room. The key is to use them selectively rather than turning every object into a smart device.
+
+- <a href="https://steynenslin.s.gy/picture-light" target="_blank">→ Browse the rechargeable picture light</a> — useful for giving art a dedicated accent layer without opening the wall.
+- <a href="https://steynenslin.s.gy/smart-dimmer" target="_blank">→ Browse the smart dimmer</a> — for compatible mains lighting circuits where better scene-setting is more valuable than adding more fixtures. Check electrical compatibility before installation.
+
 ## Material Quality: What Lasts
 
 Luxury materials share three characteristics: authenticity, durability, and aging grace.

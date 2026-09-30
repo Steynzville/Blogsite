@@ -245,6 +245,14 @@ Before purchasing any natural stone, request a full slab viewing rather than rel
 - Clean with stone-specific pH-neutral products
 - Reapply sealer every 1-2 years
 
+### A restrained stone-care kit
+
+Stone lasts because the material is durable, not because it is maintenance-free. Keep the care kit simple and verify every chemical product against the specific stone and finish before use.
+
+- <a href="https://steynenslin.s.gy/microfiber-cloths" target="_blank">→ Browse soft microfiber cleaning cloths</a> — a low-risk everyday cleaning tool for finished stone surfaces.
+- <a href="https://steynenslin.s.gy/silicone-trivet" target="_blank">→ Browse the heat-resistant silicone trivet</a> — useful where stone surfaces meet hot cookware.
+- <a href="https://steynenslin.s.gy/stone-cleaner" target="_blank">→ Browse the stone-cleaner candidate</a> — confirm the current label is appropriate for your stone, finish, and required pH before applying it.
+
 ## The Honed vs Polished Distinction
 
 **Polished:**

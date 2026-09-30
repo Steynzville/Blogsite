@@ -136,6 +136,13 @@ Automated blinds are most powerful when they communicate with other systems.
 
 **The verdict:** Automated blinds work beautifully in both new construction and existing homes. The technology has matured to accommodate both scenarios.
 
+### Retrofit options when you do not want to replace every blind
+
+The existing complete smart-blind option is still the simplest route for a new installation. Retrofit motors make more sense when the fabric and hardware are already right and you only want to add automation.
+
+- <a href="https://steynenslin.s.gy/roller-blind-motor" target="_blank">→ Browse the Tuya/Zigbee roller-blind motor</a> — the selected listing is a battery-powered motor for a 38 mm tube, so measure the existing blind hardware before ordering.
+- <a href="https://steynenslin.s.gy/curtain-motor" target="_blank">→ Browse the smart curtain motor/track option</a> — for curtains rather than roller blinds; confirm the track length, motor side, power arrangement, and control protocol.
+
 ## Choosing the Right System
 
 | Consideration | What to look for |

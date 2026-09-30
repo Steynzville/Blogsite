@@ -70,6 +70,14 @@ Not all solar lights guide movement effectively. The fixture's light distributio
 
 **[→ Shop Solar Inground Lights for Path Guidance](https://steynenslin.s.gy/SolarInground)**
 
+### Solar simplicity or a permanent low-voltage system
+
+For a cable-free installation, a restrained bollard can provide a more architectural look than small decorative stakes. For a permanent wired scheme, keep the power architecture clear: mains power feeds an outdoor-rated transformer, while the garden fixtures and connections remain on the low-voltage side.
+
+- <a href="https://steynenslin.s.gy/solar-bollard" target="_blank">→ Browse the modern solar bollard light</a> — a no-wiring option for paths with reliable sun exposure.
+- <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — for a permanent low-voltage landscape-lighting system; size the supply to the actual connected load.
+- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage cable connectors</a> — for weather-protected joins on the low-voltage side of the system.
+
 ## Spacing: The Rhythm of Movement
 
 Spacing determines whether a path feels like a journey or a corridor.

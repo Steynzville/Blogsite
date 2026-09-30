@@ -161,6 +161,14 @@ Dense shrubs, evergreen plantings, and mature trees can conceal cameras that wou
 
 ---
 
+### Practical security products for a discreet installation
+
+Discreet does not need to mean covert. The strongest residential approach is usually to choose conventional security hardware and integrate it thoughtfully into eaves, entrances, lighting, and architectural sight lines.
+
+- <a href="https://steynenslin.s.gy/poe-camera" target="_blank">→ Browse the outdoor PoE camera</a> — a wired option for reliable perimeter coverage; confirm the current ONVIF, weather-rating, lens, and recording specifications.
+- <a href="https://steynenslin.s.gy/video-doorbell" target="_blank">→ Browse the smart video doorbell</a> — useful where the front entry is the most important camera position; verify power and chime compatibility.
+- <a href="https://steynenslin.s.gy/motion-floodlight-12v" target="_blank">→ Browse the 12V motion floodlight</a> — a low-voltage lighting layer that can improve visibility without making the camera itself the visual focal point.
+
 ## Technical Considerations for Invisible Operation
 
 ### Nighttime Coverage

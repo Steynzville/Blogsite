@@ -122,7 +122,7 @@ For most homeowners, **solar works well for pathway accent lighting** in areas w
 
 ### Modern Cylinder Lights
 
-<a href="https://steynenslin.s.gy/solar-lantern-lights" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/solar-lantern-lights" target="_blank">
   <img src="/images/solar-modern-path-lights.jpg" alt="Modern curved concrete walkway at dusk with sleek cylindrical solar path lights casting warm white glow, contemporary home with floor-to-ceiling windows in background" width="1200" height="800" loading="lazy">
 </a>
 <br>
@@ -139,7 +139,7 @@ Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beau
 
 ### Traditional Lantern Lights
 
-<a href="https://steynenslin.s.gy/solar-ball-lights" target="_blank" rel="nofollow sponsored">
+<a href="https://steynenslin.s.gy/solar-ball-lights" target="_blank">
   <img src="/images/solar-lantern-path-lights.jpg" alt="Rustic irregular stone path at dusk with traditional lantern-style solar lights casting warm golden glow, lush garden foliage framing the scene" width="1200" height="800" loading="lazy">
 </a>
 <br>
@@ -153,6 +153,14 @@ Classic lantern-style lights with decorative details and warm golden illuminatio
 - Traditional architectural character
 
 **[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-ball-lights)**
+
+### A third design direction: minimal solar bollards
+
+Between the modern cylinder and traditional lantern styles sits a quieter option: a simple bollard that reads more like a small architectural element than a decorative garden ornament.
+
+<a href="https://steynenslin.s.gy/solar-bollard" target="_blank">→ Browse the modern solar bollard light</a>
+
+As with any solar fixture, performance depends on real sun exposure rather than the nominal battery or lumen figure alone, so position the panel where it can charge reliably.
 
 ## Layering Solar Path Lights with Other Garden Lighting
 

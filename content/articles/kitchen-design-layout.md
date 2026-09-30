@@ -112,6 +112,14 @@ A beautiful kitchen with inadequate storage is not luxurious. It is frustrating.
 
 *For a complete guide to countertop materials that withstand daily use, see our article on [Countertop Materials Guide](/article/quartzite-vs-porcelain-countertops).*
 
+### Small storage upgrades that improve the layout you already have
+
+Good kitchen planning is architectural, but internal cabinet hardware can still recover useful space without changing the room footprint.
+
+- <a href="https://steynenslin.s.gy/pull-out-cabinet" target="_blank">→ Browse the pull-out cabinet organiser</a> — useful for deep base cabinets where items otherwise disappear at the back.
+- <a href="https://steynenslin.s.gy/drawer-dividers" target="_blank">→ Browse adjustable drawer dividers</a> — a simple way to keep prep tools visible and grouped by task.
+- <a href="https://steynenslin.s.gy/under-sink-organizer" target="_blank">→ Browse the slide-out under-sink organiser</a> — check cabinet width, plumbing clearances, and door swing before ordering.
+
 ## Lighting: Layered and Dimmable
 
 The best kitchen lighting is not a single source. It is layered.

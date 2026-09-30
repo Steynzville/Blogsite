@@ -89,9 +89,9 @@ Among the dozens of up/down wall fixtures currently available, **the DASTOR Up a
 
 These products solve different jobs, so they should not be treated as interchangeable:
 
-- <a href="https://steynenslin.s.gy/wall-washer-24v" target="_blank" rel="nofollow sponsored">→ Browse the 24V linear wall washer</a> — the closest fit for a dedicated washing/grazing layer where a long adjustable fixture can throw light across the facade.
-- <a href="https://steynenslin.s.gy/wired-landscape-spotlight" target="_blank" rel="nofollow sponsored">→ Browse the 12V wired landscape spotlight</a> — better for narrow architectural accents, columns, planting, and focal uplighting than for an even wall wash.
-- <a href="https://steynenslin.s.gy/linear-wall-light" target="_blank" rel="nofollow sponsored">→ Browse the modern linear exterior wall light</a> — an **85–256V AC mains** decorative wall fixture. It is intentionally visible and creates a broad architectural halo, so use it as a design feature rather than calling it a concealed grazer.
+- <a href="https://steynenslin.s.gy/wall-washer-24v" target="_blank">→ Browse the 24V linear wall washer</a> — the closest fit for a dedicated washing/grazing layer where a long adjustable fixture can throw light across the facade.
+- <a href="https://steynenslin.s.gy/wired-landscape-spotlight" target="_blank">→ Browse the 12V wired landscape spotlight</a> — better for narrow architectural accents, columns, planting, and focal uplighting than for an even wall wash.
+- <a href="https://steynenslin.s.gy/linear-wall-light" target="_blank">→ Browse the modern linear exterior wall light</a> — an **85–256V AC mains** decorative wall fixture. It is intentionally visible and creates a broad architectural halo, so use it as a design feature rather than calling it a concealed grazer.
 
 For low-voltage landscape fixtures, keep the 12V/24V circuit on the output side of an appropriately sized outdoor transformer. Mains-voltage exterior fixtures should be installed in accordance with local electrical requirements.
 

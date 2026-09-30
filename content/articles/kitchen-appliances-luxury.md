@@ -189,7 +189,7 @@ The first espresso of the morning. Bread browning while the house wakes. Dough k
 
 Luxury kitchens are defined as much by repeated daily use as by major appliances. A compact precision scale is a useful example: it can support coffee preparation and measured cooking without competing visually with the permanent appliance suite.
 
-<a href="https://steynenslin.s.gy/coffee-scale" target="_blank" rel="nofollow sponsored">→ Browse the rechargeable 0.1g precision coffee/kitchen scale</a>
+<a href="https://steynenslin.s.gy/coffee-scale" target="_blank">→ Browse the rechargeable 0.1g precision coffee/kitchen scale</a>
 
 ## Finishes: The Visual Harmony
 

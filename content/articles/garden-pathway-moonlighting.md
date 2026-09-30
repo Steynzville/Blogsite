@@ -144,9 +144,9 @@ Trees remain the most effective due to organic light fragmentation.
 
 Where a wired installation is practical, low-voltage directional fixtures give you more consistent output than solar and make it easier to build a coordinated system. For tree-mounted applications, use an appropriate non-invasive mounting method and avoid damaging mature trunks or branches.
 
-- <a href="https://steynenslin.s.gy/tree-spotlight-12v" target="_blank" rel="nofollow sponsored">→ Browse the 12V directional landscape/tree spotlight</a> — use only where the mounting method and beam direction suit the intended downward-lighting effect.
-- <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank" rel="nofollow sponsored">→ Browse the 220V-to-12V/24V outdoor transformer</a> — keeps the garden-lighting circuit on the low-voltage side after conversion.
-- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank" rel="nofollow sponsored">→ Browse IP68 low-voltage cable connectors</a> — useful for protected outdoor joins and branch runs.
+- <a href="https://steynenslin.s.gy/tree-spotlight-12v" target="_blank">→ Browse the 12V directional landscape/tree spotlight</a> — use only where the mounting method and beam direction suit the intended downward-lighting effect.
+- <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — keeps the garden-lighting circuit on the low-voltage side after conversion.
+- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage cable connectors</a> — useful for protected outdoor joins and branch runs.
 
 ## Layered Garden Light System
 

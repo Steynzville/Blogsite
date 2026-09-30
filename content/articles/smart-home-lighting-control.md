@@ -122,11 +122,11 @@ Savant targets the highest end of the market, emphasizing aesthetics, user inter
 
 Lutron, Control4, and Savant are complete ecosystems. The products below are **not substitutes for those professionally designed systems**; they are useful building blocks for smaller retrofit projects, secondary spaces, or homeowners experimenting with automations before committing to a whole-home platform.
 
-- <a href="https://steynenslin.s.gy/smart-dimmer" target="_blank" rel="nofollow sponsored">→ Browse the Tuya smart dimmer</a> — for compatible mains circuits; verify voltage, neutral-wire requirements, minimum load, and local electrical requirements.
-- <a href="https://steynenslin.s.gy/matter-zigbee-hub" target="_blank" rel="nofollow sponsored">→ Browse the Matter/Zigbee gateway</a> — a hub layer for compatible smart devices; confirm the protocols supported by the exact variant.
-- <a href="https://steynenslin.s.gy/smart-relay" target="_blank" rel="nofollow sponsored">→ Browse the Zigbee smart relay</a> — for compatible lighting circuits and appropriate enclosures; mains installation should follow local electrical requirements.
-- <a href="https://steynenslin.s.gy/mmwave-sensor" target="_blank" rel="nofollow sponsored">→ Browse the mmWave presence sensor</a> — useful where occupancy sensing needs to detect a seated or relatively still person; select the correct power variant.
-- <a href="https://steynenslin.s.gy/scene-switch" target="_blank" rel="nofollow sponsored">→ Browse the Zigbee scene switch</a> — useful for triggering pre-set lighting scenes without reaching for a phone.
+- <a href="https://steynenslin.s.gy/smart-dimmer" target="_blank">→ Browse the Tuya smart dimmer</a> — for compatible mains circuits; verify voltage, neutral-wire requirements, minimum load, and local electrical requirements.
+- <a href="https://steynenslin.s.gy/matter-zigbee-hub" target="_blank">→ Browse the Matter/Zigbee gateway</a> — a hub layer for compatible smart devices; confirm the protocols supported by the exact variant.
+- <a href="https://steynenslin.s.gy/smart-relay" target="_blank">→ Browse the Zigbee smart relay</a> — for compatible lighting circuits and appropriate enclosures; mains installation should follow local electrical requirements.
+- <a href="https://steynenslin.s.gy/mmwave-sensor" target="_blank">→ Browse the mmWave presence sensor</a> — useful where occupancy sensing needs to detect a seated or relatively still person; select the correct power variant.
+- <a href="https://steynenslin.s.gy/scene-switch" target="_blank">→ Browse the Zigbee scene switch</a> — useful for triggering pre-set lighting scenes without reaching for a phone.
 
 ## The Role of Professional Installation
 

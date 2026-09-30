@@ -154,6 +154,14 @@ Classic lantern-style lights with decorative details and warm golden illuminatio
 
 **[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-ball-lights)**
 
+### A third design direction: minimal solar bollards
+
+Between the modern cylinder and traditional lantern styles sits a quieter option: a simple bollard that reads more like a small architectural element than a decorative garden ornament.
+
+<a href="https://steynenslin.s.gy/solar-bollard" target="_blank" rel="nofollow sponsored">→ Browse the modern solar bollard light</a>
+
+As with any solar fixture, performance depends on real sun exposure rather than the nominal battery or lumen figure alone, so position the panel where it can charge reliably.
+
 ## Layering Solar Path Lights with Other Garden Lighting
 
 Solar path lights are rarely the only light source in a well-designed garden. Layering creates depth, safety, and extended usability.

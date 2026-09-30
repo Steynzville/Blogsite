@@ -149,6 +149,13 @@ This is where smart access fundamentally outperforms traditional locks. A physic
 
 ---
 
+### Two products for a layered entry system
+
+For many homes, the most useful combination is a smart lock at the door and a separate visual-verification layer at the approach. Treat both as parts of the access system rather than isolated gadgets.
+
+- <a href="https://steynenslin.s.gy/fingerprint-smart-lock" target="_blank" rel="nofollow sponsored">→ Browse the fingerprint/keypad smart lock</a> — check door thickness, backset, handing, lock-body dimensions, battery access, and app compatibility before ordering.
+- <a href="https://steynenslin.s.gy/video-doorbell" target="_blank" rel="nofollow sponsored">→ Browse the smart video doorbell</a> — useful for visual confirmation and guest arrival; verify current power, Wi-Fi, chime, and storage requirements.
+
 ## Integration: Arrival as an Event
 
 Smart access becomes truly powerful when integrated with other home systems. The door unlocking should not happen in isolation. It should trigger a sequence.

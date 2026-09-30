@@ -155,8 +155,8 @@ The most successful fireplaces don't stand alone — they're woven into the fabr
 
 The fireplace itself should remain architectural. The accessories around it work best when they are durable, simple, and easy to store rather than visually dominant.
 
-- <a href="https://steynenslin.s.gy/fireplace-tool-set" target="_blank" rel="nofollow sponsored">→ Browse the black steel fireplace tool set</a> — a practical companion for tending a wood fire.
-- <a href="https://steynenslin.s.gy/firewood-carrier" target="_blank" rel="nofollow sponsored">→ Browse the canvas firewood carrier</a> — useful for moving logs cleanly between storage and the fireplace.
+- <a href="https://steynenslin.s.gy/fireplace-tool-set" target="_blank">→ Browse the black steel fireplace tool set</a> — a practical companion for tending a wood fire.
+- <a href="https://steynenslin.s.gy/firewood-carrier" target="_blank">→ Browse the canvas firewood carrier</a> — useful for moving logs cleanly between storage and the fireplace.
 
 ## Maintenance: Protect Your Investment
 

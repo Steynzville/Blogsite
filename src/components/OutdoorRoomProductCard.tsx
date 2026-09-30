@@ -10,7 +10,7 @@ export default function OutdoorRoomProductCard() {
           <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl">Luxury Outdoor Room Planner</h2>
           <p className="mt-3 font-serif text-xl italic text-stone-600">The 5-Layer Outdoor Room Method</p>
           <p className="mt-5 text-sm leading-relaxed text-stone-700">
-            Turn an empty or randomly furnished patio, deck or pergola into a deliberate outdoor room with planning tools plus a 45-page AI Visualization Lab built around a photo of your actual space.
+            Turn an empty or randomly furnished patio, deck or pergola into a deliberate outdoor room with planning tools, a visual-direction gallery and a 37-prompt AI Visualization Lab built around a photo of your actual space.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-4">
             <Link href="/luxury-outdoor-room-planner" asChild>

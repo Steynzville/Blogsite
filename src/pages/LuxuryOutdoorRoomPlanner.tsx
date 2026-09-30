@@ -99,7 +99,7 @@ export default function LuxuryOutdoorRoomPlanner() {
               Turn the patio into a room — before you buy the furniture.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-stone-200 sm:text-lg">
-              A practical planning system for homeowners who want an outdoor space that feels intentional, proportioned and easy to live in — not like a collection of beautiful pieces placed outside.
+              From a collection of furniture to an outdoor room. A practical planning system for homeowners who want a space that feels intentional, proportioned and easy to live in — not like beautiful pieces placed outside one purchase at a time.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <PurchaseButton />
@@ -150,6 +150,9 @@ export default function LuxuryOutdoorRoomPlanner() {
             <h2 className="mt-3 max-w-4xl font-serif text-4xl text-white sm:text-5xl">
               Inspiration is easy. Translation is the hard part.
             </h2>
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-stone-400">
+              Saved images give you a look. Product pages give you objects. Neither automatically tells you how your own space should be zoned, how people will move through it, or whether the pieces you love will actually work together.
+            </p>
             <div className="mt-10 grid gap-4 md:grid-cols-2">
               {problems.map(([problem, solution]) => (
                 <article key={problem} className="border border-white/10 bg-[#17130f] p-6 sm:p-7">
@@ -195,7 +198,7 @@ export default function LuxuryOutdoorRoomPlanner() {
             <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
               <div>
                 <p className="text-[11px] uppercase tracking-[0.28em] text-[#c9a87a]">AI Visualization Lab</p>
-                <h2 className="mt-3 font-serif text-4xl text-white sm:text-5xl">Start with your real room. Explore what is possible before you buy.</h2>
+                <h2 className="mt-3 font-serif text-4xl text-white sm:text-5xl">Use AI as a design laboratory — not as an oracle.</h2>
                 <p className="mt-6 text-base leading-relaxed text-stone-400">
                   Product #2 puts AI iteration at the centre of the workflow: photograph the actual space, lock the architecture, change one variable at a time, compare the result, then check it against real measurements and the project plan. Photo → Plan → Prompt → Compare → Measure → Refine.
                 </p>
@@ -213,6 +216,24 @@ export default function LuxuryOutdoorRoomPlanner() {
                   </article>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#f5efe4] text-[#17120f]">
+          <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
+            <p className="text-[11px] uppercase tracking-[0.28em] text-[#9b7448]">Visual Direction Gallery</p>
+            <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight sm:text-5xl">Do not copy the image. Copy the planning logic.</h2>
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-stone-700">
+              Eight premium room studies show what good planning looks like across different outdoor-room types. Each study names the useful design lesson and gives you a photo-first prompt to test the same logic on your own space.
+            </p>
+            <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {['Blue-hour lounge', 'Compact patio', 'Calm courtyard', 'Pergola dining', 'Fire lounge', 'Material palette', 'Poolside room', 'Narrow veranda'].map((study, index) => (
+                <div key={study} className="border border-[#d6c9b5] bg-[#ede3d4] p-5">
+                  <p className="font-serif text-2xl text-[#9b7448]">{String(index + 1).padStart(2, '0')}</p>
+                  <p className="mt-2 font-serif text-xl">{study}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -266,7 +287,7 @@ export default function LuxuryOutdoorRoomPlanner() {
                 ['How do I keep a beautiful layout from becoming awkward to walk through?', 'The Flow layer is planned before the final furniture arrangement. You mark the natural route between the house, garden, pool, grill or steps and keep everyday movement out of the middle of the main conversation group.'],
                 ['How can I plan a fire-pit area safely?', 'The planner does not invent a universal fire clearance. It tells you to choose the actual appliance first, use its manufacturer clearances and local requirements, and only then build the seating plan around that documented safety envelope.'],
                 ['How do I keep the project within budget without buying the cheapest option?', 'The workbook allocates the budget by category, tracks planned and committed spend, and pairs with a weighted scorecard covering fit, function, durability, comfort, aesthetic fit, serviceability and value.'],
-                ['Can I use AI to see what the room could look like before I spend money?', 'Yes. The 45-page AI Outdoor Room Visualization Lab is built around your own real photograph. It includes photo guidance, a preservation lock, an iteration workflow and 36 prompts for layouts, scale, materials, planting, shade, atmosphere, budget refinement and critique. The goal is controlled comparison, not fantasy rendering.'],
+                ['Can I use AI to see what the room could look like before I spend money?', 'Yes. The 45-page AI Outdoor Room Visualization Lab is built around your own real photograph. It includes photo guidance, a preservation lock, an iteration workflow and 37 prompts for layouts, scale, materials, planting, shade, atmosphere, budget refinement and critique. The goal is controlled comparison, not fantasy rendering.'],
                 ['How do I stop AI from redesigning my house when I only want to test furniture or styling?', 'The prompt system begins with a preservation lock that tells the model to keep the roofline, doors, windows, structural walls, floor footprint, fixed paving, garden or pool boundaries and camera position unchanged. You then change one design variable at a time.'],
                 ['What files do I receive?', 'The customer pack contains the 48-page premium planner, the 45-page AI Visualization Lab with 37 prompts, the editable Excel project workbook with AI Iteration Lab, the 10-page Layout Recipe Cards, a 10-page Visual Direction Gallery, the enhanced offline Outdoor Room Studio with all 37 prompts, local saving and planning tools, the Canva planning-sheet PDF and quick-start material.'],
               ].map(([q, a]) => (
@@ -287,7 +308,7 @@ export default function LuxuryOutdoorRoomPlanner() {
         <section className="bg-[#0c0a08]">
           <div className="mx-auto max-w-5xl px-5 py-16 text-center sm:px-8 lg:py-24">
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#c9a87a]">Room first · products second</p>
-            <h2 className="mt-4 font-serif text-4xl text-white sm:text-5xl">Make the expensive decisions on paper first.</h2>
+            <h2 className="mt-4 font-serif text-4xl text-white sm:text-5xl">The room should work before it is decorated.</h2>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-stone-400">
               Build the room around purpose, proportion and movement — then shop with a clear idea of what each piece is supposed to contribute.
             </p>

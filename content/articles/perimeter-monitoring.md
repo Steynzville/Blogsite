@@ -176,6 +176,14 @@ Cameras and lights are the visible layer. Beneath them, sensors provide detectio
 
 ---
 
+### A practical three-layer perimeter kit
+
+A useful starting point is to combine one visual layer, one lighting layer, and one early-warning layer rather than asking a single device to do everything.
+
+- <a href="https://steynenslin.s.gy/poe-camera" target="_blank" rel="nofollow sponsored">→ Browse the outdoor PoE camera</a> — a wired surveillance option; verify the current ONVIF, weather-rating, lens, storage, and recorder compatibility before purchase.
+- <a href="https://steynenslin.s.gy/motion-floodlight-12v" target="_blank" rel="nofollow sponsored">→ Browse the 12V motion floodlight</a> — a low-voltage lighting layer for dark perimeter zones.
+- <a href="https://steynenslin.s.gy/driveway-alarm" target="_blank" rel="nofollow sponsored">→ Browse the wireless driveway motion alarm</a> — useful as an early-warning layer for gates, long approaches, and driveways where camera footage alone may not prompt immediate attention.
+
 ## Integration: The Coordinated Perimeter
 
 A gate sensor detects opening at 10:15 PM. What happens next?

@@ -35,10 +35,10 @@ const included = [
   'Quick-start guide and recommended workflow',
 ];
 
-const stylePreviews = [
-  { title: 'Warm Minimal', image: '/images/designer-brief-style-warm.svg', note: 'Soft off-whites, pale timber, restrained contrast and low visual noise.' },
-  { title: 'Organic Modern', image: '/images/designer-brief-style-organic.svg', note: 'Stone, timber, linen, rounded forms and calm earthy neutrals.' },
-  { title: 'Quiet Luxury', image: '/images/designer-brief-style-quiet.svg', note: 'Tonal materials, tailored details and precise proportions without obvious luxury signals.' },
+const styleDirections = [
+  'Warm Minimal', 'Organic Modern', 'Quiet Luxury', 'Contemporary Classic',
+  'Japandi', 'Mediterranean Modern', 'Coastal Refined', 'Soft Industrial',
+  'Sculptural Modern', 'Transitional', 'Layered Eclectic', 'Modern Farmhouse Refined',
 ];
 
 function PurchaseButton({ compact = false }: { compact?: boolean }) {
@@ -224,19 +224,15 @@ export default function DesignerBriefBuilder() {
             <p className="mt-6 max-w-3xl text-base leading-relaxed text-stone-700">
               The Style Decoder Cards use 12 visual directions as lenses, not boxes. Compare their colour, material, line, texture, contrast and lighting cues, then borrow only the signals that repeat across your own references.
             </p>
-            <div className="mt-10 grid gap-4 md:grid-cols-3">
-              {stylePreviews.map((study, index) => (
-                <figure key={study.title} className="overflow-hidden border border-[#d6c9b5] bg-[#ede3d4]">
-                  <img src={study.image} alt={`Veluce ${study.title} visual direction study`} className="aspect-[16/10] w-full object-cover" loading="lazy" />
-                  <figcaption className="p-5">
-                    <p className="font-serif text-2xl text-[#9b7448]">{String(index + 1).padStart(2, '0')}</p>
-                    <p className="mt-2 font-serif text-xl">{study.title}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-stone-700">{study.note}</p>
-                  </figcaption>
-                </figure>
+            <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {styleDirections.map((study, index) => (
+                <div key={study} className="border border-[#d6c9b5] bg-[#ede3d4] p-5">
+                  <p className="font-serif text-2xl text-[#9b7448]">{String(index + 1).padStart(2, '0')}</p>
+                  <p className="mt-2 font-serif text-xl">{study}</p>
+                </div>
               ))}
             </div>
-            <p className="mt-5 text-sm text-stone-600">The customer PDF contains all 12 directions, each with a photographic study, signal list, avoid list, palette cues and a photo-first AI prompt seed.</p>
+            <p className="mt-5 text-sm text-stone-600">The customer PDF now gives every direction a photographic study, design signals, an avoid list, palette cues and a photo-first AI prompt seed.</p>
           </div>
         </section>
 

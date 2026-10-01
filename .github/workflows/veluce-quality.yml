@@ -45,6 +45,10 @@ jobs:
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,13500" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/designer-brief-builder/ visual-review/designer-brief-product-mobile.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,9000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/designer-brief-builder/ visual-review/designer-brief-thank-you-desktop.png
           pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,10000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/designer-brief-builder/ visual-review/designer-brief-thank-you-mobile.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,11500" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/luxury-lighting-formula/ visual-review/luxury-lighting-product-desktop.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,13500" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/luxury-lighting-formula/ visual-review/luxury-lighting-product-mobile.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="1440,9000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/luxury-lighting-formula/ visual-review/luxury-lighting-thank-you-desktop.png
+          pnpm dlx playwright@1.56.1 screenshot --full-page --viewport-size="390,10000" --wait-for-selector="h1" --wait-for-timeout=1000 http://127.0.0.1:8765/thank-you/luxury-lighting-formula/ visual-review/luxury-lighting-thank-you-mobile.png
       - uses: actions/upload-artifact@v4
         with:
           name: veluce-visual-review

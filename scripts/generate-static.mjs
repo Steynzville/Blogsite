@@ -157,7 +157,7 @@ async function generateSitemap(articles) {
   }
 
   // Add static pages
-  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner', '/designer-brief-builder', '/luxury-lighting-formula'];
+  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner', '/designer-brief-builder', '/luxury-lighting-formula', '/room-procurement-system'];
   for (const page of staticPages) {
     sitemap += `  <url>\n    <loc>${SITE_URL}${page}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
   }
@@ -227,6 +227,13 @@ async function generateStaticHtml(articles) {
       description: 'Make your home feel more expensive after dark with the Veluce Seven Signals: hierarchy, layers, direction, warmth, shadow, concealment and scenes.',
       image: '/images/luxury-lighting-formula-hero.svg',
       content: '<h1>Luxury Lighting Formula</h1><p>The Veluce Seven Signals system helps homeowners diagnose flat or harsh lighting, create layered scenes and test controlled lighting changes before buying.</p>'
+    },
+    {
+      path: '/room-procurement-system',
+      title: 'Room Procurement System — VELUCE',
+      description: 'Turn a room plan into a room you can actually buy with the Veluce SOURCE Method, 64-prompt AI Procurement Lab, 17-sheet workbook and offline Procurement Atelier.',
+      image: '/images/room-procurement-hero.svg',
+      content: '<h1>Room Procurement System</h1><p>The Veluce SOURCE Method helps homeowners specify before shopping, compare on evidence, verify real cost and fit, and track purchases through delivery and close-out.</p>'
     },
     { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.', content: '<h1>About VELUCE</h1><p>Premier luxury living journal.</p>' },
     { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.', content: '<h1>Contact Us</h1><p>Get in touch with the VELUCE team.</p>' },

@@ -157,7 +157,7 @@ async function generateSitemap(articles) {
   }
 
   // Add static pages
-  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner'];
+  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner', '/designer-brief-builder'];
   for (const page of staticPages) {
     sitemap += `  <url>\n    <loc>${SITE_URL}${page}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
   }
@@ -213,6 +213,13 @@ async function generateStaticHtml(articles) {
       description: 'Turn a patio, deck or pergola into an intentional outdoor room with the Veluce 5-Layer Outdoor Room Method, layout recipes, worksheets, calculator and planning tools.',
       image: '/images/outdoor-room-planner-hero.svg',
       content: '<h1>Luxury Outdoor Room Planner</h1><p>The Veluce 5-Layer Outdoor Room Method helps homeowners plan purpose, zones, flow, furniture scale and atmosphere before purchasing.</p>'
+    },
+    {
+      path: '/designer-brief-builder',
+      title: 'Designer Brief Builder — VELUCE',
+      description: 'Turn photos, measurements, saved references and constraints into a designer-, contractor- and AI-ready project brief with the Veluce CLEAR Method and AI Brief Architect Lab.',
+      image: '/images/designer-brief-hero.svg',
+      content: '<h1>Designer Brief Builder</h1><p>The Veluce CLEAR Brief-to-Design System turns real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief.</p>'
     },
     { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.', content: '<h1>About VELUCE</h1><p>Premier luxury living journal.</p>' },
     { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.', content: '<h1>Contact Us</h1><p>Get in touch with the VELUCE team.</p>' },

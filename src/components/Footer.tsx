@@ -59,6 +59,13 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="/luxury-lighting-formula" asChild>
+                  <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    Luxury Lighting Formula
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

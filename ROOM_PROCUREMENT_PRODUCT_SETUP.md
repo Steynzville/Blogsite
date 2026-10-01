@@ -99,3 +99,27 @@ Never put the paid PDFs, XLSX, Atelier, prompt library or ZIP under `public/`.
 Consumer procurement planning and record-keeping only. Not structural, electrical, plumbing, gas, waterproofing, code, fire, accessibility, specialist-installation or legal advice.
 
 **Do not merge yet.**
+
+
+## Grok-enhanced refinement
+
+The user's Grok concept build was reviewed selectively rather than imported wholesale.
+
+Verification showed:
+
+- the flagship guide, AI Lab, workbook, prompt library and offline Atelier were **byte-for-byte identical** to the existing Product #5 files
+- the Buying Reality Cards, Delivery/Receiving pack and Returns/Claims pack had different PDF file hashes, but render comparison showed **zero changed pages** and identical extracted text, so those differences were PDF encoding/compression only
+- the meaningful Grok contribution was the **photographic collector's-edition presentation** and sharper editorial framing
+
+The refined Product #5 experience now incorporates those strengths:
+
+- photographic living-room cover for the 94-page flagship guide
+- photographic opening inside the offline Procurement Atelier
+- photographic public sales hero
+- stronger editorial principles:
+  - **A blank is not neutral**
+  - **Price is a field; cost is the whole consequence**
+  - **Ordered is not finished**
+- the customer ZIP retains the complete existing method and tools
+
+The Grok public chapter-by-chapter application and its Vercel/auth/database scaffolding were intentionally **not** adopted. Publishing the method, cards, prompts and claims content as public routes would expose too much of the paid product and add unnecessary hosting/account complexity. Paystack-protected delivery and the local-first offline Atelier remain the intended architecture.

@@ -15,9 +15,9 @@ The paid product files are intentionally **not stored under `public/` or committ
 1. `Veluce_Designer_Brief_Builder_PREMIUM.pdf` — 34-page core system
 2. `Veluce_AI_Brief_Architect_Lab.pdf` — 42 controlled AI prompts + preservation lock
 3. `Veluce_Designer_Brief_Workbook.xlsx` — 10 editable planning sheets
-4. `Veluce_Style_Decoder_Cards.pdf` — 14 pages / 12 visual directions
+4. `Veluce_Style_Decoder_Cards.pdf` — 14 pages / 12 photographic visual directions with palette cues and photo-first prompt seeds
 5. `Veluce_Designer_Handoff_Pack.pdf` — 10-page printable handoff companion
-6. `Veluce_Designer_Brief_Studio.html` — offline local-first Brief Studio
+6. `Veluce_Designer_Brief_Studio.html` — enhanced offline local-first Brief Atelier with CLEAR, Space, Decoder, Priorities, Budget, Rooms, Decisions, AI Lab, full 42-prompt library, Handoff, readiness tracking and JSON backup/import
 7. `Veluce_AI_Prompt_Copy_Paste_Library.txt` — fast prompt reference
 8. `README-FIRST.txt`
 9. Optional `Veluce_Designer_Brief_Builder_CUSTOMER_PACK.zip` for convenience
@@ -26,7 +26,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 
 Core promise:
 
-> Turn inspiration into a brief they can’t misunderstand.
+> Turn scattered ideas into a brief people can use.
 
 The product uses the **CLEAR** method:
 
@@ -68,6 +68,8 @@ Only public product-preview artwork should be committed:
 - `designer-brief-cover.svg`
 - `designer-brief-workbook.svg`
 - `designer-brief-ai-flow.svg`
+
+The Product #3 hero artwork was refined from the user-supplied Grok concept direction, while the paid customer files remain private delivery assets.
 
 Do **not** commit the paid PDF, XLSX, offline Studio HTML, prompt library, README or ZIP to `public/`.
 

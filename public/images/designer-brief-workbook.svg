@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#f5efe4"/><rect x="70" y="70" width="1060" height="760" rx="8" fill="#fff" stroke="#d3c4af"/>
+<rect x="70" y="70" width="1060" height="95" fill="#17120f"/><text x="105" y="128" fill="#fff" font-family="Georgia" font-size="36">VELUCE BRIEF WORKBOOK</text>
+<rect x="105" y="210" width="215" height="555" fill="#ede3d4"/><text x="130" y="260" fill="#9b7448" font-family="Arial" font-size="15" font-weight="700">10 SHEETS</text>
+<g fill="#17120f" font-family="Arial" font-size="16"><text x="130" y="310">Space Facts</text><text x="130" y="350">Reference Decoder</text><text x="130" y="390">Priorities</text><text x="130" y="430">Scope + Budget</text><text x="130" y="470">Room Briefs</text><text x="130" y="510">Decision Log</text><text x="130" y="550">AI Iteration Lab</text><text x="130" y="590">Handoff Checklist</text><text x="130" y="630">Dashboard</text></g>
+<rect x="365" y="210" width="720" height="70" fill="#9b7448"/><g fill="#fff" font-family="Arial" font-size="15" font-weight="700"><text x="390" y="252">DECISION / NEED</text><text x="650" y="252">IMPACT</text><text x="790" y="252">STATUS</text><text x="940" y="252">RANK</text></g>
+<g stroke="#dfd3c2"><path d="M365 330H1085M365 390H1085M365 450H1085M365 510H1085M365 570H1085M365 630H1085M365 690H1085"/><path d="M620 280V760M760 280V760M910 280V760"/></g>
+<g fill="#6c6257" font-family="Arial" font-size="16"><text x="390" y="320">Better evening storage</text><text x="660" y="320">5</text><text x="805" y="320">Decided</text><text x="970" y="320">1</text><text x="390" y="380">Preserve existing floor</text><text x="660" y="380">5</text><text x="805" y="380">Open</text><text x="970" y="380">2</text></g>
+<text x="70" y="868" fill="#9b7448" font-family="Arial" font-size="16" letter-spacing="4">FROM REFERENCES TO DECISIONS</text>
+</svg>

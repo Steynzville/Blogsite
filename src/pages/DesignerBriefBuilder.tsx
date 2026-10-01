@@ -28,11 +28,17 @@ const included = [
   '42-prompt AI Brief Architect Lab',
   'Master architecture-preservation lock for photo-first AI work',
   'Editable 10-sheet Excel project workbook',
-  '14-page Style Decoder Cards with 12 visual directions',
+  '14-page photographic Style Decoder Cards with 12 visual directions',
   '10-page printable Designer Handoff Pack',
-  'Offline Brief Studio with local saving, prompt builder and printable handoff',
+  'Enhanced offline Brief Atelier: CLEAR, Space, Decoder, Priorities, Budget, Rooms, Decisions, AI Lab, all 42 prompts and Handoff',
   'Copy-and-paste AI prompt library',
   'Quick-start guide and recommended workflow',
+];
+
+const stylePreviews = [
+  { title: 'Warm Minimal', image: '/images/designer-brief-style-warm.svg', note: 'Soft off-whites, pale timber, restrained contrast and low visual noise.' },
+  { title: 'Organic Modern', image: '/images/designer-brief-style-organic.svg', note: 'Stone, timber, linen, rounded forms and calm earthy neutrals.' },
+  { title: 'Quiet Luxury', image: '/images/designer-brief-style-quiet.svg', note: 'Tonal materials, tailored details and precise proportions without obvious luxury signals.' },
 ];
 
 function PurchaseButton({ compact = false }: { compact?: boolean }) {
@@ -63,7 +69,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
 export default function DesignerBriefBuilder() {
   useMetaTags({
     title: 'Designer Brief Builder | VELUCE',
-    description: 'Turn photos, measurements, Pinterest references and constraints into a designer-, contractor- and AI-ready project brief with the Veluce CLEAR Method, 42-prompt AI lab, editable workbook and offline Brief Studio.',
+    description: 'Turn scattered ideas into a designer-, contractor- and AI-ready brief with the Veluce CLEAR Method, photographic Style Decoder, 42-prompt AI lab, editable workbook and offline Brief Atelier.',
     url: 'https://velucedesign.com/designer-brief-builder/',
     type: 'website',
   });
@@ -95,10 +101,10 @@ export default function DesignerBriefBuilder() {
           <div className="relative mx-auto flex min-h-[82svh] max-w-7xl flex-col justify-end px-5 pb-12 pt-24 sm:px-8 sm:pb-16 lg:px-10">
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#c9a87a]">Veluce Studio · Digital Briefing System</p>
             <h1 className="mt-5 max-w-4xl font-serif text-5xl font-light leading-[1.02] text-white sm:text-6xl lg:text-7xl">
-              Turn inspiration into a brief they can’t misunderstand.
+              Turn scattered ideas into a brief people can use.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-stone-200 sm:text-lg">
-              Build a clear, measured project brief from your real space, saved references, priorities, budget and constraints — then use it with a designer, contractor or AI tool without starting from zero every time.
+              Build a clear, measured project brief from your real space, saved references, priorities, budget and constraints. Specific enough to prevent generic design. Open enough to allow good design.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <PurchaseButton />
@@ -218,14 +224,19 @@ export default function DesignerBriefBuilder() {
             <p className="mt-6 max-w-3xl text-base leading-relaxed text-stone-700">
               The Style Decoder Cards use 12 visual directions as lenses, not boxes. Compare their colour, material, line, texture, contrast and lighting cues, then borrow only the signals that repeat across your own references.
             </p>
-            <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {['Warm minimal', 'Quiet luxury', 'Natural modern', 'Contemporary classic', 'Soft industrial', 'Coastal restrained', 'Organic modern', 'Moody refined'].map((study, index) => (
-                <div key={study} className="border border-[#d6c9b5] bg-[#ede3d4] p-5">
-                  <p className="font-serif text-2xl text-[#9b7448]">{String(index + 1).padStart(2, '0')}</p>
-                  <p className="mt-2 font-serif text-xl">{study}</p>
-                </div>
+            <div className="mt-10 grid gap-4 md:grid-cols-3">
+              {stylePreviews.map((study, index) => (
+                <figure key={study.title} className="overflow-hidden border border-[#d6c9b5] bg-[#ede3d4]">
+                  <img src={study.image} alt={`Veluce ${study.title} visual direction study`} className="aspect-[16/10] w-full object-cover" loading="lazy" />
+                  <figcaption className="p-5">
+                    <p className="font-serif text-2xl text-[#9b7448]">{String(index + 1).padStart(2, '0')}</p>
+                    <p className="mt-2 font-serif text-xl">{study.title}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-stone-700">{study.note}</p>
+                  </figcaption>
+                </figure>
               ))}
             </div>
+            <p className="mt-5 text-sm text-stone-600">The customer PDF contains all 12 directions, each with a photographic study, signal list, avoid list, palette cues and a photo-first AI prompt seed.</p>
           </div>
         </section>
 
@@ -250,7 +261,7 @@ export default function DesignerBriefBuilder() {
                 <ClipboardList size={24} className="text-[#c9a87a]" />
                 <h3 className="mt-5 font-serif text-3xl text-white">Offline Brief Studio</h3>
                 <p className="mt-3 text-sm leading-relaxed text-stone-400">
-                  Fill a structured brief locally in your browser, decode references, build controlled prompts, keep a handoff checklist and print or save the final brief without another subscription.
+                  The upgraded local-first Atelier combines CLEAR, measured-space capture, style decoding, priorities, budget, room briefs, decisions, AI iterations, the complete 42-prompt library and handoff in one browser workspace. It also adds readiness tracking plus JSON backup/import.
                 </p>
                 <div className="mt-8 grid grid-cols-2 gap-4 border-t border-white/10 pt-6 text-sm text-stone-300">
                   <div><Brain size={19} className="mb-2 text-[#c9a87a]" />42 AI prompts</div>

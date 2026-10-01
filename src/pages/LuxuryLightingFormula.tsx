@@ -12,9 +12,9 @@ const signals = [
   { key: '02', icon: Layers3, title: 'Layers', body: 'Balance ambient, task, accent and decorative light so one fixture type never has to do every job.' },
   { key: '03', icon: LampDesk, title: 'Direction', body: 'Use wash, graze, bounce, downlight, uplight and concealed glow deliberately according to the surface and viewpoint.' },
   { key: '04', icon: SunMedium, title: 'Warmth', body: 'Treat colour temperature and colour quality as part of the material palette, not an afterthought.' },
-  { key: '05', icon: Moon, title: 'Shadow', body: 'Protect useful darkness. Contrast and negative space give focal light its meaning.' },
-  { key: '06', icon: Sparkles, title: 'Concealment', body: 'Control glare and source visibility so illuminated surfaces do more visual work than visible hardware.' },
-  { key: '07', icon: SlidersHorizontal, title: 'Scenes', body: 'Turn one room into several moods with dimming and grouped controls for Arrival, Task, Dinner, Relax and Night.' },
+  { key: '05', icon: Moon, title: 'Shadow', body: 'Luxury requires darkness. Protect contrast and negative space so focal light has something to work against.' },
+  { key: '06', icon: Sparkles, title: 'Concealment', body: 'Control glare and source visibility so you notice the room before you notice the bulbs.' },
+  { key: '07', icon: SlidersHorizontal, title: 'Scenes', body: 'Give the room more than one emotional setting with dimming and grouped controls for Arrival, Task, Dinner, Relax and Night.' },
 ];
 
 const included = [
@@ -107,6 +107,18 @@ export default function LuxuryLightingFormula() {
           <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 lg:px-10">
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#d1a86c]">The Veluce Rule</p>
             <p className="mt-3 max-w-4xl font-serif text-3xl leading-snug text-white sm:text-4xl">Luxury light is not more light. It is more intention.</p>
+            <div className="mt-8 grid gap-3 md:grid-cols-3">
+              {[
+                ['Luxury requires darkness.', 'Preserve contrast and negative space instead of filling every corner with light.'],
+                ['Look at the room, not the bulbs.', 'Let illuminated surfaces and materials do more visual work than visible hardware.'],
+                ['Build more than one emotional setting.', 'If every evening ends in the same all-on scene, the lighting is unfinished.'],
+              ].map(([title, body]) => (
+                <div key={title} className="border border-white/10 bg-[#0c0a08] p-5">
+                  <h3 className="font-serif text-xl text-white">{title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-stone-400">{body}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 

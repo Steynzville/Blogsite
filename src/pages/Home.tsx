@@ -13,7 +13,8 @@ import AboutSection from '@/components/AboutSection';
 import OutdoorLightingProductCard from '@/components/OutdoorLightingProductCard';
 import OutdoorRoomProductCard from '@/components/OutdoorRoomProductCard';
 import DesignerBriefProductCard from '@/components/DesignerBriefProductCard';
-import LuxuryLightingProductCard from '@/components/LuxuryLightingProductCard';\nimport RoomProcurementProductCard from '@/components/RoomProcurementProductCard';
+import LuxuryLightingProductCard from '@/components/LuxuryLightingProductCard';
+import RoomProcurementProductCard from '@/components/RoomProcurementProductCard';
 
 const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
 const NewsletterSection = lazy(() => Promise.resolve({ default: InternalNewsletterSection }));
@@ -201,7 +202,9 @@ export default function Home() {
 
       <DesignerBriefProductCard />
 
-      <LuxuryLightingProductCard />\n\n      <RoomProcurementProductCard />
+      <LuxuryLightingProductCard />
+
+      <RoomProcurementProductCard />
 
       {/* Featured Articles Grid */}
       <section id="featured-articles" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 dark:bg-gray-900">

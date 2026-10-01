@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; nine organic Pins published through 2026-10-01 with live destination verification.",
+    "pinterest": "Authenticated shared browser; ten organic Pins published through 2026-10-01 with live destination verification.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -206,6 +206,16 @@
       "title": "Natural Stone Countertops That Age Beautifully",
       "description": "Choosing a natural stone countertop? Explore the character and care of marble, granite, quartzite and soapstone, plus simple ways to protect your kitchen surfaces as they age. A considered guide to a timeless kitchen.",
       "board": "Kitchen Essentials & Must-Haves 🔥 — Premium Kitchen Upgrades"
+    },
+    {
+      "pin_id": "296815431716205618",
+      "pin_url": "https://za.pinterest.com/pin/296815431716205618/",
+      "published_at": "2026-10-01",
+      "destination": "https://velucedesign.com/article/smart-blinds-follow-sun/",
+      "creative_angle": "Light linen roller shades at varied heights tempering late-afternoon sun in a warm minimalist living room; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Smart Blinds That Follow the Sun",
+      "description": "Bring more comfort and control to a sunlit room with smart blinds. Explore automated shading ideas for softer daylight, privacy and a calmer interior, plus what to consider before choosing motorised window treatments.",
+      "board": "Smart Home Ideas & Gadgets 🔥"
     }
   ],
   "pages_created": [],

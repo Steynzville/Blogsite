@@ -19,7 +19,7 @@ export default function DesignerBriefProductCard() {
           <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl">Designer Brief Builder</h2>
           <p className="mt-3 font-serif text-xl italic text-stone-400">The CLEAR Brief-to-Design System</p>
           <p className="mt-5 text-sm leading-relaxed text-stone-300">
-            Turn photos, measurements, saved inspiration, priorities and constraints into a brief a designer, contractor or AI tool can actually use — with a 42-prompt AI Brief Architect Lab and offline Brief Studio.
+            Turn scattered ideas into a brief a designer, contractor or AI tool can actually use — with the CLEAR method, a photographic Style Decoder, 42 AI prompts and the enhanced offline Brief Atelier.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-4">
             <Link href="/designer-brief-builder" asChild>

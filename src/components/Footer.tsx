@@ -66,6 +66,13 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="/room-procurement-system" asChild>
+                  <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    Room Procurement System
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

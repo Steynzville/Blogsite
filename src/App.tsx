@@ -19,7 +19,7 @@ const Affiliate = lazy(() => import("./pages/Affiliate"));
 const OutdoorLightingBlueprint = lazy(() => import("./pages/OutdoorLightingBlueprint"));
 const OutdoorLightingThankYou = lazy(() => import("./pages/OutdoorLightingThankYou"));
 const LuxuryOutdoorRoomPlanner = lazy(() => import("./pages/LuxuryOutdoorRoomPlanner"));
-const OutdoorRoomThankYou = lazy(() => import("./pages/OutdoorRoomThankYou"));
+const OutdoorRoomThankYou = lazy(() => import("./pages/OutdoorRoomThankYou"));\nconst DesignerBriefBuilder = lazy(() => import("./pages/DesignerBriefBuilder"));\nconst DesignerBriefThankYou = lazy(() => import("./pages/DesignerBriefThankYou"));
 
 import { restoreRedirect } from './lib/redirect.mjs';
 restoreRedirect(window);
@@ -41,7 +41,7 @@ function Router() {
           <Route path="/outdoor-lighting-blueprint" component={OutdoorLightingBlueprint} />
           <Route path="/thank-you/outdoor-lighting-blueprint" component={OutdoorLightingThankYou} />
           <Route path="/luxury-outdoor-room-planner" component={LuxuryOutdoorRoomPlanner} />
-          <Route path="/thank-you/luxury-outdoor-room-planner" component={OutdoorRoomThankYou} />
+          <Route path="/thank-you/luxury-outdoor-room-planner" component={OutdoorRoomThankYou} />\n          <Route path="/designer-brief-builder" component={DesignerBriefBuilder} />\n          <Route path="/thank-you/designer-brief-builder" component={DesignerBriefThankYou} />
           <Route path="/404" component={NotFound} />
           <Route component={NotFound} />
         </Switch>

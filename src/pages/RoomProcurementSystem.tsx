@@ -48,7 +48,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
 export default function RoomProcurementSystem() {
   useMetaTags({
     title: 'Room Procurement System | VELUCE',
-    description: 'Turn a room plan into a room you can actually buy with the Veluce SOURCE Method, 64-prompt AI Procurement Lab, 17-sheet workbook, buying cards and offline Procurement Atelier.',
+    description: 'A private-library buying system for homeowners: turn a room plan into verified products, orders and accepted deliveries with the Veluce SOURCE Method, 64-prompt AI Lab, 17-sheet workbook and offline Procurement Atelier.',
     url: 'https://velucedesign.com/room-procurement-system/',
     type: 'website',
   });
@@ -67,12 +67,12 @@ export default function RoomProcurementSystem() {
 
       <main>
         <section className="relative min-h-[84svh] overflow-hidden">
-          <img src="/images/room-procurement-hero.svg" alt="Veluce procurement desk with product options, room brief and verification checklist" className="absolute inset-0 h-full w-full object-cover"/>
+          <img src="/images/room-procurement-hero.svg" alt="Refined living room representing the end result of evidence-led room procurement" className="absolute inset-0 h-full w-full object-cover"/>
           <div className="absolute inset-0 bg-gradient-to-r from-[#0c0a08]/94 via-[#0c0a08]/70 to-[#0c0a08]/25"/>
           <div className="relative mx-auto flex min-h-[84svh] max-w-7xl flex-col justify-end px-5 pb-12 pt-24 sm:px-8 sm:pb-16 lg:px-10">
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#d1a86c]">Veluce Studio · Procurement Flagship</p>
             <h1 className="mt-5 max-w-5xl font-serif text-5xl font-light leading-[1.01] text-white sm:text-6xl lg:text-7xl">Turn a beautiful room plan into a room you can actually buy.</h1>
-            <p className="mt-6 max-w-2xl text-base leading-relaxed text-stone-200 sm:text-lg">Specify before you shop. Compare on evidence. Verify fit, finish, total cost and delivery reality. Then track every item until it is accepted in the room.</p>
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-stone-200 sm:text-lg">A private-library buying system for people who want to procure like designers: specify before you shop, compare on evidence, verify fit, finish, total cost and delivery reality, then keep the trail until the room accepts the item.</p>
             <div className="mt-8 flex flex-wrap items-center gap-4"><PurchaseButton/><a href="#source" className="text-xs uppercase tracking-[0.16em] text-white underline decoration-[#d1a86c] underline-offset-8">See the SOURCE Method</a></div>
             <p className="mt-4 text-xs text-stone-400">One-time purchase · Digital delivery · Personal-use license</p>
           </div>
@@ -82,6 +82,18 @@ export default function RoomProcurementSystem() {
           <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 lg:px-10">
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#d1a86c]">The Veluce Rule</p>
             <p className="mt-3 max-w-4xl font-serif text-3xl leading-snug text-white sm:text-4xl">Evidence beats memory. Specify before search. Verify before buy.</p>
+            <div className="mt-8 grid gap-3 md:grid-cols-3">
+              {[
+                ['A blank is not neutral.', 'Missing dimensions, terms or product facts should reduce confidence until evidence resolves them.'],
+                ['Price is a field.', 'Cost is the whole consequence: freight, timing, returns, installation, compatibility and risk.'],
+                ['Ordered is not finished.', 'The procurement trail closes only when the item is received, accepted and resolved in the room.'],
+              ].map(([title, body]) => (
+                <div key={title} className="border border-white/10 bg-[#0c0a08] p-5">
+                  <h3 className="font-serif text-xl text-white">{title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-stone-400">{body}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 

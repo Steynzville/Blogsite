@@ -109,3 +109,22 @@ The editorial system is original Veluce material. General lighting principles we
 This is educational lighting-design and planning material. It does not replace electrical, engineering, code, emergency-lighting, fire, wet-area, accessibility, conservation or specialist control advice. Customers should use qualified professionals and applicable local requirements for installation and specialist decisions.
 
 **Do not merge yet.**
+
+
+## Grok-enhanced refinement
+
+The user's Grok concept build was reviewed selectively rather than imported wholesale.
+
+Verification showed that the paid PDFs, workbook, offline Atelier and prompt library in the Grok workspace were **byte-for-byte identical** to the existing Product #4 customer files. The useful additions were therefore visual/editorial rather than new methodology.
+
+The refined customer pack now uses the strongest Grok visual direction where it materially improves the product:
+
+- the flagship premium guide has a photographic night-study cover instead of the earlier abstract cover treatment
+- the offline Lighting Atelier opens with the same photographic night-study atmosphere
+- the Atelier foregrounds three concise design truths:
+  - **Luxury requires darkness**
+  - **Look at the room, not the bulbs**
+  - **Build more than one emotional setting**
+- the public sales copy now reinforces those same principles
+
+The Grok Vercel/auth/database scaffolding was intentionally **not** adopted. Product #4 remains a protected downloadable product with a local-first offline Atelier and Paystack delivery.

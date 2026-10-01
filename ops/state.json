@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; five organic Pins published through 2026-09-30 with live destination verification.",
+    "pinterest": "Authenticated shared browser; eight organic Pins published through 2026-10-01 with live destination verification.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -166,6 +166,36 @@
       "title": "Copper Outdoor Lanterns That Get Better With Age",
       "description": "Discover why solid copper outdoor lanterns are a timeless choice for elegant entrances. Learn how natural patina develops, what quality details matter and how copper lighting can last for generations with minimal care.",
       "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration"
+    },
+    {
+      "pin_id": "296815431716203846",
+      "pin_url": "https://za.pinterest.com/pin/296815431716203846/",
+      "published_at": "2026-10-01",
+      "destination": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "creative_angle": "Tall textured-stone facade at blue hour with black architectural up/down sconces producing warm amber grazing light, vertical shadow and landscaped entrance drama; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Architectural Wall Lighting Ideas for a Luxury Exterior",
+      "description": "Make textured stone and brick come alive after dark with architectural grazing. Learn how warm upward lighting, narrow beams and careful fixture spacing create dramatic shadow, depth and elegant curb appeal.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere"
+    },
+    {
+      "pin_id": "296815431716203848",
+      "pin_url": "https://za.pinterest.com/pin/296815431716203848/",
+      "published_at": "2026-10-01",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "creative_angle": "Timber pergola at blue hour with concealed warm LED strips layered with softly draped globe string lights over an inviting dining and lounge setting; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Pergola Lighting Ideas for a Cozy Outdoor Room",
+      "description": "Turn a pergola into an inviting outdoor room with layered lighting. Explore concealed warm LED strips, softly draped string lights and practical task lighting for dining, relaxing and entertaining after sunset.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
+    },
+    {
+      "pin_id": "296815431716203858",
+      "pin_url": "https://za.pinterest.com/pin/296815431716203858/",
+      "published_at": "2026-10-01",
+      "destination": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+      "creative_angle": "Large warm-gray geometric outdoor rug correctly anchoring cream modular seating and a timber coffee table on a covered garden patio in golden-hour light; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Outdoor Rug Ideas That Make a Patio Feel Finished",
+      "description": "See how the right weather-resistant outdoor rug can define a patio, anchor seating and create a polished outdoor room. Learn the best materials, sizing rules, patterns and care tips for lasting style.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Garden & Patio Decor"
     }
   ],
   "pages_created": [],

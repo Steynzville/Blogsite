@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Boxes, Calculator, ClipboardCheck, PackageCheck, Search, ShieldCheck, Sparkles, Truck, Brain, Ruler, ReceiptText } from 'lucide-react';
+import { ArrowRight, Check, Calculator, PackageCheck, Sparkles, Truck, Brain, Ruler, ReceiptText } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
@@ -133,10 +133,14 @@ export default function RoomProcurementSystem() {
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#9b7448]">Compare the consequence, not only the object</p>
             <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight sm:text-5xl">The cheapest item can still be the expensive decision.</h2>
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {[['Fit',Ruler,'Room + access dimensions'],['Total cost',Calculator,'Freight, extras and install'],['Timing',Truck,'Lead time + dependencies'],['Evidence',ReceiptText,'Exact variant + supplier terms']].map(([title,Icon,body]) => {
-                const I = Icon as typeof Ruler;
-                return <article key={String(title)} className="border border-[#d6c9b5] bg-[#ede3d4] p-5"><I size={20} className="text-[#9b7448]"/><h3 className="mt-4 font-serif text-2xl">{String(title)}</h3><p className="mt-2 text-sm text-stone-700">{String(body)}</p></article>;
-              })}
+              {[
+                { title: 'Fit', icon: Ruler, body: 'Room + access dimensions' },
+                { title: 'Total cost', icon: Calculator, body: 'Freight, extras and install' },
+                { title: 'Timing', icon: Truck, body: 'Lead time + dependencies' },
+                { title: 'Evidence', icon: ReceiptText, body: 'Exact variant + supplier terms' },
+              ].map(({title,icon:Icon,body}) => (
+                <article key={title} className="border border-[#d6c9b5] bg-[#ede3d4] p-5"><Icon size={20} className="text-[#9b7448]"/><h3 className="mt-4 font-serif text-2xl">{title}</h3><p className="mt-2 text-sm text-stone-700">{body}</p></article>
+              ))}
             </div>
           </div>
         </section>

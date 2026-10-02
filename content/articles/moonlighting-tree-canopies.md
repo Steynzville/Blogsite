@@ -198,10 +198,6 @@ A garden lit from below is visible. A garden lit from above becomes memorable.
 
 A canopy-mounted light can create a beautiful moment, but the garden feels intentional only when that effect relates to paths, planting, focal points and darker zones. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you plan those relationships before adding more fixtures.
 
-## Turn the Moonlighting Effect into a Complete Scheme
-
-A canopy-mounted light can create a beautiful moment, but the garden feels intentional only when that effect relates to paths, planting, focal points and darker zones. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you plan those relationships before adding more fixtures.
-
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

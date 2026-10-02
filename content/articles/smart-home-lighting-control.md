@@ -216,10 +216,6 @@ The best system is not the one with the most features. It is the one that disapp
 
 Scenes and automation are powerful only when the underlying lighting hierarchy is right. The [Veluce Luxury Lighting Formula](/luxury-lighting-formula) helps you decide what should be bright, what should stay quiet, how the room should transition between tasks and evening, and which scenes are actually worth programming.
 
-## Make the Control System Serve the Lighting Design
-
-Scenes and automation are powerful only when the underlying lighting hierarchy is right. The [Veluce Luxury Lighting Formula](/luxury-lighting-formula) helps you decide what should be bright, what should stay quiet, how the room should transition between tasks and evening, and which scenes are actually worth programming.
-
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

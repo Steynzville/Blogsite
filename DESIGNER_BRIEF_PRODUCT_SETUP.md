@@ -5,7 +5,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Product
 
 - Name: **Veluce Designer Brief Builder — The CLEAR Brief-to-Design System**
-- Launch price: **R299**
+- Launch price: **R349**
 - License: personal, non-transferable use
 - Sales page: `/designer-brief-builder`
 - Getting-started page: `/thank-you/designer-brief-builder`
@@ -46,7 +46,7 @@ Do not guess or hard-code a Product Link while the account is awaiting complianc
 
 Once Paystack digital-product delivery is available:
 
-1. Create Product #3 at **R299**.
+1. Create Product #3 at **R349**.
 2. Upload and verify the customer files above.
 3. Keep **Redirect after payment** blank so Paystack retains its protected digital-download flow.
 4. In the Paystack **Success message**, include:
@@ -69,7 +69,6 @@ Only public product-preview artwork should be committed:
 - `designer-brief-workbook.svg`
 - `designer-brief-ai-flow.svg`
 
-The Product #3 sales copy and customer experience were refined from the user-supplied Grok concept direction, while the existing lightweight public preview-art approach and private paid-file delivery model are retained.
 
 Do **not** commit the paid PDF, XLSX, offline Studio HTML, prompt library, README or ZIP to `public/`.
 

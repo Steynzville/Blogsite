@@ -233,10 +233,6 @@ A manual blind asks you to remember. A smart blind already knows.
 
 Motor, power, controls, window dimensions, integration and installation all matter more than the marketing headline. The [Veluce Room Procurement System](/room-procurement-system) helps you compare options against real measurements and compatibility requirements, capture seller evidence and avoid ordering a system that does not fit the room or the wider smart-home setup.
 
-## Compare Smart-Blind Systems Before You Buy
-
-Motor, power, controls, window dimensions, integration and installation all matter more than the marketing headline. The [Veluce Room Procurement System](/room-procurement-system) helps you compare options against real measurements and compatibility requirements, capture seller evidence and avoid ordering a system that does not fit the room or the wider smart-home setup.
-
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

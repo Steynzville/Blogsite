@@ -5,7 +5,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Product
 
 - Name: **The Veluce Room Procurement System — The SOURCE Method**
-- Launch price: **R349**
+- Launch price: **R449**
 - License: personal, non-transferable use
 - Sales page: `/room-procurement-system`
 - Getting-started page: `/thank-you/room-procurement-system`
@@ -73,7 +73,7 @@ While Paystack compliance authentication is pending, do not invent or hard-code 
 
 After Paystack is ready:
 
-1. Create Product #5 at **R349**.
+1. Create Product #5 at **R449**.
 2. Upload and verify all customer files.
 3. Keep **Redirect after payment** blank so Paystack retains protected digital delivery.
 4. Include:

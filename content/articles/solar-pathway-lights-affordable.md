@@ -241,6 +241,10 @@ A path lit cheaply is visible. A path lit thoughtfully becomes memorable.
 
 Choosing better solar fixtures improves the hardware, but the larger design question is where the path should be lit, where it should remain dark, and how it relates to planting and focal points. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you plan that whole nightscape before buying more lights.
 
+## Plan the Path as Part of the Whole Garden
+
+Choosing better solar fixtures improves the hardware, but the larger design question is where the path should be lit, where it should remain dark, and how it relates to planting and focal points. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you plan that whole nightscape before buying more lights.
+
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

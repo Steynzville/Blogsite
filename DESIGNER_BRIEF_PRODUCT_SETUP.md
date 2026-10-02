@@ -69,7 +69,6 @@ Only public product-preview artwork should be committed:
 - `designer-brief-workbook.svg`
 - `designer-brief-ai-flow.svg`
 
-The Product #3 sales copy and customer experience were refined from the user-supplied Grok concept direction, while the existing lightweight public preview-art approach and private paid-file delivery model are retained.
 
 Do **not** commit the paid PDF, XLSX, offline Studio HTML, prompt library, README or ZIP to `public/`.
 

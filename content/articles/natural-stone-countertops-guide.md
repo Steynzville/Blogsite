@@ -314,6 +314,37 @@ That is the kitchen that lasts.
 
 ---
 
+## Explore More from VELUCE
+
+- [Quartzite vs. Porcelain Countertops →](/article/quartzite-vs-porcelain-countertops)
+- [Luxury Kitchen Appliances →](/article/kitchen-appliances-luxury)
+- [Kitchen Design and Layout →](/article/kitchen-design-layout)
+
+---
+
+## Frequently Asked Questions
+
+### Which natural stone countertop is most durable?
+Granite and quartzite are the most durable natural stone options. Both resist heat, scratching, and staining when properly sealed. Quartzite is harder than granite but more expensive. For kitchens with heavy daily cooking, these are the most practical choices.
+
+### Do marble countertops stain easily?
+Marble is more porous and softer than granite, making it susceptible to etching from acidic substances like lemon juice or wine. Many homeowners accept this as part of marble's natural patina. Regular sealing slows staining but does not prevent it entirely.
+
+### How often should natural stone countertops be sealed?
+Most natural stone countertops benefit from periodic sealing, though frequency depends on the material and the specific slab. Granite often goes 12-18 months between applications. Quartzite typically requires annual sealing. Marble and limestone benefit from more frequent attention, often every 6-12 months. The water-drop test is more reliable than a calendar.
+
+### Can you cut directly on natural stone countertops?
+Cutting directly on stone dulls knives quickly and can scratch the surface. Always use a cutting board. Stone is harder than steel, so knives lose their edge immediately against granite or quartzite.
+
+### What is the difference between quartz and quartzite?
+Quartz is engineered stone made from ground quartz mixed with resin. Quartzite is 100% natural metamorphic stone. Quartzite handles heat better but requires sealing. Quartz is non-porous and maintenance-free but can be damaged by high heat.
+
+### Is soapstone a good choice for kitchens?
+Soapstone is non-porous, heat-resistant, and does not require sealing. It scratches relatively easily but scratches can be sanded out. Over time, soapstone darkens and develops a rich patina that many find beautiful. It works well for serious cooks.
+
+### What cleaner is safe for natural stone?
+Only pH-neutral cleaners should be used on natural stone. Acidic cleaners like vinegar or lemon juice etch the surface. Alkaline cleaners can dull the finish. Dedicated stone cleaners or mild dish soap with water are safe options.
+
 ## Compare the Stone Before You Commit to a Slab
 
 Once appearance is narrowed down, the practical questions become decisive: dimensions, finish, sealing, maintenance, fabrication, delivery, seller claims and installation constraints. The [Veluce Room Procurement System](/room-procurement-system) helps you compare those details in one place before a high-cost material decision becomes irreversible.

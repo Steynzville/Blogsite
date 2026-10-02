@@ -229,8 +229,12 @@ Start with warm ambient light (2700K or lower) on dimmers. Add bedside task ligh
 
 A bedroom with one light supports a routine. A bedroom with layered light supports a life.
 
+## Take the Bedroom from Advice to a Lighting Plan
+
+Layering ambient, task and accent light is the principle; turning it into scenes that actually work at night is the next step. The [Veluce Luxury Lighting Formula](/luxury-lighting-formula) gives you a complete system for hierarchy, warmth, glare, concealment and scenes, with night-audit tools, practical recipes and AI-assisted testing before you buy more fixtures.
+
 ## Explore More
 
-**Browse lighting and design ideas →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save interior design inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

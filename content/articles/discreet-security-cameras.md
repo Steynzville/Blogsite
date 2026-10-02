@@ -242,32 +242,12 @@ Security, done well, is invisible. You only notice it when you need it — and b
 
 ---
 
-## Explore More from VELUCE
+## Compare Security Hardware Before You Commit
 
-- [Whole-Home Lighting Control →](/article/smart-home-lighting-control)
-- [Invisible HVAC Design →](/article/invisible-hvac-design)
+Discreet cameras depend on more than image quality — placement, power, network compatibility, storage, viewing angle, privacy and installation all matter. The [Veluce Room Procurement System](/room-procurement-system) gives you a practical framework for comparing options and verifying the details before purchase.
 
----
+## Explore More
 
-## Frequently Asked Questions
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-### Are discreet security cameras legal?
-Yes, on your own property. However, audio recording has different legal standards across jurisdictions, and you must respect neighbors' privacy. Avoid recording areas where people have a reasonable expectation of privacy, even on property you own. Consult local laws before installation.
-
-### Do hidden cameras work as well as visible ones?
-Modern discreet cameras offer the same image quality, resolution, and features as their visible counterparts. The trade-off is psychological: visible cameras deter, hidden cameras document. Many luxury homes use a hybrid approach.
-
-### Where should security cameras be placed?
-Entry points (all doors and ground-floor windows), driveways, and perimeter approaches. Light fixtures, architectural recesses, and landscape features provide natural concealment while maintaining clear sight lines.
-
-### What's the difference between visible and discreet cameras?
-Visible cameras announce surveillance and may deter casual intrusion. Discreet cameras prioritize aesthetics and document activity without announcing their presence. The choice depends on whether you prioritize deterrence or visual harmony.
-
-### Can discreet cameras work at night?
-Yes. Most use infrared illumination invisible to the human eye. Some models integrate with existing landscape lighting, using the same fixtures to illuminate and observe simultaneously.
-
-### Do I need professional installation?
-For integration into existing architecture — light fixtures, custom millwork, or landscape features — professional installation is strongly recommended. For standalone discreet cameras (birdhouse, rock, or planter styles), DIY is feasible.
-
-### How do I maintain sight lines without visible cameras?
-Walk your property at different times of day. Note where someone would naturally approach. Then identify architectural or landscape features that already face those directions. A camera concealed within a downspout or lighting fixture sees everything without announcing itself.
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

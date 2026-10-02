@@ -128,3 +128,32 @@ The refined customer pack now uses the strongest Grok visual direction where it 
 - the public sales copy now reinforces those same principles
 
 The Grok Vercel/auth/database scaffolding was intentionally **not** adopted. Product #4 remains a protected downloadable product with a local-first offline Atelier and Paystack delivery.
+
+
+## Final PDF visual rebuild
+
+After direct review of the paid Product #4 PDFs, the repeated generic placeholder-style lighting illustration was removed from the interior pages.
+
+The final customer files preserve the **full original text and page counts**:
+
+- Luxury Lighting Formula — **77 pages**
+- AI Luxury Lighting Lab — **59 pages**
+- Lighting Diagnostic Gallery — **20 pages**
+- Luxury Lighting Recipe Cards — **22 pages**
+- Night Audit Field Cards — **12 pages**
+
+The revised visual system is lighting-specific and functional:
+
+- Seven Signals visual framework
+- hierarchy, layers, direction, warmth, shadow, concealment and scene diagrams
+- 1–5 diagnostic scales for the Seven Signals
+- before/after schematics for common lighting mistakes
+- room- and exterior-specific layer maps
+- material-under-light studies
+- fixture beam/effect diagrams
+- photo-first AI workflow diagrams
+- controlled-test visuals in the Night Audit Field Cards
+
+The repeated dark placeholder panel is no longer used as decorative filler.
+
+The paid files remain outside the public repository. Only public sales/preview assets belong in GitHub.

@@ -243,6 +243,10 @@ A patio without a rug is just a paved surface. A patio with a rug is a room.
 
 The rug is one layer in a larger composition of furniture scale, circulation, focal points and atmosphere. The [Veluce Luxury Outdoor Room Planner](/luxury-outdoor-room-planner) helps you map those decisions together so the patio reads as one room rather than a collection of separate purchases.
 
+## Use the Rug to Resolve the Whole Seating Zone
+
+The rug is one layer in a larger composition of furniture scale, circulation, focal points and atmosphere. The [Veluce Luxury Outdoor Room Planner](/luxury-outdoor-room-planner) helps you map those decisions together so the patio reads as one room rather than a collection of separate purchases.
+
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

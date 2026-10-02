@@ -223,6 +223,6 @@ The best climate control is the one you never see — delivering perfect tempera
 
 ## Explore More
 
-**Browse smart home solutions →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save home automation ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

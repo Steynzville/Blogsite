@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; eleven organic Pins published through 2026-10-01 with live destination verification.",
+    "pinterest": "Authenticated shared browser; fourteen organic Pins published through 2026-10-02 with live destination verification.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -226,6 +226,36 @@
       "title": "Discreet Security Camera Ideas for a Beautiful Home",
       "description": "Protect a modern home without letting cameras dominate the design. Explore discreet outdoor camera placement at eaves and entries, practical sight lines and lighting ideas that respect privacy while keeping the architecture calm.",
       "board": "Home Security Ideas & Setups"
+    },
+    {
+      "pin_id": "296815431716209490",
+      "pin_url": "https://za.pinterest.com/pin/296815431716209490/",
+      "published_at": "2026-10-02",
+      "destination": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "creative_angle": "Serene warm-neutral bedroom at blue hour combining concealed ceiling glow, bedside task light, a picture light and low amber night lighting; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Layered Bedroom Lighting Ideas for a Calm Retreat",
+      "description": "Create a bedroom that feels restful and works beautifully from morning to night. Learn how to layer ambient, task, accent and low-level night lighting, choose warm colour temperature and place fixtures for comfort without glare.",
+      "board": "Cozy Bedroom Ideas & Finds 🔥"
+    },
+    {
+      "pin_id": "296815431716209494",
+      "pin_url": "https://za.pinterest.com/pin/296815431716209494/",
+      "published_at": "2026-10-02",
+      "destination": "https://velucedesign.com/article/kitchen-design-layout/",
+      "creative_angle": "Elevated three-quarter view of a warm oak-and-cream kitchen with a practical island, clear circulation paths, an organised open utensil drawer and slim pull-out pantry; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Kitchen Layout Ideas for a More Functional Space",
+      "description": "Plan a kitchen that works as beautifully as it looks. Explore smart work zones, island sizing, circulation, storage and lighting ideas, plus practical drawer and cabinet organisation for an efficient everyday kitchen.",
+      "board": "Kitchen Organization Ideas"
+    },
+    {
+      "pin_id": "296815431716209501",
+      "pin_url": "https://za.pinterest.com/pin/296815431716209501/",
+      "published_at": "2026-10-02",
+      "destination": "https://velucedesign.com/article/smart-access-control/",
+      "creative_angle": "Slim matte-black fingerprint keypad smart lock and discreet video doorbell integrated into a warm timber front door and pale stone entrance at blue hour; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Smart Door Lock Ideas for Frictionless Entry",
+      "description": "Explore smart access control for a safer, more elegant entrance. Compare fingerprint, keypad and app-enabled locks, remote guest access, video doorbells and the practical details to check before upgrading your front door.",
+      "board": "Smart Home Security Systems"
     }
   ],
   "pages_created": [],

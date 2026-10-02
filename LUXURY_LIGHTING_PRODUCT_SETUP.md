@@ -111,13 +111,9 @@ This is educational lighting-design and planning material. It does not replace e
 **Do not merge yet.**
 
 
-## Grok-enhanced refinement
+## Final customer presentation
 
-The user's Grok concept build was reviewed selectively rather than imported wholesale.
-
-Verification showed that the paid PDFs, workbook, offline Atelier and prompt library in the Grok workspace were **byte-for-byte identical** to the existing Product #4 customer files. The useful additions were therefore visual/editorial rather than new methodology.
-
-The refined customer pack now uses the strongest Grok visual direction where it materially improves the product:
+The final customer pack uses a premium editorial visual direction with category-appropriate interior evening imagery and functional working pages:
 
 - the flagship premium guide has a photographic night-study cover instead of the earlier abstract cover treatment
 - the offline Lighting Atelier opens with the same photographic night-study atmosphere

@@ -123,3 +123,29 @@ The refined Product #5 experience now incorporates those strengths:
 - the customer ZIP retains the complete existing method and tools
 
 The Grok public chapter-by-chapter application and its Vercel/auth/database scaffolding were intentionally **not** adopted. Publishing the method, cards, prompts and claims content as public routes would expose too much of the paid product and add unnecessary hosting/account complexity. Paystack-protected delivery and the local-first offline Atelier remain the intended architecture.
+
+
+## Final PDF visual rebuild
+
+After reviewing the customer PDFs directly, the repeated generic vector/filler illustration treatment was removed from the paid PDF set.
+
+The final customer files preserve the **full original substance and page counts**:
+
+- Room Procurement System — **94 pages**
+- AI Procurement Lab — **70 pages**
+- Buying Reality Cards — **25 pages**
+- Delivery, Receiving & Install Pack — **21 pages**
+- Returns & Claims Field Pack — **15 pages**
+
+The revised art direction uses the Grok concept pass selectively:
+
+- editorial photography only on covers and selected section openers
+- no repeated decorative image on every page
+- functional SOURCE diagrams for Specify / Options / Understand / Reality-check / Commit / Execute
+- option-comparison grids, landed-cost stacks, approval gates and execution timelines
+- category-specific checkbox layouts in the Buying Reality Cards
+- field-record layouts for delivery/receiving pages
+- structured claim records and claim-message anatomy
+- AI prompt pages designed around the actual prompt, input discipline and output verification
+
+The paid files remain outside the public repository. Only the public sales/preview experience belongs in GitHub.

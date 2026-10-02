@@ -236,10 +236,12 @@ A copper lantern is a companion. It ages with your home. It records the weather 
 
 In outdoor lighting, copper is the material that proves this truest.
 
-## Explore More Outdoor Lighting
+## A More Structured Way to Plan the Lighting
 
-Looking for LED strips, step lights, ground lights, or spotlights to complement your copper lanterns? Visit my curated collection:
+If copper lanterns are one part of a larger exterior lighting scheme, the [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you plan the nightscape before buying more fixtures — from priority zones and lighting effects to placement and fixture decisions.
 
-**[Browse the complete VELUCE Outdoor Lighting Collection →](https://tr.ee/Sp8jyc)**
+## Explore More
 
-Discover solar spotlights, path lights, step lights, LED strips, and complete landscape lighting systems — all hand-picked for luxury homes.
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

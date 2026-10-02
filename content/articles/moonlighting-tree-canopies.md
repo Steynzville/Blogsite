@@ -194,8 +194,12 @@ Moonlighting is not illumination — it's atmosphere. Mount warm white fixtures 
 
 A garden lit from below is visible. A garden lit from above becomes memorable.
 
+## Turn the Moonlighting Effect into a Complete Scheme
+
+A canopy-mounted light can create a beautiful moment, but the garden feels intentional only when that effect relates to paths, planting, focal points and darker zones. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you plan those relationships before adding more fixtures.
+
 ## Explore More
 
-**Browse narrow-beam spotlights for tree lighting →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save garden lighting ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

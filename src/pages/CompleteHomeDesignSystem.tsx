@@ -17,11 +17,11 @@ const packs = [
 ];
 
 const masterIncluded = [
-  '67-page Complete Home Design System Master Guide',
-  '52-page Whole-Home AI Design Lab with 50 controlled prompts',
+  '9-page rebuilt premium Complete Home Design System Master Guide',
+  '36-page rebuilt premium Whole-Home AI Design Lab with 50 controlled prompts',
   '17-sheet Complete Home Project Workbook',
-  '24-page Decision Gate Cards',
-  '11-page Flagship Bundle Map',
+  '13-page Decision Gate Cards with 20 stop-or-go gates',
+  '6-page rebuilt premium Flagship Bundle Map',
   'Offline Complete Home Studio with local save + JSON backup/import',
   'Copy/paste Whole-Home AI Prompt Library',
   'All five complete Veluce product packs above',

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#15120f"/><text x="70" y="95" fill="#c9a87a" font-family="Arial" font-size="17" font-weight="700" letter-spacing="5">AI BRIEF ARCHITECT LAB</text>
+<text x="70" y="160" fill="#fff" font-family="Georgia" font-size="46">Controlled iteration beats random prompting.</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="70" y="300" width="160" height="160" rx="80" fill="#f5efe4"/><text x="150" y="375" fill="#17120f" font-size="18" font-weight="700">PHOTO</text><text x="150" y="402" fill="#6c6257" font-size="14">real space</text>
+<rect x="285" y="300" width="160" height="160" rx="80" fill="#ede3d4"/><text x="365" y="375" fill="#17120f" font-size="18" font-weight="700">PRESERVE</text><text x="365" y="402" fill="#6c6257" font-size="14">fixed reality</text>
+<rect x="500" y="300" width="160" height="160" rx="80" fill="#b99a67"/><text x="580" y="366" fill="#fff" font-size="18" font-weight="700">CHANGE</text><text x="580" y="392" fill="#fff" font-size="14">one variable</text>
+<rect x="715" y="300" width="160" height="160" rx="80" fill="#ede3d4"/><text x="795" y="375" fill="#17120f" font-size="18" font-weight="700">COMPARE</text><text x="795" y="402" fill="#6c6257" font-size="14">what changed?</text>
+<rect x="930" y="300" width="160" height="160" rx="80" fill="#f5efe4"/><text x="1010" y="375" fill="#17120f" font-size="18" font-weight="700">DECIDE</text><text x="1010" y="402" fill="#6c6257" font-size="14">log why</text>
+</g>
+<g stroke="#c9a87a" stroke-width="4" fill="none"><path d="M230 380H280"/><path d="M445 380H495"/><path d="M660 380H710"/><path d="M875 380H925"/></g>
+<text x="70" y="610" fill="#fff" font-family="Georgia" font-size="32">42 prompts across eight jobs:</text>
+<text x="70" y="665" fill="#aaa096" font-family="Arial" font-size="18">Audit · decode · challenge · lifestyle · budget · visualise · compare · handoff</text>
+<rect x="70" y="735" width="1060" height="2" fill="#5b4a38"/><text x="70" y="790" fill="#c9a87a" font-family="Arial" font-size="16" letter-spacing="3">AI IS THE LABORATORY. REALITY IS THE CHECK.</text>
+</svg>

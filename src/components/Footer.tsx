@@ -52,6 +52,13 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="/designer-brief-builder" asChild>
+                  <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    Designer Brief Builder
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

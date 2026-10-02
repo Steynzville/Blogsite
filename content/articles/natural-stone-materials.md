@@ -322,10 +322,6 @@ These materials have endured for millennia. With proper care, they can remain be
 
 Once you have narrowed the look to marble, travertine or limestone, the next risk is buying the wrong slab, finish or specification for the way the space will actually be used. The [Veluce Room Procurement System](/room-procurement-system) helps you compare product evidence, maintenance needs, dimensions, seller claims and installation constraints before you commit.
 
-## Take the Material Choice into the Buying Stage
-
-Once you have narrowed the look to marble, travertine or limestone, the next risk is buying the wrong slab, finish or specification for the way the space will actually be used. The [Veluce Room Procurement System](/room-procurement-system) helps you compare product evidence, maintenance needs, dimensions, seller claims and installation constraints before you commit.
-
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

@@ -296,6 +296,37 @@ At the perimeter, however, a little visibility is not a compromise. It is the fi
 
 ---
 
+## Explore More from VELUCE
+
+- [Discreet Security Cameras →](/article/discreet-security-cameras)
+- [Smart Access Control →](/article/smart-access-control)
+- [Whole-Home Lighting Control →](/article/smart-home-lighting-control)
+
+---
+
+## Frequently Asked Questions
+
+### How many perimeter cameras do I need?
+This depends entirely on property layout, not square footage. Every approach path, gate, and ground-floor entry point needs coverage. Blind spots are vulnerabilities. A professional site assessment is the only reliable way to determine optimal placement.
+
+### Is motion-activated lighting effective for security?
+Yes. Motion lights are the single most visible deterrent at the perimeter. They announce detection instantly. For luxury properties, consider layering always-on low-level path lighting with motion-activated flood zones — the contrast is the signal.
+
+### What's the cost of a comprehensive perimeter system?
+Basic systems start at $2,000-$5,000. Comprehensive systems with professional monitoring, AI-based detection, and integrated lighting can exceed $10,000-$20,000. The variable is not just equipment but property size, entry points, and desired integration depth.
+
+### Should perimeter cameras be visible or discreet?
+At the perimeter, visible cameras serve as psychological deterrents. Unlike cameras near the house (which many homeowners prefer to conceal), perimeter cameras announce that the property is protected. This layered approach — visible at the edge, invisible at the house — is the luxury standard.
+
+### What's the difference between motion detection and AI-based detection?
+Standard motion detection triggers on any movement — animals, branches, headlights. AI-based detection distinguishes between humans, vehicles, and animals, dramatically reducing false alerts. For large or rural properties, AI is essential.
+
+### Can perimeter lighting integrate with other home systems?
+Yes. Perimeter lighting can trigger security cameras to begin recording, send alerts to your phone, or integrate with access control systems. When someone approaches the gate, lights can illuminate, cameras can record, and you can receive a notification — all before they reach the front door.
+
+### Do I need professional monitoring?
+Professional monitoring provides 24/7 oversight and emergency dispatch. For primary residences, it is strongly recommended. For weekend or seasonal homes, it is essential — you cannot watch alerts constantly. For remote properties with good cell service, monitored self-response may suffice.
+
 ## Turn the Security Plan into a Buying Brief
 
 Perimeter systems often combine cameras, lighting, sensors, access control and professional installation. The [Veluce Room Procurement System](/room-procurement-system) helps you compare products against real site constraints, capture compatibility and installation requirements, and avoid buying components that do not work together.

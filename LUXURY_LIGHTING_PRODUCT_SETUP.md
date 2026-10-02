@@ -13,17 +13,17 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Customer pack
 
 1. `Veluce_Luxury_Lighting_Formula_PREMIUM.pdf` — 77 pages
-2. `Veluce_AI_Luxury_Lighting_Lab.pdf` — 59 pages / 53 controlled photo-first prompts
+2. `Veluce_AI_Luxury_Lighting_Lab.pdf` — 30 pages / all 53 controlled photo-first prompts
 3. `Veluce_Luxury_Lighting_Audit_Workbook.xlsx` — 13 editable sheets
-4. `Veluce_Luxury_Lighting_Recipe_Cards.pdf` — 22 pages / 20 interior + exterior recipes
-5. `Veluce_Lighting_Diagnostic_Gallery.pdf` — 20 pages / 18 common lighting mistakes
-6. `Veluce_Night_Audit_Field_Cards.pdf` — 12 pages
+4. `Veluce_Luxury_Lighting_Recipe_Cards.pdf` — 13 pages / all 20 interior + exterior recipes
+5. `Veluce_Lighting_Diagnostic_Gallery.pdf` — 12 pages / all 18 common lighting mistakes
+6. `Veluce_Night_Audit_Field_Cards.pdf` — 8 pages / all 10 after-dark checks
 7. `Veluce_Luxury_Lighting_Atelier.html` — offline local-first workspace with Seven Signals scoring, scenes, AI prompt library, shopping brief, handoff, local saving and JSON backup/import
 8. `Veluce_AI_Lighting_Prompt_Library.txt` — copy/paste prompt reference
 9. `README-FIRST.txt`
 10. Optional all-in-one customer ZIP
 
-The five PDFs total **190 pages**.
+The five premium PDFs total **140 pages**.
 
 ## Positioning
 
@@ -66,7 +66,7 @@ Rule: **Photo → Preserve → Change one variable → Compare → Measure.**
 
 Launch at **R349**.
 
-This is intentionally a premium-tier product: 190 PDF pages, a 13-sheet workbook, a 53-prompt AI Lab and an offline Atelier. It remains accessible relative to professional design services while clearly differentiated from smaller downloadable lighting guides.
+This is intentionally a premium-tier product: 140 tightly edited PDF pages, a 13-sheet workbook, the complete 53-prompt AI Lab and an offline Atelier. It remains accessible relative to professional design services while clearly differentiated from smaller downloadable lighting guides.
 
 ## Paystack flow
 

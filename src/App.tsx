@@ -26,6 +26,8 @@ const LuxuryLightingFormula = lazy(() => import("./pages/LuxuryLightingFormula")
 const LuxuryLightingThankYou = lazy(() => import("./pages/LuxuryLightingThankYou"));
 const RoomProcurementSystem = lazy(() => import("./pages/RoomProcurementSystem"));
 const RoomProcurementThankYou = lazy(() => import("./pages/RoomProcurementThankYou"));
+const CompleteHomeDesignSystem = lazy(() => import("./pages/CompleteHomeDesignSystem"));
+const CompleteHomeThankYou = lazy(() => import("./pages/CompleteHomeThankYou"));
 
 import { restoreRedirect } from './lib/redirect.mjs';
 restoreRedirect(window);
@@ -54,6 +56,8 @@ function Router() {
           <Route path="/thank-you/luxury-lighting-formula" component={LuxuryLightingThankYou} />
           <Route path="/room-procurement-system" component={RoomProcurementSystem} />
           <Route path="/thank-you/room-procurement-system" component={RoomProcurementThankYou} />
+          <Route path="/complete-home-design-system" component={CompleteHomeDesignSystem} />
+          <Route path="/thank-you/complete-home-design-system" component={CompleteHomeThankYou} />
           <Route path="/404" component={NotFound} />
           <Route component={NotFound} />
         </Switch>

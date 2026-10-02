@@ -73,6 +73,13 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li className="pt-2">
+                <Link href="/complete-home-design-system" asChild>
+                  <a className="text-[#d1a86c] hover:text-white transition-colors cursor-pointer font-medium">
+                    Complete Home Design System
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

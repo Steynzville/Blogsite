@@ -187,6 +187,10 @@ In luxury design, restraint often creates the strongest impression.
 
 Architectural grazing is strongest when it works with entrances, paths, planting and other focal points rather than standing alone. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you decide what deserves emphasis, choose the effect before the fixture, and build a coherent exterior lighting plan.
 
+## Take One Grazed Wall into a Complete Exterior Scheme
+
+Architectural grazing is strongest when it works with entrances, paths, planting and other focal points rather than standing alone. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you decide what deserves emphasis, choose the effect before the fixture, and build a coherent exterior lighting plan.
+
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

@@ -5,7 +5,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Product
 
 - Name: **The Veluce Room Procurement System — The SOURCE Method**
-- Launch price: **R349**
+- Launch price: **R449**
 - License: personal, non-transferable use
 - Sales page: `/room-procurement-system`
 - Getting-started page: `/thank-you/room-procurement-system`
@@ -73,7 +73,7 @@ While Paystack compliance authentication is pending, do not invent or hard-code 
 
 After Paystack is ready:
 
-1. Create Product #5 at **R349**.
+1. Create Product #5 at **R449**.
 2. Upload and verify all customer files.
 3. Keep **Redirect after payment** blank so Paystack retains protected digital delivery.
 4. Include:
@@ -101,7 +101,7 @@ Consumer procurement planning and record-keeping only. Not structural, electrica
 **Do not merge yet.**
 
 
-## Grok-enhanced refinement
+## Final customer presentation
 
 The user's Grok concept build was reviewed selectively rather than imported wholesale.
 
@@ -109,7 +109,7 @@ Verification showed:
 
 - the flagship guide, AI Lab, workbook, prompt library and offline Atelier were **byte-for-byte identical** to the existing Product #5 files
 - the Buying Reality Cards, Delivery/Receiving pack and Returns/Claims pack had different PDF file hashes, but render comparison showed **zero changed pages** and identical extracted text, so those differences were PDF encoding/compression only
-- the meaningful Grok contribution was the **photographic collector's-edition presentation** and sharper editorial framing
+- premium procurement-focused photography on covers and selected section openers
 
 The refined Product #5 experience now incorporates those strengths:
 
@@ -121,8 +121,6 @@ The refined Product #5 experience now incorporates those strengths:
   - **Price is a field; cost is the whole consequence**
   - **Ordered is not finished**
 - the customer ZIP retains the complete existing method and tools
-
-The Grok public chapter-by-chapter application and its Vercel/auth/database scaffolding were intentionally **not** adopted. Publishing the method, cards, prompts and claims content as public routes would expose too much of the paid product and add unnecessary hosting/account complexity. Paystack-protected delivery and the local-first offline Atelier remain the intended architecture.
 
 
 ## Final PDF visual rebuild
@@ -137,7 +135,7 @@ The final customer files preserve the **full original substance and page counts*
 - Delivery, Receiving & Install Pack — **21 pages**
 - Returns & Claims Field Pack — **15 pages**
 
-The revised art direction uses the Grok concept pass selectively:
+The revised art direction uses category-appropriate procurement imagery selectively:
 
 - editorial photography only on covers and selected section openers
 - no repeated decorative image on every page

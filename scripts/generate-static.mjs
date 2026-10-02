@@ -7,6 +7,7 @@ import attrs from 'markdown-it-attrs';
 import container from 'markdown-it-container';
 import { fileURLToPath } from 'url';
 import { commercialKind } from '../src/lib/commerce.mjs';
+import { renderStudioRecommendationHtml, splitArticleHtml } from '../src/lib/studio-recommendations.mjs';
 const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -187,13 +188,20 @@ async function generateStaticHtml(articles) {
 
   const routes = [
     { path: '/articles', title: 'All Articles — VELUCE Luxury Living Journal', description: 'Browse all articles from VELUCE. Expert insights on architectural lighting, luxury interiors, and smart home design.', content: '<h1>All Articles</h1><p>Browse our latest insights on luxury living.</p>' },
-    ...articles.map(a => ({
-      path: `/article/${a.slug}`,
-      title: `${a.title} — VELUCE`,
-      description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`,
-      image: a.heroImage,
-      content: `<h1>${escapeHtml(a.title)}</h1><p>Some links may earn Veluce a commission at no extra cost to you. Purchases, delivery and returns are handled by the retailer. <a href="/affiliate/">Affiliate disclosure</a>.</p><div>${a.content}</div>`
-    })),
+    ...articles.map(a => {
+      const [beforeStudio, afterStudio] = splitArticleHtml(a.content);
+      const studioRecommendation = renderStudioRecommendationHtml(
+        a.slug,
+        String(process.env.VITE_DIGITAL_PRODUCTS_LIVE || '').toLowerCase() === 'true'
+      );
+      return {
+        path: `/article/${a.slug}`,
+        title: `${a.title} — VELUCE`,
+        description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`,
+        image: a.heroImage,
+        content: `<h1>${escapeHtml(a.title)}</h1><p>Some links may earn Veluce a commission at no extra cost to you. Purchases, delivery and returns are handled by the retailer. <a href="/affiliate/">Affiliate disclosure</a>.</p><div>${beforeStudio}</div>${studioRecommendation}${afterStudio ? `<div>${afterStudio}</div>` : ''}`
+      };
+    }),
     ...categories.map(c => ({
       path: `/category/${c.slug}`,
       title: `${c.name} — VELUCE`,

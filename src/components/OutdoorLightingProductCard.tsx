@@ -9,8 +9,8 @@ export default function OutdoorLightingProductCard() {
       <div className="mx-auto grid max-w-7xl overflow-hidden border border-white/10 bg-[#17130f] md:grid-cols-[1.05fr_0.95fr]">
         <div className="relative min-h-[340px]">
           <img
-            src="/images/pergola-dining-lighting.jpg"
-            alt="Warm layered pergola lighting at night"
+            src="/images/pergola-led-strips.jpg"
+            alt="Warm integrated LED strip lighting on a pergola and deck at twilight"
             className="absolute inset-0 h-full w-full object-cover"
             loading="lazy"
           />

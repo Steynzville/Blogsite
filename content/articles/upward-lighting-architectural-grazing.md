@@ -183,11 +183,12 @@ Architectural grazing is one of the most cost-effective ways to elevate a home's
 
 In luxury design, restraint often creates the strongest impression.
 
+## Take One Grazed Wall into a Complete Exterior Scheme
 
-### Explore More Outdoor Lighting
+Architectural grazing is strongest when it works with entrances, paths, planting and other focal points rather than standing alone. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you decide what deserves emphasis, choose the effect before the fixture, and build a coherent exterior lighting plan.
 
-Looking for additional lighting options? Visit my curated collection of outdoor lighting favorites:
+## Explore More
 
-**[Browse the complete VELUCE Outdoor Lighting Collection →](https://tr.ee/x9keXp)**
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-Discover solar spotlights, path lights, step lights, LED strips, and complete landscape lighting systems — all hand-picked for luxury homes.
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

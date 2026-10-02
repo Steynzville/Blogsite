@@ -4,8 +4,9 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
 const PRICE = 'R449';
+const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
 const checkoutUrl = (import.meta.env.VITE_ROOM_PROCUREMENT_CHECKOUT_URL || '').trim();
-const checkoutReady = /^https:\/\//i.test(checkoutUrl);
+const checkoutReady = salesLive && /^https:\/\//i.test(checkoutUrl);
 
 const stages = [
   { key: 'S', title: 'Specify', body: 'Turn the room brief into measurable product requirements before you browse.' },

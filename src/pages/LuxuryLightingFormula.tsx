@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
-const PRICE = 'R349';
+const PRICE = 'R449';
 const checkoutUrl = (import.meta.env.VITE_LUXURY_LIGHTING_FORMULA_CHECKOUT_URL || '').trim();
 const checkoutReady = /^https:\/\//i.test(checkoutUrl);
 

@@ -61,7 +61,7 @@ const faqs = [
   ],
   [
     'What do I receive after purchase?',
-    'Paystack provides secure access to the complete Veluce toolkit: the 48-page Blueprint, editable project calculator and fixture scorecard, AI Visualization Prompt Pack, offline Studio Tools and quick-start material. Together they take you from the first night audit through planning, visualization and confident product comparison.'
+    'After purchase, the complete Veluce toolkit includes the 48-page Blueprint, editable project calculator and fixture scorecard, AI Visualization Prompt Pack, offline Studio Tools and quick-start material. Together they take you from the first night audit through planning, visualization and confident product comparison.'
   ],
 ];
 

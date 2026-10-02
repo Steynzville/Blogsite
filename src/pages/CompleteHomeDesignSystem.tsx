@@ -5,8 +5,9 @@ import { useMetaTags } from '@/lib/meta';
 
 const PRICE = 'R999';
 const STANDALONE_VALUE = 'R1,895';
+const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
 const checkoutUrl = (import.meta.env.VITE_COMPLETE_HOME_CHECKOUT_URL || '').trim();
-const checkoutReady = /^https:\/\//i.test(checkoutUrl);
+const checkoutReady = salesLive && /^https:\/\//i.test(checkoutUrl);
 
 const packs = [
   { title:'Outdoor Lighting Blueprint', method:'4-Axis Nightscape', price:'R299', body:'Plan outdoor lighting effects, zones, glare, power approach and purchasing before installation.' },

@@ -18,11 +18,9 @@ The paid product files are intentionally **not stored under `public/`**. The web
 4. `Veluce_Outdoor_Room_Layout_Recipe_Cards.pdf` — 10 pages
 5. `Veluce_Outdoor_Room_Visual_Direction_Gallery.pdf` — 10 pages, eight visual studies with planning lessons and photo-first prompt directions
 6. `Veluce_Outdoor_Room_Studio.html` — enhanced offline Studio with room brief, zone allocation, furniture-load check, budget, weighted product scorecard, all 37 prompts, controlled prompt builder, local iteration log and before-you-buy checklist
-7. `Veluce_Outdoor_Room_Canva_Planning_Sheets.pdf` — 8 pages
+7. `Veluce_Outdoor_Room_Planning_Sheets.pdf` — 8 pages
 8. `README-FIRST.txt`
 9. Optional all-in-one ZIP for convenience
-
-Editable Canva owner sources have also been created for **Veluce Outdoor Room Planning Sheets** (design ID `DAHWnesYGdQ`) and **Veluce AI Outdoor Room Prompt Cards** (design ID `DAHWn710Rnk`). The customer PDFs and offline Studio have since been enhanced with the strongest material from the Grok concept build, including the 37-prompt library, visual-direction studies, five-layer judging rubric and expanded Studio tools. Keep Canva edit links as owner assets rather than exposing owner-edit access to customers.
 
 ## Paystack flow
 

@@ -310,10 +310,12 @@ In outdoor lighting, restraint and precision always outperform enthusiasm and ex
 
 ---
 
-## Explore More Outdoor Lighting
+## Make the LED Strip Part of the Whole Nightscape
 
-Looking for step lights, ground lights, spotlights, or wall lights? Visit my curated collection:
+Choosing the right strip solves one detail. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you decide how that detail should work with steps, paths, planting, seating and focal points across the entire outdoor space — so the effect is planned before more fixtures are purchased.
 
-**[Browse the complete VELUCE Outdoor Lighting Collection →](https://tr.ee/Sp8jyc)**
+## Explore More
 
-Discover solar spotlights, path lights, step lights, LED strips, and complete landscape lighting systems — all hand-picked for luxury homes.
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

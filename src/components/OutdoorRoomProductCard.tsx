@@ -18,7 +18,7 @@ export default function OutdoorRoomProductCard() {
                 Explore the Planner <ArrowRight size={15} />
               </a>
             </Link>
-            <span className="text-sm text-stone-600">R299 · one-time purchase</span>
+            <span className="text-sm text-stone-600">R349 · one-time purchase</span>
           </div>
         </div>
         <div className="relative min-h-[360px]">

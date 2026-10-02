@@ -10,6 +10,8 @@ import { getArticleSchema } from '@/lib/schema';
 import { useState, useEffect } from 'react';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import { RelatedArticles } from '@/components/RelatedArticles';
+import ArticleStudioRecommendation from '@/components/ArticleStudioRecommendation';
+import { splitArticleHtml } from '@/lib/studio-recommendations.mjs';
 
 // Helper to get correct image URL for GitHub Pages
 const getImageUrl = (path: string) => {
@@ -127,6 +129,8 @@ export default function ArticleDetail() {
     );
   }
 
+  const [articleBeforeStudio, articleAfterStudio] = splitArticleHtml(article.content);
+
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 overflow-x-hidden" itemScope itemType="https://schema.org/Article">
       {/* Header */}
@@ -217,11 +221,21 @@ export default function ArticleDetail() {
 
         <p className="mb-6 text-sm text-gray-600 dark:text-gray-400">Some links may earn Veluce a commission at no extra cost to you. Purchases, delivery and returns are handled by the retailer. <a href="/affiliate/" className="underline">Affiliate disclosure</a>.</p>
         {/* Article Body */}
-	        <div
-	          className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:mb-6 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 mb-12 text-gray-900 dark:text-gray-100"
-	          dangerouslySetInnerHTML={{ __html: article.content }}
-	          itemProp="articleBody"
-	        />
+        <div itemProp="articleBody">
+          <div
+            className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:mb-6 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 text-gray-900 dark:text-gray-100"
+            dangerouslySetInnerHTML={{ __html: articleBeforeStudio }}
+          />
+
+          <ArticleStudioRecommendation slug={article.slug} />
+
+          {articleAfterStudio && (
+            <div
+              className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:mb-6 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-white prose-em:text-gray-700 dark:prose-em:text-gray-300 mb-12 text-gray-900 dark:text-gray-100"
+              dangerouslySetInnerHTML={{ __html: articleAfterStudio }}
+            />
+          )}
+        </div>
 
         {/* Divider */}
         <div className="border-t border-gray-200 dark:border-gray-800 my-12" />

@@ -4,6 +4,7 @@ import {redirectPath} from '../src/lib/redirect.mjs';
 import {commercialKind,commercialEvent,installCommerceTracking} from '../src/lib/commerce.mjs';
 import {economics} from '../scripts/veluce/economics.mjs';
 import {validateProduct,renderProduct} from '../scripts/veluce/product.mjs';
+import {articleStudioRecommendations,getStudioRecommendation,renderStudioRecommendationHtml,splitArticleHtml} from '../src/lib/studio-recommendations.mjs';
 import fs from 'node:fs';
 test('UTM, Pinterest and query parameters do not become routes',()=>{for(const q of ['?utm_source=pinterest&utm_campaign=lighting','?epik=abc','?q=lighting'])assert.equal(redirectPath(q),null)});
 test('explicit and legacy Pages redirects preserve destination query',()=>{assert.equal(redirectPath('?__veluce_path=%2Farticle%2Ftest%3Futm_source%3Dpinterest%23faq'),'/article/test?utm_source=pinterest#faq');assert.equal(redirectPath('?article/test&utm_source=pinterest~and~utm_medium=organic'),'/article/test?utm_source=pinterest&utm_medium=organic');assert.equal(redirectPath('?__veluce_path=https%3A%2F%2Fevil.test'),null);assert.equal(redirectPath('?__veluce_path=%2F%2Fevil.test'),null)});
@@ -31,4 +32,31 @@ test('verified brief renders into existing Markdown pipeline without fabricated 
  assert.ok(rendered.includes('Check current details'));
  assert.ok(!rendered.includes('AggregateRating'));
  assert.ok(validateProduct({...p,related:['../escape','valid']}).includes('Invalid related slug'));
+});
+
+test('all published articles have exactly one contextual Studio product',()=>{
+ const articles=JSON.parse(fs.readFileSync('public/articles.json','utf8'));
+ const articleSlugs=articles.map(a=>a.slug).sort();
+ const mapped=Object.keys(articleStudioRecommendations).sort();
+ assert.equal(articleSlugs.length,26);
+ assert.deepEqual(mapped,articleSlugs);
+ for(const slug of articleSlugs){
+   const recommendation=getStudioRecommendation(slug);
+   assert.ok(recommendation?.id);
+   assert.ok(recommendation?.href?.startsWith('/'));
+   assert.ok(recommendation?.price?.startsWith('R'));
+ }
+});
+
+test('Studio recommendation splits only at a heading boundary and is measurable',()=>{
+ const html='<h2>A</h2><p>one</p><h2>B</h2><p>two</p><h2>C</h2><p>three</p><h2>D</h2><p>four</p>';
+ const [before,after]=splitArticleHtml(html);
+ assert.ok(before.endsWith('</p>'));
+ assert.ok(after.startsWith('<h2'));
+ assert.equal(before+after,html);
+ const module=renderStudioRecommendationHtml('layered-lighting-bedroom',false);
+ assert.ok(module.includes('Luxury Lighting Formula'));
+ assert.ok(module.includes('data-product-id="luxury-lighting-formula"'));
+ assert.ok(module.includes('data-placement="article-studio-module"'));
+ assert.ok(module.includes('coming soon'));
 });

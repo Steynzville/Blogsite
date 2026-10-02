@@ -32,8 +32,7 @@ const included = [
   '10-page quick-reference Layout Recipe Cards',
   '45-page AI Outdoor Room Visualization Lab with 37 photo-first prompts',
   'Offline Outdoor Room Studio with built-in AI prompt builder',
-  '8-page Canva-editable planning-sheet design in Veluce Studio',
-  '12-page Canva AI Prompt Cards source for future branded editions',
+  '8-page printable Outdoor Room Planning Sheets for sketching, writing and final checks',
 ];
 
 function PurchaseButton({ compact = false }: { compact?: boolean }) {
@@ -44,7 +43,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
         aria-disabled="true"
         title="Checkout is being configured"
       >
-        Checkout opening shortly
+        Coming soon
       </span>
     );
   }

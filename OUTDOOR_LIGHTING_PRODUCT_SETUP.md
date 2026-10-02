@@ -6,7 +6,7 @@ The paid product is intentionally **not stored under `public/`**. The website co
 
 - Name: Veluce Outdoor Lighting Blueprint — The 4-Axis Nightscape System
 - Launch price: R299
-- Customer file: `Veluce_Outdoor_Lighting_Blueprint_PREMIUM_CUSTOMER_PACK.zip`
+- Customer file: `Veluce_Outdoor_Lighting_Blueprint_CUSTOMER_PACK.zip`
 - License: personal, non-transferable use
 
 The customer ZIP contains:
@@ -21,13 +21,11 @@ The customer ZIP contains:
 
 1. Create the digital product in the chosen checkout provider and upload the customer ZIP there.
 2. Configure the provider to deliver the ZIP only after successful payment.
-3. The Paystack Product Link is:
+3. When Paystack confirms the account and the final Product Link is available, set `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL` to that exact HTTPS URL.
 
-   `https://paystack.com/buy/veluce-outdoor-lighting-blueprint--the-4-axis-nightsc-abosiv`
+4. Until that variable is configured, the sales page intentionally shows **Coming soon**.
 
-4. The GitHub Pages build is already configured to use this exact public Product Link for `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL`.
-
-5. Leave Paystack's **Redirect after payment** field blank so successful buyers remain in Paystack's native digital-download flow and can access their unique protected download page.
+5. Once live, leave Paystack's **Redirect after payment** field blank so successful buyers remain in Paystack's native digital-download flow and can access their unique protected download page.
 
 6. In Paystack's **Success message**, include the Veluce getting-started URL as plain text:
 
@@ -37,9 +35,7 @@ The customer ZIP contains:
 
    `Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your files are available to download below, and your receipt contains a link to return to this download page. Once you've saved your files, continue with the recommended workflow at: https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
 
-7. Redeploy the site after merge. The GitHub Pages workflow supplies the Paystack Product Link during the Vite build.
-
-The sales page still fails safely to **Checkout opening shortly** if the checkout URL is ever removed or invalid.
+7. Redeploy the site after the checkout variable is configured. The GitHub Pages workflow supplies the Product Link during the Vite build.
 
 ## Security rule
 

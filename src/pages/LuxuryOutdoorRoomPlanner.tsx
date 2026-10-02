@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
-const PRICE = 'R299';
+const PRICE = 'R349';
 const checkoutUrl = (import.meta.env.VITE_OUTDOOR_ROOM_PLANNER_CHECKOUT_URL || '').trim();
 const checkoutReady = /^https:\/\//i.test(checkoutUrl);
 
@@ -256,9 +256,9 @@ export default function LuxuryOutdoorRoomPlanner() {
               </figure>
               <div className="border border-white/10 bg-[#0c0a08] p-6">
                 <PanelsTopLeft size={24} className="text-[#c9a87a]" />
-                <h3 className="mt-5 font-serif text-3xl text-white">Canva planning sheets</h3>
+                <h3 className="mt-5 font-serif text-3xl text-white">Printable planning sheets</h3>
                 <p className="mt-3 text-sm leading-relaxed text-stone-400">
-                  A separate eight-page Veluce Studio planning-sheet design has been created in Canva for easy editing, duplication and future branded versions.
+                  Eight printable planning pages give you room to sketch, write, map zones, test circulation and scale, and run a final before-you-buy check.
                 </p>
                 <div className="mt-8 border-t border-white/10 pt-6">
                   <FileText size={20} className="text-[#c9a87a]" />
@@ -288,7 +288,7 @@ export default function LuxuryOutdoorRoomPlanner() {
                 ['How do I keep the project within budget without buying the cheapest option?', 'The workbook allocates the budget by category, tracks planned and committed spend, and pairs with a weighted scorecard covering fit, function, durability, comfort, aesthetic fit, serviceability and value.'],
                 ['Can I use AI to see what the room could look like before I spend money?', 'Yes. The 45-page AI Outdoor Room Visualization Lab is built around your own real photograph. It includes photo guidance, a preservation lock, an iteration workflow and 37 prompts for layouts, scale, materials, planting, shade, atmosphere, budget refinement and critique. The goal is controlled comparison, not fantasy rendering.'],
                 ['How do I stop AI from redesigning my house when I only want to test furniture or styling?', 'The prompt system begins with a preservation lock that tells the model to keep the roofline, doors, windows, structural walls, floor footprint, fixed paving, garden or pool boundaries and camera position unchanged. You then change one design variable at a time.'],
-                ['What files do I receive?', 'The customer pack contains the 48-page premium planner, the 45-page AI Visualization Lab with 37 prompts, the editable Excel project workbook with AI Iteration Lab, the 10-page Layout Recipe Cards, a 10-page Visual Direction Gallery, the enhanced offline Outdoor Room Studio with all 37 prompts, local saving and planning tools, the Canva planning-sheet PDF and quick-start material.'],
+                ['What files do I receive?', 'The customer pack contains the 48-page premium planner, the 45-page AI Visualization Lab with 37 prompts, the editable Excel project workbook with AI Iteration Lab, the 10-page Layout Recipe Cards, a 10-page Visual Direction Gallery, the enhanced offline Outdoor Room Studio with all 37 prompts, local saving and planning tools, the 8-page printable Outdoor Room Planning Sheets and quick-start material.'],
               ].map(([q, a]) => (
                 <details key={q} className="group py-5">
                   <summary className="cursor-pointer list-none font-serif text-xl">

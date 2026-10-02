@@ -45,6 +45,13 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="/luxury-outdoor-room-planner" asChild>
+                  <a className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    Luxury Outdoor Room Planner
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

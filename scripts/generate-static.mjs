@@ -157,7 +157,7 @@ async function generateSitemap(articles) {
   }
 
   // Add static pages
-  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner', '/designer-brief-builder'];
+  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner', '/designer-brief-builder', '/luxury-lighting-formula'];
   for (const page of staticPages) {
     sitemap += `  <url>\n    <loc>${SITE_URL}${page}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
   }
@@ -220,6 +220,13 @@ async function generateStaticHtml(articles) {
       description: 'Turn photos, measurements, saved references and constraints into a designer-, contractor- and AI-ready project brief with the Veluce CLEAR Method and AI Brief Architect Lab.',
       image: '/images/designer-brief-hero.svg',
       content: '<h1>Designer Brief Builder</h1><p>The Veluce CLEAR Brief-to-Design System turns real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief.</p>'
+    },
+    {
+      path: '/luxury-lighting-formula',
+      title: 'Luxury Lighting Formula — VELUCE',
+      description: 'Make your home feel more expensive after dark with the Veluce Seven Signals: hierarchy, layers, direction, warmth, shadow, concealment and scenes.',
+      image: '/images/luxury-lighting-formula-hero.svg',
+      content: '<h1>Luxury Lighting Formula</h1><p>The Veluce Seven Signals system helps homeowners diagnose flat or harsh lighting, create layered scenes and test controlled lighting changes before buying.</p>'
     },
     { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.', content: '<h1>About VELUCE</h1><p>Premier luxury living journal.</p>' },
     { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.', content: '<h1>Contact Us</h1><p>Get in touch with the VELUCE team.</p>' },

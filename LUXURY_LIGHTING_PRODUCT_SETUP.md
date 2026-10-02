@@ -123,4 +123,3 @@ The final customer pack uses a premium editorial visual direction with category-
   - **Build more than one emotional setting**
 - the public sales copy now reinforces those same principles
 
-The Grok Vercel/auth/database scaffolding was intentionally **not** adopted. Product #4 remains a protected downloadable product with a local-first offline Atelier and Paystack delivery.

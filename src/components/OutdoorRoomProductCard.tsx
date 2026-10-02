@@ -2,6 +2,8 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'wouter';
 
 export default function OutdoorRoomProductCard() {
+  const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
+
   return (
     <section className="bg-[#f5efe4] px-4 py-14 text-[#17120f] sm:px-6 sm:py-20 lg:px-8">
       <div className="mx-auto grid max-w-7xl overflow-hidden border border-[#d6c9b5] bg-[#ede3d4] md:grid-cols-[0.95fr_1.05fr]">
@@ -18,7 +20,7 @@ export default function OutdoorRoomProductCard() {
                 Explore the Planner <ArrowRight size={15} />
               </a>
             </Link>
-            <span className="text-sm text-stone-600">R349 · one-time purchase</span>
+            <span className="text-sm text-stone-600">R349 · {salesLive ? 'one-time purchase' : 'coming soon'}</span>
           </div>
         </div>
         <div className="relative min-h-[360px]">

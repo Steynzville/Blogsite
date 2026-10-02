@@ -5,7 +5,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Product
 
 - Name: **The Veluce Luxury Lighting Formula — The Seven Signals of Expensive-Looking Light**
-- Launch price: **R349**
+- Launch price: **R449**
 - License: personal, non-transferable use
 - Sales page: `/luxury-lighting-formula`
 - Getting-started page: `/thank-you/luxury-lighting-formula`
@@ -64,7 +64,7 @@ Rule: **Photo → Preserve → Change one variable → Compare → Measure.**
 
 ## Price
 
-Launch at **R349**.
+Launch at **R449**.
 
 This is intentionally a premium-tier product: 140 tightly edited PDF pages, a 13-sheet workbook, the complete 53-prompt AI Lab and an offline Atelier. It remains accessible relative to professional design services while clearly differentiated from smaller downloadable lighting guides.
 
@@ -78,7 +78,7 @@ Do not invent or hard-code a Product Link while Paystack compliance authenticati
 
 After Paystack enables the product flow:
 
-1. Create Product #4 at **R349**.
+1. Create Product #4 at **R449**.
 2. Upload and verify all customer files.
 3. Keep **Redirect after payment** blank so Paystack retains protected digital-download delivery.
 4. Include the onboarding URL in the success message:
@@ -111,13 +111,9 @@ This is educational lighting-design and planning material. It does not replace e
 **Do not merge yet.**
 
 
-## Grok-enhanced refinement
+## Final customer presentation
 
-The user's Grok concept build was reviewed selectively rather than imported wholesale.
-
-Verification showed that the paid PDFs, workbook, offline Atelier and prompt library in the Grok workspace were **byte-for-byte identical** to the existing Product #4 customer files. The useful additions were therefore visual/editorial rather than new methodology.
-
-The refined customer pack now uses the strongest Grok visual direction where it materially improves the product:
+The final customer pack uses a premium editorial visual direction with category-appropriate interior evening imagery and functional working pages:
 
 - the flagship premium guide has a photographic night-study cover instead of the earlier abstract cover treatment
 - the offline Lighting Atelier opens with the same photographic night-study atmosphere

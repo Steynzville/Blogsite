@@ -2,6 +2,8 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'wouter';
 
 export default function DesignerBriefProductCard() {
+  const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
+
   return (
     <section className="bg-[#0c0a08] px-4 py-14 text-[#faf6ee] sm:px-6 sm:py-20 lg:px-8">
       <div className="mx-auto grid max-w-7xl overflow-hidden border border-white/10 bg-[#17130f] md:grid-cols-[1.05fr_0.95fr]">
@@ -27,7 +29,7 @@ export default function DesignerBriefProductCard() {
                 Explore the Brief Builder <ArrowRight size={15} />
               </a>
             </Link>
-            <span className="text-sm text-stone-400">R349 · one-time purchase</span>
+            <span className="text-sm text-stone-400">R349 · {salesLive ? 'one-time purchase' : 'coming soon'}</span>
           </div>
         </div>
       </div>

@@ -103,7 +103,6 @@ Consumer procurement planning and record-keeping only. Not structural, electrica
 
 ## Final customer presentation
 
-The user's Grok concept build was reviewed selectively rather than imported wholesale.
 
 Verification showed:
 

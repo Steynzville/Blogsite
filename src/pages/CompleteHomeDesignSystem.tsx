@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Sparkles, Layers3, Lightbulb, ShoppingBag, Brain, LayoutDashboard, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Check, Sparkles, Layers3, Lightbulb, ShoppingBag, Brain } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';

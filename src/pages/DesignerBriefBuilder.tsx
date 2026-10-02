@@ -23,13 +23,13 @@ const problems = [
 ];
 
 const included = [
-  '34-page premium Designer Brief Builder',
+  '22-page premium Designer Brief Builder',
   'The CLEAR Brief-to-Design Method',
-  '42-prompt AI Brief Architect Lab',
+  '27-page premium AI Brief Architect Lab with all 42 controlled prompts',
   'Master architecture-preservation lock for photo-first AI work',
   'Editable 10-sheet Excel project workbook',
   '14-page photographic Style Decoder Cards with 12 visual directions',
-  '10-page printable Designer Handoff Pack',
+  '13-page premium Designer Handoff Pack with 11 printable project templates',
   'Enhanced offline Brief Atelier: CLEAR, Space, Decoder, Priorities, Budget, Rooms, Decisions, AI Lab, all 42 prompts and Handoff',
   'Copy-and-paste AI prompt library',
   'Quick-start guide and recommended workflow',
@@ -283,7 +283,7 @@ export default function DesignerBriefBuilder() {
                 ['How do I stop AI changing doors, windows or the shape of my house?', 'Use the supplied master preservation lock with a photograph of the real space. It tells the model to retain fixed architecture and camera position, then you specify one design variable to test.'],
                 ['Can I use this before meeting a designer?', 'Yes. That is one of its strongest uses: arrive with a clear outcome, measured facts, decoded references, constraints, a budget envelope and open questions, while still leaving the designer room to design.'],
                 ['Does this replace a professional designer or contractor?', 'No. It improves project communication and decision-making. Structural, architectural, electrical, gas, fire, waterproofing, accessibility, pool-safety and regulatory decisions still need appropriately qualified people and local requirements.'],
-                ['What files do I receive?', 'The pack includes the 34-page premium Brief Builder, 42-prompt AI Brief Architect Lab, 10-sheet Excel workbook, 14-page Style Decoder Cards, 10-page Handoff Pack, offline Brief Studio, copy-and-paste prompt library and quick-start guide.'],
+                ['What files do I receive?', 'The pack includes the 22-page premium Brief Builder, 27-page premium AI Brief Architect Lab with all 42 prompts, 10-sheet Excel workbook, 14-page photographic Style Decoder Cards, 13-page Handoff Pack with 11 printable project templates, offline Brief Studio, copy-and-paste prompt library and quick-start guide.'],
               ].map(([q, a]) => (
                 <details key={q} className="group py-5">
                   <summary className="cursor-pointer list-none font-serif text-xl">

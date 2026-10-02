@@ -20,12 +20,12 @@ const signals = [
 const included = [
   '77-page premium Luxury Lighting Formula',
   'The Seven Signals diagnostic method',
-  '59-page AI Luxury Lighting Lab with 53 photo-first prompts',
+  '30-page premium AI Luxury Lighting Lab with all 53 photo-first prompts',
   'Master architecture-preservation lock for AI lighting studies',
   '13-sheet editable Luxury Lighting Audit Workbook',
-  '22-page Luxury Lighting Recipe Cards with 20 room/exterior recipes',
-  '20-page Lighting Diagnostic Gallery covering 18 common mistakes',
-  '12-page Night Audit Field Cards',
+  '13-page premium Luxury Lighting Recipe Cards with all 20 room/exterior recipes',
+  '12-page premium Lighting Diagnostic Gallery covering all 18 common mistakes',
+  '8-page premium Night Audit Field Cards with all 10 after-dark checks',
   'Offline Luxury Lighting Atelier with local saving, readiness tracking, scene builder and the complete prompt library',
   'Copy-and-paste AI lighting prompt library + quick-start guide',
 ];
@@ -192,7 +192,7 @@ export default function LuxuryLightingFormula() {
               </figure>
               <div className="border border-white/10 bg-[#0c0a08] p-6">
                 <GalleryHorizontalEnd size={24} className="text-[#d1a86c]" />
-                <h3 className="mt-5 font-serif text-3xl text-white">190 PDF pages of practical material</h3>
+                <h3 className="mt-5 font-serif text-3xl text-white">140 PDF pages of practical material</h3>
                 <p className="mt-3 text-sm leading-relaxed text-stone-400">Room recipes, exterior recipes, common mistakes, material/light guidance, scene design, retrofit sequencing, AI workflows and after-dark field cards.</p>
                 <div className="mt-8 border-t border-white/10 pt-6"><ClipboardCheck size={20} className="text-[#d1a86c]" /><p className="mt-3 text-sm text-stone-300">13-sheet workbook with formula-driven scoring, shopping/budget and decision logs.</p></div>
                 <div className="mt-5 border-t border-white/10 pt-6"><Brain size={20} className="text-[#d1a86c]" /><p className="mt-3 text-sm text-stone-300">Offline Atelier with local saving, scene planning, prompts, handoff and JSON backup/import.</p></div>
@@ -245,7 +245,7 @@ export default function LuxuryLightingFormula() {
                 ['Is 2700K always the answer?', 'No. The product uses warm residential light as a common evening direction, not a universal rule. Material, task, daylight, adjacent sources and personal preference still matter. Consistency and intent are more important than blindly choosing one number.'],
                 ['Can AI tell me exactly which fixture to buy?', 'It can help visualize an effect and critique a room, but the pack explicitly returns you to real dimensions, beam, output, colour quality, dimming compatibility and environmental requirements before purchase.'],
                 ['Does this replace a lighting designer or electrician?', 'No. It improves visual diagnosis, communication and purchase preparation. Electrical work, code, specialist controls, wet areas, emergency/safety lighting and project-specific engineering still belong with appropriately qualified professionals.'],
-                ['What files do I receive?', 'The pack contains five PDFs totalling 190 pages, a 13-sheet Excel workbook, the offline Lighting Atelier, the 53-prompt text library and the quick-start guide.'],
+                ['What files do I receive?', 'The pack contains five premium PDFs totalling 140 pages, a 13-sheet Excel workbook, the offline Lighting Atelier, the complete 53-prompt text library and the quick-start guide.'],
               ].map(([q,a]) => <details key={q} className="group py-5"><summary className="cursor-pointer list-none font-serif text-xl"><span className="flex items-center justify-between gap-4">{q}<span className="text-[#9b7448] transition-transform group-open:rotate-45">+</span></span></summary><p className="mt-4 max-w-3xl text-sm leading-relaxed text-stone-700">{a}</p></details>)}
             </div>
           </div>

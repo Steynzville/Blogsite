@@ -200,8 +200,12 @@ Hidden uplighting transforms mature trees into nighttime architecture. Use warm 
 
 Trees don't become important at night by accident. They become important by design.
 
+## Turn One Beautiful Tree into a Complete Nightscape
+
+Uplighting a mature tree can transform a garden, but the strongest result comes when that focal point works with paths, planting, boundaries and darker pauses. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you audit the garden after dark, define priority zones, choose the lighting effect before the fixture, and build the whole scheme deliberately.
+
 ## Explore More
 
-**Browse solar uplighting and inground lights →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save garden lighting ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

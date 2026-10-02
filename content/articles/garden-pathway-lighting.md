@@ -181,8 +181,12 @@ Pathway lighting is not about fixtures. It's about rhythm. Space lights 6-8 feet
 
 A path during the day announces itself. A path at night reveals itself — step by step, pool by pool, until the garden has led you exactly where it wants you to go.
 
+## Plan the Whole Nightscape, Not Just the Path
+
+If you are deciding where path lights should sit and what they should do, the [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) takes the same principle further — audit the garden after dark, define priority zones, choose the effect first, then decide on fixtures.
+
 ## Explore More
 
-**Browse solar pathway and inground lights →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save garden lighting ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

@@ -217,8 +217,16 @@ A pergola is not a roof — it's a frame for light. Layer integrated LED strips 
 
 A pergola lit thoughtfully becomes an outdoor room. A pergola lit carelessly remains just a structure.
 
+## Plan the Pergola as Part of the Whole Nightscape
+
+Lighting the beams is only one layer. The strongest pergola schemes connect the structure to paths, planting, dining, steps and surrounding darkness. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you audit the space after dark, define priority zones and choose effects before fixtures.
+
+## Plan the Pergola as Part of the Whole Nightscape
+
+Lighting the beams is only one layer. The strongest pergola schemes connect the structure to paths, planting, dining, steps and surrounding darkness. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you audit the space after dark, define priority zones and choose effects before fixtures.
+
 ## Explore More
 
-**Browse pergola lighting →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save outdoor living ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

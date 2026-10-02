@@ -344,3 +344,13 @@ Soapstone is non-porous, heat-resistant, and does not require sealing. It scratc
 
 ### What cleaner is safe for natural stone?
 Only pH-neutral cleaners should be used on natural stone. Acidic cleaners like vinegar or lemon juice etch the surface. Alkaline cleaners can dull the finish. Dedicated stone cleaners or mild dish soap with water are safe options.
+
+## Compare the Stone Before You Commit to a Slab
+
+Once appearance is narrowed down, the practical questions become decisive: dimensions, finish, sealing, maintenance, fabrication, delivery, seller claims and installation constraints. The [Veluce Room Procurement System](/room-procurement-system) helps you compare those details in one place before a high-cost material decision becomes irreversible.
+
+## Explore More
+
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

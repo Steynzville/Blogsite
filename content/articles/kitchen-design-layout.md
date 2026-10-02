@@ -201,8 +201,12 @@ Kitchen design is not about trends. It is about how people live. Start with layo
 
 A beautiful kitchen that does not work is not luxurious. A kitchen that works beautifully becomes the heart of the home.
 
+## Turn the Layout into a Clear Design Brief
+
+Once the kitchen zones and circulation begin to take shape, the next challenge is keeping measurements, priorities, must-haves and design decisions aligned. The [Veluce Designer Brief Builder](/designer-brief-builder) helps you turn scattered ideas into a usable brief before expensive cabinetry, surfaces and appliances are ordered.
+
 ## Explore More
 
-**Browse kitchen and home solutions →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save kitchen design inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

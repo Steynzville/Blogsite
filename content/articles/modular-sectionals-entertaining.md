@@ -265,8 +265,12 @@ Modular sectionals aren't just furniture — they're a system for adapting space
 
 The best outdoor rooms aren't static compositions. They expand, contract, and rearrange themselves around the people they welcome. Modular seating simply gives the room permission to evolve.
 
+## Plan the Outdoor Room Around the Seating
+
+A sectional only works when its scale, circulation, focal point and surrounding zones work with it. The [Veluce Luxury Outdoor Room Planner](/luxury-outdoor-room-planner) helps you map purpose, flow, furniture scale and atmosphere before you start filling the patio with separate purchases.
+
 ## Explore More
 
-**Browse outdoor living ideas →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save patio design inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

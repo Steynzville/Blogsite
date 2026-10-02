@@ -318,10 +318,16 @@ The most memorable luxury interiors combine timeless materials with thoughtful i
 
 These materials have endured for millennia. With proper care, they can remain beautiful for generations.
 
-## Explore More Luxury Interiors
+## Take the Material Choice into the Buying Stage
 
-Looking for more inspiration on timeless materials and luxury home design? Visit my curated collection:
+Once you have narrowed the look to marble, travertine or limestone, the next risk is buying the wrong slab, finish or specification for the way the space will actually be used. The [Veluce Room Procurement System](/room-procurement-system) helps you compare product evidence, maintenance needs, dimensions, seller claims and installation constraints before you commit.
 
-**[Browse the complete VELUCE Collection →](https://tr.ee/Sp8jyc)**
+## Take the Material Choice into the Buying Stage
 
-Discover lighting, materials, and design insights for the luxury home.
+Once you have narrowed the look to marble, travertine or limestone, the next risk is buying the wrong slab, finish or specification for the way the space will actually be used. The [Veluce Room Procurement System](/room-procurement-system) helps you compare product evidence, maintenance needs, dimensions, seller claims and installation constraints before you commit.
+
+## Explore More
+
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

@@ -230,8 +230,12 @@ It does not guide movement. It alters how movement is perceived.
 
 A well-designed garden does not become visible at night. It becomes legible.
 
+## Take the Moonlighting Idea into a Full Plan
+
+Moonlighting is strongest when it works with paths, planting, focal points and darker pauses. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you map those relationships before you start adding fixtures.
+
 ## Explore More
 
-**Garden lighting systems →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

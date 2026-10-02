@@ -250,8 +250,12 @@ Luxury kitchen appliances are not about status. They are about capability, longe
 
 The finest kitchens do not shout. They simmer.
 
+## Compare the Appliances Before You Commit
+
+Luxury appliances involve more than brand and appearance: dimensions, ventilation, power, cabinetry integration, delivery access and seller specifications all have to work together. The [Veluce Room Procurement System](/room-procurement-system) gives you a structured way to compare those constraints, record the evidence and make the final buying decision with fewer surprises.
+
 ## Explore More
 
-**Browse kitchen and home solutions →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save kitchen design inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

@@ -227,8 +227,12 @@ Luxury interior design is not about cost — it's about intention. Start with pr
 
 Luxury begins the moment nothing remains except what deserves to be there.
 
+## Turn the Principles into a Brief You Can Actually Use
+
+Knowing that proportion, restraint, materials and lighting matter is only the beginning. The [Veluce Designer Brief Builder](/designer-brief-builder) helps you translate inspiration, measurements, lifestyle needs and aesthetic references into a clear design brief — giving every later decision a consistent point of reference.
+
 ## Explore More
 
-**Browse design and lighting ideas →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save interior design inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

@@ -212,8 +212,16 @@ An outdoor fireplace transforms a patio from a paved surface into a destination.
 
 A patio without a fireplace is just space. A patio with a fireplace is a room.
 
+## Build the Whole Outdoor Room Around the Fireplace
+
+A fireplace can anchor the space, but seating, circulation, scale, lighting and views still have to work around it. The [Veluce Luxury Outdoor Room Planner](/luxury-outdoor-room-planner) helps you turn that focal point into a coherent outdoor room instead of arranging the rest of the patio by trial and error.
+
+## Build the Whole Outdoor Room Around the Fireplace
+
+A fireplace can anchor the space, but seating, circulation, scale, lighting and views still have to work around it. The [Veluce Luxury Outdoor Room Planner](/luxury-outdoor-room-planner) helps you turn that focal point into a coherent outdoor room instead of arranging the rest of the patio by trial and error.
+
 ## Explore More
 
-**Browse outdoor living ideas →** [VELUCE Outdoor Lighting Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save patio design inspiration →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

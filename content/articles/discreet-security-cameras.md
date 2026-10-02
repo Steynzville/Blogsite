@@ -271,3 +271,13 @@ For integration into existing architecture — light fixtures, custom millwork, 
 
 ### How do I maintain sight lines without visible cameras?
 Walk your property at different times of day. Note where someone would naturally approach. Then identify architectural or landscape features that already face those directions. A camera concealed within a downspout or lighting fixture sees everything without announcing itself.
+
+## Compare Security Hardware Before You Commit
+
+Discreet cameras depend on more than image quality — placement, power, network compatibility, storage, viewing angle, privacy and installation all matter. The [Veluce Room Procurement System](/room-procurement-system) gives you a practical framework for comparing options and verifying the details before purchase.
+
+## Explore More
+
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

@@ -212,8 +212,16 @@ Whole-home lighting control is not about controlling lights from your phone. It 
 
 The best system is not the one with the most features. It is the one that disappears into the architecture, leaving only the right light at the right moment. The highest form of technology is the technology that disappears, leaving only the experience behind.
 
+## Make the Control System Serve the Lighting Design
+
+Scenes and automation are powerful only when the underlying lighting hierarchy is right. The [Veluce Luxury Lighting Formula](/luxury-lighting-formula) helps you decide what should be bright, what should stay quiet, how the room should transition between tasks and evening, and which scenes are actually worth programming.
+
+## Make the Control System Serve the Lighting Design
+
+Scenes and automation are powerful only when the underlying lighting hierarchy is right. The [Veluce Luxury Lighting Formula](/luxury-lighting-formula) helps you decide what should be bright, what should stay quiet, how the room should transition between tasks and evening, and which scenes are actually worth programming.
+
 ## Explore More
 
-**Browse smart home solutions →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
-**Save home automation ideas →** [VELUCE Pinterest Board](https://www.pinterest.com/steynenslin/)
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

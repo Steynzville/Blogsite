@@ -326,3 +326,13 @@ Yes. Perimeter lighting can trigger security cameras to begin recording, send al
 
 ### Do I need professional monitoring?
 Professional monitoring provides 24/7 oversight and emergency dispatch. For primary residences, it is strongly recommended. For weekend or seasonal homes, it is essential — you cannot watch alerts constantly. For remote properties with good cell service, monitored self-response may suffice.
+
+## Turn the Security Plan into a Buying Brief
+
+Perimeter systems often combine cameras, lighting, sensors, access control and professional installation. The [Veluce Room Procurement System](/room-procurement-system) helps you compare products against real site constraints, capture compatibility and installation requirements, and avoid buying components that do not work together.
+
+## Explore More
+
+**Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
+
+**Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)

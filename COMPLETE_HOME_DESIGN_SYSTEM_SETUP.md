@@ -44,9 +44,16 @@ Until a valid HTTPS checkout URL is configured the sales page shows **Checkout o
 
 ## Delivery recommendation
 
-When Paystack is ready, either:
-1. build one master archive containing the five existing customer-pack ZIPs plus the flagship master ZIP; or
-2. use a protected download page that exposes all six downloads only after purchase.
+Final customer archive is prepared as **Veluce_Complete_Home_Design_System_FLAGSHIP_CUSTOMER_PACK.zip**. It contains:
+
+1. Veluce_Outdoor_Lighting_Blueprint_PREMIUM_CUSTOMER_PACK.zip
+2. Veluce_Luxury_Outdoor_Room_Planner_PREMIUM_CUSTOMER_PACK.zip
+3. Veluce_Designer_Brief_Builder_CUSTOMER_PACK.zip
+4. Veluce_Luxury_Lighting_Formula_CUSTOMER_PACK_FINAL.zip
+5. Veluce_Room_Procurement_System_CUSTOMER_PACK_FINAL.zip
+6. Veluce_Complete_Home_Design_System_MASTER_PACK.zip
+
+For Paystack, deliver that single outer archive where file-size limits permit. A protected download page listing the same six component ZIPs is the fallback.
 
 Do not place paid PDFs, workbooks, prompt libraries, customer ZIPs or offline Studios under `public/`.
 

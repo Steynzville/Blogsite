@@ -4,8 +4,9 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
 const PRICE = 'R449';
+const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
 const checkoutUrl = (import.meta.env.VITE_LUXURY_LIGHTING_FORMULA_CHECKOUT_URL || '').trim();
-const checkoutReady = /^https:\/\//i.test(checkoutUrl);
+const checkoutReady = salesLive && /^https:\/\//i.test(checkoutUrl);
 
 const signals = [
   { key: '01', icon: Eye, title: 'Hierarchy', body: 'Decide what the eye should notice first, second and barely at all. Equal brightness is usually the enemy of depth.' },

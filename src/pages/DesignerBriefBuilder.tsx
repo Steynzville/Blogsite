@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
-const PRICE = 'R299';
+const PRICE = 'R349';
 const checkoutUrl = (import.meta.env.VITE_DESIGNER_BRIEF_CHECKOUT_URL || '').trim();
 const checkoutReady = /^https:\/\//i.test(checkoutUrl);
 

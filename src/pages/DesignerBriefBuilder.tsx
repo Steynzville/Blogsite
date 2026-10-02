@@ -4,8 +4,9 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
 const PRICE = 'R349';
+const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
 const checkoutUrl = (import.meta.env.VITE_DESIGNER_BRIEF_CHECKOUT_URL || '').trim();
-const checkoutReady = /^https:\/\//i.test(checkoutUrl);
+const checkoutReady = salesLive && /^https:\/\//i.test(checkoutUrl);
 
 const clearMethod = [
   { key: 'C', title: 'Context', body: 'Capture the real room: measurements, photographs, fixed elements, orientation, access and adjacent spaces.' },

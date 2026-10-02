@@ -73,7 +73,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
         aria-disabled="true"
         title="Checkout is being configured"
       >
-        Checkout opening shortly
+        Coming soon
       </span>
     );
   }

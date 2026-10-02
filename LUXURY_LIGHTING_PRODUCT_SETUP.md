@@ -5,7 +5,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Product
 
 - Name: **The Veluce Luxury Lighting Formula — The Seven Signals of Expensive-Looking Light**
-- Launch price: **R349**
+- Launch price: **R449**
 - License: personal, non-transferable use
 - Sales page: `/luxury-lighting-formula`
 - Getting-started page: `/thank-you/luxury-lighting-formula`
@@ -64,7 +64,7 @@ Rule: **Photo → Preserve → Change one variable → Compare → Measure.**
 
 ## Price
 
-Launch at **R349**.
+Launch at **R449**.
 
 This is intentionally a premium-tier product: 190 PDF pages, a 13-sheet workbook, a 53-prompt AI Lab and an offline Atelier. It remains accessible relative to professional design services while clearly differentiated from smaller downloadable lighting guides.
 
@@ -78,7 +78,7 @@ Do not invent or hard-code a Product Link while Paystack compliance authenticati
 
 After Paystack enables the product flow:
 
-1. Create Product #4 at **R349**.
+1. Create Product #4 at **R449**.
 2. Upload and verify all customer files.
 3. Keep **Redirect after payment** blank so Paystack retains protected digital-download delivery.
 4. Include the onboarding URL in the success message:

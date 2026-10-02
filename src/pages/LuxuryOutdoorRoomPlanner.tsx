@@ -4,8 +4,9 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
 const PRICE = 'R349';
+const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
 const checkoutUrl = (import.meta.env.VITE_OUTDOOR_ROOM_PLANNER_CHECKOUT_URL || '').trim();
-const checkoutReady = /^https:\/\//i.test(checkoutUrl);
+const checkoutReady = salesLive && /^https:\/\//i.test(checkoutUrl);
 
 const layers = [
   { icon: Sofa, key: '01', title: 'Purpose', body: 'Decide what the room must make possible before you shop.' },

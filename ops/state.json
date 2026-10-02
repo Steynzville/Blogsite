@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; fourteen organic Pins published through 2026-10-02 with live destination verification.",
+    "pinterest": "Authenticated shared browser; seventeen organic Pins published through 2026-10-02 with live destination verification.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -256,6 +256,36 @@
       "title": "Smart Door Lock Ideas for Frictionless Entry",
       "description": "Explore smart access control for a safer, more elegant entrance. Compare fingerprint, keypad and app-enabled locks, remote guest access, video doorbells and the practical details to check before upgrading your front door.",
       "board": "Smart Home Security Systems"
+    },
+    {
+      "pin_id": "296815431716211854",
+      "pin_url": "https://za.pinterest.com/pin/296815431716211854/",
+      "published_at": "2026-10-02",
+      "destination": "https://velucedesign.com/article/garden-pathway-moonlighting/",
+      "creative_angle": "Winding natural-stone garden path beneath mature trees with concealed warm downlighting casting soft leaf shadows at blue hour; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Garden Moonlighting Ideas for an Enchanting Path",
+      "description": "Create a softer, more natural evening garden with pathway moonlighting. Learn how concealed downlights in trees and architectural overhangs cast gentle pools of warm light, reveal texture and guide movement without visible fixtures.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration"
+    },
+    {
+      "pin_id": "296815431716211855",
+      "pin_url": "https://za.pinterest.com/pin/296815431716211855/",
+      "published_at": "2026-10-02",
+      "destination": "https://velucedesign.com/article/invisible-hvac-design/",
+      "creative_angle": "Warm minimalist living room with pale oak flooring, linen seating and slim concealed ceiling diffusers in late-afternoon light; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Invisible HVAC Ideas for a Beautiful, Comfortable Home",
+      "description": "Keep your home comfortable without letting climate equipment interrupt the architecture. Explore discreet ducted mini-splits, linear slot diffusers, underfloor heating and smart zoning ideas for calm, efficient interiors.",
+      "board": "Smart Home Ideas & Gadgets 🔥"
+    },
+    {
+      "pin_id": "296815431716211857",
+      "pin_url": "https://za.pinterest.com/pin/296815431716211857/",
+      "published_at": "2026-10-02",
+      "destination": "https://velucedesign.com/article/modular-sectionals-entertaining/",
+      "creative_angle": "Cream modular outdoor sectional arranged in an open U shape on a landscaped limestone patio in golden-hour light; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Outdoor Modular Sectional Ideas for Flexible Entertaining",
+      "description": "Design a patio that adapts from quiet evenings to larger gatherings with modular outdoor seating. Explore sectional layouts, sizing, circulation and durable materials for a polished, flexible outdoor living space.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
     }
   ],
   "pages_created": [],

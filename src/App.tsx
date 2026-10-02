@@ -16,6 +16,8 @@ const Contact = lazy(() => import("./pages/Contact"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Affiliate = lazy(() => import("./pages/Affiliate"));
+const OutdoorLightingBlueprint = lazy(() => import("./pages/OutdoorLightingBlueprint"));
+const OutdoorLightingThankYou = lazy(() => import("./pages/OutdoorLightingThankYou"));
 
 import { restoreRedirect } from './lib/redirect.mjs';
 restoreRedirect(window);
@@ -34,6 +36,8 @@ function Router() {
           <Route path="/privacy" component={Privacy} />
           <Route path="/terms" component={Terms} />
           <Route path="/affiliate" component={Affiliate} />
+          <Route path="/outdoor-lighting-blueprint" component={OutdoorLightingBlueprint} />
+          <Route path="/thank-you/outdoor-lighting-blueprint" component={OutdoorLightingThankYou} />
           <Route path="/404" component={NotFound} />
           <Route component={NotFound} />
         </Switch>

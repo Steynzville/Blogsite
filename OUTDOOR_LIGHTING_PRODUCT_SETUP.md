@@ -1,0 +1,53 @@
+# Outdoor Lighting Blueprint — commerce setup
+
+The paid product is intentionally **not stored under `public/`**. The website contains only the sales experience. The customer files must be delivered by the checkout/digital-delivery provider after payment.
+
+## Product
+
+- Name: Veluce Outdoor Lighting Blueprint — The 4-Axis Nightscape System
+- Launch price: R299
+- Customer file: `Veluce_Outdoor_Lighting_Blueprint_CUSTOMER_PACK.zip`
+- License: personal, non-transferable use
+
+The customer ZIP contains:
+
+1. 48-page premium Blueprint PDF with clickable Veluce article links
+2. Editable Excel calculator and weighted fixture scorecard
+3. 25-prompt AI visualization PDF
+4. Offline interactive Studio Tools HTML
+5. Quick-start/read-me file
+
+## Checkout wiring
+
+1. Create the digital product in the chosen checkout provider and upload the customer ZIP there.
+2. Configure the provider to deliver the ZIP only after successful payment.
+3. When Paystack confirms the account and the final Product Link is available, set `VITE_OUTDOOR_LIGHTING_CHECKOUT_URL` to that exact HTTPS URL.
+
+4. Until that variable is configured, the sales page intentionally shows **Coming soon**.
+
+5. Once live, leave Paystack's **Redirect after payment** field blank so successful buyers remain in Paystack's native digital-download flow and can access their unique protected download page.
+
+6. In Paystack's **Success message**, include the Veluce getting-started URL as plain text:
+
+   `https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
+
+   Recommended message:
+
+   `Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your files are available to download below, and your receipt contains a link to return to this download page. Once you've saved your files, continue with the recommended workflow at: https://velucedesign.com/thank-you/outdoor-lighting-blueprint`
+
+7. Redeploy the site after the checkout variable is configured. The GitHub Pages workflow supplies the Product Link during the Vite build.
+
+## Security rule
+
+Do not commit the customer ZIP, PDF, calculator, AI prompt PDF or Studio Tools to `public/`. A public static asset URL is not purchase protection.
+
+## Routes
+
+- Sales page: `/outdoor-lighting-blueprint`
+- Post-purchase getting-started page: `/thank-you/outdoor-lighting-blueprint` (linked from the Paystack success message; intentionally noindex and excluded from the sitemap)
+- Homepage: promotional product card links to the sales page
+- Sitemap/prerender: the product route is generated like other static Veluce pages
+
+## Legal/privacy
+
+The Terms and Privacy pages now include generic digital-product and third-party checkout language. Once a provider is selected, replace the generic provider wording with the provider name and privacy/terms links if appropriate.

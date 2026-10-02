@@ -10,6 +10,7 @@ import { useSchema } from '@/components/SchemaTag';
 import { getHomepageSchema, getOrganizationSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import AboutSection from '@/components/AboutSection';
+import OutdoorLightingProductCard from '@/components/OutdoorLightingProductCard';
 
 const SearchBar = lazy(() => import('@/components/SearchBar').then(m => ({ default: m.SearchBar })));
 const NewsletterSection = lazy(() => Promise.resolve({ default: InternalNewsletterSection }));
@@ -190,6 +191,8 @@ export default function Home() {
 
       {/* About Section */}
       <AboutSection />
+
+      <OutdoorLightingProductCard />
 
       {/* Featured Articles Grid */}
       <section id="featured-articles" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 dark:bg-gray-900">

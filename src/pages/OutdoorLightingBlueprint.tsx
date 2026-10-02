@@ -4,8 +4,9 @@ import Footer from '@/components/Footer';
 import { useMetaTags } from '@/lib/meta';
 
 const PRICE = 'R299';
+const salesLive = import.meta.env.VITE_DIGITAL_PRODUCTS_LIVE === 'true';
 const checkoutUrl = (import.meta.env.VITE_OUTDOOR_LIGHTING_CHECKOUT_URL || '').trim();
-const checkoutReady = /^https:\/\//i.test(checkoutUrl);
+const checkoutReady = salesLive && /^https:\/\//i.test(checkoutUrl);
 
 const axes = [
   { key: 'X', title: 'Gathering', body: 'Dining, lounge and fire zones. Warm, intimate, human-scaled light.' },

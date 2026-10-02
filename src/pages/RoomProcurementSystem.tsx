@@ -40,7 +40,7 @@ const included = [
 
 function PurchaseButton({ compact = false }: { compact?: boolean }) {
   if (!checkoutReady) {
-    return <span className={`inline-flex items-center justify-center rounded-sm bg-stone-300 px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-stone-600 ${compact ? '' : 'sm:px-7 sm:py-4'}`} aria-disabled="true" title="Checkout is being configured">Checkout opening shortly</span>;
+    return <span className={`inline-flex items-center justify-center rounded-sm bg-stone-300 px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-stone-600 ${compact ? '' : 'sm:px-7 sm:py-4'}`} aria-disabled="true" title="Checkout is being configured">Coming soon</span>;
   }
   return <a href={checkoutUrl} className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`} rel="noopener">Get the Procurement System — {PRICE}<ArrowRight size={16}/></a>;
 }

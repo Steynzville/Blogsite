@@ -5,7 +5,7 @@ The paid product files are intentionally **not stored under `public/` or committ
 ## Product
 
 - Name: **Veluce Designer Brief Builder — The CLEAR Brief-to-Design System**
-- Launch price: **R299**
+- Launch price: **R349**
 - License: personal, non-transferable use
 - Sales page: `/designer-brief-builder`
 - Getting-started page: `/thank-you/designer-brief-builder`
@@ -46,7 +46,7 @@ Do not guess or hard-code a Product Link while the account is awaiting complianc
 
 Once Paystack digital-product delivery is available:
 
-1. Create Product #3 at **R299**.
+1. Create Product #3 at **R349**.
 2. Upload and verify the customer files above.
 3. Keep **Redirect after payment** blank so Paystack retains its protected digital-download flow.
 4. In the Paystack **Success message**, include:

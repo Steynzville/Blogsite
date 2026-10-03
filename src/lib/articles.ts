@@ -6,6 +6,7 @@ export interface ArticleMetadata {
   category: string;
   excerpt: string;
   heroImage: string;
+  heroImageAlt?: string;
   imagePosition?: string;
   featured: boolean;
   seoTitle: string;

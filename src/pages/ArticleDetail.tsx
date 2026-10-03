@@ -65,8 +65,8 @@ export default function ArticleDetail() {
   };
 
   useMetaTags({
-    title: article ? `${article.title} | VELUCE - Luxury Living Journal` : 'Article Not Found | VELUCE',
-    description: article ? (article.excerpt || article.title) : 'The article you are looking for does not exist.',
+    title: article ? (article.seoTitle || `${article.title} | VELUCE - Luxury Living Journal`) : 'Article Not Found | VELUCE',
+    description: article ? (article.metaDescription || article.excerpt || article.title) : 'The article you are looking for does not exist.',
     url: article ? `${baseUrl}/article/${article.slug}` : (typeof window !== 'undefined' ? window.location.href : baseUrl),
     type: article ? 'article' : 'website',
     author: article ? 'VELUCE' : undefined,
@@ -159,7 +159,7 @@ export default function ArticleDetail() {
           <div className="mb-8 -mx-4 sm:mx-0 sm:rounded-lg overflow-hidden">
 <OptimizedImage
 		              src={article.heroImage}
-		              alt={article.title}
+		              alt={article.heroImageAlt || article.title}
 		              className="w-full h-96 object-cover"
 		              style={{ objectPosition: article.imagePosition || 'center center' }}
 		              itemProp="image"

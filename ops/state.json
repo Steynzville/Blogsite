@@ -414,9 +414,36 @@
     "version": 1,
     "lastRunDate": "2026-10-03",
     "lastRunType": "NEW",
-    "nextRunType": "NEW",
-    "nextNewProduct": "Outdoor Lighting Blueprint",
-    "pendingRun": {
+    "nextRunType": "REFRESH",
+    "nextNewProduct": "Luxury Outdoor Room Planner",
+    "pendingRun": null,
+    "history": [
+      {
+        "runType": "NEW",
+        "articleSlug": "outdoor-lighting-glare-night-audit",
+        "articleTitle": "Outdoor Lighting Glare: A Night Audit for a Calmer Garden",
+        "primaryTopic": "Diagnosing outdoor glare from occupied viewpoints",
+        "primaryProduct": "Outdoor Lighting Blueprint",
+        "branch": "editorial/2026-10-03-outdoor-glare-audit",
+        "prNumber": 18,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/18",
+        "mergeStatus": "merged",
+        "mergeCommit": "3ffd6e6a289e11251620cfb8010d06038e92a7bf",
+        "validationResult": "Passed: TypeScript, 10 tests, 27-article audit with zero issues, production build with 46 routes, ops validation, and GitHub quality gates including desktop/mobile screenshot capture (run 37125866744).",
+        "publicationDate": "2026-10-03",
+        "plannedNextRunType": "REFRESH",
+        "plannedNextNewProduct": "Luxury Outdoor Room Planner",
+        "selectionReason": "Existing 26 articles cover fixtures and effects; none provides a multi-viewpoint diagnostic night audit. Analytics unavailable; demand not quantified.",
+        "sources": [
+          "https://darksky.org/resources/guides-and-how-tos/lighting-principles/"
+        ],
+        "sourceCheckedAt": "2026-10-03",
+        "imageProvenance": "Original AI-generated editorial design illustration; disclosed in article.",
+        "deploymentVerification": "Merge confirmed; automatic deployment pending verification.",
+        "completedAt": "2026-10-03T13:26:29Z"
+      }
+    ],
+    "lastRun": {
       "runType": "NEW",
       "articleSlug": "outdoor-lighting-glare-night-audit",
       "articleTitle": "Outdoor Lighting Glare: A Night Audit for a Calmer Garden",
@@ -425,10 +452,10 @@
       "branch": "editorial/2026-10-03-outdoor-glare-audit",
       "prNumber": 18,
       "prUrl": "https://github.com/Steynzville/Blogsite/pull/18",
-      "mergeStatus": "pending_ci",
-      "mergeCommit": null,
-      "validationResult": "Passed locally: TypeScript, 10 tests, 27-article audit (0 issues), production build (46 routes), ops validation. PR CI pending.",
-      "publicationDate": null,
+      "mergeStatus": "merged",
+      "mergeCommit": "3ffd6e6a289e11251620cfb8010d06038e92a7bf",
+      "validationResult": "Passed: TypeScript, 10 tests, 27-article audit with zero issues, production build with 46 routes, ops validation, and GitHub quality gates including desktop/mobile screenshot capture (run 37125866744).",
+      "publicationDate": "2026-10-03",
       "plannedNextRunType": "REFRESH",
       "plannedNextNewProduct": "Luxury Outdoor Room Planner",
       "selectionReason": "Existing 26 articles cover fixtures and effects; none provides a multi-viewpoint diagnostic night audit. Analytics unavailable; demand not quantified.",
@@ -436,8 +463,9 @@
         "https://darksky.org/resources/guides-and-how-tos/lighting-principles/"
       ],
       "sourceCheckedAt": "2026-10-03",
-      "imageProvenance": "Original AI-generated editorial design illustration; disclosed in article."
-    },
-    "history": []
+      "imageProvenance": "Original AI-generated editorial design illustration; disclosed in article.",
+      "deploymentVerification": "Merge confirmed; automatic deployment pending verification.",
+      "completedAt": "2026-10-03T13:26:29Z"
+    }
   }
 }

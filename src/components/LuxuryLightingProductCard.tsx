@@ -1,5 +1,4 @@
 import { ZarPrice } from './ZarPrice';
-import { ZarPrice } from './ZarPrice';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'wouter';
 

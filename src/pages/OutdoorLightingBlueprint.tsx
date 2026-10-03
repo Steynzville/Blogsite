@@ -1,3 +1,4 @@
+import { ZarPrice } from '@/components/ZarPrice';
 import { Check, ArrowRight, Sparkles, Calculator, FileText, WandSparkles } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
@@ -85,7 +86,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
       className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`}
       rel="noopener"
     >
-      Get the Blueprint — {PRICE}
+      Get the Blueprint — <ZarPrice value={PRICE} />
       <ArrowRight size={16} />
     </a>
   );

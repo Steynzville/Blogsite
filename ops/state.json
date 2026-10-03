@@ -439,8 +439,10 @@
         ],
         "sourceCheckedAt": "2026-10-03",
         "imageProvenance": "Original AI-generated editorial design illustration; disclosed in article.",
-        "deploymentVerification": "Merge confirmed; automatic deployment pending verification.",
-        "completedAt": "2026-10-03T13:26:29Z"
+        "deploymentVerification": "Deployment run 37126240591 succeeded for 30f83df0a19afe36572eb7ee3aad36c5a809a548. Live article headings, hero loading/alt, audit table, contextual CTA including dynamic ZAR/USD display and path-guide navigation verified in shared browser. Existing CI desktop/mobile captures passed; new article mobile table wrapper validated in rendered HTML.",
+        "completedAt": "2026-10-03T13:26:29Z",
+        "liveUrl": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
+        "deployedSha": "30f83df0a19afe36572eb7ee3aad36c5a809a548"
       }
     ],
     "lastRun": {
@@ -464,8 +466,10 @@
       ],
       "sourceCheckedAt": "2026-10-03",
       "imageProvenance": "Original AI-generated editorial design illustration; disclosed in article.",
-      "deploymentVerification": "Merge confirmed; automatic deployment pending verification.",
-      "completedAt": "2026-10-03T13:26:29Z"
+      "deploymentVerification": "Deployment run 37126240591 succeeded for 30f83df0a19afe36572eb7ee3aad36c5a809a548. Live article headings, hero loading/alt, audit table, contextual CTA including dynamic ZAR/USD display and path-guide navigation verified in shared browser. Existing CI desktop/mobile captures passed; new article mobile table wrapper validated in rendered HTML.",
+      "completedAt": "2026-10-03T13:26:29Z",
+      "liveUrl": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
+      "deployedSha": "30f83df0a19afe36572eb7ee3aad36c5a809a548"
     }
   }
 }

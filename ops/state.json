@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; seventeen organic Pins published through 2026-10-02 with live destination verification.",
+    "pinterest": "Authenticated shared browser; twenty organic article Pins published through 2026-10-03 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -300,6 +300,36 @@
       "board": "Outdoor Lighting Ideas",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716215714",
+      "pin_url": "https://za.pinterest.com/pin/296815431716215714/",
+      "published_at": "2026-10-03",
+      "destination": "https://velucedesign.com/article/natural-stone-materials/",
+      "creative_angle": "Golden-hour material studio with distinct veined marble, porous linear travertine and creamy limestone samples arranged on an oak worktable; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Marble, Travertine or Limestone? How to Choose",
+      "description": "Compare marble, travertine and limestone for a timeless interior. See how each natural stone differs in colour, texture, durability, maintenance and best use so you can choose a beautiful material that suits the way you live.",
+      "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design"
+    },
+    {
+      "pin_id": "296815431716215720",
+      "pin_url": "https://za.pinterest.com/pin/296815431716215720/",
+      "published_at": "2026-10-03",
+      "destination": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "creative_angle": "Minimal matte-brass scene switch overlooking a warm blue-hour living room with coordinated cove, floor, shelf and artwork lighting; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Whole-Home Lighting Control Ideas for Effortless Ambience",
+      "description": "Create the right light for every moment with whole-home lighting control. Explore dimmers, scenes, sensors and smart switches that coordinate layered lighting without filling your home with visible technology.",
+      "board": "Smart Home Ideas & Gadgets 🔥"
+    },
+    {
+      "pin_id": "296815431716215726",
+      "pin_url": "https://za.pinterest.com/pin/296815431716215726/",
+      "published_at": "2026-10-03",
+      "destination": "https://velucedesign.com/article/outdoor-fireplace-focal-point/",
+      "creative_angle": "Tall built-in limestone outdoor fireplace anchoring two cream lounge chairs with black tools and a canvas firewood carrier at blue hour; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Outdoor Fireplace Ideas That Anchor the Patio",
+      "description": "Turn an outdoor fireplace into the true focal point of your patio. Explore positioning, proportion, durable materials, seating layout, draft and safety considerations for a warm outdoor room that feels designed around the fire.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
     }
   ],
   "pages_created": [],

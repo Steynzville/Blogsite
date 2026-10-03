@@ -4,7 +4,7 @@ slug: "upward-lighting-architectural-grazing"
 category: "Outdoor Lighting"
 excerpt: "Discover how upward lighting transforms ordinary facades into dramatic, textured focal points — and why it's one of the most powerful tools in luxury landscape design."
 heroImage: "/images/hero-dastor-patio-dusk.jpg"
-featured: true
+featured: false
 seoTitle: "Upward Lighting: The Art of Architectural Grazing for Luxury Homes | VELUCE"
 metaDescription: "Discover how architectural grazing with upward lighting transforms ordinary facades into dramatic, textured focal points at night. Complete guide for luxury homes."
 wordCount: 1420

@@ -13,6 +13,15 @@ export default function Footer() {
             <p className="text-sm text-gray-400">
               Luxury Living Journal — where design meets craftsmanship.
             </p>
+            <a
+              href="https://www.facebook.com/share/18WY59UNQX/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-sm text-gray-400 hover:text-white transition-colors"
+              aria-label="Follow Veluce Studio on Facebook"
+            >
+              Follow Veluce Studio on Facebook →
+            </a>
           </div>
           <div>
             <h5 className="text-white font-semibold mb-4 text-sm">Categories</h5>

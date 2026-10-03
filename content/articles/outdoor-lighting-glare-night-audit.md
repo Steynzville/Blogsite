@@ -92,6 +92,8 @@ If a neighbour has raised a specific concern, an agreed observation from their a
 
 Use one row per problem. The target matters because a successful fix should retain the useful function rather than simply make the offending light disappear.
 
+<div class="prose-table-container" role="region" aria-label="Night audit examples" tabindex="0">
+
 | Position | Observed problem | Intended target | First change to test |
 |---|---|---|---|
 | Dining chair beside border | Exposed source at eye level | Edge of nearby path | Approved shield or revised position |
@@ -99,6 +101,8 @@ Use one row per problem. The target matters because a successful fix should reta
 | Kitchen window | Interior pendant reflected in glass | Dining table indoors | Lower interior evening scene |
 | Bedroom | Garden accent remains intrusive late | Selected planting during use | Earlier switch-off scene |
 | Boundary | Beam extends beyond property | Entrance approach | Installer checks aiming and optic |
+
+</div>
 
 These are illustrative observations, not a specification for every home. Repeat a row for different viewing positions if the same fitting causes several effects. Photograph the position and write the time, active scene and weather conditions so a later comparison has context.
 

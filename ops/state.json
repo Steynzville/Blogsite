@@ -381,5 +381,31 @@
     "github_write_access": "restored via connector",
     "merge_authorized": false,
     "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
+  },
+  "veluce_six_product_cover_rotation_v1": {
+    "cycle": 1,
+    "last_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
+    "history": [
+      {
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 1,
+        "image_source": "supplied",
+        "original_reference": "100521.png / libfile_9580f40b49408191919028df2a98b52e",
+        "creative_concept": "Unaltered supplied cover: warm dusk stone-and-timber outdoor lounge, glowing steps, trees and pool, prominent cream/gold serif title and subtle lighting plan motif.",
+        "marketing_angle": "Create depth and atmosphere without over-lighting the garden.",
+        "title": "Outdoor Lighting Ideas: Create Depth Without Over-Lighting",
+        "description": "A garden can be bright yet still feel flat. Layer warm light around seating, steps and a few trees, while leaving quieter areas dark. Explore the Outdoor Lighting Blueprint preview from Veluce Studio for a four-axis approach to outdoor lighting, garden atmosphere and confident fixture choices. Coming soon.",
+        "destination": "https://velucedesign.com/outdoor-lighting-blueprint",
+        "board": "Outdoor Lighting Ideas",
+        "published_at": "2026-10-03",
+        "pin_url": "https://za.pinterest.com/pin/296815431716217597/",
+        "pin_id": "296815431716217597",
+        "verification_status": "publication_confirmed_destination_check_pending"
+      }
+    ]
   }
 }

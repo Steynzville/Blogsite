@@ -56,6 +56,7 @@ export const studioProducts = {
 };
 
 export const articleStudioRecommendations = {
+  'outdoor-lighting-glare-night-audit': { product: 'outdoorLighting', hook: 'Turn your night-audit observations into a considered lighting plan before buying more fixtures.' },
   'fire-pit-tables-centerpiece': { product: 'outdoorRoom', hook: 'Planning the rest of the patio around a fire feature?' },
   'pergola-lighting-outdoor-room': { product: 'outdoorLighting', hook: 'Want the pergola to feel intentional after dark, not simply brighter?' },
   'upward-lighting-architectural-grazing': { product: 'outdoorLighting', hook: 'Planning a complete exterior lighting composition rather than one grazing detail?' },

@@ -9,7 +9,7 @@ seoTitle: "Garden Pathway Lighting as Movement Architecture | VELUCE"
 metaDescription: "Garden pathway lighting as movement architecture. How light guides movement through darkness — not just illumination, but the choreography of garden experience after sunset."
 wordCount: 2450
 publishedAt: "2026-06-08T00:00:00.000000"
-updatedAt: "2026-06-08T00:00:00.000000"
+updatedAt: "2026-10-03T13:10:00.000Z"
 faq: [{"question": "How far apart should pathway lights be spaced?", "answer": "Generally 6-8 feet for continuous guidance, 10-15 feet for accent only. The rhythm of spacing determines whether the path reads as a single continuous line or a series of discrete pools of light."}, {"question": "Should pathway lights face up or down?", "answer": "Downward-facing fixtures create pools of light on the walking surface. Upward-facing creates silhouettes and drama but offers less guidance. Most movement architecture relies on downward orientation for safety and directional clarity."}, {"question": "Do pathway lights need to be on both sides?", "answer": "Single-sided alternating creates rhythm and asymmetry. Double-sided creates formality and enclosure. The choice shapes how the path feels: casual versus ceremonial."}, {"question": "What's the ideal brightness for pathway lighting?", "answer": "Just enough to see the surface texture. Over-lit paths feel like runways, not gardens. Under-lit paths feel uncertain. The target is comfortable navigation without conscious effort."}, {"question": "What is the difference between ground-level path lighting and moonlighting?", "answer": "Ground-level path lighting uses fixtures at or below the walking surface to guide movement rhythm. Moonlighting uses downlighting from above (trees, structures) to create atmospheric mood. One is directional gravity (Z-axis); the other is ambient gravity (A-axis)."}]
 relatedArticles: ["hidden-uplighting-mature-trees", "fire-pit-tables-centerpiece", "garden-pathway-moonlighting"]
 internalLinks: [{"text": "Tree Uplighting", "slug": "hidden-uplighting-mature-trees"}, {"text": "Fire Pit Tables", "slug": "fire-pit-tables-centerpiece"}, {"text": "Pathway Moonlighting", "slug": "garden-pathway-moonlighting"}]
@@ -190,3 +190,8 @@ If you are deciding where path lights should sit and what they should do, the [V
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
 **Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)
+
+
+## Check the view from the people using it
+
+Before adding brightness, use the [outdoor lighting glare night audit](/article/outdoor-lighting-glare-night-audit/) to check exposed sources from seating, both walking directions and indoor windows. It helps separate aiming, shielding and reflection problems from a genuine need for more light.

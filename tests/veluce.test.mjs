@@ -35,10 +35,9 @@ test('verified brief renders into existing Markdown pipeline without fabricated 
 });
 
 test('all published articles have exactly one contextual Studio product',()=>{
- const articles=JSON.parse(fs.readFileSync('public/articles.json','utf8'));
- const articleSlugs=articles.map(a=>a.slug).sort();
+ const articleSlugs=fs.readdirSync('content/articles').filter(name=>name.endsWith('.md')).map(name=>name.slice(0,-3)).sort();
  const mapped=Object.keys(articleStudioRecommendations).sort();
- assert.equal(articleSlugs.length,26);
+ assert.ok(articleSlugs.length >= 26, 'Established editorial library is preserved');
  assert.deepEqual(mapped,articleSlugs);
  for(const slug of articleSlugs){
    const recommendation=getStudioRecommendation(slug);

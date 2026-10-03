@@ -9,7 +9,7 @@ seoTitle: "Pergola Lighting Design: Create an Outdoor Room | VELUCE"
 metaDescription: "Master pergola lighting design to create an outdoor room after dark. Learn how integrated LED strips, string lights, and layered illumination transform open structures."
 wordCount: 2650
 publishedAt: "2026-06-12T00:00:00.000000"
-updatedAt: "2026-06-12T00:00:00.000000"
+updatedAt: "2026-10-03T13:10:00.000Z"
 faq: [{"question": "What's the best lighting for a pergola?", "answer": "A layered approach works best: integrated LED strips in the beams for ambient glow, string lights for human-scale warmth, and uplighting on surrounding plants for depth and enclosure."}, {"question": "How do I hang string lights on a pergola?", "answer": "Drape them in a zigzag pattern across the beams, or run them along the perimeter. Ensure bulbs are evenly spaced and the wire has slight sag for a relaxed, inviting look."}, {"question": "Can I use solar lights on a pergola?", "answer": "Yes — solar string lights and solar spotlights are suitable for most pergola applications where wiring is impractical. For permanent LED strip installations, low-voltage (plug-in transformer or hardwired systems) are the standard."}, {"question": "What color temperature is best for pergola lighting?", "answer": "Warm white (2700K-3000K) creates an inviting, residential atmosphere. Avoid cool white — it feels clinical and ruins the evening ambiance."}, {"question": "How do I light a pergola for dining?", "answer": "Use LED strips integrated into the beams directly above the table for even illumination, or hang a string light directly over the dining area."}]
 relatedArticles: ["fire-pit-tables-centerpiece", "garden-pathway-lighting", "led-strip-integration-modern-deck"]
 internalLinks: [{"text": "Fire Pit Tables", "slug": "fire-pit-tables-centerpiece"}, {"text": "Pathway Lighting", "slug": "garden-pathway-lighting"}, {"text": "LED Strip Integration", "slug": "led-strip-integration-modern-deck"}]
@@ -226,3 +226,8 @@ Lighting the beams is only one layer. The strongest pergola schemes connect the 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)
 
 **Save ideas for later →** [VELUCE on Pinterest](https://www.pinterest.com/steynenslin/)
+
+
+## Check the view from the people using it
+
+Before adding brightness, use the [outdoor lighting glare night audit](/article/outdoor-lighting-glare-night-audit/) to check exposed sources from seating, both walking directions and indoor windows. It helps separate aiming, shielding and reflection problems from a genuine need for more light.

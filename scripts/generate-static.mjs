@@ -196,8 +196,8 @@ async function generateStaticHtml(articles) {
       );
       return {
         path: `/article/${a.slug}`,
-        title: `${a.title} — VELUCE`,
-        description: a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`,
+        title: a.seoTitle || `${a.title} — VELUCE`,
+        description: a.metaDescription || a.excerpt || a.description || `Read about ${a.title} on VELUCE Luxury Living Journal.`,
         image: a.heroImage,
         content: `<h1>${escapeHtml(a.title)}</h1><p>Some links may earn Veluce a commission at no extra cost to you. Purchases, delivery and returns are handled by the retailer. <a href="/affiliate/">Affiliate disclosure</a>.</p><div>${beforeStudio}</div>${studioRecommendation}${afterStudio ? `<div>${afterStudio}</div>` : ''}`
       };

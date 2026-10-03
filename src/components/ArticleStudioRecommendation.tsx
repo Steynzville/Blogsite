@@ -1,3 +1,4 @@
+import { ZarPrice } from './ZarPrice';
 import { Link } from 'wouter';
 import { getStudioRecommendation } from '@/lib/studio-recommendations.mjs';
 
@@ -45,7 +46,7 @@ export default function ArticleStudioRecommendation({ slug }: Props) {
               </a>
             </Link>
             <p className="mt-3 text-sm text-stone-600">
-              {recommendation.price}{salesLive ? '' : ' · coming soon'}
+              <ZarPrice value={recommendation.price} />{salesLive ? '' : ' · coming soon'}
             </p>
           </div>
         </div>

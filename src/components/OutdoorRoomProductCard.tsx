@@ -1,3 +1,4 @@
+import { ZarPrice } from './ZarPrice';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'wouter';
 
@@ -20,7 +21,7 @@ export default function OutdoorRoomProductCard() {
                 Explore the Planner <ArrowRight size={15} />
               </a>
             </Link>
-            <span className="text-sm text-stone-600">R349 · {salesLive ? 'one-time purchase' : 'coming soon'}</span>
+            <span className="text-sm text-stone-600"><ZarPrice value="R349" /> · {salesLive ? 'one-time purchase' : 'coming soon'}</span>
           </div>
         </div>
         <div className="relative min-h-[360px]">

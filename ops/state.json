@@ -439,11 +439,12 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Outdoor Lighting Blueprint",
+    "last_product": "Luxury Outdoor Room Planner",
     "completed_products": [
-      "Outdoor Lighting Blueprint"
+      "Outdoor Lighting Blueprint",
+      "Luxury Outdoor Room Planner"
     ],
-    "next_product": "Luxury Outdoor Room Planner",
+    "next_product": "Designer Brief Builder",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -462,6 +463,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Luxury Outdoor Room Planner",
+        "cycle": 1,
+        "image_source": "supplied",
+        "original_reference": "100522.png / libfile_524724dae30881919fccd60c4ecd4955",
+        "creative_concept": "Unaltered supplied cover: golden-hour outdoor dining and lounge with fire pit, pool and warm architectural lighting beneath cream/gold serif product title and subtle floor-plan motif.",
+        "marketing_angle": "Map purposeful lounging and dining zones and measure circulation before choosing furniture.",
+        "title": "Outdoor Room Planning: Design the Zones Before the Furniture",
+        "description": "A patio feels more like a room when lounging, dining and walking routes each have a clear purpose. Map the zones and measure the furniture footprint before shopping. Explore Veluce Studio’s Luxury Outdoor Room Planner preview and its five-layer method for a considered outdoor living space. Coming soon.",
+        "destination": "https://velucedesign.com/luxury-outdoor-room-planner/",
+        "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces",
+        "published_at": "2026-10-04",
+        "pin_url": "https://za.pinterest.com/pin/296815431716225152/",
+        "pin_id": "296815431716225152",
+        "verification_status": "verified",
+        "visit_site_verified": true,
+        "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic"
       }
     ]
   },

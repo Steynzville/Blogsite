@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-04",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; twenty organic article Pins published through 2026-10-03 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; twenty-four organic article Pins published through 2026-10-04 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -345,6 +345,46 @@
       "board": "Garden & Patio Ideas & Finds 🔥",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716223173",
+      "pin_url": "https://za.pinterest.com/pin/296815431716223173/",
+      "published_at": "2026-10-04",
+      "destination": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
+      "creative_angle": "Warm oak kitchen showroom contrasting a thick crystalline quartzite waterfall island with a slim precisely veined porcelain worktop; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Quartzite vs Porcelain Countertops: Which Is Right?",
+      "description": "Compare quartzite and porcelain countertops for a luxury kitchen. Learn how natural variation, heat resistance, sealing, stain care, edge profiles and installation differ so you can choose the surface that suits your home.",
+      "board": "Kitchen Essentials & Must-Haves 🔥 — Premium Kitchen Upgrades"
+    },
+    {
+      "pin_id": "296815431716223177",
+      "pin_url": "https://za.pinterest.com/pin/296815431716223177/",
+      "published_at": "2026-10-04",
+      "destination": "https://velucedesign.com/article/perimeter-monitoring/",
+      "creative_angle": "Landscaped blue-hour driveway and modern gate layered with a visible PoE camera, warm path lights and discreet motion lighting; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Layered Perimeter Security Ideas for a Safer Home",
+      "description": "Start protection at the property edge with visible cameras, warm security lighting and early-warning sensors. Learn how to layer driveway, gate and boundary monitoring for stronger coverage without making a beautiful home feel like a fortress.",
+      "board": "Home Security Ideas & Setups"
+    },
+    {
+      "pin_id": "296815431716223186",
+      "pin_url": "https://za.pinterest.com/pin/296815431716223186/",
+      "published_at": "2026-10-04",
+      "destination": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "creative_angle": "Restrained golden-hour living room with sculptural linen seating, cognac leather, honed limestone, pale oak and generous negative space; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Timeless Luxury Interior Design: 5 Principles That Matter",
+      "description": "Luxury interiors feel calm because every element earns its place. Explore proportion, negative space, honest materials, restrained colour and layered light for a timeless home that looks refined without feeling overdecorated.",
+      "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design"
+    },
+    {
+      "pin_id": "296815431716223190",
+      "pin_url": "https://za.pinterest.com/pin/296815431716223190/",
+      "published_at": "2026-10-04",
+      "destination": "https://velucedesign.com/article/kitchen-appliances-luxury/",
+      "creative_angle": "Warm cream-and-oak kitchen anchored by a deep olive range cooker with brass controls, integrated refrigeration and compact coffee scale; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Luxury Kitchen Appliances: Where Performance Meets Design",
+      "description": "Explore how range cookers, integrated refrigeration, quiet dishwashers and proper ventilation shape a high-performance luxury kitchen. Learn where to invest, how to coordinate finishes and what should disappear into the cabinetry.",
+      "board": "Kitchen Essentials & Must-Haves 🔥 — Premium Kitchen Upgrades"
     }
   ],
   "pages_created": [],

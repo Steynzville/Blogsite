@@ -511,5 +511,17 @@
       "liveUrl": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
       "deployedSha": "30f83df0a19afe36572eb7ee3aad36c5a809a548"
     }
-  }
+  },
+  "facebook_publications": [
+    {
+      "date": "2026-10-04",
+      "destination": "Affiliate Deals Hub",
+      "content_type": "article-led design tip",
+      "topic": "Fire pit table sizing and patio circulation",
+      "veluce_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "creative": "Text post with Veluce article link preview; mark table footprint before purchase",
+      "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2617467042041263",
+      "verified": true
+    }
+  ]
 }

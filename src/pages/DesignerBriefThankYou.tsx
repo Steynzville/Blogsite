@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { ArrowRight, Brain, CheckCircle2, ClipboardCheck, Download, Images, Ruler } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
-import { useMetaTags } from '@/lib/meta';
+import { useMetaTags } from '@/lib/meta';\nimport SecureProductDownload from '@/components/SecureProductDownload';
 
 const steps = [
-  { icon: Download, title: 'Save the complete customer pack', body: 'Paystack handles secure delivery. Download every file first, then save the pack somewhere you can return to throughout the project.' },
+  { icon: Download, title: 'Save the complete customer pack', body: 'Use the secure download above to verify your Paystack payment and retrieve the complete customer ZIP, then save it somewhere you can return to throughout the project.' },
   { icon: Ruler, title: 'Capture Context + Lifestyle', body: 'Open the premium guide and workbook. Record the real space, measurements, fixed elements, users, routines and the problems you need the project to solve.' },
   { icon: Images, title: 'Decode your references', body: 'Use the Reference Decoder and Style Decoder Cards. Name what you like and dislike in each image instead of forcing your taste into one style label.' },
   { icon: ClipboardCheck, title: 'Rank essentials + reality', body: 'Prioritise must-haves, nice-to-haves, budget, timing, maintenance and the things that must not change. Make open questions visible.' },
@@ -60,10 +60,10 @@ export default function DesignerBriefThankYou() {
               Start with the real space. End with a brief people can use.
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-stone-300 sm:text-lg">
-              Save your Paystack downloads first. Then follow this sequence to move from scattered references to a clear project handoff.
+              Verify your Paystack payment below and download the customer pack. Then follow this sequence to move from scattered references to a clear project handoff.
             </p>
           </div>
-        </section>
+        </section>\n\n        <SecureProductDownload productSlug="designer-brief-builder" productName="Designer Brief Builder" />
 
         <section className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">

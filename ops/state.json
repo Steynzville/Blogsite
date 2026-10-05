@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-04",
+  "updated_at": "2026-10-05",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; twenty-four organic article Pins published through 2026-10-04 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; twenty-eight organic article Pins published through 2026-10-05 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -400,6 +400,46 @@
       "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/designer-brief-builder/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716231387",
+      "pin_url": "https://za.pinterest.com/pin/296815431716231387/",
+      "published_at": "2026-10-05",
+      "destination": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
+      "creative_angle": "Blue-hour patio-to-garden view with concealed low-level lighting and warm stone-path illumination; serif editorial hook “LIGHT WITHOUT GLARE”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Outdoor Lighting Glare: How to Create a Calmer Garden",
+      "description": "Before adding more garden lights, check what you see from the sofa, path and bedroom. Learn how shielding, aiming, dimming and warmer layers can reduce outdoor lighting glare, reflections and unwanted spill after dark.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere"
+    },
+    {
+      "pin_id": "296815431716231391",
+      "pin_url": "https://za.pinterest.com/pin/296815431716231391/",
+      "published_at": "2026-10-05",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "creative_angle": "Low-viewpoint curving stone path through layered planting toward a glowing timber pavilion at dusk; serif editorial hook “PATHS THAT WELCOME”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Garden Pathway Lighting Ideas That Guide Every Step",
+      "description": "Use garden pathway lighting to shape movement as well as visibility. Explore spacing, fixture height, alternating rhythm and warm downward light for a welcoming path that feels calm, safe and beautifully connected after sunset.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere"
+    },
+    {
+      "pin_id": "296815431716231395",
+      "pin_url": "https://za.pinterest.com/pin/296815431716231395/",
+      "published_at": "2026-10-05",
+      "destination": "https://velucedesign.com/article/moonlighting-tree-canopies/",
+      "creative_angle": "Image-only upward view beneath a mature tree canopy with concealed warm downlighting casting intricate dappled shadows across limestone at blue hour; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Moonlighting Trees for Natural Garden Ambience",
+      "description": "Create the effect of natural moonlight filtering through mature branches. Learn how concealed downlights, open canopies and careful mounting cast soft dappled shadows across paths, terraces and planting without visible fixtures.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration"
+    },
+    {
+      "pin_id": "296815431716231399",
+      "pin_url": "https://za.pinterest.com/pin/296815431716231399/",
+      "published_at": "2026-10-05",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "creative_angle": "Close three-quarter view of a honed-limestone gas fire pit with dark reflective glass, sculptural flames and cream lounge seating at blue hour; serif editorial hook “GATHER AFTER DARK”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Fire Pit Table Ideas for Warm Evenings Outdoors",
+      "description": "Make a fire pit table the gathering point of your patio. Compare gas and wood-burning designs, useful heat output, placement, materials and safety details for an outdoor living space that stays inviting after dark.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
     }
   ],
   "pages_created": [],

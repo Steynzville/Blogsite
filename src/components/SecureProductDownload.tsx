@@ -65,6 +65,8 @@ export default function SecureProductDownload({ productSlug, productName, bundle
               {validReference ? (
                 <a
                   href={downloadUrl}
+                  data-product-id={productSlug}
+                  data-placement="payment-verification"
                   className="inline-flex items-center gap-2 rounded-sm bg-[#17120f] px-5 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-white hover:bg-black"
                 >
                   <Download size={16} />

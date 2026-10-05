@@ -5,7 +5,7 @@ export const studioProducts = {
     method: 'The 4-Axis Nightscape System',
     href: '/outdoor-lighting-blueprint',
     price: 'R299',
-    cta: 'Explore the Blueprint',
+    cta: 'Explore the Outdoor Lighting Blueprint',
     body: 'Plan the nighttime effect, zones and priorities before you start buying fixtures.'
   },
   outdoorRoom: {
@@ -14,7 +14,7 @@ export const studioProducts = {
     method: 'The 5-Layer Outdoor Room Method',
     href: '/luxury-outdoor-room-planner',
     price: 'R349',
-    cta: 'Explore the Planner',
+    cta: 'Explore the Luxury Outdoor Room Planner',
     body: 'Turn a patio, deck or pergola into a deliberate outdoor room with purpose, zones, flow, scale and atmosphere.'
   },
   designerBrief: {
@@ -23,7 +23,7 @@ export const studioProducts = {
     method: 'The CLEAR Brief-to-Design System',
     href: '/designer-brief-builder',
     price: 'R349',
-    cta: 'Explore the Brief Builder',
+    cta: 'Explore the Designer Brief Builder',
     body: 'Turn scattered ideas, real-space facts and inspiration into a brief a designer, contractor or AI tool can actually use.'
   },
   luxuryLighting: {
@@ -32,7 +32,7 @@ export const studioProducts = {
     method: 'The Seven Signals of Expensive-Looking Light',
     href: '/luxury-lighting-formula',
     price: 'R449',
-    cta: 'Explore the Formula',
+    cta: 'Explore the Luxury Lighting Formula',
     body: 'Diagnose flat or harsh lighting, rebuild hierarchy and scenes, and test changes before buying more light.'
   },
   procurement: {
@@ -41,7 +41,7 @@ export const studioProducts = {
     method: 'The SOURCE Method',
     href: '/room-procurement-system',
     price: 'R449',
-    cta: 'Explore the Procurement System',
+    cta: 'Explore the Room Procurement System',
     body: 'Specify before shopping, compare on evidence, verify real cost and fit, then track the purchase through delivery and close-out.'
   },
   completeHome: {
@@ -50,7 +50,7 @@ export const studioProducts = {
     method: 'The Veluce Path',
     href: '/complete-home-design-system',
     price: 'R999',
-    cta: 'Explore the Complete System',
+    cta: 'Explore the Complete Home Design System',
     body: 'Connect brief, space, lighting, procurement and whole-home project control in one evidence-led homeowner system.'
   }
 };

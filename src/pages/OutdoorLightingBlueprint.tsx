@@ -82,7 +82,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
 
   return (
     <a
-      href={checkoutUrl}
+      href={checkoutUrl} data-product-id="outdoor-lighting-blueprint" data-product-name="Outdoor Lighting Blueprint" data-placement="product-checkout" data-checkout="true" data-value="299" data-currency="ZAR"
       className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`}
       rel="noopener"
     >

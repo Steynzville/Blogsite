@@ -157,10 +157,25 @@ async function generateSitemap(articles) {
     sitemap += `  <url>\n    <loc>${SITE_URL}/category/${categorySlug}/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
   }
 
-  // Add static pages
-  const staticPages = ['/about', '/contact', '/privacy', '/terms', '/affiliate', '/outdoor-lighting-blueprint', '/luxury-outdoor-room-planner', '/designer-brief-builder', '/luxury-lighting-formula', '/room-procurement-system', '/complete-home-design-system'];
+  // Add static pages. Commercial Studio pages carry a real last-modified date so
+  // sitemap refreshes clearly expose launches/updates to crawlers.
+  const staticPages = [
+    { path: '/about' },
+    { path: '/contact' },
+    { path: '/privacy' },
+    { path: '/terms' },
+    { path: '/affiliate' },
+    { path: '/outdoor-lighting-blueprint', lastmod: '2026-10-06' },
+    { path: '/luxury-outdoor-room-planner', lastmod: '2026-10-06' },
+    { path: '/designer-brief-builder', lastmod: '2026-10-06' },
+    { path: '/luxury-lighting-formula', lastmod: '2026-10-06' },
+    { path: '/room-procurement-system', lastmod: '2026-10-06' },
+    { path: '/complete-home-design-system', lastmod: '2026-10-06' },
+  ];
   for (const page of staticPages) {
-    sitemap += `  <url>\n    <loc>${SITE_URL}${page}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
+    sitemap += `  <url>\n    <loc>${SITE_URL}${page.path}/</loc>\n`;
+    if (page.lastmod) sitemap += `    <lastmod>${page.lastmod}</lastmod>\n`;
+    sitemap += `    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
   }
 
   sitemap += `</urlset>`;

@@ -479,12 +479,13 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Luxury Outdoor Room Planner",
+    "last_product": "Designer Brief Builder",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -521,6 +522,22 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Designer Brief Builder",
+        "cycle": 1,
+        "image_source": "supplied",
+        "original_reference": "100524.png / libfile_bbf01335754c81918e629b1aa3433ee7",
+        "creative_concept": "Complete unchanged supplied golden-hour editorial briefing desk cover centred on owner-approved warm-neutral 1536x2304 2:3 canvas; no cropping or artwork changes.",
+        "marketing_angle": "Capture must-keeps, must-changes and never-do choices before the first design concept.",
+        "title": "Interior Design Brief: Set Your Must-Haves Before the First Concept",
+        "description": "Avoid discovering your non-negotiables only after a design concept arrives. List what must stay, what needs to change and what you never want, then add room measurements and budget priorities. Preview Veluce Studio’s Designer Brief Builder and its CLEAR method for a practical interior design brief and clearer designer handoff. Coming soon.",
+        "destination": "https://velucedesign.com/designer-brief-builder",
+        "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
+        "published_at": "2026-10-05",
+        "pin_url": "https://za.pinterest.com/pin/296815431716233062/",
+        "pin_id": "296815431716233062",
+        "verification_status": "published_pending_destination_verification"
       }
     ]
   },

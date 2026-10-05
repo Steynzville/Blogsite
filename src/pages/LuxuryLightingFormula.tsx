@@ -57,7 +57,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
       className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`}
       rel="noopener"
     >
-      Get the Lighting Formula — <ZarPrice value={PRICE} />
+      Buy now — <ZarPrice value={PRICE} />
       <ArrowRight size={16} />
     </a>
   );

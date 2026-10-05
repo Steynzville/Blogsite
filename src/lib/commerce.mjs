@@ -22,7 +22,32 @@ export function installCommerceTracking(doc, win) {
     const anchor = event.target?.closest?.('a[href]');
     if (!anchor) return;
     const payload = commercialEvent(anchor, win.location.pathname);
-    if (payload && typeof win.gtag === 'function') win.gtag('event', 'veluce_commercial_click', payload);
+    if (payload && typeof win.gtag === 'function') {
+      win.gtag('event', 'veluce_commercial_click', payload);
+
+      if (anchor.dataset.checkout === 'true') {
+        const value = Number(anchor.dataset.value);
+        const currency = anchor.dataset.currency || 'ZAR';
+        const item = {
+          item_id: anchor.dataset.productId || payload.link_id,
+          item_name: anchor.dataset.productName || anchor.dataset.productId || payload.link_id,
+          quantity: 1,
+          ...(Number.isFinite(value) ? { price: value } : {}),
+        };
+        win.gtag('event', 'begin_checkout', {
+          currency,
+          ...(Number.isFinite(value) ? { value } : {}),
+          items: [item],
+        });
+      }
+
+      if (anchor.dataset.placement === 'payment-verification') {
+        win.gtag('event', 'payment_verification_attempt', {
+          product_id: anchor.dataset.productId || payload.link_id,
+          page_path: win.location.pathname,
+        });
+      }
+    }
   };
   doc.addEventListener('click', handler);
   doc.addEventListener('auxclick', handler);

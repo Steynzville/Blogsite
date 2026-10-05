@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 import { ArrowRight, CheckCircle2, Download, FileText, Calculator, Sparkles } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
-import { useMetaTags } from '@/lib/meta';\nimport SecureProductDownload from '@/components/SecureProductDownload';
+import { useMetaTags } from '@/lib/meta';
+import SecureProductDownload from '@/components/SecureProductDownload';
 
 const steps = [
   {
@@ -86,7 +87,9 @@ export default function OutdoorLightingThankYou() {
               Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Verify your Paystack payment below to unlock the customer ZIP, then use this page as your starting point for the recommended workflow.
             </p>
           </div>
-        </section>\n\n        <SecureProductDownload productSlug="outdoor-lighting-blueprint" productName="Outdoor Lighting Blueprint" />
+        </section>
+
+        <SecureProductDownload productSlug="outdoor-lighting-blueprint" productName="Outdoor Lighting Blueprint" />
 
         <section className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">

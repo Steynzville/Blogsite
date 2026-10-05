@@ -46,7 +46,7 @@ export default function ArticleStudioRecommendation({ slug }: Props) {
               </a>
             </Link>
             <p className="mt-3 text-sm text-stone-600">
-              <ZarPrice value={recommendation.price} />{salesLive ? '' : ' · coming soon'}
+              <ZarPrice value={recommendation.price} />{salesLive ? '' : ' · currently unavailable'}
             </p>
           </div>
         </div>

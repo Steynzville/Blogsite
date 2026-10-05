@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 import { ArrowRight, CheckCircle2, Download, LayoutGrid, Calculator, Sofa } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
-import { useMetaTags } from '@/lib/meta';\nimport SecureProductDownload from '@/components/SecureProductDownload';
+import { useMetaTags } from '@/lib/meta';
+import SecureProductDownload from '@/components/SecureProductDownload';
 
 const steps = [
   { icon: Download, title: 'Save the complete customer pack', body: 'Use the secure download above to verify your Paystack payment and retrieve the complete customer ZIP, then save it somewhere you can return to throughout the project.' },
@@ -62,7 +63,9 @@ export default function OutdoorRoomThankYou() {
               Verify your Paystack payment below and download the customer pack. Then use this page as the recommended sequence for turning the pack into a real room plan.
             </p>
           </div>
-        </section>\n\n        <SecureProductDownload productSlug="luxury-outdoor-room-planner" productName="Luxury Outdoor Room Planner" />
+        </section>
+
+        <SecureProductDownload productSlug="luxury-outdoor-room-planner" productName="Luxury Outdoor Room Planner" />
 
         <section className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">

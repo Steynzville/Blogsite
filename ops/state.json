@@ -479,14 +479,11 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Designer Brief Builder",
-    "completed_products": [
-      "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
-    ],
-    "next_product": "Luxury Lighting Formula",
-    "history": [
+    "last_product": null,
+    "completed_products": [],
+    "next_product": "Outdoor Lighting Blueprint",
+    "history": [],
+    "archived_history": [
       {
         "product": "Outdoor Lighting Blueprint",
         "cycle": 1,
@@ -503,7 +500,9 @@
         "pin_id": "296815431716217597",
         "verification_status": "verified",
         "visit_site_verified": true,
-        "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic"
+        "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic",
+        "reference_set_id": "original_square_covers",
+        "archived_reason": "Owner replaced covers and restarted round 1 effective 2026-10-06"
       },
       {
         "product": "Luxury Outdoor Room Planner",
@@ -521,7 +520,9 @@
         "pin_id": "296815431716225152",
         "verification_status": "verified",
         "visit_site_verified": true,
-        "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic"
+        "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic",
+        "reference_set_id": "original_square_covers",
+        "archived_reason": "Owner replaced covers and restarted round 1 effective 2026-10-06"
       },
       {
         "product": "Designer Brief Builder",
@@ -539,9 +540,62 @@
         "pin_id": "296815431716233062",
         "verification_status": "verified",
         "visit_site_verified": true,
-        "verified_destination": "https://velucedesign.com/designer-brief-builder/?utm_source=Pinterest&utm_medium=organic"
+        "verified_destination": "https://velucedesign.com/designer-brief-builder/?utm_source=Pinterest&utm_medium=organic",
+        "reference_set_id": "original_square_covers",
+        "archived_reason": "Owner replaced covers and restarted round 1 effective 2026-10-06"
       }
-    ]
+    ],
+    "reference_set_id": "veluce_2x3_covers_20261005",
+    "original_references": {
+      "Room Procurement System": {
+        "file_name": "101282(1).png",
+        "library_file_id": "libfile_1604685b1c6c819192d595e3c33237a3",
+        "file_id": "file_00000000d5248211a829e62b265f1115",
+        "width": 1024,
+        "height": 1536
+      },
+      "Luxury Lighting Formula": {
+        "file_name": "101283(1).png",
+        "library_file_id": "libfile_ffe73dc800888191938908c0ae7291dc",
+        "file_id": "file_00000000ef0c821184714a1fd48ed4b6",
+        "width": 1024,
+        "height": 1536
+      },
+      "Outdoor Lighting Blueprint": {
+        "file_name": "101280(1).png",
+        "library_file_id": "libfile_1809f25c76b8819194c4aedace76d781",
+        "file_id": "file_000000000898821184003c9a57472f3a",
+        "width": 1024,
+        "height": 1536
+      },
+      "Designer Brief Builder": {
+        "file_name": "101264(1).png",
+        "library_file_id": "libfile_602adf953770819193c0f473d54b9be6",
+        "file_id": "file_000000006f908211bbcce214b1862898",
+        "width": 1024,
+        "height": 1536
+      },
+      "Luxury Outdoor Room Planner": {
+        "file_name": "101285(1).png",
+        "library_file_id": "libfile_46399d43e3a081919c5cf4d02d8c3dd8",
+        "file_id": "file_00000000e4e882119ab8d48e620d8d49",
+        "width": 1024,
+        "height": 1536
+      },
+      "Complete Home Design System": {
+        "file_name": "101281(1).png",
+        "library_file_id": "libfile_81316985aa148191bd6274fb91c855e0",
+        "file_id": "file_000000001be4821181ba87a6110ed675",
+        "width": 1024,
+        "height": 1536
+      }
+    },
+    "reset": {
+      "requested_at": "2026-10-05",
+      "effective_date": "2026-10-06",
+      "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
+      "applied": true
+    }
   },
   "editorialAutomation": {
     "version": 1,

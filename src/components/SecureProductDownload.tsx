@@ -1,7 +1,35 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type MouseEvent } from 'react';
 import { Download, LockKeyhole, ShieldCheck } from 'lucide-react';
 
 const DELIVERY_BASE = 'https://veluce-secure-delivery.netlify.app';
+const GA_MEASUREMENT_ID = 'G-C4JR74BJ19';
+
+function readGtagValue(field: 'client_id' | 'session_id') {
+  if (typeof window === 'undefined') return Promise.resolve('');
+
+  const gtag = (window as typeof window & {
+    gtag?: (...args: unknown[]) => void;
+  }).gtag;
+
+  if (typeof gtag !== 'function') return Promise.resolve('');
+
+  return new Promise<string>((resolve) => {
+    let settled = false;
+    const finish = (value: unknown) => {
+      if (settled) return;
+      settled = true;
+      window.clearTimeout(timeoutId);
+      resolve(value === null || value === undefined ? '' : String(value).trim());
+    };
+    const timeoutId = window.setTimeout(() => finish(''), 600);
+
+    try {
+      gtag('get', GA_MEASUREMENT_ID, field, finish);
+    } catch {
+      finish('');
+    }
+  });
+}
 
 type Props = {
   productSlug: string;
@@ -24,6 +52,22 @@ export default function SecureProductDownload({ productSlug, productName, bundle
   const downloadUrl = validReference
     ? `${DELIVERY_BASE}/download?product=${encodeURIComponent(productSlug)}&reference=${encodeURIComponent(cleanReference)}`
     : '';
+
+  const handleVerifiedDownload = async (event: MouseEvent<HTMLAnchorElement>) => {
+    if (!downloadUrl) return;
+    event.preventDefault();
+
+    const target = new URL(downloadUrl);
+    const [clientId, sessionId] = await Promise.all([
+      readGtagValue('client_id'),
+      readGtagValue('session_id'),
+    ]);
+
+    if (/^[A-Za-z0-9._-]{4,128}$/.test(clientId)) target.searchParams.set('cid', clientId);
+    if (/^\d{1,20}$/.test(sessionId)) target.searchParams.set('sid', sessionId);
+
+    window.location.assign(target.toString());
+  };
 
   return (
     <section className="border-y border-[#d6c9b5] bg-[#f5efe4] px-5 py-10 text-[#17120f] sm:px-8 sm:py-14">
@@ -65,6 +109,7 @@ export default function SecureProductDownload({ productSlug, productName, bundle
               {validReference ? (
                 <a
                   href={downloadUrl}
+                  onClick={handleVerifiedDownload}
                   data-product-id={productSlug}
                   data-placement="payment-verification"
                   className="inline-flex items-center gap-2 rounded-sm bg-[#17120f] px-5 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-white hover:bg-black"

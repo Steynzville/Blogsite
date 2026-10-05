@@ -250,6 +250,54 @@ async function generateStaticHtml(articles) {
       image: '/images/complete-home-hero.svg',
       content: '<h1>Complete Home Design System</h1><p>The Veluce flagship connects brief, space, lighting, procurement and whole-home project control in one evidence-led homeowner system.</p>'
     },
+    {
+      path: '/thank-you/outdoor-lighting-blueprint',
+      title: 'Thank You | Outdoor Lighting Blueprint | VELUCE',
+      description: 'Secure access to your Veluce Outdoor Lighting Blueprint purchase.',
+      image: '/images/architectural-grazing-stone-wall.jpg',
+      content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Outdoor Lighting Blueprint customer pack.</p>',
+      noindex: true
+    },
+    {
+      path: '/thank-you/luxury-outdoor-room-planner',
+      title: 'Thank You | Luxury Outdoor Room Planner | VELUCE',
+      description: 'Secure access to your Veluce Luxury Outdoor Room Planner purchase.',
+      image: '/images/outdoor-room-planner-hero.svg',
+      content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Luxury Outdoor Room Planner customer pack.</p>',
+      noindex: true
+    },
+    {
+      path: '/thank-you/designer-brief-builder',
+      title: 'Thank You | Designer Brief Builder | VELUCE',
+      description: 'Secure access to your Veluce Designer Brief Builder purchase.',
+      image: '/images/designer-brief-hero.svg',
+      content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Designer Brief Builder customer pack.</p>',
+      noindex: true
+    },
+    {
+      path: '/thank-you/luxury-lighting-formula',
+      title: 'Thank You | Luxury Lighting Formula | VELUCE',
+      description: 'Secure access to your Veluce Luxury Lighting Formula purchase.',
+      image: '/images/luxury-lighting-formula-hero.svg',
+      content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Luxury Lighting Formula customer pack.</p>',
+      noindex: true
+    },
+    {
+      path: '/thank-you/room-procurement-system',
+      title: 'Thank You | Room Procurement System | VELUCE',
+      description: 'Secure access to your Veluce Room Procurement System purchase.',
+      image: '/images/room-procurement-hero.svg',
+      content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Room Procurement System customer pack.</p>',
+      noindex: true
+    },
+    {
+      path: '/thank-you/complete-home-design-system',
+      title: 'Thank You | Complete Home Design System | VELUCE',
+      description: 'Secure access to your Veluce Complete Home Design System purchase.',
+      image: '/images/complete-home-hero.svg',
+      content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Complete Home Design System flagship bundle.</p>',
+      noindex: true
+    },
     { path: '/about', title: 'About — VELUCE', description: 'Learn about VELUCE, the premier luxury living journal dedicated to the art and science of home design.', content: '<h1>About VELUCE</h1><p>Premier luxury living journal.</p>' },
     { path: '/contact', title: 'Contact — VELUCE', description: 'Get in touch with the VELUCE team for inquiries, collaborations, or feedback.', content: '<h1>Contact Us</h1><p>Get in touch with the VELUCE team.</p>' },
     { path: '/privacy', title: 'Privacy Policy — VELUCE', description: 'Read the VELUCE privacy policy to understand how we handle your data.', content: '<h1>Privacy Policy</h1>' },
@@ -280,6 +328,15 @@ async function generateStaticHtml(articles) {
     
     // Handle canonical tag: replace existing or add new
     const canonicalUrl = `${SITE_URL}${route.path}/`;
+
+    if (route.noindex) {
+      if (customizedHtml.includes('name="robots"')) {
+        customizedHtml = customizedHtml.replace(/<meta name="robots" content=".*?" \/>/, '<meta name="robots" content="noindex, nofollow, noarchive" />');
+      } else {
+        customizedHtml = customizedHtml.replace('</head>', '  <meta name="robots" content="noindex, nofollow, noarchive" />\n  </head>');
+      }
+    }
+
     if (customizedHtml.includes('<link rel="canonical"')) {
       customizedHtml = customizedHtml.replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${canonicalUrl}" />`);
     } else {

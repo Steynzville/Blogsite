@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { ArrowRight, CheckCircle2, Download, Eye, Layers3, Brain, ClipboardCheck } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
-import { useMetaTags } from '@/lib/meta';
+import { useMetaTags } from '@/lib/meta';\nimport SecureProductDownload from '@/components/SecureProductDownload';
 
 const steps = [
-  { icon: Download, title: 'Save the complete customer pack', body: 'Paystack handles secure delivery. Save all PDFs, the workbook, the Lighting Atelier, prompt library and quick-start guide before you begin.' },
+  { icon: Download, title: 'Save the complete customer pack', body: 'Use the secure download above to verify your Paystack payment and retrieve the complete customer ZIP. Save it before you begin the audit.' },
   { icon: Eye, title: 'Audit one room after dark', body: 'Use the Night Audit Field Cards from the exact viewpoints that matter: entrance, sofa, table, bed, path or patio.' },
   { icon: Layers3, title: 'Score the Seven Signals', body: 'Use the workbook to score Hierarchy, Layers, Direction, Warmth, Shadow, Concealment and Scenes. Pick the weakest two.' },
   { icon: Brain, title: 'Run one controlled AI comparison', body: 'Use a real photo, paste the preservation lock, change one lighting variable and reject any render that changes the architecture.' },
@@ -43,9 +43,9 @@ export default function LuxuryLightingThankYou() {
             <CheckCircle2 className="mx-auto text-[#d1a86c]" size={38} strokeWidth={1.5} />
             <p className="mt-6 text-[11px] uppercase tracking-[0.28em] text-[#d1a86c]">Purchase complete</p>
             <h1 className="mx-auto mt-4 max-w-4xl font-serif text-5xl font-light leading-[1.04] text-white sm:text-6xl">Start with the room you use every evening.</h1>
-            <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-stone-300 sm:text-lg">Do not try to redesign the whole house tonight. Save your files, audit one room and prove the method before you buy.</p>
+            <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-stone-300 sm:text-lg">Verify your Paystack payment below and download the customer pack. Then audit one room and prove the method before you buy.</p>
           </div>
-        </section>
+        </section>\n\n        <SecureProductDownload productSlug="luxury-lighting-formula" productName="Luxury Lighting Formula" />
         <section className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
             <p className="text-[11px] uppercase tracking-[0.28em] text-[#9b7448]">Recommended sequence</p>

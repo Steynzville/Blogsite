@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { ArrowRight, CheckCircle2, Download, LayoutGrid, Calculator, Sofa } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
-import { useMetaTags } from '@/lib/meta';
+import { useMetaTags } from '@/lib/meta';\nimport SecureProductDownload from '@/components/SecureProductDownload';
 
 const steps = [
-  { icon: Download, title: 'Save the complete customer pack', body: 'Paystack handles secure delivery. Download the planner, workbook, recipe cards, Canva planning-sheet PDF and Studio Tool, then save them somewhere you can return to.' },
+  { icon: Download, title: 'Save the complete customer pack', body: 'Use the secure download above to verify your Paystack payment and retrieve the complete customer ZIP, then save it somewhere you can return to throughout the project.' },
   { icon: Sofa, title: 'Start with Purpose', body: 'Open the premium planner and write the room brief before looking at furniture. Name the primary use, people, time of day and non-negotiables.' },
   { icon: LayoutGrid, title: 'Map Zones + Flow', body: 'Use the site, zone and circulation sheets to decide where each activity belongs and how people naturally move through the space.' },
   { icon: Calculator, title: 'Test Scale + Budget', body: 'Enter candidate furniture dimensions and prices into the workbook. Check footprint, room load, budget and weighted product fit before ordering.' },
@@ -59,10 +59,10 @@ export default function OutdoorRoomThankYou() {
               Your outdoor room starts on paper.
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-stone-300 sm:text-lg">
-              Save your Paystack downloads first. Then use this page as the recommended sequence for turning the pack into a real room plan.
+              Verify your Paystack payment below and download the customer pack. Then use this page as the recommended sequence for turning the pack into a real room plan.
             </p>
           </div>
-        </section>
+        </section>\n\n        <SecureProductDownload productSlug="luxury-outdoor-room-planner" productName="Luxury Outdoor Room Planner" />
 
         <section className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">

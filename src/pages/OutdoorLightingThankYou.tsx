@@ -2,13 +2,13 @@ import { useEffect } from 'react';
 import { ArrowRight, CheckCircle2, Download, FileText, Calculator, Sparkles } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
-import { useMetaTags } from '@/lib/meta';
+import { useMetaTags } from '@/lib/meta';\nimport SecureProductDownload from '@/components/SecureProductDownload';
 
 const steps = [
   {
     icon: Download,
-    title: 'Download your files from Paystack',
-    body: 'Paystack handles the secure delivery of your purchase. Download and save your files from the protected Paystack download page first; your payment receipt also contains the link you can use to return to that download page.',
+    title: 'Download your Veluce customer pack',
+    body: 'Use the secure download above to verify your Paystack payment and retrieve the complete customer ZIP. Save the pack somewhere you can return to throughout the project.',
   },
   {
     icon: FileText,
@@ -83,10 +83,10 @@ export default function OutdoorLightingThankYou() {
               Your nightscape starts here.
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-stone-300 sm:text-lg">
-              Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Your customer files are delivered securely through Paystack. Once you have saved them, use this page as your starting point for the recommended workflow.
+              Thank you for purchasing the Veluce Outdoor Lighting Blueprint. Verify your Paystack payment below to unlock the customer ZIP, then use this page as your starting point for the recommended workflow.
             </p>
           </div>
-        </section>
+        </section>\n\n        <SecureProductDownload productSlug="outdoor-lighting-blueprint" productName="Outdoor Lighting Blueprint" />
 
         <section className="bg-[#f5efe4] text-[#17120f]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">

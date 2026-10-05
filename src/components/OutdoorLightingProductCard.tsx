@@ -31,7 +31,7 @@ export default function OutdoorLightingProductCard() {
                 <ArrowRight size={15} />
               </a>
             </Link>
-            <span className="text-sm text-stone-400"><ZarPrice value="R299" /> · {salesLive ? 'one-time purchase' : 'coming soon'}</span>
+            <span className="text-sm text-stone-400"><ZarPrice value="R299" /> · {salesLive ? 'one-time purchase' : 'currently unavailable'}</span>
           </div>
         </div>
       </div>

@@ -519,10 +519,30 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": null,
-    "completed_products": [],
-    "next_product": "Outdoor Lighting Blueprint",
-    "history": [],
+    "last_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
+    "history": [
+      {
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 1,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "supplied",
+        "original_reference": "libfile_1809f25c76b8819194c4aedace76d781",
+        "creative_concept": "Unchanged native 1024x1536 supplied cover: dusk terrace, illuminated steps and trees, product planning sheets",
+        "marketing_angle": "A 20-minute night walk reveals the lighting jobs before fixture shopping",
+        "title": "Garden Lighting Planning: What a 20-Minute Night Walk Reveals",
+        "description": "Before choosing garden lights, walk your outdoor space after dark. Notice dim steps, where you gather and which trees or walls deserve emphasis. Veluce Studio’s Outdoor Lighting Blueprint includes a 20-Minute Night Walk Audit, a four-axis lighting plan and a project calculator to turn those observations into clear decisions. Explore the full outdoor lighting planning resource.",
+        "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint",
+        "board": "Outdoor Lighting Ideas",
+        "published_at": "2026-10-06",
+        "pin_url": "https://za.pinterest.com/pin/296815431716240104/",
+        "pin_id": "296815431716240104",
+        "verification_status": "pending"
+      }
+    ],
     "archived_history": [
       {
         "product": "Outdoor Lighting Blueprint",

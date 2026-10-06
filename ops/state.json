@@ -540,7 +540,10 @@
         "published_at": "2026-10-06",
         "pin_url": "https://za.pinterest.com/pin/296815431716240104/",
         "pin_id": "296815431716240104",
-        "verification_status": "pending"
+        "verification_status": "verified",
+        "visit_site_verified": true,
+        "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic",
+        "image_dimensions": "1024x1536"
       }
     ],
     "archived_history": [

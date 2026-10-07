@@ -559,11 +559,12 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Outdoor Lighting Blueprint",
+    "last_product": "Luxury Outdoor Room Planner",
     "completed_products": [
-      "Outdoor Lighting Blueprint"
+      "Outdoor Lighting Blueprint",
+      "Luxury Outdoor Room Planner"
     ],
-    "next_product": "Luxury Outdoor Room Planner",
+    "next_product": "Designer Brief Builder",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -584,6 +585,24 @@
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic",
         "image_dimensions": "1024x1536"
+      },
+      {
+        "product": "Luxury Outdoor Room Planner",
+        "cycle": 1,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "supplied",
+        "original_reference": "libfile_46399d43e3a081919c5cf4d02d8c3dd8",
+        "creative_concept": "Unchanged native 1024x1536 cover: dusk outdoor lounge and dining beneath timber pergola, product tablet and planning sheets",
+        "marketing_angle": "Give a furnished patio the hierarchy of a real room with a primary anchor and supporting spaces",
+        "title": "Why a Beautiful Patio Still Feels Like Furniture Placed Outside",
+        "description": "A patio can have beautiful furniture and still lack the hierarchy of a real room. Start with one primary anchor, give lounging and dining clear roles, and protect the routes between them. Veluce Studio’s Luxury Outdoor Room Planner uses a five-layer method, layout recipes and measured planning tools to turn outdoor inspiration into a space that works. Explore the complete digital planner.",
+        "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+        "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces",
+        "published_at": "2026-10-07",
+        "pin_url": "https://za.pinterest.com/pin/296815431716247911/",
+        "pin_id": "296815431716247911",
+        "image_dimensions": "1024x1536",
+        "verification_status": "pending"
       }
     ],
     "archived_history": [

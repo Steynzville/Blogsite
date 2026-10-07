@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; thirty-two organic article Pins published through 2026-10-06 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; thirty-six organic article Pins published through 2026-10-07 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -480,6 +480,46 @@
       "title": "Smart Blinds That Follow the Sun",
       "description": "Automated smart blinds can soften glare, protect finishes, improve privacy and reduce heat without constant adjustment. Explore sun-tracking schedules, quiet motors, fabric openness and discreet whole-home control.",
       "board": "Smart Home Ideas & Gadgets 🔥"
+    },
+    {
+      "pin_id": "296815431716245864",
+      "pin_url": "https://za.pinterest.com/pin/296815431716245864/",
+      "published_at": "2026-10-07",
+      "destination": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "creative_angle": "Oblique blue-hour courtyard view along a rough limestone wall with concealed warm ground lights grazing the texture beside a narrow reflecting pool; serif editorial hook “LET TEXTURE SPEAK”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Architectural Grazing Ideas for Textured Exterior Walls",
+      "description": "Use low upward light to reveal stone, brick and plaster after dark. Learn fixture setback, beam angle, spacing and glare control for architectural grazing that adds depth without flattening the facade.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere"
+    },
+    {
+      "pin_id": "296815431716245875",
+      "pin_url": "https://za.pinterest.com/pin/296815431716245875/",
+      "published_at": "2026-10-07",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "creative_angle": "Eye-level dusk view beneath a warm timber pergola with an intimate table for six, one low bronze pendant, recessed beam lighting and softly illuminated garden depth; serif editorial hook “DINNER LINGERS HERE”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Pergola Lighting Ideas for an Intimate Outdoor Room",
+      "description": "Layer integrated LEDs, pendant light and subtle garden accents to make a pergola feel like a true room after dark. See how warmth, spacing and separate circuits support dining and relaxed evenings.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
+    },
+    {
+      "pin_id": "296815431716245879",
+      "pin_url": "https://za.pinterest.com/pin/296815431716245879/",
+      "published_at": "2026-10-07",
+      "destination": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+      "creative_angle": "Image-only elevated golden-hour threshold view from pale oak flooring onto a limestone patio where a large earth-toned geometric rug anchors a cream chair and timber table against soft grasses; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Outdoor Rug Ideas for a Cohesive Patio",
+      "description": "Choose a weather-resistant outdoor rug that anchors furniture and connects architecture with the garden. Learn practical sizing, materials, drainage, pattern and care for a patio that feels intentionally finished.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Garden & Patio Decor"
+    },
+    {
+      "pin_id": "296815431716245884",
+      "pin_url": "https://za.pinterest.com/pin/296815431716245884/",
+      "published_at": "2026-10-07",
+      "destination": "https://velucedesign.com/article/discreet-security-cameras/",
+      "creative_angle": "Wide blue-hour stone-and-timber courtyard view from low garden height with a small matte-black camera aligned quietly beneath an eave beside a downlight; serif editorial hook “PROTECTION, QUIETLY PLACED”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Discreet Security Camera Ideas for Thoughtful Home Design",
+      "description": "Integrate security cameras into eaves, lighting zones and architectural lines without compromising useful coverage. Explore placement, field of view, night vision, wiring and maintenance for protection that stays visually quiet.",
+      "board": "Home Security Ideas & Setups"
     }
   ],
   "pages_created": [],

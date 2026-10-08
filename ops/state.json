@@ -843,6 +843,17 @@
       "creative": "Text post with Veluce article link preview; plan three lighting jobs and bedside control",
       "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2619695695151731",
       "verified": true
+    },
+    {
+      "date": "2026-10-08",
+      "destination": "Affiliate Deals Hub",
+      "content_type": "article-led design tip",
+      "topic": "Outdoor lighting glare night audit from five viewpoints",
+      "veluce_url": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
+      "creative": "Text post with Veluce article link preview; check seated, path and bedroom sightlines before adding lights",
+      "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2621377021650265",
+      "verified": false,
+      "verification_note": "Post live and Veluce article independently loaded; clicked Facebook preview opened a new tab, but browser timed out before destination could be confirmed."
     }
   ]
 }

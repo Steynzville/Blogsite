@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; thirty-six organic article Pins published through 2026-10-07 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; forty organic article Pins published through 2026-10-08 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -520,6 +520,46 @@
       "title": "Discreet Security Camera Ideas for Thoughtful Home Design",
       "description": "Integrate security cameras into eaves, lighting zones and architectural lines without compromising useful coverage. Explore placement, field of view, night vision, wiring and maintenance for protection that stays visually quiet.",
       "board": "Home Security Ideas & Setups"
+    },
+    {
+      "pin_id": "296815431716253183",
+      "pin_url": "https://za.pinterest.com/pin/296815431716253183/",
+      "published_at": "2026-10-08",
+      "destination": "https://velucedesign.com/article/solar-pathway-lights-affordable/",
+      "creative_angle": "Image-only close low-angle after-rain garden view with a raindrop-covered matte-bronze solar path light in sharp foreground, warm pools of light along wet limestone and a softly glowing timber entrance; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Premium Solar Pathway Lights for a Warm Garden Glow",
+      "description": "Choose solar pathway lights that give a garden warm, reliable guidance without looking cheap. Learn what to check for in colour temperature, IP rating, battery capacity, spacing and winter performance.",
+      "board": "Outdoor Lighting Ideas"
+    },
+    {
+      "pin_id": "296815431716253195",
+      "pin_url": "https://za.pinterest.com/pin/296815431716253195/",
+      "published_at": "2026-10-08",
+      "destination": "https://velucedesign.com/article/kitchen-design-layout/",
+      "creative_angle": "Elevated golden-hour view across a warm oak-and-cream kitchen with clear island circulation, an open organized cookware drawer, pantry storage and a separate beverage zone; serif editorial hook “ROOM TO MOVE”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Kitchen Layout Ideas for Better Flow and Storage",
+      "description": "Plan a kitchen around movement before choosing finishes. Explore practical work zones, island clearance, drawer storage, pantry placement and task lighting for a room that works from quiet mornings to family gatherings.",
+      "board": "Kitchen Organization Ideas"
+    },
+    {
+      "pin_id": "296815431716253210",
+      "pin_url": "https://za.pinterest.com/pin/296815431716253210/",
+      "published_at": "2026-10-08",
+      "destination": "https://velucedesign.com/article/invisible-hvac-design/",
+      "creative_angle": "Quiet early-morning living room with warm limestone floor, linen sofa, tactile textiles and an exceptionally slim linear ceiling diffuser aligned with the architecture; serif editorial hook “COMFORT, OUT OF SIGHT”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Invisible HVAC Ideas for Calm, Comfortable Interiors",
+      "description": "Create year-round comfort without letting equipment interrupt the architecture. Explore underfloor heating, ducted mini-splits, slim linear diffusers, zoning and smart controls for quiet climate design that stays out of sight.",
+      "board": "Smart Home Ideas & Gadgets 🔥"
+    },
+    {
+      "pin_id": "296815431716253219",
+      "pin_url": "https://za.pinterest.com/pin/296815431716253219/",
+      "published_at": "2026-10-08",
+      "destination": "https://velucedesign.com/article/modular-sectionals-entertaining/",
+      "creative_angle": "Elevated golden-hour limestone patio beside a compact pool with a cream modular sectional arranged into an L-shaped lounge and a separate chaise zone, preserving open circulation; serif editorial hook “ONE PATIO, MANY MOODS”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Modular Outdoor Sectional Layout Ideas for Flexible Living",
+      "description": "Make one patio work for quiet afternoons and larger gatherings with modular outdoor seating. Learn how to plan L-shaped and separated layouts, circulation, scale, frames, performance fabric and quick-drain cushions.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
     }
   ],
   "pages_created": [],

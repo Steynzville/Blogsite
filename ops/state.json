@@ -599,12 +599,13 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Luxury Outdoor Room Planner",
+    "last_product": "Designer Brief Builder",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -645,6 +646,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Designer Brief Builder",
+        "cycle": 1,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "supplied",
+        "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
+        "creative_concept": "Unchanged native 1024x1536 supplied cover: golden-hour material and briefing desk with fabric samples, room plan, tablet and project worksheets",
+        "marketing_angle": "Define the room's everyday uses and obstacles before choosing its style",
+        "title": "Interior Design Brief: Plan How the Room Will Work Before Its Style",
+        "description": "A room can look right and still miss the way you live. Before choosing a style, describe who uses it, what happens there and what currently gets in the way. Veluce Studio’s Designer Brief Builder uses the CLEAR method, room briefs and an editable workbook to turn everyday needs into useful design instructions. Explore the full digital interior design planning resource.",
+        "destination_url": "https://velucedesign.com/designer-brief-builder",
+        "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
+        "published_at": "2026-10-08",
+        "pin_url": "https://za.pinterest.com/pin/296815431716255127/",
+        "pin_id": "296815431716255127",
+        "image_dimensions": "1024x1536",
+        "verification_status": "pending"
       }
     ],
     "archived_history": [

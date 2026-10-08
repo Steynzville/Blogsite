@@ -853,7 +853,9 @@
       "creative": "Text post with Veluce article link preview; check seated, path and bedroom sightlines before adding lights",
       "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2621377021650265",
       "verified": false,
-      "verification_note": "Post live and Veluce article independently loaded; clicked Facebook preview opened a new tab, but browser timed out before destination could be confirmed."
+      "verification_note": "Owner confirmed personal-profile author. Delete this post and republish as Veluce Studio after shared Facebook browser recovers; do not count as completed Veluce group post.",
+      "author": "Steyn Enslin",
+      "status": "wrong_author_pending_replacement"
     }
   ]
 }

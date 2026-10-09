@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-09",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; forty organic article Pins published through 2026-10-08 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; forty-four organic article Pins published through 2026-10-09 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -560,6 +560,58 @@
       "title": "Modular Outdoor Sectional Layout Ideas for Flexible Living",
       "description": "Make one patio work for quiet afternoons and larger gatherings with modular outdoor seating. Learn how to plan L-shaped and separated layouts, circulation, scale, frames, performance fabric and quick-drain cushions.",
       "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces"
+    },
+    {
+      "pin_id": "296815431716260214",
+      "pin_url": "https://za.pinterest.com/pin/296815431716260214/",
+      "published_at": "2026-10-09",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "creative_angle": "View from a shadowed limestone loggia toward a mature olive tree sculpted by concealed warm uplighting at deep blue dusk; serif editorial hook “THE TREE AFTER DARK”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Tree Uplighting Ideas for Sculptural Nighttime Drama",
+      "description": "Use concealed warm uplights to turn a mature tree into a garden focal point after dark. Learn fixture position, beam spread, aiming and glare control for layered shadow without exposing the hardware.",
+      "alt_text": "A mature olive tree glows with concealed warm uplighting beyond a limestone arch at deep blue dusk, under the headline The Tree After Dark.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716260217",
+      "pin_url": "https://za.pinterest.com/pin/296815431716260217/",
+      "published_at": "2026-10-09",
+      "destination": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "creative_angle": "Image-only intimate blue-hour bedside close-up with ivory linen, warm reading lamp, softly lit artwork and low concealed wall wash; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Layered Bedroom Lighting Ideas for Restful Evenings",
+      "description": "Build a calmer bedroom with separate ambient, bedside, accent and low-level night lighting. Explore warm colour temperature, dimming and control placement for reading, winding down and moving safely after dark.",
+      "alt_text": "An intimate bedroom at blue hour with rumpled ivory linen, a warm bedside lamp, softly lit artwork and low concealed light against a limewashed wall.",
+      "board": "Cozy Bedroom Ideas & Finds 🔥",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/layered-lighting-bedroom/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716260218",
+      "pin_url": "https://za.pinterest.com/pin/296815431716260218/",
+      "published_at": "2026-10-09",
+      "destination": "https://velucedesign.com/article/smart-access-control/",
+      "creative_angle": "Oblique interior view through a partly open oak pivot door to a blue-hour stone porch, with a discreet flush brass fingerprint keypad; serif editorial hook “ENTRY, WITHOUT FRICTION”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Smart Entry Ideas with Fingerprint and Keypad Access",
+      "description": "Plan smart access that feels seamless at the front door. Compare fingerprint, keypad, app and guest-entry options, then check lock fit, power backup, privacy and integration before choosing a system.",
+      "alt_text": "A partly open oak pivot door and limestone entry at blue hour with a discreet brass fingerprint keypad beneath the headline Entry, Without Friction.",
+      "board": "Smart Home Security Systems",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/smart-access-control/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716260222",
+      "pin_url": "https://za.pinterest.com/pin/296815431716260222/",
+      "published_at": "2026-10-09",
+      "destination": "https://velucedesign.com/article/natural-stone-materials/",
+      "creative_angle": "Raking morning-light material portrait of raw-edged marble, travertine and limestone slabs against warm limewash; serif editorial hook “STONE, WITH A STORY”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Marble, Travertine and Limestone: How to Compare",
+      "description": "Compare marble, travertine and limestone by grain, porosity, finish, maintenance and best use. See how samples and honest ageing help you choose natural stone that suits both the room and daily life.",
+      "alt_text": "Three raw-edged natural stone slabs—veined marble, porous travertine and pale limestone—stand in warm morning light beneath the headline Stone, With a Story.",
+      "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/natural-stone-materials/?utm_source=Pinterest&utm_medium=organic"
     }
   ],
   "pages_created": [],

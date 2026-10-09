@@ -651,13 +651,14 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Designer Brief Builder",
+    "last_product": "Luxury Lighting Formula",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
+      "Designer Brief Builder",
+      "Luxury Lighting Formula"
     ],
-    "next_product": "Luxury Lighting Formula",
+    "next_product": "Room Procurement System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -718,6 +719,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/designer-brief-builder/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Luxury Lighting Formula",
+        "cycle": 1,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "supplied",
+        "original_reference": "libfile_ffe73dc800888191938908c0ae7291dc",
+        "creative_concept": "Unchanged native 1024x1536 supplied cover: dusk stone-and-timber terrace with warm layered lighting, product tablet and worksheets",
+        "marketing_angle": "Define focal lighting hierarchy before adding more fixtures",
+        "title": "Why Your Home Feels Flat at Night: Lighting Hierarchy Before More Fixtures",
+        "description": "More light is not always the answer to a room that feels flat after dark. Choose what the eye should notice first, balance task and accent light, and leave quieter areas in shadow. Veluce Studio’s Luxury Lighting Formula uses its Seven Signals method, Night Audit and scene-planning tools to help you test the effect before buying more fittings. Explore the complete digital lighting design resource.",
+        "destination_url": "https://velucedesign.com/luxury-lighting-formula",
+        "board": "Modern Home Decor Ideas & Finds 🔥 — Modern Lighting Ideas & Fixtures",
+        "published_at": "2026-10-09",
+        "pin_url": "https://za.pinterest.com/pin/296815431716262452/",
+        "pin_id": "296815431716262452",
+        "image_dimensions": "1024x1536",
+        "verification_status": "pending"
       }
     ],
     "archived_history": [

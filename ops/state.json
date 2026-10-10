@@ -809,7 +809,9 @@
         "pin_url": "https://za.pinterest.com/pin/296815431716269906/",
         "pin_id": "296815431716269906",
         "image_dimensions": "1024x1536",
-        "verification_status": "pending"
+        "verification_status": "verified",
+        "visit_site_verified": true,
+        "verified_destination": "https://velucedesign.com/room-procurement-system/?utm_source=Pinterest&utm_medium=organic"
       }
     ],
     "archived_history": [

@@ -909,49 +909,11 @@
   },
   "editorialAutomation": {
     "version": 1,
-    "lastRunDate": "2026-10-03",
-    "lastRunType": "NEW",
-    "nextRunType": "REFRESH",
+    "lastRunDate": "2026-10-10",
+    "lastRunType": "REFRESH",
+    "nextRunType": "NEW",
     "nextNewProduct": "Luxury Outdoor Room Planner",
-    "pendingRun": {
-      "runDate": "2026-10-10",
-      "runType": "REFRESH",
-      "articleSlug": "outdoor-rugs-defy-elements",
-      "articleTitle": "Outdoor Rugs for Patios: Size, Materials and Care",
-      "primaryTopic": "Choosing outdoor rugs by furniture footprint, exposure and floor compatibility",
-      "primaryProduct": "Luxury Outdoor Room Planner",
-      "branch": "editorial/2026-10-10-refresh",
-      "prNumber": 24,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/24",
-      "mergeStatus": "pending",
-      "mergeCommit": null,
-      "validationResult": "Local TypeScript, 10 tests, 27-article audit (zero issues), production build (52 routes) and ops validation passed. PR CI pending.",
-      "publicationDate": null,
-      "plannedNextRunType": "NEW",
-      "plannedNextNewProduct": "Luxury Outdoor Room Planner",
-      "selectionReason": "Material guidance overpromised fading resistance and sheltered natural-fibre performance; patio-area sizing ignored chair travel; missing floor compatibility and wet-weather care. Recent SEO refreshes of LED/copper guides excluded.",
-      "sources": [
-        "https://www.trex.com/why-trex/faq/",
-        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rugs-ultimate-guide",
-        "https://www.rugsusa.com/pages/rug-size-guide",
-        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rug-questions-answered"
-      ],
-      "sourceCheckedAt": "2026-10-10",
-      "affiliateMonetisation": {
-        "contextualPlacementsRetained": 3,
-        "products": [
-          "existing grey-grid outdoor rug (Rug)",
-          "reversible polypropylene outdoor rug (outdoor-rug-pp)",
-          "non-slip underlay (rug-gripper)"
-        ],
-        "approvedInventoryUsed": true,
-        "disclosureConfirmed": true,
-        "complementaryRoles": true,
-        "verificationScope": "Preserved exact existing registry URLs. Two mappings verified Admitad/Short.io on 2026-09-30; legacy Rug remains pending product/attribution verification. No new specifications, availability or shipping claims."
-      },
-      "imagery": "Existing relevant hero retained; descriptive alt added",
-      "analyticsEvidence": "GA4 read 2026-10-10: outdoor-rug article 3 pageviews across slash/no-slash paths for 2026-09-12–2026-10-09 versus 0 in 2026-08-15–2026-09-11. Very low volume; not evidence of decay or uplift. Selected for factual and practical improvements. Search Console unavailable in current shared session."
-    },
+    "pendingRun": null,
     "history": [
       {
         "runType": "NEW",
@@ -978,33 +940,95 @@
         "completedAt": "2026-10-03T13:26:29Z",
         "liveUrl": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
         "deployedSha": "30f83df0a19afe36572eb7ee3aad36c5a809a548"
+      },
+      {
+        "runDate": "2026-10-10",
+        "runType": "REFRESH",
+        "articleSlug": "outdoor-rugs-defy-elements",
+        "articleTitle": "Outdoor Rugs for Patios: Size, Materials and Care",
+        "primaryTopic": "Choosing outdoor rugs by furniture footprint, exposure and floor compatibility",
+        "primaryProduct": "Luxury Outdoor Room Planner",
+        "branch": "editorial/2026-10-10-refresh",
+        "prNumber": 24,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/24",
+        "mergeStatus": "merged",
+        "mergeCommit": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0",
+        "validationResult": "Passed: TypeScript, 10 tests, 27-article audit with zero issues, 52-route production build, ops validation; final-head GitHub CI 38025060046 including desktop/mobile capture. Selected article reviewed at 390px/1440px: images loaded, no overflow, exact affiliate links and disclosure present.",
+        "publicationDate": "2026-05-12",
+        "plannedNextRunType": "NEW",
+        "plannedNextNewProduct": "Luxury Outdoor Room Planner",
+        "selectionReason": "Material guidance overpromised fading resistance and sheltered natural-fibre performance; patio-area sizing ignored chair travel; missing floor compatibility and wet-weather care. Recent SEO refreshes of LED/copper guides excluded.",
+        "sources": [
+          "https://www.trex.com/why-trex/faq/",
+          "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rugs-ultimate-guide",
+          "https://www.rugsusa.com/pages/rug-size-guide",
+          "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rug-questions-answered"
+        ],
+        "sourceCheckedAt": "2026-10-10",
+        "affiliateMonetisation": {
+          "contextualPlacementsRetained": 3,
+          "products": [
+            "existing grey-grid outdoor rug (Rug)",
+            "reversible polypropylene outdoor rug (outdoor-rug-pp)",
+            "non-slip underlay (rug-gripper)"
+          ],
+          "approvedInventoryUsed": true,
+          "disclosureConfirmed": true,
+          "complementaryRoles": true,
+          "verificationScope": "Preserved exact existing registry URLs. Two mappings verified Admitad/Short.io on 2026-09-30; legacy Rug remains pending product/attribution verification. No new specifications, availability or shipping claims."
+        },
+        "imagery": "Existing relevant hero retained; descriptive alt added",
+        "analyticsEvidence": "GA4 read 2026-10-10: outdoor-rug article 3 pageviews across slash/no-slash paths for 2026-09-12–2026-10-09 versus 0 in 2026-08-15–2026-09-11. Very low volume; not evidence of decay or uplift. Selected for factual and practical improvements. Search Console unavailable in current shared session.",
+        "refreshDate": "2026-10-10",
+        "completedAt": "2026-10-10T04:52:59.216657+00:00",
+        "deploymentVerification": "GitHub Pages deployment 38025377792 succeeded for editorial merge. Live refreshed H1/headings, loaded hero/alt, three exact affiliate links, disclosure and correct Studio CTA verified; contextual sectional link and Studio product destination loaded. Selected article mobile/desktop preview checked; no visual regression observed.",
+        "liveUrl": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+        "deployedSha": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0"
       }
     ],
     "lastRun": {
-      "runType": "NEW",
-      "articleSlug": "outdoor-lighting-glare-night-audit",
-      "articleTitle": "Outdoor Lighting Glare: A Night Audit for a Calmer Garden",
-      "primaryTopic": "Diagnosing outdoor glare from occupied viewpoints",
-      "primaryProduct": "Outdoor Lighting Blueprint",
-      "branch": "editorial/2026-10-03-outdoor-glare-audit",
-      "prNumber": 18,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/18",
+      "runDate": "2026-10-10",
+      "runType": "REFRESH",
+      "articleSlug": "outdoor-rugs-defy-elements",
+      "articleTitle": "Outdoor Rugs for Patios: Size, Materials and Care",
+      "primaryTopic": "Choosing outdoor rugs by furniture footprint, exposure and floor compatibility",
+      "primaryProduct": "Luxury Outdoor Room Planner",
+      "branch": "editorial/2026-10-10-refresh",
+      "prNumber": 24,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/24",
       "mergeStatus": "merged",
-      "mergeCommit": "3ffd6e6a289e11251620cfb8010d06038e92a7bf",
-      "validationResult": "Passed: TypeScript, 10 tests, 27-article audit with zero issues, production build with 46 routes, ops validation, and GitHub quality gates including desktop/mobile screenshot capture (run 37125866744).",
-      "publicationDate": "2026-10-03",
-      "plannedNextRunType": "REFRESH",
+      "mergeCommit": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0",
+      "validationResult": "Passed: TypeScript, 10 tests, 27-article audit with zero issues, 52-route production build, ops validation; final-head GitHub CI 38025060046 including desktop/mobile capture. Selected article reviewed at 390px/1440px: images loaded, no overflow, exact affiliate links and disclosure present.",
+      "publicationDate": "2026-05-12",
+      "plannedNextRunType": "NEW",
       "plannedNextNewProduct": "Luxury Outdoor Room Planner",
-      "selectionReason": "Existing 26 articles cover fixtures and effects; none provides a multi-viewpoint diagnostic night audit. Analytics unavailable; demand not quantified.",
+      "selectionReason": "Material guidance overpromised fading resistance and sheltered natural-fibre performance; patio-area sizing ignored chair travel; missing floor compatibility and wet-weather care. Recent SEO refreshes of LED/copper guides excluded.",
       "sources": [
-        "https://darksky.org/resources/guides-and-how-tos/lighting-principles/"
+        "https://www.trex.com/why-trex/faq/",
+        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rugs-ultimate-guide",
+        "https://www.rugsusa.com/pages/rug-size-guide",
+        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rug-questions-answered"
       ],
-      "sourceCheckedAt": "2026-10-03",
-      "imageProvenance": "Original AI-generated editorial design illustration; disclosed in article.",
-      "deploymentVerification": "Deployment run 37126240591 succeeded for 30f83df0a19afe36572eb7ee3aad36c5a809a548. Live article headings, hero loading/alt, audit table, contextual CTA including dynamic ZAR/USD display and path-guide navigation verified in shared browser. Existing CI desktop/mobile captures passed; new article mobile table wrapper validated in rendered HTML.",
-      "completedAt": "2026-10-03T13:26:29Z",
-      "liveUrl": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
-      "deployedSha": "30f83df0a19afe36572eb7ee3aad36c5a809a548"
+      "sourceCheckedAt": "2026-10-10",
+      "affiliateMonetisation": {
+        "contextualPlacementsRetained": 3,
+        "products": [
+          "existing grey-grid outdoor rug (Rug)",
+          "reversible polypropylene outdoor rug (outdoor-rug-pp)",
+          "non-slip underlay (rug-gripper)"
+        ],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true,
+        "verificationScope": "Preserved exact existing registry URLs. Two mappings verified Admitad/Short.io on 2026-09-30; legacy Rug remains pending product/attribution verification. No new specifications, availability or shipping claims."
+      },
+      "imagery": "Existing relevant hero retained; descriptive alt added",
+      "analyticsEvidence": "GA4 read 2026-10-10: outdoor-rug article 3 pageviews across slash/no-slash paths for 2026-09-12–2026-10-09 versus 0 in 2026-08-15–2026-09-11. Very low volume; not evidence of decay or uplift. Selected for factual and practical improvements. Search Console unavailable in current shared session.",
+      "refreshDate": "2026-10-10",
+      "completedAt": "2026-10-10T04:52:59.216657+00:00",
+      "deploymentVerification": "GitHub Pages deployment 38025377792 succeeded for editorial merge. Live refreshed H1/headings, loaded hero/alt, three exact affiliate links, disclosure and correct Studio CTA verified; contextual sectional link and Studio product destination loaded. Selected article mobile/desktop preview checked; no visual regression observed.",
+      "liveUrl": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+      "deployedSha": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0"
     }
   },
   "facebook_publications": [

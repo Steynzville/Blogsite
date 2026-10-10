@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; forty-four organic article Pins published through 2026-10-09 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; forty-eight organic article Pins published through 2026-10-10 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -612,6 +612,58 @@
       "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/article/natural-stone-materials/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716268405",
+      "pin_url": "https://za.pinterest.com/pin/296815431716268405/",
+      "published_at": "2026-10-10",
+      "destination": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "creative_angle": "Deep-perspective blue-hour view from a warm oak hallway into coordinated living and dining lighting zones; serif editorial hook “ONE TOUCH, EVERY MOOD”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Smart Home Lighting Scenes for Effortless Ambience",
+      "description": "Coordinate cove, task, artwork and dining light with whole-home scenes that shift from arrival to dinner and evening calm. Explore dimmers, sensors, switches and practical control planning without visible tech clutter.",
+      "alt_text": "A warm oak hallway opens into a layered blue-hour living and dining space with cove, artwork, shelf and task lighting beneath the headline One Touch, Every Mood.",
+      "board": "Smart Home Ideas & Gadgets 🔥",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/smart-home-lighting-control/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716268407",
+      "pin_url": "https://za.pinterest.com/pin/296815431716268407/",
+      "published_at": "2026-10-10",
+      "destination": "https://velucedesign.com/article/outdoor-fireplace-focal-point/",
+      "creative_angle": "Image-only low garden-level view through ornamental grasses into a sunken limestone courtyard with a broad lime-plaster wood fireplace and curved built-in bench at deep dusk; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Outdoor Fireplace Ideas for a Warm Garden Room",
+      "description": "Use an outdoor fireplace to anchor seating, shape a sheltered garden room and extend evenings beyond summer. Explore proportion, placement, materials, draft, safety and circulation before building.",
+      "alt_text": "A low lime-plaster outdoor fireplace glows beside a curved built-in limestone bench in a sunken garden courtyard at deep dusk, viewed through soft ornamental grasses.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/outdoor-fireplace-focal-point/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716268408",
+      "pin_url": "https://za.pinterest.com/pin/296815431716268408/",
+      "published_at": "2026-10-10",
+      "destination": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
+      "creative_angle": "Raking morning-light kitchen detail contrasting a thick crystalline quartzite waterfall edge with a slim pale porcelain worktop; serif editorial hook “CHOOSE FOR REAL LIFE”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Quartzite vs Porcelain Countertops for Everyday Kitchens",
+      "description": "Compare quartzite and porcelain countertops by heat resistance, staining, sealing, edge profiles, weight and installation. Choose the surface that fits your cooking habits, maintenance tolerance and kitchen design.",
+      "alt_text": "A thick crystalline quartzite waterfall island meets a slim pale porcelain worktop in a warm oak kitchen under the headline Choose for Real Life.",
+      "board": "Kitchen Essentials & Must-Haves 🔥 — Premium Kitchen Upgrades",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716268409",
+      "pin_url": "https://za.pinterest.com/pin/296815431716268409/",
+      "published_at": "2026-10-10",
+      "destination": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "creative_angle": "Golden-hour double-height entry with a sculptural curved oak stair, limestone floor, linen bench, restrained artwork and generous negative space; serif editorial hook “CALM IS COMPOSED”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Luxury Interior Design Principles for a Calmer Home",
+      "description": "Create a calmer interior through proportion, negative space, honest materials, restrained colour and layered light. These timeless design principles help every element feel intentional rather than overdecorated.",
+      "alt_text": "A golden-hour double-height entry with a curved pale-oak stair, limestone floor, linen bench and restrained artwork beneath the headline Calm Is Composed.",
+      "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/luxury-interior-design-principles/?utm_source=Pinterest&utm_medium=organic"
     }
   ],
   "pages_created": [],

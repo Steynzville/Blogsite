@@ -703,14 +703,15 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 1,
-    "last_product": "Luxury Lighting Formula",
+    "last_product": "Room Procurement System",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
       "Designer Brief Builder",
-      "Luxury Lighting Formula"
+      "Luxury Lighting Formula",
+      "Room Procurement System"
     ],
-    "next_product": "Room Procurement System",
+    "next_product": "Complete Home Design System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -791,6 +792,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/luxury-lighting-formula/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Room Procurement System",
+        "cycle": 1,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "supplied",
+        "original_reference": "libfile_1604685b1c6c819192d595e3c33237a3",
+        "creative_concept": "Unchanged native 1024x1536 supplied cover: golden-hour neutral living room with brass lamp, product tablet and procurement worksheets",
+        "marketing_angle": "Check packed furniture dimensions and the delivery route before ordering",
+        "title": "Before Buying a Sofa: Check the Delivery Route, Not Just the Room",
+        "description": "A sofa can fit your floor plan and still fail at the doorway. Before ordering furniture, check product and packed dimensions against doorways, stairs and turning points—not just the space beside your rug. Veluce Studio’s Room Procurement System includes a Dimensions & Access workflow, option comparison and a 17-sheet workbook to organise the evidence before you buy. Explore the complete digital furniture sourcing and room planning resource.",
+        "destination_url": "https://velucedesign.com/room-procurement-system",
+        "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
+        "published_at": "2026-10-10",
+        "pin_url": "https://za.pinterest.com/pin/296815431716269906/",
+        "pin_id": "296815431716269906",
+        "image_dimensions": "1024x1536",
+        "verification_status": "pending"
       }
     ],
     "archived_history": [

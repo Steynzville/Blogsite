@@ -107,7 +107,7 @@ A restrained grid or stripe can help organise a loose seating group. Consider th
 
 Mid-tones and subtle patterns can disguise everyday marks. Very pale surfaces show some spills readily; very dark ones can reveal dust and pale debris. Choose for your household and cleaning routine, rather than assuming one colour is always easiest.
 
-Veluce also retains the existing [grey-grid outdoor-rug catalogue link](https://steynenslin.s.gy/Rug) for readers comparing that visual direction. Confirm the current destination's actual material, dimensions, included accessories and care instructions. Its current specification and affiliate attribution have not been independently reconfirmed here, so do not treat the pattern description as a performance guarantee.
+If you prefer a graphic pattern, the existing [grey-grid outdoor-rug option](https://steynenslin.s.gy/Rug) offers another visual direction to investigate. Confirm the current listing's material, dimensions, included accessories and care instructions before choosing it. A pattern that suits the room still needs to pass the weather and floor checks above.
 
 ## Position the Rug Within the Outdoor Room
 

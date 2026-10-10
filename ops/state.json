@@ -913,7 +913,45 @@
     "lastRunType": "NEW",
     "nextRunType": "REFRESH",
     "nextNewProduct": "Luxury Outdoor Room Planner",
-    "pendingRun": null,
+    "pendingRun": {
+      "runDate": "2026-10-10",
+      "runType": "REFRESH",
+      "articleSlug": "outdoor-rugs-defy-elements",
+      "articleTitle": "Outdoor Rugs for Patios: Size, Materials and Care",
+      "primaryTopic": "Choosing outdoor rugs by furniture footprint, exposure and floor compatibility",
+      "primaryProduct": "Luxury Outdoor Room Planner",
+      "branch": "editorial/2026-10-10-refresh",
+      "prNumber": null,
+      "prUrl": null,
+      "mergeStatus": "pending",
+      "mergeCommit": null,
+      "validationResult": "pending",
+      "publicationDate": null,
+      "plannedNextRunType": "NEW",
+      "plannedNextNewProduct": "Luxury Outdoor Room Planner",
+      "selectionReason": "Material guidance overpromised fading resistance and sheltered natural-fibre performance; patio-area sizing ignored chair travel; missing floor compatibility and wet-weather care. Recent SEO refreshes of LED/copper guides excluded.",
+      "sources": [
+        "https://www.trex.com/why-trex/faq/",
+        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rugs-ultimate-guide",
+        "https://www.rugsusa.com/pages/rug-size-guide",
+        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rug-questions-answered"
+      ],
+      "sourceCheckedAt": "2026-10-10",
+      "affiliateMonetisation": {
+        "contextualPlacementsRetained": 3,
+        "products": [
+          "existing grey-grid outdoor rug (Rug)",
+          "reversible polypropylene outdoor rug (outdoor-rug-pp)",
+          "non-slip underlay (rug-gripper)"
+        ],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true,
+        "verificationScope": "Preserved exact existing registry URLs. Two mappings verified Admitad/Short.io on 2026-09-30; legacy Rug remains pending product/attribution verification. No new specifications, availability or shipping claims."
+      },
+      "imagery": "Existing relevant hero retained; descriptive alt added",
+      "analyticsEvidence": "GA4 read 2026-10-10: outdoor-rug article 3 pageviews across slash/no-slash paths for 2026-09-12–2026-10-09 versus 0 in 2026-08-15–2026-09-11. Very low volume; not evidence of decay or uplift. Selected for factual and practical improvements. Search Console unavailable in current shared session."
+    },
     "history": [
       {
         "runType": "NEW",

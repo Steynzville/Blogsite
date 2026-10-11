@@ -875,7 +875,9 @@
         "pin_url": "https://za.pinterest.com/pin/296815431716276837/",
         "pin_id": "296815431716276837",
         "image_dimensions": "1024x1536",
-        "verification_status": "publication_confirmed_destination_pending"
+        "verification_status": "verified",
+        "visit_site_verified": true,
+        "verified_destination": "https://velucedesign.com/complete-home-design-system/?utm_source=Pinterest&utm_medium=organic"
       }
     ],
     "archived_history": [

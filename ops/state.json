@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-11",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; forty-eight organic article Pins published through 2026-10-10 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; fifty-two organic article Pins published through 2026-10-11 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -664,6 +664,58 @@
       "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/article/luxury-interior-design-principles/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716275161",
+      "pin_url": "https://za.pinterest.com/pin/296815431716275161/",
+      "published_at": "2026-10-11",
+      "destination": "https://velucedesign.com/article/garden-pathway-moonlighting/",
+      "creative_angle": "Blue-hour stone path viewed from a sheltered limestone terrace beneath mature trees; concealed warm moonlighting creates dappled leaf shadows and an atmospheric route, with serif editorial hook “GUIDED BY SHADOW”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Garden Moonlighting Ideas for Natural Pathway Ambience",
+      "description": "Use concealed downlights high in trees or structures to cast soft, moonlike pools across garden paths. Learn mounting, beam angle, spacing and glare control for safer movement without visible fixtures.",
+      "alt_text": "Blue-hour stone garden path beneath mature trees, patterned with warm pools of concealed moonlighting and the serif headline Guided by Shadow.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/garden-pathway-moonlighting/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716275162",
+      "pin_url": "https://za.pinterest.com/pin/296815431716275162/",
+      "published_at": "2026-10-11",
+      "destination": "https://velucedesign.com/article/perimeter-monitoring/",
+      "creative_angle": "Elevated blue-hour side-garden route along a warm stone boundary wall toward a timber gate, combining discreet camera coverage and layered low lighting with serif editorial hook “BEFORE THE DOOR”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Perimeter Security Ideas That Protect Without Harsh Lighting",
+      "description": "Plan protection from the property edge with layered cameras, motion sensing and warm security lighting. Explore gate, boundary and side-route coverage that improves awareness without making the home feel fortified.",
+      "alt_text": "Blue-hour side garden follows a warm stone boundary wall toward a timber gate, with discreet security camera, layered path lighting and the serif headline Before the Door.",
+      "board": "Home Security Ideas & Setups",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/perimeter-monitoring/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716275164",
+      "pin_url": "https://za.pinterest.com/pin/296815431716275164/",
+      "published_at": "2026-10-11",
+      "destination": "https://velucedesign.com/article/kitchen-appliances-luxury/",
+      "creative_angle": "Image-only golden-morning oak-and-stone kitchen showing the contrast between a sculptural plaster hood and integrated appliances that disappear into cabinetry; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Luxury Kitchen Appliances: What Should Stand Out or Disappear",
+      "description": "Plan a high-performance kitchen around the appliances you use every day. Explore range cookers, integrated refrigeration, quiet dishwashers, ventilation and where seamless cabinetry matters most.",
+      "alt_text": "Golden-morning oak and pale-stone kitchen with a sculptural plaster hood, flush built-in oven and integrated appliances concealed behind cabinetry.",
+      "board": "Kitchen Essentials & Must-Haves 🔥 — Premium Kitchen Upgrades",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/kitchen-appliances-luxury/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716275167",
+      "pin_url": "https://za.pinterest.com/pin/296815431716275167/",
+      "published_at": "2026-10-11",
+      "destination": "https://velucedesign.com/article/smart-blinds-follow-sun/",
+      "creative_angle": "Close side-on late-afternoon reading nook where linen automated blinds at varied heights shape bands of warm sunlight and privacy, with serif editorial hook “LIGHT, ON YOUR TERMS”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Smart Blinds for Softer Light, Privacy and Heat Control",
+      "description": "Use automated blinds to soften glare, protect finishes, improve privacy and reduce afternoon heat. Compare fabric openness, quiet motors, schedules and sun-tracking control for calmer rooms throughout the day.",
+      "alt_text": "Late-afternoon sun filters through linen automated blinds at varied heights into a warm reading nook, with the serif headline Light, On Your Terms.",
+      "board": "Smart Home Ideas & Gadgets 🔥",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/smart-blinds-follow-sun/?utm_source=Pinterest&utm_medium=organic"
     }
   ],
   "pages_created": [],

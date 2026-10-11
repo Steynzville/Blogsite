@@ -754,16 +754,10 @@
     "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
   },
   "veluce_six_product_cover_rotation_v1": {
-    "cycle": 1,
-    "last_product": "Room Procurement System",
-    "completed_products": [
-      "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner",
-      "Designer Brief Builder",
-      "Luxury Lighting Formula",
-      "Room Procurement System"
-    ],
-    "next_product": "Complete Home Design System",
+    "cycle": 2,
+    "last_product": "Complete Home Design System",
+    "completed_products": [],
+    "next_product": "Outdoor Lighting Blueprint",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -864,6 +858,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/room-procurement-system/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Complete Home Design System",
+        "cycle": 1,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "supplied",
+        "original_reference": "libfile_81316985aa148191bd6274fb91c855e0",
+        "creative_concept": "Unchanged native 1024x1536 supplied cover: golden-hour/dusk cohesive indoor-outdoor home with flagship tablet and specialist planning guides.",
+        "marketing_angle": "Plan the whole home before individual rooms become disconnected",
+        "title": "Why Beautiful Rooms Still Feel Disconnected: Plan the Whole Home First",
+        "description": "A home can contain individually beautiful rooms and still feel fragmented. Create one shared direction for materials, lighting, circulation, budgets and buying decisions before each room becomes its own project. Veluce Studio’s Complete Home Design System connects all five specialist systems with a whole-home master guide, project workbook and decision gates. Explore the complete digital home design planning system.",
+        "destination_url": "https://velucedesign.com/complete-home-design-system",
+        "board": "Modern Home Decor Ideas & Finds 🔥 — Luxury Modern Interior Design",
+        "published_at": "2026-10-11",
+        "pin_url": "https://za.pinterest.com/pin/296815431716276837/",
+        "pin_id": "296815431716276837",
+        "image_dimensions": "1024x1536",
+        "verification_status": "publication_confirmed_destination_pending"
       }
     ],
     "archived_history": [

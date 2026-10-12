@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-12",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; fifty-two organic article Pins published through 2026-10-11 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; fifty-six organic article Pins published through 2026-10-12 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -716,6 +716,58 @@
       "board": "Smart Home Ideas & Gadgets 🔥",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/article/smart-blinds-follow-sun/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716283995",
+      "pin_url": "https://za.pinterest.com/pin/296815431716283995/",
+      "published_at": "2026-10-12",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "creative_angle": "Deep blue-hour indoor-outdoor view across a rain-damp timber deck with concealed warm LED strips integrated beneath the deck edge and low bench, paired with serif editorial hook “EDGES THAT GLOW”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Outdoor LED Strip Lighting Ideas for Decks and Steps",
+      "description": "Make deck steps, bench edges and outdoor transitions glow without visible dots. Compare voltage, IP ratings, aluminium channels, diffusion and safe placement for warm integrated LED strip lighting that lasts.",
+      "alt_text": "Rain-damp timber deck seen from a warm living room at blue hour, with concealed dot-free LED strips along the deck edge and bench beneath the serif headline Edges That Glow.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716283998",
+      "pin_url": "https://za.pinterest.com/pin/296815431716283998/",
+      "published_at": "2026-10-12",
+      "destination": "https://velucedesign.com/article/copper-lanterns-age-with-grace/",
+      "creative_angle": "Oblique dusk garden view of a limestone-and-oak entrance with paired naturally patinated copper lanterns casting amber light after rain, paired with serif editorial hook “PATINA WELCOMES HOME”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Copper Outdoor Lanterns That Develop a Beautiful Patina",
+      "description": "Choose solid-copper outdoor lanterns for warm entrance light and a finish that changes naturally over time. Learn how patina develops, what quality details matter and how coastal weather affects ageing.",
+      "alt_text": "Patinated copper lanterns cast warm light across a rain-softened limestone entrance and oak door at dusk beneath the serif headline Patina Welcomes Home.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/copper-lanterns-age-with-grace/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716284002",
+      "pin_url": "https://za.pinterest.com/pin/296815431716284002/",
+      "published_at": "2026-10-12",
+      "destination": "https://velucedesign.com/article/natural-stone-countertops-guide/",
+      "creative_angle": "Image-only golden-morning close view where a honed dark soapstone worktop meets a pale veined marble pastry slab above warm oak cabinetry, styled for everyday breadmaking; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Natural Stone Countertops: Marble, Quartzite, Granite or Soapstone",
+      "description": "Compare marble, granite, quartzite and soapstone for a kitchen that works in real life. Learn how heat, staining, sealing, scratching and natural patina differ before choosing your countertop.",
+      "alt_text": "Golden-morning kitchen detail with a honed dark soapstone worktop meeting a pale veined marble pastry slab above warm oak cabinetry, styled with bread-making essentials.",
+      "board": "Kitchen Essentials & Must-Haves 🔥 — Premium Kitchen Upgrades",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/natural-stone-countertops-guide/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716284004",
+      "pin_url": "https://za.pinterest.com/pin/296815431716284004/",
+      "published_at": "2026-10-12",
+      "destination": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/",
+      "creative_angle": "Nighttime bedroom viewpoint toward a limestone pool terrace and dark garden where shielded low lighting reveals steps and planting without exposed glare, paired with serif editorial hook “LET NIGHT STAY DARK”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Outdoor Lighting Glare: A Night Audit for Calmer Gardens",
+      "description": "Audit outdoor lighting from the sofa, path, pool and bedroom before adding more fixtures. Use shielding, aiming, warmer colour and intentional darkness to reduce glare and create a calmer garden.",
+      "alt_text": "Night view from a calm bedroom toward a limestone pool terrace where shielded warm lighting reveals steps and planting while the garden stays intentionally dark beneath the serif headline Let Night Stay Dark.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/?utm_source=Pinterest&utm_medium=organic"
     }
   ],
   "pages_created": [],

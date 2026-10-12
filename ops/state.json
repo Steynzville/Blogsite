@@ -807,9 +807,11 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 2,
-    "last_product": "Complete Home Design System",
-    "completed_products": [],
-    "next_product": "Outdoor Lighting Blueprint",
+    "last_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -930,6 +932,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/complete-home-design-system/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 2,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "generated",
+        "original_reference": "libfile_1809f25c76b8819194c4aedace76d781",
+        "creative_concept": "Eye-level curved limestone garden path, concealed warm light at bend and pavilion threshold, timber pavilion and olive planting at peach dusk; no product mockup; exact product title with Light the turning points subhead.",
+        "marketing_angle": "Plan turns, steps and thresholds instead of repeating path fixtures mechanically",
+        "title": "Garden Path Lighting: Plan the Turns and Thresholds Before Buying",
+        "description": "A garden path needs clear guidance at bends, steps and entrances—not a fixture repeated every few metres. Plan the lighting job at each decision point before shopping. Veluce Studio’s Outdoor Lighting Blueprint includes the 4-Axis Nightscape System, six lighting recipes and an editable project calculator to help turn garden lighting ideas into a considered plan. Explore the complete digital outdoor lighting resource.",
+        "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint",
+        "board": "Outdoor Lighting Ideas",
+        "published_at": "2026-10-12",
+        "pin_url": "https://za.pinterest.com/pin/296815431716285811/",
+        "pin_id": "296815431716285811",
+        "image_dimensions": "1024x1536",
+        "verification_status": "publication_confirmed_destination_pending"
       }
     ],
     "archived_history": [

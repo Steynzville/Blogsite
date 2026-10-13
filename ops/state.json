@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; fifty-six organic article Pins published through 2026-10-12 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; sixty organic article Pins published through 2026-10-13 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -768,6 +768,58 @@
       "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/article/outdoor-lighting-glare-night-audit/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716291400",
+      "pin_url": "https://za.pinterest.com/pin/296815431716291400/",
+      "published_at": "2026-10-13",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "creative_angle": "Threshold-to-garden view from an open oak door across rain-darkened limestone steps and an alternating rhythm of warm shielded path lights toward a distant gate, paired with serif editorial hook “THE WELCOME STARTS HERE”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Garden Path Lighting Ideas for a Warm, Welcoming Entrance",
+      "description": "Plan garden pathway lighting that begins at the front door and guides every step. Explore fixture spacing, shielded beams, warm colour temperature and layered planting light for safer, calmer arrivals after dark.",
+      "alt_text": "Open oak front door overlooking rain-darkened limestone steps and a planted garden path guided by warm bronze lights beneath the serif headline The Welcome Starts Here.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/garden-pathway-lighting/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716291403",
+      "pin_url": "https://za.pinterest.com/pin/296815431716291403/",
+      "published_at": "2026-10-13",
+      "destination": "https://velucedesign.com/article/moonlighting-tree-canopies/",
+      "creative_angle": "Oblique night view into a limewashed courtyard where concealed canopy downlighting creates dappled olive-leaf shadows over a limestone bench and reflecting pool, paired with serif editorial hook “BORROWED FROM THE MOON”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Tree Moonlighting Ideas for a Soft, Natural Garden Glow",
+      "description": "Create natural-looking garden moonlight with one carefully concealed downlight high in an open tree canopy. Learn mounting, shielding, beam spread and warm colour choices for delicate shadows without visible glare.",
+      "alt_text": "Moonlit olive tree in a limewashed courtyard casting delicate leaf shadows across a pale wall and stone bench beneath the serif headline Borrowed from the Moon.",
+      "board": "Attainable Luxury Outdoor Lighting — Pure Inspiration",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/moonlighting-tree-canopies/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716291406",
+      "pin_url": "https://za.pinterest.com/pin/296815431716291406/",
+      "published_at": "2026-10-13",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "creative_angle": "Image-only wide late-dusk view across a modest limestone terrace where a low rectangular stone fire-pit table anchors an asymmetrical circle of four cream lounge chairs, with dark trees and one warm doorway adding depth; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Fire Pit Table Ideas for a More Inviting Outdoor Room",
+      "description": "Design a fire pit seating circle that feels relaxed, balanced and easy to use. Compare gas and wood-burning tables, heat output, furniture spacing, durable materials and safety details for longer evenings outdoors.",
+      "alt_text": "Wide late-dusk limestone terrace with a rectangular stone fire pit table and four cream lounge chairs arranged in a relaxed circle beneath mature trees.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Living Spaces",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716291408",
+      "pin_url": "https://za.pinterest.com/pin/296815431716291408/",
+      "published_at": "2026-10-13",
+      "destination": "https://velucedesign.com/article/discreet-security-cameras/",
+      "creative_angle": "Close upward-looking blue-hour entrance detail where a small matte-bronze camera aligns precisely within warm timber canopy battens above stone and an oak pivot door, paired with serif editorial hook “SECURITY, BUILT INTO THE LINES”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Discreet Security Camera Placement for Modern Homes",
+      "description": "Integrate home security cameras into eaves, timber battens and architectural lines without losing useful coverage. Explore field of view, mounting height, night vision, wiring and maintenance for protection that stays visually quiet.",
+      "alt_text": "Blue-hour entrance with a small bronze security camera aligned within timber canopy battens above a warm oak door beneath the serif headline Security, Built into the Lines.",
+      "board": "Home Security Ideas & Setups",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/discreet-security-cameras/?utm_source=Pinterest&utm_medium=organic"
     }
   ],
   "pages_created": [],

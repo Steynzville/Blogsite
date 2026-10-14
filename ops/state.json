@@ -911,11 +911,12 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 2,
-    "last_product": "Outdoor Lighting Blueprint",
+    "last_product": "Luxury Outdoor Room Planner",
     "completed_products": [
-      "Outdoor Lighting Blueprint"
+      "Outdoor Lighting Blueprint",
+      "Luxury Outdoor Room Planner"
     ],
-    "next_product": "Luxury Outdoor Room Planner",
+    "next_product": "Designer Brief Builder",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1056,6 +1057,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/outdoor-lighting-blueprint/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Luxury Outdoor Room Planner",
+        "cycle": 2,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "generated",
+        "original_reference": "libfile_46399d43e3a081919c5cf4d02d8c3dd8",
+        "creative_concept": "Golden-hour limestone courtyard with curved lounge, shaded dining, indoor-outdoor glass doors and subtle sun-path planning motif; exact product title and Plan for sun and shade subhead.",
+        "marketing_angle": "Map sun and shade before placing furniture",
+        "title": "Outdoor Room Planning: Map Sun and Shade Before Placing Furniture",
+        "description": "A beautiful patio can still be uncomfortable if dining sits in harsh afternoon sun or the lounge loses shade too early. Map sun, shade and circulation before placing furniture. Veluce Studio’s Luxury Outdoor Room Planner uses the 5-Layer Outdoor Room Method, layout recipes and photo-first planning tools to turn those observations into a measured outdoor room plan. Explore the complete digital planner.",
+        "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner",
+        "board": "Garden & Patio Ideas & Finds 🔥",
+        "published_at": "2026-10-14",
+        "pin_url": "https://za.pinterest.com/pin/296815431716299981/",
+        "pin_id": "296815431716299981",
+        "image_dimensions": "1024x1536",
+        "verification_status": "publication_confirmed_destination_pending"
       }
     ],
     "archived_history": [

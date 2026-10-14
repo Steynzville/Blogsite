@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -9,7 +9,7 @@
   "data_access": {
     "ga4": "not_connected",
     "search_console": "not_connected",
-    "pinterest": "Authenticated shared browser; sixty organic article Pins published through 2026-10-13 with live destination verification; dedicated Studio product Pins are recorded separately.",
+    "pinterest": "Authenticated shared browser; sixty-four organic article Pins published through 2026-10-14 with live destination verification; dedicated Studio product Pins are recorded separately.",
     "admitad": "VERIFIED LIVE 2026-09-28: AliExpress WW Joined; both owner-supplied item deeplinks generated in account; Link Checker reports ad space/program/URL/deeplink Active. Ad space ownership banner unvalidated; Sep 1-28 stats 25 clicks, 0 actions, 0 earnings.",
     "short_io": "VERIFIED LIVE 2026-09-28: SolarLED retained, target replaced with generated Admitad deeplink to item 1005009013305099; COBled created for generated deeplink to item 1005003279313941. 16 records; SolarLED 22 historical clicks, COBled 0. OWNER TESTED later: 24vDCplugLED current routing works; its Short.io record existed in earlier authenticated dashboard.",
     "linktree": "VERIFIED LIVE PUBLIC earlier 2026-09-28: shop rendered 13 products and SolarLED/COBled cards used Short.io. OWNER TESTED later 2026-09-28: changed 12V/24V IP67 card from direct Admitad to https://steynenslin.s.gy/24vDCplugLED and tested it; corrected separate COBled title to 12V/24V High-Density COB LED Strip. Cloud admin session remains inaccessible; latest change not independently rechecked from this browser."
@@ -820,6 +820,58 @@
       "board": "Home Security Ideas & Setups",
       "visit_site_verified": true,
       "verified_destination": "https://velucedesign.com/article/discreet-security-cameras/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716298500",
+      "pin_url": "https://za.pinterest.com/pin/296815431716298500/",
+      "published_at": "2026-10-14",
+      "destination": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "creative_angle": "Close oblique blue-hour view along an aged brick arch and rough lime-plaster wall, where concealed in-ground beams reveal mortar ridges and surface texture beside olive foliage, paired with serif editorial hook “LIGHT FINDS THE TEXTURE”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Architectural Grazing Lighting Ideas for Textured Walls",
+      "description": "Use narrow upward light to reveal the depth of brick, stone and lime plaster after dark. Learn fixture setback, beam angle, spacing and glare control for architectural grazing that makes texture the focal point.",
+      "alt_text": "Blue-hour close view of an aged brick arch and rough lime plaster revealed by warm grazing light beneath the serif headline Light Finds the Texture.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Outdoor Lighting & Atmosphere",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/upward-lighting-architectural-grazing/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716298502",
+      "pin_url": "https://za.pinterest.com/pin/296815431716298502/",
+      "published_at": "2026-10-14",
+      "destination": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+      "creative_angle": "Image-only low diagonal golden-hour view across a compact limestone pool terrace where an oversized rust, sand and charcoal flatwoven rug anchors a curved cream loveseat and teak chairs beside a linear drain; original AI-generated 2:3 editorial image, disclosed on Pinterest",
+      "title": "Outdoor Rug Ideas for a Patio That Feels Finished",
+      "description": "Choose an outdoor rug that anchors seating, handles weather and connects the patio to the garden. Explore practical sizing, fibres, drainage, pattern and care for a cohesive outdoor room that works in real life.",
+      "alt_text": "Golden-hour limestone pool terrace where a rust, sand and charcoal flatwoven rug anchors a curved cream loveseat and teak lounge chairs beside a linear drain.",
+      "board": "Garden & Patio Ideas & Finds 🔥 — Garden & Patio Decor",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/outdoor-rugs-defy-elements/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716298508",
+      "pin_url": "https://za.pinterest.com/pin/296815431716298508/",
+      "published_at": "2026-10-14",
+      "destination": "https://velucedesign.com/article/kitchen-design-layout/",
+      "creative_angle": "Eye-level early-morning view from a pantry into an L-shaped oak-and-soft-white kitchen with clear island circulation, distinct work zones, an open organised drawer and separate coffee niche, paired with serif editorial hook “FLOW BEFORE FINISHES”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Kitchen Layout Ideas for Smoother Everyday Flow",
+      "description": "Plan the kitchen around movement before choosing finishes. Use clear work zones, practical island clearance, drawer storage and a separate coffee station to make cooking, breakfast and entertaining feel easier.",
+      "alt_text": "Morning view from a pantry into a warm oak-and-white kitchen with clear island circulation, organised drawers and a separate coffee niche beneath the serif headline Flow Before Finishes.",
+      "board": "Kitchen Organization Ideas",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/kitchen-design-layout/?utm_source=Pinterest&utm_medium=organic"
+    },
+    {
+      "pin_id": "296815431716298515",
+      "pin_url": "https://za.pinterest.com/pin/296815431716298515/",
+      "published_at": "2026-10-14",
+      "destination": "https://velucedesign.com/article/invisible-hvac-design/",
+      "creative_angle": "Low-corner blue-hour bedroom view with warm oak joinery, linen curtains and climate control concealed in a continuous ceiling shadow-gap diffuser and aligned return grille, paired with serif editorial hook “COMFORT, BUILT IN”; original AI-generated 2:3 image, disclosed on Pinterest",
+      "title": "Invisible HVAC Ideas for Quiet, Comfortable Rooms",
+      "description": "Keep rooms comfortable without letting equipment interrupt the design. Explore concealed ducting, slim linear diffusers, zoning, underfloor heating and quiet controls for climate systems that disappear into the architecture.",
+      "alt_text": "Blue-hour bedroom with warm oak joinery, linen curtains and a slim concealed ceiling diffuser beneath the serif headline Comfort, Built In.",
+      "board": "Smart Home Ideas & Gadgets 🔥",
+      "visit_site_verified": true,
+      "verified_destination": "https://velucedesign.com/article/invisible-hvac-design/?utm_source=Pinterest&utm_medium=organic"
     }
   ],
   "pages_created": [],

@@ -61,7 +61,7 @@ export const articleStudioRecommendations = {
   'pergola-lighting-outdoor-room': { product: 'outdoorLighting', hook: 'Want the pergola to feel intentional after dark, not simply brighter?' },
   'upward-lighting-architectural-grazing': { product: 'outdoorLighting', hook: 'Planning a complete exterior lighting composition rather than one grazing detail?' },
   'hidden-uplighting-mature-trees': { product: 'outdoorLighting', hook: 'Want the tree to belong to a complete nightscape instead of becoming an isolated bright object?' },
-  'led-strip-integration-modern-deck': { product: 'outdoorLighting', hook: 'Choosing the strip is only one part of the lighting plan.' },
+  'led-strip-integration-modern-deck': { product: 'outdoorLighting', hook: 'Before buying LED strips, plan where the light belongs. Use the Outdoor Lighting Blueprint to map steps, seating and the areas best left dark.' },
   'discreet-security-cameras': { product: 'completeHome', hook: 'Integrating security without letting technology take over the design?' },
   'garden-pathway-lighting': { product: 'outdoorLighting', hook: 'Design the route, focal points and darkness before choosing pathway fixtures.' },
   'solar-pathway-lights-affordable': { product: 'outdoorLighting', hook: 'Before choosing individual solar lights, decide what the path should feel like after dark.' },

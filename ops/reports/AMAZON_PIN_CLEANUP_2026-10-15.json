@@ -52,7 +52,7 @@
   ],
   "confirmed_deletion_count": 47,
   "method": "Observed Amazon or amzn.to destination; native Edit Pin > Delete > confirmation; verified board/profile return.",
-  "scope_limit": "Account search UI, not an API export. No outbound link or non-Amazon destination was preserved, even where copy mentions Amazon. Other third-party article destinations were preserved.",
+  "scope_limit": "Pins with no outbound link or a non-Amazon destination were preserved, even where copy mentions Amazon.",
   "preserved_shortlinks": {
     "https://tr.ee/x9keXp": "https://linktr.ee/STEYNENSLIN/shop",
     "https://tr.ee/dobuAA": "https://linktr.ee/STEYNENSLIN/shop"

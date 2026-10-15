@@ -997,12 +997,13 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 2,
-    "last_product": "Luxury Outdoor Room Planner",
+    "last_product": "Designer Brief Builder",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1163,6 +1164,24 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/luxury-outdoor-room-planner/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Designer Brief Builder",
+        "cycle": 2,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "generated",
+        "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
+        "creative_concept": "Vertical linen moodboard on warm plaster, three interior references and oak/travertine/boucle/olive samples; golden leaf shadows, console and room glimpse; prominent exact title and Decode what you love hook.",
+        "marketing_angle": "Decode repeated materials, colour, texture and shapes in saved images instead of choosing a vague style label",
+        "title": "Interior Design Moodboards: Decode What You Love Before Choosing a Style",
+        "description": "A folder of saved rooms can contain very different styles yet repeat the same warm timber, soft texture or sculptural shape. Name those signals before asking for a design. Veluce Studio’s Designer Brief Builder combines the CLEAR method, photographic Style Decoder Cards and an editable workbook to turn interior design inspiration into a useful project brief. Explore the complete digital briefing system.",
+        "destination_url": "https://velucedesign.com/designer-brief-builder",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "published_at": "2026-10-15",
+        "pin_url": "https://za.pinterest.com/pin/296815431716308233/",
+        "pin_id": "296815431716308233",
+        "image_dimensions": "1024x1536",
+        "verification_status": "publication_confirmed_destination_pending"
       }
     ],
     "archived_history": [

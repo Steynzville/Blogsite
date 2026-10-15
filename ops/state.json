@@ -115,7 +115,37 @@
       "reason": "Existing links/content, eligibility and electrical claims require review"
     }
   ],
-  "experiments": [],
+  "experiments": [
+    {
+      "id": "led-blueprint-hook-20261015",
+      "status": "ready_for_deployment",
+      "page": "/article/led-strip-integration-modern-deck/",
+      "product": "outdoor-lighting-blueprint",
+      "hypothesis": "A concrete planning outcome in the existing Studio recommendation will increase useful Blueprint exploration.",
+      "single_change": "Only the LED-strip article recommendation hook; destination, position, price, imagery and other CTAs unchanged.",
+      "baseline": {
+        "start": "2026-10-08",
+        "end": "2026-10-14",
+        "landing_sessions": 9,
+        "commercial_click_events_on_article": 0,
+        "source": "GA4 properties/540909663; eventName=veluce_commercial_click grouped by pagePath; no matching article rows"
+      },
+      "primary_metric": "Matched approved contribution per qualified article visit when available; otherwise report unavailable.",
+      "diagnostic_metrics": [
+        "Studio recommendation commercial clicks by existing link_id/placement when reportable",
+        "Article commercial clicks (all kinds, not a substitute for product-specific clicks)",
+        "Product page visits and begin_checkout"
+      ],
+      "guardrails": [
+        "No price or publishing-volume changes",
+        "Do not sum general commercial events with checkout events",
+        "Exclude known QA where possible; low volume remains inconclusive"
+      ],
+      "review_date": "2026-11-12",
+      "rollback": "Restore previous LED-strip recommendation hook if broken, misleading or materially worse after a comparable observation window.",
+      "evidence_report": "ops/reports/CONVERSION_FOLLOWUP_2026-10-15.md"
+    }
+  ],
   "campaigns": [
     {
       "pin_id": "296815431716190184",
@@ -1415,5 +1445,35 @@
       "status": "published",
       "verified": true
     }
-  ]
+  ],
+  "conversion_followup_20261015": {
+    "checked_at": "2026-10-15",
+    "report": "ops/reports/CONVERSION_FOLLOWUP_2026-10-15.md",
+    "checkout": "Live Blueprint link reached correct Paystack product; GA4 Realtime showed one begin_checkout and one veluce_commercial_click during QA. No payment made.",
+    "delivery": "Live health returns verificationConfigured true and all six loaded; missing reference 400, deliberately invalid reference 403. Positive paid download not tested.",
+    "linktree": {
+      "verified_url": "https://linktr.ee/STEYNENSLIN/shop",
+      "total_products": 54,
+      "collections": {
+        "Modern Home Lighting": 23,
+        "Outdoor Living": 8,
+        "Smart Home and Security": 15,
+        "Kitchen and Stone Care": 8
+      },
+      "scope": "Visible public shop inventory verified; individual merchant stock/eligibility not audited."
+    },
+    "amazon_pin_cleanup": {
+      "confirmed_deleted_ids": [
+        "296815431715216000",
+        "296815431715441947",
+        "296815431715416349",
+        "296815431715416340",
+        "296815431715416291",
+        "296815431715400598",
+        "296815431715067681",
+        "296815431715067685"
+      ],
+      "scope": "Confirmed direct Amazon/amzn.to destinations in first audited board search; broader inventory continues."
+    }
+  }
 }

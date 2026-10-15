@@ -118,7 +118,7 @@
   "experiments": [
     {
       "id": "led-blueprint-hook-20261015",
-      "status": "ready_for_deployment",
+      "status": "active",
       "page": "/article/led-strip-integration-modern-deck/",
       "product": "outdoor-lighting-blueprint",
       "hypothesis": "A concrete planning outcome in the existing Studio recommendation will increase useful Blueprint exploration.",
@@ -143,7 +143,11 @@
       ],
       "review_date": "2026-11-12",
       "rollback": "Restore previous LED-strip recommendation hook if broken, misleading or materially worse after a comparable observation window.",
-      "evidence_report": "ops/reports/CONVERSION_FOLLOWUP_2026-10-15.md"
+      "evidence_report": "ops/reports/CONVERSION_FOLLOWUP_2026-10-15.md",
+      "launched_sha": "36730cf1b0ebbeceae1c3b02330f591e7f5e342b",
+      "launched_at": "2026-10-15",
+      "pr_url": "https://github.com/Steynzville/Blogsite/pull/25",
+      "deployment": "GitHub Pages build/deploy checks successful; changed hook verified in live HTML and rendered UI."
     }
   ],
   "campaigns": [
@@ -1471,9 +1475,54 @@
         "296815431715416291",
         "296815431715400598",
         "296815431715067681",
-        "296815431715067685"
+        "296815431715067685",
+        "296815431715416341",
+        "296815431715400596",
+        "296815431714866682",
+        "296815431715114451",
+        "296815431715114444",
+        "296815431715017037",
+        "296815431714981990",
+        "296815431714709927",
+        "296815431715013495",
+        "296815431714749241",
+        "296815431715020080",
+        "296815431715010589",
+        "296815431714981971",
+        "296815431714594055",
+        "296815431714741287",
+        "296815431714578839",
+        "296815431714837196",
+        "296815431714838393",
+        "296815431715077079",
+        "296815431714755992",
+        "296815431714578880",
+        "296815431714986008",
+        "296815431714741249",
+        "296815431715020111",
+        "296815431715010581",
+        "296815431714587066",
+        "296815431715114453",
+        "296815431714749339",
+        "296815431715036652",
+        "296815431714741328",
+        "296815431715159302",
+        "296815431714594285",
+        "296815431715112739",
+        "296815431714756897",
+        "296815431715158138",
+        "296815431715105727",
+        "296815431715347077",
+        "296815431715158450",
+        "296815431714842661"
       ],
-      "scope": "Confirmed direct Amazon/amzn.to destinations in first audited board search; broader inventory continues."
+      "count": 47,
+      "checked_at": "2026-10-15",
+      "scope": "Direct Amazon and amzn.to links verified through account board/Your Pins searches for amazon, amzn.to and amazon.com; saved and authored pins included. Verified return to board/profile after every deletion. Keyword/URL search is not an API-wide export; unknown destinations are not certified absent.",
+      "preserved_shortlinks": {
+        "https://tr.ee/x9keXp": "https://linktr.ee/STEYNENSLIN/shop",
+        "https://tr.ee/dobuAA": "https://linktr.ee/STEYNENSLIN/shop"
+      }
     }
   }
 }

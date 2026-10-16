@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-16",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -1466,6 +1466,30 @@
       "veluce_url": "https://velucedesign.com/article/natural-stone-materials/",
       "creative": "Practical stone-maintenance tip with Veluce article image preview",
       "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2628372030950764",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true
+    },
+    {
+      "date": "2026-10-16",
+      "destination": "Affiliate Deals Hub",
+      "content_type": "article-led design tip",
+      "topic": "Outdoor rug sizing, drainage and floor compatibility",
+      "veluce_url": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+      "creative": "Practical patio-rug planning tip with Veluce article image preview",
+      "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2629392740848693",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true
+    },
+    {
+      "date": "2026-10-16",
+      "destination": "Veluce Studio Page",
+      "content_type": "article-led practical insight",
+      "topic": "Kitchen activity zones and everyday circulation",
+      "veluce_url": "https://velucedesign.com/article/kitchen-design-layout/",
+      "creative": "Editorial kitchen-planning insight with Veluce article image preview",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zpPK5Jwt3sCJksRY9w4XnukvTkgYH9cLRMEtNHe8ionb9goqsqf5ajH9gRBuTafjl&id=61594938216575",
       "author": "Veluce Studio",
       "status": "published",
       "verified": true

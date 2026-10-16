@@ -1298,6 +1298,21 @@
       "effective_date": "2026-10-06",
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
+    },
+    "pending_run": {
+      "product": "Luxury Lighting Formula",
+      "cycle": 2,
+      "date": "2026-10-16",
+      "status": "blocked_before_publication",
+      "blocker": "Pinterest Access Denied persisted after one reload; request 1204181493952007",
+      "image_path": "/workspace/scratch/c28d15a809d4/generated_images/exec-8acd1230-bb85-4a1c-a767-de81f861a735.png",
+      "image_dimensions": "1024x1536",
+      "creative_concept": "Warm dusk living-dining room with reading lamp, dim bronze pendant, limestone wall wash and concealed shelf glow",
+      "marketing_angle": "Build useful evening lighting scenes beyond a single all-on setting",
+      "title": "Living Room Lighting Scenes: Move Beyond One All-On Setting",
+      "description": "Reading, dinner and winding down ask different things of your lighting. Plan separate groups and dimming levels for the activities you use instead of switching every fitting on together. Veluce Studio’s Luxury Lighting Formula includes the Seven Signals method, scene-planning tools and a 13-sheet audit workbook to help shape a considered evening lighting plan. Explore the complete digital lighting system.",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula",
+      "published": false
     }
   },
   "editorialAutomation": {

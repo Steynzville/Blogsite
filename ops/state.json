@@ -997,13 +997,14 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 2,
-    "last_product": "Designer Brief Builder",
+    "last_product": "Luxury Lighting Formula",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
+      "Designer Brief Builder",
+      "Luxury Lighting Formula"
     ],
-    "next_product": "Luxury Lighting Formula",
+    "next_product": "Room Procurement System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1184,6 +1185,30 @@
         "verification_status": "verified",
         "visit_site_verified": true,
         "verified_destination": "https://velucedesign.com/designer-brief-builder/?utm_source=Pinterest&utm_medium=organic"
+      },
+      {
+        "product": "Luxury Lighting Formula",
+        "cycle": 2,
+        "image_dimensions": "1024x1536",
+        "creative_concept": "Warm dusk living-dining room with reading lamp, dim bronze pendant, limestone wall wash and concealed shelf glow",
+        "marketing_angle": "Build useful evening lighting scenes beyond a single all-on setting",
+        "title": "Living Room Lighting Scenes: Move Beyond One All-On Setting",
+        "description": "Reading, dinner and winding down ask different things of your lighting. Plan separate groups and dimming levels for the activities you use instead of switching every fitting on together. Veluce Studio’s Luxury Lighting Formula includes the Seven Signals method, scene-planning tools and a 13-sheet audit workbook to help shape a considered evening lighting plan. Explore the complete digital lighting system.",
+        "destination_url": "https://velucedesign.com/luxury-lighting-formula",
+        "tailwind_post_id": "6ad25447mx9yuWEgqnx-m",
+        "scheduled_at": "2026-10-16T16:44:54Z",
+        "media_url": "https://img.tailwindapp.net/images/0730/7056/1d27/083e21656b7fcea65e83.png",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_id": "296815500381467884",
+        "image_type": "generated",
+        "original_reference": "libfile_ffe73dc800888191938908c0ae7291dc",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "published_at": "2026-10-16",
+        "published_at_timestamp": "2026-10-16T16:45:58Z",
+        "pin_id": "296815431716316906",
+        "pin_url": "https://www.pinterest.com/pin/296815431716316906/",
+        "verification_status": "Tailwind confirmed sent; media and metadata verified through connector; live Pinterest inspection blocked",
+        "visit_site_verified": false
       }
     ],
     "archived_history": [
@@ -1299,26 +1324,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "product": "Luxury Lighting Formula",
-      "cycle": 2,
-      "date": "2026-10-16",
-      "status": "queued_via_tailwind",
-      "blocker": "Pinterest Access Denied persisted after one reload; request 1204181493952007",
-      "image_path": "/workspace/scratch/c28d15a809d4/generated_images/exec-8acd1230-bb85-4a1c-a767-de81f861a735.png",
-      "image_dimensions": "1024x1536",
-      "creative_concept": "Warm dusk living-dining room with reading lamp, dim bronze pendant, limestone wall wash and concealed shelf glow",
-      "marketing_angle": "Build useful evening lighting scenes beyond a single all-on setting",
-      "title": "Living Room Lighting Scenes: Move Beyond One All-On Setting",
-      "description": "Reading, dinner and winding down ask different things of your lighting. Plan separate groups and dimming levels for the activities you use instead of switching every fitting on together. Veluce Studio’s Luxury Lighting Formula includes the Seven Signals method, scene-planning tools and a 13-sheet audit workbook to help shape a considered evening lighting plan. Explore the complete digital lighting system.",
-      "destination_url": "https://velucedesign.com/luxury-lighting-formula",
-      "published": false,
-      "tailwind_post_id": "6ad25447mx9yuWEgqnx-m",
-      "scheduled_at": "2026-10-16T16:44:54Z",
-      "media_url": "https://img.tailwindapp.net/images/0730/7056/1d27/083e21656b7fcea65e83.png",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_id": "296815500381467884"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

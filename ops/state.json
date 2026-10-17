@@ -1324,7 +1324,26 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "product": "Room Procurement System",
+      "cycle": 2,
+      "tailwind_post_id": "6ad3651ekmzc0UWJ0Cxd6",
+      "submission_date": "2026-10-17",
+      "status": "queued",
+      "title": "Furniture Buying: Compare the Full Cost Before You Choose",
+      "description": "The lowest furniture price can hide freight, assembly, installation and required extras. Compare the complete landed cost of each shortlisted option before deciding. Veluce Studio’s Room Procurement System includes a 17-sheet workbook and the SOURCE Method to organise cost, supplier evidence and delivery decisions. Explore the complete digital room procurement planning system.",
+      "url": "https://velucedesign.com/room-procurement-system/",
+      "altText": "Golden-hour procurement planning table with coordinated fabric, stone, timber and brass samples, comparison sheets and a dining chair beneath the title Room Procurement System.",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "original_reference": "libfile_1604685b1c6c819192d595e3c33237a3",
+      "reference_set_id": "veluce_2x3_covers_20261005",
+      "creative_concept": "Oblique golden-hour walnut planning table, furniture quote comparison sheets, fabric/stone/brass samples and boucle dining chair; prominent exact product title and Compare the whole cost hook",
+      "marketing_angle": "Compare complete landed cost including freight, assembly, installation and extras before selecting furniture",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "media_url": "https://img.tailwindapp.net/images/f02e/52f6/d1f1/739cfc34d8d87af7a820.png"
+    }
   },
   "editorialAutomation": {
     "version": 1,

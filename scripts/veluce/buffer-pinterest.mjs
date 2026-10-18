@@ -29,8 +29,13 @@ export function validatePin(pin) {
   if (!board || !/^[0-9]+$/.test(String(board))) throw new Error("Use a real numeric Pinterest board_service_id from Buffer discovery");
   let imageUrl, destinationUrl;
   try { imageUrl = new URL(image); destinationUrl = new URL(destination); } catch { throw new Error("Invalid Pin URL"); }
-  if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/pinterest\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
-    throw new Error("Image must be an approved public direct Veluce /pins/ or Blogsite GitHub assets/pinterest/ image URL");
+  if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/(?:pinterest|pinterest-products)\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
+    throw new Error("Image must be an approved public direct Veluce or Blogsite GitHub Pinterest image URL");
+  if (imageUrl.hostname === "raw.githubusercontent.com" &&
+      (pin.workflow === "veluce_six_product_cover_rotation_v1"
+       ? !imageUrl.pathname.includes("/assets/pinterest-products/")
+       : !imageUrl.pathname.includes("/assets/pinterest/")))
+    throw new Error("Product covers and editorial images must remain in their separate GitHub asset folders");
   const productPages = {
     "Outdoor Lighting Blueprint": "/outdoor-lighting-blueprint",
     "Luxury Outdoor Room Planner": "/luxury-outdoor-room-planner",

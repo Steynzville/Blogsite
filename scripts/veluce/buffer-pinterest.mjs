@@ -31,8 +31,23 @@ export function validatePin(pin) {
   try { imageUrl = new URL(image); destinationUrl = new URL(destination); } catch { throw new Error("Invalid Pin URL"); }
   if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/pinterest\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
     throw new Error("Image must be an approved public direct Veluce /pins/ or Blogsite GitHub assets/pinterest/ image URL");
-  if (destinationUrl.protocol !== "https:" || destinationUrl.hostname !== "velucedesign.com" || !/^\/article\/[a-z0-9-]+\/$/.test(destinationUrl.pathname))
-    throw new Error("Destination must be a published Veluce article URL");
+  const productPages = {
+    "Outdoor Lighting Blueprint": "/outdoor-lighting-blueprint",
+    "Luxury Outdoor Room Planner": "/luxury-outdoor-room-planner",
+    "Designer Brief Builder": "/designer-brief-builder",
+    "Luxury Lighting Formula": "/luxury-lighting-formula",
+    "Room Procurement System": "/room-procurement-system",
+    "Complete Home Design System": "/complete-home-design-system",
+  };
+  const isProduct = pin.workflow === "veluce_six_product_cover_rotation_v1";
+  const productPath = destinationUrl.pathname.replace(/\/$/, "");
+  const articlePath = /^\/article\/[a-z0-9-]+\/$/.test(destinationUrl.pathname);
+  if (destinationUrl.protocol !== "https:" || destinationUrl.hostname !== "velucedesign.com" || destinationUrl.search || destinationUrl.hash ||
+      (isProduct ? productPages[pin.product] !== productPath : !articlePath))
+    throw new Error(isProduct ? "Product rotation requires its matching verified Veluce product page and product name" :
+      "Editorial Pins must link to a published Veluce article URL");
+  if (pin.workflow && !["veluce_six_product_cover_rotation_v1", "veluce_editorial"].includes(pin.workflow))
+    throw new Error("Unknown publishing workflow");
   if (time !== "now" && (!time || Number.isNaN(Date.parse(time)) || !/[+-]\d{2}:\d{2}$|Z$/.test(time))) throw new Error("publish_at must be an offset-aware ISO 8601 datetime");
   return pin;
 }
@@ -228,7 +243,28 @@ export async function run(action, api = graphql) {
   if (!channel || String(channel.service).toLowerCase() !== "pinterest" ||
       ![channel.name, channel.displayName].some(n => String(n || "").toLowerCase().includes("steynenslin")) ||
       channel.isQueuePaused) throw new Error("Configured channel is not the active @steynenslin Pinterest channel");
-  const pin = pending[0]; // One per run until a live click-through test establishes confidence.
+  const pin = pending[0]; // Exactly one Pin submitted by each workflow dispatch.
+  if (pin.workflow === "veluce_six_product_cover_rotation_v1") {
+    const localDay = (iso) => new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Africa/Johannesburg", year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(new Date(iso));
+    const today = localDay(new Date().toISOString());
+    if ((ledger.posts ?? []).some(p => p.workflow === pin.workflow &&
+       (p.recorded_at || p.sent_at) && localDay(p.recorded_at || p.sent_at) === today))
+      throw new Error("One product Pin was already submitted today; product rotation cannot duplicate");
+    const state = JSON.parse(await readFile("ops/state.json", "utf8"));
+    const rotation = state.veluce_six_product_cover_rotation_v1;
+    if (rotation?.history?.some(h => h.published_at &&
+      /^\\d{4}-\\d{2}-\\d{2}/.test(h.published_at) &&
+      (h.published_at.length <= 10 ? h.published_at.slice(0, 10) : localDay(h.published_at)) === today))
+      throw new Error("Product rotation already has a confirmed Pinterest publication today");
+    if (rotation?.next_product !== pin.product)
+      throw new Error("Product rotation expected " + rotation?.next_product + " but the queued Pin is " + pin.product);
+    const response = await fetch(pin.destination_url, {method:"GET", signal:AbortSignal.timeout(20000)});
+    if(!response.ok || new URL(response.url).hostname !== "velucedesign.com")
+      throw new Error("Selected product destination is not a live Veluce product page");
+    await response.body?.cancel();
+  }
   if (!channel.metadata?.boards?.some(b => String(b.serviceId) === String(pin.board_service_id)))
     throw new Error("Requested board not on this Pinterest account");
   // Validate the actual public image before creating a Buffer post.
@@ -237,7 +273,7 @@ export async function run(action, api = graphql) {
     throw new Error("Image is not publicly reachable as an image: HTTP " + media.status + " " + media.headers.get("content-type"));
   const result = await scheduleVerified(api, pin, channelId);
   ledger.posts ??= [];
-  ledger.posts.push({creative_id: pin.creative_id, title: pin.title, destination_url: pin.destination_url,
+  ledger.posts.push({creative_id: pin.creative_id, workflow: pin.workflow ?? "veluce_editorial", ...(pin.product ? {product: pin.product} : {}), title: pin.title, destination_url: pin.destination_url,
     image_url: pin.image_url, board_service_id: pin.board_service_id, buffer_post_id: result.id,
     publish_at: result.publish_at, status: result.status, recorded_at: new Date().toISOString()});
   await writeFile(LEDGER, JSON.stringify(ledger, null, 2) + "\n");

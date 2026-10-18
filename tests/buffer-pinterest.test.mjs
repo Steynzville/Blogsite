@@ -88,3 +88,23 @@ test("temporary Buffer Pinterest draft is read, checked and deleted without sche
     else process.env.BUFFER_CHANNEL_ID = old;
   }
 });
+
+test("share-now uses guarded draft-first flow before Buffer shareNow edit", async () => {
+  const nowPin={...pin, publish_at:"now"};
+  const calls=[];
+  async function api(query,vars) {
+    calls.push({query,vars});
+    if(query===operations.create) return {createPost:{post:{id:"p1"}}};
+    if(query===operations.post) return {post:post()};
+    if(query===operations.edit) return {editPost:{post:{id:"p1"}}};
+    throw new Error("unexpected request");
+  }
+  const outcome=await scheduleVerified(api,nowPin,"channel1");
+  assert.equal(outcome.status,"submitted_now_verified");
+  assert.equal(calls[2].vars.input.mode,"shareNow");
+  assert.equal(calls[2].vars.input.dueAt,undefined);
+});
+test("allows only Veluce or exact Blogsite raw first-party images",()=>{
+  assert.doesNotThrow(()=>validatePin({...pin,image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/50e90140-668f-11f1-9181-2778cad0ff11.png"}));
+  assert.throws(()=>validatePin({...pin,image_url:"https://raw.githubusercontent.com/other/repo/main/assets/pinterest/50e90140.png"}));
+});

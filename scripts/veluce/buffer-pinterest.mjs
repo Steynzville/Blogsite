@@ -203,7 +203,7 @@ export async function verifySent(api = graphql) {
     console.log(JSON.stringify({id:item.buffer_post_id,status:post.status,sentAt:post.sentAt,
       externalLink:post.externalLink,linkMatches:post.metadata?.url===item.destination_url}));
   }
-  if(changed) await writeFile(LEDGER,JSON.stringify(ledger,null,2)+"\\n");
+  if(changed) await writeFile(LEDGER,JSON.stringify(ledger,null,2)+"\n");
 }
 
 export async function run(action, api = graphql) {

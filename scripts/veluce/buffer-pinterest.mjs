@@ -255,7 +255,7 @@ export async function run(action, api = graphql) {
     const state = JSON.parse(await readFile("ops/state.json", "utf8"));
     const rotation = state.veluce_six_product_cover_rotation_v1;
     if (rotation?.history?.some(h => h.published_at &&
-      /^\\d{4}-\\d{2}-\\d{2}/.test(h.published_at) &&
+      /^\d{4}-\d{2}-\d{2}/.test(h.published_at) &&
       (h.published_at.length <= 10 ? h.published_at.slice(0, 10) : localDay(h.published_at)) === today))
       throw new Error("Product rotation already has a confirmed Pinterest publication today");
     if (rotation?.next_product !== pin.product)

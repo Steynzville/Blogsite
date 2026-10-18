@@ -1678,5 +1678,20 @@
         "https://tr.ee/dobuAA": "https://linktr.ee/STEYNENSLIN/shop"
       }
     }
+  },
+  "pinterest_editorial_pending": {
+    "tailwind_post_id": "6ad48494kQQ93sOR_Qdfv",
+    "status": "queued",
+    "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+    "scheduled_at": "2026-10-18T08:35:56.000Z",
+    "title": "Outdoor LED Strip Lighting Ideas for a Warm Patio Glow",
+    "description": "Give an outdoor kitchen or dining terrace a softer evening glow with concealed LED strip lighting. Explore placement behind fascias and ledges, diffused light without visible dots, and what to consider about voltage, weather ratings and connections before choosing a strip for your outdoor space. Read Veluce’s outdoor LED lighting guide.",
+    "alt_text": "Dusk outdoor kitchen with warm continuous concealed LED strip lighting washing ribbed oak cabinet fronts beneath a pale stone worktop, beside woven stools, rosemary and a softly lit dining ledge.",
+    "board": "Outdoor Lighting Ideas",
+    "board_id": "296815500381477417",
+    "creative_angle": "Image-only original 2:3 oblique outdoor kitchen at dusk; concealed warm LED strips beneath pale stone fascia and dining ledge wash ribbed oak fronts, with woven stools and rosemary; no text.",
+    "media_url": "https://img.tailwindapp.net/images/ad66/df19/de37/293282e81a0eac7faeb1.png",
+    "image_dimensions": "1024x1536",
+    "authorization": "Owner explicitly requested one additional outdoor LED strip pin on 2026-10-18, separate from scheduled single daily run."
   }
 }

@@ -1,11 +1,22 @@
 # VELUCE: Buffer Pinterest replacement (free, gated)
 
-**Status: code prepared, NOT connected, NOT automatically publishing.** The current Pinterest/Tailwind routines are untouched. No new paid services. API credentials and the first real test are required before enabling.
+**Status (18 October 2026): Buffer API authenticated; Pinterest @steynenslin and 13 boards discovered; live disposable draft test PASSED. Not yet published to Pinterest; automatic posting remains disabled.** The current Pinterest/Tailwind routines are untouched. No new paid services.
 
 ## Why Buffer
 Buffer Free permits up to 10 **queued posts at a time per channel** (slots recycle), and includes API access. Unlike a shared browser, this uses Buffer's Pinterest connection. Docs: https://developers.buffer.com.
 
 **Critical launch gate:** Buffer's public developer feedback has reported that Pinterest \`metadata.pinterest.url\` may be dropped. We **never** accept a linkless Pin. The adapter creates a *draft*, checks returned destination, title, board and image, schedules only if correct, re-reads, and deletes if validation fails. First live publication must also be inspected on Pinterest before considering unattended publishing. The draft/create/edit validation cannot guarantee Pinterest will preserve the link after delivery.
+
+
+## Verified integration evidence — 18 October 2026
+
+- GitHub Actions secret `BUFFER_API_KEY` exists; the API authenticated successfully (secret value never disclosed).
+- Variable `BUFFER_CHANNEL_ID` configured for the live Pinterest channel; `BUFFER_PUBLISH_ENABLED=false` remains in force.
+- `ops/buffer/boards.json` contains the 13 Buffer-discovered Pinterest boards and their genuine IDs.
+- Read-only discovery succeeded: https://github.com/Steynzville/Blogsite/actions/runs/39147114314
+- Temporary Pinterest Buffer draft probe succeeded: https://github.com/Steynzville/Blogsite/actions/runs/39147511688
+- Probe confirmed exact title, description, image MIME type, Pinterest board and article click-through URL. The draft was **deleted**; no Pin was scheduled or published.
+- The real publisher still requires a new original public `https://velucedesign.com/pins/....jpg` image, a unique `ready` queue item, and a controlled first live publishing test. Do not activate recurrence until the actual Pinterest Pin and its link have been checked.
 
 ## Android setup (only owner actions needed)
 1. Create/sign in to **Buffer Free**: https://buffer.com/ . Do **not** upgrade.

@@ -29,11 +29,11 @@ export function validatePin(pin) {
   if (!board || !/^[0-9]+$/.test(String(board))) throw new Error("Use a real numeric Pinterest board_service_id from Buffer discovery");
   let imageUrl, destinationUrl;
   try { imageUrl = new URL(image); destinationUrl = new URL(destination); } catch { throw new Error("Invalid Pin URL"); }
-  if (imageUrl.protocol !== "https:" || imageUrl.hostname !== "velucedesign.com" || !/^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname) || imageUrl.search || imageUrl.hash)
+  if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/pinterest\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
     throw new Error("Creative must be a publicly hosted VELUCE /pins/ image (not an affiliate or third-party image)");
   if (destinationUrl.protocol !== "https:" || destinationUrl.hostname !== "velucedesign.com" || !/^\/article\/[a-z0-9-]+\/$/.test(destinationUrl.pathname))
     throw new Error("Destination must be a published Veluce article URL");
-  if (!time || Number.isNaN(Date.parse(time)) || !/[+-]\d{2}:\d{2}$|Z$/.test(time)) throw new Error("publish_at must be an offset-aware ISO 8601 datetime");
+  if (time !== "now" && (!time || Number.isNaN(Date.parse(time)) || !/[+-]\d{2}:\d{2}$|Z$/.test(time))) throw new Error("publish_at must be an offset-aware ISO 8601 datetime");
   return pin;
 }
 
@@ -56,7 +56,7 @@ function payload(result, key) {
 
 export async function scheduleVerified(api, pin, channelId) {
   validatePin(pin);
-  if (Date.parse(pin.publish_at) < Date.now() + 15 * 60_000) throw new Error("Publish time must be at least 15 minutes in the future");
+  if (pin.publish_at !== "now" && Date.parse(pin.publish_at) < Date.now() + 15 * 60_000) throw new Error("Publish time must be at least 15 minutes in the future");
   const input = {
     channelId, text: pin.description, schedulingType: "automatic", mode: "addToQueue", saveToDraft: true,
     aiAssisted: true,
@@ -70,15 +70,15 @@ export async function scheduleVerified(api, pin, channelId) {
     const draft = (await api(operations.post, {id})).post;
     checkPersisted(draft, pin);
     const editInput = {
-      id, schedulingType: "automatic", mode: "customScheduled", saveToDraft: false,
-      dueAt: new Date(pin.publish_at).toISOString(),
-      metadata: input.metadata,
+      id, schedulingType: "automatic", mode: pin.publish_at === "now" ? "shareNow" : "customScheduled",
+      saveToDraft: false, metadata: input.metadata,
+      ...(pin.publish_at === "now" ? {} : {dueAt: new Date(pin.publish_at).toISOString()}),
     };
     payload(await api(operations.edit, {input: editInput}), "editPost");
     scheduled = true;
     const verified = (await api(operations.post, {id})).post;
     checkPersisted(verified, pin);
-    return {id, status: "scheduled_verified", publish_at: editInput.dueAt};
+    return {id, status: pin.publish_at === "now" ? "submitted_now_verified" : "scheduled_verified", publish_at: editInput.dueAt ?? new Date().toISOString()};
   } catch (err) {
     // When Buffer drops the click-through URL, even a scheduled Pin must never remain queued.
     try {
@@ -208,6 +208,10 @@ export async function run(action, api = graphql) {
   const pin = pending[0]; // One per run until a live click-through test establishes confidence.
   if (!channel.metadata?.boards?.some(b => String(b.serviceId) === String(pin.board_service_id)))
     throw new Error("Requested board not on this Pinterest account");
+  // Validate the actual public image before creating a Buffer post.
+  const media = await fetch(pin.image_url, {method: "HEAD", signal: AbortSignal.timeout(20000)});
+  if (!media.ok || !String(media.headers.get("content-type") || "").startsWith("image/"))
+    throw new Error("Image is not publicly reachable as an image: HTTP " + media.status + " " + media.headers.get("content-type"));
   const result = await scheduleVerified(api, pin, channelId);
   ledger.posts ??= [];
   ledger.posts.push({creative_id: pin.creative_id, title: pin.title, destination_url: pin.destination_url,

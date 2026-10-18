@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: "validate = offline; discover = read account; probe = disposable draft; publish = ONE Pin"
+        description: "validate, discover, probe draft, publish one Pin, verify accepted Pin"
         required: true
         default: validate
         type: choice
-        options: [validate, discover, probe, publish]
+        options: [validate, discover, probe, publish, verify]
 permissions:
   contents: write
 concurrency:
@@ -32,7 +32,7 @@ jobs:
       - name: Run requested action
         run: node scripts/veluce/buffer-pinterest.mjs ${{ inputs.operation }}
       - name: Record verified scheduling outcome
-        if: ${{ inputs.operation == 'publish' }}
+        if: ${{ inputs.operation == 'publish' || inputs.operation == 'verify' }}
         run: |
           if git diff --quiet -- ops/buffer/ledger.json; then exit 0; fi
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

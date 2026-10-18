@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { validatePin, checkPersisted, scheduleVerified, operations } from "../scripts/veluce/buffer-pinterest.mjs";
+import { validatePin, checkPersisted, scheduleVerified, probeDraft, operations } from "../scripts/veluce/buffer-pinterest.mjs";
 
 const pin = {
   creative_id: "original-garden-glow-01", title: "Warm Garden Pathway Lighting Ideas",
@@ -58,4 +58,33 @@ test("lost link after scheduling -> deletes scheduled post", async () => {
   }
   await assert.rejects(() => scheduleVerified(api,pin,"channel1"),/mismatch/);
   assert.equal(deleted,true);
+});
+
+test("temporary Buffer Pinterest draft is read, checked and deleted without scheduling", async () => {
+  const old = process.env.BUFFER_CHANNEL_ID;
+  process.env.BUFFER_CHANNEL_ID = "buffer-channel";
+  const calls = [];
+  const mock = async (query) => {
+    calls.push(query);
+    if (query === operations.create) return {createPost: {post: {id: "test-draft"}}};
+    if (query === operations.post) return {post: {
+      text: "VELUCE Buffer integration test — private draft only; do not publish.",
+      assets: [{mimeType: "image/jpeg"}],
+      metadata: {
+        title: "Veluce API Connectivity Test — Draft Only",
+        url: "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+        board: {serviceId: "296815500381477417"}
+      }
+    }};
+    if (query === operations.delete) return {deletePost: {id: "test-draft"}};
+    throw new Error("Unexpected operation");
+  };
+  try {
+    const out = await probeDraft(mock);
+    assert.equal(out.status, "probe_passed_and_deleted");
+    assert.deepEqual(calls, [operations.create, operations.post, operations.delete]);
+  } finally {
+    if (old === undefined) delete process.env.BUFFER_CHANNEL_ID;
+    else process.env.BUFFER_CHANNEL_ID = old;
+  }
 });

@@ -1417,7 +1417,26 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "product": "Complete Home Design System",
+      "cycle": 2,
+      "tailwind_post_id": "6ad4b4c3iNGgLgK3prjoH",
+      "submission_date": "2026-10-18",
+      "status": "queued",
+      "title": "Whole-Home Design Planning: Know Which Decision Comes Next",
+      "description": "Choosing finishes, lighting and furniture out of sequence can leave a home project stuck between decisions. Start with reality and a usable brief, then plan space, light and buying in a clear order. Veluce Studio’s Complete Home Design System connects all five specialist packs with a whole-home workbook and decision gate cards to track each room’s next step. Explore the complete digital home planning system.",
+      "url": "https://velucedesign.com/complete-home-design-system/",
+      "altText": "Golden-hour view through connected cream and oak living, dining and kitchen spaces to a leafy courtyard, with the title Complete Home Design System and the line Know what comes next.",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "original_reference": "libfile_81316985aa148191bd6274fb91c855e0",
+      "reference_set_id": "veluce_2x3_covers_20261005",
+      "creative_concept": "Golden-hour entry perspective through connected living, dining, kitchen and leafy courtyard; repeating oak, cream plaster and travertine; prominent exact title and Know what comes next hook; no product mockups",
+      "marketing_angle": "Sequence whole-home design decisions and track each room's next step rather than choosing out of order",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "media_url": "https://img.tailwindapp.net/images/7ade/68a9/e8e2/d9f49badf1976348e79d.png"
+    }
   },
   "editorialAutomation": {
     "version": 1,

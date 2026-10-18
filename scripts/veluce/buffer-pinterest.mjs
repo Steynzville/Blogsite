@@ -30,7 +30,7 @@ export function validatePin(pin) {
   let imageUrl, destinationUrl;
   try { imageUrl = new URL(image); destinationUrl = new URL(destination); } catch { throw new Error("Invalid Pin URL"); }
   if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/pinterest\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
-    throw new Error("Creative must be a publicly hosted VELUCE /pins/ image (not an affiliate or third-party image)");
+    throw new Error("Image must be an approved public direct Veluce /pins/ or Blogsite GitHub assets/pinterest/ image URL");
   if (destinationUrl.protocol !== "https:" || destinationUrl.hostname !== "velucedesign.com" || !/^\/article\/[a-z0-9-]+\/$/.test(destinationUrl.pathname))
     throw new Error("Destination must be a published Veluce article URL");
   if (time !== "now" && (!time || Number.isNaN(Date.parse(time)) || !/[+-]\d{2}:\d{2}$|Z$/.test(time))) throw new Error("publish_at must be an offset-aware ISO 8601 datetime");

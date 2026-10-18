@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: "validate = offline safe; discover = read account; publish = ONE verified-link Pin"
+        description: "validate = offline; discover = read account; probe = disposable draft; publish = ONE Pin"
         required: true
         default: validate
         type: choice
-        options: [validate, discover, publish]
+        options: [validate, discover, probe, publish]
 permissions:
   contents: write
 concurrency:

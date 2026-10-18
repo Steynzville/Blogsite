@@ -16,7 +16,7 @@ export const operations = {
   channel: `query ($id: ChannelId!) { channel(input: { id: $id }) { id name displayName service isQueuePaused metadata { ... on PinterestMetadata { boards { serviceId name } } } } }`,
   create: `mutation ($input: CreatePostInput!) { createPost(input: $input) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }`,
   edit: `mutation ($input: EditPostInput!) { editPost(input: $input) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }`,
-  post: `query ($id: PostId!) { post(input: { id: $id }) { id text assets { id mimeType } metadata { ... on PinterestPostMetadata { title url board { serviceId } } } } }`,
+  post: `query ($id: PostId!) { post(input: { id: $id }) { id status sentAt externalLink text assets { id mimeType } metadata { ... on PinterestPostMetadata { title url board { serviceId } } } } }`,
   delete: `mutation ($id: PostId!) { deletePost(input: { id: $id }) { ... on DeletePostSuccess { id } ... on VoidMutationError { message } } }`,
 };
 
@@ -186,6 +186,26 @@ export async function probeDraft(api = graphql) {
   return { status: "probe_passed_and_deleted", verification };
 }
 
+/** Reconcile accepted Buffer posts with delivery status before any new Pin is sent. */
+export async function verifySent(api = graphql) {
+  const ledger = JSON.parse(await readFile(LEDGER, "utf8"));
+  let changed = false;
+  for (const item of ledger.posts ?? []) {
+    const post = (await api(operations.post, {id: item.buffer_post_id})).post;
+    if (!post) throw new Error("Buffer post missing: " + item.buffer_post_id);
+    if (post.status === "sent" && post.sentAt && post.externalLink) {
+      if (post.metadata?.url !== item.destination_url) throw new Error("Sent post's destination URL differs from ledger: " + item.buffer_post_id);
+      Object.assign(item, {status:"sent_buffer_confirmed", sent_at:post.sentAt, pinterest_url:post.externalLink});
+      changed = true;
+    } else if (post.status === "error") {
+      Object.assign(item, {status:"error_requires_review"}); changed=true;
+    }
+    console.log(JSON.stringify({id:item.buffer_post_id,status:post.status,sentAt:post.sentAt,
+      externalLink:post.externalLink,linkMatches:post.metadata?.url===item.destination_url}));
+  }
+  if(changed) await writeFile(LEDGER,JSON.stringify(ledger,null,2)+"\\n");
+}
+
 export async function run(action, api = graphql) {
   const queue = JSON.parse(await readFile(QUEUE, "utf8"));
   const ledger = JSON.parse(await readFile(LEDGER, "utf8"));
@@ -227,7 +247,7 @@ export async function run(action, api = graphql) {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const action = process.argv[2] ?? "validate";
-  (action === "discover" ? discover() : action === "probe" ? probeDraft() : run(action)).catch(err => {
+  (action === "discover" ? discover() : action === "probe" ? probeDraft() : action === "verify" ? verifySent() : run(action)).catch(err => {
     console.error(err.message); process.exitCode = 1;
   });
 }

@@ -1059,16 +1059,10 @@
     "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
   },
   "veluce_six_product_cover_rotation_v1": {
-    "cycle": 2,
-    "last_product": "Room Procurement System",
-    "completed_products": [
-      "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner",
-      "Designer Brief Builder",
-      "Luxury Lighting Formula",
-      "Room Procurement System"
-    ],
-    "next_product": "Complete Home Design System",
+    "cycle": 3,
+    "last_product": "Complete Home Design System",
+    "completed_products": [],
+    "next_product": "Outdoor Lighting Blueprint",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1302,6 +1296,44 @@
         "visit_site_verified": false,
         "product_page_verified": true,
         "verified_destination": "https://velucedesign.com/room-procurement-system/"
+      },
+      {
+        "product": "Complete Home Design System",
+        "cycle": 2,
+        "tailwind_post_id": "6ad4b4c3iNGgLgK3prjoH",
+        "submission_date": "2026-10-18",
+        "status": "sent",
+        "title": "Whole-Home Design Planning: Know Which Decision Comes Next",
+        "description": "Choosing finishes, lighting and furniture out of sequence can leave a home project stuck between decisions. Start with reality and a usable brief, then plan space, light and buying in a clear order. Veluce Studio’s Complete Home Design System connects all five specialist packs with a whole-home workbook and decision gate cards to track each room’s next step. Explore the complete digital home planning system.",
+        "url": "https://velucedesign.com/complete-home-design-system/",
+        "altText": "Golden-hour view through connected cream and oak living, dining and kitchen spaces to a leafy courtyard, with the title Complete Home Design System and the line Know what comes next.",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "original_reference": "libfile_81316985aa148191bd6274fb91c855e0",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Golden-hour entry perspective through connected living, dining, kitchen and leafy courtyard; repeating oak, cream plaster and travertine; prominent exact title and Know what comes next hook; no product mockups",
+        "marketing_angle": "Sequence whole-home design decisions and track each room's next step rather than choosing out of order",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_id": "296815500381467884",
+        "media_url": "https://img.tailwindapp.net/images/7ade/68a9/e8e2/d9f49badf1976348e79d.png",
+        "destination_url": "https://velucedesign.com/complete-home-design-system/",
+        "published_at": "2026-10-18",
+        "published_at_timestamp": "2026-10-18T12:02:02.000Z",
+        "pin_id": "296815431716328686",
+        "pin_url": "https://www.pinterest.com/pin/296815431716328686/",
+        "verification_status": "Tailwind confirmed sent; native exact 1024x1536 image and returned media/title/description/board/destination verified; live Veluce product page loaded. Live Pinterest image/Visit site check outstanding due prior browser access denial.",
+        "visit_site_verified": false,
+        "product_page_verified": true,
+        "verified_destination": "https://velucedesign.com/complete-home-design-system/",
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula",
+          "Room Procurement System",
+          "Complete Home Design System"
+        ],
+        "next_product": "Outdoor Lighting Blueprint"
       }
     ],
     "archived_history": [
@@ -1417,26 +1449,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "product": "Complete Home Design System",
-      "cycle": 2,
-      "tailwind_post_id": "6ad4b4c3iNGgLgK3prjoH",
-      "submission_date": "2026-10-18",
-      "status": "queued",
-      "title": "Whole-Home Design Planning: Know Which Decision Comes Next",
-      "description": "Choosing finishes, lighting and furniture out of sequence can leave a home project stuck between decisions. Start with reality and a usable brief, then plan space, light and buying in a clear order. Veluce Studio’s Complete Home Design System connects all five specialist packs with a whole-home workbook and decision gate cards to track each room’s next step. Explore the complete digital home planning system.",
-      "url": "https://velucedesign.com/complete-home-design-system/",
-      "altText": "Golden-hour view through connected cream and oak living, dining and kitchen spaces to a leafy courtyard, with the title Complete Home Design System and the line Know what comes next.",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "original_reference": "libfile_81316985aa148191bd6274fb91c855e0",
-      "reference_set_id": "veluce_2x3_covers_20261005",
-      "creative_concept": "Golden-hour entry perspective through connected living, dining, kitchen and leafy courtyard; repeating oak, cream plaster and travertine; prominent exact title and Know what comes next hook; no product mockups",
-      "marketing_angle": "Sequence whole-home design decisions and track each room's next step rather than choosing out of order",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_id": "296815500381467884",
-      "media_url": "https://img.tailwindapp.net/images/7ade/68a9/e8e2/d9f49badf1976348e79d.png"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

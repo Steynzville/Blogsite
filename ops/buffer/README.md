@@ -1,6 +1,6 @@
 # VELUCE: Buffer Pinterest replacement (free, gated)
 
-**Status (18 October 2026): Buffer API authenticated; Pinterest @steynenslin and 13 boards discovered; live disposable draft test PASSED. Not yet published to Pinterest; automatic posting remains disabled.** The current Pinterest/Tailwind routines are untouched. No new paid services.
+**Status (18 October 2026): first real Buffer Pinterest Pin successfully published and reconciled.** Buffer returned status `sent`, pin https://www.pinterest.com/pin/296815431716330527 with matching article destination. An autonomous 06:00 SAST ChatGPT editorial publishing task is scheduled, using Buffer instead of Tailwind, with approved GitHub asset fallback. No paid subscriptions added; image generation/upload on future scheduled runs remains dependent on the capabilities actually available at runtime.
 
 ## Why Buffer
 Buffer Free permits up to 10 **queued posts at a time per channel** (slots recycle), and includes API access. Unlike a shared browser, this uses Buffer's Pinterest connection. Docs: https://developers.buffer.com.
@@ -16,7 +16,7 @@ Buffer Free permits up to 10 **queued posts at a time per channel** (slots recyc
 - Read-only discovery succeeded: https://github.com/Steynzville/Blogsite/actions/runs/39147114314
 - Temporary Pinterest Buffer draft probe succeeded: https://github.com/Steynzville/Blogsite/actions/runs/39147511688
 - Probe confirmed exact title, description, image MIME type, Pinterest board and article click-through URL. The draft was **deleted**; no Pin was scheduled or published.
-- The real publisher still requires a new original public `https://velucedesign.com/pins/....jpg` image, a unique `ready` queue item, and a controlled first live publishing test. Do not activate recurrence until the actual Pinterest Pin and its link have been checked.
+- **First successful live publication:** Buffer post `6ad50c9ca48c8f8371ac47ec`, Pinterest Pin `296815431716330527` (sent 2026-10-18T18:14:53Z), article metadata link matched. Publishing workflow run https://github.com/Steynzville/Blogsite/actions/runs/39153241596 . Direct Pinterest Visit site not separately tested; no browser bypass. Future runs may use freshly generated image bytes pushed to `assets/pinterest/` or unused approved assets there. No website image dependency. Separate ChatGPT task is scheduled daily at 06:00 SAST; its runtime must actually support image generation and GitHub transfer to produce a new creative.
 
 ## Android setup (only owner actions needed)
 1. Create/sign in to **Buffer Free**: https://buffer.com/ . Do **not** upgrade.
@@ -39,4 +39,4 @@ A separate \`ops/buffer/ledger.json\` records each verified scheduled Buffer ID,
 \`BUFFER_API_KEY=... node scripts/veluce/buffer-pinterest.mjs discover\` (read only)
 \`BUFFER_PUBLISH_ENABLED=true BUFFER_CHANNEL_ID=... BUFFER_API_KEY=... node scripts/veluce/buffer-pinterest.mjs publish\` (creates a draft and schedules only after checks).
 
-**Do not turn on a recurring GitHub schedule yet.** Confirm one successful end-to-end Pinterest click-through first. Do not deactivate existing routines until timing and deduplication are reconciled, or double posting can occur. Repository CI is for tests; it is not a continuing AI-image generator. There are no new paid AI/image generation or hosting subscriptions in this implementation.
+**A ChatGPT scheduled task is now configured daily at 06:00 Africa/Johannesburg to invoke Buffer through GitHub.** Buffer's post-status and destination have been checked against the first live Pinterest link; direct Pinterest Visit site browsing was not performed. Do not deactivate existing routines until timing and deduplication are reconciled, or double posting can occur. Repository CI is for tests; it is not a continuing AI-image generator. There are no new paid AI/image generation or hosting subscriptions in this implementation.

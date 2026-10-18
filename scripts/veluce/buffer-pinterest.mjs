@@ -123,6 +123,66 @@ export async function discover(api = graphql) {
   }
 }
 
+
+/**
+ * A private temporary Buffer draft used only to test the real Pinterest metadata path.
+ * Never queues, schedules, or publishes a Pin. Deletes the draft in all cases.
+ * Reuses a first-party website image for testing only; no new creative is posted.
+ */
+export async function probeDraft(api = graphql) {
+  if (!process.env.BUFFER_CHANNEL_ID) throw new Error("BUFFER_CHANNEL_ID is not configured");
+  const board = "296815500381477417"; // Discovered read-only: Outdoor Lighting Ideas.
+  const input = {
+    channelId: process.env.BUFFER_CHANNEL_ID,
+    text: "VELUCE Buffer integration test — private draft only; do not publish.",
+    schedulingType: "automatic",
+    mode: "addToQueue",
+    saveToDraft: true,
+    aiAssisted: true,
+    assets: [{ image: { url: "https://velucedesign.com/images/led-strip-hero.jpg" } }],
+    metadata: { pinterest: {
+      boardServiceId: board,
+      title: "Veluce API Connectivity Test — Draft Only",
+      url: "https://velucedesign.com/article/led-strip-integration-modern-deck/"
+    } }
+  };
+  let postId, failure, verification = null;
+  try {
+    const created = payload(await api(operations.create, { input }), "createPost");
+    postId = created.id;
+    const post = (await api(operations.post, { id: postId })).post;
+    const metadata = post?.metadata;
+    verification = {
+      draft_id: postId,
+      title_ok: metadata?.title === input.metadata.pinterest.title,
+      url_ok: metadata?.url === input.metadata.pinterest.url,
+      board_ok: String(metadata?.board?.serviceId) === board,
+      image_ok: Array.isArray(post?.assets) && post.assets.length === 1 &&
+        String(post.assets[0]?.mimeType || "").startsWith("image/"),
+      text_ok: post?.text === input.text
+    };
+    if (!verification.title_ok || !verification.url_ok || !verification.board_ok ||
+        !verification.image_ok || !verification.text_ok)
+      throw new Error("Buffer failed to persist Pinterest metadata or image (check draft probe results)");
+  } catch (error) {
+    failure = error;
+  } finally {
+    if (postId) {
+      try {
+        const deleted = (await api(operations.delete, { id: postId })).deletePost;
+        if (deleted?.id !== postId) throw new Error(deleted?.message || "Delete not confirmed");
+        console.log("Temporary Buffer draft deleted:", postId);
+      } catch (cleanupError) {
+        throw new Error("URGENT: temporary Buffer draft " + postId +
+          " may remain. Please delete this draft in Buffer. " + cleanupError.message);
+      }
+    }
+  }
+  if (verification) console.log("Draft metadata verification:", JSON.stringify(verification, null, 2));
+  if (failure) throw failure;
+  return { status: "probe_passed_and_deleted", verification };
+}
+
 export async function run(action, api = graphql) {
   const queue = JSON.parse(await readFile(QUEUE, "utf8"));
   const ledger = JSON.parse(await readFile(LEDGER, "utf8"));
@@ -160,7 +220,7 @@ export async function run(action, api = graphql) {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const action = process.argv[2] ?? "validate";
-  (action === "discover" ? discover() : run(action)).catch(err => {
+  (action === "discover" ? discover() : action === "probe" ? probeDraft() : run(action)).catch(err => {
     console.error(err.message); process.exitCode = 1;
   });
 }

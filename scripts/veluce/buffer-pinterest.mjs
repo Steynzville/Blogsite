@@ -71,7 +71,10 @@ export async function scheduleVerified(api, pin, channelId) {
     checkPersisted(draft, pin);
     const editInput = {
       id, schedulingType: "automatic", mode: pin.publish_at === "now" ? "shareNow" : "customScheduled",
-      saveToDraft: false, metadata: input.metadata,
+      saveToDraft: false,
+      text: pin.description,
+      assets: input.assets,
+      metadata: input.metadata,
       ...(pin.publish_at === "now" ? {} : {dueAt: new Date(pin.publish_at).toISOString()}),
     };
     payload(await api(operations.edit, {input: editInput}), "editPost");

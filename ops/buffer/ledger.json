@@ -1,4 +1,16 @@
 {
   "schema_version": 1,
-  "posts": []
+  "posts": [
+    {
+      "creative_id": "veluce-pergola-buffer-test-20261018",
+      "title": "Pergola Lighting Ideas for an Outdoor Room After Dark",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/50e90140-668f-11f1-9181-2778cad0ff11.png",
+      "board_service_id": "296815500381477417",
+      "buffer_post_id": "6ad50c9ca48c8f8371ac47ec",
+      "publish_at": "2026-10-18T18:14:54.506Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-18T18:14:54.506Z"
+    }
+  ]
 }

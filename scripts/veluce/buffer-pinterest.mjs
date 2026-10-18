@@ -12,7 +12,7 @@ const LEDGER = "ops/buffer/ledger.json";
 
 export const operations = {
   organizations: `query { account { organizations { id name } } }`,
-  channels: `query ($org: String!) { channels(input: { organizationId: $org }) { id name displayName service isQueuePaused } }`,
+  channels: `query ($org: OrganizationId!) { channels(input: { organizationId: $org }) { id name displayName service isQueuePaused } }`,
   channel: `query ($id: ChannelId!) { channel(input: { id: $id }) { id name displayName service isQueuePaused metadata { ... on PinterestMetadata { boards { serviceId name } } } } }`,
   create: `mutation ($input: CreatePostInput!) { createPost(input: $input) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }`,
   edit: `mutation ($input: EditPostInput!) { editPost(input: $input) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }`,

@@ -1,0 +1,42 @@
+name: Veluce Buffer Pinterest (gated)
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: "validate = offline safe; discover = read account; publish = ONE verified-link Pin"
+        required: true
+        default: validate
+        type: choice
+        options: [validate, discover, publish]
+permissions:
+  contents: write
+concurrency:
+  group: veluce-buffer-pinterest
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+      BUFFER_PUBLISH_ENABLED: ${{ vars.BUFFER_PUBLISH_ENABLED }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run independent adapter tests
+        run: node --test tests/buffer-pinterest.test.mjs
+      - name: Run requested action
+        run: node scripts/veluce/buffer-pinterest.mjs ${{ inputs.operation }}
+      - name: Record verified scheduling outcome
+        if: ${{ inputs.operation == 'publish' }}
+        run: |
+          if git diff --quiet -- ops/buffer/ledger.json; then exit 0; fi
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add ops/buffer/ledger.json
+          git commit -m "ops(buffer): record verified-link scheduled Pinterest Pin"
+          git push

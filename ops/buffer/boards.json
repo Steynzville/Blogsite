@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "source": "Read-only Buffer authenticated channel discovery",
+  "discovered_at": "2026-10-18",
+  "pinterest_username": "steynenslin",
+  "channel_id": "6ad4eda5778b240e2f4a6312",
+  "boards": [
+    {
+      "id": "296815500381469139",
+      "name": "2026 Warm Organic Home Aesthetic"
+    },
+    {
+      "id": "296815500381474927",
+      "name": "AliExpress Attainable Luxury Lighting"
+    },
+    {
+      "id": "296815500381474397",
+      "name": "Attainable Luxury Outdoor Lighting"
+    },
+    {
+      "id": "296815500381470761",
+      "name": "Cozy Bedroom Ideas & Finds 🔥"
+    },
+    {
+      "id": "296815500381471065",
+      "name": "Garden & Patio Ideas & Finds 🔥"
+    },
+    {
+      "id": "296815500381472050",
+      "name": "Home Security Ideas & Setups"
+    },
+    {
+      "id": "296815500381470714",
+      "name": "Kitchen Essentials & Must-Haves 🔥"
+    },
+    {
+      "id": "296815500381470701",
+      "name": "Kitchen Organization Ideas"
+    },
+    {
+      "id": "296815500381471059",
+      "name": "Laundry Room & Closet Organization Ideas 🔥"
+    },
+    {
+      "id": "296815500381467884",
+      "name": "Modern Home Decor Ideas & Finds 🔥"
+    },
+    {
+      "id": "296815500381477417",
+      "name": "Outdoor Lighting Ideas"
+    },
+    {
+      "id": "296815500381472108",
+      "name": "Smart Home Ideas & Gadgets 🔥"
+    },
+    {
+      "id": "296815500381471465",
+      "name": "Smart Home Security Systems"
+    }
+  ],
+  "publishing_enabled": false
+}

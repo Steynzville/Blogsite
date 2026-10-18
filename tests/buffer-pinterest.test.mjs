@@ -103,6 +103,9 @@ test("share-now uses guarded draft-first flow before Buffer shareNow edit", asyn
   assert.equal(outcome.status,"submitted_now_verified");
   assert.equal(calls[2].vars.input.mode,"shareNow");
   assert.equal(calls[2].vars.input.dueAt,undefined);
+  assert.equal(calls[2].vars.input.text,nowPin.description);
+  assert.deepEqual(calls[2].vars.input.assets,[{image:{url:nowPin.image_url}}]);
+  assert.equal(calls[2].vars.input.metadata.pinterest.url,nowPin.destination_url);
 });
 test("allows only Veluce or exact Blogsite raw first-party images",()=>{
   assert.doesNotThrow(()=>validatePin({...pin,image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/50e90140-668f-11f1-9181-2778cad0ff11.png"}));

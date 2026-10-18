@@ -1,4 +1,15 @@
 {
   "schema_version": 1,
-  "pins": []
+  "pins": [
+    {
+      "creative_id": "veluce-pergola-buffer-test-20261018",
+      "title": "Pergola Lighting Ideas for an Outdoor Room After Dark",
+      "description": "A pergola feels like a whole new outdoor room when the lighting is layered thoughtfully. Explore warm integrated LEDs, softly glowing canopy lights and surrounding garden uplighting in Veluce's practical pergola lighting guide.",
+      "image_url": "https://velucedesign.com/pins/veluce-pergola-buffer-test-20261018.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "ready"
+    }
+  ]
 }

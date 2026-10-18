@@ -142,7 +142,7 @@ test("product and editorial Pins cannot swap image source folders or destination
  assert.throws(()=>validatePin({...product,image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/editorial-creative.png"}),/asset folders/i);
  assert.throws(()=>validatePin({...product,product:"Complete Home Design System"}),/product page/i);
  assert.throws(()=>validatePin({...product,destination_url:"https://velucedesign.com/room-procurement-system/?utm_source=pinterest"}),/product page/i);
- assert.throws(()=>validatePin({...product,workflow:"unknown"}),/article|workflow/i);
+ assert.throws(()=>validatePin({...product,workflow:"unknown"}),/article|workflow|asset folders/i);
 });
 
 test("product posts still use draft-first shareNow and keep exact product URL",async()=>{

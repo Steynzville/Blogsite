@@ -111,3 +111,58 @@ test("allows only Veluce or exact Blogsite raw first-party images",()=>{
   assert.doesNotThrow(()=>validatePin({...pin,image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/50e90140-668f-11f1-9181-2778cad0ff11.png"}));
   assert.throws(()=>validatePin({...pin,image_url:"https://raw.githubusercontent.com/other/repo/main/assets/pinterest/50e90140.png"}));
 });
+
+test("six product destinations are supported only for matching named product rotation", () => {
+ const m = {
+  "Outdoor Lighting Blueprint":"/outdoor-lighting-blueprint",
+  "Luxury Outdoor Room Planner":"/luxury-outdoor-room-planner",
+  "Designer Brief Builder":"/designer-brief-builder",
+  "Luxury Lighting Formula":"/luxury-lighting-formula",
+  "Room Procurement System":"/room-procurement-system",
+  "Complete Home Design System":"/complete-home-design-system",
+ };
+ for (const [product,path] of Object.entries(m)) {
+   const p = {...pin,workflow:"veluce_six_product_cover_rotation_v1",product,
+    image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-"+product.toLowerCase().replaceAll(" ","-")+"-c3.png",
+    destination_url:"https://velucedesign.com"+path};
+   assert.doesNotThrow(() => validatePin(p),product);
+   assert.doesNotThrow(() => validatePin({...p,destination_url:p.destination_url+"/"}),product);
+   assert.throws(()=>validatePin({...p,destination_url:"https://velucedesign.com/article/"+path.slice(1)+"/"}),/product page/i);
+   assert.throws(()=>validatePin({...p,destination_url:"https://velucedesign.com/another-product/"}),/product page/i);
+ }
+});
+
+test("product and editorial Pins cannot swap image source folders or destinations",()=>{
+ const product={...pin, workflow:"veluce_six_product_cover_rotation_v1",product:"Room Procurement System",
+  image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c3.png",
+  destination_url:"https://velucedesign.com/room-procurement-system/"};
+ assert.doesNotThrow(()=>validatePin(product));
+ assert.throws(()=>validatePin({...pin,destination_url:product.destination_url}),/article/i);
+ assert.throws(()=>validatePin({...pin,image_url:product.image_url}),/asset folders/i);
+ assert.throws(()=>validatePin({...product,image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/editorial-creative.png"}),/asset folders/i);
+ assert.throws(()=>validatePin({...product,product:"Complete Home Design System"}),/product page/i);
+ assert.throws(()=>validatePin({...product,destination_url:"https://velucedesign.com/room-procurement-system/?utm_source=pinterest"}),/product page/i);
+ assert.throws(()=>validatePin({...product,workflow:"unknown"}),/article|workflow/i);
+});
+
+test("product posts still use draft-first shareNow and keep exact product URL",async()=>{
+ const p={...pin,workflow:"veluce_six_product_cover_rotation_v1",product:"Outdoor Lighting Blueprint",
+ image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c3.png",
+ destination_url:"https://velucedesign.com/outdoor-lighting-blueprint",publish_at:"now"};
+ const calls=[];
+ async function api(query,variables){
+  calls.push({query,variables});
+  if(query===operations.create) return {createPost:{post:{id:"p-product"}}};
+  if(query===operations.post) return {post:{
+    id:"p-product",text:p.description,assets:[{mimeType:"image/png"}],
+    metadata:{title:p.title,url:p.destination_url,board:{serviceId:p.board_service_id}}
+  }};
+  if(query===operations.edit) return {editPost:{post:{id:"p-product"}}};
+  throw new Error("unexpected Buffer operation");
+ }
+ const outcome=await scheduleVerified(api,p,"channel1");
+ assert.equal(outcome.status,"submitted_now_verified");
+ assert.equal(calls[2].variables.input.metadata.pinterest.url,p.destination_url);
+ assert.equal(calls[2].variables.input.mode,"shareNow");
+ assert.equal(calls[2].variables.input.assets[0].image.url,p.image_url);
+});

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "policy": "Each image was visually reviewed from its ACTUAL GitHub bytes and individually matched to what it shows. Publisher must use only visually_verified=true. Recheck new uploads before manifest additions, do not infer topics by batch.",
+  "policy": "All curated images individually visually inspected; matching title, description, article and board selected by actual pictured subject; excludes uncurated horizontal article imagery. Unreviewed uploads never publish.",
   "image_assets": [
     {
       "path": "assets/pinterest/05f593a0-6690-11f1-9181-2778cad0ff11.webp",
@@ -205,6 +205,96 @@
       "visual_description": "Overlay THE OUTDOOR CHEF; kitchen island and stools below roof canopy with integrated lights.",
       "visual_review_date": "2026-10-19",
       "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+    },
+    {
+      "path": "assets/pinterest/14c45430-6315-11f1-8f23-2396e69fb142.webp",
+      "topic": "tree-uplighting",
+      "title": "Warm Tree Uplighting for a Modern Garden",
+      "description": "A mature tree glows beside a curving low-lit lawn border and reflective water. Discover how hidden uplights help trees become a focal point after sunset.",
+      "visual_description": "Large tree uplighting above curved illuminated edge and water; no firepit.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/707cf8a0-6693-11f1-89f8-1fa1e58903a5.png",
+      "topic": "tree-uplighting",
+      "title": "Hidden Uplighting Ideas for Mature Garden Trees",
+      "description": "A sculptural tree rises from a circular illuminated planting bed against a dark garden. Explore discreet spotlight positioning for warm, dimensional tree lighting.",
+      "visual_description": "Single large mature tree with warm trunk/canopy uplights and luminous circular planting ring.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/883ee3b0-6691-11f1-9181-2778cad0ff11.png",
+      "topic": "tree-uplighting",
+      "title": "Nature Accented: Elegant Tree Uplighting Ideas",
+      "description": "Warm spotlights reveal the form of a mature tree against textured planting, under the headline Nature Accented. Learn to highlight tree structure without harsh glare.",
+      "visual_description": "Overlay NATURE ACCENTED; golden tree uplighting, shrub border and architectural landscaping.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/956d2d40-6690-11f1-9181-2778cad0ff11.png",
+      "topic": "pathway-lighting",
+      "title": "Curved Garden Pathway Lighting at Dusk",
+      "description": "Warm light traces a winding garden border around mature trees and textured planting. Explore how path illumination can guide movement while keeping the landscape inviting.",
+      "visual_description": "Tall uplifted specimen tree beside curving LED-lit pathway/garden border and lawn.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/ca48c0e0-6692-11f1-9181-2778cad0ff11.png",
+      "topic": "tree-uplighting",
+      "title": "Sculpted by Light: Garden Tree Lighting Inspiration",
+      "description": "A mature tree becomes the evening focal point with carefully aimed hidden uplights and subtle surrounding illumination. Discover ideas for bringing garden trees to life at night.",
+      "visual_description": "Overlay SCULPTED BY LIGHT; warm dramatic tree uplighting and dark garden.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/d3c1be80-689d-11f1-8c35-4ba146341052.png",
+      "topic": "pergola",
+      "title": "LED Pergola Lighting for a Calm Outdoor Lounge",
+      "description": "Linear canopy lights define a covered outdoor seating area, while soft planting and edge lighting add depth beyond. Explore layered pergola lighting ideas for evenings.",
+      "visual_description": "Black modern roof pergola with linear golden light strips, comfortable sofa seating and warm garden edging.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/d5e513b0-689d-11f1-8c35-4ba146341052.png",
+      "topic": "pathway-lighting",
+      "title": "Garden Walkway Lighting With Warm Step Accents",
+      "description": "A narrow landscaped approach uses discreet step and path lighting to lead towards illuminated trees. See practical ways to light circulation routes without excessive brightness.",
+      "visual_description": "Straight dark garden pathway/stepping route bordered by low luminous edges, spotlit trees and tall house wall.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/d76c01d0-689d-11f1-8c35-4ba146341052.png",
+      "topic": "pergola",
+      "title": "Modern Pergola Lighting With a Gentle Garden Glow",
+      "description": "A warmly lit roof canopy shelters a contemporary outdoor lounge while a curved illuminated garden edge draws the eye outward. Find ways to light pergolas comfortably.",
+      "visual_description": "Covered dark-roofed pergola with sofas and warm roof lights plus curving LED garden border.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+    },
+    {
+      "path": "assets/pinterest/dae37550-689d-11f1-8c35-4ba146341052.png",
+      "topic": "pergola",
+      "title": "Covered Patio and Pergola Lighting Beside the Garden",
+      "description": "Warm canopy lighting frames an outdoor room overlooking tree uplighting and garden-edge illumination. Learn how layered pergola lighting supports relaxing evenings.",
+      "visual_description": "View outward from under a covered pergola with illuminated roofline, planting and gently lit curved garden edge.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
     }
   ]
 }

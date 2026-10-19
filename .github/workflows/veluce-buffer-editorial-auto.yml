@@ -27,6 +27,7 @@ jobs:
       BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
       BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
       BUFFER_PUBLISH_ENABLED: ${{ vars.BUFFER_PUBLISH_ENABLED }}
+      EDITORIAL_PUBLISH_ENABLED: ${{ vars.EDITORIAL_PUBLISH_ENABLED }}
     steps:
       - uses: actions/checkout@v4
         with:

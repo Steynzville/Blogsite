@@ -157,6 +157,7 @@ async function run(mode){
     next:selected?{path:selected.path,topic:selected.topic,board:TOPICS[selected.topic].board}:null}));
   if(mode==="validate")return;
   if(mode!=="publish")throw new Error("Unsupported mode "+mode);
+  if(process.env.EDITORIAL_PUBLISH_ENABLED!=="true") {console.log("Editorial publishing held: uploaded image-to-topic mapping awaiting visual audit.");return;}
   if(process.env.BUFFER_PUBLISH_ENABLED!=="true")throw new Error("BUFFER_PUBLISH_ENABLED is not true");
   if(!process.env.BUFFER_API_KEY || !process.env.BUFFER_CHANNEL_ID)throw new Error("Buffer credentials/channel missing");
   await reconcile(ledger);

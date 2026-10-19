@@ -34,7 +34,15 @@
       "buffer_post_id": "6ad5ab0d18b302746757ef4c",
       "submitted_at": "2026-10-19T05:30:55.843Z",
       "sent_at": "2026-10-19T05:30:54.589Z",
-      "pinterest_url": "https://www.pinterest.com/pin/296815431716334391"
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716334391",
+      "quality_review": {
+        "status": "failed",
+        "reason": "Image depicts covered illuminated patio and pool with EVENING ESCAPE overlay, not a fire pit; published title, linked article and board do not correspond to image",
+        "verified_by": "User screenshot 2026-10-19",
+        "needs_live_edit": true,
+        "desired_article": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+        "desired_board": "Outdoor Lighting Ideas"
+      }
     }
   ]
 }

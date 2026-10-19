@@ -142,6 +142,24 @@
       "submitted_at": "2026-10-19T19:46:40.516Z",
       "sent_at": "2026-10-19T19:46:39.401Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716338657"
+    },
+    {
+      "creative_id": "veluce-auto-20261020-423e729d0e10",
+      "workflow": "veluce_editorial",
+      "title": "Backyard Bliss: Pergola Lighting by a Plunge Pool",
+      "description": "A sheltered modern outdoor room frames a small illuminated plunge pool, softly lit planting and comfortable patio furniture. Explore warm layered lighting for pergolas and covered patios.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/22ae5ee0-6691-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-20",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "423e729d0e100681106485dc2ecd7afb4bdbd0df",
+      "source_path": "assets/pinterest/22ae5ee0-6691-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-19T22:09:37.495Z",
+      "github_run_id": "39332912159"
     }
   ]
 }

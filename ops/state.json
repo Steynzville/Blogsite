@@ -1527,7 +1527,7 @@
       "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
       "board_service_id": "296815500381477417",
       "publish_at": "now",
-      "status": "ready",
+      "status": "submitted_now_verified",
       "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c3-20261019.png",
       "cycle": 3,
       "submission_date": "2026-10-19",
@@ -1539,7 +1539,8 @@
       "hook": "Hide the source",
       "marketing_angle": "Check glare from the seated viewpoint and conceal bright sources before choosing fixtures",
       "board": "Outdoor Lighting Ideas",
-      "independent_clickthrough_verified": false
+      "independent_clickthrough_verified": false,
+      "buffer_post_id": "6ad608ac2dab63998e8725c9"
     }
   },
   "editorialAutomation": {

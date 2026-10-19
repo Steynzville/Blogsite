@@ -20,8 +20,10 @@
       "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
       "board_service_id": "296815500381477417",
       "publish_at": "now",
-      "status": "ready",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c3-20261019.png"
+      "status": "sent_buffer_confirmed",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c3-20261019.png",
+      "buffer_post_id": "6ad608ac2dab63998e8725c9",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716335808"
     }
   ]
 }

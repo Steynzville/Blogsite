@@ -61,6 +61,24 @@
         "reported_board": "Outdoor Lighting Ideas",
         "note": "Other metadata fields above retain the ORIGINAL Buffer submission. These reported edited fields were not independently re-read from Pinterest."
       }
+    },
+    {
+      "creative_id": "veluce-auto-20261019-dc391f504141",
+      "workflow": "veluce_editorial",
+      "title": "Sunken Fire Pit Ideas With Poolside Lighting",
+      "description": "A recessed conversation pit and warm step lighting frame this modern backyard beside the pool. Explore fire pit table placement, furniture spacing and comfortable outdoor-room layouts.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/05f593a0-6690-11f1-9181-2778cad0ff11.webp",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-19",
+      "topic": "fire-pit",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "source_blob_sha": "dc391f504141965cd890f2aa8603ec5fac23aec6",
+      "source_path": "assets/pinterest/05f593a0-6690-11f1-9181-2778cad0ff11.webp",
+      "recorded_at": "2026-10-19T09:52:47.399Z",
+      "github_run_id": "39233309754"
     }
   ]
 }

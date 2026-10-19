@@ -47,7 +47,7 @@ test("Two curated topics use distinct genuine boards and published article slugs
 });
 test("All curated assets refer to real repo source files and approved topics",async()=>{
   const manifest=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8"));
-  assert.ok(manifest.image_assets.length>=20);
+  assert.ok(manifest.image_assets.length>=29);
   assert.equal(new Set(manifest.image_assets.map(v=>v.path)).size,20);
   for(const v of manifest.image_assets){
     assert.ok(TOPICS[v.topic],v.path);
@@ -84,4 +84,29 @@ test("First 20 owner upload IDs have explicit subject-verified classification, n
    assert.equal(item.visually_verified,true,item.path);
    assert.ok(item.visual_description && item.description);
  }
+});
+
+test("nine additional individually approved vertical assets target the correct editorial subjects",async()=>{
+  const manifest=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8"));
+  const mapped={
+   "14c45430":"tree-uplighting","707cf8a0":"tree-uplighting","883ee3b0":"tree-uplighting",
+   "956d2d40":"pathway-lighting","ca48c0e0":"tree-uplighting",
+   "d3c1be80":"pergola","d5e513b0":"pathway-lighting",
+   "d76c01d0":"pergola","dae37550":"pergola"
+  };
+  const reviewed=manifest.image_assets.filter(item=>Object.hasOwn(mapped,item.path.split("/").at(-1).slice(0,8)));
+  assert.equal(reviewed.length,9);
+  for(const item of reviewed){
+    const prefix=item.path.split("/").at(-1).slice(0,8);
+    assert.equal(item.topic,mapped[prefix],item.path);
+    assert.equal(item.visually_verified,true,item.path);
+    assert.ok(item.visual_description.length>25);
+  }
+});
+test("tree and pathway Pins use verified distinct live article paths",()=>{
+  assert.equal(TOPICS["tree-uplighting"].path,"/article/hidden-uplighting-mature-trees/");
+  assert.equal(TOPICS["pathway-lighting"].path,"/article/garden-pathway-lighting/");
+  assert.equal(TOPICS["tree-uplighting"].board,"Outdoor Lighting Ideas");
+  assert.equal(TOPICS["pathway-lighting"].board,"Outdoor Lighting Ideas");
+  assert.notEqual(TOPICS["fire-pit"].board,TOPICS["tree-uplighting"].board);
 });

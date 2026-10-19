@@ -98,6 +98,24 @@
       "recorded_at": "2026-10-19T12:10:23.405Z",
       "sent_at": "2026-10-19T12:10:22.389Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716335808"
+    },
+    {
+      "creative_id": "veluce-auto-20261019-a243979eb62b",
+      "workflow": "veluce_editorial",
+      "title": "Warm Tree Uplighting for a Modern Garden",
+      "description": "A mature tree glows beside a curving low-lit lawn border and reflective water. Discover how hidden uplights help trees become a focal point after sunset.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/14c45430-6315-11f1-8f23-2396e69fb142.webp",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-19",
+      "topic": "tree-uplighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "a243979eb62be6e92513062d2995d68ee1adec4a",
+      "source_path": "assets/pinterest/14c45430-6315-11f1-8f23-2396e69fb142.webp",
+      "recorded_at": "2026-10-19T15:21:12.473Z",
+      "github_run_id": "39277104933"
     }
   ]
 }

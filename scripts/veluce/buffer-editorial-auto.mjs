@@ -5,7 +5,7 @@
  */
 import {readFile, readdir, stat, writeFile} from "node:fs/promises";
 import {execFileSync} from "node:child_process";
-import {basename} from "node:path";
+import {pathToFileURL} from "node:url";
 import {operations, graphql, scheduleVerified} from "./buffer-pinterest.mjs";
 
 const LEDGER="ops/buffer/ledger.json";
@@ -77,9 +77,6 @@ export function chooseAsset(items,ledger,day,validPaths){
   return candidate[0]??null;
 }
 function git(args){return execFileSync("git",args,{stdio:"pipe",encoding:"utf8"}).trim()}
-export function saveLedger(ledger,description,includeState=false){
-  throw new Error("saveLedger may only be used in the workflow runtime");
-}
 async function persist(ledger,message,withState=false){
   await writeFile(LEDGER,JSON.stringify(ledger,null,2)+"\n");
   git(["add",LEDGER,...(withState?[STATE]:[])]);
@@ -222,4 +219,4 @@ async function run(mode){
   }
 }
 const requested=process.argv[2]||"validate";
-if(import.meta.url==="file://"+process.argv[1])run(requested).catch(e=>{console.error(e.stack||e.message);process.exitCode=1});
+if(process.argv[1] && import.meta.url===pathToFileURL(process.argv[1]).href)run(requested).catch(e=>{console.error(e.stack||e.message);process.exitCode=1});

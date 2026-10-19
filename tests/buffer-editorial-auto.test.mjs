@@ -19,24 +19,24 @@ test("WebP VP8X dimensions read correctly",()=>{
   assert.deepEqual(dimensions(b),{width:1024,height:1536,mime:"image/webp"});
 });
 test("Unused topic must be legitimate and file must exist",()=>{
-  const a={path:"assets/pinterest/a.png",topic:"pergola",sha:"111",title:"Test"};
-  const b={path:"assets/pinterest/b.png",topic:"fire-pit",sha:"222",title:"Test"};
+  const a={path:"assets/pinterest/a.png",topic:"pergola",visually_verified:true,sha:"111",title:"Test"};
+  const b={path:"assets/pinterest/b.png",topic:"fire-pit",visually_verified:true,sha:"222",title:"Test"};
   assert.equal(chooseAsset([a,b],[],"2026-10-19",new Set([b.path])).path,b.path);
 });
 test("Matching GitHub content hash prevents renamed duplicate",()=>{
-  const a={path:"assets/pinterest/a.png",topic:"pergola",sha:"duplicate-sha"};
-  const b={path:"assets/pinterest/b.png",topic:"fire-pit",sha:"unique-sha"};
+  const a={path:"assets/pinterest/a.png",topic:"pergola",visually_verified:true,sha:"duplicate-sha"};
+  const b={path:"assets/pinterest/b.png",topic:"fire-pit",visually_verified:true,sha:"unique-sha"};
   const posts=[{source_blob_sha:"duplicate-sha",image_url:"https://elsewhere.invalid/old.png"}];
   assert.equal(chooseAsset([a,b],posts,"2026-10-19",new Set([a.path,b.path])).path,b.path);
 });
 test("Previously published image URL is never selected again",()=>{
-  const a={path:"assets/pinterest/a.png",topic:"pergola",sha:"sha-one"};
+  const a={path:"assets/pinterest/a.png",topic:"pergola",visually_verified:true,sha:"sha-one"};
   const p=[{image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/a.png"}];
   assert.equal(chooseAsset([a],p,"2026-10-19",new Set([a.path])),null);
 });
 test("Fair topic distribution avoids routing every Pin to the same board",()=>{
-  const a={path:"assets/pinterest/a.png",topic:"pergola",sha:"a"};
-  const b={path:"assets/pinterest/b.png",topic:"fire-pit",sha:"b"};
+  const a={path:"assets/pinterest/a.png",topic:"pergola",visually_verified:true,sha:"a"};
+  const b={path:"assets/pinterest/b.png",topic:"fire-pit",visually_verified:true,sha:"b"};
   const posts=[{workflow:"veluce_editorial",local_date:"2026-10-19",topic:"pergola",image_url:"different-image"}];
   assert.equal(chooseAsset([a,b],posts,"2026-10-19",new Set([a.path,b.path])).topic,"fire-pit");
 });
@@ -47,10 +47,13 @@ test("Two curated topics use distinct genuine boards and published article slugs
 });
 test("All curated assets refer to real repo source files and approved topics",async()=>{
   const manifest=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8"));
-  assert.equal(manifest.image_assets.length,20);
+  assert.ok(manifest.image_assets.length>=20);
   assert.equal(new Set(manifest.image_assets.map(v=>v.path)).size,20);
   for(const v of manifest.image_assets){
     assert.ok(TOPICS[v.topic],v.path);
+    assert.equal(v.visually_verified,true,`Visual approval missing: ${v.path}`);
+    assert.ok(v.visual_description?.length>25,`Subject annotation missing: ${v.path}`);
+    assert.match(v.visual_review_date,/^20[0-9]{2}-[0-9]{2}-[0-9]{2}$/);
     assert.match(v.path,/^assets\/pinterest\/[a-z0-9-]+\.(png|webp|jpg)$/);
     const b=await readFile(v.path);
     const d=dimensions(b);
@@ -58,4 +61,27 @@ test("All curated assets refer to real repo source files and approved topics",as
     assert.ok(Math.abs(d.width/d.height-2/3)<0.045,v.path+" "+d.width+"x"+d.height);
     assert.ok(v.title.length>8 && v.title.length<=100);
   }
+});
+
+test("Unreviewed assets are never selected despite otherwise valid metadata",()=>{
+  const bad={path:"assets/pinterest/unreviewed.png",topic:"fire-pit",sha:"unique",title:"Fire pit"};
+  assert.equal(chooseAsset([bad],[],"2026-10-19",new Set([bad.path])),null);
+});
+test("First 20 owner upload IDs have explicit subject-verified classification, not batch labels",async()=>{
+ const manifest=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8"));
+ const exact={
+ "05f593a0":"fire-pit","26e41950":"fire-pit","4db6b7a0":"fire-pit","50e90140":"fire-pit",
+ "5b3cfa50":"fire-pit","85ee0b50":"fire-pit","8e91ce40":"fire-pit","accb30f0":"fire-pit",
+ "c57c2f90":"fire-pit","e9a144a0":"fire-pit",
+ "03d492f0":"pergola","22ae5ee0":"pergola","4460e2c0":"pergola","552f19f0":"pergola",
+ "5818d6f0":"pergola","8282d760":"pergola","9b7c5810":"pergola","b77400c0":"pergola",
+ "f6b029e0":"pergola","fc5c30a0":"pergola"};
+ const reviewed=manifest.image_assets.filter(x=>Object.hasOwn(exact,x.path.split("/").at(-1).slice(0,8)));
+ assert.equal(reviewed.length,20);
+ for(const item of reviewed){
+   const prefix=item.path.split("/").at(-1).slice(0,8);
+   assert.equal(item.topic,exact[prefix],item.path);
+   assert.equal(item.visually_verified,true,item.path);
+   assert.ok(item.visual_description && item.description);
+ }
 });

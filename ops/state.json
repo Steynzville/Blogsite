@@ -1040,6 +1040,21 @@
       "destination_verified": true,
       "visit_site_verified": false,
       "verification_note": "Buffer API confirmed intended metadata and live Pinterest externalLink. Direct Pinterest Visit site click-through not separately performed due blocked shared browser."
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716334391",
+      "pin_id": "296815431716334391",
+      "published_at": "2026-10-19T05:30:54.589Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/03d492f0-6691-11f1-9181-2778cad0ff11.png",
+      "title": "Fire Pit Table Ideas for a Cozy Outdoor Room",
+      "description": "A thoughtfully placed fire pit table can bring seating, warmth and conversation together. Explore practical patio layout, furniture spacing and fire pit design ideas in Veluce's outdoor living guide.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ad5ab0d18b302746757ef4c",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

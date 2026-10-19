@@ -1,42 +1,40 @@
-# VELUCE: Buffer Pinterest replacement (free, gated)
+# Veluce Pinterest — automated editorial publishing through Buffer
 
-**Status (18 October 2026): first real Buffer Pinterest Pin successfully published and reconciled.** Buffer returned status `sent`, pin https://www.pinterest.com/pin/296815431716330527 with matching article destination. An autonomous 06:00 SAST ChatGPT editorial publishing task is scheduled, using Buffer instead of Tailwind, with approved GitHub asset fallback. No paid subscriptions added; image generation/upload on future scheduled runs remains dependent on the capabilities actually available at runtime.
+## Current verified setup (19 October 2026)
 
-## Why Buffer
-Buffer Free permits up to 10 **queued posts at a time per channel** (slots recycle), and includes API access. Unlike a shared browser, this uses Buffer's Pinterest connection. Docs: https://developers.buffer.com.
+The **GitHub Actions runner** `.github/workflows/veluce-buffer-editorial-auto.yml` automatically attempts **one organic editorial Pin** at each of the following South African local times: **06:00, 10:00, 16:00, 20:00**. These are GitHub cron schedules at 04:00, 08:00, 14:00 and 18:00 UTC; execution can be delayed by GitHub. Four per local calendar day is a hard submission limit, not a guarantee if services fail.
 
-**Critical launch gate:** Buffer's public developer feedback has reported that Pinterest \`metadata.pinterest.url\` may be dropped. We **never** accept a linkless Pin. The adapter creates a *draft*, checks returned destination, title, board and image, schedules only if correct, re-reads, and deletes if validation fails. First live publication must also be inspected on Pinterest before considering unattended publishing. The draft/create/edit validation cannot guarantee Pinterest will preserve the link after delivery.
+This replaces the unreliable ChatGPT 06:00 task, which remains **disabled**. It does not change the independent **14:00 six-product cover rotation** or other workflows.
 
+**First independent live proof:** 19 October: [Fire-pit Pin 296815431716334391](https://www.pinterest.com/pin/296815431716334391) — Buffer status `sent`, real Pinterest external link, destination `https://velucedesign.com/article/fire-pit-tables-centerpiece/`, genuine **Garden & Patio Ideas & Finds 🔥** board ID. The GitHub-native workflow and all tests passed. Run: https://github.com/Steynzville/Blogsite/actions/runs/39204929415
 
-## Verified integration evidence — 18 October 2026
+**First Buffer API proof:** 18 October: [Pergola Pin 296815431716330527](https://www.pinterest.com/pin/296815431716330527) with correct article outbound link, confirmed by the owner.
 
-- GitHub Actions secret `BUFFER_API_KEY` exists; the API authenticated successfully (secret value never disclosed).
-- Variable `BUFFER_CHANNEL_ID` configured for the live Pinterest channel; `BUFFER_PUBLISH_ENABLED=false` remains in force.
-- `ops/buffer/boards.json` contains the 13 Buffer-discovered Pinterest boards and their genuine IDs.
-- Read-only discovery succeeded: https://github.com/Steynzville/Blogsite/actions/runs/39147114314
-- Temporary Pinterest Buffer draft probe succeeded: https://github.com/Steynzville/Blogsite/actions/runs/39147511688
-- Probe confirmed exact title, description, image MIME type, Pinterest board and article click-through URL. The draft was **deleted**; no Pin was scheduled or published.
-- **First successful live publication:** Buffer post `6ad50c9ca48c8f8371ac47ec`, Pinterest Pin `296815431716330527` (sent 2026-10-18T18:14:53Z), article metadata link matched. Publishing workflow run https://github.com/Steynzville/Blogsite/actions/runs/39153241596 . Direct Pinterest Visit site not separately tested; no browser bypass. Future runs may use freshly generated image bytes pushed to `assets/pinterest/` or unused approved assets there. No website image dependency. Separate ChatGPT task is scheduled daily at 06:00 SAST; its runtime must actually support image generation and GitHub transfer to produce a new creative.
+### Unattended, no daily ChatGPT repository write
 
-## Android setup (only owner actions needed)
-1. Create/sign in to **Buffer Free**: https://buffer.com/ . Do **not** upgrade.
-2. Under Channels, connect Pinterest @steynenslin: https://account.buffer.com/channels . Ensure access to the correct boards.
-3. Verify Buffer email; Settings → API → Personal Access → New Key: https://publish.buffer.com/settings/api . Use posts read/write and channel read permissions, ideally 1-year lifetime with renewal reminder.
-4. **Never paste the key in chat or the repository**. On GitHub open **Steynzville/Blogsite → Settings → Secrets and variables → Actions → New repository secret**, name \`BUFFER_API_KEY\`. 
-5. After installing the secret, run **Actions → Veluce Buffer Pinterest (gated) → Run workflow → discover**. Inspect that the username is @steynenslin and copy \`channel_id\` to **Actions variables** \`BUFFER_CHANNEL_ID\`; copy intended board \`id\` into each queue item.
-6. Keep \`BUFFER_PUBLISH_ENABLED\` **unset** until a dry-run and first link validation are ready. To approve the *one-Pin test only*, set \`BUFFER_PUBLISH_ENABLED=true\`, add one unique fully prepared Pin to queue, and manually run **publish**.
-7. Inspect queued Buffer item and (once sent) inspect the real Pinterest Pin on mobile: correct original 2:3 image, title, board, destination article link, AI disclosure as needed. If the destination is blank or wrong, **disable** publishing and escalate; do not silently retry.
+- `scripts/veluce/buffer-editorial-auto.mjs` chooses the next **unused curated owner-approved image** from `ops/buffer/editorial-assets.json`, preferring balance across related topics and boards.
+- Current catalogue contains 20 validated native vertical 2:3 uploads (10 pergola and 10 fire-pit), including the 18 October test source. Unique titles and descriptions are assigned per creative. Other unknown topic assets are **not** published with guessed labels.
+- File bytes are served directly from `https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/<filename>`. **An image need never appear on the website or in a website article.** The separate outbound destination must be a verified, matching published Veluce article.
+- Registered topic-to-board mapping: **pergola lighting → Outdoor Lighting Ideas** and **fire-pit tables → Garden & Patio Ideas & Finds 🔥**. Actual board ID is looked up in `ops/buffer/boards.json` and checked against Buffer's authenticated Pinterest account on every submission.
+- Real file signature, dimensions, image URL MIME, article URL and Buffer metadata are verified. A content SHA prevents reposting the same file under another name.
+- The runner commits a durable `reserved` entry to `ops/buffer/ledger.json` **before** contacting Buffer. This is fail-closed: a crash cannot silently retry/reuse an image. It records the Buffer post ID, confirms `sent` plus `sentAt` and `externalLink`, checks destination/board/title and appends the result to `ops/state.json`. Ambiguous posts need reconciliation and are not blindly reposted.
+- The Buffer API key stays in the GitHub Actions secret `BUFFER_API_KEY`. Channel ID is in `BUFFER_CHANNEL_ID`. The publishing variable `BUFFER_PUBLISH_ENABLED=true` must stay enabled for automatic posting. Never put credentials in source code or chat.
 
-## Preparing original article Pins
-The AI creative agent still creates original 2:3 imagery and metadata; Buffer is only the **publisher**. Upload the reviewed image to this repo at \`public/pins/<original-id>.jpg\` (becomes \`https://velucedesign.com/pins/<original-id>.jpg\` after a successful website deploy). Add the matching entry in \`ops/buffer/queue.json\` with:
-\`creative_id\` (unique), \`title\`, \`description\` (max 500 chars), \`image_url\` (direct public HTTPS image), \`destination_url\` (actual Veluce article), \`board_service_id\` (from Buffer discovery), \`publish_at\` (future ISO 8601 with timezone), \`status: "ready"\`. Original image should be clear and atmospheric with **no text overlays**, as owner requested. Avoid near-duplicate creatives and review existing campaigns in \`ops/state.json\`; do not repost Amazon affiliate links.
+### What happens when supplied images run out?
 
-A separate \`ops/buffer/ledger.json\` records each verified scheduled Buffer ID, with status \`scheduled_verified\` (NOT proof Pinterest published). One Pin scheduled per run. Queue records with matching \`creative_id\` in ledger are skipped, preventing routine retries; if the workflow is interrupted between Buffer accepting the post and writing the ledger, check Buffer before re-running to avoid duplicates.
+**No automatic image-generation API is configured in the free GitHub Actions runner.** When all approved, curated, unused assets are depleted, the runner logs a warning and stops rather than reusing images or fabricating new AI pictures. This keeps spending at zero. It does **not** currently fulfil unattended *new AI creative generation* after depletion; a separately verified image-generation/replenishment capability is still required.
 
-## Test and invoke
-\`node --test tests/buffer-pinterest.test.mjs\`
-\`node scripts/veluce/buffer-pinterest.mjs validate\` (offline; no network)
-\`BUFFER_API_KEY=... node scripts/veluce/buffer-pinterest.mjs discover\` (read only)
-\`BUFFER_PUBLISH_ENABLED=true BUFFER_CHANNEL_ID=... BUFFER_API_KEY=... node scripts/veluce/buffer-pinterest.mjs publish\` (creates a draft and schedules only after checks).
+New approved uploads may be added to `assets/pinterest/`. To be used safely, each new item also needs a matching visually confirmed topic, distinct SEO title/description and correct article/board mapping in `ops/buffer/editorial-assets.json`. Arbitrary opaque filenames cannot prove a pictured topic. Do not mark the catalogue replenished merely by uploading unknown images.
 
-**A ChatGPT scheduled task is now configured daily at 06:00 Africa/Johannesburg to invoke Buffer through GitHub.** Buffer's post-status and destination have been checked against the first live Pinterest link; direct Pinterest Visit site browsing was not performed. Do not deactivate existing routines until timing and deduplication are reconciled, or double posting can occur. Repository CI is for tests; it is not a continuing AI-image generator. There are no new paid AI/image generation or hosting subscriptions in this implementation.
+### Testing
+
+- Safe non-publishing validation: [GitHub Actions → Veluce Four Editorial Pins - GitHub Auto](https://github.com/Steynzville/Blogsite/actions/workflows/veluce-buffer-editorial-auto.yml), **Run workflow → validate**.
+- `node --test tests/buffer-editorial-auto.test.mjs tests/buffer-pinterest.test.mjs`
+- `node scripts/veluce/buffer-editorial-auto.mjs validate`
+- `workflow_dispatch` mode `publish` submits only one approved unique image and counts toward the daily four; do not use as an extra unscheduled batch.
+
+### Related legacy publisher
+
+`.github/workflows/veluce-buffer-pinterest.yml` remains available for one-at-a-time manual operations and for the independent six-product workflow. Both workflows use the same repository-wide concurrency group to avoid competing Buffer ledger writes. The independent 14:00 product rotation remains unchanged.
+
+No Tailwind credits, ads, paid AI/image APIs, subscriptions or new hosting are required for this asset-first schedule.

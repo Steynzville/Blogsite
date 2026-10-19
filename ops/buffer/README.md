@@ -52,3 +52,14 @@ Mandatory `visually_verified: true` is enforced inside the publisher's asset sel
 
 `EDITORIAL_PUBLISH_ENABLED=true` is the dedicated editorial gate; it was enabled after a successful validation run. The product rotation's separate settings and time remain unchanged.
 
+
+
+## Work-powered automatic editorial image replenishment (19 October 2026)
+
+The **14:00 SAST six-product Work task** has a new, strictly secondary refill instruction. It first completes and verifies the day's ONE product Pin, using its already-proven ChatGPT Work original 2:3 image generation, binary upload to GitHub and Buffer publishing. Its primary product rotation and separate `assets/pinterest-products/` remain intact.
+
+Only *after* the product is safely completed does it count unused visually reviewed editorial images in `ops/buffer/editorial-assets.json`, excluding submitted/used images by URL or Git blob SHA. If more than 8 remain, no new editorial images are generated. At 8 or fewer, it attempts to create and upload up to 4 original 2:3 editorial images per day to `assets/pinterest/`, inspecting image subject before assignment to one of four live matched article+board topics (fire pit, pergola, tree uplighting, pathway lighting). It registers each image individually as `visually_verified:true`, `origin:"work-generated"`, with factual image description, unique SEO title/description, actual image URL and review date. A successful image upload and repository commit are prerequisites for becoming eligible.
+
+The GitHub Actions editorial publisher **always prefers** verified `origin:"owner-upload"` entries until exhausted, then automatically chooses verified `origin:"work-generated"` images from the same catalogue. Thus the fresh Work images are generated ahead of stockout but not published before user-provided assets. The product Work task must NEVER directly publish editorial Pins or adjust the four-daily editorial scheduling.
+
+**Validation:** https://github.com/Steynzville/Blogsite/actions/runs/39269004624 — 26 tests passed, 0 failed, including owner-first image priority. **Caveat:** Work's new conditional second-stage generation/upload has not yet executed, since 26 approved existing editorial assets remained at validation. Image generation capacity and GitHub permissions in future scheduled Work runs can vary; report a real blocker rather than spend money or claim a generated image was uploaded. The GitHub publisher itself has no native image-generation model.

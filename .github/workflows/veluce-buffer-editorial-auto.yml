@@ -1,0 +1,41 @@
+name: Veluce Four Editorial Pins - GitHub Auto
+on:
+  schedule:
+    # GitHub cron UTC: 06:00, 10:00, 16:00 and 20:00 Africa/Johannesburg.
+    - cron: '0 4 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 14 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'validate (no publishing) or publish exactly one unique Pin'
+        type: choice
+        options: [validate, publish]
+        required: true
+        default: validate
+permissions:
+  contents: write
+concurrency:
+  group: veluce-buffer-pinterest
+  cancel-in-progress: false
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+      BUFFER_PUBLISH_ENABLED: ${{ vars.BUFFER_PUBLISH_ENABLED }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test four-Pin automation and approved source images
+        run: node --test tests/buffer-editorial-auto.test.mjs tests/buffer-pinterest.test.mjs
+      - name: Publish scheduled Pin or safely validate
+        run: node scripts/veluce/buffer-editorial-auto.mjs "${{ github.event_name == 'schedule' && 'publish' || inputs.mode }}"

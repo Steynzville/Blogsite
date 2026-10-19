@@ -48,7 +48,7 @@ test("Two curated topics use distinct genuine boards and published article slugs
 test("All curated assets refer to real repo source files and approved topics",async()=>{
   const manifest=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8"));
   assert.ok(manifest.image_assets.length>=29);
-  assert.equal(new Set(manifest.image_assets.map(v=>v.path)).size,20);
+  assert.equal(new Set(manifest.image_assets.map(v=>v.path)).size,manifest.image_assets.length);
   for(const v of manifest.image_assets){
     assert.ok(TOPICS[v.topic],v.path);
     assert.equal(v.visually_verified,true,`Visual approval missing: ${v.path}`);

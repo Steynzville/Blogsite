@@ -142,6 +142,7 @@ async function run(mode){
   const today=localDate();
   const entries=[];
   for(const v of manifest){
+    if(!v.visually_verified)continue;
     if(!paths.has(v.path))continue;
     const bytes=await readFile(v.path);
     let dim;try{dim=dimensions(bytes)}catch(e){console.log("Skipping image: "+v.path+" ("+e.message+")");continue}
@@ -168,7 +169,7 @@ async function run(mode){
   if(todayCount>=LIMIT){console.log("Four editorial Pin submissions already reserved today.");return}
   const used=new Set((ledger.posts??[]).map(x=>x.image_url));
   const asset=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)));
-  if(!asset){console.log("::warning::Approved curated assets depleted; no paid AI-image generator configured. No duplicate will be posted.");return}
+  if(!asset){console.log("::warning::No individually visually verified unused images available. Do not post based on unverified batch labels.");return}
   const topic=TOPICS[asset.topic];
   const boardData=JSON.parse(await readFile(BOARDS,"utf8"));
   const mapped=boardData.boards.find(x=>x.name===topic.board);

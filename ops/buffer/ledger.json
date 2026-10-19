@@ -12,7 +12,18 @@
       "status": "sent_buffer_confirmed",
       "recorded_at": "2026-10-18T18:14:54.506Z",
       "sent_at": "2026-10-18T18:14:53.430Z",
-      "pinterest_url": "https://www.pinterest.com/pin/296815431716330527"
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716330527",
+      "quality_review": {
+        "status": "needs_live_metadata_correction",
+        "reviewed_on": "2026-10-19",
+        "actual_image_subject": "Illuminated rectangular fire pit and stepped landscaped garden; no pergola",
+        "existing_title": "Pergola Lighting Ideas for an Outdoor Room After Dark",
+        "existing_destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+        "recommended_title": "Modern Sunken Fire Pit Ideas for a Cozy Backyard",
+        "recommended_destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+        "recommended_board": "Garden & Patio Ideas & Finds 🔥",
+        "note": "Original Buffer publication succeeded but its image was wrongly classified; post-publication Pinterest edit needed."
+      }
     },
     {
       "creative_id": "veluce-auto-20261019-787a31e35fc5",
@@ -25,7 +36,7 @@
       "publish_at": "now",
       "status": "sent_buffer_confirmed",
       "local_date": "2026-10-19",
-      "topic": "fire-pit",
+      "topic": "pergola",
       "board_name": "Garden & Patio Ideas & Finds 🔥",
       "source_blob_sha": "787a31e35fc582454e29ba870b769f7478ab7071",
       "source_path": "assets/pinterest/03d492f0-6691-11f1-9181-2778cad0ff11.png",
@@ -36,12 +47,19 @@
       "sent_at": "2026-10-19T05:30:54.589Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716334391",
       "quality_review": {
-        "status": "failed",
-        "reason": "Image depicts covered illuminated patio and pool with EVENING ESCAPE overlay, not a fire pit; published title, linked article and board do not correspond to image",
-        "verified_by": "User screenshot 2026-10-19",
-        "needs_live_edit": true,
-        "desired_article": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
-        "desired_board": "Outdoor Lighting Ideas"
+        "status": "user_reported_corrected",
+        "reviewed_on": "2026-10-19",
+        "actual_image_subject": "Illuminated covered patio, pool and steps with EVENING ESCAPE overlay",
+        "owner_confirmed_edit_saved": true,
+        "live_metadata_independently_verified": false
+      },
+      "post_publication_edit": {
+        "source": "Owner edited native Pinterest Pin",
+        "owner_confirmed_date": "2026-10-19",
+        "reported_title": "Modern Covered Patio Lighting Ideas for a Cozy Outdoor Space",
+        "reported_destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+        "reported_board": "Outdoor Lighting Ideas",
+        "note": "Other metadata fields above retain the ORIGINAL Buffer submission. These reported edited fields were not independently re-read from Pinterest."
       }
     }
   ]

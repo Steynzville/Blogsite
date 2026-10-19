@@ -120,6 +120,24 @@
       "submitted_at": "2026-10-19T15:21:17.190Z",
       "sent_at": "2026-10-19T15:21:16.043Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716336802"
+    },
+    {
+      "creative_id": "veluce-auto-20261019-92c7a54ae5e0",
+      "workflow": "veluce_editorial",
+      "title": "Curved Garden Pathway Lighting at Dusk",
+      "description": "Warm light traces a winding garden border around mature trees and textured planting. Explore how path illumination can guide movement while keeping the landscape inviting.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/956d2d40-6690-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-19",
+      "topic": "pathway-lighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "92c7a54ae5e04a5527fbd0a2aac93a65043fa7d9",
+      "source_path": "assets/pinterest/956d2d40-6690-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-19T19:46:35.981Z",
+      "github_run_id": "39313758816"
     }
   ]
 }

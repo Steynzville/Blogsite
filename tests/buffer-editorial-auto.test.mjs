@@ -110,3 +110,21 @@ test("tree and pathway Pins use verified distinct live article paths",()=>{
   assert.equal(TOPICS["pathway-lighting"].board,"Outdoor Lighting Ideas");
   assert.notEqual(TOPICS["fire-pit"].board,TOPICS["tree-uplighting"].board);
 });
+
+test("Owner-uploaded approved images take precedence over generated stock",()=>{
+ const files=new Set(["assets/pinterest/user.png","assets/pinterest/work.png"]);
+ const entries=[
+  {path:"assets/pinterest/work.png",topic:"pergola",sha:"one",visually_verified:true,origin:"work-generated"},
+  {path:"assets/pinterest/user.png",topic:"fire-pit",sha:"two",visually_verified:true,origin:"owner-upload"}
+ ];
+ assert.equal(chooseAsset(entries,[],"2026-10-20",files).origin,"owner-upload");
+});
+test("Approved provenance is explicitly recorded for all curated source files",async()=>{
+ const manifest=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8"));
+ for(const asset of manifest.image_assets){
+   assert.ok(["owner-upload","work-generated"].includes(asset.origin),asset.path);
+   if(asset.origin==="work-generated"){
+     assert.ok(asset.visual_review_method && asset.visual_description && asset.visually_verified);
+   }
+ }
+});

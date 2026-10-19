@@ -1039,7 +1039,14 @@
       "publication_verification": "Buffer official API post query returned status sent, sentAt, externalLink and matching article destination; Github Actions publish and verify runs successful.",
       "destination_verified": true,
       "visit_site_verified": false,
-      "verification_note": "Buffer API confirmed intended metadata and live Pinterest externalLink. Direct Pinterest Visit site click-through not separately performed due blocked shared browser."
+      "verification_note": "Buffer API confirmed intended metadata and live Pinterest externalLink. Direct Pinterest Visit site click-through not separately performed due blocked shared browser.",
+      "quality_review": {
+        "status": "needs_live_metadata_correction",
+        "actual_image_subject": "Illuminated rectangular fire pit and stepped landscaped garden; no pergola",
+        "recommended_title": "Modern Sunken Fire Pit Ideas for a Cozy Backyard",
+        "recommended_destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+        "recommended_board": "Garden & Patio Ideas & Finds 🔥"
+      }
     },
     {
       "pin_url": "https://www.pinterest.com/pin/296815431716334391",
@@ -1056,9 +1063,17 @@
       "buffer_post_id": "6ad5ab0d18b302746757ef4c",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board",
       "quality_review": {
-        "status": "failed",
-        "description": "Wrong title, destination topic and board; image shows a covered patio/pool, not fire pit",
-        "requires_manual_pinterest_remediation": true
+        "status": "user_reported_corrected",
+        "owner_confirmed_edit_saved": true,
+        "live_verified": false
+      },
+      "post_publication_edit": {
+        "source": "Owner edited native Pinterest Pin",
+        "owner_confirmed_date": "2026-10-19",
+        "reported_title": "Modern Covered Patio Lighting Ideas for a Cozy Outdoor Space",
+        "reported_destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+        "reported_board": "Outdoor Lighting Ideas",
+        "note": "Other metadata fields above retain the ORIGINAL Buffer submission. These reported edited fields were not independently re-read from Pinterest."
       }
     }
   ],

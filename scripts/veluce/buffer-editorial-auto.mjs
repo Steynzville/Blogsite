@@ -16,6 +16,16 @@ const EDITORIAL="veluce_editorial";
 const LIMIT=4;
 const URL_BASE="https://raw.githubusercontent.com/Steynzville/Blogsite/main/";
 export const TOPICS={
+  "tree-uplighting":{
+    path:"/article/hidden-uplighting-mature-trees/",
+    board:"Outdoor Lighting Ideas",
+    description:"Discover thoughtful ways to use concealed outdoor spotlights to illuminate mature garden trees, texture and canopy without glare. See Veluce's tree uplighting guide."
+  },
+  "pathway-lighting":{
+    path:"/article/garden-pathway-lighting/",
+    board:"Outdoor Lighting Ideas",
+    description:"Create a softly glowing garden route with considered spacing, low-level illumination and comfortable visibility after dark. See Veluce's garden pathway lighting guide."
+  },
   pergola:{
     path:"/article/pergola-lighting-outdoor-room/",
     board:"Outdoor Lighting Ideas",

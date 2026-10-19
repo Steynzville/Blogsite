@@ -13,9 +13,9 @@ This replaces the unreliable ChatGPT 06:00 task, which remains **disabled**. It 
 ### Unattended, no daily ChatGPT repository write
 
 - `scripts/veluce/buffer-editorial-auto.mjs` chooses the next **unused curated owner-approved image** from `ops/buffer/editorial-assets.json`, preferring balance across related topics and boards.
-- Current catalogue contains 20 validated native vertical 2:3 uploads (10 pergola and 10 fire-pit), including the 18 October test source. Unique titles and descriptions are assigned per creative. Other unknown topic assets are **not** published with guessed labels.
+- Current catalogue contains **29 individually visually inspected native 2:3 uploads**: 10 fire-pit, 13 pergola/covered-patio, 4 tree-uplighting and 2 garden-pathway creatives. Unique SEO titles and descriptions and actual visual annotations are stored for each. A past batch-label swap was corrected on 19 October; ALL incoming images must be individually visually reviewed rather than classified by upload batch. Unreviewed images are **excluded**.
 - File bytes are served directly from `https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/<filename>`. **An image need never appear on the website or in a website article.** The separate outbound destination must be a verified, matching published Veluce article.
-- Registered topic-to-board mapping: **pergola lighting → Outdoor Lighting Ideas** and **fire-pit tables → Garden & Patio Ideas & Finds 🔥**. Actual board ID is looked up in `ops/buffer/boards.json` and checked against Buffer's authenticated Pinterest account on every submission.
+- Registered topic-to-board mapping: **pergola lighting, tree uplighting and pathway lighting → Outdoor Lighting Ideas**, and **fire-pit tables → Garden & Patio Ideas & Finds 🔥**. Actual board ID is looked up in `ops/buffer/boards.json` and checked against Buffer's authenticated Pinterest account on every submission.
 - Real file signature, dimensions, image URL MIME, article URL and Buffer metadata are verified. A content SHA prevents reposting the same file under another name.
 - The runner commits a durable `reserved` entry to `ops/buffer/ledger.json` **before** contacting Buffer. This is fail-closed: a crash cannot silently retry/reuse an image. It records the Buffer post ID, confirms `sent` plus `sentAt` and `externalLink`, checks destination/board/title and appends the result to `ops/state.json`. Ambiguous posts need reconciliation and are not blindly reposted.
 - The Buffer API key stays in the GitHub Actions secret `BUFFER_API_KEY`. Channel ID is in `BUFFER_CHANNEL_ID`. The publishing variable `BUFFER_PUBLISH_ENABLED=true` must stay enabled for automatic posting. Never put credentials in source code or chat.
@@ -38,3 +38,17 @@ New approved uploads may be added to `assets/pinterest/`. To be used safely, eac
 `.github/workflows/veluce-buffer-pinterest.yml` remains available for one-at-a-time manual operations and for the independent six-product workflow. Both workflows use the same repository-wide concurrency group to avoid competing Buffer ledger writes. The independent 14:00 product rotation remains unchanged.
 
 No Tailwind credits, ads, paid AI/image APIs, subscriptions or new hosting are required for this asset-first schedule.
+
+
+## Visual audit and quality-control correction — 19 October
+
+All 29 curated GitHub originals were inspected as images, rather than inferred from their filenames or upload batches. The first ten items initially marked “pergola” actually showed fire pits; the next ten initially marked “fire pit” showed pergolas/covered patios. Nine more vertical garden and patio images were individually reviewed and added; ten landscape (3:2 or 16:9) article images were excluded instead of stretched/cropped.
+
+Mandatory `visually_verified: true` is enforced inside the publisher's asset selector and the catalogue includes per-photo factual descriptions, review dates and suitable live article topics; the tests explicitly lock these mappings to prevent regressions.
+
+**Known historic publication mismatches:** [18 Oct original test](https://www.pinterest.com/pin/296815431716330527) shows a *fire pit* but was published with a pergola title/link/board. It is flagged in the ledger as needing a direct native Pinterest metadata edit (Buffer cannot repair a delivered Pinterest Pin). [19 Oct Evening Escape](https://www.pinterest.com/pin/296815431716334391) shows a *covered patio/pool*, not a fire pit; its title, destination and board were corrected in Pinterest by the owner and recorded as owner-reported, not independently re-read. Preserve original Buffer submission metadata as historical evidence and do not re-post either source image.
+
+**Audit proof:** [GitHub validation](https://github.com/Steynzville/Blogsite/actions/runs/39233197339) passed 24 tests, zero failures. The revised runner's first reviewed-image publication [Fire Pit Pin](https://www.pinterest.com/pin/296815431716335304) was successfully sent via Buffer with matching fire-pit article and Garden & Patio board, [run evidence](https://github.com/Steynzville/Blogsite/actions/runs/39233309754). 26 approved images remain unused after three known publications as of this audit.
+
+`EDITORIAL_PUBLISH_ENABLED=true` is the dedicated editorial gate; it was enabled after a successful validation run. The product rotation's separate settings and time remain unchanged.
+

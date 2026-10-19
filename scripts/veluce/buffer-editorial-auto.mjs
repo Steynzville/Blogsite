@@ -81,7 +81,10 @@ export function chooseAsset(items,ledger,day,validPaths){
   const today=ledger.filter(x=>x.workflow===EDITORIAL && x.local_date===day);
   const count=new Map(Object.keys(TOPICS).map(k=>[k,today.filter(x=>x.topic===k).length]));
   const last=[...ledger].reverse().find(x=>x.workflow===EDITORIAL)?.topic;
-  candidate.sort((a,b)=>((count.get(a.topic)??0)-(count.get(b.topic)??0))||
+  // User-supplied, individually approved artwork always publishes before Work-generated reserves.
+  const priority=x=>x.origin==="owner-upload"?0:x.origin==="work-generated"?1:2;
+  candidate.sort((a,b)=>(priority(a)-priority(b))||
+    ((count.get(a.topic)??0)-(count.get(b.topic)??0))||
     (a.topic===last?1:0)-(b.topic===last?1:0)||
     a.path.localeCompare(b.path));
   return candidate[0]??null;

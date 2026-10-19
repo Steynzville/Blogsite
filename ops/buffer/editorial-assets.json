@@ -1,148 +1,210 @@
 {
   "schema_version": 1,
-  "policy": "Fail closed: owner uploads must be individually visually examined before any Pin metadata/article/board is assigned. Only visually_verified=true items are eligible. Previous category-by-batch assignments are UNVERIFIED.",
+  "policy": "Each image was visually reviewed from its ACTUAL GitHub bytes and individually matched to what it shows. Publisher must use only visually_verified=true. Recheck new uploads before manifest additions, do not infer topics by batch.",
   "image_assets": [
     {
       "path": "assets/pinterest/05f593a0-6690-11f1-9181-2778cad0ff11.webp",
-      "topic": "pergola",
-      "title": "Pergola Lighting That Makes Evenings Feel Inviting",
-      "description": "Make a pergola feel welcoming after sunset by planning soft ambient light instead of exposed glare. Veluce explains how to layer light for an outdoor room that people want to use.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Sunken Fire Pit Ideas With Poolside Lighting",
+      "description": "A recessed conversation pit and warm step lighting frame this modern backyard beside the pool. Explore fire pit table placement, furniture spacing and comfortable outdoor-room layouts.",
+      "visually_verified": true,
+      "visual_description": "Square sunken fire feature, warm LED benches/steps, illuminated garden, pool edge.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/26e41950-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "Ideas for a Calm, Warmly Lit Pergola",
-      "description": "Explore gentler ways to light a pergola, from dimmed overhead illumination to subtle garden accents. Read Veluce's practical guide to lighting a sheltered outdoor space.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Cozy Evening Glow Around a Stone Fire Pit",
+      "description": "Four lounge chairs surround a glowing circular fire pit beneath the words Cozy Evening Glow. Discover how to arrange comfortable seating and layered garden lighting around an outdoor fire feature.",
+      "visually_verified": true,
+      "visual_description": "Circular fire pit and four chairs; headline COZY EVENING GLOW.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/4db6b7a0-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "Layered Pergola Lighting for Outdoor Living",
-      "description": "Layer warm lighting across the canopy, seating area and surrounding landscape without making your pergola feel overlit. Find useful placement ideas in Veluce's pergola guide.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Modern Circular Fire Pit Seating for Small Patios",
+      "description": "This intimate stone fire pit, contemporary lounge chairs and discreet warm lighting create an inviting evening gathering spot. Find practical fire pit seating and patio design ideas.",
+      "visually_verified": true,
+      "visual_description": "Circular concrete fire bowl, three/four padded chairs, curved garden edge.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/50e90140-668f-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "An Outdoor Room That Glows After Dark",
-      "description": "Turn an outdoor pergola into an inviting evening retreat with a thoughtful balance of practical and decorative light. Discover the planning details in Veluce's guide.",
-      "visually_verified": true
+      "topic": "fire-pit",
+      "title": "Square Fire Pit and Lounge Layout Inspiration",
+      "description": "A low square fire feature, built-in sofa seating, stepping-stone approach and tree uplighting give a compact garden a welcoming centre. Explore fire pit table layouts for outdoor living.",
+      "visually_verified": true,
+      "visual_description": "Rectangular flames in square low fire pit; built-in L-shaped bench and stepping stones.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "published_override_note": "First Buffer test 18 Oct wrongly classified as pergola; visual scene is fire pit and not a pergola. Do not repost; owner should correct live pin."
     },
     {
       "path": "assets/pinterest/5b3cfa50-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "Warm Pergola Lighting Without Harsh Glare",
-      "description": "Not all pergola lights need to be bright. Consider warmer tones, indirect placement and glare control for a more restful patio. Veluce's pergola article explains the approach.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Zen Fire Glow: A Minimalist Backyard Fire Pit",
+      "description": "A linear raised fire pit glows among curved landscape lighting and modern planting. Find ideas for creating a comfortable, minimalist fire pit conversation area.",
+      "visually_verified": true,
+      "visual_description": "Overlay ZEN FIRE GLOW; rectangular glowing raised fire pit and curved pathway.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/85ee0b50-6690-11f1-9181-2778cad0ff11.webp",
-      "topic": "pergola",
-      "title": "Simple Ways to Light an Outdoor Pergola",
-      "description": "Choose lighting around how you actually use your pergola: meals, conversation and quiet evenings. Explore fixture position, light colour and soft accents in Veluce's guide.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Cozy Fire Pit Patio With String Lights and Seating",
+      "description": "A square fire pit anchors a seating area with string lights, planted borders and a warm illuminated patio edge. Explore cosy fire pit table layouts for after-dark entertaining.",
+      "visually_verified": true,
+      "visual_description": "Square fire table, sofa and two armchairs, festoon lights, raised patio.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/8e91ce40-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "Pergola Lighting Ideas for Dining Outdoors",
-      "description": "Planning a dining pergola? Think about visibility at the table, comfortable light above and softer garden lighting beyond. Read Veluce's outdoor lighting ideas.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Round Fire Pit Ideas for a Welcoming Backyard",
+      "description": "A circular stone fire pit with relaxed chairs sits within a softly illuminated garden. Get practical inspiration for seating distances, circulation and materials around a fire feature.",
+      "visually_verified": true,
+      "visual_description": "Round stone fire pit on lawn-side patio with chairs; lit edging and trees.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/accb30f0-668f-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "Create a Cozy Atmosphere Under a Pergola",
-      "description": "Create a relaxed pergola setting with carefully balanced ambient and accent lighting. Learn which lighting layers matter and where they belong in Veluce's guide.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Sunken Fire Pit Lounge With Illuminated Steps",
+      "description": "The glowing LED steps lead into a sunken circular conversation area around a central fire pit by the pool. Explore fire pit table positioning and multi-level patio layouts.",
+      "visually_verified": true,
+      "visual_description": "Round sunken bench, central fire pit, LED-lit steps, swimming pool.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/c57c2f90-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "A More Inviting Pergola After Sunset",
-      "description": "Keep a pergola comfortable and attractive after dark without relying on harsh downlights. Explore warm layered light and thoughtful placement in the Veluce article.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Cozy Fire Pit Design for Outdoor Evenings",
+      "description": "This garden lounge combines a square fire table, chairs and gentle accent lighting under a Cozy Fire Pit Design headline. Discover how to organise a comfortable fireside patio.",
+      "visually_verified": true,
+      "visual_description": "Overlay COZY FIRE PIT DESIGN; square firepit, upholstered outdoor seats, house behind.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/e9a144a0-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "pergola",
-      "title": "Outdoor Pergola Lighting: Plan the Layers",
-      "description": "Good pergola lighting starts with a plan for atmosphere, seating and useful visibility. Discover a simple approach to creating an outdoor room after sunset.",
-      "visually_verified": false
+      "topic": "fire-pit",
+      "title": "Gather Around: Modern Backyard Fire Pit Ideas",
+      "description": "A circular stone fire pit sits in a gently lit garden with warm path lighting and an inviting Gather Around headline. Discover fire pit table inspiration for cosy outdoor gatherings.",
+      "visually_verified": true,
+      "visual_description": "Overlay GATHER AROUND; circular fire pit and curved lit garden path.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/03d492f0-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Fire Pit Table Ideas for a Cozy Outdoor Room",
-      "description": "Design an outdoor gathering space around the warmth and scale of a fire pit table. Veluce covers seating distance, flow and the details that make a patio welcoming.",
-      "visually_verified": false,
+      "topic": "pergola",
+      "title": "Modern Covered Patio Lighting Beside a Pool",
+      "description": "A contemporary covered patio glows with perimeter LED strips, illuminated steps and garden uplighting, with a pool in the foreground. See practical pergola and patio lighting ideas.",
+      "visually_verified": true,
       "identified_actual_subject": "Illuminated covered patio and swimming pool; image overlay EVENING ESCAPE; no fire pit",
-      "visual_review_note": "Incorrectly labelled fire pit and published 2026-10-19; must not be reused or recategorized without inspection"
+      "visual_review_note": "Incorrectly labelled fire pit and published 2026-10-19; must not be reused or recategorized without inspection",
+      "visual_description": "Overlay EVENING ESCAPE; lit roofline, steps, garden and pool; no firepit. User corrected live Pin.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "published_override_note": "Already published as fire pit by error; user changed Pinterest metadata to pergola/patio lighting. Do not repost."
     },
     {
       "path": "assets/pinterest/22ae5ee0-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "A Fire Pit Table as the Patio Focal Point",
-      "description": "Let a fire pit table anchor an outdoor lounge instead of feeling like an isolated accessory. Explore layout, proportion and surrounding seating in Veluce's practical guide.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Backyard Bliss: Pergola Lighting by a Plunge Pool",
+      "description": "A sheltered modern outdoor room frames a small illuminated plunge pool, softly lit planting and comfortable patio furniture. Explore warm layered lighting for pergolas and covered patios.",
+      "visually_verified": true,
+      "visual_description": "Overlay BACKYARD BLISS; house-attached roof, plunge pool, lit garden, no firepit.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/4460e2c0-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Create an Inviting Seating Area Around a Fire Pit",
-      "description": "Create a comfortable fireside conversation zone with thoughtful furniture spacing and a clear walking route. See Veluce's fire pit table and patio layout ideas.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "String Light Pergola Ideas for a Cozy Patio",
+      "description": "A timber pergola with glowing string lights, draped curtains and cushioned seating overlooks a blue-lit swimming pool. Get practical pergola lighting ideas for entertaining.",
+      "visually_verified": true,
+      "visual_description": "Freestanding dark pergola with festoon string lights, curtains, upholstered lounge, pool.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/552f19f0-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Fire Pit Table Ideas for Evenings Outdoors",
-      "description": "A fire pit table can become the reason everyone lingers outdoors. Find practical ideas for fitting one into an inviting patio without crowding the space.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Sleek Pergola LED Lighting and Garden Uplighting",
+      "description": "A minimalist black pergola uses slim linear LED lighting above an outdoor sofa, alongside softly illuminated trees and a distant fire feature. Learn how to layer pergola lighting.",
+      "visually_verified": true,
+      "visual_description": "Flat dark pergola roof with long thin LEDs, garden/path lights and small firepit in background; pergola dominates.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/5818d6f0-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Design a Comfortable Fire Pit Conversation Zone",
-      "description": "Think beyond the flame: a great fire pit area needs comfortable seats, good circulation and the right scale. Explore planning considerations in Veluce's guide.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Pergola Perfection: Modern LED Canopy Lighting",
+      "description": "Warm linear lighting outlines a sleek black pergola and welcoming outdoor lounge beneath the headline Pergola Perfection. Explore ideas for comfortable architectural pergola lighting.",
+      "visually_verified": true,
+      "visual_description": "Overlay PERGOLA PERFECTION; freestanding square pergola and warm architectural LEDs.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/8282d760-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Outdoor Fire Pit Tables for Relaxed Entertaining",
-      "description": "Make relaxed outdoor entertaining feel more natural with a fire pit table that complements the seating arrangement. Read Veluce's layout and fire pit design guide.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Pergola Perfection With Integrated Roof Lighting",
+      "description": "A contemporary dining pergola features warm strips along its roof structure and a swimming pool beyond. Discover elegant lighting layers for a covered outdoor living space.",
+      "visually_verified": true,
+      "visual_description": "Overlay PERGOLA PERFECTION; pergola canopy lit slats, dining furniture and pool.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/9b7c5810-668f-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Warm Patio Layouts With a Fire Pit Table",
-      "description": "Warmth is only one part of the picture. Consider furniture positioning, pathways and finishes when planning a fire pit patio. Veluce shows the essentials.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Poolside Pergola Lighting With Warm LED Edges",
+      "description": "Slim warm LED strips illuminate a black pergola and nearby steps next to a blue swimming pool. Explore welcoming after-dark pergola and poolside lighting inspiration.",
+      "visually_verified": true,
+      "visual_description": "Flat black pergola above sofa, warm roof LED edge, curved illuminated steps, pool.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/b77400c0-6691-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "How to Make a Fire Pit Feel at Home on the Patio",
-      "description": "Build an inviting fire pit setting where the furniture and the fire work together. Explore comfortable patio zoning, materials and proportional choices.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Elevated Pergolas: Layered Outdoor LED Lighting",
+      "description": "A modern pergola roof combines linear LEDs with warm recessed lights over a comfortable outdoor lounge. Learn how to balance light and atmosphere in a garden room.",
+      "visually_verified": true,
+      "visual_description": "Overlay ELEVATED PERGOLAS; bright roof linear LEDs over pergola seating.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/f6b029e0-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "Fire Pit Table Ideas With Thoughtful Seating",
-      "description": "Fire pit tables work best when the seating plan comes first. Learn how to balance gathering space, circulation and outdoor ambience in Veluce's article.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Outdoor Living: Covered Patio Lighting Ideas",
+      "description": "A covered outdoor room with softly lit dining and seating areas opens to a garden edged in warm LEDs, under an Outdoor Living headline. Explore layered pergola lighting.",
+      "visually_verified": true,
+      "visual_description": "Overlay OUTDOOR LIVING; black pergola roof, sofa, dining and lit grass/garden edging.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     },
     {
       "path": "assets/pinterest/fc5c30a0-6690-11f1-9181-2778cad0ff11.png",
-      "topic": "fire-pit",
-      "title": "A Welcoming Patio With a Fire Pit Centrepiece",
-      "description": "Let a fire pit bring focus to an outdoor room without overwhelming it. Discover comfortable seating layouts and practical details in Veluce's patio guide.",
-      "visually_verified": false
+      "topic": "pergola",
+      "title": "Outdoor Kitchen Pergola Lighting for Entertaining",
+      "description": "A contemporary outdoor kitchen and dining counter sit beneath a warmly lit pergola roof, with garden uplighting after dark. Discover practical pergola lighting for outdoor meals.",
+      "visually_verified": true,
+      "visual_description": "Overlay THE OUTDOOR CHEF; kitchen island and stools below roof canopy with integrated lights.",
+      "visual_review_date": "2026-10-19",
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
     }
   ]
 }

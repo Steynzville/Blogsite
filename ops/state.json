@@ -1054,7 +1054,12 @@
       "board": "Garden & Patio Ideas & Finds 🔥",
       "board_id": "296815500381471065",
       "buffer_post_id": "6ad5ab0d18b302746757ef4c",
-      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board",
+      "quality_review": {
+        "status": "failed",
+        "description": "Wrong title, destination topic and board; image shows a covered patio/pool, not fire pit",
+        "requires_manual_pinterest_remediation": true
+      }
     }
   ],
   "pages_created": [],

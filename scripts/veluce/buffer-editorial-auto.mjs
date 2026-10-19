@@ -181,7 +181,7 @@ async function run(mode){
   const id="veluce-auto-"+today.replaceAll("-","")+"-"+asset.sha.slice(0,12);
   const url=URL_BASE+asset.path;
   const destination="https://velucedesign.com"+topic.path;
-  const pin={creative_id:id,workflow:EDITORIAL,title:asset.title,description:topic.description,
+  const pin={creative_id:id,workflow:EDITORIAL,title:asset.title,description:asset.description||topic.description,
     image_url:url,destination_url:destination,board_service_id:mapped.id,publish_at:"now",status:"ready"};
   if(used.has(url))throw new Error("Creative was already used: "+url);
   await verifiedUrl(url,true);await verifiedUrl(destination,false);

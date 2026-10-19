@@ -62,7 +62,7 @@ export function chooseAsset(items,ledger,day,validPaths){
   const images=new Set(ledger.map(x=>x.image_url).filter(Boolean));
   const pending=new Set(ledger.map(x=>x.creative_id).filter(Boolean));
   const candidate=items.filter(x=>{
-    if(!TOPICS[x.topic] || !validPaths.has(x.path))return false;
+    if(x.visually_verified!==true || !TOPICS[x.topic] || !validPaths.has(x.path))return false;
     const imageUrl=URL_BASE+x.path;
     if(images.has(imageUrl)||historical.has(x.sha))return false;
     if(pending.has(x.creative_id))return false;

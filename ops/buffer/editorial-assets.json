@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "policy": "All curated images individually visually inspected; matching title, description, article and board selected by actual pictured subject; excludes uncurated horizontal article imagery. Unreviewed uploads never publish.",
+  "policy": "All curated images individually visually inspected; matching title, description, article and board selected by actual pictured subject; excludes uncurated horizontal article imagery. Unreviewed uploads never publish. Origin is owner-upload for the existing reviewed library; Work-generated records must carry origin=work-generated and only be created following real image generation, upload, visual review, and verification.",
   "image_assets": [
     {
       "path": "assets/pinterest/05f593a0-6690-11f1-9181-2778cad0ff11.webp",
@@ -10,7 +10,8 @@
       "visually_verified": true,
       "visual_description": "Square sunken fire feature, warm LED benches/steps, illuminated garden, pool edge.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/26e41950-6691-11f1-9181-2778cad0ff11.png",
@@ -20,7 +21,8 @@
       "visually_verified": true,
       "visual_description": "Circular fire pit and four chairs; headline COZY EVENING GLOW.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/4db6b7a0-6690-11f1-9181-2778cad0ff11.png",
@@ -30,7 +32,8 @@
       "visually_verified": true,
       "visual_description": "Circular concrete fire bowl, three/four padded chairs, curved garden edge.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/50e90140-668f-11f1-9181-2778cad0ff11.png",
@@ -41,7 +44,8 @@
       "visual_description": "Rectangular flames in square low fire pit; built-in L-shaped bench and stepping stones.",
       "visual_review_date": "2026-10-19",
       "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
-      "published_override_note": "First Buffer test 18 Oct wrongly classified as pergola; visual scene is fire pit and not a pergola. Do not repost; owner should correct live pin."
+      "published_override_note": "First Buffer test 18 Oct wrongly classified as pergola; visual scene is fire pit and not a pergola. Do not repost; owner should correct live pin.",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/5b3cfa50-6691-11f1-9181-2778cad0ff11.png",
@@ -51,7 +55,8 @@
       "visually_verified": true,
       "visual_description": "Overlay ZEN FIRE GLOW; rectangular glowing raised fire pit and curved pathway.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/85ee0b50-6690-11f1-9181-2778cad0ff11.webp",
@@ -61,7 +66,8 @@
       "visually_verified": true,
       "visual_description": "Square fire table, sofa and two armchairs, festoon lights, raised patio.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/8e91ce40-6690-11f1-9181-2778cad0ff11.png",
@@ -71,7 +77,8 @@
       "visually_verified": true,
       "visual_description": "Round stone fire pit on lawn-side patio with chairs; lit edging and trees.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/accb30f0-668f-11f1-9181-2778cad0ff11.png",
@@ -81,7 +88,8 @@
       "visually_verified": true,
       "visual_description": "Round sunken bench, central fire pit, LED-lit steps, swimming pool.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/c57c2f90-6690-11f1-9181-2778cad0ff11.png",
@@ -91,7 +99,8 @@
       "visually_verified": true,
       "visual_description": "Overlay COZY FIRE PIT DESIGN; square firepit, upholstered outdoor seats, house behind.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/e9a144a0-6690-11f1-9181-2778cad0ff11.png",
@@ -101,7 +110,8 @@
       "visually_verified": true,
       "visual_description": "Overlay GATHER AROUND; circular fire pit and curved lit garden path.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/03d492f0-6691-11f1-9181-2778cad0ff11.png",
@@ -114,7 +124,8 @@
       "visual_description": "Overlay EVENING ESCAPE; lit roofline, steps, garden and pool; no firepit. User corrected live Pin.",
       "visual_review_date": "2026-10-19",
       "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
-      "published_override_note": "Already published as fire pit by error; user changed Pinterest metadata to pergola/patio lighting. Do not repost."
+      "published_override_note": "Already published as fire pit by error; user changed Pinterest metadata to pergola/patio lighting. Do not repost.",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/22ae5ee0-6691-11f1-9181-2778cad0ff11.png",
@@ -124,7 +135,8 @@
       "visually_verified": true,
       "visual_description": "Overlay BACKYARD BLISS; house-attached roof, plunge pool, lit garden, no firepit.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/4460e2c0-6690-11f1-9181-2778cad0ff11.png",
@@ -134,7 +146,8 @@
       "visually_verified": true,
       "visual_description": "Freestanding dark pergola with festoon string lights, curtains, upholstered lounge, pool.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/552f19f0-6690-11f1-9181-2778cad0ff11.png",
@@ -144,7 +157,8 @@
       "visually_verified": true,
       "visual_description": "Flat dark pergola roof with long thin LEDs, garden/path lights and small firepit in background; pergola dominates.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/5818d6f0-6691-11f1-9181-2778cad0ff11.png",
@@ -154,7 +168,8 @@
       "visually_verified": true,
       "visual_description": "Overlay PERGOLA PERFECTION; freestanding square pergola and warm architectural LEDs.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/8282d760-6691-11f1-9181-2778cad0ff11.png",
@@ -164,7 +179,8 @@
       "visually_verified": true,
       "visual_description": "Overlay PERGOLA PERFECTION; pergola canopy lit slats, dining furniture and pool.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/9b7c5810-668f-11f1-9181-2778cad0ff11.png",
@@ -174,7 +190,8 @@
       "visually_verified": true,
       "visual_description": "Flat black pergola above sofa, warm roof LED edge, curved illuminated steps, pool.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/b77400c0-6691-11f1-9181-2778cad0ff11.png",
@@ -184,7 +201,8 @@
       "visually_verified": true,
       "visual_description": "Overlay ELEVATED PERGOLAS; bright roof linear LEDs over pergola seating.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/f6b029e0-6690-11f1-9181-2778cad0ff11.png",
@@ -194,7 +212,8 @@
       "visually_verified": true,
       "visual_description": "Overlay OUTDOOR LIVING; black pergola roof, sofa, dining and lit grass/garden edging.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/fc5c30a0-6690-11f1-9181-2778cad0ff11.png",
@@ -204,7 +223,8 @@
       "visually_verified": true,
       "visual_description": "Overlay THE OUTDOOR CHEF; kitchen island and stools below roof canopy with integrated lights.",
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes"
+      "visual_review_method": "Reviewed contact sheet rendered directly from GitHub image bytes",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/14c45430-6315-11f1-8f23-2396e69fb142.webp",
@@ -214,7 +234,8 @@
       "visual_description": "Large tree uplighting above curved illuminated edge and water; no firepit.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/707cf8a0-6693-11f1-89f8-1fa1e58903a5.png",
@@ -224,7 +245,8 @@
       "visual_description": "Single large mature tree with warm trunk/canopy uplights and luminous circular planting ring.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/883ee3b0-6691-11f1-9181-2778cad0ff11.png",
@@ -234,7 +256,8 @@
       "visual_description": "Overlay NATURE ACCENTED; golden tree uplighting, shrub border and architectural landscaping.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/956d2d40-6690-11f1-9181-2778cad0ff11.png",
@@ -244,7 +267,8 @@
       "visual_description": "Tall uplifted specimen tree beside curving LED-lit pathway/garden border and lawn.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/ca48c0e0-6692-11f1-9181-2778cad0ff11.png",
@@ -254,7 +278,8 @@
       "visual_description": "Overlay SCULPTED BY LIGHT; warm dramatic tree uplighting and dark garden.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/d3c1be80-689d-11f1-8c35-4ba146341052.png",
@@ -264,7 +289,8 @@
       "visual_description": "Black modern roof pergola with linear golden light strips, comfortable sofa seating and warm garden edging.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/d5e513b0-689d-11f1-8c35-4ba146341052.png",
@@ -274,7 +300,8 @@
       "visual_description": "Straight dark garden pathway/stepping route bordered by low luminous edges, spotlit trees and tall house wall.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/d76c01d0-689d-11f1-8c35-4ba146341052.png",
@@ -284,7 +311,8 @@
       "visual_description": "Covered dark-roofed pergola with sofas and warm roof lights plus curving LED garden border.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     },
     {
       "path": "assets/pinterest/dae37550-689d-11f1-8c35-4ba146341052.png",
@@ -294,7 +322,8 @@
       "visual_description": "View outward from under a covered pergola with illuminated roofline, planting and gently lit curved garden edge.",
       "visually_verified": true,
       "visual_review_date": "2026-10-19",
-      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets"
+      "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
+      "origin": "owner-upload"
     }
   ]
 }

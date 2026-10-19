@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -1672,6 +1672,30 @@
       "veluce_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
       "creative": "Practical layered pergola-lighting tip with Veluce article image preview",
       "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2631410967313537",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true
+    },
+    {
+      "date": "2026-10-19",
+      "destination": "Affiliate Deals Hub",
+      "content_type": "article-led design tip",
+      "topic": "Coordinate HVAC grilles, thermostat and service access before finishing ceilings and cabinetry",
+      "veluce_url": "https://velucedesign.com/article/invisible-hvac-design/",
+      "creative": "Practical renovation-planning tip with Veluce article image preview",
+      "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2632419383879362",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true
+    },
+    {
+      "date": "2026-10-19",
+      "destination": "Veluce Studio Page",
+      "content_type": "product-problem design planning",
+      "topic": "Translate saved inspiration into a usable design brief",
+      "veluce_url": "https://velucedesign.com/designer-brief-builder/",
+      "creative": "Editorial inspiration-to-brief insight with Veluce product image preview",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zii4whX4j3fqShX2Zp4gBSKbQfVn17gC44VWM4KtHBwf4TxzQxNf7dnNjwmfJqq7l&id=61594938216575",
       "author": "Veluce Studio",
       "status": "published",
       "verified": true

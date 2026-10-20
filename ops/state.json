@@ -1135,6 +1135,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ad6952329a6896a47c9b822",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716342737",
+      "pin_id": "296815431716342737",
+      "published_at": "2026-10-20T09:04:12.201Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/26e41950-6691-11f1-9181-2778cad0ff11.png",
+      "title": "Cozy Evening Glow Around a Stone Fire Pit",
+      "description": "Four lounge chairs surround a glowing circular fire pit beneath the words Cozy Evening Glow. Discover how to arrange comfortable seating and layered garden lighting around an outdoor fire feature.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ad72e8aed43fb48e28fd143",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

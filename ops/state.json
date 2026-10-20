@@ -1189,11 +1189,12 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 3,
-    "last_product": "Outdoor Lighting Blueprint",
+    "last_product": "Luxury Outdoor Room Planner",
     "completed_products": [
-      "Outdoor Lighting Blueprint"
+      "Outdoor Lighting Blueprint",
+      "Luxury Outdoor Room Planner"
     ],
-    "next_product": "Luxury Outdoor Room Planner",
+    "next_product": "Designer Brief Builder",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1502,6 +1503,43 @@
           "Outdoor Lighting Blueprint"
         ],
         "next_product": "Luxury Outdoor Room Planner"
+      },
+      {
+        "creative_id": "studio-product-luxury-outdoor-room-planner-c3-20261020",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Luxury Outdoor Room Planner",
+        "title": "Patio Layout Planning: Leave Room to Walk Around the Furniture",
+        "description": "Does your patio look inviting but feel awkward to walk through? Plan a clear route from the doors before arranging seating and dining furniture. Veluce Studio’s Luxury Outdoor Room Planner uses the 5-Layer Outdoor Room Method, layout recipes and planning tools to help balance purpose, zones, flow and furniture scale. Explore the complete digital outdoor room planner.",
+        "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+        "board_service_id": "296815500381471065",
+        "publish_at": "now",
+        "status": "sent_buffer_confirmed",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c3-20261020.png",
+        "cycle": 3,
+        "submission_date": "2026-10-20",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-luxury-outdoor-room-planner-c3-20261020.png",
+        "original_reference": "libfile_46399d43e3a081919c5cf4d02d8c3dd8",
+        "creative_concept": "Golden-hour courtyard, unobstructed limestone route beside sliding doors and grouped sofa/woven chairs, separate rear dining area; exact product title",
+        "hook": "Leave room to move",
+        "marketing_angle": "Plan circulation before filling patio with furniture",
+        "board": "Garden & Patio Ideas & Finds 🔥",
+        "alt_text_saved": false,
+        "buffer_post_id": "6ad757cc31ed850c40e07610",
+        "published_at": "2026-10-20",
+        "published_at_timestamp": "2026-10-20T12:00:14.829Z",
+        "published_at_local": "2026-10-20T14:00:14.829+02:00",
+        "pin_id": "296815431716343427",
+        "pin_url": "https://www.pinterest.com/pin/296815431716343427",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536 and exact original Git blob matched. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "independent_clickthrough_verified": false,
+        "product_page_verified": true,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner"
+        ],
+        "next_product": "Designer Brief Builder"
       }
     ],
     "archived_history": [
@@ -1617,30 +1655,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-luxury-outdoor-room-planner-c3-20261020",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Luxury Outdoor Room Planner",
-      "title": "Patio Layout Planning: Leave Room to Walk Around the Furniture",
-      "description": "Does your patio look inviting but feel awkward to walk through? Plan a clear route from the doors before arranging seating and dining furniture. Veluce Studio’s Luxury Outdoor Room Planner uses the 5-Layer Outdoor Room Method, layout recipes and planning tools to help balance purpose, zones, flow and furniture scale. Explore the complete digital outdoor room planner.",
-      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
-      "board_service_id": "296815500381471065",
-      "publish_at": "now",
-      "status": "submitted_now_verified",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c3-20261020.png",
-      "cycle": 3,
-      "submission_date": "2026-10-20",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-luxury-outdoor-room-planner-c3-20261020.png",
-      "original_reference": "libfile_46399d43e3a081919c5cf4d02d8c3dd8",
-      "creative_concept": "Golden-hour courtyard, unobstructed limestone route beside sliding doors and grouped sofa/woven chairs, separate rear dining area; exact product title",
-      "hook": "Leave room to move",
-      "marketing_angle": "Plan circulation before filling patio with furniture",
-      "board": "Garden & Patio Ideas & Finds 🔥",
-      "alt_text_saved": false,
-      "buffer_post_id": "6ad757cc31ed850c40e07610"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

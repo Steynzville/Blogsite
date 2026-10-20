@@ -1165,6 +1165,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ad76b8dcf1d4d5c5e60745b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716345976",
+      "pin_id": "296815431716345976",
+      "published_at": "2026-10-20T18:26:19.125Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/d5e513b0-689d-11f1-8c35-4ba146341052.png",
+      "title": "Garden Walkway Lighting With Warm Step Accents",
+      "description": "A narrow landscaped approach uses discreet step and path lighting to lead towards illuminated trees. See practical ways to light circulation routes without excessive brightness.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ad7b24959e93798fafac75d",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

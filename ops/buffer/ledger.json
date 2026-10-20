@@ -186,6 +186,19 @@
       "submitted_at": "2026-10-20T09:04:13.246Z",
       "sent_at": "2026-10-20T09:04:12.201Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716342737"
+    },
+    {
+      "creative_id": "studio-product-luxury-outdoor-room-planner-c3-20261020",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Outdoor Room Planner",
+      "title": "Patio Layout Planning: Leave Room to Walk Around the Furniture",
+      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c3-20261020.png",
+      "board_service_id": "296815500381471065",
+      "buffer_post_id": "6ad757cc31ed850c40e07610",
+      "publish_at": "2026-10-20T12:00:15.921Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-20T12:00:15.921Z"
     }
   ]
 }

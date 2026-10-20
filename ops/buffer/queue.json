@@ -34,8 +34,10 @@
       "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
       "board_service_id": "296815500381471065",
       "publish_at": "now",
-      "status": "ready",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c3-20261020.png"
+      "status": "sent_buffer_confirmed",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c3-20261020.png",
+      "buffer_post_id": "6ad757cc31ed850c40e07610",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716343427"
     }
   ]
 }

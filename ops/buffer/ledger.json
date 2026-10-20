@@ -197,8 +197,10 @@
       "board_service_id": "296815500381471065",
       "buffer_post_id": "6ad757cc31ed850c40e07610",
       "publish_at": "2026-10-20T12:00:15.921Z",
-      "status": "submitted_now_verified",
-      "recorded_at": "2026-10-20T12:00:15.921Z"
+      "status": "sent_buffer_confirmed",
+      "recorded_at": "2026-10-20T12:00:15.921Z",
+      "sent_at": "2026-10-20T12:00:14.829Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716343427"
     }
   ]
 }

@@ -1150,6 +1150,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ad72e8aed43fb48e28fd143",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716343878",
+      "pin_id": "296815431716343878",
+      "published_at": "2026-10-20T13:24:31.413Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/707cf8a0-6693-11f1-89f8-1fa1e58903a5.png",
+      "title": "Hidden Uplighting Ideas for Mature Garden Trees",
+      "description": "A sculptural tree rises from a circular illuminated planting bed against a dark garden. Explore discreet spotlight positioning for warm, dimensional tree lighting.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ad76b8dcf1d4d5c5e60745b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

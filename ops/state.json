@@ -1210,6 +1210,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ad8bf4e7b5905295c2786f9",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716353928",
+      "pin_id": "296815431716353928",
+      "published_at": "2026-10-21T18:32:23.801Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/883ee3b0-6691-11f1-9181-2778cad0ff11.png",
+      "title": "Nature Accented: Elegant Tree Uplighting Ideas",
+      "description": "Warm spotlights reveal the form of a mature tree against textured planting, under the headline Nature Accented. Learn to highlight tree structure without harsh glare.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ad90536d044cd24044976e9",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

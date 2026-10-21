@@ -38,6 +38,18 @@
       "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c3-20261020.png",
       "buffer_post_id": "6ad757cc31ed850c40e07610",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716343427"
+    },
+    {
+      "creative_id": "studio-product-designer-brief-builder-c3-20261021",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Name What Isn’t Working Before Choosing a Style",
+      "description": "Does a room look appealing yet still frustrate the way you live? Record the pinch points, measurements, must-keeps and daily routines before discussing style. Veluce Studio’s Designer Brief Builder uses the CLEAR Method to turn real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c3-20261021.png",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

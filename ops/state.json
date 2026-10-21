@@ -1706,7 +1706,7 @@
       "product": "Designer Brief Builder",
       "cycle": 3,
       "submission_date": "2026-10-21",
-      "status": "prepared",
+      "status": "submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-designer-brief-builder-c3-20261021.png",
@@ -1721,7 +1721,9 @@
       "destination_url": "https://velucedesign.com/designer-brief-builder/",
       "board": "Modern Home Decor Ideas & Finds 🔥",
       "board_service_id": "296815500381467884",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6ad8aa333021c1ef52b4e487",
+      "submitted_at": "2026-10-21T12:04:06.542Z"
     }
   },
   "editorialAutomation": {

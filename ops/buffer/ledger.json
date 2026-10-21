@@ -304,6 +304,24 @@
       "submitted_at": "2026-10-21T13:34:09.540Z",
       "sent_at": "2026-10-21T13:34:08.609Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716352282"
+    },
+    {
+      "creative_id": "veluce-auto-20261021-478280a1ac7b",
+      "workflow": "veluce_editorial",
+      "title": "Nature Accented: Elegant Tree Uplighting Ideas",
+      "description": "Warm spotlights reveal the form of a mature tree against textured planting, under the headline Nature Accented. Learn to highlight tree structure without harsh glare.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/883ee3b0-6691-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-21",
+      "topic": "tree-uplighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "478280a1ac7ba32f0c098c0124cb6c86d0015bea",
+      "source_path": "assets/pinterest/883ee3b0-6691-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-21T18:32:18.922Z",
+      "github_run_id": "39653582233"
     }
   ]
 }

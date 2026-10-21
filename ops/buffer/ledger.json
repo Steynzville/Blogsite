@@ -282,6 +282,24 @@
       "recorded_at": "2026-10-21T12:04:06.542Z",
       "sent_at": "2026-10-21T12:04:05.800Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716351964"
+    },
+    {
+      "creative_id": "veluce-auto-20261021-a15a44ed6d18",
+      "workflow": "veluce_editorial",
+      "title": "Modern Circular Fire Pit Seating for Small Patios",
+      "description": "This intimate stone fire pit, contemporary lounge chairs and discreet warm lighting create an inviting evening gathering spot. Find practical fire pit seating and patio design ideas.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/4db6b7a0-6690-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-21",
+      "topic": "fire-pit",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "source_blob_sha": "a15a44ed6d18dd581f7f7e7ab7ad8f27338529d9",
+      "source_path": "assets/pinterest/4db6b7a0-6690-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-21T13:34:03.276Z",
+      "github_run_id": "39609088077"
     }
   ]
 }

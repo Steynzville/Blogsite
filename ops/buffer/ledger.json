@@ -326,6 +326,24 @@
       "submitted_at": "2026-10-21T18:32:25.050Z",
       "sent_at": "2026-10-21T18:32:23.801Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716353928"
+    },
+    {
+      "creative_id": "veluce-auto-20261021-cfab3751c686",
+      "workflow": "veluce_editorial",
+      "title": "Sleek Pergola LED Lighting and Garden Uplighting",
+      "description": "A minimalist black pergola uses slim linear LED lighting above an outdoor sofa, alongside softly illuminated trees and a distant fire feature. Learn how to layer pergola lighting.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/552f19f0-6690-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-21",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "cfab3751c6860c426977a837e662c97c9334348f",
+      "source_path": "assets/pinterest/552f19f0-6690-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-21T21:26:17.052Z",
+      "github_run_id": "39678751010"
     }
   ]
 }

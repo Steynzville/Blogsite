@@ -1180,6 +1180,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ad7b24959e93798fafac75d",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716351287",
+      "pin_id": "296815431716351287",
+      "published_at": "2026-10-21T09:03:51.514Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/4460e2c0-6690-11f1-9181-2778cad0ff11.png",
+      "title": "String Light Pergola Ideas for a Cozy Patio",
+      "description": "A timber pergola with glowing string lights, draped curtains and cushioned seating overlooks a blue-lit swimming pool. Get practical pergola lighting ideas for entertaining.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ad87ff5d109f3f66b885dde",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

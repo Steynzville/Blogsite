@@ -1234,12 +1234,13 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 3,
-    "last_product": "Luxury Outdoor Room Planner",
+    "last_product": "Designer Brief Builder",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1585,6 +1586,44 @@
           "Luxury Outdoor Room Planner"
         ],
         "next_product": "Designer Brief Builder"
+      },
+      {
+        "creative_id": "studio-product-designer-brief-builder-c3-20261021",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Designer Brief Builder",
+        "cycle": 3,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "generated",
+        "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-designer-brief-builder-c3-20261021.png",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c3-20261021.png",
+        "creative_concept": "Golden-hour measured living-room threshold viewed over an oak planning ledge with floor plan, tape measure and restrained cream boucle, limestone and oak samples; prominent exact product title.",
+        "hook": "Name the friction",
+        "marketing_angle": "Identify the room's practical friction, measurements and daily routines before choosing a style.",
+        "title": "Interior Design Brief: Name What Isn’t Working Before Choosing a Style",
+        "description": "Does a room look appealing yet still frustrate the way you live? Record the pinch points, measurements, must-keeps and daily routines before discussing style. Veluce Studio’s Designer Brief Builder uses the CLEAR Method to turn real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
+        "destination_url": "https://velucedesign.com/designer-brief-builder/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "buffer_post_id": "6ad8aa333021c1ef52b4e487",
+        "submission_date": "2026-10-21",
+        "published_at": "2026-10-21",
+        "published_at_timestamp": "2026-10-21T12:04:05.800Z",
+        "published_at_local": "2026-10-21T14:04:05.800+02:00",
+        "pin_id": "296815431716351964",
+        "pin_url": "https://www.pinterest.com/pin/296815431716351964",
+        "status": "sent_buffer_confirmed",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536 and exact original Git blob matched. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "alt_text_saved": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder"
+        ],
+        "next_product": "Luxury Lighting Formula"
       }
     ],
     "archived_history": [
@@ -1700,31 +1739,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-designer-brief-builder-c3-20261021",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Designer Brief Builder",
-      "cycle": 3,
-      "submission_date": "2026-10-21",
-      "status": "submitted",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-designer-brief-builder-c3-20261021.png",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c3-20261021.png",
-      "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
-      "reference_set_id": "veluce_2x3_covers_20261005",
-      "creative_concept": "Golden-hour measured living-room threshold viewed over an oak planning ledge with floor plan, tape measure and restrained cream boucle, limestone and oak samples; prominent exact product title.",
-      "hook": "Name the friction",
-      "marketing_angle": "Identify the room's practical friction, measurements and daily routines before choosing a style.",
-      "title": "Interior Design Brief: Name What Isn’t Working Before Choosing a Style",
-      "description": "Does a room look appealing yet still frustrate the way you live? Record the pinch points, measurements, must-keeps and daily routines before discussing style. Veluce Studio’s Designer Brief Builder uses the CLEAR Method to turn real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
-      "destination_url": "https://velucedesign.com/designer-brief-builder/",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_service_id": "296815500381467884",
-      "alt_text_saved": false,
-      "buffer_post_id": "6ad8aa333021c1ef52b4e487",
-      "submitted_at": "2026-10-21T12:04:06.542Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

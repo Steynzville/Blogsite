@@ -278,8 +278,10 @@
       "board_service_id": "296815500381467884",
       "buffer_post_id": "6ad8aa333021c1ef52b4e487",
       "publish_at": "2026-10-21T12:04:06.542Z",
-      "status": "submitted_now_verified",
-      "recorded_at": "2026-10-21T12:04:06.542Z"
+      "status": "sent_buffer_confirmed",
+      "recorded_at": "2026-10-21T12:04:06.542Z",
+      "sent_at": "2026-10-21T12:04:05.800Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716351964"
     }
   ]
 }

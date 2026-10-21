@@ -267,6 +267,19 @@
       "submitted_at": "2026-10-21T09:03:52.352Z",
       "sent_at": "2026-10-21T09:03:51.514Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716351287"
+    },
+    {
+      "creative_id": "studio-product-designer-brief-builder-c3-20261021",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Name What Isn’t Working Before Choosing a Style",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c3-20261021.png",
+      "board_service_id": "296815500381467884",
+      "buffer_post_id": "6ad8aa333021c1ef52b4e487",
+      "publish_at": "2026-10-21T12:04:06.542Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-21T12:04:06.542Z"
     }
   ]
 }

@@ -1700,7 +1700,29 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "creative_id": "studio-product-designer-brief-builder-c3-20261021",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "cycle": 3,
+      "submission_date": "2026-10-21",
+      "status": "prepared",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "image_filename": "studio-product-designer-brief-builder-c3-20261021.png",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c3-20261021.png",
+      "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
+      "reference_set_id": "veluce_2x3_covers_20261005",
+      "creative_concept": "Golden-hour measured living-room threshold viewed over an oak planning ledge with floor plan, tape measure and restrained cream boucle, limestone and oak samples; prominent exact product title.",
+      "hook": "Name the friction",
+      "marketing_angle": "Identify the room's practical friction, measurements and daily routines before choosing a style.",
+      "title": "Interior Design Brief: Name What Isn’t Working Before Choosing a Style",
+      "description": "Does a room look appealing yet still frustrate the way you live? Record the pinch points, measurements, must-keeps and daily routines before discussing style. Veluce Studio’s Designer Brief Builder uses the CLEAR Method to turn real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_service_id": "296815500381467884",
+      "alt_text_saved": false
+    }
   },
   "editorialAutomation": {
     "version": 1,

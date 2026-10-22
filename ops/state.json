@@ -1255,6 +1255,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ad9d1f709335c6cc6f718cc",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716359991",
+      "pin_id": "296815431716359991",
+      "published_at": "2026-10-22T13:35:22.802Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/5818d6f0-6691-11f1-9181-2778cad0ff11.png",
+      "title": "Pergola Perfection: Modern LED Canopy Lighting",
+      "description": "Warm linear lighting outlines a sleek black pergola and welcoming outdoor lounge beneath the headline Pergola Perfection. Explore ideas for comfortable architectural pergola lighting.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ada1119bf6d801ac6edbdca",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

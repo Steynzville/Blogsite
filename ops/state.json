@@ -1240,6 +1240,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ad92dfb9756ed1587c9948e",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716358799",
+      "pin_id": "296815431716358799",
+      "published_at": "2026-10-22T09:06:00.929Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/5b3cfa50-6691-11f1-9181-2778cad0ff11.png",
+      "title": "Zen Fire Glow: A Minimalist Backyard Fire Pit",
+      "description": "A linear raised fire pit glows among curved landscape lighting and modern planting. Find ideas for creating a comfortable, minimalist fire pit conversation area.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ad9d1f709335c6cc6f718cc",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

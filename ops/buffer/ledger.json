@@ -439,14 +439,16 @@
       "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
       "board_service_id": "296815500381477417",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-10-22",
       "topic": "pergola",
       "board_name": "Outdoor Lighting Ideas",
       "source_blob_sha": "ebc2fa50404fa5332017df8424ac0994ede8bfff",
       "source_path": "assets/pinterest/8282d760-6691-11f1-9181-2778cad0ff11.png",
       "recorded_at": "2026-10-22T21:21:23.245Z",
-      "github_run_id": "39856545783"
+      "github_run_id": "39856545783",
+      "buffer_post_id": "6ada7e559daa164787692a05",
+      "submitted_at": "2026-10-22T21:21:26.988Z"
     }
   ]
 }

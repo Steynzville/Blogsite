@@ -52,6 +52,18 @@
       "status": "sent_buffer_confirmed",
       "buffer_post_id": "6ad8aa333021c1ef52b4e487",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716351964"
+    },
+    {
+      "creative_id": "studio-product-luxury-lighting-formula-c3-20261022",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "title": "Bedroom Lighting Ideas: Let the Ceiling Rest and Layer the Light",
+      "description": "Does your bedroom feel harsh when the ceiling light is on and too dim when it is off? Layer a soft headboard glow, a focused bedside lamp, gentle wall wash and low circulation light instead of relying on one overhead source. Veluce Studio’s Luxury Lighting Formula uses the Seven Signals—hierarchy, layers, direction, warmth, shadow, concealment and scenes—to help plan controlled lighting changes before buying. Explore the complete digital lighting system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c3-20261022.png",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

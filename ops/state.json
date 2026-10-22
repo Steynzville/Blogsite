@@ -1294,13 +1294,14 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 3,
-    "last_product": "Designer Brief Builder",
+    "last_product": "Luxury Lighting Formula",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
+      "Designer Brief Builder",
+      "Luxury Lighting Formula"
     ],
-    "next_product": "Luxury Lighting Formula",
+    "next_product": "Room Procurement System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1684,6 +1685,45 @@
           "Designer Brief Builder"
         ],
         "next_product": "Luxury Lighting Formula"
+      },
+      {
+        "creative_id": "studio-product-luxury-lighting-formula-c3-20261022",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Luxury Lighting Formula",
+        "cycle": 3,
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "image_type": "generated",
+        "original_reference": "libfile_ffe73dc800888191938908c0ae7291dc",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-luxury-lighting-formula-c3-20261022.png",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c3-20261022.png",
+        "creative_concept": "Blue-hour bedroom viewed diagonally from the doorway, with concealed headboard glow, bedside reading lamp, textured wall wash and low-level circulation light; exact product title.",
+        "hook": "Let the ceiling rest",
+        "marketing_angle": "Replace harsh single-source overhead lighting with a calm layered bedroom scene.",
+        "title": "Bedroom Lighting Ideas: Let the Ceiling Rest and Layer the Light",
+        "description": "Does your bedroom feel harsh when the ceiling light is on and too dim when it is off? Layer a soft headboard glow, a focused bedside lamp, gentle wall wash and low circulation light instead of relying on one overhead source. Veluce Studio’s Luxury Lighting Formula uses the Seven Signals—hierarchy, layers, direction, warmth, shadow, concealment and scenes—to help plan controlled lighting changes before buying. Explore the complete digital lighting system.",
+        "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "buffer_post_id": "6ad9fcfea6a09108d26588a5",
+        "submission_date": "2026-10-22",
+        "published_at": "2026-10-22",
+        "published_at_timestamp": "2026-10-22T12:09:36.211Z",
+        "published_at_local": "2026-10-22T14:09:36.211+02:00",
+        "pin_id": "296815431716359497",
+        "pin_url": "https://www.pinterest.com/pin/296815431716359497",
+        "status": "sent_buffer_confirmed",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536 and exact original Git blob matched. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "alt_text_saved": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula"
+        ],
+        "next_product": "Room Procurement System"
       }
     ],
     "archived_history": [
@@ -1799,31 +1839,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-luxury-lighting-formula-c3-20261022",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Luxury Lighting Formula",
-      "cycle": 3,
-      "submission_date": "2026-10-22",
-      "status": "submitted",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-luxury-lighting-formula-c3-20261022.png",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c3-20261022.png",
-      "original_reference": "libfile_ffe73dc800888191938908c0ae7291dc",
-      "reference_set_id": "veluce_2x3_covers_20261005",
-      "creative_concept": "Blue-hour bedroom viewed diagonally from the doorway, with concealed headboard glow, bedside reading lamp, textured wall wash and low-level circulation light; exact product title.",
-      "hook": "Let the ceiling rest",
-      "marketing_angle": "Replace harsh single-source overhead lighting with a calm layered bedroom scene.",
-      "title": "Bedroom Lighting Ideas: Let the Ceiling Rest and Layer the Light",
-      "description": "Does your bedroom feel harsh when the ceiling light is on and too dim when it is off? Layer a soft headboard glow, a focused bedside lamp, gentle wall wash and low circulation light instead of relying on one overhead source. Veluce Studio’s Luxury Lighting Formula uses the Seven Signals—hierarchy, layers, direction, warmth, shadow, concealment and scenes—to help plan controlled lighting changes before buying. Explore the complete digital lighting system.",
-      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_service_id": "296815500381467884",
-      "alt_text_saved": false,
-      "buffer_post_id": "6ad9fcfea6a09108d26588a5",
-      "submitted_at": "2026-10-22T12:09:37.313Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

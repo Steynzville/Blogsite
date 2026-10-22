@@ -429,6 +429,24 @@
       "submitted_at": "2026-10-22T18:27:43.941Z",
       "sent_at": "2026-10-22T18:27:42.732Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716361782"
+    },
+    {
+      "creative_id": "veluce-auto-20261022-ebc2fa50404f",
+      "workflow": "veluce_editorial",
+      "title": "Pergola Perfection With Integrated Roof Lighting",
+      "description": "A contemporary dining pergola features warm strips along its roof structure and a swimming pool beyond. Discover elegant lighting layers for a covered outdoor living space.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/8282d760-6691-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-22",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "ebc2fa50404fa5332017df8424ac0994ede8bfff",
+      "source_path": "assets/pinterest/8282d760-6691-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-22T21:21:23.245Z",
+      "github_run_id": "39856545783"
     }
   ]
 }

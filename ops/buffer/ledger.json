@@ -417,7 +417,7 @@
       "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
       "board_service_id": "296815500381477417",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-10-22",
       "topic": "tree-uplighting",
       "board_name": "Outdoor Lighting Ideas",
@@ -426,7 +426,9 @@
       "recorded_at": "2026-10-22T18:27:37.252Z",
       "github_run_id": "39831515605",
       "buffer_post_id": "6ada559dad1fc1b5527e0d81",
-      "submitted_at": "2026-10-22T18:27:43.941Z"
+      "submitted_at": "2026-10-22T18:27:43.941Z",
+      "sent_at": "2026-10-22T18:27:42.732Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716361782"
     }
   ]
 }

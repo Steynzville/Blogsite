@@ -1270,6 +1270,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ada1119bf6d801ac6edbdca",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716361782",
+      "pin_id": "296815431716361782",
+      "published_at": "2026-10-22T18:27:42.732Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/ca48c0e0-6692-11f1-9181-2778cad0ff11.png",
+      "title": "Sculpted by Light: Garden Tree Lighting Inspiration",
+      "description": "A mature tree becomes the evening focal point with carefully aimed hidden uplights and subtle surrounding illumination. Discover ideas for bringing garden trees to life at night.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ada559dad1fc1b5527e0d81",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

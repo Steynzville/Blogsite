@@ -1805,7 +1805,7 @@
       "product": "Luxury Lighting Formula",
       "cycle": 3,
       "submission_date": "2026-10-22",
-      "status": "prepared",
+      "status": "submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-luxury-lighting-formula-c3-20261022.png",
@@ -1820,7 +1820,9 @@
       "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
       "board": "Modern Home Decor Ideas & Finds 🔥",
       "board_service_id": "296815500381467884",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6ad9fcfea6a09108d26588a5",
+      "submitted_at": "2026-10-22T12:09:37.313Z"
     }
   },
   "editorialAutomation": {

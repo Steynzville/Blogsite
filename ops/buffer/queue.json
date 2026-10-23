@@ -66,6 +66,18 @@
       "status": "sent_buffer_confirmed",
       "buffer_post_id": "6ad9fcfea6a09108d26588a5",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716359497"
+    },
+    {
+      "creative_id": "studio-product-room-procurement-system-c3-20261023",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Furniture Sizing: Check the Fit Before You Order the Sofa",
+      "description": "Does the sofa fit on paper but leave no comfortable route through the room? Mark its real footprint and circulation clearance before ordering, then compare the specification against your plan. Veluce Studio’s Room Procurement System uses the SOURCE Method to help homeowners specify before shopping, compare evidence, verify cost and fit, and track purchases through delivery and close-out. Explore the complete digital procurement system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c3-20261023.png",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

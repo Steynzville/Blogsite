@@ -2228,6 +2228,19 @@
       "author": "Veluce Studio",
       "status": "published",
       "verified": true
+    },
+    {
+      "date": "2026-10-23",
+      "destination": "Veluce Studio Page",
+      "content_type": "article-led practical insight",
+      "topic": "Garden pathway lighting: identify steps, turns and glare before buying fixtures",
+      "veluce_url": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "creative": "Organic Facebook Page text with verified garden-pathway article link preview",
+      "post_url": "https://www.facebook.com/122113949439497940/posts/122113952505497940",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true,
+      "verification_note": "Facebook Graph API 23 October 2026: is_published=true, Page ID 1380934031768194, matching article link attachment and preview image."
     }
   ],
   "conversion_followup_20261015": {

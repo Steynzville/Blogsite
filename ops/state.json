@@ -1905,7 +1905,7 @@
       "product": "Room Procurement System",
       "cycle": 3,
       "submission_date": "2026-10-23",
-      "status": "prepared",
+      "status": "submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-room-procurement-system-c3-20261023.png",
@@ -1920,7 +1920,9 @@
       "destination_url": "https://velucedesign.com/room-procurement-system/",
       "board": "Modern Home Decor Ideas & Finds 🔥",
       "board_service_id": "296815500381467884",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6adb4ded7c3aac797e7dc04e",
+      "submitted_at": "2026-10-23T12:07:11.489Z"
     }
   },
   "editorialAutomation": {

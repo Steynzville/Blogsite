@@ -1315,6 +1315,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6adb222d2baa602d0241235c",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716367439",
+      "pin_id": "296815431716367439",
+      "published_at": "2026-10-23T13:11:15.853Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/9b7c5810-668f-11f1-9181-2778cad0ff11.png",
+      "title": "Poolside Pergola Lighting With Warm LED Edges",
+      "description": "Slim warm LED strips illuminate a black pergola and nearby steps next to a blue swimming pool. Explore welcoming after-dark pergola and poolside lighting inspiration.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6adb5cf291ffb6bdb08592d2",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

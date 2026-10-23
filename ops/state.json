@@ -1899,7 +1899,29 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "creative_id": "studio-product-room-procurement-system-c3-20261023",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "cycle": 3,
+      "submission_date": "2026-10-23",
+      "status": "prepared",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "image_filename": "studio-product-room-procurement-system-c3-20261023.png",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c3-20261023.png",
+      "original_reference": "libfile_1604685b1c6c819192d595e3c33237a3",
+      "reference_set_id": "veluce_2x3_covers_20261005",
+      "creative_concept": "High diagonal golden-hour living-room view with measured sofa footprint, circulation clearance, one specification sheet and coordinated travertine, oak and boucle samples; exact product title.",
+      "hook": "Check the fit first",
+      "marketing_angle": "Test the real furniture footprint and circulation clearance before ordering.",
+      "title": "Furniture Sizing: Check the Fit Before You Order the Sofa",
+      "description": "Does the sofa fit on paper but leave no comfortable route through the room? Mark its real footprint and circulation clearance before ordering, then compare the specification against your plan. Veluce Studio’s Room Procurement System uses the SOURCE Method to help homeowners specify before shopping, compare evidence, verify cost and fit, and track purchases through delivery and close-out. Explore the complete digital procurement system.",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_service_id": "296815500381467884",
+      "alt_text_saved": false
+    }
   },
   "editorialAutomation": {
     "version": 1,

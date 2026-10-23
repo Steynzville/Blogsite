@@ -510,6 +510,24 @@
       "submitted_at": "2026-10-23T13:11:17.020Z",
       "sent_at": "2026-10-23T13:11:15.853Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716367439"
+    },
+    {
+      "creative_id": "veluce-auto-20261023-ce63c58b8e83",
+      "workflow": "veluce_editorial",
+      "title": "Round Fire Pit Ideas for a Welcoming Backyard",
+      "description": "A circular stone fire pit with relaxed chairs sits within a softly illuminated garden. Get practical inspiration for seating distances, circulation and materials around a fire feature.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/8e91ce40-6690-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-23",
+      "topic": "fire-pit",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "source_blob_sha": "ce63c58b8e83204e90db08d9eb4dbbbc84b58005",
+      "source_path": "assets/pinterest/8e91ce40-6690-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-23T18:14:18.965Z",
+      "github_run_id": "40001619995"
     }
   ]
 }

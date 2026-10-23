@@ -1345,6 +1345,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6adba3fd9acae620d810ff8b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716369617",
+      "pin_id": "296815431716369617",
+      "published_at": "2026-10-23T19:11:20.613Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/b77400c0-6691-11f1-9181-2778cad0ff11.png",
+      "title": "Elevated Pergolas: Layered Outdoor LED Lighting",
+      "description": "A modern pergola roof combines linear LEDs with warm recessed lights over a comfortable outdoor lounge. Learn how to balance light and atmosphere in a garden room.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6adbb157e4be8a4d8620bea2",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

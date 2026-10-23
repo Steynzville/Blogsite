@@ -77,7 +77,10 @@
       "destination_url": "https://velucedesign.com/room-procurement-system/",
       "board_service_id": "296815500381467884",
       "publish_at": "now",
-      "status": "ready"
+      "status": "sent_buffer_confirmed",
+      "buffer_post_id": "6adb4ded7c3aac797e7dc04e",
+      "sent_at": "2026-10-23T12:07:10.586Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716367148"
     }
   ]
 }

@@ -6,6 +6,10 @@ on:
     - cron: '0 8 * * *'
     - cron: '0 14 * * *'
     - cron: '0 18 * * *'
+    # Late-evening SAST recovery slot (21:47). The publisher checks the local-day
+    # ledger and no-ops when four editorial Pins are already reserved or sent.
+    # Avoid a top-of-hour cron to reduce GitHub scheduling congestion.
+    - cron: '47 19 * * *'
   workflow_dispatch:
     inputs:
       mode:

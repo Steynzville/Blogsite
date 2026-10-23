@@ -1300,6 +1300,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ada7e559daa164787692a05",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716366377",
+      "pin_id": "296815431716366377",
+      "published_at": "2026-10-23T09:00:31.513Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/85ee0b50-6690-11f1-9181-2778cad0ff11.webp",
+      "title": "Cozy Fire Pit Patio With String Lights and Seating",
+      "description": "A square fire pit anchors a seating area with string lights, planted borders and a warm illuminated patio edge. Explore cosy fire pit table layouts for after-dark entertaining.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6adb222d2baa602d0241235c",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

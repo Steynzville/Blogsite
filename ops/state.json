@@ -1360,6 +1360,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6adbb157e4be8a4d8620bea2",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716370819",
+      "pin_id": "296815431716370819",
+      "published_at": "2026-10-23T22:40:21.508Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/accb30f0-668f-11f1-9181-2778cad0ff11.png",
+      "title": "Sunken Fire Pit Lounge With Illuminated Steps",
+      "description": "The glowing LED steps lead into a sunken circular conversation area around a central fire pit by the pool. Explore fire pit table positioning and multi-level patio layouts.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6adbe2543d5b27036b558a33",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

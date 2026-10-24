@@ -598,6 +598,19 @@
       "submitted_at": "2026-10-24T08:34:42.569Z",
       "sent_at": "2026-10-24T08:34:41.652Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716374271"
+    },
+    {
+      "creative_id": "studio-product-complete-home-design-system-c3-20261024",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Complete Home Design System",
+      "title": "Whole-Home Color Palette: Make Every Room Feel Related, Not Repeated",
+      "destination_url": "https://velucedesign.com/complete-home-design-system/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-complete-home-design-system-c3-20261024.png",
+      "board_service_id": "296815500381467884",
+      "buffer_post_id": "6adca0510b5343d070807e29",
+      "publish_at": "2026-10-24T12:10:58.813Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-24T12:10:58.813Z"
     }
   ]
 }

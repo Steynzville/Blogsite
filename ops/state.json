@@ -2004,42 +2004,11 @@
   },
   "editorialAutomation": {
     "version": 1,
-    "lastRunDate": "2026-10-10",
-    "lastRunType": "REFRESH",
-    "nextRunType": "NEW",
-    "nextNewProduct": "Luxury Outdoor Room Planner",
-    "pendingRun": {
-      "runDate": "2026-10-24",
-      "runType": "NEW",
-      "articleSlug": "how-to-arrange-patio-furniture",
-      "articleTitle": "How to Arrange Patio Furniture: A Layout and Spacing Guide",
-      "primaryTopic": "Patio furniture layout, occupied spacing and circulation",
-      "primaryProduct": "Luxury Outdoor Room Planner",
-      "branch": "editorial/2026-10-24-new-outdoor-room",
-      "status": "planned",
-      "validationResult": "Pending",
-      "publicationDate": "2026-10-24",
-      "plannedNextRunType": "REFRESH",
-      "plannedNextNewProduct": "Designer Brief Builder",
-      "selectionReason": "The current outdoor-room cluster covers individual rugs, sectionals, fire features and pergola lighting but lacks a dedicated activity-first layout and circulation guide. Search Console through 2026-10-21 shows only three impressions for the sectional article and no established layout-query signal, so demand is unquantified; the topic was selected as a distinct foundational cluster gap with natural approved accessory placements.",
-      "sources": [
-        "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-        "https://www.bhg.com/home-improvement/patio/designs/how-to-choose-patio-size/"
-      ],
-      "sourceCheckedAt": "2026-10-24",
-      "affiliateMonetisation": {
-        "contextualPlacementsAdded": 3,
-        "products": [
-          "sectional sofa connector clips (sofa-connectors)",
-          "reversible polypropylene outdoor rug (outdoor-rug-pp)",
-          "outdoor sectional sofa cover (sectional-sofa-cover)"
-        ],
-        "approvedInventoryUsed": true,
-        "disclosureConfirmed": true,
-        "complementaryRoles": true
-      },
-      "imagery": "Original AI-generated editorial hero showing a realistic zoned patio and clear circulation; provenance disclosed in article."
-    },
+    "lastRunDate": "2026-10-24",
+    "lastRunType": "NEW",
+    "nextRunType": "REFRESH",
+    "nextNewProduct": "Designer Brief Builder",
+    "pendingRun": null,
     "history": [
       {
         "runType": "NEW",
@@ -2110,51 +2079,89 @@
         "deploymentVerification": "GitHub Pages deployment 38025377792 succeeded for editorial merge. Live refreshed H1/headings, loaded hero/alt, three exact affiliate links, disclosure and correct Studio CTA verified; contextual sectional link and Studio product destination loaded. Selected article mobile/desktop preview checked; no visual regression observed.",
         "liveUrl": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
         "deployedSha": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0"
+      },
+      {
+        "runDate": "2026-10-24",
+        "runType": "NEW",
+        "articleSlug": "how-to-arrange-patio-furniture",
+        "articleTitle": "How to Arrange Patio Furniture: A Layout and Spacing Guide",
+        "primaryTopic": "Patio furniture layout, occupied spacing and circulation",
+        "primaryProduct": "Luxury Outdoor Room Planner",
+        "branch": "editorial/2026-10-24-new-outdoor-room",
+        "validationResult": "Passed: TypeScript, 36 tests, 28-article audit with zero issues, production build with 53 routes, ops validation, and final-head GitHub quality gates including desktop/mobile screenshot capture (run 40062886721).",
+        "publicationDate": "2026-10-24",
+        "plannedNextRunType": "REFRESH",
+        "plannedNextNewProduct": "Designer Brief Builder",
+        "selectionReason": "The current outdoor-room cluster covers individual rugs, sectionals, fire features and pergola lighting but lacks a dedicated activity-first layout and circulation guide. Search Console through 2026-10-21 shows only three impressions for the sectional article and no established layout-query signal, so demand is unquantified; the topic was selected as a distinct foundational cluster gap with natural approved accessory placements.",
+        "sources": [
+          "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+          "https://www.bhg.com/home-improvement/patio/designs/how-to-choose-patio-size/"
+        ],
+        "sourceCheckedAt": "2026-10-24",
+        "affiliateMonetisation": {
+          "contextualPlacementsAdded": 3,
+          "products": [
+            "sectional sofa connector clips (sofa-connectors)",
+            "reversible polypropylene outdoor rug (outdoor-rug-pp)",
+            "outdoor sectional sofa cover (sectional-sofa-cover)"
+          ],
+          "approvedInventoryUsed": true,
+          "disclosureConfirmed": true,
+          "complementaryRoles": true
+        },
+        "imagery": "Original AI-generated editorial hero showing a realistic zoned patio and clear circulation; provenance disclosed in article.",
+        "actualRunType": "NEW",
+        "prNumber": 27,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/27",
+        "mergeStatus": "merged",
+        "mergeCommit": "82a71d63a656b7ad328f5f110545843dfa600115",
+        "analyticsEvidence": "Search Console read 2026-10-24 for 2026-07-01–2026-10-21: modular-sectional article had 3 impressions at average position 11.3; no established patio-layout query signal was exposed. Demand remains unquantified; selected as a distinct foundational cluster gap.",
+        "deploymentVerification": "GitHub Pages deployment 40063276602 succeeded for merge 82a71d63a656b7ad328f5f110545843dfa600115. Live title/H1, 14 H2 sections, hero load and alt, three exact affiliate links, disclosure, correct Studio CTA, dynamic ZAR/USD product pricing and no desktop horizontal overflow verified in the shared browser.",
+        "liveUrl": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
+        "deployedSha": "82a71d63a656b7ad328f5f110545843dfa600115",
+        "completedAt": "2026-10-24T04:44:45.727Z"
       }
     ],
     "lastRun": {
-      "runDate": "2026-10-10",
-      "runType": "REFRESH",
-      "articleSlug": "outdoor-rugs-defy-elements",
-      "articleTitle": "Outdoor Rugs for Patios: Size, Materials and Care",
-      "primaryTopic": "Choosing outdoor rugs by furniture footprint, exposure and floor compatibility",
+      "runDate": "2026-10-24",
+      "runType": "NEW",
+      "articleSlug": "how-to-arrange-patio-furniture",
+      "articleTitle": "How to Arrange Patio Furniture: A Layout and Spacing Guide",
+      "primaryTopic": "Patio furniture layout, occupied spacing and circulation",
       "primaryProduct": "Luxury Outdoor Room Planner",
-      "branch": "editorial/2026-10-10-refresh",
-      "prNumber": 24,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/24",
-      "mergeStatus": "merged",
-      "mergeCommit": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0",
-      "validationResult": "Passed: TypeScript, 10 tests, 27-article audit with zero issues, 52-route production build, ops validation; final-head GitHub CI 38025060046 including desktop/mobile capture. Selected article reviewed at 390px/1440px: images loaded, no overflow, exact affiliate links and disclosure present.",
-      "publicationDate": "2026-05-12",
-      "plannedNextRunType": "NEW",
-      "plannedNextNewProduct": "Luxury Outdoor Room Planner",
-      "selectionReason": "Material guidance overpromised fading resistance and sheltered natural-fibre performance; patio-area sizing ignored chair travel; missing floor compatibility and wet-weather care. Recent SEO refreshes of LED/copper guides excluded.",
+      "branch": "editorial/2026-10-24-new-outdoor-room",
+      "validationResult": "Passed: TypeScript, 36 tests, 28-article audit with zero issues, production build with 53 routes, ops validation, and final-head GitHub quality gates including desktop/mobile screenshot capture (run 40062886721).",
+      "publicationDate": "2026-10-24",
+      "plannedNextRunType": "REFRESH",
+      "plannedNextNewProduct": "Designer Brief Builder",
+      "selectionReason": "The current outdoor-room cluster covers individual rugs, sectionals, fire features and pergola lighting but lacks a dedicated activity-first layout and circulation guide. Search Console through 2026-10-21 shows only three impressions for the sectional article and no established layout-query signal, so demand is unquantified; the topic was selected as a distinct foundational cluster gap with natural approved accessory placements.",
       "sources": [
-        "https://www.trex.com/why-trex/faq/",
-        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rugs-ultimate-guide",
-        "https://www.rugsusa.com/pages/rug-size-guide",
-        "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rug-questions-answered"
+        "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+        "https://www.bhg.com/home-improvement/patio/designs/how-to-choose-patio-size/"
       ],
-      "sourceCheckedAt": "2026-10-10",
+      "sourceCheckedAt": "2026-10-24",
       "affiliateMonetisation": {
-        "contextualPlacementsRetained": 3,
+        "contextualPlacementsAdded": 3,
         "products": [
-          "existing grey-grid outdoor rug (Rug)",
+          "sectional sofa connector clips (sofa-connectors)",
           "reversible polypropylene outdoor rug (outdoor-rug-pp)",
-          "non-slip underlay (rug-gripper)"
+          "outdoor sectional sofa cover (sectional-sofa-cover)"
         ],
         "approvedInventoryUsed": true,
         "disclosureConfirmed": true,
-        "complementaryRoles": true,
-        "verificationScope": "Preserved exact existing registry URLs. Two mappings verified Admitad/Short.io on 2026-09-30; legacy Rug remains pending product/attribution verification. No new specifications, availability or shipping claims."
+        "complementaryRoles": true
       },
-      "imagery": "Existing relevant hero retained; descriptive alt added",
-      "analyticsEvidence": "GA4 read 2026-10-10: outdoor-rug article 3 pageviews across slash/no-slash paths for 2026-09-12–2026-10-09 versus 0 in 2026-08-15–2026-09-11. Very low volume; not evidence of decay or uplift. Selected for factual and practical improvements. Search Console unavailable in current shared session.",
-      "refreshDate": "2026-10-10",
-      "completedAt": "2026-10-10T04:52:59.216657+00:00",
-      "deploymentVerification": "GitHub Pages deployment 38025377792 succeeded for editorial merge. Live refreshed H1/headings, loaded hero/alt, three exact affiliate links, disclosure and correct Studio CTA verified; contextual sectional link and Studio product destination loaded. Selected article mobile/desktop preview checked; no visual regression observed.",
-      "liveUrl": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
-      "deployedSha": "7b2a49c2fdbefdccd366904d74afae9235b5a9e0"
+      "imagery": "Original AI-generated editorial hero showing a realistic zoned patio and clear circulation; provenance disclosed in article.",
+      "actualRunType": "NEW",
+      "prNumber": 27,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/27",
+      "mergeStatus": "merged",
+      "mergeCommit": "82a71d63a656b7ad328f5f110545843dfa600115",
+      "analyticsEvidence": "Search Console read 2026-10-24 for 2026-07-01–2026-10-21: modular-sectional article had 3 impressions at average position 11.3; no established patio-layout query signal was exposed. Demand remains unquantified; selected as a distinct foundational cluster gap.",
+      "deploymentVerification": "GitHub Pages deployment 40063276602 succeeded for merge 82a71d63a656b7ad328f5f110545843dfa600115. Live title/H1, 14 H2 sections, hero load and alt, three exact affiliate links, disclosure, correct Studio CTA, dynamic ZAR/USD product pricing and no desktop horizontal overflow verified in the shared browser.",
+      "liveUrl": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
+      "deployedSha": "82a71d63a656b7ad328f5f110545843dfa600115",
+      "completedAt": "2026-10-24T04:44:45.727Z"
     }
   },
   "facebook_publications": [

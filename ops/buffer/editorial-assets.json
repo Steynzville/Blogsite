@@ -324,6 +324,58 @@
       "visual_review_date": "2026-10-19",
       "visual_review_method": "Reviewed source image bytes from GitHub contact sheets",
       "origin": "owner-upload"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-tree-uplighting-20261024-a1.png",
+      "topic": "tree-uplighting",
+      "title": "Light the Canopy: Warm Uplighting for a Mature Olive Tree",
+      "description": "A mature multi-stem olive tree becomes the courtyard focal point with concealed warm uplights, layered planting and a reflecting rill. Explore practical ideas for revealing tree form without visible glare.",
+      "visual_description": "Blue-hour cream-walled courtyard with a mature multi-stem olive tree, two concealed warm uplights, curved limestone planter, layered grasses and a narrow reflecting rill; serif overlay reads LIGHT THE CANOPY.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-24",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-24T12:15:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pathway-lighting-20261024-a2.png",
+      "topic": "pathway-lighting",
+      "title": "Garden Pathway Lighting for Curves, Slopes and Stone Steps",
+      "description": "A winding gravel path uses shielded low lights and illuminated stone risers to guide movement toward a timber garden studio. See how controlled spacing can improve visibility without flooding the garden.",
+      "visual_description": "Image-only sunset garden with an S-curved decomposed-granite path, three broad natural-stone steps, shielded bronze path lights, dense grasses and a softly lit timber studio.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-24",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-24T12:15:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-fire-pit-20261024-a3.png",
+      "topic": "fire-pit",
+      "title": "A Fire Pit Conversation Area Designed Around the Glow",
+      "description": "A round limestone gas fire bowl anchors four comfortable chairs in a compact planted courtyard. Explore fire-pit seating distance, conversation layouts and restrained lighting for an intimate evening space.",
+      "visual_description": "Compact blue-hour courtyard with a visibly burning round limestone gas fire bowl, four cream timber lounge chairs, planted borders, rendered wall and serif overlay GATHER AROUND THE GLOW.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-24",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-24T12:15:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pergola-20261024-a4.png",
+      "topic": "pergola",
+      "title": "Layered Pergola Lighting for an Outdoor Dining Room",
+      "description": "Concealed rafter lighting, a woven pendant and low garden uplights create distinct layers around a round outdoor dining table. Discover how to light a pergola for dinner without making the space feel overly bright.",
+      "visual_description": "Image-only dusk dining pergola attached to a cream home, with pale-oak beams, concealed linear rafter light, woven pendant, round stone table, six chairs and softly lit planting.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-24",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-24T12:15:00Z"
     }
   ]
 }

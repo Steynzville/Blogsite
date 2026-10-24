@@ -2021,7 +2021,7 @@
       "product": "Complete Home Design System",
       "cycle": 3,
       "submission_date": "2026-10-24",
-      "status": "creative_uploaded",
+      "status": "submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-complete-home-design-system-c3-20261024.png",
@@ -2036,7 +2036,9 @@
       "destination_url": "https://velucedesign.com/complete-home-design-system/",
       "board": "Modern Home Decor Ideas & Finds 🔥",
       "board_service_id": "296815500381467884",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6adca0510b5343d070807e29",
+      "submitted_at": "2026-10-24T12:10:58.813Z"
     }
   },
   "editorialAutomation": {

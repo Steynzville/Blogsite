@@ -635,6 +635,24 @@
       "submitted_at": "2026-10-24T12:30:00.013Z",
       "sent_at": "2026-10-24T12:29:59.782Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716375212"
+    },
+    {
+      "creative_id": "veluce-auto-20261024-d2e2fdec14d8",
+      "workflow": "veluce_editorial",
+      "title": "Modern Pergola Lighting With a Gentle Garden Glow",
+      "description": "A warmly lit roof canopy shelters a contemporary outdoor lounge while a curved illuminated garden edge draws the eye outward. Find ways to light pergolas comfortably.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/d76c01d0-689d-11f1-8c35-4ba146341052.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-24",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "d2e2fdec14d8bf4ca35ce432bc855704ed911cdf",
+      "source_path": "assets/pinterest/d76c01d0-689d-11f1-8c35-4ba146341052.png",
+      "recorded_at": "2026-10-24T17:20:09.554Z",
+      "github_run_id": "40115627912"
     }
   ]
 }

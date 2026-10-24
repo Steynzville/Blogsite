@@ -239,6 +239,8 @@ Choose gas for convenience, wood for authenticity. Select materials that withsta
 
 A fire pit table does not complete a patio. It reveals it.
 
+Use the [patio furniture layout guide](/article/how-to-arrange-patio-furniture/) to test the conversation zone and circulation outside the exact fire-feature clearances before buying the surrounding furniture.
+
 ## Turn the Feature into a Complete Outdoor Room
 
 A fire pit table works best when seating, circulation, scale and atmosphere are planned around it. The [Veluce Luxury Outdoor Room Planner](/luxury-outdoor-room-planner) gives you a structured way to turn the focal point into a cohesive outdoor room rather than a collection of separate purchases.

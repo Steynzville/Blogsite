@@ -2008,7 +2008,38 @@
     "lastRunType": "REFRESH",
     "nextRunType": "NEW",
     "nextNewProduct": "Luxury Outdoor Room Planner",
-    "pendingRun": null,
+    "pendingRun": {
+      "runDate": "2026-10-24",
+      "runType": "NEW",
+      "articleSlug": "how-to-arrange-patio-furniture",
+      "articleTitle": "How to Arrange Patio Furniture: A Layout and Spacing Guide",
+      "primaryTopic": "Patio furniture layout, occupied spacing and circulation",
+      "primaryProduct": "Luxury Outdoor Room Planner",
+      "branch": "editorial/2026-10-24-new-outdoor-room",
+      "status": "planned",
+      "validationResult": "Pending",
+      "publicationDate": "2026-10-24",
+      "plannedNextRunType": "REFRESH",
+      "plannedNextNewProduct": "Designer Brief Builder",
+      "selectionReason": "The current outdoor-room cluster covers individual rugs, sectionals, fire features and pergola lighting but lacks a dedicated activity-first layout and circulation guide. Search Console through 2026-10-21 shows only three impressions for the sectional article and no established layout-query signal, so demand is unquantified; the topic was selected as a distinct foundational cluster gap with natural approved accessory placements.",
+      "sources": [
+        "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+        "https://www.bhg.com/home-improvement/patio/designs/how-to-choose-patio-size/"
+      ],
+      "sourceCheckedAt": "2026-10-24",
+      "affiliateMonetisation": {
+        "contextualPlacementsAdded": 3,
+        "products": [
+          "sectional sofa connector clips (sofa-connectors)",
+          "reversible polypropylene outdoor rug (outdoor-rug-pp)",
+          "outdoor sectional sofa cover (sectional-sofa-cover)"
+        ],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true
+      },
+      "imagery": "Original AI-generated editorial hero showing a realistic zoned patio and clear circulation; provenance disclosed in article."
+    },
     "history": [
       {
         "runType": "NEW",

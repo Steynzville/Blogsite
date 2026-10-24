@@ -109,6 +109,8 @@ Mid-tones and subtle patterns can disguise everyday marks. Very pale surfaces sh
 
 If you prefer a graphic pattern, the existing [grey-grid outdoor-rug option](https://steynenslin.s.gy/Rug) offers another visual direction to investigate. Confirm the current listing's material, dimensions, included accessories and care instructions before choosing it. A pattern that suits the room still needs to pass the weather and floor checks above.
 
+The furniture footprint should be resolved before the rug is sized. The [patio furniture layout guide](/article/how-to-arrange-patio-furniture/) shows how to protect routes and test chairs in their occupied position.
+
 ## Position the Rug Within the Outdoor Room
 
 A rug defines a zone most convincingly when it supports the furniture's purpose. Align it with the main seating arrangement and the view you actually enjoy. Avoid rotating it toward a distant feature if that makes the sofa relationship feel accidental.

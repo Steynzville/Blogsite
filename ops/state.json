@@ -1428,16 +1428,10 @@
     "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
   },
   "veluce_six_product_cover_rotation_v1": {
-    "cycle": 3,
-    "last_product": "Room Procurement System",
-    "completed_products": [
-      "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner",
-      "Designer Brief Builder",
-      "Luxury Lighting Formula",
-      "Room Procurement System"
-    ],
-    "next_product": "Complete Home Design System",
+    "cycle": 4,
+    "last_product": "Complete Home Design System",
+    "completed_products": [],
+    "next_product": "Outdoor Lighting Blueprint",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1900,6 +1894,47 @@
           "Room Procurement System"
         ],
         "next_product": "Complete Home Design System"
+      },
+      {
+        "creative_id": "studio-product-complete-home-design-system-c3-20261024",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Complete Home Design System",
+        "cycle": 3,
+        "submission_date": "2026-10-24",
+        "status": "sent_buffer_confirmed",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-complete-home-design-system-c3-20261024.png",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-complete-home-design-system-c3-20261024.png",
+        "original_reference": "libfile_81316985aa148191bd6274fb91c855e0",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Warm golden-hour mezzanine view through a double-height gallery linking bedroom corridor, kitchen, dining, living and landscaped terrace with a consistent travertine, oak, cream and olive material language; exact product title.",
+        "hook": "One palette, every room",
+        "marketing_angle": "Create whole-home cohesion by defining one material palette that adapts across rooms without making them identical.",
+        "title": "Whole-Home Color Palette: Make Every Room Feel Related, Not Repeated",
+        "description": "Do your rooms look individually finished but unrelated when you move through the house? Define one core palette of timber, stone, neutrals and accent colours, then vary its balance from room to room. Veluce Studio’s Complete Home Design System brings five specialist planning packs together with a master guide, whole-home workbook and decision gates for more cohesive choices. Explore the complete digital home design system.",
+        "destination_url": "https://velucedesign.com/complete-home-design-system/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "alt_text_saved": false,
+        "buffer_post_id": "6adca0510b5343d070807e29",
+        "published_at": "2026-10-24",
+        "published_at_timestamp": "2026-10-24T12:10:58.566Z",
+        "published_at_local": "2026-10-24T14:10:58.566+02:00",
+        "pin_id": "296815431716375113",
+        "pin_url": "https://www.pinterest.com/pin/296815431716375113",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536 and exact original Git blob matched. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula",
+          "Room Procurement System",
+          "Complete Home Design System"
+        ],
+        "next_product": "Outdoor Lighting Blueprint"
       }
     ],
     "archived_history": [
@@ -2015,31 +2050,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-complete-home-design-system-c3-20261024",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Complete Home Design System",
-      "cycle": 3,
-      "submission_date": "2026-10-24",
-      "status": "submitted",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-complete-home-design-system-c3-20261024.png",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-complete-home-design-system-c3-20261024.png",
-      "original_reference": "libfile_81316985aa148191bd6274fb91c855e0",
-      "reference_set_id": "veluce_2x3_covers_20261005",
-      "creative_concept": "Warm golden-hour mezzanine view through a double-height gallery linking bedroom corridor, kitchen, dining, living and landscaped terrace with a consistent travertine, oak, cream and olive material language; exact product title.",
-      "hook": "One palette, every room",
-      "marketing_angle": "Create whole-home cohesion by defining one material palette that adapts across rooms without making them identical.",
-      "title": "Whole-Home Color Palette: Make Every Room Feel Related, Not Repeated",
-      "description": "Do your rooms look individually finished but unrelated when you move through the house? Define one core palette of timber, stone, neutrals and accent colours, then vary its balance from room to room. Veluce Studio’s Complete Home Design System brings five specialist planning packs together with a master guide, whole-home workbook and decision gates for more cohesive choices. Explore the complete digital home design system.",
-      "destination_url": "https://velucedesign.com/complete-home-design-system/",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_service_id": "296815500381467884",
-      "alt_text_saved": false,
-      "buffer_post_id": "6adca0510b5343d070807e29",
-      "submitted_at": "2026-10-24T12:10:58.813Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

@@ -613,6 +613,24 @@
       "recorded_at": "2026-10-24T12:10:58.813Z",
       "sent_at": "2026-10-24T12:10:58.566Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716375113"
+    },
+    {
+      "creative_id": "veluce-auto-20261024-6cfd13e2ff30",
+      "workflow": "veluce_editorial",
+      "title": "Cozy Fire Pit Design for Outdoor Evenings",
+      "description": "This garden lounge combines a square fire table, chairs and gentle accent lighting under a Cozy Fire Pit Design headline. Discover how to organise a comfortable fireside patio.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/c57c2f90-6690-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-24",
+      "topic": "fire-pit",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "source_blob_sha": "6cfd13e2ff30937bbc3750472b1586f92341b1cd",
+      "source_path": "assets/pinterest/c57c2f90-6690-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-24T12:29:56.536Z",
+      "github_run_id": "40094151683"
     }
   ]
 }

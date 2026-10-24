@@ -1375,6 +1375,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6adbe2543d5b27036b558a33",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716374271",
+      "pin_id": "296815431716374271",
+      "published_at": "2026-10-24T08:34:41.652Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/d3c1be80-689d-11f1-8c35-4ba146341052.png",
+      "title": "LED Pergola Lighting for a Calm Outdoor Lounge",
+      "description": "Linear canopy lights define a covered outdoor seating area, while soft planting and edge lighting add depth beyond. Explore layered pergola lighting ideas for evenings.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6adc6da0e4be8a4d864b283b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

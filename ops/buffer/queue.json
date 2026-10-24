@@ -81,6 +81,18 @@
       "buffer_post_id": "6adb4ded7c3aac797e7dc04e",
       "sent_at": "2026-10-23T12:07:10.586Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716367148"
+    },
+    {
+      "creative_id": "studio-product-complete-home-design-system-c3-20261024",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Complete Home Design System",
+      "title": "Whole-Home Color Palette: Make Every Room Feel Related, Not Repeated",
+      "description": "Do your rooms look individually finished but unrelated when you move through the house? Define one core palette of timber, stone, neutrals and accent colours, then vary its balance from room to room. Veluce Studio’s Complete Home Design System brings five specialist planning packs together with a master guide, whole-home workbook and decision gates for more cohesive choices. Explore the complete digital home design system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-complete-home-design-system-c3-20261024.png",
+      "destination_url": "https://velucedesign.com/complete-home-design-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

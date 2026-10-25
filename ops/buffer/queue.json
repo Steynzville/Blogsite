@@ -96,6 +96,18 @@
       "buffer_post_id": "6adca0510b5343d070807e29",
       "sent_at": "2026-10-24T12:10:58.566Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716375113"
+    },
+    {
+      "creative_id": "studio-product-outdoor-lighting-blueprint-c4-20261025",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Outdoor Lighting Blueprint",
+      "title": "Outdoor Lighting Zones: Give Every Light a Job Before You Buy",
+      "description": "Does your garden become brighter without feeling more considered? Give each light one clear job—guide movement, reveal architecture, shape planting or support a task—then preserve darkness between the layers. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System, a project calculator and planning tools to help homeowners plan the effect before buying fixtures. Explore the complete digital outdoor lighting system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c4-20261025.png",
+      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

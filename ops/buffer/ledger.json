@@ -679,6 +679,19 @@
       "submitted_at": "2026-10-25T08:53:56.056Z",
       "sent_at": "2026-10-25T08:53:54.930Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716381478"
+    },
+    {
+      "creative_id": "studio-product-outdoor-lighting-blueprint-c4-20261025",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Outdoor Lighting Blueprint",
+      "title": "Outdoor Lighting Zones: Give Every Light a Job Before You Buy",
+      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c4-20261025.png",
+      "board_service_id": "296815500381477417",
+      "buffer_post_id": "6addef258b3d437ddc068a34",
+      "publish_at": "2026-10-25T11:59:36.480Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-25T11:59:36.480Z"
     }
   ]
 }

@@ -738,6 +738,24 @@
       "submitted_at": "2026-10-25T17:34:10.137Z",
       "sent_at": "2026-10-25T17:34:08.982Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716383708"
+    },
+    {
+      "creative_id": "veluce-auto-20261025-ea4133a4cd9d",
+      "workflow": "veluce_editorial",
+      "title": "Outdoor Kitchen Pergola Lighting for Entertaining",
+      "description": "A contemporary outdoor kitchen and dining counter sit beneath a warmly lit pergola roof, with garden uplighting after dark. Discover practical pergola lighting for outdoor meals.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/fc5c30a0-6690-11f1-9181-2778cad0ff11.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-25",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "ea4133a4cd9dc32177e70c4e9a0424ba83f8d796",
+      "source_path": "assets/pinterest/fc5c30a0-6690-11f1-9181-2778cad0ff11.png",
+      "recorded_at": "2026-10-25T20:37:17.130Z",
+      "github_run_id": "40231607820"
     }
   ]
 }

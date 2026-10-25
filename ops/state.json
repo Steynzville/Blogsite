@@ -2095,7 +2095,29 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "creative_id": "studio-product-outdoor-lighting-blueprint-c4-20261025",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Outdoor Lighting Blueprint",
+      "cycle": 4,
+      "submission_date": "2026-10-25",
+      "status": "creative_uploaded",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "image_filename": "studio-product-outdoor-lighting-blueprint-c4-20261025.png",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c4-20261025.png",
+      "original_reference": "libfile_1809f25c76b8819194c4aedace76d781",
+      "reference_set_id": "veluce_2x3_covers_20261005",
+      "creative_concept": "Low pool-edge viewpoint across reflections to illuminated limestone steps, a restrained wall wash, one uplighted tree and a softly lit pergola dining terrace; exact product title.",
+      "hook": "Light by purpose",
+      "marketing_angle": "Assign every outdoor light a clear job—movement, architecture, planting or task—while preserving darkness for depth.",
+      "title": "Outdoor Lighting Zones: Give Every Light a Job Before You Buy",
+      "description": "Does your garden become brighter without feeling more considered? Give each light one clear job—guide movement, reveal architecture, shape planting or support a task—then preserve darkness between the layers. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System, a project calculator and planning tools to help homeowners plan the effect before buying fixtures. Explore the complete digital outdoor lighting system.",
+      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+      "board": "Outdoor Lighting Ideas",
+      "board_service_id": "296815500381477417",
+      "alt_text_saved": false
+    }
   },
   "editorialAutomation": {
     "version": 1,

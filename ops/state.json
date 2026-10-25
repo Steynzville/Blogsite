@@ -1474,9 +1474,11 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 4,
-    "last_product": "Complete Home Design System",
-    "completed_products": [],
-    "next_product": "Outdoor Lighting Blueprint",
+    "last_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -1980,6 +1982,42 @@
           "Complete Home Design System"
         ],
         "next_product": "Outdoor Lighting Blueprint"
+      },
+      {
+        "creative_id": "studio-product-outdoor-lighting-blueprint-c4-20261025",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 4,
+        "submission_date": "2026-10-25",
+        "status": "sent_buffer_confirmed",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-outdoor-lighting-blueprint-c4-20261025.png",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c4-20261025.png",
+        "original_reference": "libfile_1809f25c76b8819194c4aedace76d781",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Low pool-edge viewpoint across reflections to illuminated limestone steps, a restrained wall wash, one uplighted tree and a softly lit pergola dining terrace; exact product title.",
+        "hook": "Light by purpose",
+        "marketing_angle": "Assign every outdoor light a clear job—movement, architecture, planting or task—while preserving darkness for depth.",
+        "title": "Outdoor Lighting Zones: Give Every Light a Job Before You Buy",
+        "description": "Does your garden become brighter without feeling more considered? Give each light one clear job—guide movement, reveal architecture, shape planting or support a task—then preserve darkness between the layers. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System, a project calculator and planning tools to help homeowners plan the effect before buying fixtures. Explore the complete digital outdoor lighting system.",
+        "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+        "board": "Outdoor Lighting Ideas",
+        "board_service_id": "296815500381477417",
+        "alt_text_saved": false,
+        "buffer_post_id": "6addef258b3d437ddc068a34",
+        "published_at": "2026-10-25",
+        "published_at_timestamp": "2026-10-25T11:59:35.362Z",
+        "published_at_local": "2026-10-25T13:59:35.362+02:00",
+        "pin_id": "296815431716382120",
+        "pin_url": "https://www.pinterest.com/pin/296815431716382120",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536 and exact original Git blob matched. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint"
+        ],
+        "next_product": "Luxury Outdoor Room Planner"
       }
     ],
     "archived_history": [
@@ -2095,31 +2133,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-outdoor-lighting-blueprint-c4-20261025",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Outdoor Lighting Blueprint",
-      "cycle": 4,
-      "submission_date": "2026-10-25",
-      "status": "submitted",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-outdoor-lighting-blueprint-c4-20261025.png",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c4-20261025.png",
-      "original_reference": "libfile_1809f25c76b8819194c4aedace76d781",
-      "reference_set_id": "veluce_2x3_covers_20261005",
-      "creative_concept": "Low pool-edge viewpoint across reflections to illuminated limestone steps, a restrained wall wash, one uplighted tree and a softly lit pergola dining terrace; exact product title.",
-      "hook": "Light by purpose",
-      "marketing_angle": "Assign every outdoor light a clear job—movement, architecture, planting or task—while preserving darkness for depth.",
-      "title": "Outdoor Lighting Zones: Give Every Light a Job Before You Buy",
-      "description": "Does your garden become brighter without feeling more considered? Give each light one clear job—guide movement, reveal architecture, shape planting or support a task—then preserve darkness between the layers. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System, a project calculator and planning tools to help homeowners plan the effect before buying fixtures. Explore the complete digital outdoor lighting system.",
-      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
-      "board": "Outdoor Lighting Ideas",
-      "board_service_id": "296815500381477417",
-      "alt_text_saved": false,
-      "buffer_post_id": "6addef258b3d437ddc068a34",
-      "submitted_at": "2026-10-25T11:59:36.480Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

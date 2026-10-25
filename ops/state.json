@@ -2450,5 +2450,20 @@
         "https://tr.ee/dobuAA": "https://linktr.ee/STEYNENSLIN/shop"
       }
     }
+  },
+  "weeklyArticleRefresh": {
+    "version": 1,
+    "weekDefinition": "Africa/Johannesburg Monday-Sunday",
+    "pendingRun": {
+      "weekStart": "2026-10-19",
+      "weekEnd": "2026-10-25",
+      "articleSlug": "led-strip-integration-modern-deck",
+      "articleUrl": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "branch": "editorial/2026-10-25-weekly-refresh-outdoor-led-strips",
+      "selectionReason": "Search Console 2026-08-01 to 2026-10-21: 180 impressions, zero clicks, average position 9.44 on canonical URL; substantive safety/specification issues in existing guide. Google anonymizes most queries.",
+      "validationStatus": "pending CI and live deployment",
+      "status": "pending"
+    },
+    "history": []
   }
 }

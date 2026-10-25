@@ -1420,6 +1420,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6adce8cb6887a2efc1ca4e6b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716381478",
+      "pin_id": "296815431716381478",
+      "published_at": "2026-10-25T08:53:54.930Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/e9a144a0-6690-11f1-9181-2778cad0ff11.png",
+      "title": "Gather Around: Modern Backyard Fire Pit Ideas",
+      "description": "A circular stone fire pit sits in a gently lit garden with warm path lighting and an inviting Gather Around headline. Discover fire pit table inspiration for cosy outdoor gatherings.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6addc3a13d5b27036bc3a0a7",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

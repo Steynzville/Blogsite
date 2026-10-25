@@ -690,8 +690,10 @@
       "board_service_id": "296815500381477417",
       "buffer_post_id": "6addef258b3d437ddc068a34",
       "publish_at": "2026-10-25T11:59:36.480Z",
-      "status": "submitted_now_verified",
-      "recorded_at": "2026-10-25T11:59:36.480Z"
+      "status": "sent_buffer_confirmed",
+      "recorded_at": "2026-10-25T11:59:36.480Z",
+      "sent_at": "2026-10-25T11:59:35.362Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716382120"
     }
   ]
 }

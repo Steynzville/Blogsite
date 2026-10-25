@@ -2454,16 +2454,91 @@
   "weeklyArticleRefresh": {
     "version": 1,
     "weekDefinition": "Africa/Johannesburg Monday-Sunday",
-    "pendingRun": {
+    "pendingRun": null,
+    "history": [
+      {
+        "weekStart": "2026-10-19",
+        "weekEnd": "2026-10-25",
+        "status": "completed",
+        "refreshDate": "2026-10-25",
+        "articleSlug": "led-strip-integration-modern-deck",
+        "articleTitle": "Outdoor LED Strip Lights: Choose Voltage, Weather Rating and Placement",
+        "articleUrl": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+        "selectionReason": "Google Search Console web performance 2026-08-01 through 2026-10-21: canonical URL 180 impressions, 0 clicks, average position 9.44; query-level data largely anonymized. Substantive unverified safety/product claims required correction.",
+        "substantiveChanges": [
+          "Rebuilt voltage, solar, IP-rating and installation guidance with manufacturer-specific caveats",
+          "Added 6m 24V worked wattage/current/driver-planning example and sourcing checklist",
+          "Improved COB/diffuser/glare, siting, maintenance and 7 FAQ answers",
+          "Retained exact existing Short.io affiliate product-category links with verification caveats and preserved Outdoor Lighting Blueprint CTA"
+        ],
+        "affiliateMonetisation": {
+          "approvedExistingRegistrySlugsRetained": [
+            "TUYAcobLED",
+            "24vDCplugLED",
+            "SolarLED",
+            "SolarStep",
+            "SolarInground",
+            "SolarWall",
+            "SolarSpot"
+          ],
+          "existingRegistryUsed": true,
+          "independentListingOrCommissionVerification": false,
+          "disclosureConfirmedByStaticValidation": true,
+          "complementaryStudioProduct": "Outdoor Lighting Blueprint"
+        },
+        "prNumber": 28,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/28",
+        "mergeCommit": "ad62c3e5a99f630cc41ddca7dcd1becfadc3d1c7",
+        "validation": "GitHub quality gates run 40176183175: passed TypeScript, tests, ops:audit, production build, ops:validate and automated desktop/mobile screenshots (general review pages, not article-specific).",
+        "deployment": "GitHub Pages run 40176533056 completed successfully for exact merge commit. Live article URL returned HTTP 200 and scanner detected H1, canonical, indexable status, new 66-character title and 145-character meta description (25 Oct 2026). Manual article-specific mobile visual acceptance not independently performed.",
+        "sources": [
+          "https://webstore.iec.ch/en/publication/2452",
+          "https://www.ledvance.com/00_Free_To_Use/asset-10795714_LEDVANCE_LED_Strip_System_-_Wave_2_-_Fall_2020_EN.pdf",
+          "https://www.esfi.org/ground-fault-circuit-interrupters-gfci/"
+        ]
+      }
+    ],
+    "lastCompletedWeekStart": "2026-10-19",
+    "lastRun": {
       "weekStart": "2026-10-19",
       "weekEnd": "2026-10-25",
+      "status": "completed",
+      "refreshDate": "2026-10-25",
       "articleSlug": "led-strip-integration-modern-deck",
+      "articleTitle": "Outdoor LED Strip Lights: Choose Voltage, Weather Rating and Placement",
       "articleUrl": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
-      "branch": "editorial/2026-10-25-weekly-refresh-outdoor-led-strips",
-      "selectionReason": "Search Console 2026-08-01 to 2026-10-21: 180 impressions, zero clicks, average position 9.44 on canonical URL; substantive safety/specification issues in existing guide. Google anonymizes most queries.",
-      "validationStatus": "pending CI and live deployment",
-      "status": "pending"
-    },
-    "history": []
+      "selectionReason": "Google Search Console web performance 2026-08-01 through 2026-10-21: canonical URL 180 impressions, 0 clicks, average position 9.44; query-level data largely anonymized. Substantive unverified safety/product claims required correction.",
+      "substantiveChanges": [
+        "Rebuilt voltage, solar, IP-rating and installation guidance with manufacturer-specific caveats",
+        "Added 6m 24V worked wattage/current/driver-planning example and sourcing checklist",
+        "Improved COB/diffuser/glare, siting, maintenance and 7 FAQ answers",
+        "Retained exact existing Short.io affiliate product-category links with verification caveats and preserved Outdoor Lighting Blueprint CTA"
+      ],
+      "affiliateMonetisation": {
+        "approvedExistingRegistrySlugsRetained": [
+          "TUYAcobLED",
+          "24vDCplugLED",
+          "SolarLED",
+          "SolarStep",
+          "SolarInground",
+          "SolarWall",
+          "SolarSpot"
+        ],
+        "existingRegistryUsed": true,
+        "independentListingOrCommissionVerification": false,
+        "disclosureConfirmedByStaticValidation": true,
+        "complementaryStudioProduct": "Outdoor Lighting Blueprint"
+      },
+      "prNumber": 28,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/28",
+      "mergeCommit": "ad62c3e5a99f630cc41ddca7dcd1becfadc3d1c7",
+      "validation": "GitHub quality gates run 40176183175: passed TypeScript, tests, ops:audit, production build, ops:validate and automated desktop/mobile screenshots (general review pages, not article-specific).",
+      "deployment": "GitHub Pages run 40176533056 completed successfully for exact merge commit. Live article URL returned HTTP 200 and scanner detected H1, canonical, indexable status, new 66-character title and 145-character meta description (25 Oct 2026). Manual article-specific mobile visual acceptance not independently performed.",
+      "sources": [
+        "https://webstore.iec.ch/en/publication/2452",
+        "https://www.ledvance.com/00_Free_To_Use/asset-10795714_LEDVANCE_LED_Strip_System_-_Wave_2_-_Fall_2020_EN.pdf",
+        "https://www.esfi.org/ground-fault-circuit-interrupters-gfci/"
+      ]
+    }
   }
 }

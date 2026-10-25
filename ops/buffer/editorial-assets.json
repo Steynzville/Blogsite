@@ -376,6 +376,58 @@
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-24T12:15:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-tree-uplighting-20261025-b1.png",
+      "topic": "tree-uplighting",
+      "title": "How to Uplight a Mature Tree Without Flattening the Garden",
+      "description": "A mature canopy becomes the garden’s evening anchor when concealed uplights reveal its branching form without flooding the whole lawn. Explore placement, beam control and restraint for atmospheric tree lighting that keeps the landscape layered after dark.",
+      "visual_description": "Image-only dusk garden scene with a mature umbrella-shaped tree on a sloping lawn, warm concealed uplighting through the trunk and canopy, a low dry-stone wall, indigenous planting and a small distant house.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-25",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-25T14:08:17+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pathway-lighting-20261025-b2.png",
+      "topic": "pathway-lighting",
+      "title": "Path Lighting That Guides the Next Step—Without Runway Glare",
+      "description": "Can guests read every change of level without seeing a row of harsh fixtures? This warm boardwalk and stone-step approach shows how concealed riser light and a restrained shielded path light can guide movement while preserving the garden’s darkness.",
+      "visual_description": "Vertical dusk scene of a weathered-oak boardwalk leading to four pale-stone steps and a garden gate, with concealed warm riser lighting, one shielded low path light and the serif headline “GUIDE THE NEXT STEP.”",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-25",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-25T14:08:17+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-fire-pit-20261025-b3.png",
+      "topic": "fire-pit",
+      "title": "A Fire-Pit Courtyard Planned for Conversation and Clear Circulation",
+      "description": "A compact courtyard works harder when the fire feature anchors the seating instead of blocking the route through. See how a slim rectangular fire table, facing sofas and a clear circulation lane can shape an intimate outdoor room in a narrow footprint.",
+      "visual_description": "Image-only narrow townhouse courtyard at blue hour with a visible rectangular corten gas fire table, cream facing sofas, warm wall lighting, planting and a clear paved circulation lane.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-25",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-25T14:08:17+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pergola-20261025-b4.png",
+      "topic": "pergola",
+      "title": "Layer Pergola Lighting for a Softer, More Useful Evening Room",
+      "description": "One bright overhead source can make a pergola feel flat. Combine concealed structural light, a small table lamp and low garden uplighting to create useful illumination, depth and a calmer outdoor-room atmosphere after sunset.",
+      "visual_description": "Compact freestanding charcoal-grey steel pergola at dusk with an L-shaped cream sofa, pale-stone round coffee table, warm concealed linear lighting, a glowing table lamp, hedge and olive-tree uplighting, plus the serif headline “LAYER THE EVENING.”",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-25",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-25T14:08:17+02:00"
     }
   ]
 }

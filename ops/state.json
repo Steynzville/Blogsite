@@ -2101,7 +2101,7 @@
       "product": "Outdoor Lighting Blueprint",
       "cycle": 4,
       "submission_date": "2026-10-25",
-      "status": "creative_uploaded",
+      "status": "submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-outdoor-lighting-blueprint-c4-20261025.png",
@@ -2116,7 +2116,9 @@
       "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
       "board": "Outdoor Lighting Ideas",
       "board_service_id": "296815500381477417",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6addef258b3d437ddc068a34",
+      "submitted_at": "2026-10-25T11:59:36.480Z"
     }
   },
   "editorialAutomation": {

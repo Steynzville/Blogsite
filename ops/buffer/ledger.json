@@ -760,6 +760,24 @@
       "submitted_at": "2026-10-25T20:37:20.447Z",
       "sent_at": "2026-10-25T20:37:20.282Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716384871"
+    },
+    {
+      "creative_id": "veluce-auto-20261026-3a561140006f",
+      "workflow": "veluce_editorial",
+      "title": "A Fire Pit Conversation Area Designed Around the Glow",
+      "description": "A round limestone gas fire bowl anchors four comfortable chairs in a compact planted courtyard. Explore fire-pit seating distance, conversation layouts and restrained lighting for an intimate evening space.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261024-a3.png",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-26",
+      "topic": "fire-pit",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "source_blob_sha": "3a561140006febedb18f00a5cff7b7e1b43aedb7",
+      "source_path": "assets/pinterest/studio-editorial-fire-pit-20261024-a3.png",
+      "recorded_at": "2026-10-25T22:04:32.697Z",
+      "github_run_id": "40238442640"
     }
   ]
 }

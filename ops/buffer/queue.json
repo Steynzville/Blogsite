@@ -107,7 +107,10 @@
       "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
       "board_service_id": "296815500381477417",
       "publish_at": "now",
-      "status": "ready"
+      "status": "sent_buffer_confirmed",
+      "buffer_post_id": "6addef258b3d437ddc068a34",
+      "sent_at": "2026-10-25T11:59:35.362Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716382120"
     }
   ]
 }

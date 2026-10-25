@@ -1450,6 +1450,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6addfda33d5b27036bd26bc5",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716383708",
+      "pin_id": "296815431716383708",
+      "published_at": "2026-10-25T17:34:08.982Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/f6b029e0-6690-11f1-9181-2778cad0ff11.png",
+      "title": "Outdoor Living: Covered Patio Lighting Ideas",
+      "description": "A covered outdoor room with softly lit dining and seating areas opens to a garden edged in warm LEDs, under an Outdoor Living headline. Explore layered pergola lighting.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ade3d8f6887a2efc1181ffb",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

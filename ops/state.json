@@ -1435,6 +1435,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6addc3a13d5b27036bc3a0a7",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716382319",
+      "pin_id": "296815431716382319",
+      "published_at": "2026-10-25T13:01:25.810Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/dae37550-689d-11f1-8c35-4ba146341052.png",
+      "title": "Covered Patio and Pergola Lighting Beside the Garden",
+      "description": "Warm canopy lighting frames an outdoor room overlooking tree uplighting and garden-edge illumination. Learn how layered pergola lighting supports relaxing evenings.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6addfda33d5b27036bd26bc5",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -1555,6 +1555,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6adfd3fbc26d8b40cc7aa97d",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716394452",
+      "pin_id": "296815431716394452",
+      "published_at": "2026-10-26T23:22:16.107Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261025-b2.png",
+      "title": "Path Lighting That Guides the Next Step—Without Runway Glare",
+      "description": "Can guests read every change of level without seeing a row of harsh fixtures? This warm boardwalk and stone-step approach shows how concealed riser light and a restrained shielded path light can guide movement while preserving the garden’s darkness.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6adfe0a6ade6626d9319ffe7",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

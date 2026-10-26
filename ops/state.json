@@ -1525,6 +1525,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6adf6a20fc971906906e011d",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716393167",
+      "pin_id": "296815431716393167",
+      "published_at": "2026-10-26T19:50:40.078Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261024-a1.png",
+      "title": "Light the Canopy: Warm Uplighting for a Mature Olive Tree",
+      "description": "A mature multi-stem olive tree becomes the courtyard focal point with concealed warm uplights, layered planting and a reflecting rill. Explore practical ideas for revealing tree form without visible glare.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6adfaf0ecb109ba5d28377aa",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

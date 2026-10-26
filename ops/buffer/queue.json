@@ -111,6 +111,18 @@
       "buffer_post_id": "6addef258b3d437ddc068a34",
       "sent_at": "2026-10-25T11:59:35.362Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716382120"
+    },
+    {
+      "creative_id": "studio-product-luxury-outdoor-room-planner-c4-20261026",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Outdoor Room Planner",
+      "title": "Outdoor Furniture Layout: Measure the Conversation Zone Before You Buy",
+      "description": "Does your outdoor furniture look right online but overwhelm the patio once it arrives? Measure the conversation zone, dining footprint and route between them before choosing pieces, so scale supports how the space will be used. Veluce Studio’s Luxury Outdoor Room Planner combines the 5-Layer Outdoor Room Method, layout recipes, worksheets and planning tools to help homeowners plan purpose, zones, flow, furniture scale and atmosphere before purchasing. Explore the complete digital planner.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c4-20261026.png",
+      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

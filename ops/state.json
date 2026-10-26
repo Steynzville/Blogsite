@@ -2214,7 +2214,7 @@
       "product": "Luxury Outdoor Room Planner",
       "cycle": 4,
       "submission_date": "2026-10-26",
-      "status": "prepared_ready",
+      "status": "buffer_submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-luxury-outdoor-room-planner-c4-20261026.png",
@@ -2230,7 +2230,9 @@
       "board": "Garden & Patio Ideas & Finds 🔥",
       "board_service_id": "296815500381471065",
       "alt_text_saved": false,
-      "prepared_at": "2026-10-26T14:11:57+02:00"
+      "prepared_at": "2026-10-26T14:11:57+02:00",
+      "buffer_post_id": "6adf441443e462eb447610b8",
+      "submitted_at": "2026-10-26T12:14:15.150Z"
     }
   },
   "editorialAutomation": {

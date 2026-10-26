@@ -804,6 +804,19 @@
       "submitted_at": "2026-10-26T09:35:51.163Z",
       "sent_at": "2026-10-26T09:35:50.795Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716389806"
+    },
+    {
+      "creative_id": "studio-product-luxury-outdoor-room-planner-c4-20261026",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Outdoor Room Planner",
+      "title": "Outdoor Furniture Layout: Measure the Conversation Zone Before You Buy",
+      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c4-20261026.png",
+      "board_service_id": "296815500381471065",
+      "buffer_post_id": "6adf441443e462eb447610b8",
+      "publish_at": "2026-10-26T12:14:15.150Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-26T12:14:15.150Z"
     }
   ]
 }

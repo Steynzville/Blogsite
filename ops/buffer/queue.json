@@ -122,7 +122,10 @@
       "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
       "board_service_id": "296815500381471065",
       "publish_at": "now",
-      "status": "ready"
+      "status": "sent_buffer_confirmed",
+      "buffer_post_id": "6adf441443e462eb447610b8",
+      "sent_at": "2026-10-26T12:14:14.399Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716390408"
     }
   ]
 }

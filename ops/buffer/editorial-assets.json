@@ -428,6 +428,58 @@
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-25T14:08:17+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-tree-uplighting-20261026-c1.png",
+      "topic": "tree-uplighting",
+      "title": "Uplighting a Multi-Stem Tree to Reveal Bark and Branch Structure",
+      "description": "A mature multi-stem tree becomes the courtyard’s focal point when concealed uplights reveal its textured bark and branching form. See how restrained beam placement can create depth while preserving shadow through the surrounding planting.",
+      "visual_description": "Image-only low three-quarter courtyard view of a mature multi-stem paperbark tree with warm concealed uplighting on pale peeling bark, ferns, gravel, rocks and cream walls at blue hour.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-26",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-26T14:22:48+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pathway-lighting-20261026-c2.png",
+      "topic": "pathway-lighting",
+      "title": "Pathway Lighting for Floating Steps and Changes in Level",
+      "description": "Can guests read each change in level without a harsh row of fixtures? Broad floating stone platforms, concealed edge light and illuminated entry steps demonstrate a controlled way to guide movement through a planted garden approach.",
+      "visual_description": "Vertical blue-hour entry view with broad floating limestone platforms crossing planted ground, illuminated platform edges and steps leading to a timber door, shielded low lights, and the headline “LIGHT THE LEVEL CHANGE.”",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-26",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-26T14:22:48+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-fire-pit-20261026-c3.png",
+      "topic": "fire-pit",
+      "title": "Rooftop Fire-Pit Seating With Comfortable Conversation Distance",
+      "description": "A rooftop fire feature works best when the seating feels intimate without crowding the flame or blocking circulation. This compact layout uses four chairs, a low linear fire table and clear steps to define a comfortable evening conversation zone.",
+      "visual_description": "Image-only elevated diagonal view of a compact planted rooftop terrace with four cream timber-framed chairs around a clearly lit rectangular limestone gas fire table, city skyline and illuminated steps at dusk.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-26",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-26T14:22:48+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pergola-20261026-c4.png",
+      "topic": "pergola",
+      "title": "Pergola Dining Lighting With Warmth—Without Glare",
+      "description": "Dining beneath a pergola needs useful light on the table without bright exposed sources in the sightline. Layer concealed structural light, focused pendants and low planting illumination for a softer outdoor-room atmosphere after sunset.",
+      "visual_description": "Low garden-edge view of a freestanding pale-oak pergola over a six-seat stone dining table with concealed linear light, two downward pendants, coastal planting, a cream house and the headline “WARMTH WITHOUT GLARE.”",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-26",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-26T14:22:48+02:00"
     }
   ]
 }

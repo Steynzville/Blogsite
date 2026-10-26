@@ -782,6 +782,24 @@
       "submitted_at": "2026-10-25T22:04:36.166Z",
       "sent_at": "2026-10-25T22:04:35.920Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716385646"
+    },
+    {
+      "creative_id": "veluce-auto-20261026-d0b6b234a818",
+      "workflow": "veluce_editorial",
+      "title": "Garden Pathway Lighting for Curves, Slopes and Stone Steps",
+      "description": "A winding gravel path uses shielded low lights and illuminated stone risers to guide movement toward a timber garden studio. See how controlled spacing can improve visibility without flooding the garden.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261024-a2.png",
+      "destination_url": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-26",
+      "topic": "pathway-lighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "d0b6b234a81891d53ec250f84a75014913118953",
+      "source_path": "assets/pinterest/studio-editorial-pathway-lighting-20261024-a2.png",
+      "recorded_at": "2026-10-26T09:35:47.239Z",
+      "github_run_id": "40300741006"
     }
   ]
 }

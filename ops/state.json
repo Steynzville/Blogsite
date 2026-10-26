@@ -1510,6 +1510,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6adf1ef50f7767cbe7c69692",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716391360",
+      "pin_id": "296815431716391360",
+      "published_at": "2026-10-26T14:56:33.812Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261024-a4.png",
+      "title": "Layered Pergola Lighting for an Outdoor Dining Room",
+      "description": "Concealed rafter lighting, a woven pendant and low garden uplights create distinct layers around a round outdoor dining table. Discover how to light a pergola for dinner without making the space feel overly bright.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6adf6a20fc971906906e011d",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

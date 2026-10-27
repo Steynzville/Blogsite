@@ -907,6 +907,24 @@
       "submitted_at": "2026-10-26T23:22:17.219Z",
       "sent_at": "2026-10-26T23:22:16.107Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716394452"
+    },
+    {
+      "creative_id": "veluce-auto-20261027-5b704a74144c",
+      "workflow": "veluce_editorial",
+      "title": "Layer Pergola Lighting for a Softer, More Useful Evening Room",
+      "description": "One bright overhead source can make a pergola feel flat. Combine concealed structural light, a small table lamp and low garden uplighting to create useful illumination, depth and a calmer outdoor-room atmosphere after sunset.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261025-b4.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-27",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "5b704a74144ced7d5100b1deeb4f94d6534bd896",
+      "source_path": "assets/pinterest/studio-editorial-pergola-20261025-b4.png",
+      "recorded_at": "2026-10-27T09:32:51.305Z",
+      "github_run_id": "40481506656"
     }
   ]
 }

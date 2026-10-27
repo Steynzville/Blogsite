@@ -2327,7 +2327,7 @@
       "product": "Designer Brief Builder",
       "cycle": 4,
       "submission_date": "2026-10-27",
-      "status": "prepared_ready",
+      "status": "buffer_submitted",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-designer-brief-builder-c4-20261027.png",
@@ -2343,7 +2343,9 @@
       "board": "Modern Home Decor Ideas & Finds 🔥",
       "board_service_id": "296815500381467884",
       "alt_text_saved": false,
-      "prepared_at": "2026-10-27T14:10:33+02:00"
+      "prepared_at": "2026-10-27T14:10:33+02:00",
+      "buffer_post_id": "6ae094f7271cbd4e76b44dc6",
+      "submitted_at": "2026-10-27T12:11:36.924Z"
     }
   },
   "editorialAutomation": {

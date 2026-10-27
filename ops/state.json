@@ -1624,12 +1624,13 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 4,
-    "last_product": "Luxury Outdoor Room Planner",
+    "last_product": "Designer Brief Builder",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -2206,6 +2207,44 @@
           "Luxury Outdoor Room Planner"
         ],
         "next_product": "Designer Brief Builder"
+      },
+      {
+        "creative_id": "studio-product-designer-brief-builder-c4-20261027",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Designer Brief Builder",
+        "cycle": 4,
+        "submission_date": "2026-10-27",
+        "status": "sent_buffer_confirmed",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-designer-brief-builder-c4-20261027.png",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c4-20261027.png",
+        "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Low three-quarter golden-hour view from a practical entry drop zone into a warm kitchen, with oak bench storage, charging niche and everyday items connected to an open unbranded briefing notebook and restrained samples; exact product title.",
+        "hook": "Design for real life",
+        "marketing_angle": "Map everyday routines and friction points before choosing finishes so the design brief solves how the room must work.",
+        "title": "Interior Design Brief: Map the Daily Routine Before Choosing Finishes",
+        "description": "Where do bags, keys, chargers and everyday clutter naturally collect in your home? Map those routines and friction points before choosing finishes, so the design brief solves how the room must work—not only how it should look. Veluce Studio’s Designer Brief Builder uses the CLEAR Brief-to-Design System and AI Brief Architect Lab to turn photos, measurements, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
+        "destination_url": "https://velucedesign.com/designer-brief-builder/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "alt_text_saved": false,
+        "buffer_post_id": "6ae094f7271cbd4e76b44dc6",
+        "published_at": "2026-10-27",
+        "published_at_timestamp": "2026-10-27T12:11:36.744Z",
+        "published_at_local": "2026-10-27T14:11:36.744+02:00",
+        "pin_id": "296815431716398097",
+        "pin_url": "https://www.pinterest.com/pin/296815431716398097",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536 and exact original Git blob matched. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder"
+        ],
+        "next_product": "Luxury Lighting Formula"
       }
     ],
     "archived_history": [
@@ -2321,32 +2360,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-designer-brief-builder-c4-20261027",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Designer Brief Builder",
-      "cycle": 4,
-      "submission_date": "2026-10-27",
-      "status": "buffer_submitted",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-designer-brief-builder-c4-20261027.png",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c4-20261027.png",
-      "original_reference": "libfile_602adf953770819193c0f473d54b9be6",
-      "reference_set_id": "veluce_2x3_covers_20261005",
-      "creative_concept": "Low three-quarter golden-hour view from a practical entry drop zone into a warm kitchen, with oak bench storage, charging niche and everyday items connected to an open unbranded briefing notebook and restrained samples; exact product title.",
-      "hook": "Design for real life",
-      "marketing_angle": "Map everyday routines and friction points before choosing finishes so the design brief solves how the room must work.",
-      "title": "Interior Design Brief: Map the Daily Routine Before Choosing Finishes",
-      "description": "Where do bags, keys, chargers and everyday clutter naturally collect in your home? Map those routines and friction points before choosing finishes, so the design brief solves how the room must work—not only how it should look. Veluce Studio’s Designer Brief Builder uses the CLEAR Brief-to-Design System and AI Brief Architect Lab to turn photos, measurements, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
-      "destination_url": "https://velucedesign.com/designer-brief-builder/",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_service_id": "296815500381467884",
-      "alt_text_saved": false,
-      "prepared_at": "2026-10-27T14:10:33+02:00",
-      "buffer_post_id": "6ae094f7271cbd4e76b44dc6",
-      "submitted_at": "2026-10-27T12:11:36.924Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

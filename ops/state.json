@@ -1600,6 +1600,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae0b02730edb436ffc8ad70",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716401781",
+      "pin_id": "296815431716401781",
+      "published_at": "2026-10-27T23:14:13.475Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261026-c3.png",
+      "title": "Rooftop Fire-Pit Seating With Comfortable Conversation Distance",
+      "description": "A rooftop fire feature works best when the seating feels intimate without crowding the flame or blocking circulation. This compact layout uses four chairs, a low linear fire table and clear steps to define a comfortable evening conversation zone.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ae13043b24fed5fb48d3e2e",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

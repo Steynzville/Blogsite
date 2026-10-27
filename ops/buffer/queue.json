@@ -126,6 +126,18 @@
       "buffer_post_id": "6adf441443e462eb447610b8",
       "sent_at": "2026-10-26T12:14:14.399Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716390408"
+    },
+    {
+      "creative_id": "studio-product-designer-brief-builder-c4-20261027",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Map the Daily Routine Before Choosing Finishes",
+      "description": "Where do bags, keys, chargers and everyday clutter naturally collect in your home? Map those routines and friction points before choosing finishes, so the design brief solves how the room must work—not only how it should look. Veluce Studio’s Designer Brief Builder uses the CLEAR Brief-to-Design System and AI Brief Architect Lab to turn photos, measurements, priorities, aesthetic signals and constraints into a usable project brief. Explore the complete digital briefing system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c4-20261027.png",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

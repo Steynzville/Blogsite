@@ -480,6 +480,58 @@
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-26T14:22:48+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-tree-uplighting-20261027-d1.png",
+      "topic": "tree-uplighting",
+      "title": "Olive Tree Uplighting Reflected Across a Narrow Water Rill",
+      "description": "A mature olive tree becomes a sculptural evening focal point when warm concealed uplights reveal the gnarled trunk and silver canopy. A narrow reflecting rill doubles the effect while the surrounding courtyard remains calm and shadowed.",
+      "visual_description": "Image-only low pool-edge view of a mature gnarled olive tree against cream courtyard walls, lit from concealed warm uplights and reflected in a narrow dark-water rill at blue hour.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-27",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-27T14:19:46+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pathway-lighting-20261027-d2.png",
+      "topic": "pathway-lighting",
+      "title": "Curved Garden Path Lighting That Follows the Landscape",
+      "description": "A softly curved timber path can guide movement without a runway of visible fixtures. Concealed edge light traces the route through grasses toward a garden studio while restrained planting light preserves depth and atmosphere.",
+      "visual_description": "Vertical dusk view along an S-curved weathered-oak boardwalk through ornamental grasses toward a small cream garden studio, with concealed warm edge light and the headline “FOLLOW THE SOFT EDGE.”",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-27",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-27T14:19:46+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-fire-pit-20261027-d3.png",
+      "topic": "fire-pit",
+      "title": "A Sunken Brick Courtyard Centred on a Round Fire Bowl",
+      "description": "A fire bowl works best when its seating distance, circulation and steps are considered together. This compact brick courtyard uses four low chairs and a clear approach to make the flame a natural evening gathering point.",
+      "visual_description": "High diagonal view into a compact sunken brick courtyard with four cream lounge chairs around a clearly burning round corten fire bowl, lit steps, potted citrus and the headline “CENTRE THE EVENING.”",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-27",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-27T14:19:46+02:00"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pergola-20261027-d4.png",
+      "topic": "pergola",
+      "title": "Layered Pergola Lighting for a Calm Side-Courtyard Lounge",
+      "description": "A narrow pergola lounge can feel generous after dark when structural glow, wall light and planting illumination work together. This glare-controlled side courtyard creates depth without relying on bright exposed bulbs.",
+      "visual_description": "Image-only view from inside through open doors along a narrow side courtyard to a slim dark-bronze pergola sheltering a built-in cream daybed and lounge chairs, with concealed slat light, wall sconce, table lamp and jasmine.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-27",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-27T14:19:46+02:00"
     }
   ]
 }

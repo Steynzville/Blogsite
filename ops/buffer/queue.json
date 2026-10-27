@@ -137,7 +137,10 @@
       "destination_url": "https://velucedesign.com/designer-brief-builder/",
       "board_service_id": "296815500381467884",
       "publish_at": "now",
-      "status": "ready"
+      "status": "sent_buffer_confirmed",
+      "buffer_post_id": "6ae094f7271cbd4e76b44dc6",
+      "sent_at": "2026-10-27T12:11:36.744Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716398097"
     }
   ]
 }

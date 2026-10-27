@@ -929,6 +929,19 @@
       "submitted_at": "2026-10-27T09:32:55.733Z",
       "sent_at": "2026-10-27T09:32:54.890Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716397516"
+    },
+    {
+      "creative_id": "studio-product-designer-brief-builder-c4-20261027",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Map the Daily Routine Before Choosing Finishes",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c4-20261027.png",
+      "board_service_id": "296815500381467884",
+      "buffer_post_id": "6ae094f7271cbd4e76b44dc6",
+      "publish_at": "2026-10-27T12:11:36.924Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-27T12:11:36.924Z"
     }
   ]
 }

@@ -944,6 +944,24 @@
       "recorded_at": "2026-10-27T12:11:36.924Z",
       "sent_at": "2026-10-27T12:11:36.744Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716398097"
+    },
+    {
+      "creative_id": "veluce-auto-20261027-5cbd2da1bddc",
+      "workflow": "veluce_editorial",
+      "title": "How to Uplight a Mature Tree Without Flattening the Garden",
+      "description": "A mature canopy becomes the garden’s evening anchor when concealed uplights reveal its branching form without flooding the whole lawn. Explore placement, beam control and restraint for atmospheric tree lighting that keeps the landscape layered after dark.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261025-b1.png",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-27",
+      "topic": "tree-uplighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "5cbd2da1bddcf6e3d6f3f1772ff530b918b6b263",
+      "source_path": "assets/pinterest/studio-editorial-tree-uplighting-20261025-b1.png",
+      "recorded_at": "2026-10-27T14:07:33.535Z",
+      "github_run_id": "40518066418"
     }
   ]
 }

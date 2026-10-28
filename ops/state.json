@@ -1675,6 +1675,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ae275c7cc91be5434b28ef7",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716409410",
+      "pin_id": "296815431716409410",
+      "published_at": "2026-10-28T23:35:13.164Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261027-d2.png",
+      "title": "Curved Garden Path Lighting That Follows the Landscape",
+      "description": "A softly curved timber path can guide movement without a runway of visible fixtures. Concealed edge light traces the route through grasses toward a garden studio while restrained planting light preserves depth and atmosphere.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae286af7a72c9efac066149",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

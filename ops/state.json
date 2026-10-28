@@ -2405,7 +2405,17 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "creative_id": "studio-product-luxury-lighting-formula-c4-20261028",
+      "product": "Luxury Lighting Formula",
+      "cycle": 4,
+      "submission_date": "2026-10-28",
+      "status": "ready",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c4-20261028.png",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381467884",
+      "buffer_post_id": null
+    }
   },
   "editorialAutomation": {
     "version": 1,

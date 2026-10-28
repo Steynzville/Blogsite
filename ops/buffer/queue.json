@@ -141,6 +141,30 @@
       "buffer_post_id": "6ae094f7271cbd4e76b44dc6",
       "sent_at": "2026-10-27T12:11:36.744Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716398097"
+    },
+    {
+      "creative_id": "studio-product-luxury-lighting-formula-c4-20261028",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "cycle": 4,
+      "title": "Bathroom Vanity Lighting: Light the Face, Not Just the Room",
+      "description": "Does your bathroom look polished but cast unflattering shadows at the mirror? Put soft vertical light beside the face, add a low night layer and let textured surfaces carry the atmosphere instead of relying on a bright ceiling. Veluce Studio’s Luxury Lighting Formula uses the Seven Signals method, a Night Audit and scene-planning tools to help you plan ambient, task and accent lighting before buying. Explore the complete digital lighting system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c4-20261028.png",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready",
+      "submission_date": "2026-10-28",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "image_filename": "studio-product-luxury-lighting-formula-c4-20261028.png",
+      "original_reference": "libfile_ffe73dc800888191938908c0ae7291dc",
+      "reference_set_id": "veluce_2x3_covers_20261005",
+      "creative_concept": "Oblique blue-hour bathroom vanity with paired vertical mirror lights, cream limestone wall wash, oak cabinetry and concealed low-level under-vanity glow; exact product title and Light the Face hook.",
+      "hook": "Light the Face",
+      "marketing_angle": "Replace unflattering overhead-only bathroom lighting with soft vertical face light and a separate low night layer.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "alt_text_saved": false
     }
   ]
 }

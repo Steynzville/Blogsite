@@ -1025,6 +1025,24 @@
       "recorded_at": "2026-10-28T12:06:38.197Z",
       "sent_at": "2026-10-28T12:06:37.768Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716405127"
+    },
+    {
+      "creative_id": "veluce-auto-20261028-d2b8ca0c44db",
+      "workflow": "veluce_editorial",
+      "title": "Pergola Dining Lighting With Warmth—Without Glare",
+      "description": "Dining beneath a pergola needs useful light on the table without bright exposed sources in the sightline. Layer concealed structural light, focused pendants and low planting illumination for a softer outdoor-room atmosphere after sunset.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261026-c4.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-28",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "d2b8ca0c44dbb8d85528f85422154516d9a64373",
+      "source_path": "assets/pinterest/studio-editorial-pergola-20261026-c4.png",
+      "recorded_at": "2026-10-28T14:55:50.876Z",
+      "github_run_id": "40710720662"
     }
   ]
 }

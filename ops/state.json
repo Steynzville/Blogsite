@@ -1615,6 +1615,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ae13043b24fed5fb48d3e2e",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716404498",
+      "pin_id": "296815431716404498",
+      "published_at": "2026-10-28T10:16:40.018Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261026-c2.png",
+      "title": "Pathway Lighting for Floating Steps and Changes in Level",
+      "description": "Can guests read each change in level without a harsh row of fixtures? Broad floating stone platforms, concealed edge light and illuminated entry steps demonstrate a controlled way to guide movement through a planted garden approach.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae1cb86979a56d9e57d199b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

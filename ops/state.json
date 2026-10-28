@@ -1660,6 +1660,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae24ca0d6189ae98ff621d1",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716408849",
+      "pin_id": "296815431716408849",
+      "published_at": "2026-10-28T22:23:04.772Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261027-d3.png",
+      "title": "A Sunken Brick Courtyard Centred on a Round Fire Bowl",
+      "description": "A fire bowl works best when its seating distance, circulation and steps are considered together. This compact brick courtyard uses four low chairs and a clear approach to make the flame a natural evening gathering point.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ae275c7cc91be5434b28ef7",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

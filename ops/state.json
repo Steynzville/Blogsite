@@ -1645,6 +1645,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae20cfa620f841dd3497c36",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716407569",
+      "pin_id": "296815431716407569",
+      "published_at": "2026-10-28T19:27:30.045Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261026-c1.png",
+      "title": "Uplighting a Multi-Stem Tree to Reveal Bark and Branch Structure",
+      "description": "A mature multi-stem tree becomes the courtyard’s focal point when concealed uplights reveal its textured bark and branching form. See how restrained beam placement can create depth while preserving shadow through the surrounding planting.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae24ca0d6189ae98ff621d1",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

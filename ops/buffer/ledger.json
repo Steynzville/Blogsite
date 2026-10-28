@@ -1101,14 +1101,16 @@
       "destination_url": "https://velucedesign.com/article/garden-pathway-lighting/",
       "board_service_id": "296815500381477417",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-10-29",
       "topic": "pathway-lighting",
       "board_name": "Outdoor Lighting Ideas",
       "source_blob_sha": "ceee48b0acc70a178919f7fe0ce33e82d7677d86",
       "source_path": "assets/pinterest/studio-editorial-pathway-lighting-20261027-d2.png",
       "recorded_at": "2026-10-28T23:35:09.788Z",
-      "github_run_id": "40788352021"
+      "github_run_id": "40788352021",
+      "buffer_post_id": "6ae286af7a72c9efac066149",
+      "submitted_at": "2026-10-28T23:35:14.312Z"
     }
   ]
 }

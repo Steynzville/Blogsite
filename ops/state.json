@@ -1669,13 +1669,14 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 4,
-    "last_product": "Designer Brief Builder",
+    "last_product": "Luxury Lighting Formula",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
+      "Designer Brief Builder",
+      "Luxury Lighting Formula"
     ],
-    "next_product": "Luxury Lighting Formula",
+    "next_product": "Room Procurement System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -2290,6 +2291,46 @@
           "Designer Brief Builder"
         ],
         "next_product": "Luxury Lighting Formula"
+      },
+      {
+        "creative_id": "studio-product-luxury-lighting-formula-c4-20261028",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Luxury Lighting Formula",
+        "cycle": 4,
+        "title": "Bathroom Vanity Lighting: Light the Face, Not Just the Room",
+        "description": "Does your bathroom look polished but cast unflattering shadows at the mirror? Put soft vertical light beside the face, add a low night layer and let textured surfaces carry the atmosphere instead of relying on a bright ceiling. Veluce Studio’s Luxury Lighting Formula uses the Seven Signals method, a Night Audit and scene-planning tools to help you plan ambient, task and accent lighting before buying. Explore the complete digital lighting system.",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c4-20261028.png",
+        "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+        "board_service_id": "296815500381467884",
+        "publish_at": "now",
+        "status": "sent_buffer_confirmed",
+        "submission_date": "2026-10-28",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-luxury-lighting-formula-c4-20261028.png",
+        "original_reference": "libfile_ffe73dc800888191938908c0ae7291dc",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Oblique blue-hour bathroom vanity with paired vertical mirror lights, cream limestone wall wash, oak cabinetry and concealed low-level under-vanity glow; exact product title and Light the Face hook.",
+        "hook": "Light the Face",
+        "marketing_angle": "Replace unflattering overhead-only bathroom lighting with soft vertical face light and a separate low night layer.",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "alt_text_saved": false,
+        "buffer_post_id": "6ae1e54cdee6d1a87ac251f4",
+        "published_at": "2026-10-28",
+        "published_at_timestamp": "2026-10-28T12:06:37.768Z",
+        "published_at_local": "2026-10-28T14:06:37.768+02:00",
+        "pin_id": "296815431716405127",
+        "pin_url": "https://www.pinterest.com/pin/296815431716405127",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536. Product page destination confirmed. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula"
+        ],
+        "next_product": "Room Procurement System"
       }
     ],
     "archived_history": [
@@ -2405,17 +2446,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-luxury-lighting-formula-c4-20261028",
-      "product": "Luxury Lighting Formula",
-      "cycle": 4,
-      "submission_date": "2026-10-28",
-      "status": "submitted_now_verified",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c4-20261028.png",
-      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
-      "board_service_id": "296815500381467884",
-      "buffer_post_id": "6ae1e54cdee6d1a87ac251f4"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

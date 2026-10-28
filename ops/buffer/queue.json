@@ -153,7 +153,7 @@
       "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
       "board_service_id": "296815500381467884",
       "publish_at": "now",
-      "status": "ready",
+      "status": "sent_buffer_confirmed",
       "submission_date": "2026-10-28",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
@@ -164,7 +164,23 @@
       "hook": "Light the Face",
       "marketing_angle": "Replace unflattering overhead-only bathroom lighting with soft vertical face light and a separate low night layer.",
       "board": "Modern Home Decor Ideas & Finds 🔥",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6ae1e54cdee6d1a87ac251f4",
+      "published_at": "2026-10-28",
+      "published_at_timestamp": "2026-10-28T12:06:37.768Z",
+      "published_at_local": "2026-10-28T14:06:37.768+02:00",
+      "pin_id": "296815431716405127",
+      "pin_url": "https://www.pinterest.com/pin/296815431716405127",
+      "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/png retrieved at 1024x1536. Product page destination confirmed. Independent Pinterest click-through unavailable.",
+      "product_page_verified": true,
+      "independent_clickthrough_verified": false,
+      "completed_products_this_cycle": [
+        "Outdoor Lighting Blueprint",
+        "Luxury Outdoor Room Planner",
+        "Designer Brief Builder",
+        "Luxury Lighting Formula"
+      ],
+      "next_product": "Room Procurement System"
     }
   ]
 }

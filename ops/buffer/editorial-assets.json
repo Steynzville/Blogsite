@@ -592,6 +592,58 @@
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-28T14:16:00+02:00",
       "image_dimensions": "1024x1536"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-tree-uplighting-20261029-f1.jpg",
+      "topic": "tree-uplighting",
+      "title": "Tree Uplighting Ideas for Sculptural Garden Depth",
+      "description": "A mature olive tree becomes the evening focal point when concealed ground lights reveal its bark and canopy without flattening the whole garden. Explore how restrained tree uplighting creates depth, texture and a calmer nightscape.",
+      "visual_description": "A mature sculptural olive tree illuminated from concealed ground uplights in a cream-limestone courtyard, with an oak privacy screen, simple stone bench and layered planting at blue hour.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-29",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-29T12:16:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pathway-lighting-20261029-f2.jpg",
+      "topic": "pathway-lighting",
+      "title": "Garden Pathway Lighting That Guides Every Step",
+      "description": "Good path lighting reveals changes of level without turning the garden into a runway. See how shielded low lights, warm step illumination and darker planting create a safer, more atmospheric route to the front door.",
+      "visual_description": "A curving sequence of irregular pale-stone garden steps through ferns and grasses, illuminated by restrained shielded path lights and warm step light, with a softly glowing home entrance beyond and the serif headline Guide Every Step.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-29",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-29T12:16:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-fire-pit-20261029-f3.jpg",
+      "topic": "fire-pit",
+      "title": "A Fire-Pit Table That Anchors the Outdoor Lounge",
+      "description": "A low fire-pit table can define conversation, warmth and circulation in one move. This sunken stone lounge shows how a visible flame, generous seating and discreet step lighting create an inviting centre after sunset.",
+      "visual_description": "A rectangular limestone gas fire-pit table with a clearly visible linear flame at the centre of a sunken cream-sofa lounge, framed by olive trees and warm concealed step lights at dusk.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-29",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-29T12:16:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pergola-20261029-f4.jpg",
+      "topic": "pergola",
+      "title": "Layered Pergola Lighting for an Outdoor Dining Room",
+      "description": "A pergola feels like a true outdoor room when light works at several heights. Concealed beam lighting, focused pendants and soft planting light create a warm dining atmosphere without a harsh ceiling effect.",
+      "visual_description": "A timber pergola outdoor dining room with concealed linear light grazing the beams, two small pendants over a limestone table, woven chairs and softly lit planting, with the serif headline Layer the Pergola Light.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-29",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-29T12:16:00Z"
     }
   ]
 }

@@ -1113,6 +1113,24 @@
       "submitted_at": "2026-10-28T23:35:14.312Z",
       "sent_at": "2026-10-28T23:35:13.164Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716409410"
+    },
+    {
+      "creative_id": "veluce-auto-20261029-8a4601245571",
+      "workflow": "veluce_editorial",
+      "title": "Layered Pergola Lighting for a Calm Side-Courtyard Lounge",
+      "description": "A narrow pergola lounge can feel generous after dark when structural glow, wall light and planting illumination work together. This glare-controlled side courtyard creates depth without relying on bright exposed bulbs.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261027-d4.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-29",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "8a46012455719b5e0b0f1dab1af8739380caa78a",
+      "source_path": "assets/pinterest/studio-editorial-pergola-20261027-d4.png",
+      "recorded_at": "2026-10-29T10:40:43.871Z",
+      "github_run_id": "40859413854"
     }
   ]
 }

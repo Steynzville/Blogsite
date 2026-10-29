@@ -1135,6 +1135,19 @@
       "submitted_at": "2026-10-29T10:40:48.208Z",
       "sent_at": "2026-10-29T10:40:47.239Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716412189"
+    },
+    {
+      "creative_id": "studio-product-room-procurement-system-c4-20261029",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Furniture Sourcing: Compare the Whole Room Before Choosing One Piece",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c4-20261029.jpg",
+      "board_service_id": "296815500381467884",
+      "buffer_post_id": "6ae33814b27bc9061f568c5d",
+      "publish_at": "2026-10-29T12:12:07.254Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-10-29T12:12:07.254Z"
     }
   ]
 }

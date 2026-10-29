@@ -1150,6 +1150,24 @@
       "recorded_at": "2026-10-29T12:12:07.254Z",
       "sent_at": "2026-10-29T12:12:06.311Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716412558"
+    },
+    {
+      "creative_id": "veluce-auto-20261029-f0d07a3ceab8",
+      "workflow": "veluce_editorial",
+      "title": "Olive Tree Uplighting Reflected Across a Narrow Water Rill",
+      "description": "A mature olive tree becomes a sculptural evening focal point when warm concealed uplights reveal the gnarled trunk and silver canopy. A narrow reflecting rill doubles the effect while the surrounding courtyard remains calm and shadowed.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261027-d1.png",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-29",
+      "topic": "tree-uplighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "f0d07a3ceab81bb1325758a879d31ce889fc2144",
+      "source_path": "assets/pinterest/studio-editorial-tree-uplighting-20261027-d1.png",
+      "recorded_at": "2026-10-29T15:00:48.576Z",
+      "github_run_id": "40897165823"
     }
   ]
 }

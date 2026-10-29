@@ -2527,8 +2527,8 @@
       "product": "Room Procurement System",
       "cycle": 4,
       "submission_date": "2026-10-29",
-      "status": "ready",
-      "buffer_post_id": null,
+      "status": "submitted_now_verified",
+      "buffer_post_id": "6ae33814b27bc9061f568c5d",
       "image_filename": "studio-product-room-procurement-system-c4-20261029.jpg",
       "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c4-20261029.jpg",
       "image_dimensions": "1024x1536",
@@ -2541,7 +2541,8 @@
       "board": "Modern Home Decor Ideas & Finds 🔥",
       "board_service_id": "296815500381467884",
       "product_page_verified": true,
-      "independent_clickthrough_verified": false
+      "independent_clickthrough_verified": false,
+      "submitted_at": "2026-10-29T12:12:07.254Z"
     }
   },
   "editorialAutomation": {

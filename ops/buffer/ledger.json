@@ -1194,6 +1194,24 @@
       "submitted_at": "2026-10-29T22:36:09.777Z",
       "sent_at": "2026-10-29T22:36:09.446Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716415816"
+    },
+    {
+      "creative_id": "veluce-auto-20261030-ff6d1c482baa",
+      "workflow": "veluce_editorial",
+      "title": "Stone Step Lighting With a Comfortable Evening Rhythm",
+      "description": "Warm shielded step lights pace a turning limestone garden stair without making it glow like a runway. Explore how pools of light, intentional darkness and a brighter destination support comfortable movement after dusk.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261028-e2.png",
+      "destination_url": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-30",
+      "topic": "pathway-lighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "ff6d1c482baaff69031001e7ef236f69ebc662c2",
+      "source_path": "assets/pinterest/studio-editorial-pathway-lighting-20261028-e2.png",
+      "recorded_at": "2026-10-29T23:36:43.001Z",
+      "github_run_id": "40974277155"
     }
   ]
 }

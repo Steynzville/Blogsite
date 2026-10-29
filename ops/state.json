@@ -1720,6 +1720,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae35fa4e079e57982e19fa8",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716415816",
+      "pin_id": "296815431716415816",
+      "published_at": "2026-10-29T22:36:09.446Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261028-e3.png",
+      "title": "Compact Courtyard Fire Pit Layout for Conversation",
+      "description": "A clearly visible linear fire feature anchors four relaxed chairs in a compact clay-paved courtyard. Use the layout to think about seating distance, circulation and how firelight connects an outdoor room to the kitchen.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ae3ca582782e7f331bc09bb",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

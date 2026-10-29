@@ -1744,14 +1744,15 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 4,
-    "last_product": "Luxury Lighting Formula",
+    "last_product": "Room Procurement System",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
       "Designer Brief Builder",
-      "Luxury Lighting Formula"
+      "Luxury Lighting Formula",
+      "Room Procurement System"
     ],
-    "next_product": "Room Procurement System",
+    "next_product": "Complete Home Design System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -2406,6 +2407,46 @@
           "Luxury Lighting Formula"
         ],
         "next_product": "Room Procurement System"
+      },
+      {
+        "creative_id": "studio-product-room-procurement-system-c4-20261029",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Room Procurement System",
+        "cycle": 4,
+        "submission_date": "2026-10-29",
+        "status": "sent_buffer_confirmed",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-room-procurement-system-c4-20261029.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c4-20261029.jpg",
+        "original_reference": "libfile_1604685b1c6c819192d595e3c33237a3",
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Golden-hour dining room sourcing review comparing a cream boucle armchair and timber-and-cane chair at an oak table, with measured arm clearance, supplier specification sheet and restrained limestone, oak and fabric samples; exact product title.",
+        "hook": "Choose by Evidence",
+        "marketing_angle": "Compare a candidate piece against the actual room palette, dimensions and adjacent furniture before ordering.",
+        "title": "Furniture Sourcing: Compare the Whole Room Before Choosing One Piece",
+        "description": "Does a beautiful chair still work with the table height, room palette and surrounding furniture? Compare dimensions, finish evidence, total cost and real-room compatibility before ordering. Veluce Studio’s Room Procurement System uses the six-stage SOURCE Method to help homeowners specify, shortlist, verify and track purchases through delivery and close-out. Explore the complete digital procurement system.",
+        "destination_url": "https://velucedesign.com/room-procurement-system/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "alt_text_saved": false,
+        "buffer_post_id": "6ae33814b27bc9061f568c5d",
+        "published_at": "2026-10-29",
+        "published_at_timestamp": "2026-10-29T12:12:06.311Z",
+        "published_at_local": "2026-10-29T14:12:06.311+02:00",
+        "pin_id": "296815431716412558",
+        "pin_url": "https://www.pinterest.com/pin/296815431716412558",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/jpeg retrieved at 1024x1536. Product page loaded and current R449 purchase content verified. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula",
+          "Room Procurement System"
+        ],
+        "next_product": "Complete Home Design System"
       }
     ],
     "archived_history": [
@@ -2521,29 +2562,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-room-procurement-system-c4-20261029",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Room Procurement System",
-      "cycle": 4,
-      "submission_date": "2026-10-29",
-      "status": "submitted_now_verified",
-      "buffer_post_id": "6ae33814b27bc9061f568c5d",
-      "image_filename": "studio-product-room-procurement-system-c4-20261029.jpg",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c4-20261029.jpg",
-      "image_dimensions": "1024x1536",
-      "hook": "Choose by Evidence",
-      "creative_concept": "Golden-hour dining room sourcing review comparing a cream boucle armchair and timber-and-cane chair at an oak table, with measured arm clearance, supplier specification sheet and restrained limestone, oak and fabric samples; exact product title.",
-      "marketing_angle": "Compare a candidate piece against the actual room palette, dimensions and adjacent furniture before ordering.",
-      "title": "Furniture Sourcing: Compare the Whole Room Before Choosing One Piece",
-      "description": "Does a beautiful chair still work with the table height, room palette and surrounding furniture? Compare dimensions, finish evidence, total cost and real-room compatibility before ordering. Veluce Studio’s Room Procurement System uses the six-stage SOURCE Method to help homeowners specify, shortlist, verify and track purchases through delivery and close-out. Explore the complete digital procurement system.",
-      "destination_url": "https://velucedesign.com/room-procurement-system/",
-      "board": "Modern Home Decor Ideas & Finds 🔥",
-      "board_service_id": "296815500381467884",
-      "product_page_verified": true,
-      "independent_clickthrough_verified": false,
-      "submitted_at": "2026-10-29T12:12:07.254Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

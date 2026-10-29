@@ -181,6 +181,18 @@
         "Luxury Lighting Formula"
       ],
       "next_product": "Room Procurement System"
+    },
+    {
+      "creative_id": "studio-product-room-procurement-system-c4-20261029",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Furniture Sourcing: Compare the Whole Room Before Choosing One Piece",
+      "description": "Does a beautiful chair still work with the table height, room palette and surrounding furniture? Compare dimensions, finish evidence, total cost and real-room compatibility before ordering. Veluce Studio’s Room Procurement System uses the six-stage SOURCE Method to help homeowners specify, shortlist, verify and track purchases through delivery and close-out. Explore the complete digital procurement system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c4-20261029.jpg",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

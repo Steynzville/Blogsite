@@ -2521,7 +2521,28 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "creative_id": "studio-product-room-procurement-system-c4-20261029",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "cycle": 4,
+      "submission_date": "2026-10-29",
+      "status": "ready",
+      "buffer_post_id": null,
+      "image_filename": "studio-product-room-procurement-system-c4-20261029.jpg",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c4-20261029.jpg",
+      "image_dimensions": "1024x1536",
+      "hook": "Choose by Evidence",
+      "creative_concept": "Golden-hour dining room sourcing review comparing a cream boucle armchair and timber-and-cane chair at an oak table, with measured arm clearance, supplier specification sheet and restrained limestone, oak and fabric samples; exact product title.",
+      "marketing_angle": "Compare a candidate piece against the actual room palette, dimensions and adjacent furniture before ordering.",
+      "title": "Furniture Sourcing: Compare the Whole Room Before Choosing One Piece",
+      "description": "Does a beautiful chair still work with the table height, room palette and surrounding furniture? Compare dimensions, finish evidence, total cost and real-room compatibility before ordering. Veluce Studio’s Room Procurement System uses the six-stage SOURCE Method to help homeowners specify, shortlist, verify and track purchases through delivery and close-out. Explore the complete digital procurement system.",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_service_id": "296815500381467884",
+      "product_page_verified": true,
+      "independent_clickthrough_verified": false
+    }
   },
   "editorialAutomation": {
     "version": 1,

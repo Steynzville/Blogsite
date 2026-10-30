@@ -52,7 +52,7 @@ export default function DesignerBriefThankYou() {
 
       <main>
         <section className="relative overflow-hidden">
-          <img src="/images/designer-brief-hero.svg" alt="" className="absolute inset-0 h-full w-full object-cover opacity-35" />
+          <img src="/images/designer-brief-hero.webp" alt="" className="absolute inset-0 h-full w-full object-cover opacity-35" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0c0a08]/60 via-[#0c0a08]/88 to-[#0c0a08]" />
           <div className="relative mx-auto max-w-5xl px-5 py-20 text-center sm:px-8 sm:py-28 lg:py-32">
             <CheckCircle2 className="mx-auto text-[#c9a87a]" size={38} strokeWidth={1.5} />

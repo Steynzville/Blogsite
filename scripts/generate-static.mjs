@@ -234,14 +234,14 @@ async function generateStaticHtml(articles) {
       path: '/luxury-outdoor-room-planner',
       title: 'Luxury Outdoor Room Planner — VELUCE',
       description: 'Turn a patio, deck or pergola into an intentional outdoor room with the Veluce 5-Layer Outdoor Room Method, layout recipes, worksheets, calculator and planning tools.',
-      image: '/images/outdoor-room-planner-hero.svg',
+      image: '/images/outdoor-room-planner-hero.webp',
       content: '<h1>Luxury Outdoor Room Planner</h1><p>The Veluce 5-Layer Outdoor Room Method helps homeowners plan purpose, zones, flow, furniture scale and atmosphere before purchasing.</p>'
     },
     {
       path: '/designer-brief-builder',
       title: 'Designer Brief Builder — VELUCE',
       description: 'Turn photos, measurements, saved references and constraints into a designer-, contractor- and AI-ready project brief with the Veluce CLEAR Method and AI Brief Architect Lab.',
-      image: '/images/designer-brief-hero.svg',
+      image: '/images/designer-brief-hero.webp',
       content: '<h1>Designer Brief Builder</h1><p>The Veluce CLEAR Brief-to-Design System turns real-space facts, lifestyle needs, priorities, aesthetic signals and constraints into a usable project brief.</p>'
     },
     {
@@ -262,7 +262,7 @@ async function generateStaticHtml(articles) {
       path: '/complete-home-design-system',
       title: 'Complete Home Design System — VELUCE',
       description: 'The complete Veluce homeowner design system: five specialist packs plus a master guide, whole-home AI lab, project workbook, decision gates and offline Complete Home Studio.',
-      image: '/images/complete-home-hero.svg',
+      image: '/images/complete-home-hero.webp',
       content: '<h1>Complete Home Design System</h1><p>The Veluce flagship connects brief, space, lighting, procurement and whole-home project control in one evidence-led homeowner system.</p>'
     },
     {
@@ -277,7 +277,7 @@ async function generateStaticHtml(articles) {
       path: '/thank-you/luxury-outdoor-room-planner',
       title: 'Thank You | Luxury Outdoor Room Planner | VELUCE',
       description: 'Secure access to your Veluce Luxury Outdoor Room Planner purchase.',
-      image: '/images/outdoor-room-planner-hero.svg',
+      image: '/images/outdoor-room-planner-hero.webp',
       content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Luxury Outdoor Room Planner customer pack.</p>',
       noindex: true
     },
@@ -285,7 +285,7 @@ async function generateStaticHtml(articles) {
       path: '/thank-you/designer-brief-builder',
       title: 'Thank You | Designer Brief Builder | VELUCE',
       description: 'Secure access to your Veluce Designer Brief Builder purchase.',
-      image: '/images/designer-brief-hero.svg',
+      image: '/images/designer-brief-hero.webp',
       content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Designer Brief Builder customer pack.</p>',
       noindex: true
     },
@@ -309,7 +309,7 @@ async function generateStaticHtml(articles) {
       path: '/thank-you/complete-home-design-system',
       title: 'Thank You | Complete Home Design System | VELUCE',
       description: 'Secure access to your Veluce Complete Home Design System purchase.',
-      image: '/images/complete-home-hero.svg',
+      image: '/images/complete-home-hero.webp',
       content: '<h1>Purchase complete</h1><p>Securely verify your payment to access the Complete Home Design System flagship bundle.</p>',
       noindex: true
     },

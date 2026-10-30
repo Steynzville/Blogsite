@@ -57,7 +57,7 @@ Complete one end-to-end Test Mode purchase and confirm:
 
 Only product-preview artwork should be committed to `public/images/`:
 
-- `outdoor-room-planner-hero.svg`
+- `outdoor-room-planner-hero.webp`
 - `outdoor-room-planner-cover.svg`
 - `outdoor-room-layout-recipe.svg`
 - `outdoor-room-planner-workbook.svg`

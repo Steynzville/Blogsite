@@ -89,8 +89,8 @@ export default function LuxuryOutdoorRoomPlanner() {
       <main>
         <section className="relative min-h-[82svh] overflow-hidden">
           <img
-            src="/images/outdoor-room-planner-hero.svg"
-            alt="Editorial top-down illustration of a planned outdoor lounge and dining room"
+            src="/images/outdoor-room-planner-hero.webp"
+            alt="Luxury outdoor room with pergola, fire feature, dining area and planning boards"
             className="absolute inset-0 h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0c0a08]/90 via-[#0c0a08]/58 to-[#0c0a08]/20" />

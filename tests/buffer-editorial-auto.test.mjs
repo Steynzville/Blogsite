@@ -7,14 +7,13 @@ test("South African local day is used for four daily slots",()=>{
   assert.equal(localDate(new Date("2026-10-18T22:30:00Z")),"2026-10-19");
   assert.equal(localDate(new Date("2026-10-19T21:30:00Z")),"2026-10-19");
 });
-test("PNG dimensions are validated from actual pixels",()=>{
-  const b=Buffer.alloc(40);
-  Buffer.from([137,80,78,71,13,10,26,10]).copy(b);
-  b.writeUInt32BE(1024,16);b.writeUInt32BE(1536,20);
+test("PNG dimensions require a complete file, not just the IHDR",async()=>{
+  const b=await readFile("assets/pinterest/studio-editorial-pergola-20261027-d4.png");
   assert.deepEqual(dimensions(b),{width:1024,height:1536,mime:"image/png"});
+  assert.throws(()=>dimensions(b.subarray(0,786446)),/Truncated PNG/);
 });
 test("WebP VP8X dimensions read correctly",()=>{
-  const b=Buffer.alloc(40);b.write("RIFF",0);b.write("WEBP",8);b.write("VP8X",12);
+  const b=Buffer.alloc(40);b.write("RIFF",0);b.writeUInt32LE(32,4);b.write("WEBP",8);b.write("VP8X",12);
   b.writeUIntLE(1023,24,3);b.writeUIntLE(1535,27,3);
   assert.deepEqual(dimensions(b),{width:1024,height:1536,mime:"image/webp"});
 });
@@ -51,6 +50,12 @@ test("All curated assets refer to real repo source files and approved topics",as
   assert.equal(new Set(manifest.image_assets.map(v=>v.path)).size,manifest.image_assets.length);
   for(const v of manifest.image_assets){
     assert.ok(TOPICS[v.topic],v.path);
+    if(v.integrity_status==="rejected_truncated_png"){
+      assert.equal(v.visually_verified,false,`Damaged PNG was not quarantined: ${v.path}`);
+      const rejected=await readFile(v.path);
+      assert.throws(()=>dimensions(rejected),/Truncated PNG/);
+      continue;
+    }
     assert.equal(v.visually_verified,true,`Visual approval missing: ${v.path}`);
     assert.ok(v.visual_description?.length>25,`Subject annotation missing: ${v.path}`);
     assert.match(v.visual_review_date,/^20[0-9]{2}-[0-9]{2}-[0-9]{2}$/);
@@ -124,7 +129,7 @@ test("Approved provenance is explicitly recorded for all curated source files",a
  for(const asset of manifest.image_assets){
    assert.ok(["owner-upload","work-generated"].includes(asset.origin),asset.path);
    if(asset.origin==="work-generated"){
-     assert.ok(asset.visual_review_method && asset.visual_description && asset.visually_verified);
+     assert.ok(asset.visual_review_method && asset.visual_description && (asset.visually_verified || asset.integrity_status==="rejected_truncated_png"));
    }
  }
 });

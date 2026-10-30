@@ -63,3 +63,18 @@ Only *after* the product is safely completed does it count unused visually revie
 The GitHub Actions editorial publisher **always prefers** verified `origin:"owner-upload"` entries until exhausted, then automatically chooses verified `origin:"work-generated"` images from the same catalogue. Thus the fresh Work images are generated ahead of stockout but not published before user-provided assets. The product Work task must NEVER directly publish editorial Pins or adjust the four-daily editorial scheduling.
 
 **Validation:** https://github.com/Steynzville/Blogsite/actions/runs/39269004624 — 26 tests passed, 0 failed, including owner-first image priority. **Caveat:** Work's new conditional second-stage generation/upload has not yet executed, since 26 approved existing editorial assets remained at validation. Image generation capacity and GitHub permissions in future scheduled Work runs can vary; report a real blocker rather than spend money or claim a generated image was uploaded. The GitHub publisher itself has no native image-generation model.
+
+
+## 30 October 2026 truncated-image incident
+
+The editorial GitHub/Buffer pipeline **published three Pins with incomplete source PNG bytes** on 30 October (local date), despite valid image signatures, IHDR dimensions and Buffer sent/externalLink confirmations:
+
+- Fire pit: https://www.pinterest.com/pin/296815431716415816/ — `studio-editorial-fire-pit-20261028-e3.png`
+- Pathway: https://www.pinterest.com/pin/296815431716416266/ — `studio-editorial-pathway-lighting-20261028-e2.png`
+- Pergola: https://www.pinterest.com/pin/296815431716418668/ — `studio-editorial-pergola-20261028-e4.png`
+
+The fourth truncated file in the 28 October upload batch (`studio-editorial-tree-uplighting-20261028-e1.png`) had not yet been published when detected. All four GitHub source files were ~786,445–786,446 bytes, but their PNG IDAT chunks declared 2.4–3.4 MB and extended past EOF; therefore the files were truncated and cannot decode fully. **Do not republish or restore these four** even though headers show 1024×1536. Their manifest records are retained for provenance but set `visually_verified:false`, `integrity_status:"rejected_truncated_png"`.
+
+Publisher `scripts/veluce/buffer-editorial-auto.mjs` now requires complete PNG chunk structure and IEND, JPEG end marker, and correct WebP RIFF size before a file can publish; regression tests cover truncated source. The working 29 October Work-generated JPEG reserve (f1–f4) was checked for JPEG end-of-image markers and remains eligible. The 14:00 six-product task now has additional instructions to verify full re-downloaded image bytes, visually inspect the uploaded version, and prefer genuinely compressed JPEG exports if the binary upload method has a size cap. No changes were made to the four editorial cron slots or the independent six-product publish schedule.
+
+The three already-published Pinterest images cannot be edited in place; remove them directly through Pinterest's own Edit Pin → Delete option if a clean profile is required, then use truly new complete creatives (not the corrupted sources) through the normal controlled workflow. Do not retry the broken Buffer submissions as if they had failed; their delivery status was sent.

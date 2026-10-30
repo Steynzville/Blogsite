@@ -2642,7 +2642,7 @@
       "product": "Complete Home Design System",
       "cycle": 4,
       "creative_id": "studio-product-complete-home-design-system-c4-20261030",
-      "status": "ready",
+      "status": "buffer_submitted",
       "image_filename": "studio-product-complete-home-design-system-c4-20261030.jpg",
       "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-complete-home-design-system-c4-20261030.jpg",
       "destination_url": "https://velucedesign.com/complete-home-design-system/",
@@ -2650,7 +2650,10 @@
       "board_service_id": "296815500381467884",
       "title": "Whole-Home Design: The Transition Details That Make Rooms Feel Connected",
       "description": "Do your rooms look considered on their own but disconnected at the thresholds? Align floor levels, door frames, repeated materials and lighting transitions so the journey between bedroom, living and outdoor spaces feels intentional. Veluce Studio’s Complete Home Design System brings five specialist planning packs together with a master guide, whole-home workbook and decision gates for more cohesive choices. Explore the complete digital home design system.",
-      "recorded_at": "2026-10-30T12:01:03Z"
+      "recorded_at": "2026-10-30T12:01:03Z",
+      "buffer_post_id": "6ae487c280f61ee51916be99",
+      "submitted_at": "2026-10-30T12:04:19.803Z",
+      "github_run_id": "41052569362"
     }
   },
   "editorialAutomation": {

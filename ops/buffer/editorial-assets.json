@@ -656,6 +656,98 @@
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-29T12:16:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-tree-uplighting-20261030-g1.jpg",
+      "topic": "tree-uplighting",
+      "title": "How to Uplight a Mature Tree Without Harsh Glare",
+      "description": "A mature olive tree becomes sculptural after dark when concealed ground lights reveal its trunk and canopy without flooding the whole garden. Explore restrained tree uplighting for depth, texture and a calmer nightscape.",
+      "visual_description": "Low-angle blue-hour view of a mature multi-trunk olive tree with concealed uplights shaping its bark and canopy, warm limestone walls, gravel and grasses; exact overlay “LIGHT THE FORM” with subhead “Depth without glare”.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-30",
+      "visual_review_method": "Work agent visually inspected complete JPEG re-downloaded from public GitHub raw URL",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-30T12:08:00Z",
+      "source_git_blob_sha": "af42b8121a30c73a1566d7298e2bafa5674030d7",
+      "integrity_verification": {
+        "public_bytes": 282382,
+        "format": "JPEG",
+        "jpeg_soi_valid": true,
+        "jpeg_eoi_valid": true,
+        "full_decode": "PIL verify + full pixel load",
+        "dimensions": "1024x1536",
+        "sha256": "8876e03b1fba9716efdedd0790172d24c23e2e6af0ccaed591f55fbc3f64540c"
+      }
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pathway-lighting-20261030-g2.jpg",
+      "topic": "pathway-lighting",
+      "title": "Garden Pathway Lighting That Guides Without Glare",
+      "description": "Warm shielded step and path lights make a sloping garden safer while preserving the atmosphere of the planting. See how spacing, direction and contrast can guide movement without over-lighting the landscape.",
+      "visual_description": "Image-only elevated view down broad limestone steps into a curving planted garden path, with warm wall-integrated step lights and shielded low path fixtures leading toward a modest home.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-30",
+      "visual_review_method": "Work agent visually inspected complete JPEG re-downloaded from public GitHub raw URL",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-30T12:08:00Z",
+      "source_git_blob_sha": "c2dc0c0abaf6b10e018e2989c7284582a48e5a20",
+      "integrity_verification": {
+        "public_bytes": 238849,
+        "format": "JPEG",
+        "jpeg_soi_valid": true,
+        "jpeg_eoi_valid": true,
+        "full_decode": "PIL verify + full pixel load",
+        "dimensions": "1024x1536",
+        "sha256": "f5b61bd3ba9a138ac3b7b045a63e78985405506a8d9a1dc8b37a5d55ab73ef80"
+      }
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-fire-pit-20261030-g3.jpg",
+      "topic": "fire-pit",
+      "title": "Fire Pit Seating That Makes Conversation Feel Natural",
+      "description": "A linear fire feature works best when seating distance, circulation and sightlines are planned together. Use this intimate sunken patio as inspiration for a fire-pit layout that feels warm, social and easy to move around.",
+      "visual_description": "Eye-level sunset view of a real linear gas fire in a low limestone table, surrounded by four cream timber lounge chairs, layered step and planting lights; exact overlay “CENTRE THE GLOW” and subhead “Plan the conversation”.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-30",
+      "visual_review_method": "Work agent visually inspected complete JPEG re-downloaded from public GitHub raw URL",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-30T12:08:00Z",
+      "source_git_blob_sha": "fe96276352739c52d1dcc792dc8a5dc0a3cf0e89",
+      "integrity_verification": {
+        "public_bytes": 168424,
+        "format": "JPEG",
+        "jpeg_soi_valid": true,
+        "jpeg_eoi_valid": true,
+        "full_decode": "PIL verify + full pixel load",
+        "dimensions": "1024x1536",
+        "sha256": "657ebc978c161ba7629a8c88c258ebd2d8eb6f9fda7d5ed90a04c423a7d28320"
+      }
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-pergola-20261030-g4.jpg",
+      "topic": "pergola",
+      "title": "Layered Pergola Lighting for Outdoor Dining",
+      "description": "Concealed beam lighting and restrained pendants give this timber pergola both ambient glow and useful light over the table. Explore how layered pergola lighting can turn a compact patio into a convincing outdoor room.",
+      "visual_description": "Image-only side view through planting into a timber pergola dining room, with concealed linear lights along the beams, two woven pendants over a six-seat oak table, stone wall and warm dusk garden.",
+      "visually_verified": true,
+      "visual_review_date": "2026-10-30",
+      "visual_review_method": "Work agent visually inspected complete JPEG re-downloaded from public GitHub raw URL",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-10-30T12:08:00Z",
+      "source_git_blob_sha": "8c3bc1af9b10b3d0c7c1a2439975fbe63648cc02",
+      "integrity_verification": {
+        "public_bytes": 217084,
+        "format": "JPEG",
+        "jpeg_soi_valid": true,
+        "jpeg_eoi_valid": true,
+        "full_decode": "PIL verify + full pixel load",
+        "dimensions": "1024x1536",
+        "sha256": "826e06ae8abc7cc4282295eb43a13a8e36cc80cf01fb8895e237813eb58a8b31"
+      }
     }
   ]
 }

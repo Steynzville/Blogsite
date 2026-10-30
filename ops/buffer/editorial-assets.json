@@ -540,13 +540,16 @@
       "description": "A mature multi-stem jacaranda becomes the evening focal point when concealed warm uplights reveal its textured trunks and canopy. See how restrained tree uplighting, shadow and low planting create depth without exposing the fixtures.",
       "visual_description": "Low three-quarter courtyard view of a mature flowering jacaranda, its multiple trunks and canopy illuminated from concealed warm uplights among grasses; cream wall, stone paving and slim timber bench.",
       "source_blob_sha": "1d42eb4af2fcf90683c159a61ff124ab3a3c0784",
-      "visually_verified": true,
+      "visually_verified": false,
       "visual_review_date": "2026-10-28",
       "visual_review_method": "Work agent visually inspected generated pixels",
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-28T14:16:00+02:00",
-      "image_dimensions": "1024x1536"
+      "image_dimensions": "1024x1536",
+      "integrity_status": "rejected_truncated_png",
+      "integrity_checked_at": "2026-10-30",
+      "integrity_note": "GitHub file is about 786 KB; PNG IDAT declares 2.4–3.4 MB of compressed data and extends beyond EOF. Do not publish; replace with genuinely complete image after validation."
     },
     {
       "path": "assets/pinterest/studio-editorial-pathway-lighting-20261028-e2.png",
@@ -555,13 +558,16 @@
       "description": "Warm shielded step lights pace a turning limestone garden stair without making it glow like a runway. Explore how pools of light, intentional darkness and a brighter destination support comfortable movement after dusk.",
       "visual_description": "Uphill eye-level view of broad irregular limestone garden steps winding through rosemary and grasses toward a lit timber garden room, with warm shielded lights marking each change in level and the overlay PACE THE STEPS.",
       "source_blob_sha": "ff6d1c482baaff69031001e7ef236f69ebc662c2",
-      "visually_verified": true,
+      "visually_verified": false,
       "visual_review_date": "2026-10-28",
       "visual_review_method": "Work agent visually inspected generated pixels",
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-28T14:16:00+02:00",
-      "image_dimensions": "1024x1536"
+      "image_dimensions": "1024x1536",
+      "integrity_status": "rejected_truncated_png",
+      "integrity_checked_at": "2026-10-30",
+      "integrity_note": "GitHub file is about 786 KB; PNG IDAT declares 2.4–3.4 MB of compressed data and extends beyond EOF. Do not publish; replace with genuinely complete image after validation."
     },
     {
       "path": "assets/pinterest/studio-editorial-fire-pit-20261028-e3.png",
@@ -570,13 +576,16 @@
       "description": "A clearly visible linear fire feature anchors four relaxed chairs in a compact clay-paved courtyard. Use the layout to think about seating distance, circulation and how firelight connects an outdoor room to the kitchen.",
       "visual_description": "Slightly elevated corner view of a real burning linear fire ribbon set into a long honed-stone table, surrounded by four cream lounge chairs on clay pavers beside a citrus tree and glazed kitchen doors.",
       "source_blob_sha": "54516444f31bb54d2cb8c81c24a96babdff5e032",
-      "visually_verified": true,
+      "visually_verified": false,
       "visual_review_date": "2026-10-28",
       "visual_review_method": "Work agent visually inspected generated pixels",
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-28T14:16:00+02:00",
-      "image_dimensions": "1024x1536"
+      "image_dimensions": "1024x1536",
+      "integrity_status": "rejected_truncated_png",
+      "integrity_checked_at": "2026-10-30",
+      "integrity_note": "GitHub file is about 786 KB; PNG IDAT declares 2.4–3.4 MB of compressed data and extends beyond EOF. Do not publish; replace with genuinely complete image after validation."
     },
     {
       "path": "assets/pinterest/studio-editorial-pergola-20261028-e4.png",
@@ -585,13 +594,16 @@
       "description": "A compact timber pergola uses concealed slat lighting, one focused pendant and quiet garden uplighting to make poolside dining feel like a real outdoor room. See how each layer supports shade, task light and atmosphere.",
       "visual_description": "Diagonal pool-edge view of a freestanding oak pergola sheltering an eight-seat limestone dining table, with concealed warm slat lighting, one pendant, olive planting and the overlay LAYER THE SHADE.",
       "source_blob_sha": "d18d01031415b49a984f536e0051381e0b79589f",
-      "visually_verified": true,
+      "visually_verified": false,
       "visual_review_date": "2026-10-28",
       "visual_review_method": "Work agent visually inspected generated pixels",
       "origin": "work-generated",
       "generation_method": "ChatGPT Work image generation",
       "generated_at": "2026-10-28T14:16:00+02:00",
-      "image_dimensions": "1024x1536"
+      "image_dimensions": "1024x1536",
+      "integrity_status": "rejected_truncated_png",
+      "integrity_checked_at": "2026-10-30",
+      "integrity_note": "GitHub file is about 786 KB; PNG IDAT declares 2.4–3.4 MB of compressed data and extends beyond EOF. Do not publish; replace with genuinely complete image after validation."
     },
     {
       "path": "assets/pinterest/studio-editorial-tree-uplighting-20261029-f1.jpg",

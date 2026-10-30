@@ -26,8 +26,8 @@ export default function OutdoorRoomProductCard() {
         </div>
         <div className="relative min-h-[360px]">
           <img
-            src="/images/outdoor-room-planner-hero.svg"
-            alt="Veluce Outdoor Room Planner editorial illustration"
+            src="/images/outdoor-room-planner-hero.webp"
+            alt="Golden-hour luxury patio with planned lounge, dining zones and outdoor design moodboard"
             className="absolute inset-0 h-full w-full object-cover"
             loading="lazy"
           />

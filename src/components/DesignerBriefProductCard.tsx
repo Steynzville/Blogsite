@@ -10,8 +10,8 @@ export default function DesignerBriefProductCard() {
       <div className="mx-auto grid max-w-7xl overflow-hidden border border-white/10 bg-[#17130f] md:grid-cols-[1.05fr_0.95fr]">
         <div className="relative min-h-[360px]">
           <img
-            src="/images/designer-brief-hero.svg"
-            alt="Veluce Designer Brief Builder editorial planning desk"
+            src="/images/designer-brief-hero.webp"
+            alt="Luxury design project brief with inspiration, curated material samples and finished living space"
             className="absolute inset-0 h-full w-full object-cover"
             loading="lazy"
           />

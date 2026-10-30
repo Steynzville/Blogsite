@@ -95,8 +95,8 @@ export default function DesignerBriefBuilder() {
       <main>
         <section className="relative min-h-[82svh] overflow-hidden">
           <img
-            src="/images/designer-brief-hero.svg"
-            alt="Editorial design desk with measured plan, material references and structured project brief"
+            src="/images/designer-brief-hero.webp"
+            alt="Designer project brief, inspiration photographs and material swatches in a luxury home setting"
             className="absolute inset-0 h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0c0a08]/94 via-[#0c0a08]/70 to-[#0c0a08]/28" />

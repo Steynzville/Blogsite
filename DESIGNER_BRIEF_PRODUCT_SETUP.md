@@ -64,7 +64,7 @@ The sales page fails safely to **Checkout opening shortly** until the environmen
 
 Only public product-preview artwork should be committed:
 
-- `designer-brief-hero.svg`
+- `designer-brief-hero.webp`
 - `designer-brief-cover.svg`
 - `designer-brief-workbook.svg`
 - `designer-brief-ai-flow.svg`

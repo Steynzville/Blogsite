@@ -46,7 +46,7 @@ export default function CompleteHomeDesignSystem() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0c0a08]/95 backdrop-blur-md"><div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8"><Link href="/" asChild><a className="font-serif text-xl font-bold tracking-[0.12em] text-white">VELUCE</a></Link><nav className="hidden items-center gap-6 text-xs uppercase tracking-[0.14em] text-stone-400 sm:flex"><a href="#path" className="hover:text-white">The Path</a><a href="#packs" className="hover:text-white">What You Get</a><a href="#faq" className="hover:text-white">Questions</a></nav><PurchaseButton compact/></div></header>
     <main>
       <section className="relative min-h-[88svh] overflow-hidden">
-        <img src="/images/complete-home-hero.svg" alt="Veluce Complete Home Design System represented as five connected specialist systems and one master control layer" className="absolute inset-0 h-full w-full object-cover"/>
+        <img src="/images/complete-home-hero.webp" alt="Complete Home Design System visualising connected briefing, room planning, lighting and sourcing" className="absolute inset-0 h-full w-full object-cover"/>
         <div className="absolute inset-0 bg-gradient-to-r from-[#0c0a08]/95 via-[#0c0a08]/76 to-[#0c0a08]/34"/>
         <div className="relative mx-auto flex min-h-[88svh] max-w-7xl flex-col justify-end px-5 pb-12 pt-24 sm:px-8 sm:pb-16 lg:px-10">
           <p className="text-[11px] uppercase tracking-[0.28em] text-[#d1a86c]">Veluce Studio · Flagship System</p>

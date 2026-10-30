@@ -207,7 +207,10 @@
       "destination_url": "https://velucedesign.com/complete-home-design-system/",
       "board_service_id": "296815500381467884",
       "publish_at": "now",
-      "status": "ready"
+      "status": "sent_buffer_confirmed",
+      "buffer_post_id": "6ae487c280f61ee51916be99",
+      "sent_at": "2026-10-30T12:04:19.568Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716419577"
     }
   ]
 }

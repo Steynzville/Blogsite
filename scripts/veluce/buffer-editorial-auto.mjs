@@ -45,9 +45,30 @@ export function localDate(now=new Date()){
 export function dimensions(b){
   if(b.length<30) throw new Error("Image too small");
   if(b.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))) {
+    // A valid signature and IHDR do not prove that the PNG was fully uploaded.
+    // Check every chunk boundary and require IDAT plus the final IEND chunk.
+    // On 2026-10-28 four uploads were cut off at ~786 KB while their IDAT
+    // chunks declared 2.4–3.4 MB. Pinterest accepted them as grey placeholders.
+    let offset=8,hasIdat=false,hasIend=false,first=true;
+    while(offset<b.length){
+      if(offset+12>b.length)throw new Error("Truncated PNG: incomplete chunk header");
+      const size=b.readUInt32BE(offset);
+      const type=b.toString("ascii",offset+4,offset+8);
+      if(size>b.length-offset-12)throw new Error("Truncated PNG: "+type+" chunk extends past end of file");
+      if(first && (type!=="IHDR" || size!==13))throw new Error("Invalid PNG IHDR");
+      first=false;
+      if(type==="IDAT")hasIdat=true;
+      offset+=size+12;
+      if(type==="IEND"){
+        if(size!==0 || offset!==b.length)throw new Error("Invalid PNG IEND or trailing bytes");
+        hasIend=true;break;
+      }
+    }
+    if(!hasIdat || !hasIend)throw new Error("Truncated PNG: missing IDAT or IEND");
     return {width:b.readUInt32BE(16),height:b.readUInt32BE(20),mime:"image/png"};
   }
   if(b.toString("ascii",0,4)==="RIFF" && b.toString("ascii",8,12)==="WEBP"){
+    if(b.readUInt32LE(4)+8!==b.length)throw new Error("Truncated WebP: RIFF size mismatch");
     const kind=b.toString("ascii",12,16);
     if(kind==="VP8X")return {width:1+b.readUIntLE(24,3),height:1+b.readUIntLE(27,3),mime:"image/webp"};
     if(kind==="VP8L")return {
@@ -57,6 +78,7 @@ export function dimensions(b){
     throw new Error("Unsupported WebP subtype: "+kind);
   }
   if(b[0]===255&&b[1]===216){
+    if(b[b.length-2]!==255 || b[b.length-1]!==217)throw new Error("Truncated JPEG: missing end marker");
     let pos=2;while(pos<b.length-9){
       if(b[pos]!==255){pos++;continue}
       const marker=b[pos+1],len=b.readUInt16BE(pos+2);

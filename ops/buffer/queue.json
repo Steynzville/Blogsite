@@ -196,6 +196,18 @@
       "buffer_post_id": "6ae33814b27bc9061f568c5d",
       "sent_at": "2026-10-29T12:12:06.311Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716412558"
+    },
+    {
+      "creative_id": "studio-product-complete-home-design-system-c4-20261030",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Complete Home Design System",
+      "title": "Whole-Home Design: The Transition Details That Make Rooms Feel Connected",
+      "description": "Do your rooms look considered on their own but disconnected at the thresholds? Align floor levels, door frames, repeated materials and lighting transitions so the journey between bedroom, living and outdoor spaces feels intentional. Veluce Studio’s Complete Home Design System brings five specialist planning packs together with a master guide, whole-home workbook and decision gates for more cohesive choices. Explore the complete digital home design system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-complete-home-design-system-c4-20261030.jpg",
+      "destination_url": "https://velucedesign.com/complete-home-design-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

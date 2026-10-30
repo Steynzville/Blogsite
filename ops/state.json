@@ -2913,6 +2913,29 @@
       "status": "published",
       "verified": true,
       "verification_note": "Shared Work browser: checked chronological group feed and history before single publication; composer author checked immediately before submission; permalink verified group, author and content; clicked preview opened correct live article."
+    },
+    {
+      "date": "2026-10-30",
+      "destination": "Affiliate Deals Hub",
+      "content_type": "article-led design tip",
+      "topic": "Test bedside reading light from actual pillow position",
+      "veluce_url": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2643652296089404",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true
+    },
+    {
+      "date": "2026-10-30",
+      "destination": "Veluce Studio Page",
+      "content_type": "standalone actionable design advice",
+      "topic": "Measure furniture delivery routes and packaged dimensions",
+      "veluce_url": null,
+      "post_url": "https://www.facebook.com/122113949439497940/posts/122116341645497940",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true,
+      "verification_note": "API confirmed is_published and Page author 1380934031768194; no link in standalone post."
     }
   ],
   "conversion_followup_20261015": {

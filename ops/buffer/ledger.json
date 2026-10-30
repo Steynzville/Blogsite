@@ -1216,6 +1216,24 @@
       "submitted_at": "2026-10-29T23:36:47.645Z",
       "sent_at": "2026-10-29T23:36:46.850Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716416266"
+    },
+    {
+      "creative_id": "veluce-auto-20261030-d18d01031415",
+      "workflow": "veluce_editorial",
+      "title": "Layered Pergola Lighting for Poolside Dining",
+      "description": "A compact timber pergola uses concealed slat lighting, one focused pendant and quiet garden uplighting to make poolside dining feel like a real outdoor room. See how each layer supports shade, task light and atmosphere.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261028-e4.png",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-30",
+      "topic": "pergola",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "d18d01031415b49a984f536e0051381e0b79589f",
+      "source_path": "assets/pinterest/studio-editorial-pergola-20261028-e4.png",
+      "recorded_at": "2026-10-30T08:14:46.930Z",
+      "github_run_id": "41025119678"
     }
   ]
 }

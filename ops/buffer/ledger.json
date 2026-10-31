@@ -1341,6 +1341,24 @@
       "submitted_at": "2026-10-31T14:10:53.437Z",
       "sent_at": "2026-10-31T14:10:52.150Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716426793"
+    },
+    {
+      "creative_id": "veluce-auto-20261031-af42b8121a30",
+      "workflow": "veluce_editorial",
+      "title": "How to Uplight a Mature Tree Without Harsh Glare",
+      "description": "A mature olive tree becomes sculptural after dark when concealed ground lights reveal its trunk and canopy without flooding the whole garden. Explore restrained tree uplighting for depth, texture and a calmer nightscape.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261030-g1.jpg",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-10-31",
+      "topic": "tree-uplighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "af42b8121a30c73a1566d7298e2bafa5674030d7",
+      "source_path": "assets/pinterest/studio-editorial-tree-uplighting-20261030-g1.jpg",
+      "recorded_at": "2026-10-31T18:11:57.318Z",
+      "github_run_id": "41228164771"
     }
   ]
 }

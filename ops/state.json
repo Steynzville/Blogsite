@@ -1780,6 +1780,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae4745880f61ee519101428",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716424549",
+      "pin_id": "296815431716424549",
+      "published_at": "2026-10-31T04:06:10.278Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261029-f3.jpg",
+      "title": "A Fire-Pit Table That Anchors the Outdoor Lounge",
+      "description": "A low fire-pit table can define conversation, warmth and circulation in one move. This sunken stone lounge shows how a visible flame, generous seating and discreet step lighting create an inviting centre after sunset.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ae569301891472093b264a2",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

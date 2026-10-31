@@ -1810,6 +1810,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae5a2a6406ab8a018a79714",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716426793",
+      "pin_id": "296815431716426793",
+      "published_at": "2026-10-31T14:10:52.150Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261029-f4.jpg",
+      "title": "Layered Pergola Lighting for an Outdoor Dining Room",
+      "description": "A pergola feels like a true outdoor room when light works at several heights. Concealed beam lighting, focused pendants and soft planting light create a warm dining atmosphere without a harsh ceiling effect.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae5f6eacf3a3112f3a740f8",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

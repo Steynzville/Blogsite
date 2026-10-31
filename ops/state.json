@@ -1795,6 +1795,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ae569301891472093b264a2",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716425319",
+      "pin_id": "296815431716425319",
+      "published_at": "2026-10-31T08:11:19.485Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261029-f2.jpg",
+      "title": "Garden Pathway Lighting That Guides Every Step",
+      "description": "Good path lighting reveals changes of level without turning the garden into a runway. See how shielded low lights, warm step illumination and darker planting create a safer, more atmospheric route to the front door.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae5a2a6406ab8a018a79714",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -5,7 +5,7 @@ category: "Patio Decor"
 excerpt: "Discover how fire pit tables combine warmth, ambiance, and functionality — transforming patios into sophisticated evening gathering spaces."
 heroImage: "/images/fire-pit-tables.jpg"
 featured: true
-seoTitle: "Best Fire Pit Tables for Luxury Patios: Gas vs Wood Guide | VELUCE"
+seoTitle: "Fire Pit Tables: Gas vs Wood, Clearances & Layout | VELUCE"
 metaDescription: "Compare gas and wood fire pit tables, verify deck and overhead clearances, plan seating safely and choose accessories that match your burner."
 wordCount: 2583
 publishedAt: "2026-06-13T00:00:00.000000"
@@ -57,7 +57,7 @@ The first decision is how you want your fire to burn.
 |-----------|---------------|
 | Unlimited fuel supply | Requires professional gas line installation |
 | No tank refills | Fixed location — cannot be moved |
-| Clean burning, no smoke or ash | Lower BTU output than propane |
+| No wood ash and usually no visible wood smoke | Fixed-line installation and a model rated for natural gas are necessary |
 | Push-button or remote ignition | Higher upfront installation cost |
 
 **Best for:** A permanent, fully outdoor patio with a properly installed gas connection; *never assume a pergola, covered room or screened enclosure is approved for the appliance.*
@@ -66,7 +66,7 @@ The first decision is how you want your fire to burn.
 
 | Advantage | Consideration |
 |-----------|---------------|
-| High BTU output (more heat) | Requires tank refills or exchanges |
+| No permanent gas line for approved self-contained models | Requires refills and safe cylinder handling |
 | Portable — can be moved | Tank must be stored discreetly |
 | No professional gas line needed | Propane is heavier than air (safety considerations) |
 | Clean burning, no smoke or ash | Tanks visible unless hidden in base |

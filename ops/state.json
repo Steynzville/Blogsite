@@ -1840,6 +1840,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae62f6f37c1acd2a0c2f271",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716430521",
+      "pin_id": "296815431716430521",
+      "published_at": "2026-11-01T04:06:35.413Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261030-g3.jpg",
+      "title": "Fire Pit Seating That Makes Conversation Feel Natural",
+      "description": "A linear fire feature works best when seating distance, circulation and sightlines are planned together. Use this intimate sunken patio as inspiration for a fire-pit layout that feels warm, social and easy to move around.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6ae6baca1ee172cd6dda32d9",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

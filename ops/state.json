@@ -3260,7 +3260,33 @@
         "sources": [
           "https://nkba.org/planning-guidelines/",
           "https://nkba.org/news/member-industry-news/newly-updated-kitchen-bath-planning-guidelines/"
-        ]
+        ],
+        "imageryAcceptance": {
+          "heroImage": "/images/kitchen-layout.jpg",
+          "heroImageAlt": "Open-plan white kitchen with a large central island, timber ceiling beams, black pendant lights and warm under-cabinet lighting.",
+          "originalAssetExistsInRepository": true,
+          "originalAssetVisuallyInspected": true,
+          "existingInlineImages": 0,
+          "renderedByResponsiveArticleDetailComponent": true,
+          "liveInlineImageMarkupObserved": false,
+          "liveHeroImageVisualInspection": "not independently verified on live mobile/desktop browser"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalMarkdownSection": true,
+          "headingAppearsOnce": true,
+          "studioProductCtaBeforeClosing": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "liveClosingSectionObserved": false,
+          "liveCheckNote": "Live article URL was not retrievable by available public web reader; source and successful build/deployment confirmed."
+        },
+        "accessibilityQaFollowUp": {
+          "prNumber": 31,
+          "mergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
+          "qualityGatesRunId": 41287721039,
+          "deployRunId": 41288047258,
+          "verifiedDate": "2026-11-01"
+        }
       },
       {
         "weekStart": "2026-10-26",
@@ -3295,7 +3321,33 @@
         "sources": [
           "https://www.usfa.fema.gov/prevention/outdoor-fires/",
           "https://www.intertek.com/building/standards/ansi-z21-97/"
-        ]
+        ],
+        "imageryAcceptance": {
+          "heroImage": "/images/fire-pit-tables.jpg",
+          "heroImageAlt": "Rectangular gas fire pit table with flames over dark fire glass, surrounded by cream-cushioned lounge chairs beside a swimming pool.",
+          "originalAssetExistsInRepository": true,
+          "originalAssetVisuallyInspected": true,
+          "existingInlineImages": 2,
+          "renderedByResponsiveArticleDetailComponent": true,
+          "liveInlineImageMarkupObserved": true,
+          "liveHeroImageVisualInspection": "not independently verified on live mobile/desktop browser"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalMarkdownSection": true,
+          "headingAppearsOnce": true,
+          "studioProductCtaBeforeClosing": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "liveClosingSectionObserved": true,
+          "liveCheckNote": "Live article extraction confirms both closing links at the end."
+        },
+        "accessibilityQaFollowUp": {
+          "prNumber": 31,
+          "mergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
+          "qualityGatesRunId": 41287721039,
+          "deployRunId": 41288047258,
+          "verifiedDate": "2026-11-01"
+        }
       },
       {
         "weekStart": "2026-10-26",
@@ -3331,7 +3383,33 @@
         "sources": [
           "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/19.html",
           "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/02.html"
-        ]
+        ],
+        "imageryAcceptance": {
+          "heroImage": "/images/bedroom-lighting.jpg",
+          "heroImageAlt": "Neutral-toned bedroom with concealed ceiling cove lighting, softly glowing bedside lamps, a central pendant and a reading nook.",
+          "originalAssetExistsInRepository": true,
+          "originalAssetVisuallyInspected": true,
+          "existingInlineImages": 0,
+          "renderedByResponsiveArticleDetailComponent": true,
+          "liveInlineImageMarkupObserved": false,
+          "liveHeroImageVisualInspection": "not independently verified on live mobile/desktop browser"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalMarkdownSection": true,
+          "headingAppearsOnce": true,
+          "studioProductCtaBeforeClosing": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "liveClosingSectionObserved": false,
+          "liveCheckNote": "Live article URL was not retrievable by available public web reader; source and successful build/deployment confirmed."
+        },
+        "accessibilityQaFollowUp": {
+          "prNumber": 31,
+          "mergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
+          "qualityGatesRunId": 41287721039,
+          "deployRunId": 41288047258,
+          "verifiedDate": "2026-11-01"
+        }
       }
     ],
     "lastCompletedWeekStart": "2026-10-26",
@@ -3369,7 +3447,33 @@
       "sources": [
         "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/19.html",
         "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/02.html"
-      ]
+      ],
+      "imageryAcceptance": {
+        "heroImage": "/images/bedroom-lighting.jpg",
+        "heroImageAlt": "Neutral-toned bedroom with concealed ceiling cove lighting, softly glowing bedside lamps, a central pendant and a reading nook.",
+        "originalAssetExistsInRepository": true,
+        "originalAssetVisuallyInspected": true,
+        "existingInlineImages": 0,
+        "renderedByResponsiveArticleDetailComponent": true,
+        "liveInlineImageMarkupObserved": false,
+        "liveHeroImageVisualInspection": "not independently verified on live mobile/desktop browser"
+      },
+      "exploreMoreAcceptance": {
+        "exactFinalMarkdownSection": true,
+        "headingAppearsOnce": true,
+        "studioProductCtaBeforeClosing": true,
+        "shopUrl": "https://tr.ee/Sp8jyc",
+        "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+        "liveClosingSectionObserved": false,
+        "liveCheckNote": "Live article URL was not retrievable by available public web reader; source and successful build/deployment confirmed."
+      },
+      "accessibilityQaFollowUp": {
+        "prNumber": 31,
+        "mergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
+        "qualityGatesRunId": 41287721039,
+        "deployRunId": 41288047258,
+        "verifiedDate": "2026-11-01"
+      }
     },
     "minimumPerWeek": 3,
     "lastWeekSummary": {
@@ -3385,7 +3489,18 @@
       ],
       "prNumber": 30,
       "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
-      "deployRunId": 41278566116
+      "deployRunId": 41278566116,
+      "imageryAndExploreMoreQa": {
+        "status": "source_visual_and_build_passed_article_specific_live_visual_pending",
+        "followUpPr": 31,
+        "followUpMergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
+        "qualityGatesRunId": 41287721039,
+        "deployRunId": 41288047258,
+        "sourceAssetsVisuallyInspected": 3,
+        "exactClosingSectionsVerifiedInMarkdown": 3,
+        "liveClosingSectionsVerified": 1,
+        "remainingLimitation": "Separate Android/mobile visual acceptance and live hero-image rendering for the three article pages were not independently inspected; live kitchen and bedroom page extraction unavailable."
+      }
     }
   }
 }

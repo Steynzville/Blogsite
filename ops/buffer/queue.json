@@ -211,6 +211,18 @@
       "buffer_post_id": "6ae487c280f61ee51916be99",
       "sent_at": "2026-10-30T12:04:19.568Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716419577"
+    },
+    {
+      "creative_id": "studio-product-outdoor-lighting-blueprint-c5-20261101",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Outdoor Lighting Blueprint",
+      "title": "Outdoor Entry Lighting: Create a Safer Welcome Without Harsh Glare",
+      "description": "Does your front path feel harsh even when it is bright enough? Plan arrival as a sequence: reveal the gate, mark level changes, wash one architectural surface and conceal the light sources. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System to help homeowners audit the night, define the effect, compare fixtures and plan before purchasing. Explore the complete digital outdoor lighting resource.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c5-20261101.jpg",
+      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

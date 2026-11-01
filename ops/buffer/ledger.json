@@ -1385,6 +1385,24 @@
       "submitted_at": "2026-11-01T04:06:36.596Z",
       "sent_at": "2026-11-01T04:06:35.413Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716430521"
+    },
+    {
+      "creative_id": "veluce-auto-20261101-c2dc0c0abaf6",
+      "workflow": "veluce_editorial",
+      "title": "Garden Pathway Lighting That Guides Without Glare",
+      "description": "Warm shielded step and path lights make a sloping garden safer while preserving the atmosphere of the planting. See how spacing, direction and contrast can guide movement without over-lighting the landscape.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261030-g2.jpg",
+      "destination_url": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-01",
+      "topic": "pathway-lighting",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "c2dc0c0abaf6b10e018e2989c7284582a48e5a20",
+      "source_path": "assets/pinterest/studio-editorial-pathway-lighting-20261030-g2.jpg",
+      "recorded_at": "2026-11-01T08:12:12.396Z",
+      "github_run_id": "41287832594"
     }
   ]
 }

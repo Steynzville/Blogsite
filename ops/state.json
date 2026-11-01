@@ -1870,6 +1870,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae6f45ef0984eef33543a52",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716432651",
+      "pin_id": "296815431716432651",
+      "published_at": "2026-11-01T14:10:56.694Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261030-g4.jpg",
+      "title": "Layered Pergola Lighting for Outdoor Dining",
+      "description": "Concealed beam lighting and restrained pendants give this timber pergola both ambient glow and useful light over the table. Explore how layered pergola lighting can turn a compact patio into a convincing outdoor room.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae7486f37c1acd2a00a98bc",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

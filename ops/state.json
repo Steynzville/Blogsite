@@ -1885,6 +1885,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae7486f37c1acd2a00a98bc",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716434127",
+      "pin_id": "296815431716434127",
+      "published_at": "2026-11-01T18:11:53.929Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261101-h1.jpg",
+      "title": "Tree Uplighting That Reveals Texture Without Harsh Glare",
+      "description": "Want a mature garden tree to feel sculptural after dark? Use concealed uplights from more than one angle, soften the beam through surrounding planting and keep fittings below normal sightlines for depth without glare.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae780e8d27d61fd6605500c",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

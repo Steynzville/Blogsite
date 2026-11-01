@@ -3198,49 +3198,167 @@
           "https://www.ledvance.com/00_Free_To_Use/asset-10795714_LEDVANCE_LED_Strip_System_-_Wave_2_-_Fall_2020_EN.pdf",
           "https://www.esfi.org/ground-fault-circuit-interrupters-gfci/"
         ]
+      },
+      {
+        "weekStart": "2026-10-26",
+        "weekEnd": "2026-11-01",
+        "status": "completed",
+        "refreshDate": "2026-11-01",
+        "articleSlug": "kitchen-design-layout",
+        "articleTitle": "Kitchen Design and Layout Planning",
+        "articleUrl": "https://velucedesign.com/article/kitchen-design-layout/",
+        "selectionReason": "Outdated broad island clearance and seating advice, misleading fixed global renovation cost/ROI, and a stale related-article slug; Veluce Search Console not connected in this run.",
+        "substantiveChanges": [
+          "Rebuilt work-aisle, circulation, island and occupied-seating advice against NKBA guidance",
+          "Added a 4,100 mm room fit calculation, door-open walk-through and five-minute mock-up",
+          "Removed universal kitchen price/ROI and counter-percentage claims; corrected related-article slug",
+          "Updated six sections and synchronized frontmatter FAQs and metadata"
+        ],
+        "affiliateMonetisation": {
+          "existingShortlinksRetained": [
+            "pull-out-cabinet",
+            "drawer-dividers",
+            "under-sink-organizer"
+          ],
+          "exactExistingLinksPreserved": true,
+          "independentProductEligibilityOrCommissionVerification": false,
+          "disclosureConfirmedByBuildValidation": true,
+          "complementaryVeluceProduct": "Designer Brief Builder"
+        },
+        "prNumber": 30,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/30",
+        "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
+        "validation": "GitHub quality gates run 41278197735: TypeScript, tests, ops:audit, production build, ops:validate, standard desktop/mobile screenshots and artifact upload all passed.",
+        "deployment": "GitHub Pages workflow_dispatch run 41278566116 succeeded for exact merged commit. Independent live read-only checks: HTTP 200, canonical, meta title/description, indexable, HTTPS for this article. Selected-article mobile visual inspection not performed.",
+        "sources": [
+          "https://nkba.org/planning-guidelines/",
+          "https://nkba.org/news/member-industry-news/newly-updated-kitchen-bath-planning-guidelines/"
+        ]
+      },
+      {
+        "weekStart": "2026-10-26",
+        "weekEnd": "2026-11-01",
+        "status": "completed",
+        "refreshDate": "2026-11-01",
+        "articleSlug": "fire-pit-tables-centerpiece",
+        "articleTitle": "Fire Pit Tables: The New Centerpiece of Luxury Outdoor Living",
+        "articleUrl": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+        "selectionReason": "Unsafe deck-mat assurance and fixed clearance rules across appliances, unsupported gas/BTU warmth comparisons; no reliable Veluce GSC page metrics in this run.",
+        "substantiveChanges": [
+          "Replaced universal combustible-clearance values with exact model/listing/local-rule checklist",
+          "Expanded deck, overhead, CO, children, gas line and fuel/media safety requirements",
+          "Added two-pass safety-envelope/occupied-seating layout assessment and revised FAQs",
+          "Removed misleading fuel-specific BTU claims; updated metadata and buying advice"
+        ],
+        "affiliateMonetisation": {
+          "existingShortlinksRetained": [
+            "fire-pit-cover",
+            "fire-glass"
+          ],
+          "exactExistingLinksPreserved": true,
+          "independentProductEligibilityOrCommissionVerification": false,
+          "disclosureConfirmedByBuildValidation": true,
+          "complementaryVeluceProduct": "Luxury Outdoor Room Planner"
+        },
+        "prNumber": 30,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/30",
+        "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
+        "validation": "GitHub quality gates run 41278197735: TypeScript, tests, ops:audit, production build, ops:validate, standard desktop/mobile screenshots and artifact upload all passed.",
+        "deployment": "GitHub Pages workflow_dispatch run 41278566116 succeeded for exact merged commit. Independent live read-only checks: HTTP 200, canonical, meta title/description, indexable, HTTPS for this article. Selected-article mobile visual inspection not performed.",
+        "sources": [
+          "https://www.usfa.fema.gov/prevention/outdoor-fires/",
+          "https://www.intertek.com/building/standards/ansi-z21-97/"
+        ]
+      },
+      {
+        "weekStart": "2026-10-26",
+        "weekEnd": "2026-11-01",
+        "status": "completed",
+        "refreshDate": "2026-11-01",
+        "articleSlug": "layered-lighting-bedroom",
+        "articleTitle": "Layered Lighting for the Perfect Bedroom Retreat",
+        "articleUrl": "https://velucedesign.com/article/layered-lighting-bedroom/",
+        "selectionReason": "Overconfident circadian/sleep and fixed Kelvin/brightness rules, absolute universal dimmer requirement; practical lighting testing was underdeveloped.",
+        "substantiveChanges": [
+          "Reframed colour temperature using brightness, glare, timing and CDC/NIOSH guidance",
+          "Replaced fixed 1–5% night-light requirement with safe occupant-specific path testing",
+          "Added reading, wind-down and night three-scene scorecard and control compatibility",
+          "Corrected synchronized FAQs, metadata and installation guidance"
+        ],
+        "affiliateMonetisation": {
+          "existingShortlinksRetained": [
+            "motion-night-light",
+            "picture-light",
+            "smart-dimmer"
+          ],
+          "exactExistingLinksPreserved": true,
+          "independentProductEligibilityOrCommissionVerification": false,
+          "disclosureConfirmedByBuildValidation": true,
+          "complementaryVeluceProduct": "Luxury Lighting Formula"
+        },
+        "prNumber": 30,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/30",
+        "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
+        "validation": "GitHub quality gates run 41278197735: TypeScript, tests, ops:audit, production build, ops:validate, standard desktop/mobile screenshots and artifact upload all passed.",
+        "deployment": "GitHub Pages workflow_dispatch run 41278566116 succeeded for exact merged commit. Independent live read-only checks: HTTP 200, canonical, meta title/description, indexable, HTTPS for this article. Selected-article mobile visual inspection not performed.",
+        "sources": [
+          "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/19.html",
+          "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/02.html"
+        ]
       }
     ],
-    "lastCompletedWeekStart": "2026-10-19",
+    "lastCompletedWeekStart": "2026-10-26",
     "lastRun": {
-      "weekStart": "2026-10-19",
-      "weekEnd": "2026-10-25",
+      "weekStart": "2026-10-26",
+      "weekEnd": "2026-11-01",
       "status": "completed",
-      "refreshDate": "2026-10-25",
-      "articleSlug": "led-strip-integration-modern-deck",
-      "articleTitle": "Outdoor LED Strip Lights: Choose Voltage, Weather Rating and Placement",
-      "articleUrl": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
-      "selectionReason": "Google Search Console web performance 2026-08-01 through 2026-10-21: canonical URL 180 impressions, 0 clicks, average position 9.44; query-level data largely anonymized. Substantive unverified safety/product claims required correction.",
+      "refreshDate": "2026-11-01",
+      "articleSlug": "layered-lighting-bedroom",
+      "articleTitle": "Layered Lighting for the Perfect Bedroom Retreat",
+      "articleUrl": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "selectionReason": "Overconfident circadian/sleep and fixed Kelvin/brightness rules, absolute universal dimmer requirement; practical lighting testing was underdeveloped.",
       "substantiveChanges": [
-        "Rebuilt voltage, solar, IP-rating and installation guidance with manufacturer-specific caveats",
-        "Added 6m 24V worked wattage/current/driver-planning example and sourcing checklist",
-        "Improved COB/diffuser/glare, siting, maintenance and 7 FAQ answers",
-        "Retained exact existing Short.io affiliate product-category links with verification caveats and preserved Outdoor Lighting Blueprint CTA"
+        "Reframed colour temperature using brightness, glare, timing and CDC/NIOSH guidance",
+        "Replaced fixed 1–5% night-light requirement with safe occupant-specific path testing",
+        "Added reading, wind-down and night three-scene scorecard and control compatibility",
+        "Corrected synchronized FAQs, metadata and installation guidance"
       ],
       "affiliateMonetisation": {
-        "approvedExistingRegistrySlugsRetained": [
-          "TUYAcobLED",
-          "24vDCplugLED",
-          "SolarLED",
-          "SolarStep",
-          "SolarInground",
-          "SolarWall",
-          "SolarSpot"
+        "existingShortlinksRetained": [
+          "motion-night-light",
+          "picture-light",
+          "smart-dimmer"
         ],
-        "existingRegistryUsed": true,
-        "independentListingOrCommissionVerification": false,
-        "disclosureConfirmedByStaticValidation": true,
-        "complementaryStudioProduct": "Outdoor Lighting Blueprint"
+        "exactExistingLinksPreserved": true,
+        "independentProductEligibilityOrCommissionVerification": false,
+        "disclosureConfirmedByBuildValidation": true,
+        "complementaryVeluceProduct": "Luxury Lighting Formula"
       },
-      "prNumber": 28,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/28",
-      "mergeCommit": "ad62c3e5a99f630cc41ddca7dcd1becfadc3d1c7",
-      "validation": "GitHub quality gates run 40176183175: passed TypeScript, tests, ops:audit, production build, ops:validate and automated desktop/mobile screenshots (general review pages, not article-specific).",
-      "deployment": "GitHub Pages run 40176533056 completed successfully for exact merge commit. Live article URL returned HTTP 200 and scanner detected H1, canonical, indexable status, new 66-character title and 145-character meta description (25 Oct 2026). Manual article-specific mobile visual acceptance not independently performed.",
+      "prNumber": 30,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/30",
+      "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
+      "validation": "GitHub quality gates run 41278197735: TypeScript, tests, ops:audit, production build, ops:validate, standard desktop/mobile screenshots and artifact upload all passed.",
+      "deployment": "GitHub Pages workflow_dispatch run 41278566116 succeeded for exact merged commit. Independent live read-only checks: HTTP 200, canonical, meta title/description, indexable, HTTPS for this article. Selected-article mobile visual inspection not performed.",
       "sources": [
-        "https://webstore.iec.ch/en/publication/2452",
-        "https://www.ledvance.com/00_Free_To_Use/asset-10795714_LEDVANCE_LED_Strip_System_-_Wave_2_-_Fall_2020_EN.pdf",
-        "https://www.esfi.org/ground-fault-circuit-interrupters-gfci/"
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/19.html",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/02.html"
       ]
+    },
+    "minimumPerWeek": 3,
+    "lastWeekSummary": {
+      "weekStart": "2026-10-26",
+      "weekEnd": "2026-11-01",
+      "status": "completed",
+      "minimumRequired": 3,
+      "verifiedCompleted": 3,
+      "articleSlugs": [
+        "kitchen-design-layout",
+        "fire-pit-tables-centerpiece",
+        "layered-lighting-bedroom"
+      ],
+      "prNumber": 30,
+      "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
+      "deployRunId": 41278566116
     }
   }
 }

@@ -1910,8 +1910,10 @@
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 5,
     "last_product": "Complete Home Design System",
-    "completed_products": [],
-    "next_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -2647,6 +2649,48 @@
           "Complete Home Design System"
         ],
         "next_product": "Outdoor Lighting Blueprint"
+      },
+      {
+        "creative_id": "studio-product-outdoor-lighting-blueprint-c5-20261101",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 5,
+        "submission_date": "2026-11-01",
+        "status": "sent_buffer_confirmed",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-outdoor-lighting-blueprint-c5-20261101.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c5-20261101.jpg",
+        "original_reference": {
+          "file_name": "101280(1).png",
+          "library_file_id": "libfile_1809f25c76b8819194c4aedace76d781",
+          "file_id": "file_000000000898821184003c9a57472f3a",
+          "width": 1024,
+          "height": 1536
+        },
+        "reference_set_id": "veluce_2x3_covers_20261005",
+        "creative_concept": "Blue-hour front arrival viewed through a slatted timber gate: a narrow limestone bridge crosses a planted rain garden toward a warm oak entry, with concealed step light, mature-tree uplight and restrained wall wash; exact product title.",
+        "hook": "Arrive Without Glare",
+        "marketing_angle": "Treat the front approach as a sequence—gate, level change, architectural surface and entry—so useful light creates a calm welcome without exposed glare.",
+        "title": "Outdoor Entry Lighting: Create a Safer Welcome Without Harsh Glare",
+        "description": "Does your front path feel harsh even when it is bright enough? Plan arrival as a sequence: reveal the gate, mark level changes, wash one architectural surface and conceal the light sources. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System to help homeowners audit the night, define the effect, compare fixtures and plan before purchasing. Explore the complete digital outdoor lighting resource.",
+        "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+        "board": "Outdoor Lighting Ideas",
+        "board_service_id": "296815500381477417",
+        "alt_text_saved": false,
+        "buffer_post_id": "6ae72b1521c807e9d5b8da18",
+        "published_at": "2026-11-01",
+        "published_at_timestamp": "2026-11-01T12:05:42.299Z",
+        "published_at_local": "2026-11-01T14:05:42.299+02:00",
+        "pin_id": "296815431716432019",
+        "pin_url": "https://www.pinterest.com/pin/296815431716432019",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/jpeg fully re-downloaded at 229211 bytes, SOI/EOI valid, PIL full decode at 1024x1536, SHA-256 1186f042d294aadded48e29f97a04eeaf84c7730ddbc3561f480ab742ed30e20, and fetched pixels visually inspected. Product page loaded and current 4-Axis Nightscape System content verified. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint"
+        ],
+        "next_product": "Luxury Outdoor Room Planner"
       }
     ],
     "archived_history": [
@@ -2762,24 +2806,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "local_date": "2026-11-01",
-      "product": "Outdoor Lighting Blueprint",
-      "cycle": 5,
-      "creative_id": "studio-product-outdoor-lighting-blueprint-c5-20261101",
-      "status": "buffer_submitted",
-      "image_filename": "studio-product-outdoor-lighting-blueprint-c5-20261101.jpg",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-outdoor-lighting-blueprint-c5-20261101.jpg",
-      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
-      "board": "Outdoor Lighting Ideas",
-      "board_service_id": "296815500381477417",
-      "title": "Outdoor Entry Lighting: Create a Safer Welcome Without Harsh Glare",
-      "description": "Does your front path feel harsh even when it is bright enough? Plan arrival as a sequence: reveal the gate, mark level changes, wash one architectural surface and conceal the light sources. Veluce Studio’s Outdoor Lighting Blueprint uses the 4-Axis Nightscape System to help homeowners audit the night, define the effect, compare fixtures and plan before purchasing. Explore the complete digital outdoor lighting resource.",
-      "recorded_at": "2026-11-01T12:01:00Z",
-      "buffer_post_id": "6ae72b1521c807e9d5b8da18",
-      "submitted_at": "2026-11-01T12:05:43.455Z",
-      "github_run_id": "41304795051"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

@@ -4,6 +4,7 @@ slug: "fire-pit-tables-centerpiece"
 category: "Patio Decor"
 excerpt: "Discover how fire pit tables combine warmth, ambiance, and functionality — transforming patios into sophisticated evening gathering spaces."
 heroImage: "/images/fire-pit-tables.jpg"
+heroImageAlt: "Rectangular gas fire pit table with flames over dark fire glass, surrounded by cream-cushioned lounge chairs beside a swimming pool."
 featured: true
 seoTitle: "Fire Pit Tables: Gas vs Wood, Clearances & Layout | VELUCE"
 metaDescription: "Compare gas and wood fire pit tables, verify deck and overhead clearances, plan seating safely and choose accessories that match your burner."

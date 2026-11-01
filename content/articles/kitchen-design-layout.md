@@ -4,6 +4,7 @@ slug: "kitchen-design-layout"
 category: "Kitchen Essentials"
 excerpt: "The finest kitchens are not designed for a single cook or a single purpose. They are designed for life — accommodating family meals, entertaining, quiet mornings, and festive gatherings with equal grace."
 heroImage: "/images/kitchen-layout.jpg"
+heroImageAlt: "Open-plan white kitchen with a large central island, timber ceiling beams, black pendant lights and warm under-cabinet lighting."
 featured: false
 seoTitle: "Luxury Kitchen Design and Layout | VELUCE"
 metaDescription: "Plan a kitchen that works: realistic island clearances, cooking zones, appliance-door tests, storage decisions and a practical layout checklist."

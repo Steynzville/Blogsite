@@ -1418,8 +1418,10 @@
       "board_service_id": "296815500381477417",
       "buffer_post_id": "6ae72b1521c807e9d5b8da18",
       "publish_at": "2026-11-01T12:05:43.455Z",
-      "status": "submitted_now_verified",
-      "recorded_at": "2026-11-01T12:05:43.455Z"
+      "status": "sent_buffer_confirmed",
+      "recorded_at": "2026-11-01T12:05:43.455Z",
+      "sent_at": "2026-11-01T12:05:42.299Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716432019"
     }
   ]
 }

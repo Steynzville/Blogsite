@@ -4,6 +4,7 @@ slug: "layered-lighting-bedroom"
 category: "Luxury Interiors"
 excerpt: "Bedrooms are not designed for a single moment. They are designed for transitions — between waking and sleeping, activity and rest, energy and calm."
 heroImage: "/images/bedroom-lighting.jpg"
+heroImageAlt: "Neutral-toned bedroom with concealed ceiling cove lighting, softly glowing bedside lamps, a central pendant and a reading nook."
 featured: false
 seoTitle: "Bedroom Lighting Design | Layered Lighting for Luxury Spaces | VELUCE"
 metaDescription: "Create bedroom lighting that works for reading, dressing, winding down and night-time movement with three tested scenes and practical fixture choices."

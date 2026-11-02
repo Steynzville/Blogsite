@@ -1915,6 +1915,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6ae80c4e759fc887b6c89347",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716440600",
+      "pin_id": "296815431716440600",
+      "published_at": "2026-11-02T08:15:08.825Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pathway-lighting-20261101-h2.jpg",
+      "title": "Garden Path Lighting That Guides Without the Runway Effect",
+      "description": "Does your path lighting feel too bright or repetitive? Alternate shielded lights, mark changes in level and let the route lead toward one warm destination so the garden remains atmospheric and easy to navigate.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae8468b76279ec7eb9f6d1a",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

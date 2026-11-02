@@ -1547,6 +1547,29 @@
       "submitted_at": "2026-11-02T14:15:15.642Z",
       "sent_at": "2026-11-02T14:39:02.012Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716442102"
+    },
+    {
+      "creative_id": "veluce-auto-20261102-bc9feb92bd37",
+      "workflow": "veluce_editorial",
+      "title": "Tree Uplighting That Makes Bark the Night-Time Feature",
+      "description": "Want a mature tree to carry the garden after dark? Aim concealed warm beams across textured bark from different angles, then leave the surrounding canopy quieter so the trunk becomes the focal layer without glare.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-tree-uplighting-20261102-i1.jpg",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-02",
+      "topic": "tree-uplighting",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "3487152833194786112",
+        "name": "Architectural Lighting & Outdoor Glow"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "bc9feb92bd37a9bee7eea21a7247e1f1a444e908",
+      "source_path": "assets/pinterest/studio-editorial-tree-uplighting-20261102-i1.jpg",
+      "recorded_at": "2026-11-02T18:13:32.986Z",
+      "github_run_id": "41498470128"
     }
   ]
 }

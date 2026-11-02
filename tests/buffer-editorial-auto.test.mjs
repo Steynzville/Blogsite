@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
-import {localDate,dimensions,chooseAsset,TOPICS} from "../scripts/veluce/buffer-editorial-auto.mjs";
+import {localDate,dimensions,chooseAsset,performanceScores,TOPICS} from "../scripts/veluce/buffer-editorial-auto.mjs";
 
 test("South African local day is used for four daily slots",()=>{
   assert.equal(localDate(new Date("2026-10-18T22:30:00Z")),"2026-10-19");
@@ -132,4 +132,32 @@ test("Approved provenance is explicitly recorded for all curated source files",a
      assert.ok(asset.visual_review_method && asset.visual_description && (asset.visually_verified || asset.integrity_status==="rejected_truncated_png"));
    }
  }
+});
+
+test("Additional article topics retain verified live slugs and subject boards",()=>{
+  assert.equal(TOPICS["copper-lanterns"].path,"/article/copper-lanterns-age-with-grace/");
+  assert.equal(TOPICS["led-deck-strips"].path,"/article/led-strip-integration-modern-deck/");
+  assert.equal(TOPICS["tree-moonlighting"].path,"/article/moonlighting-tree-canopies/");
+  for(const t of ["copper-lanterns","led-deck-strips","tree-moonlighting"])
+    assert.equal(TOPICS[t].board,"Outdoor Lighting Ideas");
+});
+test("An unapproved creative cannot be selected regardless of outbound-click score",()=>{
+  const p={path:"assets/pinterest/a.jpg",topic:"copper-lanterns",visually_verified:false,sha:"a"};
+  assert.equal(chooseAsset([p],[],"2026-11-02",new Set([p.path]),{"copper-lanterns":0.9}),null);
+});
+test("Organic click evidence breaks ties but cannot override daily diversity or stale-data guard",async()=>{
+  const data=JSON.parse(await readFile("ops/buffer/editorial-performance.json","utf8"));
+  const scores=performanceScores(data,"2026-11-02");
+  assert.ok(scores["copper-lanterns"]>scores.pergola);
+  const x=[
+    {path:"assets/pinterest/a.jpg",topic:"copper-lanterns",sha:"a",origin:"work-generated",visually_verified:true},
+    {path:"assets/pinterest/b.jpg",topic:"pergola",sha:"b",origin:"work-generated",visually_verified:true}
+  ];
+  const paths=new Set(x.map(p=>p.path));
+  assert.equal(chooseAsset(x,[],"2026-11-02",paths,scores).topic,"copper-lanterns");
+  assert.equal(chooseAsset(x,[{workflow:"veluce_editorial",local_date:"2026-11-02",topic:"copper-lanterns",image_url:"old"}],"2026-11-02",paths,scores).topic,"pergola");
+  assert.deepEqual(performanceScores(data,"2027-01-15"),{});
+  const corrupted=structuredClone(data);
+  corrupted.topics["copper-lanterns"].impressions+=1000;
+  assert.equal(performanceScores(corrupted,"2026-11-02")["copper-lanterns"],undefined);
 });

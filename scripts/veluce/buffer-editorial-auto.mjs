@@ -12,6 +12,7 @@ const LEDGER="ops/buffer/ledger.json";
 const MANIFEST="ops/buffer/editorial-assets.json";
 const BOARDS="ops/buffer/boards.json";
 const STATE="ops/state.json";
+const PERFORMANCE="ops/buffer/editorial-performance.json";
 const EDITORIAL="veluce_editorial";
 const LIMIT=4;
 const URL_BASE="https://raw.githubusercontent.com/Steynzville/Blogsite/main/";
@@ -35,7 +36,10 @@ export const TOPICS={
     path:"/article/fire-pit-tables-centerpiece/",
     board:"Garden & Patio Ideas & Finds 🔥",
     description:"A thoughtfully placed fire pit table can bring seating, warmth and conversation together. Explore practical patio layout, furniture spacing and fire pit design ideas in Veluce's outdoor living guide."
-  }
+  },
+  "copper-lanterns":{path:"/article/copper-lanterns-age-with-grace/",board:"Outdoor Lighting Ideas",description:"Compare copper lantern patina, maintenance, material choices and buying considerations in Veluce's outdoor lighting guide."},
+  "led-deck-strips":{path:"/article/led-strip-integration-modern-deck/",board:"Outdoor Lighting Ideas",description:"Compare outdoor LED strip placement, 12V/24V, weather exposure and glare before deciding what to install around your deck."},
+  "tree-moonlighting":{path:"/article/moonlighting-tree-canopies/",board:"Outdoor Lighting Ideas",description:"See how controlled tree moonlighting creates gentle, useful garden lighting without harsh or exposed beams."}
 };
 export function localDate(now=new Date()){
   const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Johannesburg",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
@@ -89,7 +93,38 @@ export function dimensions(b){
   }
   throw new Error("Unsupported or invalid image");
 }
-export function chooseAsset(items,ledger,day,validPaths){
+
+// Only truthful, recent, sampled Pinterest organic clicks on the exact VELUCE
+// article qualify. Invalid or stale evidence must not block publishing.
+export function performanceScores(data,day){
+  if(!data || !/^\d{4}-\d{2}-\d{2}$/.test(data.window_end??""))return {};
+  const age=(Date.parse(day+"T00:00:00Z")-Date.parse(data.window_end+"T00:00:00Z"))/86400000;
+  if(!Number.isFinite(age)||age<0||age>35)return {};
+  const scores={};
+  for(const [topic,row] of Object.entries(data.topics??{})){
+    if(!TOPICS[topic]||!Array.isArray(row.pins)||row.pins.length===0)continue;
+    if(!Number.isSafeInteger(row.impressions)||row.impressions<1000||
+       !Number.isSafeInteger(row.outbound_clicks)||row.outbound_clicks<3||
+       row.outbound_clicks>row.impressions)continue;
+    if(row.pins.some(p=>{
+      try{
+        const u=new URL(p.destination_url);
+        return u.hostname!=="velucedesign.com"||
+          u.pathname.replace(/\/?$/,"/")!==TOPICS[topic].path||
+          !/^https:\/\/www\.pinterest\.com\/pin\/\d+\/?$/.test(p.pin_url)||
+          !Number.isSafeInteger(p.impressions)||p.impressions<0||
+          !Number.isSafeInteger(p.outbound_clicks)||p.outbound_clicks<0;
+      }catch{return true}
+    }))continue;
+    if(row.pins.reduce((n,p)=>n+p.impressions,0)!==row.impressions||
+       row.pins.reduce((n,p)=>n+p.outbound_clicks,0)!==row.outbound_clicks)continue;
+    // Bayesian smoothing toward account-wide 0.06% baseline.
+    scores[topic]=(row.outbound_clicks+3)/(row.impressions+5000);
+  }
+  return scores;
+}
+
+export function chooseAsset(items,ledger,day,validPaths,performance={}){
   const historical=new Set(ledger.map(x=>x.source_blob_sha).filter(Boolean));
   const images=new Set(ledger.map(x=>x.image_url).filter(Boolean));
   const pending=new Set(ledger.map(x=>x.creative_id).filter(Boolean));
@@ -103,11 +138,16 @@ export function chooseAsset(items,ledger,day,validPaths){
   const today=ledger.filter(x=>x.workflow===EDITORIAL && x.local_date===day);
   const count=new Map(Object.keys(TOPICS).map(k=>[k,today.filter(x=>x.topic===k).length]));
   const last=[...ledger].reverse().find(x=>x.workflow===EDITORIAL)?.topic;
+  const cutoff=new Date(Date.parse(day+"T00:00:00Z")-6*86400000).toISOString().slice(0,10);
+  const recent=ledger.filter(x=>x.workflow===EDITORIAL && x.local_date>=cutoff && x.local_date<=day);
+  const weekCount=new Map(Object.keys(TOPICS).map(k=>[k,recent.filter(x=>x.topic===k).length]));
   // User-supplied, individually approved artwork always publishes before Work-generated reserves.
   const priority=x=>x.origin==="owner-upload"?0:x.origin==="work-generated"?1:2;
   candidate.sort((a,b)=>(priority(a)-priority(b))||
     ((count.get(a.topic)??0)-(count.get(b.topic)??0))||
     (a.topic===last?1:0)-(b.topic===last?1:0)||
+    ((weekCount.get(a.topic)??0)-(weekCount.get(b.topic)??0))||
+    ((performance[b.topic]??0)-(performance[a.topic]??0))||
     a.path.localeCompare(b.path));
   return candidate[0]??null;
 }
@@ -175,6 +215,10 @@ async function run(mode){
   const discovered=await readdir("assets/pinterest");
   const paths=new Set(discovered.map(n=>"assets/pinterest/"+n));
   const today=localDate();
+  let performance={};
+  try {
+    performance=performanceScores(JSON.parse(await readFile(PERFORMANCE,"utf8")),today);
+  }catch(e){console.log("Optional click evidence unavailable; retaining safe rotation: "+e.message)}
   const entries=[];
   for(const v of manifest){
     if(!v.visually_verified)continue;
@@ -187,9 +231,10 @@ async function run(mode){
     entries.push({...v,...dim,sha:git(["hash-object",v.path])});
   }
   let todayCount=(ledger.posts??[]).filter(x=>x.workflow===EDITORIAL && x.local_date===today).length;
-  const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)));
+  const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance);
   console.log(JSON.stringify({mode,local_date:today,already_reserved_or_sent:todayCount,
     remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===URL_BASE+x.path)).length,
+    recent_click_evidence_topics:Object.keys(performance),
     next:selected?{path:selected.path,topic:selected.topic,board:TOPICS[selected.topic].board}:null}));
   if(mode==="validate")return;
   if(mode!=="publish")throw new Error("Unsupported mode "+mode);
@@ -203,7 +248,7 @@ async function run(mode){
   todayCount=(ledger.posts??[]).filter(x=>x.workflow===EDITORIAL&&x.local_date===today).length;
   if(todayCount>=LIMIT){console.log("Four editorial Pin submissions already reserved today.");return}
   const used=new Set((ledger.posts??[]).map(x=>x.image_url));
-  const asset=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)));
+  const asset=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance);
   if(!asset){console.log("::warning::No individually visually verified unused images available. Do not post based on unverified batch labels.");return}
   const topic=TOPICS[asset.topic];
   const boardData=JSON.parse(await readFile(BOARDS,"utf8"));

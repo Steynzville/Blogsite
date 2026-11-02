@@ -3275,6 +3275,19 @@
       "status": "in_trash",
       "verified": false,
       "verification_note": "Rechecked 2 November 2026: permalink displays 'Only you can see posts in your Trash'. Connected Facebook Page feed also omits this post. Prior published status is no longer current. No restoration or replacement attempted because removal intent is unknown; duplicate protection preserved."
+    },
+    {
+      "date": "2026-11-02",
+      "destination": "Veluce Studio Page",
+      "content_type": "photo-led actionable design advice",
+      "topic": "Compare real finish samples together in daylight and evening lighting",
+      "veluce_url": "https://velucedesign.com/article/natural-stone-materials/",
+      "post_url": "https://www.facebook.com/122113949439497940/posts/122117645391497940",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true,
+      "image_url": "https://velucedesign.com/images/stone-materials.jpg",
+      "verification_note": "Owner explicitly requested replacement after deleting text-only original. API verified is_published=true, author Page 1380934031768194, complete caption and photo attachment (1080x720). Live linked guide and source image inspected before publication."
     }
   ],
   "conversion_followup_20261015": {

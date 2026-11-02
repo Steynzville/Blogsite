@@ -9,6 +9,9 @@ import { pathToFileURL } from "node:url";
 const ENDPOINT = "https://api.buffer.com";
 const QUEUE = "ops/buffer/queue.json";
 const LEDGER = "ops/buffer/ledger.json";
+// Independently verified deleted Pinterest boards remain visible in Buffer cache.
+// Deny them before even creating a draft, for BOTH editorial and product Pins.
+const RETIRED_BOARD_IDS = new Set(["296815500381471059"]);
 
 export const operations = {
   organizations: `query { account { organizations { id name } } }`,
@@ -27,6 +30,7 @@ export function validatePin(pin) {
   if (!title || title.length > 100 || title.trim() !== title) throw new Error("Title must be 1-100 characters");
   if (!description || description.length > 500 || description.trim() !== description) throw new Error("Description must be 1-500 characters");
   if (!board || !/^[0-9]+$/.test(String(board))) throw new Error("Use a real numeric Pinterest board_service_id from Buffer discovery");
+  if (RETIRED_BOARD_IDS.has(String(board))) throw new Error("Pinterest board was deleted; retired board ID is blocked");
   let imageUrl, destinationUrl;
   try { imageUrl = new URL(image); destinationUrl = new URL(destination); } catch { throw new Error("Invalid Pin URL"); }
   if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/(?:pinterest|pinterest-products)\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)

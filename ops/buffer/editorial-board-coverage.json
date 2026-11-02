@@ -3,7 +3,7 @@
   "discovered_at": "2026-11-02",
   "pinterest_username": "steynenslin",
   "channel_id": "6ad4eda5778b240e2f4a6312",
-  "notes": "13 actual boards; All Pins is not a board. Every board is inventoried. Only topic-matched approved source images + live destination can publish. Buffer cannot currently address board sections; sections below are advisory for future verified native placement, NOT proof of section publication. Never put non-Amazon content in Amazon Finds. Affiliate board Pins must land on truthful relevant VELUCE purchasing guides; direct unsupported affiliate destinations remain prohibited.",
+  "notes": "12 active boards; All Pins is not a board. Every board is inventoried. Only topic-matched approved source images + live destination can publish. Buffer cannot currently address board sections; sections below are advisory for future verified native placement, NOT proof of section publication. Never put non-Amazon content in Amazon Finds. Affiliate board Pins must land on truthful relevant VELUCE purchasing guides; direct unsupported affiliate destinations remain prohibited. Deleted Laundry & Closet board (ID 296815500381471059) verified absent in connected Pinterest on 2026-11-02; Buffer metadata still cached it. Do not select a retired board even if Buffer still lists it.",
   "boards": [
     {
       "id": "296815500381469139",
@@ -243,34 +243,6 @@
       "status": "eligible_when_approved_asset_available"
     },
     {
-      "id": "296815500381471059",
-      "name": "Laundry Room & Closet Organization Ideas 🔥",
-      "eligible_topics": [],
-      "sections": [
-        {
-          "id": "3423556084446394112",
-          "name": "Closet Organisation & Storage Systems",
-          "eligible_topics": []
-        },
-        {
-          "id": "3423554012393291840",
-          "name": "Everyday Shoes & Comfort Wear",
-          "eligible_topics": []
-        },
-        {
-          "id": "3423553314562399296",
-          "name": "Workwear & Smart Casual Clothing",
-          "eligible_topics": []
-        },
-        {
-          "id": "3423551981813042880",
-          "name": "Wardrobe Basics & Everyday Essentials",
-          "eligible_topics": []
-        }
-      ],
-      "status": "content_gap_requires_relevant_laundry_or_closet_destination"
-    },
-    {
       "id": "296815500381467884",
       "name": "Modern Home Decor Ideas & Finds 🔥",
       "eligible_topics": [
@@ -356,5 +328,8 @@
       "sections": [],
       "status": "eligible_when_approved_asset_available"
     }
+  ],
+  "retired_board_ids": [
+    "296815500381471059"
   ]
 }

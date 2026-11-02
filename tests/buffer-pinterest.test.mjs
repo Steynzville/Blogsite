@@ -166,3 +166,18 @@ test("product posts still use draft-first shareNow and keep exact product URL",a
  assert.equal(calls[2].variables.input.mode,"shareNow");
  assert.equal(calls[2].variables.input.assets[0].image.url,p.image_url);
 });
+
+test("Deleted Pinterest board is denied before any Buffer draft for product and editorial Pins",async()=>{
+  const retired="296815500381471059";
+  assert.throws(()=>validatePin({...pin,board_service_id:retired}),/board was deleted/);
+  const product={...pin,board_service_id:retired,workflow:"veluce_six_product_cover_rotation_v1",
+    product:"Room Procurement System",
+    image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-room-procurement-system-c3.png",
+    destination_url:"https://velucedesign.com/room-procurement-system/"};
+  assert.throws(()=>validatePin(product),/board was deleted/);
+  let called=false;
+  await assert.rejects(
+    ()=>scheduleVerified(async()=>{called=true;throw new Error("should never be called");},product,"channel1"),
+    /board was deleted/);
+  assert.equal(called,false);
+});

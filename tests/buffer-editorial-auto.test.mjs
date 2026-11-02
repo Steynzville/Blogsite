@@ -162,10 +162,10 @@ test("Organic click evidence breaks ties but cannot override daily diversity or 
   assert.equal(performanceScores(corrupted,"2026-11-02")["copper-lanterns"],undefined);
 });
 
-test("Every one of 13 real account boards is inventoried; All Pins is not a board",async()=>{
+test("Every one of 12 active Pinterest boards is inventoried; All Pins is not a board",async()=>{
   const data=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
   const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
-  assert.equal(data.boards.length,13);
+  assert.equal(data.boards.length,12);
   assert.deepEqual(new Set(data.boards.map(x=>x.id)),new Set(live.map(x=>x.id)));
   assert.equal(data.boards.some(x=>x.name==="All Pins"),false);
   for(const board of data.boards){
@@ -190,13 +190,15 @@ test("Board rotation chooses least-served matching boards, not outdoor board alw
   assert.equal(chooseBoardPlacement("bedroom-layered",[{workflow:"veluce_editorial",local_date:"2026-11-01",board_service_id:firstBedroom.id}],"2026-11-02",coverage)?.name,"Cozy Bedroom Ideas & Finds 🔥");
   assert.equal(chooseBoardPlacement("security-cameras",[],"2026-11-02",coverage)?.name,"Home Security Ideas & Setups");
 });
-test("Laundry board and unsupported clothing sections are held until matching content exists",async()=>{
+test("Deleted Laundry/Closet board is absent from both active board lists",async()=>{
   const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
-  const board=coverage.boards.find(b=>b.name.startsWith("Laundry Room"));
-  assert.ok(board);
-  assert.equal(board.eligible_topics.length,0);
-  assert.equal(board.sections.length,4);
-  assert.ok(board.sections.every(s=>s.eligible_topics.length===0));
+  const boards=JSON.parse(await readFile("ops/buffer/boards.json","utf8"));
+  const retired="296815500381471059";
+  assert.ok(coverage.retired_board_ids.includes(retired));
+  assert.ok(boards.retired_board_ids.includes(retired));
+  assert.ok(coverage.boards.every(b=>String(b.id)!==retired));
+  assert.ok(boards.boards.every(b=>String(b.id)!==retired));
+  assert.equal(coverage.boards.reduce((n,b)=>n+b.sections.length,0),17);
   const amazon=coverage.boards.find(b=>b.name==="Attainable Luxury Outdoor Lighting")
     .sections.find(s=>s.name==="Amazon Finds");
   assert.deepEqual(amazon.eligible_topics,[]);

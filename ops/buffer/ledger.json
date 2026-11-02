@@ -1466,6 +1466,24 @@
       "submitted_at": "2026-11-01T18:11:54.327Z",
       "sent_at": "2026-11-01T18:11:53.929Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716434127"
+    },
+    {
+      "creative_id": "veluce-auto-20261102-a4ae77de97af",
+      "workflow": "veluce_editorial",
+      "title": "A Sunken Fire-Pit Layout That Keeps Conversation at the Centre",
+      "description": "Planning a fire-pit lounge? Keep the flame visible from every seat, leave a generous circulation route and layer low garden lighting around the perimeter so the social zone feels intimate rather than isolated.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261101-h3.jpg",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-02",
+      "topic": "fire-pit",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "source_blob_sha": "a4ae77de97afc5c7296e18c857b68c43986711b8",
+      "source_path": "assets/pinterest/studio-editorial-fire-pit-20261101-h3.jpg",
+      "recorded_at": "2026-11-02T04:06:36.748Z",
+      "github_run_id": "41386588685"
     }
   ]
 }

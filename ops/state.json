@@ -3192,6 +3192,30 @@
       "status": "published",
       "verified": true,
       "verification_note": "Shared Work browser: chronological feed and publication history checked; composer identity confirmed; submitted once; permalink confirmed group, author and content; clicked preview opened correct live Veluce fire-pit article."
+    },
+    {
+      "date": "2026-11-02",
+      "destination": "Affiliate Deals Hub",
+      "content_type": "article-led design tip",
+      "topic": "Ask about exact countertop stone care before choosing a slab",
+      "veluce_url": "https://velucedesign.com/article/natural-stone-countertops-guide/",
+      "post_url": "https://www.facebook.com/groups/2451939271927375/posts/2646870155767618",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true,
+      "verification_note": "Browser composer and permalink author checked; clicked preview opened correct live article."
+    },
+    {
+      "date": "2026-11-02",
+      "destination": "Veluce Studio Page",
+      "content_type": "standalone actionable design advice",
+      "topic": "Compare real finish samples together in daylight and evening lighting",
+      "veluce_url": null,
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0jKNtsLwXcdLj95N6vwW14Rk3ESUXugV6Fxh3ayNEXnZVmYVb9NXBjEXebUkzMfQ7l&id=61594938216575",
+      "author": "Veluce Studio",
+      "status": "published",
+      "verified": true,
+      "verification_note": "Browser confirmed published toast, Page author and full content; standalone advice without link."
     }
   ],
   "conversion_followup_20261015": {

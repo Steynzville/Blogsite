@@ -1476,14 +1476,16 @@
       "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
       "board_service_id": "296815500381471065",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-02",
       "topic": "fire-pit",
       "board_name": "Garden & Patio Ideas & Finds 🔥",
       "source_blob_sha": "a4ae77de97afc5c7296e18c857b68c43986711b8",
       "source_path": "assets/pinterest/studio-editorial-fire-pit-20261101-h3.jpg",
       "recorded_at": "2026-11-02T04:06:36.748Z",
-      "github_run_id": "41386588685"
+      "github_run_id": "41386588685",
+      "buffer_post_id": "6ae80c4e759fc887b6c89347",
+      "submitted_at": "2026-11-02T04:06:39.697Z"
     }
   ]
 }

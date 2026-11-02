@@ -1557,7 +1557,7 @@
       "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
       "board_service_id": "296815500381469139",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-02",
       "topic": "tree-uplighting",
       "board_name": "2026 Warm Organic Home Aesthetic",
@@ -1571,7 +1571,9 @@
       "recorded_at": "2026-11-02T18:13:32.986Z",
       "github_run_id": "41498470128",
       "buffer_post_id": "6ae8d2cec25538a9f8cb3c6c",
-      "submitted_at": "2026-11-02T18:13:37.491Z"
+      "submitted_at": "2026-11-02T18:13:37.491Z",
+      "sent_at": "2026-11-02T18:13:36.399Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716443825"
     }
   ]
 }

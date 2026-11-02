@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "discovered_at": "2026-11-02",
+  "pinterest_username": "steynenslin",
+  "channel_id": "6ad4eda5778b240e2f4a6312",
+  "notes": "13 actual boards; All Pins is not a board. Every board is inventoried. Only topic-matched approved source images + live destination can publish. Buffer cannot currently address board sections; sections below are advisory for future verified native placement, NOT proof of section publication. Never put non-Amazon content in Amazon Finds. Affiliate board Pins must land on truthful relevant VELUCE purchasing guides; direct unsupported affiliate destinations remain prohibited.",
+  "boards": [
+    {
+      "id": "296815500381469139",
+      "name": "2026 Warm Organic Home Aesthetic",
+      "eligible_topics": [
+        "tree-uplighting",
+        "pathway-lighting",
+        "pergola",
+        "fire-pit",
+        "tree-moonlighting",
+        "bedroom-layered",
+        "kitchen-layout",
+        "natural-stone",
+        "interior-design",
+        "garden-fireplace",
+        "garden-pathway-moonlighting",
+        "outdoor-wall-grazing"
+      ],
+      "sections": [
+        {
+          "id": "3487152833194786112",
+          "name": "Architectural Lighting & Outdoor Glow",
+          "eligible_topics": [
+            "tree-uplighting",
+            "pathway-lighting",
+            "pergola",
+            "tree-moonlighting",
+            "outdoor-wall-grazing"
+          ]
+        },
+        {
+          "id": "5488316218196698891",
+          "name": "Warm Home Sanctuary 2026",
+          "eligible_topics": [
+            "bedroom-layered",
+            "natural-stone",
+            "interior-design",
+            "kitchen-layout"
+          ]
+        },
+        {
+          "id": "5488316390083463495",
+          "name": "My Moodboard",
+          "eligible_topics": [
+            "fire-pit",
+            "garden-fireplace",
+            "garden-pathway-moonlighting"
+          ]
+        }
+      ],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381474927",
+      "name": "AliExpress Attainable Luxury Lighting",
+      "eligible_topics": [
+        "led-deck-strips",
+        "solar-pathway"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381474397",
+      "name": "Attainable Luxury Outdoor Lighting",
+      "eligible_topics": [
+        "tree-uplighting",
+        "pathway-lighting",
+        "pergola",
+        "copper-lanterns",
+        "led-deck-strips",
+        "tree-moonlighting",
+        "outdoor-wall-grazing",
+        "outdoor-glare",
+        "solar-pathway",
+        "garden-pathway-moonlighting"
+      ],
+      "sections": [
+        {
+          "id": "3556835137344193344",
+          "name": "Pure Inspiration",
+          "eligible_topics": [
+            "tree-uplighting",
+            "pathway-lighting",
+            "pergola",
+            "led-deck-strips",
+            "tree-moonlighting",
+            "solar-pathway"
+          ]
+        },
+        {
+          "id": "3556834342473430592",
+          "name": "AliExpress Finds",
+          "eligible_topics": []
+        },
+        {
+          "id": "3555429401091061632",
+          "name": "Amazon Finds",
+          "eligible_topics": []
+        }
+      ],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381470761",
+      "name": "Cozy Bedroom Ideas & Finds 🔥",
+      "eligible_topics": [
+        "bedroom-layered",
+        "smart-blinds",
+        "interior-design",
+        "smart-lighting"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381471065",
+      "name": "Garden & Patio Ideas & Finds 🔥",
+      "eligible_topics": [
+        "tree-uplighting",
+        "pathway-lighting",
+        "pergola",
+        "fire-pit",
+        "tree-moonlighting",
+        "garden-patio-layout",
+        "outdoor-rugs",
+        "modular-sectionals",
+        "garden-fireplace",
+        "garden-pathway-moonlighting",
+        "outdoor-glare",
+        "solar-pathway"
+      ],
+      "sections": [
+        {
+          "id": "3423691339443102272",
+          "name": "Outdoor Lighting & Atmosphere",
+          "eligible_topics": [
+            "tree-uplighting",
+            "pathway-lighting",
+            "pergola",
+            "tree-moonlighting",
+            "outdoor-glare",
+            "solar-pathway"
+          ]
+        },
+        {
+          "id": "3423687577755887488",
+          "name": "Garden Design & Landscaping",
+          "eligible_topics": [
+            "garden-pathway-moonlighting",
+            "tree-uplighting",
+            "pathway-lighting"
+          ]
+        },
+        {
+          "id": "3423684660299283840",
+          "name": "Outdoor Living Spaces",
+          "eligible_topics": [
+            "fire-pit",
+            "garden-patio-layout",
+            "modular-sectionals",
+            "garden-fireplace",
+            "pergola"
+          ]
+        },
+        {
+          "id": "3498557460711772992",
+          "name": "Garden & Patio Decor",
+          "eligible_topics": [
+            "outdoor-rugs",
+            "garden-patio-layout"
+          ]
+        },
+        {
+          "id": "3539393230460174848",
+          "name": "Backyard Birds & Wildlife Garden",
+          "eligible_topics": []
+        }
+      ],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381472050",
+      "name": "Home Security Ideas & Setups",
+      "eligible_topics": [
+        "security-cameras",
+        "perimeter-security",
+        "smart-access"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381470714",
+      "name": "Kitchen Essentials & Must-Haves 🔥",
+      "eligible_topics": [
+        "kitchen-appliances",
+        "kitchen-layout",
+        "kitchen-countertops",
+        "quartzite-porcelain"
+      ],
+      "sections": [
+        {
+          "id": "3422804306357552576",
+          "name": "Everyday Kitchen Essentials",
+          "eligible_topics": [
+            "kitchen-layout",
+            "kitchen-appliances"
+          ]
+        },
+        {
+          "id": "3422806909106449024",
+          "name": "Kitchen Gadgets & Tools",
+          "eligible_topics": [
+            "kitchen-appliances"
+          ]
+        },
+        {
+          "id": "3422810736930141824",
+          "name": "Premium Kitchen Upgrades",
+          "eligible_topics": [
+            "kitchen-countertops",
+            "quartzite-porcelain",
+            "kitchen-appliances"
+          ]
+        }
+      ],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381470701",
+      "name": "Kitchen Organization Ideas",
+      "eligible_topics": [
+        "kitchen-layout"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381471059",
+      "name": "Laundry Room & Closet Organization Ideas 🔥",
+      "eligible_topics": [],
+      "sections": [
+        {
+          "id": "3423556084446394112",
+          "name": "Closet Organisation & Storage Systems",
+          "eligible_topics": []
+        },
+        {
+          "id": "3423554012393291840",
+          "name": "Everyday Shoes & Comfort Wear",
+          "eligible_topics": []
+        },
+        {
+          "id": "3423553314562399296",
+          "name": "Workwear & Smart Casual Clothing",
+          "eligible_topics": []
+        },
+        {
+          "id": "3423551981813042880",
+          "name": "Wardrobe Basics & Everyday Essentials",
+          "eligible_topics": []
+        }
+      ],
+      "status": "content_gap_requires_relevant_laundry_or_closet_destination"
+    },
+    {
+      "id": "296815500381467884",
+      "name": "Modern Home Decor Ideas & Finds 🔥",
+      "eligible_topics": [
+        "bedroom-layered",
+        "smart-blinds",
+        "kitchen-layout",
+        "kitchen-countertops",
+        "natural-stone",
+        "interior-design",
+        "modular-sectionals",
+        "smart-lighting"
+      ],
+      "sections": [
+        {
+          "id": "5489165536610818379",
+          "name": "Luxury Modern Interior Design",
+          "eligible_topics": [
+            "bedroom-layered",
+            "natural-stone",
+            "interior-design",
+            "kitchen-layout"
+          ]
+        },
+        {
+          "id": "3419535773966578112",
+          "name": "Decor Styling Ideas",
+          "eligible_topics": [
+            "interior-design",
+            "natural-stone",
+            "modular-sectionals"
+          ]
+        },
+        {
+          "id": "5489167372614970839",
+          "name": "Modern Lighting Ideas & Fixtures",
+          "eligible_topics": [
+            "bedroom-layered",
+            "smart-lighting"
+          ]
+        }
+      ],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381477417",
+      "name": "Outdoor Lighting Ideas",
+      "eligible_topics": [
+        "tree-uplighting",
+        "pathway-lighting",
+        "pergola",
+        "copper-lanterns",
+        "led-deck-strips",
+        "tree-moonlighting",
+        "outdoor-wall-grazing",
+        "outdoor-glare",
+        "solar-pathway",
+        "garden-pathway-moonlighting"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381472108",
+      "name": "Smart Home Ideas & Gadgets 🔥",
+      "eligible_topics": [
+        "smart-blinds",
+        "security-cameras",
+        "perimeter-security",
+        "smart-access",
+        "smart-lighting"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    },
+    {
+      "id": "296815500381471465",
+      "name": "Smart Home Security Systems",
+      "eligible_topics": [
+        "security-cameras",
+        "perimeter-security",
+        "smart-access"
+      ],
+      "sections": [],
+      "status": "eligible_when_approved_asset_available"
+    }
+  ]
+}

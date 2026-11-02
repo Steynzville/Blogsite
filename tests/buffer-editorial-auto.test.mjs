@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
-import {localDate,dimensions,chooseAsset,performanceScores,TOPICS} from "../scripts/veluce/buffer-editorial-auto.mjs";
+import {localDate,dimensions,chooseAsset,performanceScores,eligibleBoardsForTopic,chooseBoardPlacement,TOPICS} from "../scripts/veluce/buffer-editorial-auto.mjs";
 
 test("South African local day is used for four daily slots",()=>{
   assert.equal(localDate(new Date("2026-10-18T22:30:00Z")),"2026-10-19");
@@ -160,4 +160,50 @@ test("Organic click evidence breaks ties but cannot override daily diversity or 
   const corrupted=structuredClone(data);
   corrupted.topics["copper-lanterns"].impressions+=1000;
   assert.equal(performanceScores(corrupted,"2026-11-02")["copper-lanterns"],undefined);
+});
+
+test("Every one of 13 real account boards is inventoried; All Pins is not a board",async()=>{
+  const data=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  assert.equal(data.boards.length,13);
+  assert.deepEqual(new Set(data.boards.map(x=>x.id)),new Set(live.map(x=>x.id)));
+  assert.equal(data.boards.some(x=>x.name==="All Pins"),false);
+  for(const board of data.boards){
+    assert.equal(new Set(board.eligible_topics).size,board.eligible_topics.length);
+    board.eligible_topics.forEach(t=>assert.ok(TOPICS[t],t));
+  }
+});
+test("Broader editorial article topics include kitchens, bedrooms, security and interiors",()=>{
+  for(const name of ["bedroom-layered","kitchen-layout","security-cameras","interior-design","smart-access"])
+    assert.match(TOPICS[name].path,/^\/article\/[a-z0-9-]+\/$/);
+});
+test("Board rotation chooses least-served matching boards, not outdoor board always",async()=>{
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const names=eligibleBoardsForTopic("pergola",coverage).map(x=>x.name);
+  assert.ok(names.includes("Garden & Patio Ideas & Finds 🔥"));
+  assert.ok(names.includes("Outdoor Lighting Ideas"));
+  const a=chooseBoardPlacement("pergola",[],"2026-11-02",coverage);
+  const prior=[{workflow:"veluce_editorial",local_date:"2026-11-01",topic:"pergola",board_service_id:a.id}];
+  assert.notEqual(chooseBoardPlacement("pergola",prior,"2026-11-02",coverage).id,a.id);
+  const firstBedroom=chooseBoardPlacement("bedroom-layered",[],"2026-11-02",coverage);
+  assert.ok(eligibleBoardsForTopic("bedroom-layered",coverage).some(b=>b.name==="Cozy Bedroom Ideas & Finds 🔥"));
+  assert.equal(chooseBoardPlacement("bedroom-layered",[{workflow:"veluce_editorial",local_date:"2026-11-01",board_service_id:firstBedroom.id}],"2026-11-02",coverage)?.name,"Cozy Bedroom Ideas & Finds 🔥");
+  assert.equal(chooseBoardPlacement("security-cameras",[],"2026-11-02",coverage)?.name,"Home Security Ideas & Setups");
+});
+test("Laundry board and unsupported clothing sections are held until matching content exists",async()=>{
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const board=coverage.boards.find(b=>b.name.startsWith("Laundry Room"));
+  assert.ok(board);
+  assert.equal(board.eligible_topics.length,0);
+  assert.equal(board.sections.length,4);
+  assert.ok(board.sections.every(s=>s.eligible_topics.length===0));
+  const amazon=coverage.boards.find(b=>b.name==="Attainable Luxury Outdoor Lighting")
+    .sections.find(s=>s.name==="Amazon Finds");
+  assert.deepEqual(amazon.eligible_topics,[]);
+});
+test("Board-section recommendation is marked advisory, never verified via Buffer",async()=>{
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const selected=chooseBoardPlacement("outdoor-rugs",[],"2026-11-02",coverage);
+  assert.equal(selected.name,"Garden & Patio Ideas & Finds 🔥");
+  assert.equal(selected.suggested_section.name,"Garden & Patio Decor");
 });

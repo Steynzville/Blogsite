@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "window_start": "2026-10-03",
+  "window_end": "2026-11-01",
+  "source": "Pinterest connected account organic per-Pin analytics, captured 2026-11-02",
+  "limitations": "Illustrative NON-EXHAUSTIVE sample of Pins that link to the exact VELUCE articles, not full topic totals or Buffer-only cohort. Ignore for KPI totals; refresh evidence and confirm exact URLs weekly.",
+  "topics": {
+    "copper-lanterns": {
+      "impressions": 6482,
+      "outbound_clicks": 14,
+      "pins": [
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431716238457/",
+          "destination_url": "https://velucedesign.com/article/copper-lanterns-age-with-grace/",
+          "impressions": 1542,
+          "outbound_clicks": 11
+        },
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431716197333/",
+          "destination_url": "https://velucedesign.com/article/copper-lanterns-age-with-grace/",
+          "impressions": 4940,
+          "outbound_clicks": 3
+        }
+      ]
+    },
+    "led-deck-strips": {
+      "impressions": 11737,
+      "outbound_clicks": 9,
+      "pins": [
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431715306287/",
+          "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+          "impressions": 9480,
+          "outbound_clicks": 5
+        },
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431715428296/",
+          "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+          "impressions": 2257,
+          "outbound_clicks": 4
+        }
+      ]
+    },
+    "tree-moonlighting": {
+      "impressions": 20490,
+      "outbound_clicks": 11,
+      "pins": [
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431716231395/",
+          "destination_url": "https://velucedesign.com/article/moonlighting-tree-canopies/",
+          "impressions": 20490,
+          "outbound_clicks": 11
+        }
+      ]
+    },
+    "tree-uplighting": {
+      "impressions": 7591,
+      "outbound_clicks": 6,
+      "pins": [
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431716197325/",
+          "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+          "impressions": 7591,
+          "outbound_clicks": 6
+        }
+      ]
+    },
+    "pergola": {
+      "impressions": 10839,
+      "outbound_clicks": 4,
+      "pins": [
+        {
+          "pin_url": "https://www.pinterest.com/pin/296815431715470398/",
+          "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+          "impressions": 10839,
+          "outbound_clicks": 4
+        }
+      ]
+    }
+  }
+}

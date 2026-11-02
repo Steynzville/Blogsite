@@ -13,6 +13,7 @@ const MANIFEST="ops/buffer/editorial-assets.json";
 const BOARDS="ops/buffer/boards.json";
 const STATE="ops/state.json";
 const PERFORMANCE="ops/buffer/editorial-performance.json";
+const BOARD_COVERAGE="ops/buffer/editorial-board-coverage.json";
 const EDITORIAL="veluce_editorial";
 const LIMIT=4;
 const URL_BASE="https://raw.githubusercontent.com/Steynzville/Blogsite/main/";
@@ -39,7 +40,27 @@ export const TOPICS={
   },
   "copper-lanterns":{path:"/article/copper-lanterns-age-with-grace/",board:"Outdoor Lighting Ideas",description:"Compare copper lantern patina, maintenance, material choices and buying considerations in Veluce's outdoor lighting guide."},
   "led-deck-strips":{path:"/article/led-strip-integration-modern-deck/",board:"Outdoor Lighting Ideas",description:"Compare outdoor LED strip placement, 12V/24V, weather exposure and glare before deciding what to install around your deck."},
-  "tree-moonlighting":{path:"/article/moonlighting-tree-canopies/",board:"Outdoor Lighting Ideas",description:"See how controlled tree moonlighting creates gentle, useful garden lighting without harsh or exposed beams."}
+  "tree-moonlighting":{path:"/article/moonlighting-tree-canopies/",board:"Outdoor Lighting Ideas",description:"See how controlled tree moonlighting creates gentle, useful garden lighting without harsh or exposed beams."},
+  "bedroom-layered":{path:"/article/layered-lighting-bedroom/",board:"Cozy Bedroom Ideas & Finds 🔥",description:"See how ambient, bedside and accent lighting work together to make a bedroom comfortable without relying on a harsh ceiling light."},
+  "smart-blinds":{path:"/article/smart-blinds-follow-sun/",board:"Smart Home Ideas & Gadgets 🔥",description:"Planning daylight control? Compare how smart blinds manage glare, privacy and light across a normal day."},
+  "kitchen-layout":{path:"/article/kitchen-design-layout/",board:"Kitchen Organization Ideas",description:"Explore practical kitchen layout, workflow, storage and circulation decisions before choosing cabinetry and appliances."},
+  "kitchen-appliances":{path:"/article/kitchen-appliances-luxury/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Learn what matters when comparing kitchen appliance functions, space requirements and design integration."},
+  "kitchen-countertops":{path:"/article/natural-stone-countertops-guide/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Choosing kitchen counters? Compare natural-stone performance and care before committing to a material."},
+  "quartzite-porcelain":{path:"/article/quartzite-vs-porcelain-countertops/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Compare quartzite and porcelain countertop durability, appearance and upkeep before choosing a finish."},
+  "natural-stone":{path:"/article/natural-stone-materials/",board:"Modern Home Decor Ideas & Finds 🔥",description:"Learn how limestone, marble and travertine affect the look, feel and ongoing care of an interior."},
+  "interior-design":{path:"/article/luxury-interior-design-principles/",board:"Modern Home Decor Ideas & Finds 🔥",description:"Explore restrained interior styling, real material choices and a clear focal point for a coherent room."},
+  "garden-patio-layout":{path:"/article/how-to-arrange-patio-furniture/",board:"Garden & Patio Ideas & Finds 🔥",description:"Plan patio seating zones, circulation and furniture scale for an outdoor space that is easy to enjoy."},
+  "outdoor-rugs":{path:"/article/outdoor-rugs-defy-elements/",board:"Garden & Patio Ideas & Finds 🔥",description:"Compare outdoor rug materials and sizes that define a seating zone and stand up to the conditions."},
+  "modular-sectionals":{path:"/article/modular-sectionals-entertaining/",board:"Garden & Patio Ideas & Finds 🔥",description:"Use modular seating to make entertaining layouts flexible without blocking movement through your patio."},
+  "garden-fireplace":{path:"/article/outdoor-fireplace-focal-point/",board:"Garden & Patio Ideas & Finds 🔥",description:"Plan seating, clearances and visual focus around an outdoor fireplace before arranging the room."},
+  "garden-pathway-moonlighting":{path:"/article/garden-pathway-moonlighting/",board:"Garden & Patio Ideas & Finds 🔥",description:"Explore soft garden moonlighting that balances natural shadows with safe pathway visibility."},
+  "outdoor-wall-grazing":{path:"/article/upward-lighting-architectural-grazing/",board:"Outdoor Lighting Ideas",description:"Learn how architectural wall grazing and wall washing create different effects on exterior materials."},
+  "outdoor-glare":{path:"/article/outdoor-lighting-glare-night-audit/",board:"Outdoor Lighting Ideas",description:"Check garden lighting from the actual seating area to reduce uncomfortable glare while keeping ambience."},
+  "solar-pathway":{path:"/article/solar-pathway-lights-affordable/",board:"Attainable Luxury Outdoor Lighting",description:"Compare solar pathway lighting placement, power tradeoffs and realistic outdoor performance."},
+  "security-cameras":{path:"/article/discreet-security-cameras/",board:"Home Security Ideas & Setups",description:"Plan where home security cameras can monitor useful areas without spoiling the look of a home."},
+  "perimeter-security":{path:"/article/perimeter-monitoring/",board:"Smart Home Security Systems",description:"Explore perimeter awareness, camera coverage and practical home-security system planning."},
+  "smart-access":{path:"/article/smart-access-control/",board:"Smart Home Security Systems",description:"Compare smart entry options, access routines and practical security considerations for modern homes."},
+  "smart-lighting":{path:"/article/smart-home-lighting-control/",board:"Smart Home Ideas & Gadgets 🔥",description:"See how smart lighting scenes and controls can adapt a room for practical everyday activities."}
 };
 export function localDate(now=new Date()){
   const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Johannesburg",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
@@ -124,7 +145,35 @@ export function performanceScores(data,day){
   return scores;
 }
 
-export function chooseAsset(items,ledger,day,validPaths,performance={}){
+
+export function eligibleBoardsForTopic(topic,coverage){
+  return (coverage?.boards??[]).filter(b=>b?.eligible_topics?.includes(topic)&&/^\d+$/.test(String(b.id))&&b.name);
+}
+export function chooseBoardPlacement(topic,ledger,day,coverage){
+  const eligible=eligibleBoardsForTopic(topic,coverage);
+  if(!eligible.length)return null;
+  const recentCutoff=new Date(Date.parse(day+"T00:00:00Z")-27*86400000).toISOString().slice(0,10);
+  const recent=ledger.filter(p=>p.workflow===EDITORIAL&&p.local_date>=recentCutoff&&p.local_date<=day);
+  const lastWeekCutoff=new Date(Date.parse(day+"T00:00:00Z")-6*86400000).toISOString().slice(0,10);
+  const week=recent.filter(p=>p.local_date>=lastWeekCutoff);
+  const last=[...ledger].reverse().find(p=>p.workflow===EDITORIAL)?.board_service_id;
+  eligible.sort((a,b)=>{
+    const counts=(arr,board)=>arr.filter(p=>String(p.board_service_id)===String(board.id)).length;
+    return (counts(week,a)-counts(week,b))||
+      (counts(recent,a)-counts(recent,b))||
+      ((String(a.id)===String(last)?1:0)-(String(b.id)===String(last)?1:0))||
+      a.name.localeCompare(b.name);
+  });
+  const board=eligible[0];
+  // Buffer supports boards but NOT boardSectionId: these are recommendations
+  // only, and must never be logged as a confirmed Pinterest section.
+  const sections=(board.sections??[]).filter(s=>s.eligible_topics?.includes(topic));
+  const suggested=sections.length?sections[0]:null;
+  return {id:String(board.id),name:board.name,
+    suggested_section:suggested?{id:String(suggested.id),name:suggested.name}:null};
+}
+
+export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=null){
   const historical=new Set(ledger.map(x=>x.source_blob_sha).filter(Boolean));
   const images=new Set(ledger.map(x=>x.image_url).filter(Boolean));
   const pending=new Set(ledger.map(x=>x.creative_id).filter(Boolean));
@@ -147,6 +196,7 @@ export function chooseAsset(items,ledger,day,validPaths,performance={}){
     ((count.get(a.topic)??0)-(count.get(b.topic)??0))||
     (a.topic===last?1:0)-(b.topic===last?1:0)||
     ((weekCount.get(a.topic)??0)-(weekCount.get(b.topic)??0))||
+    ((coverage?(()=>{const x=chooseBoardPlacement(a.topic,ledger,day,coverage);const y=chooseBoardPlacement(b.topic,ledger,day,coverage);const used=t=>ledger.filter(p=>p.workflow===EDITORIAL&&p.local_date>=new Date(Date.parse(day+"T00:00:00Z")-27*86400000).toISOString().slice(0,10)&&String(p.board_service_id)===String(t?.id)).length;return used(x)-used(y);})():0))||
     ((performance[b.topic]??0)-(performance[a.topic]??0))||
     a.path.localeCompare(b.path));
   return candidate[0]??null;
@@ -215,6 +265,7 @@ async function run(mode){
   const discovered=await readdir("assets/pinterest");
   const paths=new Set(discovered.map(n=>"assets/pinterest/"+n));
   const today=localDate();
+  const coverage=JSON.parse(await readFile(BOARD_COVERAGE,"utf8"));
   let performance={};
   try {
     performance=performanceScores(JSON.parse(await readFile(PERFORMANCE,"utf8")),today);
@@ -231,11 +282,11 @@ async function run(mode){
     entries.push({...v,...dim,sha:git(["hash-object",v.path])});
   }
   let todayCount=(ledger.posts??[]).filter(x=>x.workflow===EDITORIAL && x.local_date===today).length;
-  const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance);
+  const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance,coverage);
   console.log(JSON.stringify({mode,local_date:today,already_reserved_or_sent:todayCount,
     remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===URL_BASE+x.path)).length,
     recent_click_evidence_topics:Object.keys(performance),
-    next:selected?{path:selected.path,topic:selected.topic,board:TOPICS[selected.topic].board}:null}));
+    next:selected?{path:selected.path,topic:selected.topic,board:chooseBoardPlacement(selected.topic,ledger.posts??[],today,coverage)?.name}:null}));
   if(mode==="validate")return;
   if(mode!=="publish")throw new Error("Unsupported mode "+mode);
   if(process.env.EDITORIAL_PUBLISH_ENABLED!=="true") {console.log("Editorial publishing held: uploaded image-to-topic mapping awaiting visual audit.");return;}
@@ -248,12 +299,14 @@ async function run(mode){
   todayCount=(ledger.posts??[]).filter(x=>x.workflow===EDITORIAL&&x.local_date===today).length;
   if(todayCount>=LIMIT){console.log("Four editorial Pin submissions already reserved today.");return}
   const used=new Set((ledger.posts??[]).map(x=>x.image_url));
-  const asset=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance);
+  const asset=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance,coverage);
   if(!asset){console.log("::warning::No individually visually verified unused images available. Do not post based on unverified batch labels.");return}
   const topic=TOPICS[asset.topic];
   const boardData=JSON.parse(await readFile(BOARDS,"utf8"));
-  const mapped=boardData.boards.find(x=>x.name===topic.board);
-  if(!mapped)throw new Error("Topic-specific board mapping absent: "+topic.board);
+  const placement=chooseBoardPlacement(asset.topic,ledger.posts??[],today,coverage);
+  if(!placement)throw new Error("No semantically appropriate board for topic: "+asset.topic);
+  const mapped=boardData.boards.find(x=>x.name===placement.name&&String(x.id)===placement.id);
+  if(!mapped)throw new Error("Selected board is absent from authenticated Buffer discovery: "+placement.name);
   const channel=(await graphql(operations.channel,{id:process.env.BUFFER_CHANNEL_ID})).channel;
   if(!channel||String(channel.service).toLowerCase()!=="pinterest"||
     !String(channel.name+" "+channel.displayName).toLowerCase().includes("steynenslin")||
@@ -268,6 +321,7 @@ async function run(mode){
   if(used.has(url))throw new Error("Creative was already used: "+url);
   await verifiedUrl(url,true);await verifiedUrl(destination,false);
   const item={...pin,local_date:today,topic:asset.topic,board_name:mapped.name,
+    ...(placement.suggested_section?{suggested_section:placement.suggested_section,section_status:"advisory_only_buffer_has_no_section_target"}:{}),
     source_blob_sha:asset.sha,source_path:asset.path,status:"reserved",
     recorded_at:new Date().toISOString(),github_run_id:process.env.GITHUB_RUN_ID||null};
   ledger.posts??=[];ledger.posts.push(item);

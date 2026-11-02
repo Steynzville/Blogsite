@@ -1510,6 +1510,19 @@
       "submitted_at": "2026-11-02T08:15:10.310Z",
       "sent_at": "2026-11-02T08:15:08.825Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716440600"
+    },
+    {
+      "creative_id": "studio-product-luxury-outdoor-room-planner-c5-20261102",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Outdoor Room Planner",
+      "title": "Narrow Patio Layout: Make a Long Outdoor Space Feel Generous",
+      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c5-20261102.jpg",
+      "board_service_id": "296815500381471065",
+      "buffer_post_id": "6ae87d665a0b78bb030bf46b",
+      "publish_at": "2026-11-02T12:09:12.716Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-11-02T12:09:12.716Z"
     }
   ]
 }

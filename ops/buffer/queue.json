@@ -226,6 +226,18 @@
       "buffer_post_id": "6ae72b1521c807e9d5b8da18",
       "sent_at": "2026-11-01T12:05:42.299Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716432019"
+    },
+    {
+      "creative_id": "studio-product-luxury-outdoor-room-planner-c5-20261102",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Outdoor Room Planner",
+      "title": "Narrow Patio Layout: Make a Long Outdoor Space Feel Generous",
+      "description": "Does your long patio feel more like a corridor than an outdoor room? Use the long axis to sequence dining, clear circulation and an intimate lounge, rather than pushing unrelated furniture against every wall. Veluce Studio’s Luxury Outdoor Room Planner uses the 5-Layer Outdoor Room Method, layout recipes and measured planning tools to help homeowners plan purpose, zones, flow, furniture scale and atmosphere before purchasing. Explore the complete digital planner.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-outdoor-room-planner-c5-20261102.jpg",
+      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

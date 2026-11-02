@@ -1930,6 +1930,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6ae8468b76279ec7eb9f6d1a",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716442102",
+      "pin_id": "296815431716442102",
+      "published_at": "2026-11-02T14:39:02.012Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-pergola-20261101-h4.jpg",
+      "title": "Pergola Lighting: Layer the Beam, Table and Garden",
+      "description": "Why does one bright fitting make an outdoor room feel flat? Combine concealed beam light, a focused pendant over the table and subtle planting light so dining, circulation and greenery each have a distinct role.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6ae89ae8416e2003426865e5",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

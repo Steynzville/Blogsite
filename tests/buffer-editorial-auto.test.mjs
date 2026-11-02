@@ -185,7 +185,9 @@ test("Board rotation chooses least-served matching boards, not outdoor board alw
   const a=chooseBoardPlacement("pergola",[],"2026-11-02",coverage);
   const prior=[{workflow:"veluce_editorial",local_date:"2026-11-01",topic:"pergola",board_service_id:a.id}];
   assert.notEqual(chooseBoardPlacement("pergola",prior,"2026-11-02",coverage).id,a.id);
-  assert.equal(chooseBoardPlacement("bedroom-layered",[],"2026-11-02",coverage)?.name,"Cozy Bedroom Ideas & Finds 🔥");
+  const firstBedroom=chooseBoardPlacement("bedroom-layered",[],"2026-11-02",coverage);
+  assert.ok(eligibleBoardsForTopic("bedroom-layered",coverage).some(b=>b.name==="Cozy Bedroom Ideas & Finds 🔥"));
+  assert.equal(chooseBoardPlacement("bedroom-layered",[{workflow:"veluce_editorial",local_date:"2026-11-01",board_service_id:firstBedroom.id}],"2026-11-02",coverage)?.name,"Cozy Bedroom Ideas & Finds 🔥");
   assert.equal(chooseBoardPlacement("security-cameras",[],"2026-11-02",coverage)?.name,"Home Security Ideas & Setups");
 });
 test("Laundry board and unsupported clothing sections are held until matching content exists",async()=>{

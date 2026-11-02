@@ -3272,9 +3272,9 @@
       "veluce_url": null,
       "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0jKNtsLwXcdLj95N6vwW14Rk3ESUXugV6Fxh3ayNEXnZVmYVb9NXBjEXebUkzMfQ7l&id=61594938216575",
       "author": "Veluce Studio",
-      "status": "published",
-      "verified": true,
-      "verification_note": "Browser confirmed published toast, Page author and full content; standalone advice without link."
+      "status": "in_trash",
+      "verified": false,
+      "verification_note": "Rechecked 2 November 2026: permalink displays 'Only you can see posts in your Trash'. Connected Facebook Page feed also omits this post. Prior published status is no longer current. No restoration or replacement attempted because removal intent is unknown; duplicate protection preserved."
     }
   ],
   "conversion_followup_20261015": {

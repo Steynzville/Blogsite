@@ -2032,9 +2032,10 @@
     "last_product": "Complete Home Design System",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -2855,6 +2856,43 @@
           "Luxury Outdoor Room Planner"
         ],
         "next_product": "Designer Brief Builder"
+      },
+      {
+        "creative_id": "studio-product-designer-brief-builder-c5-20261103",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Designer Brief Builder",
+        "cycle": 5,
+        "submission_date": "2026-11-03",
+        "status": "sent_buffer_confirmed",
+        "image_type": "generated",
+        "image_dimensions": "1024x1536",
+        "image_filename": "studio-product-designer-brief-builder-c5-20261103.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c5-20261103.jpg",
+        "creative_concept": "Golden-hour renovation planning table beside a real structural column, with measured floor plan, non-negotiable and priority cards, tape measure, limestone, oak and textile samples; exact product title prominent.",
+        "hook": "Constraints before aesthetics",
+        "marketing_angle": "Define fixed conditions, non-negotiables and priorities before choosing the visual direction so a designer can solve the right problem.",
+        "title": "Interior Design Brief: Define Constraints Before Choosing a Look",
+        "description": "Will your design idea still work around the room’s fixed conditions? Record measurements, must-keeps, non-negotiables and priorities before choosing the look—constraints can sharpen a brief instead of limiting it. Veluce Studio’s Designer Brief Builder is a digital planning resource that turns real-space facts, lifestyle needs, aesthetic signals and constraints into a usable project brief. Explore the complete briefing system.",
+        "destination_url": "https://velucedesign.com/designer-brief-builder/",
+        "board": "2026 Warm Organic Home Aesthetic",
+        "board_service_id": "296815500381469139",
+        "alt_text_saved": false,
+        "buffer_post_id": "6ae9cea547205d2c39990ab2",
+        "submitted_at": "2026-11-03T12:08:06.995Z",
+        "published_at": "2026-11-03",
+        "published_at_timestamp": "2026-11-03T12:08:06.722Z",
+        "published_at_local": "2026-11-03T14:08:15+02:00",
+        "pin_id": "296815431716449380",
+        "pin_url": "https://www.pinterest.com/pin/296815431716449380",
+        "verification_status": "Buffer sentAt/externalLink and exact destination confirmed; draft-first title/description/board/image checks passed. Public image/jpeg re-downloaded, full JPEG SOI/EOI verified, decoded and visually inspected at 1024x1536. Product page HTTP 200. Independent Pinterest click-through unavailable.",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder"
+        ],
+        "next_product": "Luxury Lighting Formula"
       }
     ],
     "archived_history": [
@@ -2970,29 +3008,7 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": {
-      "creative_id": "studio-product-designer-brief-builder-c5-20261103",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "product": "Designer Brief Builder",
-      "cycle": 5,
-      "submission_date": "2026-11-03",
-      "status": "submitted_now_verified",
-      "image_type": "generated",
-      "image_dimensions": "1024x1536",
-      "image_filename": "studio-product-designer-brief-builder-c5-20261103.jpg",
-      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c5-20261103.jpg",
-      "creative_concept": "Golden-hour renovation planning table beside a real structural column, with measured floor plan, non-negotiable and priority cards, tape measure, limestone, oak and textile samples; exact product title prominent.",
-      "hook": "Constraints before aesthetics",
-      "marketing_angle": "Define fixed conditions, non-negotiables and priorities before choosing the visual direction so a designer can solve the right problem.",
-      "title": "Interior Design Brief: Define Constraints Before Choosing a Look",
-      "description": "Will your design idea still work around the room’s fixed conditions? Record measurements, must-keeps, non-negotiables and priorities before choosing the look—constraints can sharpen a brief instead of limiting it. Veluce Studio’s Designer Brief Builder is a digital planning resource that turns real-space facts, lifestyle needs, aesthetic signals and constraints into a usable project brief. Explore the complete briefing system.",
-      "destination_url": "https://velucedesign.com/designer-brief-builder/",
-      "board": "2026 Warm Organic Home Aesthetic",
-      "board_service_id": "296815500381469139",
-      "alt_text_saved": false,
-      "buffer_post_id": "6ae9cea547205d2c39990ab2",
-      "submitted_at": "2026-11-03T12:08:06.995Z"
-    }
+    "pending_run": null
   },
   "editorialAutomation": {
     "version": 1,

@@ -1628,6 +1628,19 @@
       "submitted_at": "2026-11-03T08:13:29.701Z",
       "sent_at": "2026-11-03T08:13:28.523Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716448354"
+    },
+    {
+      "creative_id": "studio-product-designer-brief-builder-c5-20261103",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Define Constraints Before Choosing a Look",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c5-20261103.jpg",
+      "board_service_id": "296815500381469139",
+      "buffer_post_id": "6ae9cea547205d2c39990ab2",
+      "publish_at": "2026-11-03T12:08:06.995Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-11-03T12:08:06.995Z"
     }
   ]
 }

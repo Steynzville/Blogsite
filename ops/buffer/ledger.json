@@ -1601,6 +1601,29 @@
       "submitted_at": "2026-11-03T04:06:32.771Z",
       "sent_at": "2026-11-03T04:06:31.597Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716447571"
+    },
+    {
+      "creative_id": "veluce-auto-20261103-c6c7554a63d6",
+      "workflow": "veluce_editorial",
+      "title": "Place the Fire Where Every Seat Can Share the Glow",
+      "description": "Planning an evening lounge beside the pool? Keep the fire visible from every chair, preserve a safe circulation edge and let low landscape lighting support rather than compete with the flame.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-fire-pit-20261102-i3.jpg",
+      "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-03",
+      "topic": "fire-pit",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "5488316390083463495",
+        "name": "My Moodboard"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "c6c7554a63d65e62868ddcba66f28f2c87ba0934",
+      "source_path": "assets/pinterest/studio-editorial-fire-pit-20261102-i3.jpg",
+      "recorded_at": "2026-11-03T08:13:24.916Z",
+      "github_run_id": "41601655098"
     }
   ]
 }

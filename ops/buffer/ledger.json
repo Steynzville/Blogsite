@@ -1584,7 +1584,7 @@
       "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
       "board_service_id": "296815500381474397",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-03",
       "topic": "pergola",
       "board_name": "Attainable Luxury Outdoor Lighting",
@@ -1598,7 +1598,9 @@
       "recorded_at": "2026-11-03T04:06:28.583Z",
       "github_run_id": "41576116161",
       "buffer_post_id": "6ae95dc6b1dfe2c544ef08f8",
-      "submitted_at": "2026-11-03T04:06:32.771Z"
+      "submitted_at": "2026-11-03T04:06:32.771Z",
+      "sent_at": "2026-11-03T04:06:31.597Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716447571"
     }
   ]
 }

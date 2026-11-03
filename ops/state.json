@@ -2976,7 +2976,7 @@
       "product": "Designer Brief Builder",
       "cycle": 5,
       "submission_date": "2026-11-03",
-      "status": "ready",
+      "status": "submitted_now_verified",
       "image_type": "generated",
       "image_dimensions": "1024x1536",
       "image_filename": "studio-product-designer-brief-builder-c5-20261103.jpg",
@@ -2989,7 +2989,9 @@
       "destination_url": "https://velucedesign.com/designer-brief-builder/",
       "board": "2026 Warm Organic Home Aesthetic",
       "board_service_id": "296815500381469139",
-      "alt_text_saved": false
+      "alt_text_saved": false,
+      "buffer_post_id": "6ae9cea547205d2c39990ab2",
+      "submitted_at": "2026-11-03T12:08:06.995Z"
     }
   },
   "editorialAutomation": {

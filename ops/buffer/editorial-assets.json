@@ -900,6 +900,58 @@
       "integrity_format": "JPEG",
       "integrity_verified": true,
       "integrity_verification": "Public GitHub bytes re-downloaded; SOI/EOI markers valid; full PIL decode; exact 1024x1536; fetched copy visually inspected."
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-bedroom-layered-20261103-f1.jpg",
+      "topic": "bedroom-layered",
+      "title": "Bedroom Lighting Layers: Create Calm Without One Harsh Ceiling Light",
+      "description": "Planning a calmer bedroom? Compare how concealed ambient glow, bedside lamps and a focused artwork light share different jobs, so the room stays comfortable without one harsh overhead source. See the layered bedroom lighting approach.",
+      "visual_description": "Warm organic bedroom at dusk with concealed ceiling cove light, two bedside lamps, an artwork accent light, cream linen, oak furniture and olive textiles; serif overlay reads LAYER THE LIGHT.",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-03",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-11-03T12:12:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-kitchen-layout-20261103-f2.jpg",
+      "topic": "kitchen-layout",
+      "title": "Kitchen Layout Planning: Check the Working Aisle Before Cabinetry",
+      "description": "Can you move smoothly from storage to prep and cooking? Check landing space, appliance positions and clear aisle width before cabinetry is fixed. This warm kitchen illustrates why workflow and circulation deserve attention early.",
+      "visual_description": "Sunlit warm contemporary galley kitchen with cream and oak cabinetry, a central working aisle, island prep surface, logical sink-cook-fridge relationship and clear circulation; image-only.",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-03",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-11-03T12:12:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-natural-stone-20261103-f3.jpg",
+      "topic": "natural-stone",
+      "title": "Natural Stone Interiors: Compare Texture, Veining and Patina",
+      "description": "Choosing stone for an interior? Look beyond colour: limestone, travertine and marble each bring different pores, veining, edge character and care needs. Compare real texture and patina before committing to a finish.",
+      "visual_description": "Golden-hour living-room vignette with a porous limestone fireplace, cylindrical travertine side table, marble bowl, oak table, cream upholstery and olive branches; image-only.",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-03",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-11-03T12:12:00Z"
+    },
+    {
+      "path": "assets/pinterest/studio-editorial-security-cameras-20261103-f4.jpg",
+      "topic": "security-cameras",
+      "title": "Home Security Camera Placement: Plan the View, Not Just the Device",
+      "description": "Will the camera actually see the approach without dominating the architecture? Plan height, viewing direction, lighting and likely obstructions around the real arrival route. Explore discreet camera placement for useful coverage.",
+      "visual_description": "Blue-hour contemporary entry court with a discreet dome camera under a timber soffit aimed toward a gate and illuminated approach, framed by natural stone, plaster and planting; serif overlay reads PLAN THE VIEW.",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-03",
+      "visual_review_method": "Work agent visually inspected generated pixels",
+      "origin": "work-generated",
+      "generation_method": "ChatGPT Work image generation",
+      "generated_at": "2026-11-03T12:12:00Z"
     }
   ]
 }

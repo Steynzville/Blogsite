@@ -1665,6 +1665,29 @@
       "submitted_at": "2026-11-03T14:13:27.926Z",
       "sent_at": "2026-11-03T14:13:27.613Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716450032"
+    },
+    {
+      "creative_id": "veluce-auto-20261103-f5ecfa008f3e",
+      "workflow": "veluce_editorial",
+      "title": "Kitchen Layout Planning: Check the Working Aisle Before Cabinetry",
+      "description": "Can you move smoothly from storage to prep and cooking? Check landing space, appliance positions and clear aisle width before cabinetry is fixed. This warm kitchen illustrates why workflow and circulation deserve attention early.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-kitchen-layout-20261103-f2.jpg",
+      "destination_url": "https://velucedesign.com/article/kitchen-design-layout/",
+      "board_service_id": "296815500381470714",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-03",
+      "topic": "kitchen-layout",
+      "board_name": "Kitchen Essentials & Must-Haves 🔥",
+      "suggested_section": {
+        "id": "3422804306357552576",
+        "name": "Everyday Kitchen Essentials"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "f5ecfa008f3ea9bfd6915f6480bf0cd21ff105e4",
+      "source_path": "assets/pinterest/studio-editorial-kitchen-layout-20261103-f2.jpg",
+      "recorded_at": "2026-11-03T18:15:11.125Z",
+      "github_run_id": "41691586634"
     }
   ]
 }

@@ -1990,6 +1990,21 @@
       "board_id": "296815500381469139",
       "buffer_post_id": "6ae997a72f050cf242975006",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716450032",
+      "pin_id": "296815431716450032",
+      "published_at": "2026-11-03T14:13:27.613Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-bedroom-layered-20261103-f1.jpg",
+      "title": "Bedroom Lighting Layers: Create Calm Without One Harsh Ceiling Light",
+      "description": "Planning a calmer bedroom? Compare how concealed ambient glow, bedside lamps and a focused artwork light share different jobs, so the room stays comfortable without one harsh overhead source. See the layered bedroom lighting approach.",
+      "board": "Cozy Bedroom Ideas & Finds 🔥",
+      "board_id": "296815500381470761",
+      "buffer_post_id": "6ae9ec06736f19a874274ab9",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

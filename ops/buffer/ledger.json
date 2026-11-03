@@ -1611,7 +1611,7 @@
       "destination_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
       "board_service_id": "296815500381469139",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-03",
       "topic": "fire-pit",
       "board_name": "2026 Warm Organic Home Aesthetic",
@@ -1625,7 +1625,9 @@
       "recorded_at": "2026-11-03T08:13:24.916Z",
       "github_run_id": "41601655098",
       "buffer_post_id": "6ae997a72f050cf242975006",
-      "submitted_at": "2026-11-03T08:13:29.701Z"
+      "submitted_at": "2026-11-03T08:13:29.701Z",
+      "sent_at": "2026-11-03T08:13:28.523Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716448354"
     }
   ]
 }

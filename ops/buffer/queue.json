@@ -241,6 +241,18 @@
       "buffer_post_id": "6ae87d665a0b78bb030bf46b",
       "sent_at": "2026-11-02T12:09:11.550Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716441305"
+    },
+    {
+      "creative_id": "studio-product-designer-brief-builder-c5-20261103",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Define Constraints Before Choosing a Look",
+      "description": "Will your design idea still work around the room’s fixed conditions? Record measurements, must-keeps, non-negotiables and priorities before choosing the look—constraints can sharpen a brief instead of limiting it. Veluce Studio’s Designer Brief Builder is a digital planning resource that turns real-space facts, lifestyle needs, aesthetic signals and constraints into a usable project brief. Explore the complete briefing system.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-designer-brief-builder-c5-20261103.jpg",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

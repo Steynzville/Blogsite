@@ -1744,6 +1744,19 @@
       "submitted_at": "2026-11-04T08:13:09.118Z",
       "sent_at": "2026-11-04T08:13:07.332Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716455942"
+    },
+    {
+      "creative_id": "studio-product-luxury-lighting-formula-c5-20261104",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "title": "Luxury Lighting Formula: Fix Flat Living Room Light With a Clear Hierarchy",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c5-20261104.jpg",
+      "board_service_id": "296815500381467884",
+      "buffer_post_id": "6aeb200a19ea7ee3e933d82c",
+      "publish_at": "2026-11-04T12:07:41.093Z",
+      "status": "submitted_now_verified",
+      "recorded_at": "2026-11-04T12:07:41.093Z"
     }
   ]
 }

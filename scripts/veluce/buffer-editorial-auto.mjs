@@ -238,7 +238,7 @@ export function clickFocusedEditorialCopy(asset){
   if(title.length>100)throw new Error("Pinterest headline exceeds 100 characters: "+asset.path);
   // Owner-reviewed assets may supply an image-specific CTA rather than repeating
   // one generic opening line for every Pin in the same editorial topic.
-  const customLead=String(asset.click_lead||"").replace(/\\s+/g," ").trim();
+  const customLead=String(asset.click_lead||"").replace(/\s+/g," ").trim();
   const lead=customLead||CLICK_LEADS[asset.topic];
   if(!lead||!lead.includes("Veluce")||lead.length>145||lead.indexOf("Veluce")>110)
     throw new Error("Missing concise article-specific lead CTA: "+asset.topic);

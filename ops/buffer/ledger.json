@@ -1719,6 +1719,27 @@
       "submitted_at": "2026-11-04T04:06:35.975Z",
       "sent_at": "2026-11-04T04:06:35.569Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716455083"
+    },
+    {
+      "creative_id": "veluce-auto-20261104-1554a11c24ce",
+      "workflow": "veluce_editorial",
+      "title": "Where Should Home Security Cameras Go? Check the Sightlines",
+      "description": "The most visible camera is not always the most useful. Consider the approach route, viewing direction, height and obstructions without dominating your home's architecture. Read Veluce's full guide to plan discreet security-camera placement and coverage.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-security-cameras-20261103-f4.jpg",
+      "destination_url": "https://velucedesign.com/article/discreet-security-cameras/",
+      "board_service_id": "296815500381472050",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-04",
+      "topic": "security-cameras",
+      "board_name": "Home Security Ideas & Setups",
+      "source_blob_sha": "1554a11c24ceb50bbf8f003092aac2f3c3e22192",
+      "source_path": "assets/pinterest/studio-editorial-security-cameras-20261103-f4.jpg",
+      "copy_version": "veluce-click-v2",
+      "hook_style": "original-benefit",
+      "cta_style": "specific-article-benefit",
+      "recorded_at": "2026-11-04T08:13:02.371Z",
+      "github_run_id": "41797766148"
     }
   ]
 }

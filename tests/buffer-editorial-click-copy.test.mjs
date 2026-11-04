@@ -129,17 +129,17 @@ test("all 30 owner-uploaded patio decor Pins have unique click-v4 copy and subje
   }
 });
 
-test("all 258 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
+test("all 288 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
   const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
   const liveIds=new Set(live.map(b=>String(b.id)+"|"+b.name));
   const published=assets.filter(a=>a.visually_verified);
   const held=assets.filter(a=>a.visually_verified!==true);
-  assert.equal(assets.length,262);
-  assert.equal(published.length,258);
+  assert.equal(assets.length,292);
+  assert.equal(published.length,288);
   assert.equal(held.length,4);
-  assert.equal(new Set(published.map(a=>a.click_lead)).size,258);
+  assert.equal(new Set(published.map(a=>a.click_lead)).size,288);
   for(const a of published){
     assert.ok(a.click_lead && a.click_lead.includes("?") && a.click_lead.includes("Veluce"),a.path);
     assert.ok(a.click_lead.length>=55 && a.click_lead.length<=145,a.path);
@@ -165,7 +165,7 @@ test("all 258 eligible Pins have unique individual click hooks and valid topic-s
 test("legacy curated images remain independent and recent owner batches retain their hooks",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const recent=new Set(["garden-pergola","fire-pit","tree-uplighting","luxury-interiors","home-security","patio-decor"].map(x=>"2026-11-04-"+x));
-  const earlier=assets.filter(a=>!recent.has(a.source_batch) && a.source_batch!=="2026-11-05-kitchen-essentials");
+  const earlier=assets.filter(a=>!recent.has(a.source_batch) && !["2026-11-05-kitchen-essentials","2026-11-05-smart-home"].includes(a.source_batch));
   assert.equal(earlier.length,73);
   assert.equal(earlier.filter(a=>a.visually_verified && a.click_lead && a.conversion_review_method).length,69);
   assert.equal(earlier.filter(a=>!a.visually_verified && a.integrity_status==="rejected_truncated_png").length,4);
@@ -209,4 +209,89 @@ test("28 kitchen essentials Pins must match source bytes, the dedicated guide an
     assert.ok(copy.description.startsWith(a.click_lead),a.path);
     assert.ok(copy.description.length<=300&&copy.title.length<=100,a.path);
   }
+});
+
+test("30 smart-home owner JPGs have unique SEO copy, accurate article topics, safe image URLs and exact hashes",async()=>{
+  const {execFileSync}=await import("node:child_process");
+  const {TOPICS,dimensions,clickFocusedEditorialCopy,editorialAssetImageUrl}=await import("../scripts/veluce/buffer-editorial-auto.mjs");
+  const data=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const items=data.filter(x=>x.source_batch==="2026-11-05-smart-home");
+  const article=await readFile("content/articles/smart-home-planning-by-room.md","utf8");
+  assert.equal(items.length,30);
+  assert.equal(new Set(items.map(x=>x.path)).size,30);
+  assert.equal(new Set(items.map(x=>x.source_blob_sha)).size,30);
+  assert.equal(new Set(items.map(x=>x.click_lead)).size,30);
+  assert.match(article,/slug:\s*"smart-home-planning-by-room"/);
+  assert.match(article,/Wi-Fi|offline/i);
+  assert.match(article,/privacy/i);
+  assert.match(article,/nursery/i);
+  assert.match(article,/energy/i);
+  assert.match(article,/## Explore More/);
+  assert.match(article,/https:\/\/tr.ee\/Sp8jyc/);
+  assert.equal(TOPICS["smart-home-planning"].path,"/article/smart-home-planning-by-room/");
+  const validTopics=new Set(["smart-home-planning","smart-blinds","smart-lighting","smart-access","security-cameras","perimeter-security"]);
+  const expected={
+    "smart-access":3,"smart-blinds":4,"smart-lighting":7,"smart-home-planning":13,
+    "security-cameras":1,"perimeter-security":2
+  };
+  assert.deepEqual(Object.fromEntries(Object.entries(expected).map(([k,v])=>[k,items.filter(x=>x.topic===k).length])),expected);
+  for(const a of items){
+    assert.ok(validTopics.has(a.topic),a.path);
+    assert.equal(a.origin,"owner-upload",a.path);
+    assert.equal(a.conversion_verified,true,a.path);
+    assert.equal(a.visually_verified,true,a.path);
+    assert.equal(a.conversion_visual_kind,"image-only",a.path);
+    assert.match(a.path,/^assets\/pinterest\/smart-home[-a-z0-9 ()]+\.jpg$/);
+    assert.ok(a.click_lead.startsWith(a.conversion_hook) && a.click_lead.includes("Veluce"),a.path);
+    assert.ok(a.click_lead.length>=55 && a.click_lead.length<=145,a.path);
+    assert.ok(a.allowed_board_service_ids?.length>=1,a.path);
+    const img=await readFile(a.path);
+    assert.deepEqual(dimensions(img),{width:1000,height:1500,mime:"image/jpeg"},a.path);
+    assert.equal(execFileSync("git",["hash-object",a.path],{encoding:"utf8"}).trim(),a.source_blob_sha,a.path);
+    const pin=clickFocusedEditorialCopy(a);
+    assert.equal(pin.copy_version,"veluce-click-v4",a.path);
+    assert.equal(pin.cta_style,"image-specific-question-and-early-cta",a.path);
+    assert.ok(pin.description.startsWith(a.click_lead) && pin.description.length<=300,a.path);
+    assert.ok(pin.title.length<=100,a.path);
+    const url=editorialAssetImageUrl(a);
+    assert.ok(url.startsWith("https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/"),a.path);
+    assert.ok(!url.includes(" "),a.path);
+  }
+  const unusual=items.find(x=>x.path.endsWith("smart-home-04-connected-kitchen (2).jpg"));
+  assert.ok(unusual);
+  assert.match(editorialAssetImageUrl(unusual),/connected-kitchen%20\(2\)\.jpg$/);
+});
+test("smart-home Pins are restricted to real scene-relevant boards (no living room on bedroom board)",async()=>{
+  const {chooseBoardPlacement}=await import("../scripts/veluce/buffer-editorial-auto.mjs");
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const boards=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  const liveById=new Map(boards.map(b=>[String(b.id),b.name]));
+  const batch=assets.filter(x=>x.source_batch==="2026-11-05-smart-home");
+  const available=new Set([
+    "Smart Home Ideas & Gadgets 🔥","Cozy Bedroom Ideas & Finds 🔥",
+    "Modern Home Decor Ideas & Finds 🔥","Smart Home Security Systems",
+    "Home Security Ideas & Setups"
+  ]);
+  const used=new Set();
+  for(const a of batch){
+    for(const id of a.allowed_board_service_ids){
+      assert.ok(liveById.has(String(id))&&available.has(liveById.get(String(id))),a.path);
+    }
+    const selection=chooseBoardPlacement(a.topic,[],"2026-11-05",coverage,a);
+    assert.ok(selection,a.path);
+    assert.ok(a.allowed_board_service_ids.includes(selection.id),a.path);
+    assert.equal(liveById.get(selection.id),selection.name,a.path);
+    used.add(selection.name);
+    const isBedroom=/bedroom/.test(a.path);
+    if(!isBedroom)assert.notEqual(selection.name,"Cozy Bedroom Ideas & Finds 🔥",a.path);
+    if(a.topic==="smart-home-planning")assert.deepEqual(a.allowed_board_service_ids,["296815500381472108"],a.path);
+    if(a.topic==="smart-lighting")assert.ok(!a.allowed_board_service_ids.includes("296815500381470761"),a.path);
+  }
+  const cinema=batch.find(a=>a.path.endsWith("smart-home-05-cinema-lighting.jpg"));
+  const bedroom=batch.find(a=>a.path.endsWith("smart-home-pinterest-04-bedroom.jpg"));
+  assert.ok(cinema && bedroom);
+  assert.equal(cinema.allowed_board_service_ids.includes("296815500381470761"),false);
+  assert.equal(bedroom.allowed_board_service_ids.includes("296815500381470761"),true);
+  assert.throws(()=>chooseBoardPlacement(cinema.topic,[],"2026-11-05",coverage,{...cinema,allowed_board_service_ids:["NOT_A_BOARD"]}),/Invalid image-specific Pinterest board allowlist/);
 });

@@ -315,7 +315,8 @@
         "security-cameras",
         "perimeter-security",
         "smart-access",
-        "smart-lighting"
+        "smart-lighting",
+        "smart-home-planning"
       ],
       "sections": [],
       "status": "eligible_when_approved_asset_available"

@@ -68,7 +68,7 @@ test("reviewed image-specific security hooks retain a distinctive reason to clic
     click_lead:"Does the camera see the approach or only the doormat? See Veluce's discreet-camera placement guide.",
     description:"Camera installed under the eave above the lit walkway. Check the camera sightline before installation."
   });
-  assert.match(a.description,/^Does the camera see the approach or only the doormat\\?/);
+  assert.match(a.description,/^Does the camera see the approach or only the doormat\?/);
   assert.match(a.description,/Check the camera sightline/);
   assert.equal(a.copy_version,"veluce-click-v4");
   assert.equal(a.cta_style,"image-specific-question-and-early-cta");

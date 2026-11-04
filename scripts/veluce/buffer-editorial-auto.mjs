@@ -177,6 +177,52 @@ export const CLICK_INTENT={
 // Keep original visual specificity, improve soft titles, and give each Pin
 // a clear, truthful reason to open its matching live Veluce article.
 const TITLE_HOOK=/\b(how|why|what|which|where|when|before|without|avoid|mistakes?|versus|vs\.?|compare|choose|check|guide|tips?|ideas|planning|plan|that|should|need)\b|\?/i;
+export const CLICK_LEADS={
+  "tree-uplighting": "Where should tree uplights go? See Veluce's guide to concealed positioning and glare control.",
+  "pathway-lighting": "Does your path feel too bright at night? See Veluce's guide to spacing low garden lights.",
+  "pergola": "Want a pergola that feels welcoming after dark? Explore Veluce's layered lighting guide.",
+  "fire-pit": "Will your fire-pit seating work for guests? See Veluce's guide to layout and circulation.",
+  "copper-lanterns": "Copper or another finish? Read Veluce's guide to copper lantern patina and upkeep.",
+  "led-deck-strips": "Planning LED strips on your deck? Explore Veluce's placement and weatherproofing guide.",
+  "tree-moonlighting": "Want soft garden moonlight without visible glare? See Veluce's tree-canopy lighting guide.",
+  "bedroom-layered": "Tired of one harsh bedroom ceiling light? See Veluce's guide to three distinct lighting layers.",
+  "smart-blinds": "Unsure where smart blinds help most? Read Veluce's guide to daylight, glare and privacy.",
+  "kitchen-layout": "Choosing kitchen cabinetry? Check Veluce's guide to working aisles and prep flow first.",
+  "kitchen-appliances": "Planning appliance purchases? Explore Veluce's guide to kitchen fit, function and layout.",
+  "kitchen-countertops": "Which natural stone belongs in your kitchen? Compare countertop trade-offs with Veluce.",
+  "quartzite-porcelain": "Quartzite or porcelain? See Veluce's guide to countertop appearance and upkeep.",
+  "natural-stone": "Marble, limestone or travertine? Read Veluce's guide to texture, patina and care before choosing.",
+  "interior-design": "What makes a room feel cohesive? Explore Veluce's guide to focal points and material balance.",
+  "garden-patio-layout": "Buying patio furniture? Check Veluce's guide to seating zones and walking space first.",
+  "outdoor-rugs": "What size outdoor rug works? See Veluce's guide to materials, scale and maintenance.",
+  "modular-sectionals": "Will a sectional fit your patio? Explore Veluce's guide to flexible modular seating.",
+  "garden-fireplace": "Planning an outdoor fireplace? Read Veluce's guide to seating and clearances.",
+  "garden-pathway-moonlighting": "Need navigable garden paths after dark? See Veluce's guide to moonlighting and visibility.",
+  "outdoor-wall-grazing": "Wall grazing or wall washing? Compare the effects in Veluce's exterior-lighting guide.",
+  "outdoor-glare": "Are garden lights blinding you from the patio? Try Veluce's outdoor glare-check guide.",
+  "solar-pathway": "Buying solar path lights? See Veluce's guide to placement and realistic performance first.",
+  "security-cameras": "Could your camera miss the approach? See Veluce's guide to discreet placement and sightlines.",
+  "perimeter-security": "Where might security coverage miss an approach? Read Veluce's perimeter planning guide.",
+  "smart-access": "Smart lock or another entry setup? Compare options with Veluce's access-control guide.",
+  "smart-lighting": "Want lighting scenes that suit everyday tasks? Explore Veluce's smart-control guide."
+};
+
+const GENERATION_QUALITY_GATE_START="2026-11-05";
+export function creativeConversionReady(asset){
+  // Owner-approved and older Work stock retains its existing approval:
+  // only newly generated Work material must meet the stricter visual brief.
+  if(asset.origin!=="work-generated")return true;
+  const day=String(asset.generated_at||asset.visual_review_date||"").slice(0,10);
+  if(day && day<GENERATION_QUALITY_GATE_START)return true;
+  if(asset.conversion_verified!==true)return false;
+  if(!["headline-overlay","image-only"].includes(asset.conversion_visual_kind))return false;
+  const hook=String(asset.conversion_hook||"").trim();
+  if(hook.length<20||hook.length>180)return false;
+  if(asset.conversion_visual_kind==="headline-overlay" &&
+    /^(plan the view|layer the light|elevate your space|be inspired|design ideas|look closer|style it up|beautiful homes)$/i.test(hook))return false;
+  return true;
+}
+
 export function clickFocusedEditorialCopy(asset){
   const topic=TOPICS[asset.topic],intent=CLICK_INTENT[asset.topic];
   if(!topic||!intent)throw new Error("Missing approved topic/click intent: "+asset.topic);
@@ -190,28 +236,23 @@ export function clickFocusedEditorialCopy(asset){
     title+=ending;
   }
   if(title.length>100)throw new Error("Pinterest headline exceeds 100 characters: "+asset.path);
-  let body=String(asset.description||topic.description||"").replace(/\s+/g," ").trim();
-  if(!body)throw new Error("Editorial image has no truthful description: "+asset.path);
-  // Drop an existing weak 'read the guide' final sentence before adding a
-  // tailored CTA; never strip factual/image-specific sentences.
-  const sentences=body.split(/(?<=[.!?])\s+/);
-  if(sentences.length>1 && /^(?:read|see|explore|discover)\b.*\b(?:Veluce|guide|article)\b/i.test(sentences.at(-1))){
-    sentences.pop();body=sentences.join(" ");
-  }
-  const cta="Read Veluce's full guide to "+intent.goal+".";
-  const maxBase=500-cta.length-2;
-  if(body.length>maxBase){
-    const fragment=body.slice(0,maxBase);
-    const end=fragment.lastIndexOf(". ");
-    body=end>maxBase*0.5?fragment.slice(0,end+1):
-      fragment.replace(/\s+\S*$/,"").replace(/[\s,;:.!?-]+$/,"")+".";
-  }
-  body=body.replace(/[\s.!?]+$/,"");
-  const description=body+". "+cta;
-  if(description.length>500 || !description.endsWith(cta))
-    throw new Error("Editorial CTA quality check failed: "+asset.path);
+  const lead=CLICK_LEADS[asset.topic];
+  if(!lead||!lead.includes("Veluce")||lead.length>145)
+    throw new Error("Missing concise article-specific lead CTA: "+asset.topic);
+  const raw=String(asset.description||topic.description||"").replace(/\s+/g," ").trim();
+  if(!raw)throw new Error("Editorial image has no truthful description: "+asset.path);
+  const sentences=raw.split(/(?<=[.!?])\s+/).filter(s=>
+    !/\b(read|see|explore|discover|visit|learn)\b.*\b(Veluce|guide|article)\b/i.test(s));
+  const supporting=sentences.join(" ").replace(/\s+/g," ").trim();
+  const room=300-lead.length-1;
+  let detail=supporting.slice(0,room);
+  if(detail.length<supporting.length)
+    detail=detail.replace(/\s+\S*$/,"").replace(/[\s,;:.!?-]+$/,"")+".";
+  const description=lead+(detail?" "+detail:"");
+  if(description.length>300||description.indexOf("Veluce")>115)
+    throw new Error("Front-loaded CTA quality check failed: "+asset.path);
   return {title,description,hook_style:hadHook?"original-benefit":"improved-topic-benefit",
-    cta_style:"specific-article-benefit",copy_version:"veluce-click-v2"};
+    cta_style:"early-article-specific",copy_version:"veluce-click-v3"};
 }
 export function localDate(now=new Date()){
   const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Johannesburg",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
@@ -329,7 +370,7 @@ export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=
   const images=new Set(ledger.map(x=>x.image_url).filter(Boolean));
   const pending=new Set(ledger.map(x=>x.creative_id).filter(Boolean));
   const candidate=items.filter(x=>{
-    if(x.visually_verified!==true || !TOPICS[x.topic] || !validPaths.has(x.path))return false;
+    if(x.visually_verified!==true || !TOPICS[x.topic] || !validPaths.has(x.path) || !creativeConversionReady(x))return false;
     const imageUrl=URL_BASE+x.path;
     if(images.has(imageUrl)||historical.has(x.sha))return false;
     if(pending.has(x.creative_id))return false;
@@ -436,6 +477,7 @@ async function run(mode){
   const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance,coverage);
   console.log(JSON.stringify({mode,local_date:today,already_reserved_or_sent:todayCount,
     remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===URL_BASE+x.path)).length,
+    conversion_quality_holds:entries.filter(x=>!creativeConversionReady(x)).length,
     recent_click_evidence_topics:Object.keys(performance),
     next:selected?{path:selected.path,topic:selected.topic,board:chooseBoardPlacement(selected.topic,ledger.posts??[],today,coverage)?.name}:null}));
   if(mode==="validate")return;

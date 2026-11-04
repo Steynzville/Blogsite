@@ -60,3 +60,20 @@ test("all 27 topics start descriptions with a specific reason to visit the artic
     assert.equal(copy.copy_version,"veluce-click-v3");
   }
 });
+
+test("reviewed image-specific security hooks retain a distinctive reason to click",()=>{
+  const a=clickFocusedEditorialCopy({
+    topic:"security-cameras",path:"assets/pinterest/home-security-02.jpg",
+    title:"Where Should a Discreet Camera Face Along Your Front Entrance?",
+    click_lead:"Does the camera see the approach or only the doormat? See Veluce's discreet-camera placement guide.",
+    description:"Camera installed under the eave above the lit walkway. Check the camera sightline before installation."
+  });
+  assert.match(a.description,/^Does the camera see the approach or only the doormat\\?/);
+  assert.match(a.description,/Check the camera sightline/);
+  assert.equal(a.copy_version,"veluce-click-v4");
+  assert.equal(a.cta_style,"image-specific-question-and-early-cta");
+  assert.throws(()=>clickFocusedEditorialCopy({
+    topic:"security-cameras",path:"assets/pinterest/test.jpg",title:"How to Review Camera Coverage",
+    click_lead:"Boost your home! Veluce guide.",description:"Camera on eave."
+  }),/Image-specific CTA must start with a useful question/);
+});

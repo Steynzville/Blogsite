@@ -61,6 +61,7 @@ export const TOPICS={
   "security-cameras":{path:"/article/discreet-security-cameras/",board:"Home Security Ideas & Setups",description:"Plan where home security cameras can monitor useful areas without spoiling the look of a home."},
   "perimeter-security":{path:"/article/perimeter-monitoring/",board:"Smart Home Security Systems",description:"Explore perimeter awareness, camera coverage and practical home-security system planning."},
   "smart-access":{path:"/article/smart-access-control/",board:"Smart Home Security Systems",description:"Compare smart entry options, access routines and practical security considerations for modern homes."},
+  "smart-home-planning":{path:"/article/smart-home-planning-by-room/",board:"Smart Home Ideas & Gadgets 🔥",description:"Plan connected living by room: useful lighting scenes, climate and energy, nursery comfort, smart kitchens, outdoor spaces and reliable manual fallbacks. Read Veluce's practical smart-home planning guide."},
   "smart-lighting":{path:"/article/smart-home-lighting-control/",board:"Smart Home Ideas & Gadgets 🔥",description:"See how smart lighting scenes and controls can adapt a room for practical everyday activities."}
 };
 export const CLICK_INTENT={
@@ -172,6 +173,10 @@ export const CLICK_INTENT={
     "hook": "What to Check Before Choosing",
     "goal": "compare smart access options and secure entry routines"
   },
+  "smart-home-planning": {
+    "hook": "Plan the Room Before the App",
+    "goal": "plan reliable room-based smart-home routines, safety, privacy, compatibility and fallback controls"
+  },
   "smart-lighting": {
     "hook": "How to Set Up Useful Scenes",
     "goal": "plan smart lighting scenes for daily activities"
@@ -210,6 +215,7 @@ export const CLICK_LEADS={
   "security-cameras": "Could your camera miss the approach? See Veluce's guide to discreet placement and sightlines.",
   "perimeter-security": "Where might security coverage miss an approach? Read Veluce's perimeter planning guide.",
   "smart-access": "Smart lock or another entry setup? Compare options with Veluce's access-control guide.",
+  "smart-home-planning": "Not sure what to automate first? See Veluce's room-by-room guide to practical smart-home planning.",
   "smart-lighting": "Want lighting scenes that suit everyday tasks? Explore Veluce's smart-control guide."
 };
 
@@ -352,8 +358,19 @@ export function performanceScores(data,day){
 export function eligibleBoardsForTopic(topic,coverage){
   return (coverage?.boards??[]).filter(b=>b?.eligible_topics?.includes(topic)&&/^\d+$/.test(String(b.id))&&b.name);
 }
-export function chooseBoardPlacement(topic,ledger,day,coverage){
-  const eligible=eligibleBoardsForTopic(topic,coverage);
+export function chooseBoardPlacement(topic,ledger,day,coverage,asset=null){
+  let eligible=eligibleBoardsForTopic(topic,coverage);
+  // Topic-level board eligibility is not enough for scene-specific images:
+  // e.g. a smart living-room Pin must not land on Cozy Bedroom just because
+  // both have topic smart-lighting. Owner-reviewed assets can narrow it.
+  if(asset?.allowed_board_service_ids){
+    if(!Array.isArray(asset.allowed_board_service_ids)||
+      !asset.allowed_board_service_ids.length ||
+      asset.allowed_board_service_ids.some(id=>!/^[0-9]+$/.test(String(id))))
+      throw new Error("Invalid image-specific Pinterest board allowlist: "+asset.path);
+    const permitted=new Set(asset.allowed_board_service_ids.map(String));
+    eligible=eligible.filter(b=>permitted.has(String(b.id)));
+  }
   if(!eligible.length)return null;
   const recentCutoff=new Date(Date.parse(day+"T00:00:00Z")-27*86400000).toISOString().slice(0,10);
   const recent=ledger.filter(p=>p.workflow===EDITORIAL&&p.local_date>=recentCutoff&&p.local_date<=day);
@@ -399,7 +416,7 @@ export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=
     ((count.get(a.topic)??0)-(count.get(b.topic)??0))||
     (a.topic===last?1:0)-(b.topic===last?1:0)||
     ((weekCount.get(a.topic)??0)-(weekCount.get(b.topic)??0))||
-    ((coverage?(()=>{const x=chooseBoardPlacement(a.topic,ledger,day,coverage);const y=chooseBoardPlacement(b.topic,ledger,day,coverage);const used=t=>ledger.filter(p=>p.workflow===EDITORIAL&&p.local_date>=new Date(Date.parse(day+"T00:00:00Z")-27*86400000).toISOString().slice(0,10)&&String(p.board_service_id)===String(t?.id)).length;return used(x)-used(y);})():0))||
+    ((coverage?(()=>{const x=chooseBoardPlacement(a.topic,ledger,day,coverage,a);const y=chooseBoardPlacement(b.topic,ledger,day,coverage,b);const used=t=>ledger.filter(p=>p.workflow===EDITORIAL&&p.local_date>=new Date(Date.parse(day+"T00:00:00Z")-27*86400000).toISOString().slice(0,10)&&String(p.board_service_id)===String(t?.id)).length;return used(x)-used(y);})():0))||
     ((performance[b.topic]??0)-(performance[a.topic]??0))||
     a.path.localeCompare(b.path));
   return candidate[0]??null;
@@ -490,7 +507,7 @@ async function run(mode){
     remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===URL_BASE+x.path)).length,
     conversion_quality_holds:entries.filter(x=>!creativeConversionReady(x)).length,
     recent_click_evidence_topics:Object.keys(performance),
-    next:selected?{path:selected.path,topic:selected.topic,board:chooseBoardPlacement(selected.topic,ledger.posts??[],today,coverage)?.name}:null}));
+    next:selected?{path:selected.path,topic:selected.topic,board:chooseBoardPlacement(selected.topic,ledger.posts??[],today,coverage,selected)?.name}:null}));
   if(mode==="validate")return;
   if(mode!=="publish")throw new Error("Unsupported mode "+mode);
   if(process.env.EDITORIAL_PUBLISH_ENABLED!=="true") {console.log("Editorial publishing held: uploaded image-to-topic mapping awaiting visual audit.");return;}
@@ -507,7 +524,7 @@ async function run(mode){
   if(!asset){console.log("::warning::No individually visually verified unused images available. Do not post based on unverified batch labels.");return}
   const topic=TOPICS[asset.topic];
   const boardData=JSON.parse(await readFile(BOARDS,"utf8"));
-  const placement=chooseBoardPlacement(asset.topic,ledger.posts??[],today,coverage);
+  const placement=chooseBoardPlacement(asset.topic,ledger.posts??[],today,coverage,asset);
   if(!placement)throw new Error("No semantically appropriate board for topic: "+asset.topic);
   const mapped=boardData.boards.find(x=>x.name===placement.name&&String(x.id)===placement.id);
   if(!mapped)throw new Error("Selected board is absent from authenticated Buffer discovery: "+placement.name);

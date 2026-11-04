@@ -129,17 +129,17 @@ test("all 30 owner-uploaded patio decor Pins have unique click-v4 copy and subje
   }
 });
 
-test("all 288 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
+test("all 316 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
   const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
   const liveIds=new Set(live.map(b=>String(b.id)+"|"+b.name));
   const published=assets.filter(a=>a.visually_verified);
   const held=assets.filter(a=>a.visually_verified!==true);
-  assert.equal(assets.length,292);
-  assert.equal(published.length,288);
+  assert.equal(assets.length,320);
+  assert.equal(published.length,316);
   assert.equal(held.length,4);
-  assert.equal(new Set(published.map(a=>a.click_lead)).size,288);
+  assert.equal(new Set(published.map(a=>a.click_lead)).size,316);
   for(const a of published){
     assert.ok(a.click_lead && a.click_lead.includes("?") && a.click_lead.includes("Veluce"),a.path);
     assert.ok(a.click_lead.length>=55 && a.click_lead.length<=145,a.path);
@@ -165,7 +165,7 @@ test("all 288 eligible Pins have unique individual click hooks and valid topic-s
 test("legacy curated images remain independent and recent owner batches retain their hooks",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const recent=new Set(["garden-pergola","fire-pit","tree-uplighting","luxury-interiors","home-security","patio-decor"].map(x=>"2026-11-04-"+x));
-  const earlier=assets.filter(a=>!recent.has(a.source_batch) && !["2026-11-05-kitchen-essentials","2026-11-05-smart-home"].includes(a.source_batch));
+  const earlier=assets.filter(a=>!recent.has(a.source_batch) && !["2026-11-05-kitchen-essentials","2026-11-05-smart-home","2026-11-05-led-landscape-boost"].includes(a.source_batch));
   assert.equal(earlier.length,73);
   assert.equal(earlier.filter(a=>a.visually_verified && a.click_lead && a.conversion_review_method).length,69);
   assert.equal(earlier.filter(a=>!a.visually_verified && a.integrity_status==="rejected_truncated_png").length,4);
@@ -294,4 +294,55 @@ test("smart-home Pins are restricted to real scene-relevant boards (no living ro
   assert.equal(cinema.allowed_board_service_ids.includes("296815500381470761"),false);
   assert.equal(bedroom.allowed_board_service_ids.includes("296815500381470761"),true);
   assert.throws(()=>chooseBoardPlacement(cinema.topic,[],"2026-11-05",coverage,{...cinema,allowed_board_service_ids:["NOT_A_BOARD"]}),/Invalid image-specific Pinterest board allowlist/);
+});
+
+test("all 28 landscape lighting images have unique CTR hooks and accurate LED or pathway article destinations",async()=>{
+  const {execFileSync}=await import("node:child_process");
+  const {dimensions,chooseBoardPlacement,clickFocusedEditorialCopy,editorialAssetImageUrl}=await import("../scripts/veluce/buffer-editorial-auto.mjs");
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const active=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  const batch=assets.filter(a=>a.source_batch==="2026-11-05-led-landscape-boost");
+  assert.equal(batch.length,28);
+  assert.equal(new Set(batch.map(a=>a.path)).size,28);
+  assert.equal(new Set(batch.map(a=>a.source_blob_sha)).size,28);
+  assert.equal(new Set(batch.map(a=>a.click_lead)).size,28);
+  assert.equal(batch.filter(a=>a.topic==="led-deck-strips").length,19);
+  assert.equal(batch.filter(a=>a.topic==="pathway-lighting").length,9);
+  const byId=new Map(active.map(b=>[String(b.id),b.name]));
+  for(const a of batch){
+    assert.equal(a.origin,"owner-upload",a.path);
+    assert.equal(a.visually_verified,true,a.path);
+    assert.equal(a.conversion_verified,true,a.path);
+    assert.ok(a.click_lead.startsWith(a.conversion_hook),a.path);
+    assert.ok(a.click_lead.includes("Veluce") && a.click_lead.length>=65 && a.click_lead.length<=145,a.path);
+    assert.match(a.path,/^assets\/pinterest\/landscape-lighting-\d\d\.jpg$/,a.path);
+    assert.ok(["image-only","headline-overlay"].includes(a.conversion_visual_kind),a.path);
+    const bytes=await readFile(a.path);
+    assert.deepEqual(dimensions(bytes),{width:1000,height:1500,mime:"image/jpeg"},a.path);
+    assert.equal(execFileSync("git",["hash-object",a.path],{encoding:"utf8"}).trim(),a.source_blob_sha,a.path);
+    const boards=a.allowed_board_service_ids;
+    assert.ok(Array.isArray(boards) && boards.length>=2,a.path);
+    for(const id of boards){
+      assert.ok(byId.has(String(id)),a.path);
+      assert.ok(["Outdoor Lighting Ideas","Attainable Luxury Outdoor Lighting","Garden & Patio Ideas & Finds 🔥"].includes(byId.get(String(id))),a.path);
+      assert.ok(coverage.boards.some(b=>String(b.id)===String(id) && b.eligible_topics.includes(a.topic)),a.path);
+      assert.notEqual(byId.get(String(id)),"AliExpress Attainable Luxury Lighting",a.path);
+    }
+    const selected=chooseBoardPlacement(a.topic,[],"2026-11-05",coverage,a);
+    assert.ok(selected && boards.includes(selected.id),a.path);
+    const expected=a.topic==="led-deck-strips"?
+      "/article/led-strip-integration-modern-deck/":"/article/garden-pathway-lighting/";
+    assert.equal(TOPICS[a.topic].path,expected,a.path);
+    const pin=clickFocusedEditorialCopy(a);
+    assert.equal(pin.copy_version,"veluce-click-v4",a.path);
+    assert.equal(pin.cta_style,"image-specific-question-and-early-cta",a.path);
+    assert.ok(pin.description.startsWith(a.click_lead) && pin.description.length<=300,a.path);
+    assert.ok(pin.title.length<=100,a.path);
+    assert.ok(editorialAssetImageUrl(a).endsWith(a.path),a.path);
+  }
+  for(const n of [18,19]){
+    const name="landscape-lighting-"+n+".jpg";
+    assert.equal(batch.find(a=>a.path.endsWith(name))?.conversion_visual_kind,"headline-overlay",name);
+  }
 });

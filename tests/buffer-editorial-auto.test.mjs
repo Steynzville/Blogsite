@@ -236,3 +236,45 @@ test("Board-section recommendation is marked advisory, never verified via Buffer
   assert.equal(selected.name,"Garden & Patio Ideas & Finds 🔥");
   assert.equal(selected.suggested_section.name,"Garden & Patio Decor");
 });
+
+test("popular LED article gets one preferred slot per SAST day without exceeding the four editorial slots",async()=>{
+  const led={path:"assets/pinterest/test-led-01.jpg",topic:"led-deck-strips",
+    origin:"owner-upload",visually_verified:true,sha:"LED-SHA-01"};
+  const led2={...led,path:"assets/pinterest/test-led-02.jpg",sha:"LED-SHA-02"};
+  const patio={path:"assets/pinterest/test-patio.jpg",topic:"fire-pit",
+    origin:"owner-upload",visually_verified:true,sha:"PATIO-SHA"};
+  const tree={path:"assets/pinterest/test-tree.jpg",topic:"tree-uplighting",
+    origin:"owner-upload",visually_verified:true,sha:"TREE-SHA"};
+  const candidates=[patio,tree,led2,led];
+  const paths=new Set(candidates.map(x=>x.path));
+  const day="2026-11-05";
+  // At the first of four daily slots, boost relevant LED while stock remains.
+  const first=chooseAsset(candidates,[],day,paths);
+  assert.equal(first.topic,"led-deck-strips");
+  assert.equal(first.path,led.path);
+  // After the first LED submission today, rotate among the other topics.
+  // Reservations also count: a crash between reserve and send must not
+  // cause a second featured LED selection.
+  const ledger=[{workflow:"veluce_editorial",local_date:day,
+    topic:"led-deck-strips",source_blob_sha:led.sha,
+    image_url:"https://raw.githubusercontent.com/Steynzville/Blogsite/main/"+led.path,
+    status:"reserved"}];
+  assert.equal(chooseAsset(candidates,ledger,day,paths)?.topic,"fire-pit");
+  const two=[...ledger,{workflow:"veluce_editorial",local_date:day,topic:"fire-pit",source_blob_sha:patio.sha}];
+  assert.equal(chooseAsset(candidates,two,day,paths)?.topic,"tree-uplighting");
+  // Next day LED gets preference again, but cannot reuse the original blob.
+  assert.equal(chooseAsset(candidates,ledger,"2026-11-06",paths)?.path,led2.path);
+  // If no approved LED remains, choose other topics as usual.
+  const depleted=ledger.concat([{workflow:"veluce_editorial",local_date:"2026-11-04",
+    topic:"led-deck-strips",source_blob_sha:led2.sha}]);
+  assert.equal(chooseAsset(candidates,depleted,"2026-11-06",paths)?.topic,"fire-pit");
+  // Never allow the boost to bypass visual quality.
+  assert.equal(chooseAsset([{...led,visually_verified:false},patio],[],day,
+    new Set([led.path,patio.path]))?.topic,"fire-pit");
+});
+test("LED priority shares the original four SAST time slots; no extra workflow cron added",async()=>{
+  const yaml=await readFile(".github/workflows/veluce-buffer-editorial-auto.yml","utf8");
+  for(const cron of ["'0 4 * * *'","'0 8 * * *'","'0 14 * * *'","'0 18 * * *'"])
+    assert.ok(yaml.includes(cron),cron);
+  assert.ok(yaml.includes("mode:")&&yaml.includes("validate"),"Keep safe manual validation");
+});

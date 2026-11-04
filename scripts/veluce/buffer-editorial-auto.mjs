@@ -410,6 +410,16 @@ export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=
     return true;
   });
   const today=ledger.filter(x=>x.workflow===EDITORIAL && x.local_date===day);
+  // Controlled 25%-of-four daily exposure test for the popular LED-strip article:
+  // prefer exactly one unused, approved LED creative per local publishing day;
+  // leave the other three daily slots to the existing multi-topic rotation.
+  // Excludes later LED candidates when other vetted topics are available.
+  // Exhausted LED stock falls back safely; never reuse a creative or exceed 4/day.
+  const ledToday=today.some(p=>p.topic==="led-deck-strips");
+  const ledCandidates=candidate.filter(x=>x.topic==="led-deck-strips");
+  const otherCandidates=candidate.filter(x=>x.topic!=="led-deck-strips");
+  const pool=!ledToday && ledCandidates.length?ledCandidates:
+    ledToday && otherCandidates.length?otherCandidates:candidate;
   const count=new Map(Object.keys(TOPICS).map(k=>[k,today.filter(x=>x.topic===k).length]));
   const last=[...ledger].reverse().find(x=>x.workflow===EDITORIAL)?.topic;
   const cutoff=new Date(Date.parse(day+"T00:00:00Z")-6*86400000).toISOString().slice(0,10);
@@ -417,14 +427,14 @@ export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=
   const weekCount=new Map(Object.keys(TOPICS).map(k=>[k,recent.filter(x=>x.topic===k).length]));
   // User-supplied, individually approved artwork always publishes before Work-generated reserves.
   const priority=x=>x.origin==="owner-upload"?0:x.origin==="work-generated"?1:2;
-  candidate.sort((a,b)=>(priority(a)-priority(b))||
+  pool.sort((a,b)=>(priority(a)-priority(b))||
     ((count.get(a.topic)??0)-(count.get(b.topic)??0))||
     (a.topic===last?1:0)-(b.topic===last?1:0)||
     ((weekCount.get(a.topic)??0)-(weekCount.get(b.topic)??0))||
     ((coverage?(()=>{const x=chooseBoardPlacement(a.topic,ledger,day,coverage,a);const y=chooseBoardPlacement(b.topic,ledger,day,coverage,b);const used=t=>ledger.filter(p=>p.workflow===EDITORIAL&&p.local_date>=new Date(Date.parse(day+"T00:00:00Z")-27*86400000).toISOString().slice(0,10)&&String(p.board_service_id)===String(t?.id)).length;return used(x)-used(y);})():0))||
     ((performance[b.topic]??0)-(performance[a.topic]??0))||
     a.path.localeCompare(b.path));
-  return candidate[0]??null;
+  return pool[0]??null;
 }
 function git(args){return execFileSync("git",args,{stdio:"pipe",encoding:"utf8"}).trim()}
 async function persist(ledger,message,withState=false){

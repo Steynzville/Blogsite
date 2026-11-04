@@ -41,6 +41,6 @@ jobs:
         with:
           node-version: '22'
       - name: Test four-Pin automation and approved source images
-        run: node --test tests/buffer-editorial-auto.test.mjs tests/buffer-pinterest.test.mjs
+        run: node --test tests/buffer-editorial-auto.test.mjs tests/buffer-pinterest.test.mjs tests/buffer-editorial-click-copy.test.mjs
       - name: Publish scheduled Pin or safely validate
         run: node scripts/veluce/buffer-editorial-auto.mjs "${{ github.event_name == 'schedule' && 'publish' || inputs.mode }}"

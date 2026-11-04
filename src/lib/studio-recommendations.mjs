@@ -70,6 +70,7 @@ export const articleStudioRecommendations = {
   'moonlighting-tree-canopies': { product: 'outdoorLighting', hook: 'Moonlighting becomes stronger when it is part of a restrained whole-property nightscape.' },
   'natural-stone-materials': { product: 'procurement', hook: 'Comparing beautiful materials? Turn the preference into a verifiable buying specification.' },
   'invisible-hvac-design': { product: 'completeHome', hook: 'Hidden services work best when they are coordinated with the whole design, not solved in isolation.' },
+  'everyday-kitchen-essentials-organization': { product: 'procurement', hook: 'Before buying organisers, compare cabinet dimensions, material care, real cost and everyday usefulness in one sourcing plan.' },
   'kitchen-appliances-luxury': { product: 'procurement', hook: 'High-ticket appliances deserve a specification and comparison before the showroom decides for you.' },
   'kitchen-design-layout': { product: 'designerBrief', hook: 'Before choosing cabinetry and finishes, turn the kitchen requirements into a brief people can actually use.' },
   'layered-lighting-bedroom': { product: 'luxuryLighting', hook: 'Want to turn these bedroom layers into a complete evening lighting plan?' },

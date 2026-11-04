@@ -44,6 +44,7 @@ export const TOPICS={
   "bedroom-layered":{path:"/article/layered-lighting-bedroom/",board:"Cozy Bedroom Ideas & Finds 🔥",description:"See how ambient, bedside and accent lighting work together to make a bedroom comfortable without relying on a harsh ceiling light."},
   "smart-blinds":{path:"/article/smart-blinds-follow-sun/",board:"Smart Home Ideas & Gadgets 🔥",description:"Planning daylight control? Compare how smart blinds manage glare, privacy and light across a normal day."},
   "kitchen-layout":{path:"/article/kitchen-design-layout/",board:"Kitchen Organization Ideas",description:"Explore practical kitchen layout, workflow, storage and circulation decisions before choosing cabinetry and appliances."},
+  "kitchen-essentials":{path:"/article/everyday-kitchen-essentials-organization/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Organise the everyday kitchen with practical pantry, utensil drawer, prep counter, coffee station, cookware and under-sink storage ideas. See Veluce's kitchen-essentials guide."},
   "kitchen-appliances":{path:"/article/kitchen-appliances-luxury/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Learn what matters when comparing kitchen appliance functions, space requirements and design integration."},
   "kitchen-countertops":{path:"/article/natural-stone-countertops-guide/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Choosing kitchen counters? Compare natural-stone performance and care before committing to a material."},
   "quartzite-porcelain":{path:"/article/quartzite-vs-porcelain-countertops/",board:"Kitchen Essentials & Must-Haves 🔥",description:"Compare quartzite and porcelain countertop durability, appearance and upkeep before choosing a finish."},
@@ -102,6 +103,10 @@ export const CLICK_INTENT={
   "kitchen-layout": {
     "hook": "What to Check Before Cabinetry",
     "goal": "plan kitchen work zones, landing space and movement"
+  },
+  "kitchen-essentials": {
+    "hook": "Organize What You Use",
+    "goal": "organise useful countertop, pantry, utensil and everyday kitchen task zones"
   },
   "kitchen-appliances": {
     "hook": "What Matters Before You Buy",
@@ -188,6 +193,7 @@ export const CLICK_LEADS={
   "bedroom-layered": "Tired of one harsh bedroom ceiling light? See Veluce's guide to three distinct lighting layers.",
   "smart-blinds": "Unsure where smart blinds help most? Read Veluce's guide to daylight, glare and privacy.",
   "kitchen-layout": "Choosing kitchen cabinetry? Check Veluce's guide to working aisles and prep flow first.",
+  "kitchen-essentials": "Tired of crowded kitchen counters? See Veluce's guide to useful pantry, drawer and prep zones.",
   "kitchen-appliances": "Planning appliance purchases? Explore Veluce's guide to kitchen fit, function and layout.",
   "kitchen-countertops": "Which natural stone belongs in your kitchen? Compare countertop trade-offs with Veluce.",
   "quartzite-porcelain": "Quartzite or porcelain? See Veluce's guide to countertop appearance and upkeep.",

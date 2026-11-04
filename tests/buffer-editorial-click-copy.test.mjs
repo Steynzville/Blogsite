@@ -49,7 +49,7 @@ test("new Work imagery cannot publish without proof of conversion-focused visual
   assert.equal(creativeConversionReady({...current,conversion_verified:true,conversion_visual_kind:"headline-overlay",conversion_hook:"Where Should Security Cameras Face?"}),true);
   assert.equal(creativeConversionReady({...current,conversion_verified:true,conversion_visual_kind:"image-only",conversion_hook:"A focused view of concealed lights marking each garden step"}),true);
 });
-test("all 27 topics start descriptions with a specific reason to visit the article",()=>{
+test("all supported topics start descriptions with a specific reason to visit the article",()=>{
   for(const topic of Object.keys(TOPICS)){
     const copy=clickFocusedEditorialCopy({
       topic,path:"assets/pinterest/draft.jpg",title:"How to Plan a Beautiful Home Detail",
@@ -129,17 +129,17 @@ test("all 30 owner-uploaded patio decor Pins have unique click-v4 copy and subje
   }
 });
 
-test("all 230 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
+test("all 258 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
   const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
   const liveIds=new Set(live.map(b=>String(b.id)+"|"+b.name));
   const published=assets.filter(a=>a.visually_verified);
   const held=assets.filter(a=>a.visually_verified!==true);
-  assert.equal(assets.length,234);
-  assert.equal(published.length,230);
+  assert.equal(assets.length,262);
+  assert.equal(published.length,258);
   assert.equal(held.length,4);
-  assert.equal(new Set(published.map(a=>a.click_lead)).size,230);
+  assert.equal(new Set(published.map(a=>a.click_lead)).size,258);
   for(const a of published){
     assert.ok(a.click_lead && a.click_lead.includes("?") && a.click_lead.includes("Veluce"),a.path);
     assert.ok(a.click_lead.length>=55 && a.click_lead.length<=145,a.path);
@@ -165,9 +165,48 @@ test("all 230 eligible Pins have unique individual click hooks and valid topic-s
 test("legacy curated images remain independent and recent owner batches retain their hooks",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const recent=new Set(["garden-pergola","fire-pit","tree-uplighting","luxury-interiors","home-security","patio-decor"].map(x=>"2026-11-04-"+x));
-  const earlier=assets.filter(a=>!recent.has(a.source_batch));
+  const earlier=assets.filter(a=>!recent.has(a.source_batch) && a.source_batch!=="2026-11-05-kitchen-essentials");
   assert.equal(earlier.length,73);
   assert.equal(earlier.filter(a=>a.visually_verified && a.click_lead && a.conversion_review_method).length,69);
   assert.equal(earlier.filter(a=>!a.visually_verified && a.integrity_status==="rejected_truncated_png").length,4);
   assert.equal(assets.filter(a=>recent.has(a.source_batch)&&a.visually_verified).length,161);
+});
+
+test("28 kitchen essentials Pins must match source bytes, the dedicated guide and two genuine kitchen boards",async()=>{
+  const {execFileSync}=await import("node:child_process");
+  const {dimensions,TOPICS,clickFocusedEditorialCopy,eligibleBoardsForTopic}=await import("../scripts/veluce/buffer-editorial-auto.mjs");
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const boards=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  const article=await readFile("content/articles/everyday-kitchen-essentials-organization.md","utf8");
+  const kitchen=assets.filter(a=>a.source_batch==="2026-11-05-kitchen-essentials");
+  assert.equal(kitchen.length,28);
+  assert.equal(new Set(kitchen.map(a=>a.path)).size,28);
+  assert.equal(new Set(kitchen.map(a=>a.source_blob_sha)).size,28);
+  assert.equal(new Set(kitchen.map(a=>a.click_lead)).size,28);
+  assert.equal(kitchen.filter(a=>a.origin==="owner-upload"&&a.visually_verified&&a.conversion_verified).length,28);
+  assert.match(article,/slug:\s*"everyday-kitchen-essentials-organization"/);
+  assert.match(article,/pantry jars/i);
+  assert.match(article,/under-sink/i);
+  assert.match(article,/## Explore More/);
+  assert.match(article,/https:\/\/tr.ee\/Sp8jyc/);
+  assert.equal(TOPICS["kitchen-essentials"].path,"/article/everyday-kitchen-essentials-organization/");
+  const liveIds=new Set(boards.map(b=>String(b.id)+"|"+b.name));
+  const eligible=eligibleBoardsForTopic("kitchen-essentials",coverage).filter(b=>liveIds.has(String(b.id)+"|"+b.name));
+  assert.deepEqual(eligible.map(b=>b.name).sort(),["Kitchen Essentials & Must-Haves 🔥","Kitchen Organization Ideas"].sort());
+  for(const a of kitchen){
+    assert.equal(a.topic,"kitchen-essentials");
+    assert.match(a.path,/^assets\/pinterest\/kitchen-essentials-[a-z0-9-]+\.jpg$/);
+    assert.equal(a.conversion_visual_kind,"image-only");
+    assert.equal(a.conversion_hook,a.click_lead.split("?")[0]+"?");
+    assert.ok(a.click_lead.includes("Veluce")&&a.click_lead.length>=55&&a.click_lead.length<=145);
+    const buf=await readFile(a.path);
+    assert.deepEqual(dimensions(buf),{width:1000,height:1500,mime:"image/jpeg"},a.path);
+    assert.equal(execFileSync("git",["hash-object",a.path],{encoding:"utf8"}).trim(),a.source_blob_sha,a.path);
+    const copy=clickFocusedEditorialCopy(a);
+    assert.equal(copy.copy_version,"veluce-click-v4",a.path);
+    assert.equal(copy.cta_style,"image-specific-question-and-early-cta",a.path);
+    assert.ok(copy.description.startsWith(a.click_lead),a.path);
+    assert.ok(copy.description.length<=300&&copy.title.length<=100,a.path);
+  }
 });

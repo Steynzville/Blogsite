@@ -80,6 +80,7 @@ export const articleStudioRecommendations = {
   'quartzite-vs-porcelain-countertops': { product: 'procurement', hook: 'When two materials can both work, make the trade-offs explicit before buying.' },
   'smart-access-control': { product: 'completeHome', hook: 'Access control is one decision inside a much larger arrival, security and home-design system.' },
   'smart-blinds-follow-sun': { product: 'completeHome', hook: 'Daylight, privacy, lighting and automation work better when planned as one whole-home experience.' },
+  'smart-home-planning-by-room': { product: 'completeHome', hook: 'Connect lighting, access, blinds, climate and family routines into a coordinated whole-home design before buying devices.' },
   'smart-home-lighting-control': { product: 'luxuryLighting', hook: 'Scenes and controls are most useful after the lighting hierarchy itself is clear.' },
   'garden-pathway-moonlighting': { product: 'outdoorLighting', hook: 'Keep the moonlight effect subtle by planning the entire path, focal hierarchy and protected darkness.' },
   'modular-sectionals-entertaining': { product: 'outdoorRoom', hook: 'The sectional is easier to choose once the outdoor zones, circulation and scale are settled.' },

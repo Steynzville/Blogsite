@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "policy": "All curated images individually visually inspected; matching title, description, article and board selected by actual pictured subject; excludes uncurated horizontal article imagery. Unreviewed uploads never publish. Origin is owner-upload for the existing reviewed library; Work-generated records must carry origin=work-generated and only be created following real image generation, upload, visual review, and verification.",
+  "policy": "All curated images individually visually inspected; matching title, description, article and board selected by actual pictured subject; excludes uncurated horizontal article imagery. Unreviewed uploads never publish. Origin is owner-upload for the existing reviewed library; Work-generated records must carry origin=work-generated and only be created following real image generation, upload, visual review, and verification. Metadata editorial copy refreshed 2026-11-04 for recent bedroom, kitchen, stone and camera assets; image visual approvals and original image files unchanged. Publisher independently enforces click-intent copy for all future submissions.",
   "image_assets": [
     {
       "path": "assets/pinterest/05f593a0-6690-11f1-9181-2778cad0ff11.webp",
@@ -904,8 +904,8 @@
     {
       "path": "assets/pinterest/studio-editorial-bedroom-layered-20261103-f1.jpg",
       "topic": "bedroom-layered",
-      "title": "Bedroom Lighting Layers: Create Calm Without One Harsh Ceiling Light",
-      "description": "Planning a calmer bedroom? Compare how concealed ambient glow, bedside lamps and a focused artwork light share different jobs, so the room stays comfortable without one harsh overhead source. See the layered bedroom lighting approach.",
+      "title": "How to Layer Bedroom Lighting Without a Harsh Ceiling Light",
+      "description": "A calmer bedroom needs more than one bright fitting. See how concealed ambient glow, bedside lamps and artwork lighting each do a different job. Read Veluce's full bedroom lighting guide for the practical layering approach.",
       "visual_description": "Warm organic bedroom at dusk with concealed ceiling cove light, two bedside lamps, an artwork accent light, cream linen, oak furniture and olive textiles; serif overlay reads LAYER THE LIGHT.",
       "visually_verified": true,
       "visual_review_date": "2026-11-03",
@@ -917,8 +917,8 @@
     {
       "path": "assets/pinterest/studio-editorial-kitchen-layout-20261103-f2.jpg",
       "topic": "kitchen-layout",
-      "title": "Kitchen Layout Planning: Check the Working Aisle Before Cabinetry",
-      "description": "Can you move smoothly from storage to prep and cooking? Check landing space, appliance positions and clear aisle width before cabinetry is fixed. This warm kitchen illustrates why workflow and circulation deserve attention early.",
+      "title": "Before You Choose Cabinets: Check Your Kitchen Layout First",
+      "description": "A lovely kitchen can still feel awkward to cook in. Check the working aisle, landing space, appliance positions and storage-to-prep flow before cabinetry is fixed. Read Veluce's kitchen layout guide to plan a room that works.",
       "visual_description": "Sunlit warm contemporary galley kitchen with cream and oak cabinetry, a central working aisle, island prep surface, logical sink-cook-fridge relationship and clear circulation; image-only.",
       "visually_verified": true,
       "visual_review_date": "2026-11-03",
@@ -930,8 +930,8 @@
     {
       "path": "assets/pinterest/studio-editorial-natural-stone-20261103-f3.jpg",
       "topic": "natural-stone",
-      "title": "Natural Stone Interiors: Compare Texture, Veining and Patina",
-      "description": "Choosing stone for an interior? Look beyond colour: limestone, travertine and marble each bring different pores, veining, edge character and care needs. Compare real texture and patina before committing to a finish.",
+      "title": "Marble vs Travertine vs Limestone: Which Fits Your Interior?",
+      "description": "Not all natural stone behaves alike. Compare limestone, travertine and marble for veining, texture, patina and upkeep before choosing a finish. Read Veluce's natural-stone guide for the practical differences.",
       "visual_description": "Golden-hour living-room vignette with a porous limestone fireplace, cylindrical travertine side table, marble bowl, oak table, cream upholstery and olive branches; image-only.",
       "visually_verified": true,
       "visual_review_date": "2026-11-03",
@@ -943,8 +943,8 @@
     {
       "path": "assets/pinterest/studio-editorial-security-cameras-20261103-f4.jpg",
       "topic": "security-cameras",
-      "title": "Home Security Camera Placement: Plan the View, Not Just the Device",
-      "description": "Will the camera actually see the approach without dominating the architecture? Plan height, viewing direction, lighting and likely obstructions around the real arrival route. Explore discreet camera placement for useful coverage.",
+      "title": "Where Should Home Security Cameras Go? Check the Sightlines",
+      "description": "The most visible camera is not always the most useful. Consider the approach route, viewing direction, height and obstructions without dominating your home's architecture. Read Veluce's discreet-camera guide for placement checks.",
       "visual_description": "Blue-hour contemporary entry court with a discreet dome camera under a timber soffit aimed toward a gate and illuminated approach, framed by natural stone, plaster and planting; serif overlay reads PLAN THE VIEW.",
       "visually_verified": true,
       "visual_review_date": "2026-11-03",

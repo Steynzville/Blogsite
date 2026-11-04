@@ -1692,6 +1692,29 @@
       "submitted_at": "2026-11-03T18:15:25.318Z",
       "sent_at": "2026-11-03T18:15:23.948Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716451371"
+    },
+    {
+      "creative_id": "veluce-auto-20261104-63ac5aae64ff",
+      "workflow": "veluce_editorial",
+      "title": "Natural Stone Interiors: Compare Texture, Veining and Patina",
+      "description": "Choosing stone for an interior? Look beyond colour: limestone, travertine and marble each bring different pores, veining, edge character and care needs. Compare real texture and patina before committing to a finish.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-natural-stone-20261103-f3.jpg",
+      "destination_url": "https://velucedesign.com/article/natural-stone-materials/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-04",
+      "topic": "natural-stone",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "suggested_section": {
+        "id": "5489165536610818379",
+        "name": "Luxury Modern Interior Design"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "63ac5aae64ff42bb6b2fadf2692b76947d49a2d5",
+      "source_path": "assets/pinterest/studio-editorial-natural-stone-20261103-f3.jpg",
+      "recorded_at": "2026-11-04T04:06:31.934Z",
+      "github_run_id": "41771131006"
     }
   ]
 }

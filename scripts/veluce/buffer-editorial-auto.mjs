@@ -236,9 +236,14 @@ export function clickFocusedEditorialCopy(asset){
     title+=ending;
   }
   if(title.length>100)throw new Error("Pinterest headline exceeds 100 characters: "+asset.path);
-  const lead=CLICK_LEADS[asset.topic];
-  if(!lead||!lead.includes("Veluce")||lead.length>145)
+  // Owner-reviewed assets may supply an image-specific CTA rather than repeating
+  // one generic opening line for every Pin in the same editorial topic.
+  const customLead=String(asset.click_lead||"").replace(/\\s+/g," ").trim();
+  const lead=customLead||CLICK_LEADS[asset.topic];
+  if(!lead||!lead.includes("Veluce")||lead.length>145||lead.indexOf("Veluce")>110)
     throw new Error("Missing concise article-specific lead CTA: "+asset.topic);
+  if(customLead&&(customLead.length<55||!customLead.includes("?")))
+    throw new Error("Image-specific CTA must start with a useful question: "+asset.path);
   const raw=String(asset.description||topic.description||"").replace(/\s+/g," ").trim();
   if(!raw)throw new Error("Editorial image has no truthful description: "+asset.path);
   const sentences=raw.split(/(?<=[.!?])\s+/).filter(s=>
@@ -252,7 +257,7 @@ export function clickFocusedEditorialCopy(asset){
   if(description.length>300||description.indexOf("Veluce")>115)
     throw new Error("Front-loaded CTA quality check failed: "+asset.path);
   return {title,description,hook_style:hadHook?"original-benefit":"improved-topic-benefit",
-    cta_style:"early-article-specific",copy_version:"veluce-click-v3"};
+    cta_style:customLead?"image-specific-question-and-early-cta":"early-article-specific",copy_version:customLead?"veluce-click-v4":"veluce-click-v3"};
 }
 export function localDate(now=new Date()){
   const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Johannesburg",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);

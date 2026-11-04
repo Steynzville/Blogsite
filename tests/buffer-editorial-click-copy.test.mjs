@@ -128,3 +128,46 @@ test("all 30 owner-uploaded patio decor Pins have unique click-v4 copy and subje
     assert.ok(copy.description.length<=300 && copy.title.length<=100,item.path);
   }
 });
+
+test("all 230 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  const liveIds=new Set(live.map(b=>String(b.id)+"|"+b.name));
+  const published=assets.filter(a=>a.visually_verified);
+  const held=assets.filter(a=>a.visually_verified!==true);
+  assert.equal(assets.length,234);
+  assert.equal(published.length,230);
+  assert.equal(held.length,4);
+  assert.equal(new Set(published.map(a=>a.click_lead)).size,230);
+  for(const a of published){
+    assert.ok(a.click_lead && a.click_lead.includes("?") && a.click_lead.includes("Veluce"),a.path);
+    assert.ok(a.click_lead.length>=55 && a.click_lead.length<=145,a.path);
+    // Earlier owner-approved batches store review provenance without the newer
+    // conversion_verified flag. The latest home-security image hook is descriptive,
+    // while its actual customer-facing question is in click_lead.
+    assert.ok(a.conversion_verified===true || Boolean(a.conversion_review_date),a.path);
+    assert.ok(typeof a.conversion_hook==="string" && a.conversion_hook.length>=15,a.path);
+    assert.ok(["image-only","headline-overlay"].includes(a.conversion_visual_kind) ||
+      Boolean(a.conversion_review_date),a.path);
+    const matching=coverage.boards.filter(b=>b.eligible_topics.includes(a.topic)&&liveIds.has(String(b.id)+"|"+b.name));
+    assert.ok(matching.length>0,"No topic-eligible live Pinterest board for "+a.path);
+    const copy=clickFocusedEditorialCopy(a);
+    assert.equal(copy.copy_version,"veluce-click-v4",a.path);
+    assert.ok(copy.description.startsWith(a.click_lead),a.path);
+    assert.ok(copy.description.length<=300 && copy.title.length<=100,a.path);
+  }
+  for(const a of held){
+    assert.equal(a.integrity_status,"rejected_truncated_png",a.path);
+    assert.ok(!a.click_lead,"Quarantined corrupt asset must never be reactivated");
+  }
+});
+test("legacy curated images remain independent and recent owner batches retain their hooks",async()=>{
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const recent=new Set(["garden-pergola","fire-pit","tree-uplighting","luxury-interiors","home-security","patio-decor"].map(x=>"2026-11-04-"+x));
+  const earlier=assets.filter(a=>!recent.has(a.source_batch));
+  assert.equal(earlier.length,73);
+  assert.equal(earlier.filter(a=>a.visually_verified && a.click_lead && a.conversion_review_method).length,69);
+  assert.equal(earlier.filter(a=>!a.visually_verified && a.integrity_status==="rejected_truncated_png").length,4);
+  assert.equal(assets.filter(a=>recent.has(a.source_batch)&&a.visually_verified).length,161);
+});

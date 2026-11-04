@@ -1794,7 +1794,7 @@
       "destination_url": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
       "board_service_id": "296815500381474397",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-04",
       "topic": "outdoor-wall-grazing",
       "board_name": "Attainable Luxury Outdoor Lighting",
@@ -1804,7 +1804,9 @@
       "hook_style": "original-benefit",
       "cta_style": "early-article-specific",
       "recorded_at": "2026-11-04T19:49:59.143Z",
-      "github_run_id": "41900679206"
+      "github_run_id": "41900679206",
+      "buffer_post_id": "6aeb8c69a101dc5e772fbe2f",
+      "submitted_at": "2026-11-04T19:50:03.074Z"
     }
   ]
 }

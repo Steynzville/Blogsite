@@ -196,6 +196,24 @@ test("Board rotation chooses least-served matching boards, not outdoor board alw
   assert.equal(chooseBoardPlacement("bedroom-layered",[{workflow:"veluce_editorial",local_date:"2026-11-01",board_service_id:firstBedroom.id}],"2026-11-02",coverage)?.name,"Cozy Bedroom Ideas & Finds 🔥");
   assert.equal(chooseBoardPlacement("security-cameras",[],"2026-11-02",coverage)?.name,"Home Security Ideas & Setups");
 });
+test("Living and dining room interior-design Pins cannot go to the Cozy Bedroom board",async()=>{
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const bedroom=coverage.boards.find(b=>b.name==="Cozy Bedroom Ideas & Finds 🔥");
+  assert.ok(bedroom);
+  assert.equal(bedroom.eligible_topics.includes("interior-design"),false);
+  assert.equal(bedroom.eligible_topics.includes("bedroom-layered"),true);
+  assert.ok(eligibleBoardsForTopic("interior-design",coverage).every(b=>b.name!=="Cozy Bedroom Ideas & Finds 🔥"));
+});
+test("Every approved owner batch has at least one verified, topic-eligible Pinterest board",async()=>{
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  const valid=new Set(live.map(b=>String(b.id)+"|"+b.name));
+  const imageAssets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  for(const asset of imageAssets.filter(a=>a.visually_verified && a.source_batch?.startsWith("2026-11-04"))){
+    const options=eligibleBoardsForTopic(asset.topic,coverage).filter(b=>valid.has(String(b.id)+"|"+b.name));
+    assert.ok(options.length>0,"No current eligible board for "+asset.path);
+  }
+});
 test("Deleted Laundry/Closet board is absent from both active board lists",async()=>{
   const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
   const boards=JSON.parse(await readFile("ops/buffer/boards.json","utf8"));

@@ -59,7 +59,10 @@ test("All curated assets refer to real repo source files and approved topics",as
     assert.equal(v.visually_verified,true,`Visual approval missing: ${v.path}`);
     assert.ok(v.visual_description?.length>25,`Subject annotation missing: ${v.path}`);
     assert.match(v.visual_review_date,/^20[0-9]{2}-[0-9]{2}-[0-9]{2}$/);
-    assert.match(v.path,/^assets\/pinterest\/[a-z0-9-]+\.(png|webp|jpg)$/);
+    // Preserve strict normal filenames. One Git-verified owner JPG retains
+    // its original " (2)" suffix; the publisher percent-encodes its URL.
+    assert.ok(/^assets\/pinterest\/[a-z0-9-]+\.(png|webp|jpg)$/.test(v.path) ||
+      v.path==="assets/pinterest/smart-home-04-connected-kitchen (2).jpg",v.path);
     const b=await readFile(v.path);
     const d=dimensions(b);
     assert.ok(d.width>600 && d.height>900,v.path);

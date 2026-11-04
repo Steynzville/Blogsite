@@ -1,0 +1,44 @@
+name: Veluce Six-Product Pins - GitHub Auto
+on:
+  schedule:
+    # 14:00 SAST = 12:00 UTC, without daylight-saving adjustments.
+    - cron: '0 12 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/veluce-buffer-product-auto.yml'
+      - 'scripts/veluce/buffer-product-auto.mjs'
+      - 'ops/buffer/product-assets.json'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Validate only, test a private draft, publish one Pin, or reconcile'
+        required: true
+        default: validate
+        type: choice
+        options: [validate, probe, publish, reconcile]
+permissions:
+  contents: write
+concurrency:
+  group: veluce-buffer-pinterest
+  cancel-in-progress: false
+jobs:
+  product:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+      BUFFER_PUBLISH_ENABLED: ${{ vars.BUFFER_PUBLISH_ENABLED }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test product catalogue, click copy and publishing safety
+        run: node --test tests/buffer-product-auto.test.mjs tests/buffer-pinterest.test.mjs
+      - name: Run safe mode (push=private draft probe, schedule=one Pin)
+        run: node scripts/veluce/buffer-product-auto.mjs "${{ github.event_name == 'schedule' && 'publish' || github.event_name == 'push' && 'probe' || inputs.mode }}"

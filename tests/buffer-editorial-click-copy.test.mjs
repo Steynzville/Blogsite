@@ -101,3 +101,30 @@ test("all 107 earlier owner-uploaded Pins now have unique image-specific click l
     assert.ok(copy.title.length<=100,asset.path);
   }
 });
+
+test("all 30 owner-uploaded patio decor Pins have unique click-v4 copy and subject-eligible boards",async()=>{
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
+  const boards=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
+  const liveIds=new Set(boards.map(b=>String(b.id)+"|"+b.name));
+  const patio=assets.filter(a=>a.source_batch==="2026-11-04-patio-decor");
+  assert.equal(patio.length,30);
+  assert.equal(new Set(patio.map(a=>a.path)).size,30);
+  assert.equal(new Set(patio.map(a=>a.click_lead)).size,30);
+  const supported=new Set(["garden-patio-layout","outdoor-rugs","pergola","fire-pit","garden-fireplace"]);
+  for(const item of patio){
+    assert.ok(supported.has(item.topic),item.path);
+    assert.ok(item.visually_verified && item.origin==="owner-upload",item.path);
+    assert.equal(item.conversion_visual_kind,"image-only",item.path);
+    assert.equal(item.conversion_verified,true,item.path);
+    assert.ok(item.click_lead.includes("?") && item.click_lead.includes("Veluce"),item.path);
+    assert.ok(item.click_lead.length>=55 && item.click_lead.length<=145,item.path);
+    const acceptable=(coverage.boards||[]).filter(b=>b.eligible_topics.includes(item.topic) && liveIds.has(String(b.id)+"|"+b.name));
+    assert.ok(acceptable.length>0,item.path);
+    assert.ok(acceptable.every(b=>["Garden & Patio Ideas & Finds 🔥","2026 Warm Organic Home Aesthetic","Attainable Luxury Outdoor Lighting","Outdoor Lighting Ideas"].includes(b.name)),item.path);
+    const copy=clickFocusedEditorialCopy(item);
+    assert.equal(copy.copy_version,"veluce-click-v4",item.path);
+    assert.ok(copy.description.startsWith(item.click_lead),item.path);
+    assert.ok(copy.description.length<=300 && copy.title.length<=100,item.path);
+  }
+});

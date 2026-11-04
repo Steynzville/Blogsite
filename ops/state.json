@@ -2020,6 +2020,21 @@
       "board_id": "296815500381470714",
       "buffer_post_id": "6aea24ba4132b75c1ecbb0d0",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716455083",
+      "pin_id": "296815431716455083",
+      "published_at": "2026-11-04T04:06:35.569Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/natural-stone-materials/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-natural-stone-20261103-f3.jpg",
+      "title": "Natural Stone Interiors: Compare Texture, Veining and Patina",
+      "description": "Choosing stone for an interior? Look beyond colour: limestone, travertine and marble each bring different pores, veining, edge character and care needs. Compare real texture and patina before committing to a finish.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "buffer_post_id": "6aeaaf4a87b7c6d24c8ca5f3",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

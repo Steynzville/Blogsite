@@ -17,6 +17,11 @@ const BOARD_COVERAGE="ops/buffer/editorial-board-coverage.json";
 const EDITORIAL="veluce_editorial";
 const LIMIT=4;
 const URL_BASE="https://raw.githubusercontent.com/Steynzville/Blogsite/main/";
+export function editorialAssetImageUrl(asset){
+  // Encode names with spaces (e.g. an owner's "(2)" variant), without changing
+  // the Git-tracked source filename or giving Buffer an invalid raw URL.
+  return new URL(asset.path.split("/").map(encodeURIComponent).join("/"),URL_BASE).href;
+}
 export const TOPICS={
   "tree-uplighting":{
     path:"/article/hidden-uplighting-mature-trees/",
@@ -399,7 +404,7 @@ export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=
   const pending=new Set(ledger.map(x=>x.creative_id).filter(Boolean));
   const candidate=items.filter(x=>{
     if(x.visually_verified!==true || !TOPICS[x.topic] || !validPaths.has(x.path) || !creativeConversionReady(x))return false;
-    const imageUrl=URL_BASE+x.path;
+    const imageUrl=editorialAssetImageUrl(x);
     if(images.has(imageUrl)||historical.has(x.sha))return false;
     if(pending.has(x.creative_id))return false;
     return true;
@@ -499,12 +504,17 @@ async function run(mode){
     if(Math.abs(dim.width/dim.height-2/3)>0.045){
       console.log("Skipping non-2:3 image: "+v.path+" "+dim.width+"x"+dim.height);continue;
     }
-    entries.push({...v,...dim,sha:git(["hash-object",v.path])});
+    const sha=git(["hash-object",v.path]);
+    if(v.source_blob_sha && sha!==v.source_blob_sha){
+      console.log("Skipping changed or unapproved source image: "+v.path);
+      continue;
+    }
+    entries.push({...v,...dim,sha});
   }
   let todayCount=(ledger.posts??[]).filter(x=>x.workflow===EDITORIAL && x.local_date===today).length;
   const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance,coverage);
   console.log(JSON.stringify({mode,local_date:today,already_reserved_or_sent:todayCount,
-    remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===URL_BASE+x.path)).length,
+    remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===editorialAssetImageUrl(x))).length,
     conversion_quality_holds:entries.filter(x=>!creativeConversionReady(x)).length,
     recent_click_evidence_topics:Object.keys(performance),
     next:selected?{path:selected.path,topic:selected.topic,board:chooseBoardPlacement(selected.topic,ledger.posts??[],today,coverage,selected)?.name}:null}));
@@ -535,7 +545,7 @@ async function run(mode){
   if(!channel.metadata?.boards?.some(b=>String(b.serviceId)===String(mapped.id) && b.name===mapped.name))
     throw new Error("Chosen board isn't present on actual Pinterest channel: "+mapped.name);
   const id="veluce-auto-"+today.replaceAll("-","")+"-"+asset.sha.slice(0,12);
-  const url=URL_BASE+asset.path;
+  const url=editorialAssetImageUrl(asset);
   const destination="https://velucedesign.com"+topic.path;
   const copy=clickFocusedEditorialCopy(asset);
   const pin={creative_id:id,workflow:EDITORIAL,title:copy.title,description:copy.description,

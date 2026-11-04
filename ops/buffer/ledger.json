@@ -1769,7 +1769,7 @@
       "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
       "board_service_id": "296815500381474927",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-04",
       "topic": "led-deck-strips",
       "board_name": "AliExpress Attainable Luxury Lighting",
@@ -1779,7 +1779,9 @@
       "hook_style": "improved-topic-benefit",
       "cta_style": "early-article-specific",
       "recorded_at": "2026-11-04T18:12:56.164Z",
-      "github_run_id": "41884769742"
+      "github_run_id": "41884769742",
+      "buffer_post_id": "6aeb75aaa6d053c9c5329528",
+      "submitted_at": "2026-11-04T18:13:00.540Z"
     }
   ]
 }

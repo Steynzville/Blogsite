@@ -1,10 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
-import {TOPICS, CLICK_INTENT, clickFocusedEditorialCopy} from "../scripts/veluce/buffer-editorial-auto.mjs";
+import {TOPICS, CLICK_INTENT, CLICK_LEADS, creativeConversionReady, clickFocusedEditorialCopy} from "../scripts/veluce/buffer-editorial-auto.mjs";
 
 test("every supported article topic has benefit-led click intent",()=>{
   assert.deepEqual(Object.keys(CLICK_INTENT).sort(),Object.keys(TOPICS).sort());
+  assert.deepEqual(Object.keys(CLICK_LEADS).sort(),Object.keys(TOPICS).sort());
 });
 test("weak headlines gain an image-consistent planning hook",()=>{
   const copy=clickFocusedEditorialCopy({
@@ -14,8 +15,8 @@ test("weak headlines gain an image-consistent planning hook",()=>{
   });
   assert.match(copy.title,/Sunken Brick Courtyard/);
   assert.match(copy.title,/Plan the Seating First/);
-  assert.match(copy.description,/Read Veluce's full guide to plan fire-pit seating/);
-  assert.equal(copy.copy_version,"veluce-click-v2");
+  assert.match(copy.description,/^Will your fire-pit seating work for guests\? See Veluce's guide/);
+  assert.equal(copy.copy_version,"veluce-click-v3");
 });
 test("already strong titles stay specific and generic CTA is replaced",()=>{
   const original="How to Layer Bedroom Lighting Without Harsh Ceiling Light";
@@ -25,14 +26,37 @@ test("already strong titles stay specific and generic CTA is replaced",()=>{
   });
   assert.equal(copy.title,original);
   assert.equal((copy.description.match(/guide/g)||[]).length,1);
-  assert.ok(copy.description.length<=500);
+  assert.ok(copy.description.indexOf("Veluce")<100);
+  assert.ok(copy.description.length<=300);
 });
 test("every approved catalogue entry has a title and compelling article CTA within Pinterest limits",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   for(const asset of assets.filter(a=>a.visually_verified)){
     const copy=clickFocusedEditorialCopy(asset);
     assert.ok(copy.title.length>=20&&copy.title.length<=100,asset.path);
-    assert.ok(copy.description.length<=500,asset.path);
-    assert.match(copy.description,/Read Veluce's full guide to/);
+    assert.ok(copy.description.length<=300,asset.path);
+    assert.ok(copy.description.indexOf("Veluce")<120,asset.path);
+    assert.match(copy.description,/Veluce/);
+  }
+});
+
+test("new Work imagery cannot publish without proof of conversion-focused visual review",()=>{
+  const older={origin:"work-generated",generated_at:"2026-11-03T12:12:00Z"};
+  assert.equal(creativeConversionReady(older),true);
+  const current={origin:"work-generated",generated_at:"2026-11-05T10:00:00Z"};
+  assert.equal(creativeConversionReady(current),false);
+  assert.equal(creativeConversionReady({...current,conversion_verified:true,conversion_visual_kind:"headline-overlay",conversion_hook:"PLAN THE VIEW"}),false);
+  assert.equal(creativeConversionReady({...current,conversion_verified:true,conversion_visual_kind:"headline-overlay",conversion_hook:"Where Should Security Cameras Face?"}),true);
+  assert.equal(creativeConversionReady({...current,conversion_verified:true,conversion_visual_kind:"image-only",conversion_hook:"A focused view of concealed lights marking each garden step"}),true);
+});
+test("all 27 topics start descriptions with a specific reason to visit the article",()=>{
+  for(const topic of Object.keys(TOPICS)){
+    const copy=clickFocusedEditorialCopy({
+      topic,path:"assets/pinterest/draft.jpg",title:"How to Plan a Beautiful Home Detail",
+      description:"A carefully selected material and lighting arrangement demonstrates the design."
+    });
+    assert.ok(copy.description.indexOf("Veluce")<115,topic);
+    assert.ok(copy.description.length<=300,topic);
+    assert.equal(copy.copy_version,"veluce-click-v3");
   }
 });

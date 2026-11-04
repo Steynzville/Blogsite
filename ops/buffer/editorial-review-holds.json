@@ -26,6 +26,13 @@
       "reason": "Pool deck and water edge dominate; not a proven article match",
       "status": "on_hold",
       "source_batch": "2026-11-04-garden-pergola"
+    },
+    {
+      "path": "assets/pinterest/luxury-interior-27.jpg",
+      "reason": "Walk-in wardrobe / dressing room is the primary pictured subject; no sufficiently close live Veluce wardrobe or closet-planning article mapped in current editorial TOPICS. Deleted Laundry & Closet Pinterest board must not be used.",
+      "status": "on_hold",
+      "source_batch": "2026-11-04-luxury-interiors",
+      "source_blob_sha": "eb89b4a27a25df1988d39abed1eb50d942d599ef"
     }
   ]
 }

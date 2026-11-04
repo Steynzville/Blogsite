@@ -2050,6 +2050,21 @@
       "board_id": "296815500381472050",
       "buffer_post_id": "6aeae910e478396c274e49be",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716458557",
+      "pin_id": "296815431716458557",
+      "published_at": "2026-11-04T18:13:00.078Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/studio-editorial-led-deck-strips-20261104-g2.jpg",
+      "title": "Outdoor LED Strip Lighting: Hide the Strip and Control the Glare: What to Check Before Installing",
+      "description": "Planning LED strips on your deck? Explore Veluce's placement and weatherproofing guide. Why does one deck edge glow softly while another produces harsh dots? Conceal the source behind a nosing or channel, then compare weather exposure and viewing angle.",
+      "board": "AliExpress Attainable Luxury Lighting",
+      "board_id": "296815500381474927",
+      "buffer_post_id": "6aeb75aaa6d053c9c5329528",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

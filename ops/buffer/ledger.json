@@ -1784,6 +1784,27 @@
       "submitted_at": "2026-11-04T18:13:00.540Z",
       "sent_at": "2026-11-04T18:13:00.078Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716458557"
+    },
+    {
+      "creative_id": "veluce-auto-20261104-4963eb6af9ae",
+      "workflow": "veluce_editorial",
+      "title": "How to Show the Texture of a Living Garden Wall at Night",
+      "description": "Wall grazing or wall washing? Compare the effects in Veluce's exterior-lighting guide. Tall layered green wall and adjacent trees lit with warm grazing light beside a stone path. Consider how grazing angles reveal textured surfaces without creating unwanted glare.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/illuminated-green-wall-26.jpg",
+      "destination_url": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-04",
+      "topic": "outdoor-wall-grazing",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "source_blob_sha": "4963eb6af9aea43c762880ea5572abb6a3fef227",
+      "source_path": "assets/pinterest/illuminated-green-wall-26.jpg",
+      "copy_version": "veluce-click-v3",
+      "hook_style": "original-benefit",
+      "cta_style": "early-article-specific",
+      "recorded_at": "2026-11-04T19:49:59.143Z",
+      "github_run_id": "41900679206"
     }
   ]
 }

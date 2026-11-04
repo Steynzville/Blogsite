@@ -3068,7 +3068,28 @@
       "reason": "Replace square supplied covers with owner-supplied native 2:3 covers; restart round 1",
       "applied": true
     },
-    "pending_run": null
+    "pending_run": {
+      "creative_id": "studio-product-luxury-lighting-formula-c5-20261104",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "cycle": 5,
+      "submission_date": "2026-11-04",
+      "status": "ready",
+      "image_type": "generated",
+      "image_dimensions": "1024x1536",
+      "image_filename": "studio-product-luxury-lighting-formula-c5-20261104.jpg",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c5-20261104.jpg",
+      "creative_concept": "Blue-hour warm organic living room with controlled artwork and fireplace focus, reading pool, concealed shelf glow and intentionally quiet background zones; exact product title prominent.",
+      "hook": "FIX THE FLAT GLOW",
+      "cta_style": "benefit-led open invitation in description first sentence",
+      "marketing_angle": "Replace uniform brightness with a deliberate focal, task and secondary hierarchy so the room gains depth without simply adding more fixtures.",
+      "title": "Luxury Lighting Formula: Fix Flat Living Room Light With a Clear Hierarchy",
+      "description": "Open Luxury Lighting Formula at Veluce to plan a living room that feels dimensional after dark, without adding indiscriminate brightness. Start by choosing one focal destination, one useful task pool and one quiet secondary glow; the Seven Signals system helps you diagnose harsh or flat lighting, build layered scenes and test controlled changes before buying. Explore the digital planning resource for your own room.",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_service_id": "296815500381467884",
+      "alt_text_saved": false
+    }
   },
   "editorialAutomation": {
     "version": 1,

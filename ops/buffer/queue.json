@@ -256,6 +256,18 @@
       "buffer_post_id": "6ae9cea547205d2c39990ab2",
       "sent_at": "2026-11-03T12:08:06.722Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716449380"
+    },
+    {
+      "creative_id": "studio-product-luxury-lighting-formula-c5-20261104",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "title": "Luxury Lighting Formula: Fix Flat Living Room Light With a Clear Hierarchy",
+      "description": "Open Luxury Lighting Formula at Veluce to plan a living room that feels dimensional after dark, without adding indiscriminate brightness. Start by choosing one focal destination, one useful task pool and one quiet secondary glow; the Seven Signals system helps you diagnose harsh or flat lighting, build layered scenes and test controlled changes before buying. Explore the digital planning resource for your own room.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/studio-product-luxury-lighting-formula-c5-20261104.jpg",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "ready"
     }
   ]
 }

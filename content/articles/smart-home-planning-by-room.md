@@ -3,7 +3,7 @@ title: "Smart Home Planning by Room: Lighting, Blinds, Security and Everyday Com
 slug: "smart-home-planning-by-room"
 category: "Smart Home"
 excerpt: "Plan a smart home that works as a home first: practical entry, room scenes, blinds, lighting, climate, nursery comfort and energy monitoring without technology overload."
-heroImage: "/images/smart-home.jpg"
+heroImage: "/images/lighting-control.jpg"
 heroImageAlt: "Warm contemporary living room with layered lighting, window shading and discreet connected controls"
 featured: false
 seoTitle: "Smart Home Planning by Room | Lighting, Blinds, Security & Comfort | Veluce"

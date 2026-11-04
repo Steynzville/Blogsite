@@ -77,3 +77,27 @@ test("reviewed image-specific security hooks retain a distinctive reason to clic
     click_lead:"Boost your home! Veluce guide.",description:"Camera on eave."
   }),/Image-specific CTA must start with a useful question/);
 });
+
+test("all 107 earlier owner-uploaded Pins now have unique image-specific click leads and valid v4 output",async()=>{
+  const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
+  const batchIds=["garden-pergola","fire-pit","tree-uplighting","luxury-interiors"].map(s=>"2026-11-04-"+s);
+  const reviewed=assets.filter(asset=>batchIds.includes(asset.source_batch));
+  assert.equal(reviewed.length,107);
+  assert.equal(new Set(reviewed.map(x=>x.path)).size,107);
+  assert.equal(new Set(reviewed.map(x=>x.click_lead)).size,107);
+  for(const asset of reviewed){
+    assert.equal(asset.origin,"owner-upload",asset.path);
+    assert.ok(asset.click_lead.includes("?"),asset.path);
+    assert.ok(asset.click_lead.includes("Veluce"),asset.path);
+    assert.ok(asset.click_lead.length>=55&&asset.click_lead.length<=145,asset.path);
+    assert.equal(asset.conversion_hook,asset.click_lead.split("?")[0]+"?",asset.path);
+    assert.ok(asset.conversion_review_date,asset.path);
+    const copy=clickFocusedEditorialCopy(asset);
+    assert.equal(copy.copy_version,"veluce-click-v4",asset.path);
+    assert.equal(copy.cta_style,"image-specific-question-and-early-cta",asset.path);
+    assert.ok(copy.description.startsWith(asset.click_lead),asset.path);
+    assert.ok(copy.description.length<=300,asset.path);
+    assert.ok(copy.description.indexOf("Veluce")<=110,asset.path);
+    assert.ok(copy.title.length<=100,asset.path);
+  }
+});

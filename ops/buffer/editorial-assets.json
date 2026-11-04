@@ -1032,7 +1032,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "b7fa330978a54af82131b61cee5ac84175daa1f1"
+      "source_blob_sha": "b7fa330978a54af82131b61cee5ac84175daa1f1",
+      "click_lead": "Does your curved garden path become a row of glaring light spots? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Does your curved garden path become a row of glaring light spots?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/garden-courtyard-02.jpg",
@@ -1045,7 +1049,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "b0ef903cbac357359fdbf59f9066bf874acec9ed"
+      "source_blob_sha": "b0ef903cbac357359fdbf59f9066bf874acec9ed",
+      "click_lead": "Can visitors see the next garden step without staring into a lamp? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Can visitors see the next garden step without staring into a lamp?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/pergola-lounge-03.jpg",
@@ -1058,7 +1066,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "d7297788d5edc329967081ed602e561b63c2731a"
+      "source_blob_sha": "d7297788d5edc329967081ed602e561b63c2731a",
+      "click_lead": "Is your pergola roof bright while the lounge underneath still feels flat? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Is your pergola roof bright while the lounge underneath still feels flat?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/garden-steps-05.jpg",
@@ -1071,7 +1083,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "3700d2c9a91094da60d34fc52f90dd420121eb01"
+      "source_blob_sha": "3700d2c9a91094da60d34fc52f90dd420121eb01",
+      "click_lead": "Are your garden steps easy to see without making every tread too bright? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Are your garden steps easy to see without making every tread too bright?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/outdoor-dining-06.jpg",
@@ -1084,7 +1100,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "c2fd9a6a059be58c96d3e7217efc37cf6b1efce5"
+      "source_blob_sha": "c2fd9a6a059be58c96d3e7217efc37cf6b1efce5",
+      "click_lead": "Does the table need softer lighting than the rest of the pergola? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Does the table need softer lighting than the rest of the pergola?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/landscape-garden-08.jpg",
@@ -1097,7 +1117,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "03045220a75a868b94264305c1d17b966585d6b0"
+      "source_blob_sha": "03045220a75a868b94264305c1d17b966585d6b0",
+      "click_lead": "Could lighting the path bend while leaving shrubs darker create depth? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Could lighting the path bend while leaving shrubs darker create depth?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/balcony-garden-09.jpg",
@@ -1110,7 +1134,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "ee4649f7afc116efbded940c2d651f0f40230d1e"
+      "source_blob_sha": "ee4649f7afc116efbded940c2d651f0f40230d1e",
+      "click_lead": "Will your narrow outdoor terrace leave a clear route past the sofa? See Veluce's patio-layout planning guide.",
+      "conversion_hook": "Will your narrow outdoor terrace leave a clear route past the sofa?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-courtyard-10.jpg",
@@ -1123,7 +1151,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "0b9f0de347c4e6dd387f84c9377d33a91eec55e7"
+      "source_blob_sha": "0b9f0de347c4e6dd387f84c9377d33a91eec55e7",
+      "click_lead": "Can everyone see the central fire without squeezing around curved seating? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can everyone see the central fire without squeezing around curved seating?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/illuminated-stone-wall-11.jpg",
@@ -1136,7 +1168,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "a18d52c56a16cbe01bc9e33ac936b974ca405ce6"
+      "source_blob_sha": "a18d52c56a16cbe01bc9e33ac936b974ca405ce6",
+      "click_lead": "Why does a textured garden wall look flat under the wrong spotlight? See Veluce's wall-grazing lighting guide.",
+      "conversion_hook": "Why does a textured garden wall look flat under the wrong spotlight?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/garden-walkway-12.jpg",
@@ -1149,7 +1185,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "1e4c3856cedb24f78c5adbdd1059c46835818928"
+      "source_blob_sha": "1e4c3856cedb24f78c5adbdd1059c46835818928",
+      "click_lead": "Does your straight garden walkway feel too much like a runway at night? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Does your straight garden walkway feel too much like a runway at night?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/outdoor-lounge-13.jpg",
@@ -1162,7 +1202,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "9417353811f3ce4cba6d5b71b0ce1b839b448267"
+      "source_blob_sha": "9417353811f3ce4cba6d5b71b0ce1b839b448267",
+      "click_lead": "Why can a pergola lounge still feel exposed after sunset? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Why can a pergola lounge still feel exposed after sunset?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/home-entry-14.jpg",
@@ -1175,7 +1219,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "b2fe67c39896f74fb986439e3c510f04efa0ece1"
+      "source_blob_sha": "b2fe67c39896f74fb986439e3c510f04efa0ece1",
+      "click_lead": "Can you see the entry steps without a harsh fixture at eye level? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Can you see the entry steps without a harsh fixture at eye level?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/timber-pavilion-16.jpg",
@@ -1188,7 +1236,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "b4b711c66923f250d3cd0c204ce09822dd66967c"
+      "source_blob_sha": "b4b711c66923f250d3cd0c204ce09822dd66967c",
+      "click_lead": "Is the pergola roof lighting competing with the trees for attention? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Is the pergola roof lighting competing with the trees for attention?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/garden-planters-17.jpg",
@@ -1201,7 +1253,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "8934c088f43f3c0e32817f7e32fab6fe67d56491"
+      "source_blob_sha": "8934c088f43f3c0e32817f7e32fab6fe67d56491",
+      "click_lead": "Are planter uplights revealing foliage or washing out your whole garden? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Are planter uplights revealing foliage or washing out your whole garden?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/stone-patio-18.jpg",
@@ -1214,7 +1270,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "028b626d9c9b584bb2bbdf3929284583496471d9"
+      "source_blob_sha": "028b626d9c9b584bb2bbdf3929284583496471d9",
+      "click_lead": "Is your patio sofa blocking the best view or the walking route? See Veluce's patio-layout planning guide.",
+      "conversion_hook": "Is your patio sofa blocking the best view or the walking route?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/tropical-garden-19.jpg",
@@ -1227,7 +1287,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "57bebf3f8f80a422193c3980570b95b4786c3f85"
+      "source_blob_sha": "57bebf3f8f80a422193c3980570b95b4786c3f85",
+      "click_lead": "Do your palm uplights create depth or just a bright wall of foliage? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Do your palm uplights create depth or just a bright wall of foliage?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/rooftop-garden-20.jpg",
@@ -1240,7 +1304,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "a595a3296ebe2b669790221d7d7332fad4060148"
+      "source_blob_sha": "a595a3296ebe2b669790221d7d7332fad4060148",
+      "click_lead": "Does your rooftop pergola feel cosy once the skyline goes dark? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Does your rooftop pergola feel cosy once the skyline goes dark?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/floating-garden-steps-21.jpg",
@@ -1253,7 +1321,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "0af2a8167a22bd19e72bc23515ec4b641cbb87da"
+      "source_blob_sha": "0af2a8167a22bd19e72bc23515ec4b641cbb87da",
+      "click_lead": "Could hidden lighting make floating garden steps easier to read at dusk? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Could hidden lighting make floating garden steps easier to read at dusk?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/modern-patio-22.jpg",
@@ -1266,7 +1338,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "361aa425073be5f6328c11be454c462fa8db1f7c"
+      "source_blob_sha": "361aa425073be5f6328c11be454c462fa8db1f7c",
+      "click_lead": "Is the fire feature interrupting the route between your patio seats? See Veluce's patio-layout planning guide.",
+      "conversion_hook": "Is the fire feature interrupting the route between your patio seats?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/garden-gazebo-23.jpg",
@@ -1279,7 +1355,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "0bad737047265407459b8ce5ecb19d7105639c42"
+      "source_blob_sha": "0bad737047265407459b8ce5ecb19d7105639c42",
+      "click_lead": "Does your garden pavilion feel disconnected from the planting around it? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Does your garden pavilion feel disconnected from the planting around it?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/illuminated-lawn-25.jpg",
@@ -1292,7 +1372,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "2c23d33517c1c5e6c671a18e372ac7a6309cf950"
+      "source_blob_sha": "2c23d33517c1c5e6c671a18e372ac7a6309cf950",
+      "click_lead": "Is a glowing lawn border distracting from the planting you want to feature? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Is a glowing lawn border distracting from the planting you want to feature?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/illuminated-green-wall-26.jpg",
@@ -1305,7 +1389,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "4963eb6af9aea43c762880ea5572abb6a3fef227"
+      "source_blob_sha": "4963eb6af9aea43c762880ea5572abb6a3fef227",
+      "click_lead": "Does your living wall reveal texture or become a flat patch of light? See Veluce's wall-grazing lighting guide.",
+      "conversion_hook": "Does your living wall reveal texture or become a flat patch of light?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/glass-garden-room-27.jpg",
@@ -1318,7 +1406,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "fdcccc0154086ace9ed0dabfdec0bcc277dff343"
+      "source_blob_sha": "fdcccc0154086ace9ed0dabfdec0bcc277dff343",
+      "click_lead": "Do indoor and outdoor lighting layers clash at the glass doors? See Veluce's layered pergola-lighting guide.",
+      "conversion_hook": "Do indoor and outdoor lighting layers clash at the glass doors?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/garden-path-lights-28.jpg",
@@ -1331,7 +1423,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-garden-pergola",
-      "source_blob_sha": "132719d736791bcf17343a805b5d442bc8fe0188"
+      "source_blob_sha": "132719d736791bcf17343a805b5d442bc8fe0188",
+      "click_lead": "Do low garden lights still glare from where people actually walk? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Do low garden lights still glare from where people actually walk?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-01-courtyard-lounge.jpg",
@@ -1344,7 +1440,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "f66369fa3a1da7ea158da0cafd80cde2133209d1"
+      "source_blob_sha": "f66369fa3a1da7ea158da0cafd80cde2133209d1",
+      "click_lead": "Can guests circulate past a square fire pit without crowding the sofa? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can guests circulate past a square fire pit without crowding the sofa?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-02-sunken-conversation.jpg",
@@ -1357,7 +1457,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "106034485ac5f6729f051f996bedcb58d0b29f49"
+      "source_blob_sha": "106034485ac5f6729f051f996bedcb58d0b29f49",
+      "click_lead": "Is your sunken fire-pit seating easy to reach from the terrace? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Is your sunken fire-pit seating easy to reach from the terrace?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-03-linear-modern.jpg",
@@ -1370,7 +1474,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "f34e5b4dbbcf7942a4dc839e32d3cb9b2d3c73c8"
+      "source_blob_sha": "f34e5b4dbbcf7942a4dc839e32d3cb9b2d3c73c8",
+      "click_lead": "Does your linear fire pit anchor the lounge or divide it in two? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does your linear fire pit anchor the lounge or divide it in two?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-04-rustic-stone-retreat.jpg",
@@ -1383,7 +1491,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "7a360b8d759d459f0692ea6bfd4cfe5edb436ebb"
+      "source_blob_sha": "7a360b8d759d459f0692ea6bfd4cfe5edb436ebb",
+      "click_lead": "Have you left enough room between the stone fire pit and the seats? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Have you left enough room between the stone fire pit and the seats?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-05-poolside-fire.jpg",
@@ -1396,7 +1508,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "3caef7b6af45e46b2db539148595de1b05fec5a4"
+      "source_blob_sha": "3caef7b6af45e46b2db539148595de1b05fec5a4",
+      "click_lead": "Can poolside guests enjoy the fire without blocking the walking edge? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can poolside guests enjoy the fire without blocking the walking edge?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-06-pergola-evening.jpg",
@@ -1409,7 +1525,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "337eed5ca81465b26cd6662f699f0c6cc337fb57"
+      "source_blob_sha": "337eed5ca81465b26cd6662f699f0c6cc337fb57",
+      "click_lead": "Is the pergola lighting competing with the flames instead of supporting them? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Is the pergola lighting competing with the flames instead of supporting them?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-07-minimal-courtyard.jpg",
@@ -1422,7 +1542,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "0d37c0afc7a15727914e8d1fd8dd2166fb202e8f"
+      "source_blob_sha": "0d37c0afc7a15727914e8d1fd8dd2166fb202e8f",
+      "click_lead": "Does a minimal courtyard still feel inviting once the fire is off? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does a minimal courtyard still feel inviting once the fire is off?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-08-garden-path.jpg",
@@ -1435,7 +1559,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "5ff0bc17b6bc88969b6d88c6c0befca7bac919f1"
+      "source_blob_sha": "5ff0bc17b6bc88969b6d88c6c0befca7bac919f1",
+      "click_lead": "Can guests find the garden fire pit along a clear, softly lit route? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can guests find the garden fire pit along a clear, softly lit route?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-09-rooftop-terrace.jpg",
@@ -1448,7 +1576,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "5f8d15e3fd9d4a0d5ee06c78f8f6ec7628f21c3c"
+      "source_blob_sha": "5f8d15e3fd9d4a0d5ee06c78f8f6ec7628f21c3c",
+      "click_lead": "Is there a comfortable route around your rooftop fire table and lounge? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Is there a comfortable route around your rooftop fire table and lounge?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-10-japanese-inspired.jpg",
@@ -1461,7 +1593,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "d2769069e28980fbaa141218c28665c1ef2fa9ab"
+      "source_blob_sha": "d2769069e28980fbaa141218c28665c1ef2fa9ab",
+      "click_lead": "Could a round fire bowl give your quiet garden seating a clearer focus? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Could a round fire bowl give your quiet garden seating a clearer focus?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-11-courtyard-water-feature.jpg",
@@ -1474,7 +1610,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "9962cdababa8bde905002476cdc321ee9f61b834"
+      "source_blob_sha": "9962cdababa8bde905002476cdc321ee9f61b834",
+      "click_lead": "Do the fire feature and reflecting water compete for attention? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Do the fire feature and reflecting water compete for attention?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-12-desert-modern.jpg",
@@ -1487,7 +1627,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "ff69d3a519f80ce7294979ab7db656ea126be915"
+      "source_blob_sha": "ff69d3a519f80ce7294979ab7db656ea126be915",
+      "click_lead": "Will curved seating make a desert-inspired fire lounge feel intimate? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Will curved seating make a desert-inspired fire lounge feel intimate?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-13-family-garden.jpg",
@@ -1500,7 +1644,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "d5d49ebec05650264c69b975e668c71c2e670d8e"
+      "source_blob_sha": "d5d49ebec05650264c69b975e668c71c2e670d8e",
+      "click_lead": "Can guests approach the family fire pit without cutting through the seats? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can guests approach the family fire pit without cutting through the seats?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-14-firepit-design-guide.jpg",
@@ -1513,7 +1661,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "a0e10ee229ae6bd69f18ff7a1af4f99023e46174"
+      "source_blob_sha": "a0e10ee229ae6bd69f18ff7a1af4f99023e46174",
+      "click_lead": "Are your garden lights overpowering the fire that should be the focus? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Are your garden lights overpowering the fire that should be the focus?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-15-sculptural-steel.jpg",
@@ -1526,7 +1678,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "fe2138ee904b50d707ccdd1fe1b89abba9f3535c"
+      "source_blob_sha": "fe2138ee904b50d707ccdd1fe1b89abba9f3535c",
+      "click_lead": "Does your sculptural fire bowl have enough breathing room around it? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does your sculptural fire bowl have enough breathing room around it?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-16-limestone-fire-court.jpg",
@@ -1539,7 +1695,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "21a8121d7d2a9e1e9769fb3db59bcd79de29a50f"
+      "source_blob_sha": "21a8121d7d2a9e1e9769fb3db59bcd79de29a50f",
+      "click_lead": "Are the routes through your limestone fire-pit court clear for guests? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Are the routes through your limestone fire-pit court clear for guests?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-17-circular-concrete.jpg",
@@ -1552,7 +1712,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "a4f7d4ca20a7f9af1ee079dc500e419c2d431a0e"
+      "source_blob_sha": "a4f7d4ca20a7f9af1ee079dc500e419c2d431a0e",
+      "click_lead": "Does your sunken circular fire lounge need a clearer entrance? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does your sunken circular fire lounge need a clearer entrance?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-18-reflecting-pool.jpg",
@@ -1565,7 +1729,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "c81e25b4afdff93fdf539d8d603ae21248abde80"
+      "source_blob_sha": "c81e25b4afdff93fdf539d8d603ae21248abde80",
+      "click_lead": "Is your fire-pit seating crowding the edge of a reflecting pool? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Is your fire-pit seating crowding the edge of a reflecting pool?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-19-garden-pavilion.jpg",
@@ -1578,7 +1746,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "eb51128ae69bc37171a85af571f03d6a035fb9f2"
+      "source_blob_sha": "eb51128ae69bc37171a85af571f03d6a035fb9f2",
+      "click_lead": "Does the fire bowl connect with the pavilion seating or feel isolated? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does the fire bowl connect with the pavilion seating or feel isolated?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-20-stepping-stone-garden.jpg",
@@ -1591,7 +1763,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "8f7503d0882b037950fee8668256a0897f1f153a"
+      "source_blob_sha": "8f7503d0882b037950fee8668256a0897f1f153a",
+      "click_lead": "Is the stepping-stone approach to your fire pit intuitive after dusk? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Is the stepping-stone approach to your fire pit intuitive after dusk?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-21-river-stone-firepit.jpg",
@@ -1604,7 +1780,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "29aea1854632d26db48e5e3fd54012e7830cfa24"
+      "source_blob_sha": "29aea1854632d26db48e5e3fd54012e7830cfa24",
+      "click_lead": "Is the decorative stone border helping your fire bowl feel grounded? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Is the decorative stone border helping your fire bowl feel grounded?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-22-modern-stucco-terrace.jpg",
@@ -1617,7 +1797,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "a05e2d501cdd16b8476e97d93842a4b8f18a9010"
+      "source_blob_sha": "a05e2d501cdd16b8476e97d93842a4b8f18a9010",
+      "click_lead": "Does your stucco terrace leave enough room around the fire lounge? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does your stucco terrace leave enough room around the fire lounge?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-23-copper-bowl.jpg",
@@ -1630,7 +1814,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "c9ba8dcb9d4c65aee933e994b0c12d641e30db95"
+      "source_blob_sha": "c9ba8dcb9d4c65aee933e994b0c12d641e30db95",
+      "click_lead": "Will a copper-toned fire bowl suit the patio materials after dark? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Will a copper-toned fire bowl suit the patio materials after dark?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-24-infinity-pool-lounge.jpg",
@@ -1643,7 +1831,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "d2111d18dab761f0f03402351af5f0e1f08bd5ab"
+      "source_blob_sha": "d2111d18dab761f0f03402351af5f0e1f08bd5ab",
+      "click_lead": "Are pool views and fire-pit access competing for the same space? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Are pool views and fire-pit access competing for the same space?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-25-courtyard-fire-bowl.jpg",
@@ -1656,7 +1848,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "120a3da6949761c5e03c97fdd702c7af63663831"
+      "source_blob_sha": "120a3da6949761c5e03c97fdd702c7af63663831",
+      "click_lead": "Can curved courtyard seating fit your guests around a compact fire bowl? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can curved courtyard seating fit your guests around a compact fire bowl?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-26-outdoor-kitchen-fire.jpg",
@@ -1669,7 +1865,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "ba1f05d5f1b1877d79fa12b3d0c1a711c6eaa4a5"
+      "source_blob_sha": "ba1f05d5f1b1877d79fa12b3d0c1a711c6eaa4a5",
+      "click_lead": "Does the route from your outdoor kitchen cut through the fire lounge? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Does the route from your outdoor kitchen cut through the fire lounge?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-27-tiered-garden-lounge.jpg",
@@ -1682,7 +1882,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "4ef3e4cde643e3afeab0553e989acdc262ae7ede"
+      "source_blob_sha": "4ef3e4cde643e3afeab0553e989acdc262ae7ede",
+      "click_lead": "Can guests reach a tiered fire lounge without weaving between chairs? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Can guests reach a tiered fire lounge without weaving between chairs?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/fire-pit-28-evening-garden-retreat.jpg",
@@ -1695,7 +1899,11 @@
       "visual_review_method": "Assistant visually reviewed user-provided batch contact sheets and checked matching uploaded GitHub file identifiers",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-fire-pit",
-      "source_blob_sha": "447c749fdb965bc7ba74d0607fac48626ab5bc14"
+      "source_blob_sha": "447c749fdb965bc7ba74d0607fac48626ab5bc14",
+      "click_lead": "Will your compact garden retreat fit both a fire pit and a walking route? See Veluce's fire-pit layout guide.",
+      "conversion_hook": "Will your compact garden retreat fit both a fire pit and a walking route?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/after-dark-26.jpg",
@@ -1708,7 +1916,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "98ff64ecd3abadb619b52aefa2278529c1a64eb1"
+      "source_blob_sha": "98ff64ecd3abadb619b52aefa2278529c1a64eb1",
+      "click_lead": "Are olive-tree uplights revealing the canopy while preserving deep shadows? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Are olive-tree uplights revealing the canopy while preserving deep shadows?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/architectural-water-and-light-25.jpg",
@@ -1721,7 +1933,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "9130d49a2be2c0969e586c89936765a177700037"
+      "source_blob_sha": "9130d49a2be2c0969e586c89936765a177700037",
+      "click_lead": "Will a brightly lit tree reflection compete with the poolside scene? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Will a brightly lit tree reflection compete with the poolside scene?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/curved-light-border-24.jpg",
@@ -1734,7 +1950,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "35d0c8332cce9c37c5f6f67ddd9fec26dc436840"
+      "source_blob_sha": "35d0c8332cce9c37c5f6f67ddd9fec26dc436840",
+      "click_lead": "Is the glowing lawn edge distracting from your feature tree? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Is the glowing lawn edge distracting from your feature tree?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/evening-garden-ideas-08.jpg",
@@ -1747,7 +1967,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "f3c7783801b118f46f4f4fcdcd939c68f495199c"
+      "source_blob_sha": "f3c7783801b118f46f4f4fcdcd939c68f495199c",
+      "click_lead": "Can guests follow the stone path without losing the maple as a focal point? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Can guests follow the stone path without losing the maple as a focal point?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/hero-tree-18.jpg",
@@ -1760,7 +1984,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "1c99fccb94d091d6407b5ab160d2801cdd7ec264"
+      "source_blob_sha": "1c99fccb94d091d6407b5ab160d2801cdd7ec264",
+      "click_lead": "Do your lights make the mature tree a focal point or another bright object? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Do your lights make the mature tree a focal point or another bright object?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/japanese-maple-retreat-12.jpg",
@@ -1773,7 +2001,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "2720d5c6a7faea7716446d3cc396cd5fbbb6dd79"
+      "source_blob_sha": "2720d5c6a7faea7716446d3cc396cd5fbbb6dd79",
+      "click_lead": "Is the lit courtyard walkway overpowering the red maple beside it? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Is the lit courtyard walkway overpowering the red maple beside it?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/landscape-in-layers-27.jpg",
@@ -1786,7 +2018,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "36b12c94adc07e1bea094ebd11c1d0b2e5107bfe"
+      "source_blob_sha": "36b12c94adc07e1bea094ebd11c1d0b2e5107bfe",
+      "click_lead": "Can you see depth between the feature tree and the planting behind it? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Can you see depth between the feature tree and the planting behind it?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/lantern-lit-olive-23.jpg",
@@ -1799,7 +2035,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "8de3dececd616baa3ddb17be9c16be96e1932dcc"
+      "source_blob_sha": "8de3dececd616baa3ddb17be9c16be96e1932dcc",
+      "click_lead": "Are your olive-tree uplights too close to the trunk to show its shape? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Are your olive-tree uplights too close to the trunk to show its shape?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/let-the-garden-glow-16.jpg",
@@ -1812,7 +2052,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "6029e8216c1ea9a3852fee1d9d40ae93a916c0f4"
+      "source_blob_sha": "6029e8216c1ea9a3852fee1d9d40ae93a916c0f4",
+      "click_lead": "Do the tree uplights and curved border lights have different jobs? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Do the tree uplights and curved border lights have different jobs?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/light-the-way-10.jpg",
@@ -1825,7 +2069,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "fadd2b331b657fcd8e1ca93270b3e501fe148564"
+      "source_blob_sha": "fadd2b331b657fcd8e1ca93270b3e501fe148564",
+      "click_lead": "Can you light the route past a maple without lighting every leaf? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Can you light the route past a maple without lighting every leaf?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/maple-and-boulders-22.jpg",
@@ -1838,7 +2086,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "dab0b2168a04f0bd37dc51270fe72b7904652a9e"
+      "source_blob_sha": "dab0b2168a04f0bd37dc51270fe72b7904652a9e",
+      "click_lead": "Are your stone stepping paths clear without relying on harsh beams? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Are your stone stepping paths clear without relying on harsh beams?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/maple-courtyard-lighting-02.jpg",
@@ -1851,7 +2103,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "fb12016e7cab69f1a5c1640de0e4118ecda02c03"
+      "source_blob_sha": "fb12016e7cab69f1a5c1640de0e4118ecda02c03",
+      "click_lead": "Does your courtyard path guide guests without flattening the maple? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Does your courtyard path guide guests without flattening the maple?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/modern-garden-path-04.jpg",
@@ -1864,7 +2120,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "9796cee5a02fce760f065feb2aa23dad4daf2ede"
+      "source_blob_sha": "9796cee5a02fce760f065feb2aa23dad4daf2ede",
+      "click_lead": "Are bright LED edges making your courtyard path look like a runway? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Are bright LED edges making your courtyard path look like a runway?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/nature-accented-07.jpg",
@@ -1877,7 +2137,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "5acca1c1a3361ec0e31b214d51a1514843ef5584"
+      "source_blob_sha": "5acca1c1a3361ec0e31b214d51a1514843ef5584",
+      "click_lead": "Does your garden have one focal tree or too many competing lights? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Does your garden have one focal tree or too many competing lights?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/night-garden-ritual-17.jpg",
@@ -1890,7 +2154,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "0b57024f27e674266721b1213b8d5956cc8b37e6"
+      "source_blob_sha": "0b57024f27e674266721b1213b8d5956cc8b37e6",
+      "click_lead": "Can path lighting guide an evening walk without creating glare? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Can path lighting guide an evening walk without creating glare?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/olive-grove-courtyard-21.jpg",
@@ -1903,7 +2171,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "fb1ca70bd76d6d012a7ed062215aab295b7f15a3"
+      "source_blob_sha": "fb1ca70bd76d6d012a7ed062215aab295b7f15a3",
+      "click_lead": "Are multiple olive trees lit identically when the garden needs hierarchy? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Are multiple olive trees lit identically when the garden needs hierarchy?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/olive-tree-candle-05.jpg",
@@ -1916,7 +2188,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "77cf7e28a68ec2502d2b13f37a7e1a879a3a23cb"
+      "source_blob_sha": "77cf7e28a68ec2502d2b13f37a7e1a879a3a23cb",
+      "click_lead": "Could changing an uplight angle reveal more of your olive trunk's texture? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Could changing an uplight angle reveal more of your olive trunk's texture?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/olive-tree-lighting-01.jpg",
@@ -1929,7 +2205,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "55ac6a866a953daa5d84e2e1e517f038715ff4d3"
+      "source_blob_sha": "55ac6a866a953daa5d84e2e1e517f038715ff4d3",
+      "click_lead": "Does one uplight leave half your mature olive tree in shadow? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Does one uplight leave half your mature olive tree in shadow?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/patio-tree-glow-03.jpg",
@@ -1942,7 +2222,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "9c7387ae6ddef9e642900fbf60d69cdeb5061f1e"
+      "source_blob_sha": "9c7387ae6ddef9e642900fbf60d69cdeb5061f1e",
+      "click_lead": "Is your illuminated tree pulling attention away from the patio seats? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Is your illuminated tree pulling attention away from the patio seats?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/pavilion-garden-after-dark-14.jpg",
@@ -1955,7 +2239,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "09904817309b16fbea78aad47c00b9adccd95bdf"
+      "source_blob_sha": "09904817309b16fbea78aad47c00b9adccd95bdf",
+      "click_lead": "Does pavilion lighting overpower the mature tree beside it? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Does pavilion lighting overpower the mature tree beside it?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/quiet-luxury-courtyard-11.jpg",
@@ -1968,7 +2256,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "b4d03c1292f9a801a997aa5ddb5637dc57a4a509"
+      "source_blob_sha": "b4d03c1292f9a801a997aa5ddb5637dc57a4a509",
+      "click_lead": "Will a raised planter block the best uplighting angle for your olive tree? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Will a raised planter block the best uplighting angle for your olive tree?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/reflective-slate-garden-15.jpg",
@@ -1981,7 +2273,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "7be5074d0221d010273da0eddfe7807f467e715f"
+      "source_blob_sha": "7be5074d0221d010273da0eddfe7807f467e715f",
+      "click_lead": "Are tree uplights reflecting harshly off your dark stone paving? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Are tree uplights reflecting harshly off your dark stone paving?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/sculpted-by-light-06.jpg",
@@ -1994,7 +2290,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "9a3370ecf27c8abfc7f09433c27050a047416e16"
+      "source_blob_sha": "9a3370ecf27c8abfc7f09433c27050a047416e16",
+      "click_lead": "Could one well-lit feature tree give a compact courtyard enough depth? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Could one well-lit feature tree give a compact courtyard enough depth?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/shadows-in-bloom-19.jpg",
@@ -2007,7 +2307,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "89e00c58c5c60132b2f1c32114c72386ff72052b"
+      "source_blob_sha": "89e00c58c5c60132b2f1c32114c72386ff72052b",
+      "click_lead": "Is flower-bed lighting competing with the olive tree's silhouette? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Is flower-bed lighting competing with the olive tree's silhouette?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/slow-evenings-outside-20.jpg",
@@ -2020,7 +2324,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "f00a54c5e91854a993b4f4f471d2b8880e6d79ba"
+      "source_blob_sha": "f00a54c5e91854a993b4f4f471d2b8880e6d79ba",
+      "click_lead": "Do patio-step lights and olive-tree uplights read as two separate layers? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Do patio-step lights and olive-tree uplights read as two separate layers?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/stone-and-shadow-13.jpg",
@@ -2033,7 +2341,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "e6a4df2f6e6bdc47040c91c6b11966832b9c15a2"
+      "source_blob_sha": "e6a4df2f6e6bdc47040c91c6b11966832b9c15a2",
+      "click_lead": "Does your stone courtyard need more light or better tree-uplight placement? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Does your stone courtyard need more light or better tree-uplight placement?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/the-glow-between-28.jpg",
@@ -2046,7 +2358,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "f3c33ef504d064e386e5c88e77ff2a894e686a00"
+      "source_blob_sha": "f3c33ef504d064e386e5c88e77ff2a894e686a00",
+      "click_lead": "Are stone path edges guiding movement without overlighting every plant? See Veluce's garden-pathway lighting guide.",
+      "conversion_hook": "Are stone path edges guiding movement without overlighting every plant?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/warmth-in-the-details-09.jpg",
@@ -2059,7 +2375,11 @@
       "visual_review_method": "Assistant visually reviewed supplied 28-image ZIP in two full-size contact sheets and checked uploaded GitHub blob hashes",
       "origin": "owner-upload",
       "source_batch": "2026-11-04-tree-uplighting",
-      "source_blob_sha": "ca6bb95db97d2d5a925033188a84b7f04e464799"
+      "source_blob_sha": "ca6bb95db97d2d5a925033188a84b7f04e464799",
+      "click_lead": "Are the wall uplights competing with your olive tree for attention? See Veluce's mature-tree uplighting guide.",
+      "conversion_hook": "Are the wall uplights competing with your olive tree for attention?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-01.jpg",
@@ -2073,7 +2393,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "b499fbf131cb6e1d1bb5718a384809d02c3e6ed9",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Is your chandelier competing with the living room's real focal point? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Is your chandelier competing with the living room's real focal point?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-02.jpg",
@@ -2087,7 +2411,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "b4045ec8145a24124ed579e82984b7936ed2586e",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your neutral lounge feel flat because the textures repeat? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Does your neutral lounge feel flat because the textures repeat?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-03.jpg",
@@ -2101,7 +2429,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "049765f292fc955fc71fa9c0a5b4497d9431f112",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Can one strong centrepiece help organise your entire living room? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Can one strong centrepiece help organise your entire living room?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-04.jpg",
@@ -2115,7 +2447,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "bff4861d11f75dd0bb6a15df1f0996b4362f3ae4",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Would layered lighting make the stone and timber finishes feel balanced? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Would layered lighting make the stone and timber finishes feel balanced?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-05.jpg",
@@ -2129,7 +2465,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "d6f84de1843988a79d232144d16957547d28bce6",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Why does a large neutral lounge feel empty despite beautiful furniture? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Why does a large neutral lounge feel empty despite beautiful furniture?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-06.jpg",
@@ -2143,7 +2483,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "c5a70b0b0c57f8eef5fe7f23035441fea125fb4d",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Is your bedroom ceiling light doing too much work after dark? See Veluce's layered bedroom-lighting guide.",
+      "conversion_hook": "Is your bedroom ceiling light doing too much work after dark?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-07.jpg",
@@ -2157,7 +2501,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "863281927c5409d1cbed53a89f1d4c654f237987",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Do bedside lights feel warm without making reading uncomfortable? See Veluce's layered bedroom-lighting guide.",
+      "conversion_hook": "Do bedside lights feel warm without making reading uncomfortable?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-08.jpg",
@@ -2171,7 +2519,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "1253d34233dc252a4126dee934b726de5bd4f0b8",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Are bedside lamps positioned for the people who use the room? See Veluce's layered bedroom-lighting guide.",
+      "conversion_hook": "Are bedside lamps positioned for the people who use the room?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-09.jpg",
@@ -2185,7 +2537,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "7aa7b3deb9cca5ca5c72540174379b58f256b577",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your bedroom need a separate lighting plan after sunset? See Veluce's layered bedroom-lighting guide.",
+      "conversion_hook": "Does your bedroom need a separate lighting plan after sunset?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-10.jpg",
@@ -2199,7 +2555,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "aaed0b8341d06b073bb2f4ec13db8ae8d236e01a",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Are your ceiling coves and bedside lamps doing the same job? See Veluce's layered bedroom-lighting guide.",
+      "conversion_hook": "Are your ceiling coves and bedside lamps doing the same job?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-11.jpg",
@@ -2213,7 +2573,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "890569436ea3fdb647e705a12881ea792325ae79",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Will bold veined stone make your bathroom feel too busy? Compare finishes in Veluce's natural-stone guide.",
+      "conversion_hook": "Will bold veined stone make your bathroom feel too busy?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-12.jpg",
@@ -2227,7 +2591,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "6fc2da70fc2a95a6272366741feb9642976f7705",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Do timber cabinets and veined stone need a quieter backdrop? Compare finishes in Veluce's natural-stone guide.",
+      "conversion_hook": "Do timber cabinets and veined stone need a quieter backdrop?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-13.jpg",
@@ -2241,7 +2609,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "a6404f113267a918bef70f713f73fafb13b4c2f3",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Will the shower stone complement the vanity stone over time? Compare finishes in Veluce's natural-stone guide.",
+      "conversion_hook": "Will the shower stone complement the vanity stone over time?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-14.jpg",
@@ -2255,7 +2627,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "6d0b86de19f08e7d8265dd7bc029514a9c44df22",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your spa bathroom need one stone focal point instead of many? Compare finishes in Veluce's natural-stone guide.",
+      "conversion_hook": "Does your spa bathroom need one stone focal point instead of many?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-15.jpg",
@@ -2269,7 +2645,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "6fb86b05ff012e361e618d8049bd6642abb2f506",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Is the stone vanity competing with your mirror and cabinetry? Compare finishes in Veluce's natural-stone guide.",
+      "conversion_hook": "Is the stone vanity competing with your mirror and cabinetry?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-16.jpg",
@@ -2283,7 +2663,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "b223f0fd1661b8b09fa14562090e83ecf9a80d88",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Can a dining table anchor the room without overwhelming the chairs? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Can a dining table anchor the room without overwhelming the chairs?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-17.jpg",
@@ -2297,7 +2681,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "91efda2b26d50e18760511d003db7b4c70f60c8f",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Is your statement chandelier shaping the dining area or stealing focus? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Is your statement chandelier shaping the dining area or stealing focus?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-18.jpg",
@@ -2311,7 +2699,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "9a31fe56fafd5d0646b7c33e1fc398fdeb7ea456",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your dining table leave comfortable space to move around it? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Does your dining table leave comfortable space to move around it?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-19.jpg",
@@ -2325,7 +2717,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "db78777b35c422903101fdefe4c05ae786a0d758",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your dining pendant light the table without causing glare? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Does your dining pendant light the table without causing glare?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-20.jpg",
@@ -2339,7 +2735,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "0e97ae520d37457d77a2dc8b0012cd54c44bb9dc",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Do the dining room's timber and stone finishes feel intentional? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Do the dining room's timber and stone finishes feel intentional?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-21.jpg",
@@ -2353,7 +2753,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "3cdf287af87e1a24d14caa7b1d96290acb4dcd38",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Are you choosing kitchen island stone based on dramatic veining alone? See Veluce's natural-stone countertop guide.",
+      "conversion_hook": "Are you choosing kitchen island stone based on dramatic veining alone?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-22.jpg",
@@ -2367,7 +2771,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "d4f0bf9c97b1867b1cd5273ece4d31edcb5212bb",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Do your island stools leave enough space to walk behind them? See Veluce's practical kitchen-layout guide.",
+      "conversion_hook": "Do your island stools leave enough space to walk behind them?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-23.jpg",
@@ -2381,7 +2789,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "48f50c1118cc3663ea034eedf7d93114ba4ede33",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Will a long kitchen island leave practical working aisles? See Veluce's practical kitchen-layout guide.",
+      "conversion_hook": "Will a long kitchen island leave practical working aisles?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-24.jpg",
@@ -2395,7 +2807,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "dad09d2f839c8cc2e0a30e24c8bda79d7a741adc",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Will your island and backsplash stone look cohesive in different light? See Veluce's natural-stone countertop guide.",
+      "conversion_hook": "Will your island and backsplash stone look cohesive in different light?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-25.jpg",
@@ -2409,7 +2825,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "e72ae7616270dcac2c352d6e634cef1e63e4dd62",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your reading nook feel part of the room or an afterthought? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Does your reading nook feel part of the room or an afterthought?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-26.jpg",
@@ -2423,7 +2843,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "df70341c9ff855cc55743131fec5f50b47407e0f",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your entry console give visitors a clear first focal point? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Does your entry console give visitors a clear first focal point?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/luxury-interior-28.jpg",
@@ -2437,7 +2861,11 @@
       "origin": "owner-upload",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "0413b841a0fde910afa6dd68c431f1245cea578c",
-      "visual_series": "luxury-interior-neutral-20261104"
+      "visual_series": "luxury-interior-neutral-20261104",
+      "click_lead": "Does your window seat invite actual use or only look styled? See Veluce's luxury interior-design guide.",
+      "conversion_hook": "Does your window seat invite actual use or only look styled?",
+      "conversion_review_date": "2026-11-04",
+      "conversion_review_method": "Image-specific question aligned to visually reviewed subject and topic-specific live Veluce guide; original image unchanged"
     },
     {
       "path": "assets/pinterest/home-security-01.jpg",

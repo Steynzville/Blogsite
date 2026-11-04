@@ -33,6 +33,34 @@
       "status": "on_hold",
       "source_batch": "2026-11-04-luxury-interiors",
       "source_blob_sha": "eb89b4a27a25df1988d39abed1eb50d942d599ef"
+    },
+    {
+      "path": "assets/pinterest/file_0000000011b48211bbe8e20ac621ebc6.png",
+      "source_batch": "2026-11-04-home-security",
+      "source_blob_sha": "ce0e42d0201c39a3a6c8602397e72d2fbf3e6c39",
+      "status": "on_hold",
+      "reason": "Extra PNG is not byte-identical to any of the four PNGs in owner-supplied home-security ZIP; image identity and non-duplicate editorial suitability require separate source verification before approval."
+    },
+    {
+      "path": "assets/pinterest/file_0000000082dc8211bce2b9c37d07f2bf.png",
+      "source_batch": "2026-11-04-home-security",
+      "source_blob_sha": "963ff16828d73fb79d805a24bf35e812a5e3af9d",
+      "status": "on_hold",
+      "reason": "Extra PNG is not byte-identical to any of the four PNGs in owner-supplied home-security ZIP; image identity and non-duplicate editorial suitability require separate source verification before approval."
+    },
+    {
+      "path": "assets/pinterest/file_0000000092a882119a078b78d1fa1ddc.png",
+      "source_batch": "2026-11-04-home-security",
+      "source_blob_sha": "ae6e207dc4f4941aa2b4683de8d773c6260a3287",
+      "status": "on_hold",
+      "reason": "Extra PNG is not byte-identical to any of the four PNGs in owner-supplied home-security ZIP; image identity and non-duplicate editorial suitability require separate source verification before approval."
+    },
+    {
+      "path": "assets/pinterest/file_00000000a3648211ae0cfda669d41a94.png",
+      "source_batch": "2026-11-04-home-security",
+      "source_blob_sha": "d90a573e694405628f2f987c3e4f15507f6e1d16",
+      "status": "on_hold",
+      "reason": "Extra PNG is not byte-identical to any of the four PNGs in owner-supplied home-security ZIP; image identity and non-duplicate editorial suitability require separate source verification before approval."
     }
   ]
 }

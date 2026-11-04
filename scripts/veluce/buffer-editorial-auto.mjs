@@ -62,6 +62,157 @@ export const TOPICS={
   "smart-access":{path:"/article/smart-access-control/",board:"Smart Home Security Systems",description:"Compare smart entry options, access routines and practical security considerations for modern homes."},
   "smart-lighting":{path:"/article/smart-home-lighting-control/",board:"Smart Home Ideas & Gadgets 🔥",description:"See how smart lighting scenes and controls can adapt a room for practical everyday activities."}
 };
+export const CLICK_INTENT={
+  "tree-uplighting": {
+    "hook": "How to Avoid Glare",
+    "goal": "position concealed tree uplights without harsh glare"
+  },
+  "pathway-lighting": {
+    "hook": "How to Light the Route",
+    "goal": "plan path-light spacing and comfortable nighttime visibility"
+  },
+  "pergola": {
+    "hook": "How to Layer the Light",
+    "goal": "combine pergola ambient, task and accent lighting"
+  },
+  "fire-pit": {
+    "hook": "Plan the Seating First",
+    "goal": "plan fire-pit seating, circulation and lighting"
+  },
+  "copper-lanterns": {
+    "hook": "What to Know Before Buying",
+    "goal": "compare copper-lantern patina, care and material choices"
+  },
+  "led-deck-strips": {
+    "hook": "What to Check Before Installing",
+    "goal": "compare LED deck-strip placement, voltage and weather protection"
+  },
+  "tree-moonlighting": {
+    "hook": "How to Get Soft Downlight",
+    "goal": "create restrained overhead tree lighting"
+  },
+  "bedroom-layered": {
+    "hook": "How to Avoid Harsh Ceiling Light",
+    "goal": "layer bedroom ambient, bedside and accent lighting"
+  },
+  "smart-blinds": {
+    "hook": "What to Check Before Choosing",
+    "goal": "compare daylight control, glare and privacy with smart blinds"
+  },
+  "kitchen-layout": {
+    "hook": "What to Check Before Cabinetry",
+    "goal": "plan kitchen work zones, landing space and movement"
+  },
+  "kitchen-appliances": {
+    "hook": "What Matters Before You Buy",
+    "goal": "compare appliance functions, dimensions and kitchen fit"
+  },
+  "kitchen-countertops": {
+    "hook": "What to Know Before Choosing",
+    "goal": "compare natural-stone countertops and care needs"
+  },
+  "quartzite-porcelain": {
+    "hook": "Which Surface Fits Your Kitchen?",
+    "goal": "compare quartzite and porcelain countertop trade-offs"
+  },
+  "natural-stone": {
+    "hook": "Which Stone Works for Your Room?",
+    "goal": "compare limestone, travertine and marble finishes"
+  },
+  "interior-design": {
+    "hook": "What Makes a Room Feel Cohesive?",
+    "goal": "plan interior focal points, material choices and visual balance"
+  },
+  "garden-patio-layout": {
+    "hook": "What to Measure Before Buying",
+    "goal": "arrange outdoor furniture, circulation and seating zones"
+  },
+  "outdoor-rugs": {
+    "hook": "How to Choose the Right One",
+    "goal": "choose outdoor rug materials, sizes and care"
+  },
+  "modular-sectionals": {
+    "hook": "How to Arrange Flexible Seating",
+    "goal": "plan practical modular seating for entertaining"
+  },
+  "garden-fireplace": {
+    "hook": "What to Plan Around the Fire",
+    "goal": "plan outdoor fireplace seating, safety and focal points"
+  },
+  "garden-pathway-moonlighting": {
+    "hook": "How to Keep Paths Comfortable",
+    "goal": "combine garden moonlighting and pathway visibility"
+  },
+  "outdoor-wall-grazing": {
+    "hook": "Grazing or Washing: Which Works?",
+    "goal": "compare architectural wall grazing and wall washing"
+  },
+  "outdoor-glare": {
+    "hook": "Check the Glare Before Installing",
+    "goal": "audit outdoor lighting glare from actual seating positions"
+  },
+  "solar-pathway": {
+    "hook": "What to Check Before Buying",
+    "goal": "assess solar pathway light placement and performance"
+  },
+  "security-cameras": {
+    "hook": "Check the Sightlines First",
+    "goal": "plan discreet security-camera placement and coverage"
+  },
+  "perimeter-security": {
+    "hook": "Where Are Your Blind Spots?",
+    "goal": "plan perimeter monitoring and camera coverage"
+  },
+  "smart-access": {
+    "hook": "What to Check Before Choosing",
+    "goal": "compare smart access options and secure entry routines"
+  },
+  "smart-lighting": {
+    "hook": "How to Set Up Useful Scenes",
+    "goal": "plan smart lighting scenes for daily activities"
+  }
+};
+
+// A publishing-time safeguard independent of image-catalogue wording.
+// Keep original visual specificity, improve soft titles, and give each Pin
+// a clear, truthful reason to open its matching live Veluce article.
+const TITLE_HOOK=/\b(how|why|what|which|where|when|before|without|avoid|mistakes?|versus|vs\.?|compare|choose|check|guide|tips?|ideas|planning|plan|that|should|need)\b|\?/i;
+export function clickFocusedEditorialCopy(asset){
+  const topic=TOPICS[asset.topic],intent=CLICK_INTENT[asset.topic];
+  if(!topic||!intent)throw new Error("Missing approved topic/click intent: "+asset.topic);
+  let title=String(asset.title||"").replace(/\s+/g," ").trim();
+  if(!title)throw new Error("Editorial image has no accurate title: "+asset.path);
+  const hadHook=TITLE_HOOK.test(title);
+  if(!hadHook){
+    const ending=": "+intent.hook;
+    if(title.length+ending.length>100)
+      title=title.slice(0,100-ending.length).replace(/\s+\S*$/,"").replace(/[\s:;,.!?-]+$/,"");
+    title+=ending;
+  }
+  if(title.length>100)throw new Error("Pinterest headline exceeds 100 characters: "+asset.path);
+  let body=String(asset.description||topic.description||"").replace(/\s+/g," ").trim();
+  if(!body)throw new Error("Editorial image has no truthful description: "+asset.path);
+  // Drop an existing weak 'read the guide' final sentence before adding a
+  // tailored CTA; never strip factual/image-specific sentences.
+  const sentences=body.split(/(?<=[.!?])\s+/);
+  if(sentences.length>1 && /^(?:read|see|explore|discover)\b.*\b(?:Veluce|guide|article)\b/i.test(sentences.at(-1))){
+    sentences.pop();body=sentences.join(" ");
+  }
+  const cta="Read Veluce's full guide to "+intent.goal+".";
+  const maxBase=500-cta.length-2;
+  if(body.length>maxBase){
+    const fragment=body.slice(0,maxBase);
+    const end=fragment.lastIndexOf(". ");
+    body=end>maxBase*0.5?fragment.slice(0,end+1):
+      fragment.replace(/\s+\S*$/,"").replace(/[\s,;:.!?-]+$/,"")+".";
+  }
+  body=body.replace(/[\s.!?]+$/,"");
+  const description=body+". "+cta;
+  if(description.length>500 || !description.endsWith(cta))
+    throw new Error("Editorial CTA quality check failed: "+asset.path);
+  return {title,description,hook_style:hadHook?"original-benefit":"improved-topic-benefit",
+    cta_style:"specific-article-benefit",copy_version:"veluce-click-v2"};
+}
 export function localDate(now=new Date()){
   const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Johannesburg",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
   const t=Object.fromEntries(p.filter(i=>i.type!=="literal").map(i=>[i.type,i.value]));
@@ -316,13 +467,15 @@ async function run(mode){
   const id="veluce-auto-"+today.replaceAll("-","")+"-"+asset.sha.slice(0,12);
   const url=URL_BASE+asset.path;
   const destination="https://velucedesign.com"+topic.path;
-  const pin={creative_id:id,workflow:EDITORIAL,title:asset.title,description:asset.description||topic.description,
+  const copy=clickFocusedEditorialCopy(asset);
+  const pin={creative_id:id,workflow:EDITORIAL,title:copy.title,description:copy.description,
     image_url:url,destination_url:destination,board_service_id:mapped.id,publish_at:"now",status:"ready"};
   if(used.has(url))throw new Error("Creative was already used: "+url);
   await verifiedUrl(url,true);await verifiedUrl(destination,false);
   const item={...pin,local_date:today,topic:asset.topic,board_name:mapped.name,
     ...(placement.suggested_section?{suggested_section:placement.suggested_section,section_status:"advisory_only_buffer_has_no_section_target"}:{}),
-    source_blob_sha:asset.sha,source_path:asset.path,status:"reserved",
+    source_blob_sha:asset.sha,source_path:asset.path,
+    copy_version:copy.copy_version,hook_style:copy.hook_style,cta_style:copy.cta_style,status:"reserved",
     recorded_at:new Date().toISOString(),github_run_id:process.env.GITHUB_RUN_ID||null};
   ledger.posts??=[];ledger.posts.push(item);
   // Persist reservation BEFORE contacting Buffer. A crash cannot silently republish this source.

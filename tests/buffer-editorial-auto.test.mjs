@@ -149,9 +149,15 @@ test("Organic click evidence breaks ties but cannot override daily diversity or 
   const data=JSON.parse(await readFile("ops/buffer/editorial-performance.json","utf8"));
   const scores=performanceScores(data,"2026-11-02");
   assert.ok(scores["copper-lanterns"]>scores.pergola);
+  // Both sample Work images must pass the conversion gate; this test checks
+  // click-score ranking, not rejection of unreviewed creative assets.
+  const approvedWork={origin:"work-generated",visually_verified:true,
+    generated_at:"2026-11-05T12:00:00Z",conversion_verified:true,
+    conversion_visual_kind:"image-only",
+    conversion_hook:"Clear, specific visual comparison of practical design choices"};
   const x=[
-    {path:"assets/pinterest/a.jpg",topic:"copper-lanterns",sha:"a",origin:"work-generated",visually_verified:true},
-    {path:"assets/pinterest/b.jpg",topic:"pergola",sha:"b",origin:"work-generated",visually_verified:true}
+    {path:"assets/pinterest/a.jpg",topic:"copper-lanterns",sha:"a",...approvedWork},
+    {path:"assets/pinterest/b.jpg",topic:"pergola",sha:"b",...approvedWork}
   ];
   const paths=new Set(x.map(p=>p.path));
   assert.equal(chooseAsset(x,[],"2026-11-02",paths,scores).topic,"copper-lanterns");

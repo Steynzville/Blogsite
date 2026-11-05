@@ -3653,38 +3653,7 @@
   "weeklyArticleRefresh": {
     "version": 1,
     "weekDefinition": "Africa/Johannesburg Monday-Sunday",
-    "pendingRun": {
-      "weekStart": "2026-11-02",
-      "weekEnd": "2026-11-08",
-      "startedAt": "2026-11-05",
-      "status": "awaiting_pr_checks_and_deployment",
-      "branch": "editorial/2026-11-05-weekly-three-refreshes",
-      "minimumRequired": 3,
-      "articleSlugs": [
-        "copper-lanterns-age-with-grace",
-        "discreet-security-cameras",
-        "quartzite-vs-porcelain-countertops"
-      ],
-      "selectionEvidence": {
-        "gscPeriod": "2026-10-01 to 2026-11-02 (web, finalized)",
-        "copper": {
-          "impressions": 259,
-          "clicks": 3,
-          "position": 6.37
-        },
-        "security": {
-          "impressions": 8,
-          "clicks": 0,
-          "position": 8.125
-        },
-        "quartzite": {
-          "impressions": 10,
-          "clicks": 0,
-          "position": 4.7
-        }
-      },
-      "note": "Existing article rewrites, corrections, FAQ/SEO and already-approved heroImageAlt prepared; the three original hero assets were directly viewed and confirmed topic-relevant. PR quality gates, article-specific responsive browser review and live deployment confirmation are NOT yet complete; these do not count in history until validated."
-    },
+    "pendingRun": null,
     "history": [
       {
         "weekStart": "2026-10-19",
@@ -3911,97 +3880,230 @@
           "deployRunId": 41288047258,
           "verifiedDate": "2026-11-01"
         }
+      },
+      {
+        "weekStart": "2026-11-02",
+        "weekEnd": "2026-11-08",
+        "status": "completed",
+        "refreshDate": "2026-11-05",
+        "articleSlug": "copper-lanterns-age-with-grace",
+        "articleTitle": "Copper Outdoor Lanterns: Solid vs Plated, Patina & Care",
+        "articleUrl": "https://velucedesign.com/article/copper-lanterns-age-with-grace/",
+        "selectionReason": "Finalized Google Search Console web results 2026-10-01 to 2026-11-02: 259 impressions, 3 clicks, average position 6.37; selected also for substantive misinformation or practical content gaps.",
+        "substantiveChanges": [
+          "Removed fabricated patina timelines, 50–100 year fixture-lifetime guarantees, blanket solid-copper superiority and absolute care/installation advice",
+          "Added comparison of actual body construction, weather exposure, hardware, serviceability, runoff and pre-order mock-up",
+          "Updated frontmatter FAQ/SEO and word count; inspected existing patinated-lantern hero and added matching alt text"
+        ],
+        "affiliateMonetisation": {
+          "exactExistingShortlinksPreserved": [
+            "24vDCplugLED",
+            "SolarInground",
+            "SolarSpot",
+            "SolarStep",
+            "TUYAcobLED",
+            "brass-pendant-lantern",
+            "copper-polish",
+            "copper-wall-lantern"
+          ],
+          "independentProductEligibilityOrCommissionVerification": false,
+          "complementaryVeluceProduct": "Outdoor Lighting Blueprint",
+          "disclosurePresent": true
+        },
+        "prNumber": 51,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/51",
+        "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
+        "validation": "Veluce quality gates https://github.com/Steynzville/Blogsite/actions/runs/41978762139 succeeded for PR head 248c8e9; pnpm check, test, ops:audit, build, ops:validate, general responsive screenshot review and artifact upload passed. Source diff independently checked exact affiliate slugs, image-alt, Studio CTA and final Explore More section.",
+        "deployment": "GitHub Pages https://github.com/Steynzville/Blogsite/actions/runs/41979396232 succeeded for deployed main b3fb65d8bbbc3c37675f9875557e2793cbb4e9e5; prior run on exact merge 8fe9f2b513b93caa045742970adcb8b9609e7a1a was cancelled automatically when newer main superseded it. Independent zero-cost public article fetch confirmed updated title, meta description, canonical, new substantive content and both exact final outbound destinations.",
+        "imageryAcceptance": {
+          "heroImage": "/images/copper-lanterns.jpg",
+          "heroAssetExistsInRepository": true,
+          "originalHeroAssetVisuallyInspected": true,
+          "descriptiveHeroImageAltAdded": true,
+          "sharedResponsiveArticleComponentValidatedByBuild": true,
+          "selectedArticleLiveHeroImageRendered": "not independently confirmed by read-only crawler (it does not expose client-side img elements)",
+          "selectedArticleMobileScreenshot": "not independently captured; generic article desktop/mobile CI captures passed"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalMarkdownSection": true,
+          "finalSectionExactlyOnce": true,
+          "liveFinalTwoLinksInOrder": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/"
+        },
+        "sources": [
+          "https://www.copper.org/publications/pub_list/pdf/A4050-Architectural-Handbook.pdf",
+          "https://help.copper.fyi/hc/en-us/articles/10678632255900-How-do-copper-and-copper-alloy-surfaces-evolve-in-outdoor-conditions"
+        ]
+      },
+      {
+        "weekStart": "2026-11-02",
+        "weekEnd": "2026-11-08",
+        "status": "completed",
+        "refreshDate": "2026-11-05",
+        "articleSlug": "discreet-security-cameras",
+        "articleTitle": "Discreet Security Cameras: Placement, Privacy and Design",
+        "articleUrl": "https://velucedesign.com/article/discreet-security-cameras/",
+        "selectionReason": "Finalized Google Search Console web results 2026-10-01 to 2026-11-02: 8 impressions, 0 clicks, average position 8.125; selected also for substantive misinformation or practical content gaps.",
+        "substantiveChanges": [
+          "Removed risky advice to retrofit cameras into mains fixtures, drainage, ventilation and utility boxes",
+          "Added jurisdiction-sensitive privacy/signage, audio/retention, day/night footage verification, PoE/battery/network security and maintenance checks",
+          "Rewrote placement decision framework, FAQ, metadata; inspected existing architectural-security hero and added accurate alt text"
+        ],
+        "affiliateMonetisation": {
+          "exactExistingShortlinksPreserved": [
+            "motion-floodlight-12v",
+            "poe-camera",
+            "video-doorbell"
+          ],
+          "independentProductEligibilityOrCommissionVerification": false,
+          "complementaryVeluceProduct": "Room Procurement System",
+          "disclosurePresent": true
+        },
+        "prNumber": 51,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/51",
+        "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
+        "validation": "Veluce quality gates https://github.com/Steynzville/Blogsite/actions/runs/41978762139 succeeded for PR head 248c8e9; pnpm check, test, ops:audit, build, ops:validate, general responsive screenshot review and artifact upload passed. Source diff independently checked exact affiliate slugs, image-alt, Studio CTA and final Explore More section.",
+        "deployment": "GitHub Pages https://github.com/Steynzville/Blogsite/actions/runs/41979396232 succeeded for deployed main b3fb65d8bbbc3c37675f9875557e2793cbb4e9e5; prior run on exact merge 8fe9f2b513b93caa045742970adcb8b9609e7a1a was cancelled automatically when newer main superseded it. Independent zero-cost public article fetch confirmed updated title, meta description, canonical, new substantive content and both exact final outbound destinations.",
+        "imageryAcceptance": {
+          "heroImage": "/images/security-cameras.jpg",
+          "heroAssetExistsInRepository": true,
+          "originalHeroAssetVisuallyInspected": true,
+          "descriptiveHeroImageAltAdded": true,
+          "sharedResponsiveArticleComponentValidatedByBuild": true,
+          "selectedArticleLiveHeroImageRendered": "not independently confirmed by read-only crawler (it does not expose client-side img elements)",
+          "selectedArticleMobileScreenshot": "not independently captured; generic article desktop/mobile CI captures passed"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalMarkdownSection": true,
+          "finalSectionExactlyOnce": true,
+          "liveFinalTwoLinksInOrder": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/"
+        },
+        "sources": [
+          "https://www.gov.uk/government/publications/guidance-on-the-use-of-domestic-cctv/domestic-cctv-using-cctv-systems-on-your-property",
+          "https://ico.org.uk/for-the-public/home-cctv-systems/"
+        ]
+      },
+      {
+        "weekStart": "2026-11-02",
+        "weekEnd": "2026-11-08",
+        "status": "completed",
+        "refreshDate": "2026-11-05",
+        "articleSlug": "quartzite-vs-porcelain-countertops",
+        "articleTitle": "Quartzite vs Porcelain Countertops: A Practical Buyer Comparison",
+        "articleUrl": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
+        "selectionReason": "Finalized Google Search Console web results 2026-10-01 to 2026-11-02: 10 impressions, 0 clicks, average position 4.7; selected also for substantive misinformation or practical content gaps.",
+        "substantiveChanges": [
+          "Removed arbitrary fixed sealing, universal material winners, unsupported installed prices and zero-maintenance/indestructibility promises",
+          "Added exact slab/panel sample assessment, edge/support/repair and local like-for-like fitted-quote checklist",
+          "Rebuilt side-by-side comparison, FAQ, metadata; inspected existing contrasting countertop hero and added accurate alt text"
+        ],
+        "affiliateMonetisation": {
+          "exactExistingShortlinksPreserved": [
+            "microfiber-cloths",
+            "silicone-trivet",
+            "stone-cleaner"
+          ],
+          "independentProductEligibilityOrCommissionVerification": false,
+          "complementaryVeluceProduct": "Room Procurement System",
+          "disclosurePresent": true
+        },
+        "prNumber": 51,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/51",
+        "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
+        "validation": "Veluce quality gates https://github.com/Steynzville/Blogsite/actions/runs/41978762139 succeeded for PR head 248c8e9; pnpm check, test, ops:audit, build, ops:validate, general responsive screenshot review and artifact upload passed. Source diff independently checked exact affiliate slugs, image-alt, Studio CTA and final Explore More section.",
+        "deployment": "GitHub Pages https://github.com/Steynzville/Blogsite/actions/runs/41979396232 succeeded for deployed main b3fb65d8bbbc3c37675f9875557e2793cbb4e9e5; prior run on exact merge 8fe9f2b513b93caa045742970adcb8b9609e7a1a was cancelled automatically when newer main superseded it. Independent zero-cost public article fetch confirmed updated title, meta description, canonical, new substantive content and both exact final outbound destinations.",
+        "imageryAcceptance": {
+          "heroImage": "/images/quartzite-vs-porcelain.jpg",
+          "heroAssetExistsInRepository": true,
+          "originalHeroAssetVisuallyInspected": true,
+          "descriptiveHeroImageAltAdded": true,
+          "sharedResponsiveArticleComponentValidatedByBuild": true,
+          "selectedArticleLiveHeroImageRendered": "not independently confirmed by read-only crawler (it does not expose client-side img elements)",
+          "selectedArticleMobileScreenshot": "not independently captured; generic article desktop/mobile CI captures passed"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalMarkdownSection": true,
+          "finalSectionExactlyOnce": true,
+          "liveFinalTwoLinksInOrder": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/"
+        },
+        "sources": [
+          "https://www.naturalstoneinstitute.org/consumers/sealing-stone/",
+          "https://usenaturalstone.org/caring-for-quartzite-countertops/"
+        ]
       }
     ],
-    "lastCompletedWeekStart": "2026-10-26",
+    "lastCompletedWeekStart": "2026-11-02",
     "lastRun": {
-      "weekStart": "2026-10-26",
-      "weekEnd": "2026-11-01",
+      "weekStart": "2026-11-02",
+      "weekEnd": "2026-11-08",
       "status": "completed",
-      "refreshDate": "2026-11-01",
-      "articleSlug": "layered-lighting-bedroom",
-      "articleTitle": "Layered Lighting for the Perfect Bedroom Retreat",
-      "articleUrl": "https://velucedesign.com/article/layered-lighting-bedroom/",
-      "selectionReason": "Overconfident circadian/sleep and fixed Kelvin/brightness rules, absolute universal dimmer requirement; practical lighting testing was underdeveloped.",
+      "refreshDate": "2026-11-05",
+      "articleSlug": "quartzite-vs-porcelain-countertops",
+      "articleTitle": "Quartzite vs Porcelain Countertops: A Practical Buyer Comparison",
+      "articleUrl": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
+      "selectionReason": "Finalized Google Search Console web results 2026-10-01 to 2026-11-02: 10 impressions, 0 clicks, average position 4.7; selected also for substantive misinformation or practical content gaps.",
       "substantiveChanges": [
-        "Reframed colour temperature using brightness, glare, timing and CDC/NIOSH guidance",
-        "Replaced fixed 1–5% night-light requirement with safe occupant-specific path testing",
-        "Added reading, wind-down and night three-scene scorecard and control compatibility",
-        "Corrected synchronized FAQs, metadata and installation guidance"
+        "Removed arbitrary fixed sealing, universal material winners, unsupported installed prices and zero-maintenance/indestructibility promises",
+        "Added exact slab/panel sample assessment, edge/support/repair and local like-for-like fitted-quote checklist",
+        "Rebuilt side-by-side comparison, FAQ, metadata; inspected existing contrasting countertop hero and added accurate alt text"
       ],
       "affiliateMonetisation": {
-        "existingShortlinksRetained": [
-          "motion-night-light",
-          "picture-light",
-          "smart-dimmer"
+        "exactExistingShortlinksPreserved": [
+          "microfiber-cloths",
+          "silicone-trivet",
+          "stone-cleaner"
         ],
-        "exactExistingLinksPreserved": true,
         "independentProductEligibilityOrCommissionVerification": false,
-        "disclosureConfirmedByBuildValidation": true,
-        "complementaryVeluceProduct": "Luxury Lighting Formula"
+        "complementaryVeluceProduct": "Room Procurement System",
+        "disclosurePresent": true
       },
-      "prNumber": 30,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/30",
-      "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
-      "validation": "GitHub quality gates run 41278197735: TypeScript, tests, ops:audit, production build, ops:validate, standard desktop/mobile screenshots and artifact upload all passed.",
-      "deployment": "GitHub Pages workflow_dispatch run 41278566116 succeeded for exact merged commit. Independent live read-only checks: HTTP 200, canonical, meta title/description, indexable, HTTPS for this article. Selected-article mobile visual inspection not performed.",
-      "sources": [
-        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/19.html",
-        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/02.html"
-      ],
+      "prNumber": 51,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/51",
+      "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
+      "validation": "Veluce quality gates https://github.com/Steynzville/Blogsite/actions/runs/41978762139 succeeded for PR head 248c8e9; pnpm check, test, ops:audit, build, ops:validate, general responsive screenshot review and artifact upload passed. Source diff independently checked exact affiliate slugs, image-alt, Studio CTA and final Explore More section.",
+      "deployment": "GitHub Pages https://github.com/Steynzville/Blogsite/actions/runs/41979396232 succeeded for deployed main b3fb65d8bbbc3c37675f9875557e2793cbb4e9e5; prior run on exact merge 8fe9f2b513b93caa045742970adcb8b9609e7a1a was cancelled automatically when newer main superseded it. Independent zero-cost public article fetch confirmed updated title, meta description, canonical, new substantive content and both exact final outbound destinations.",
       "imageryAcceptance": {
-        "heroImage": "/images/bedroom-lighting.jpg",
-        "heroImageAlt": "Neutral-toned bedroom with concealed ceiling cove lighting, softly glowing bedside lamps, a central pendant and a reading nook.",
-        "originalAssetExistsInRepository": true,
-        "originalAssetVisuallyInspected": true,
-        "existingInlineImages": 0,
-        "renderedByResponsiveArticleDetailComponent": true,
-        "liveInlineImageMarkupObserved": false,
-        "liveHeroImageVisualInspection": "not independently verified on live mobile/desktop browser"
+        "heroImage": "/images/quartzite-vs-porcelain.jpg",
+        "heroAssetExistsInRepository": true,
+        "originalHeroAssetVisuallyInspected": true,
+        "descriptiveHeroImageAltAdded": true,
+        "sharedResponsiveArticleComponentValidatedByBuild": true,
+        "selectedArticleLiveHeroImageRendered": "not independently confirmed by read-only crawler (it does not expose client-side img elements)",
+        "selectedArticleMobileScreenshot": "not independently captured; generic article desktop/mobile CI captures passed"
       },
       "exploreMoreAcceptance": {
         "exactFinalMarkdownSection": true,
-        "headingAppearsOnce": true,
-        "studioProductCtaBeforeClosing": true,
+        "finalSectionExactlyOnce": true,
+        "liveFinalTwoLinksInOrder": true,
         "shopUrl": "https://tr.ee/Sp8jyc",
-        "pinterestUrl": "https://www.pinterest.com/steynenslin/",
-        "liveClosingSectionObserved": false,
-        "liveCheckNote": "Live article URL was not retrievable by available public web reader; source and successful build/deployment confirmed."
+        "pinterestUrl": "https://www.pinterest.com/steynenslin/"
       },
-      "accessibilityQaFollowUp": {
-        "prNumber": 31,
-        "mergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
-        "qualityGatesRunId": 41287721039,
-        "deployRunId": 41288047258,
-        "verifiedDate": "2026-11-01"
-      }
+      "sources": [
+        "https://www.naturalstoneinstitute.org/consumers/sealing-stone/",
+        "https://usenaturalstone.org/caring-for-quartzite-countertops/"
+      ]
     },
     "minimumPerWeek": 3,
     "lastWeekSummary": {
-      "weekStart": "2026-10-26",
-      "weekEnd": "2026-11-01",
+      "weekStart": "2026-11-02",
+      "weekEnd": "2026-11-08",
       "status": "completed",
       "minimumRequired": 3,
       "verifiedCompleted": 3,
       "articleSlugs": [
-        "kitchen-design-layout",
-        "fire-pit-tables-centerpiece",
-        "layered-lighting-bedroom"
+        "copper-lanterns-age-with-grace",
+        "discreet-security-cameras",
+        "quartzite-vs-porcelain-countertops"
       ],
-      "prNumber": 30,
-      "mergeCommit": "cc72530fe60010b88d716a11b8d09ab0c2525eb0",
-      "deployRunId": 41278566116,
-      "imageryAndExploreMoreQa": {
-        "status": "source_visual_and_build_passed_article_specific_live_visual_pending",
-        "followUpPr": 31,
-        "followUpMergeCommit": "70236f6f2c288fed118cb1c9167f5bc0c6fa128f",
-        "qualityGatesRunId": 41287721039,
-        "deployRunId": 41288047258,
-        "sourceAssetsVisuallyInspected": 3,
-        "exactClosingSectionsVerifiedInMarkdown": 3,
-        "liveClosingSectionsVerified": 1,
-        "remainingLimitation": "Separate Android/mobile visual acceptance and live hero-image rendering for the three article pages were not independently inspected; live kitchen and bedroom page extraction unavailable."
-      }
+      "prNumber": 51,
+      "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
+      "deployRunId": 41979396232,
+      "liveVerification": "All three article text/metadata, canonical URLs and closing Shop/Pinterest links checked on deployed site; source hero assets visually inspected; article-specific live mobile rendering not independently inspected"
     }
   }
 }

@@ -40,8 +40,8 @@ export default function Home() {
   const featuredArticles = articles.filter((a) => a.featured).slice(0, 3);
 
   useMetaTags({
-    title: 'VELUCE - Luxury Living Journal | Home & Garden Design',
-    description: 'Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.',
+    title: 'VELUCE | Luxury Living Journal and Home Design Systems',
+    description: 'VELUCE is a luxury living journal and digital home-design planning studio. Explore practical systems for outdoor and indoor lighting, outdoor rooms, designer briefs, sourcing and whole-home planning.',
     url: 'https://velucedesign.com/',
     type: 'website',
   });

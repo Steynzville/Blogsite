@@ -87,6 +87,9 @@ export default function Terms() {
             Payment and initial digital delivery may be handled by a third-party checkout or digital-delivery provider identified during checkout. That provider's terms may also apply to the transaction.
           </p>
           <p>
+            Product prices shown in US dollars are indicative currency conversions for convenience, not a promise of a USD charge. The payment provider currently charges in South African rand (ZAR). The amount and currency presented at secure checkout govern the transaction; your card issuer may use a different exchange rate or apply conversion fees.
+          </p>
+          <p>
             Digital-content cancellation and refund rights differ by location. Nothing in these Terms excludes rights that cannot lawfully be waived. If a purchased file is defective or inaccessible, please contact us so we can make reasonable efforts to provide a working copy.
           </p>
 

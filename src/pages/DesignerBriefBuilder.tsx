@@ -1,4 +1,5 @@
 import { ZarPrice } from '@/components/ZarPrice';
+import CheckoutCurrencyNotice from '@/components/CheckoutCurrencyNotice';
 import { ArrowRight, Brain, Check, ClipboardList, FileText, Images, Ruler, ShieldCheck, Sparkles } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
@@ -57,6 +58,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
   }
 
   return (
+    <span className="inline-flex flex-col items-start gap-2">
     <a
       href={checkoutUrl} data-product-id="designer-brief-builder" data-product-name="Designer Brief Builder" data-placement="product-checkout" data-checkout="true" data-value="349" data-currency="ZAR"
       className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`}
@@ -65,6 +67,8 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
       Buy now — <ZarPrice value={PRICE} />
       <ArrowRight size={16} />
     </a>
+    <CheckoutCurrencyNotice />
+    </span>
   );
 }
 

@@ -433,7 +433,7 @@ async function generateStaticHtml(articles) {
       customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
     }
 
-    customizedHtml = customizedHtml.replace('</head>', `<meta property="og:title" content="${escapeHtml(route.title)}" /><meta property="og:description" content="${escapeHtml(route.description)}" /><meta property="og:url" content="${canonicalUrl}" /><meta property="og:type" content="${route.path.startsWith('/article/') ? 'article' : 'website'}" /><meta property="og:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /><meta name="twitter:card" content="summary_large_image" /></head>`);
+    customizedHtml = customizedHtml.replace('</head>', `<meta property="og:title" content="${escapeHtml(route.title)}" /><meta property="og:description" content="${escapeHtml(route.description)}" /><meta property="og:url" content="${canonicalUrl}" /><meta property="og:type" content="${route.path.startsWith('/article/') ? 'article' : 'website'}" /><meta property="og:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="${escapeHtml(route.title)}" /><meta name="twitter:description" content="${escapeHtml(route.description)}" /><meta name="twitter:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /></head>`);
 
     // Inject the actual content into the #root div for Googlebot to see
     if (customizedHtml.includes('<div id="root"></div>')) {
@@ -442,6 +442,46 @@ async function generateStaticHtml(articles) {
     
     await fs.writeFile(path.join(routeDir, 'index.html'), customizedHtml);
   }
+  // Vite's default root is empty. Give search and social crawlers meaningful
+  // homepage HTML immediately, even if they do not run the React client.
+  // createRoot() replaces this fallback with the full interactive homepage.
+  const siteDescription = 'VELUCE is a luxury living journal and digital home-design planning studio. Explore practical systems for outdoor and indoor lighting, outdoor rooms, designer briefs, sourcing and whole-home planning.';
+  const siteTitle = 'VELUCE | Luxury Living Journal and Home Design Systems';
+  const studioLinks = Object.values(studioProducts).map(product =>
+    '<li><a href="/' + product.id + '/">' + escapeHtml(product.title) + ' — ' + escapeHtml(product.method) + '</a></li>'
+  ).join('');
+  const homepageFallback = '<main><h1>Where Light Meets Design</h1>' +
+    '<p>Architectural lighting, thoughtful interiors and practical ways to plan a beautiful home.</p>' +
+    '<section><h2>Veluce Studio digital planning systems</h2>' +
+    '<p>Move from inspiration to clear choices with standalone planning systems, workbooks and offline tools. Explore the full scope of each resource before you buy.</p>' +
+    '<ul>' + studioLinks + '</ul></section>' +
+    '<section><h2>Explore free design guides</h2>' +
+    '<p><a href="/article/led-strip-integration-modern-deck/">Plan LED lighting on a modern deck</a> · ' +
+    '<a href="/article/copper-lanterns-age-with-grace/">Understand copper lanterns and natural patina</a> · ' +
+    '<a href="/articles/">Browse all design articles</a></p></section></main>';
+  const siteSchema = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'VELUCE - Luxury Living Journal',
+    url: SITE_URL + '/',
+    description: siteDescription
+  });
+  const homepageHead = '<meta property="og:title" content="' + escapeHtml(siteTitle) + '" />' +
+    '<meta property="og:description" content="' + escapeHtml(siteDescription) + '" />' +
+    '<meta property="og:url" content="' + SITE_URL + '/" />' +
+    '<meta property="og:type" content="website" />' +
+    '<meta property="og:image" content="' + SITE_URL + '/images/hero-luxury.jpg" />' +
+    '<meta name="twitter:card" content="summary_large_image" />' +
+    '<meta name="twitter:title" content="' + escapeHtml(siteTitle) + '" />' +
+    '<meta name="twitter:description" content="' + escapeHtml(siteDescription) + '" />' +
+    '<meta name="twitter:image" content="' + SITE_URL + '/images/hero-luxury.jpg" />' +
+    '<script type="application/ld+json">' + siteSchema + '</script>';
+  let homepageHtml = indexHtml.replace(/<title>.*?<\/title>/, '<title>' + escapeHtml(siteTitle) + '</title>');
+  homepageHtml = homepageHtml.replace(/<meta name="description" content=".*?" \/>/, '<meta name="description" content="' + escapeHtml(siteDescription) + '" />');
+  homepageHtml = homepageHtml.replace('</head>', homepageHead + '</head>');
+  homepageHtml = homepageHtml.replace('<div id="root"></div>', '<div id="root">' + homepageFallback + '</div>');
+  await fs.writeFile(path.join(distDir, 'index.html'), homepageHtml);
+
   console.log(`Generated customized static HTML for ${routes.length} routes.`);
 }
 

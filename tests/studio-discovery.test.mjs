@@ -51,3 +51,14 @@ test('SPA product view instrumentation is scoped to recognised products', () => 
   assert.doesNotMatch(component,/event', 'purchase'/);
   assert.match(app,/<ProductJourneyTracking\s*\/>/);
 });
+
+test('static homepage has visible content, preview metadata and structured data', () => {
+  const generator = fs.readFileSync('scripts/generate-static.mjs', 'utf8');
+  assert.match(generator, /const homepageFallback = '<main><h1>Where Light Meets Design<\/h1>'/);
+  assert.match(generator, /<meta property="og:image"/);
+  assert.match(generator, /<meta name="twitter:image"/);
+  assert.match(generator, /application\/ld\+json/);
+  assert.match(generator, /await fs.writeFile\(path.join\\(distDir, 'index.html'\), homepageHtml\\)/);
+  const schema = fs.readFileSync('src/lib/schema.ts','utf8');
+  assert.match(schema, /hello@velucedesign\.com/);
+});

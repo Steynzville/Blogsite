@@ -41,7 +41,7 @@ export default function Home() {
 
   useMetaTags({
     title: 'VELUCE | Luxury Living Journal and Home Design Systems',
-    description: 'Explore VELUCE's home design guides and digital planning systems for architectural lighting, outdoor rooms, designer briefs and smarter buying decisions.',
+    description: "Explore VELUCE's home design guides and digital planning systems for architectural lighting, outdoor rooms, designer briefs and smarter buying decisions.",
     url: 'https://velucedesign.com/',
     type: 'website',
   });

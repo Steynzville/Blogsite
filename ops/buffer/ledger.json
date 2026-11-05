@@ -1880,8 +1880,10 @@
       "source_path": "assets/pinterest-products/room-procurement-system-01-materials-living-room.jpg",
       "hook": "Will the stone and timber samples still work together in the real room?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "reserved",
-      "recorded_at": "2026-11-05T12:15:47.901Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-05T12:15:47.901Z",
+      "buffer_post_id": "6aec7376fac32e0e658c0094",
+      "submitted_at": "2026-11-05T12:15:52.907Z"
     }
   ]
 }

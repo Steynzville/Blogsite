@@ -1864,6 +1864,24 @@
       "submitted_at": "2026-11-05T08:14:21.207Z",
       "sent_at": "2026-11-05T08:14:20.779Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716462858"
+    },
+    {
+      "creative_id": "veluce-product-room-procurement-system-01-materials-living-room",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Material Selection: Compare Room Finishes Before You Buy",
+      "description": "Will the stone and timber samples still work together in the real room? Check finish samples against the room's light, dimensions and existing palette. Explore Veluce Studio's Room Procurement System to compare samples, sizes, budgets and supplier details.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/room-procurement-system-01-materials-living-room.jpg",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-05",
+      "source_blob_sha": "938ea9b490bd35f423cb91dba77412f0d0ef8193",
+      "source_path": "assets/pinterest-products/room-procurement-system-01-materials-living-room.jpg",
+      "hook": "Will the stone and timber samples still work together in the real room?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-05T12:15:47.901Z"
     }
   ]
 }

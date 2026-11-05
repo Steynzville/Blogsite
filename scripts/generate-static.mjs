@@ -70,7 +70,7 @@ function renderCrawlerProductContent(slug) {
   const relatedLinks = detail.related.map(([label, href]) => '<li><a href="' + href + '">' + escapeHtml(label) + '</a></li>').join('');
   return '<main><article><p>VELUCE Studio · Digital planning resource</p>' +
     '<h1>' + escapeHtml(product.title) + '</h1>' +
-    '<p><strong>' + escapeHtml(product.method) + '</strong> · One-time price ' + escapeHtml(product.price) + ' (ZAR; checkout subject to availability).</p>' +
+    '<p><strong>' + escapeHtml(product.method) + '</strong> · Approximate USD price ' + escapeHtml(formatApproxUsd(product.price)) + ' (reference rate; checkout is charged in ZAR and the card provider determines the final USD conversion).</p>' +
     '<p>' + escapeHtml(detail.audience) + '</p>' +
     '<h2>The decision this tool helps with</h2><p>' + escapeHtml(detail.problem) + '</p>' +
     '<h2>How to use it</h2>' + bulletList(detail.steps) +

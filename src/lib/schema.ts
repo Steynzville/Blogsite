@@ -80,7 +80,7 @@ export function getOrganizationSchema(baseUrl: string) {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      email: 'steyn.enslin@heatrecovery.co.za',
+      email: 'hello@velucedesign.com',
     },
   };
 }

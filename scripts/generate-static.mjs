@@ -445,7 +445,7 @@ async function generateStaticHtml(articles) {
   // Vite's default root is empty. Give search and social crawlers meaningful
   // homepage HTML immediately, even if they do not run the React client.
   // createRoot() replaces this fallback with the full interactive homepage.
-  const siteDescription = 'VELUCE is a luxury living journal and digital home-design planning studio. Explore practical systems for outdoor and indoor lighting, outdoor rooms, designer briefs, sourcing and whole-home planning.';
+  const siteDescription = 'Explore VELUCE's home design guides and digital planning systems for architectural lighting, outdoor rooms, designer briefs and smarter buying decisions.';
   const siteTitle = 'VELUCE | Luxury Living Journal and Home Design Systems';
   const studioLinks = Object.values(studioProducts).map(product =>
     '<li><a href="/' + product.id + '/">' + escapeHtml(product.title) + ' — ' + escapeHtml(product.method) + '</a></li>'

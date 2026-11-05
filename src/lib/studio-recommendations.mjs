@@ -1,3 +1,4 @@
+import { formatApproxUsd } from './price-usd.mjs';
 export const studioProducts = {
   outdoorLighting: {
     id: 'outdoor-lighting-blueprint',
@@ -118,7 +119,7 @@ export function splitArticleHtml(html) {
 export function renderStudioRecommendationHtml(slug, salesLive = false) {
   const recommendation = getStudioRecommendation(slug);
   if (!recommendation) return '';
-  const status = salesLive ? recommendation.price : recommendation.price + ' · coming soon';
+  const status = formatApproxUsd(recommendation.price) + (salesLive ? ' · Paystack checkout charges ZAR' : ' · coming soon');
   const action = salesLive ? recommendation.cta : recommendation.cta.replace('Explore', 'Preview');
   return '<aside class="veluce-studio-recommendation" style="margin:3rem 0;padding:1.75rem;border:1px solid #d6c9b5;background:#f5efe4;color:#17120f">' +
     '<p style="margin:0 0 .7rem;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#9b7448;font-weight:700">Veluce Studio · Recommended for this article</p>' +

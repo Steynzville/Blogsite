@@ -1809,6 +1809,32 @@
       "submitted_at": "2026-11-04T19:50:03.074Z",
       "sent_at": "2026-11-04T19:50:02.660Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716458940"
+    },
+    {
+      "creative_id": "veluce-auto-20261105-027e2af47075",
+      "workflow": "veluce_editorial",
+      "title": "Deck Bench LED Lighting: Conceal the Glow Beneath Outdoor Seating: What to Check Before Installing",
+      "description": "Could concealed light under the deck bench make evenings easier without glaring at guests? See Veluce's outdoor LED-strip guide. A built-in timber terrace bench with a warm concealed light strip below the seat and gravel edge. Explore practical lighting-placement, visibility and glare decisions.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-02.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-05",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "027e2af4707511b557423006618e4c127ec598dd",
+      "source_path": "assets/pinterest/landscape-lighting-02.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-05T04:06:55.928Z",
+      "github_run_id": "41965707486"
     }
   ]
 }

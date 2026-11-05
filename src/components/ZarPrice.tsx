@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { formatApproxUsd, REFERENCE_ZAR_TO_USD, REFERENCE_RATE_DATE } from '@/lib/price-usd.mjs';
 
 const RATE_URL = 'https://api.frankfurter.dev/v2/rate/zar/usd';
 const CACHE_KEY = 'veluce:zar-usd-rate:v1';
@@ -12,12 +13,6 @@ type CachedRate = {
 
 let memoryRate: CachedRate | null = null;
 let pendingRate: Promise<CachedRate | null> | null = null;
-
-function parseZar(value: string | number) {
-  if (typeof value === 'number') return Number.isFinite(value) ? value : null;
-  const amount = Number(value.replace(/[^0-9.]/g, ''));
-  return Number.isFinite(amount) ? amount : null;
-}
 
 function readCachedRate() {
   if (memoryRate) return memoryRate;
@@ -70,16 +65,18 @@ async function getZarUsdRate() {
   return pendingRate;
 }
 
+/**
+ * User-facing prices are USD-only estimates. The Paystack-linked checkout
+ * remains billed in ZAR and the original ZAR price is the commercial source of truth.
+ */
 export function ZarPrice({
   value,
-  approxClassName = 'opacity-75',
+  approxClassName = '',
 }: {
   value: string | number;
   approxClassName?: string;
 }) {
-  const [rate, setRate] = useState<CachedRate | null>(null);
-  const amount = parseZar(value);
-  const zarLabel = typeof value === 'number' ? `R${value.toLocaleString('en-ZA')}` : value;
+  const [rate, setRate] = useState<CachedRate | null>(() => readCachedRate());
 
   useEffect(() => {
     let active = true;
@@ -91,18 +88,15 @@ export function ZarPrice({
     };
   }, []);
 
-  if (!amount || !rate) return <>{zarLabel}</>;
+  const approximateRate = rate?.rate ?? REFERENCE_ZAR_TO_USD;
+  const sourceDate = rate?.date ?? REFERENCE_RATE_DATE;
 
-  const usd = Math.round(amount * rate.rate);
   return (
-    <>
-      {zarLabel}{' '}
-      <span
-        className={approxClassName}
-        title="Approximate USD equivalent using a daily reference exchange rate. Checkout remains in ZAR; your bank or card rate may differ."
-      >
-        (≈ US${usd})
-      </span>
-    </>
+    <span
+      className={approxClassName}
+      title={`Indicative USD equivalent at a reference exchange rate dated ${sourceDate}. Actual Paystack checkout is charged in South African rand (ZAR); your bank's rate or fees may differ.`}
+    >
+      {formatApproxUsd(value, approximateRate)}
+    </span>
   );
 }

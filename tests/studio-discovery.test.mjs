@@ -58,7 +58,7 @@ test('static homepage has visible content, preview metadata and structured data'
   assert.match(generator, /<meta property="og:image"/);
   assert.match(generator, /<meta name="twitter:image"/);
   assert.match(generator, /application\/ld\+json/);
-  assert.match(generator, /await fs.writeFile\(path.join\\(distDir, 'index.html'\), homepageHtml\\)/);
+  assert.match(generator, /await fs\.writeFile\(path\.join\(distDir, 'index\.html'\), homepageHtml\)/);
   const schema = fs.readFileSync('src/lib/schema.ts','utf8');
   assert.match(schema, /hello@velucedesign\.com/);
 });

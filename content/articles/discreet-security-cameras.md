@@ -35,7 +35,7 @@ Visible cameras communicate protection. In some settings, that visibility itself
 
 > Protection, at its best, is felt rather than seen.
 
-When cameras disappear into architecture, that feeling becomes possible. The home remains visually serene. The perimeter remains monitored. And no one walking past knows the difference — until they need to.
+When equipment is integrated thoughtfully, the home can remain visually serene while entrance coverage stays practical and accountable. Quiet placement still needs suitable privacy safeguards and any notice required locally.
 
 > The best lighting system is the one you never think about.
 >
@@ -92,7 +92,7 @@ Soffits, eaves, fascia boards, and cornices exist already. They are not decorati
 
 **Eaves and fascia:** The roofline offers elevation. Cameras positioned here overlook driveways and yards without competing with light fixtures or landscape features.
 
-**Decorative millwork:** Cornices, corbels, brackets, and other ornamental details can be modified to house cameras. This requires custom work but produces the most invisible results. A camera behind a small grill or within a carved detail is invisible until reviewed.
+**Decorative millwork:** A separately mounted compact camera can sit near a corbel or cornice without disrupting an existing structural or fire-rated assembly. Any custom recess needs professional assessment of weather sealing, fire protection, service access, cable routing and privacy.
 
 **The trade-off:** Architectural concealment requires planning during construction or renovation. Retrofitting is possible but more expensive. For new builds or major renovations, this approach is unmatched.
 
@@ -118,7 +118,7 @@ Dense shrubs, evergreen plantings, and mature trees can conceal cameras that wou
 - Growth patterns (a camera hidden today may be blocked in two years)
 - Maintenance access (pruning, cleaning, battery changes)
 
-**The hybrid approach:** Mount the camera on a short post concealed within a shrub. The camera sees through gaps in foliage. From any distance, only the shrub is visible.
+**The hybrid approach:** An outdoor-rated camera on a low, serviceable post can blend with nearby planting while maintaining a clear view. Check whether foliage or neighbouring property enters the frame seasonally.
 
 ---
 

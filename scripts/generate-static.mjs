@@ -8,6 +8,7 @@ import container from 'markdown-it-container';
 import { fileURLToPath } from 'url';
 import { commercialKind } from '../src/lib/commerce.mjs';
 import { renderStudioRecommendationHtml, splitArticleHtml, studioProducts } from '../src/lib/studio-recommendations.mjs';
+import { formatApproxUsd } from '../src/lib/price-usd.mjs';
 const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
 /**

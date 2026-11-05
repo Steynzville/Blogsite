@@ -6,6 +6,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { lazy, Suspense } from "react";
 import Home from "./pages/Home";
 import ScrollToTop from "./components/ScrollToTop";
+import ProductJourneyTracking from "./components/ProductJourneyTracking";
 
 // Lazy load non-critical routes
 const ArticleDetail = lazy(() => import("./pages/ArticleDetail"));
@@ -35,6 +36,7 @@ restoreRedirect(window);
 function Router() {
   return (
     <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+      <ProductJourneyTracking />
       <Suspense fallback={<div className="min-h-screen bg-white dark:bg-gray-900" />}>
         <Switch>
           <Route path="/" component={Home} />

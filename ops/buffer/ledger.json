@@ -1921,7 +1921,7 @@
       "destination_url": "https://velucedesign.com/article/everyday-kitchen-essentials-organization/",
       "board_service_id": "296815500381470701",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-05",
       "topic": "kitchen-essentials",
       "board_name": "Kitchen Organization Ideas",
@@ -1933,7 +1933,9 @@
       "recorded_at": "2026-11-05T18:13:34.781Z",
       "github_run_id": "42082118964",
       "buffer_post_id": "6aecc7510e16d1231107dd55",
-      "submitted_at": "2026-11-05T18:13:38.936Z"
+      "submitted_at": "2026-11-05T18:13:38.936Z",
+      "sent_at": "2026-11-05T18:13:38.636Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716465001"
     }
   ]
 }

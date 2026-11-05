@@ -2125,6 +2125,21 @@
       "board_id": "296815500381471465",
       "buffer_post_id": "6aec8f1abfdb27db17f31c42",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716465001",
+      "pin_id": "296815431716465001",
+      "published_at": "2026-11-05T18:13:38.636Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/everyday-kitchen-essentials-organization/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-01-pantry-jars.jpg",
+      "title": "Kitchen Pantry Jar Ideas: Group Staples Without Losing Food Dates",
+      "description": "Do matching pantry jars make it harder to track what expires next? Read Veluce's practical pantry and kitchen-organisation guide. Open timber pantry shelves hold clear jars, stacked white dishes, woven baskets and kitchen greenery. See the practical storage and task-zone decisions behind this.",
+      "board": "Kitchen Organization Ideas",
+      "board_id": "296815500381470701",
+      "buffer_post_id": "6aecc7510e16d1231107dd55",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

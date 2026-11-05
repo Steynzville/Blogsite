@@ -190,12 +190,40 @@ export default function Home() {
             <p className="text-lg sm:text-xl text-white max-w-2xl mx-auto drop-shadow-md font-light leading-relaxed">
               Discover the art and science of luxury home design. From architectural lighting to smart home integration, explore the details that transform houses into havens.
             </p>
+            <p className="mt-4 text-sm sm:text-base text-white/90 max-w-2xl mx-auto">
+              Inspiration is the beginning. Our digital planning systems help turn ideas into practical lighting, room and sourcing decisions.
+            </p>
+            <div className="mt-7 flex flex-wrap justify-center gap-3">
+              <a href="#studio-systems" className="inline-flex items-center justify-center rounded-sm bg-[#f5efe4] px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-[0.1em] text-[#17120f] hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                Explore Veluce Studio
+              </a>
+              <Link href="/outdoor-lighting-blueprint" asChild>
+                <a className="inline-flex items-center justify-center rounded-sm border border-white/80 px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-[0.1em] text-white hover:bg-white/15 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white" data-product-id="outdoor-lighting-blueprint" data-placement="homepage-hero">
+                  Plan outdoor lighting
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
       {/* About Section */}
       <AboutSection />
+
+      <section id="studio-systems" aria-labelledby="studio-systems-heading" className="scroll-mt-20 border-t border-[#d6c9b5] bg-[#f5efe4] px-5 py-12 text-[#17120f] sm:px-8 sm:py-16">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#9b7448]">Veluce Studio · Digital planning tools</p>
+          <h2 id="studio-systems-heading" className="mt-4 font-serif text-3xl leading-tight sm:text-4xl">Turn inspiration into confident decisions</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-stone-700 sm:text-base">
+            Browse practical, one-time-purchase systems for planning lighting, outdoor rooms, designer briefs, sourcing and whole-home projects. Start with the problem you're trying to solve; explore exactly what each pack includes before buying.
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm">
+            <Link href="/outdoor-lighting-blueprint" asChild><a className="font-semibold underline underline-offset-4 hover:text-[#9b7448]" data-product-id="outdoor-lighting-blueprint" data-placement="homepage-studio-overview">Outdoor lighting planning</a></Link>
+            <Link href="/luxury-lighting-formula" asChild><a className="font-semibold underline underline-offset-4 hover:text-[#9b7448]" data-product-id="luxury-lighting-formula" data-placement="homepage-studio-overview">Interior lighting formula</a></Link>
+            <Link href="/complete-home-design-system" asChild><a className="font-semibold underline underline-offset-4 hover:text-[#9b7448]" data-product-id="complete-home-design-system" data-placement="homepage-studio-overview">Complete home system</a></Link>
+          </div>
+        </div>
+      </section>
 
       <OutdoorLightingProductCard />
 

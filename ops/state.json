@@ -2110,6 +2110,21 @@
       "board_id": "296815500381472108",
       "buffer_post_id": "6aec3adb7877e0eab287c59d",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716463846",
+      "pin_id": "296815431716463846",
+      "published_at": "2026-11-05T14:13:48.232Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/perimeter-monitoring/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-08.jpg",
+      "title": "What Do Entry-Hall Sensors Add to a Layered Home Security Plan?",
+      "description": "Are door sensors part of your wider security plan? Read Veluce's perimeter-planning guide. Minimal timber-and-stone entrance hall with a small white wall sensor near the glass front door and discreet warm corridor lighting. Start with entry points and approach routes, then determine where sensors.",
+      "board": "Smart Home Security Systems",
+      "board_id": "296815500381471465",
+      "buffer_post_id": "6aec8f1abfdb27db17f31c42",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

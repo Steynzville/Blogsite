@@ -217,6 +217,9 @@ export default function Home() {
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-stone-700 sm:text-base">
             Browse practical, one-time-purchase systems for planning lighting, outdoor rooms, designer briefs, sourcing and whole-home projects. Start with the problem you're trying to solve; explore exactly what each pack includes before buying.
           </p>
+          <p className="mx-auto mt-4 max-w-2xl text-xs leading-relaxed text-stone-600">
+            Displayed US dollar prices are approximate conversions. Secure Paystack checkout charges South African rand (ZAR); your card provider sets the final dollar amount.
+          </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm">
             <Link href="/outdoor-lighting-blueprint" asChild><a className="font-semibold underline underline-offset-4 hover:text-[#9b7448]" data-product-id="outdoor-lighting-blueprint" data-placement="homepage-studio-overview">Outdoor lighting planning</a></Link>
             <Link href="/luxury-lighting-formula" asChild><a className="font-semibold underline underline-offset-4 hover:text-[#9b7448]" data-product-id="luxury-lighting-formula" data-placement="homepage-studio-overview">Interior lighting formula</a></Link>

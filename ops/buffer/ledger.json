@@ -1839,6 +1839,27 @@
       "submitted_at": "2026-11-05T04:07:00.763Z",
       "sent_at": "2026-11-05T04:06:59.649Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716461821"
+    },
+    {
+      "creative_id": "veluce-auto-20261105-ebdafd817585",
+      "workflow": "veluce_editorial",
+      "title": "How to Plan Smart Access for a Front Door With a Video Doorbell",
+      "description": "Could a smart doorbell help simplify your front entrance? Compare options in Veluce's access-control guide. Close daytime view of a black front door with a video doorbell, slim smart lock, warm wall lantern and a delivery box on the doormat. Look at where guests stand, how they enter and where.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-01.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-access-control/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-05",
+      "topic": "smart-access",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "ebdafd817585224722409640b01b1d7284fc2b24",
+      "source_path": "assets/pinterest/home-security-01.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-05T08:14:16.864Z",
+      "github_run_id": "41992851272"
     }
   ]
 }

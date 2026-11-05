@@ -7,8 +7,79 @@ import attrs from 'markdown-it-attrs';
 import container from 'markdown-it-container';
 import { fileURLToPath } from 'url';
 import { commercialKind } from '../src/lib/commerce.mjs';
-import { renderStudioRecommendationHtml, splitArticleHtml } from '../src/lib/studio-recommendations.mjs';
+import { renderStudioRecommendationHtml, splitArticleHtml, studioProducts } from '../src/lib/studio-recommendations.mjs';
 const escapeHtml = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+
+/**
+ * Search engines and visitors without JavaScript should see the substance of
+ * each paid planning resource, not just the one-line React loading fallback.
+ * These factual summaries mirror the live product pages; React replaces them
+ * with the full interactive product experience on hydration.
+ */
+const crawlerProductDetails = {
+  'outdoor-lighting-blueprint': {
+    audience: 'For homeowners designing a garden, path, deck or pergola that must work safely and comfortably after dark.',
+    problem: 'A row of bright fixtures is not a nightscape. First identify viewing positions, useful paths, focal elements and areas that should stay dark. Then consider glare, exposure and installation constraints before selecting fittings.',
+    steps: ['Audit the property after dark from the viewpoints people actually use.', 'Sketch lighting zones and priorities before selecting fixtures.', 'Compare options and costs with an editable calculator rather than guessing from photographs.'],
+    included: ['48-page planning blueprint', 'Editable calculator and practical planning tools', 'AI planning prompts and offline studio resources'],
+    related: [['LED deck strip integration', '/article/led-strip-integration-modern-deck/'], ['Outdoor lighting glare audit', '/article/outdoor-lighting-glare-night-audit/']]
+  },
+  'luxury-outdoor-room-planner': {
+    audience: 'For homeowners who want a patio, deck or pergola to function as a complete outdoor room, not a collection of attractive furniture.',
+    problem: 'Comfortable outdoor spaces begin with purpose, zoning, circulation and scale. A seating image alone cannot tell you whether a dining chair will pull out, a path will remain clear or a sheltered corner will fit your household routines.',
+    steps: ['Define the activities the outdoor area should support.', 'Plan circulation, seating and dining zones around measurements and constraints.', 'Compare furniture scale, atmosphere and practical decisions before spending.'],
+    included: ['The 5-Layer Outdoor Room Method', 'Layout recipes and planning worksheets', 'Calculator and supporting planning tools'],
+    related: [['Arrange patio furniture', '/article/how-to-arrange-patio-furniture/'], ['Pergola lighting that works', '/article/pergola-lighting-outdoor-room/']]
+  },
+  'designer-brief-builder': {
+    audience: 'For homeowners preparing a room renovation or design collaboration and needing a clear, reusable project brief.',
+    problem: 'An inspiration board is not a specification. Photos and styles become more useful when they are paired with measurements, daily needs, priorities, constraints and decisions that can be explained to a designer, contractor or AI tool.',
+    steps: ['Record the room as it exists and the problems to solve.', 'Separate non-negotiable constraints from stylistic preferences.', 'Use the CLEAR method to produce a coherent brief before choosing finishes or asking for quotations.'],
+    included: ['CLEAR Brief-to-Design method', 'Project briefing worksheets and frameworks', 'AI Brief Architect Lab and supporting resources'],
+    related: [['Kitchen layout planning', '/article/kitchen-design-layout/'], ['Luxury interior principles', '/article/luxury-interior-design-principles/']]
+  },
+  'luxury-lighting-formula': {
+    audience: 'For homeowners whose rooms feel flat, harsh or uncomfortable despite having attractive light fittings.',
+    problem: 'Better lighting is not simply more lighting. The Seven Signals framework examines focal hierarchy, layers, direction, warmth, shadow, concealment and scenes so you can diagnose the effect before buying or rewiring.',
+    steps: ['Run a night audit and identify the weakest lighting signal.', 'Use room recipes and an editable workbook to plan controlled changes.', 'Test one variable at a time with the 53-prompt AI Lab, keeping the actual room geometry intact.'],
+    included: ['Seven Signals diagnostic method and recipe cards', '53 controlled AI lighting prompts', '13-sheet workbook and offline Lighting Atelier'],
+    related: [['Layered bedroom lighting', '/article/layered-lighting-bedroom/'], ['Smart lighting control', '/article/smart-home-lighting-control/']]
+  },
+  'room-procurement-system': {
+    audience: 'For homeowners who need to compare and purchase furnishings, finishes or equipment without losing track of fit, cost or evidence.',
+    problem: 'A product photograph does not confirm dimensions, compatibility, shipping costs or return conditions. The SOURCE method turns inspiration into a comparison process that survives ordering, delivery and installation.',
+    steps: ['Capture item specifications, measurements and non-negotiables before shopping.', 'Compare options against documented evidence and full costs.', 'Track the order, receipt and close-out decisions in one place.'],
+    included: ['SOURCE purchasing and verification framework', '17-sheet workbook', '64-prompt AI Procurement Lab and offline Procurement Atelier'],
+    related: [['Quartzite versus porcelain countertops', '/article/quartzite-vs-porcelain-countertops/'], ['Choosing kitchen appliances', '/article/kitchen-appliances-luxury/']]
+  },
+  'complete-home-design-system': {
+    audience: 'For homeowners coordinating multiple rooms and decisions who need one clear route from first brief to finished space.',
+    problem: 'Planning, lighting and purchasing choices influence each other. A fragmented project risks conflicting decisions, missed constraints and avoidable rework. The Veluce Path connects these tasks through checkpoints and shared records.',
+    steps: ['Define priorities and capture real-room facts before deciding on aesthetics.', 'Coordinate space planning and lighting choices across rooms.', 'Compare purchases, keep evidence and use decision gates before committing.'],
+    included: ['All five standalone Veluce specialist planning packs', 'Whole-home master guide and project workbook', '50-prompt AI design lab, decision cards and offline Complete Home Studio'],
+    related: [['Interior design principles', '/article/luxury-interior-design-principles/'], ['Planning discreet security cameras', '/article/discreet-security-cameras/']]
+  }
+};
+
+function renderCrawlerProductContent(slug) {
+  const product = Object.values(studioProducts).find(item => item.id === slug);
+  const detail = crawlerProductDetails[slug];
+  if (!product || !detail) throw new Error('Missing verified crawler content for Studio product: ' + slug);
+  const bulletList = items => '<ul>' + items.map(item => '<li>' + escapeHtml(item) + '</li>').join('') + '</ul>';
+  const relatedLinks = detail.related.map(([label, href]) => '<li><a href="' + href + '">' + escapeHtml(label) + '</a></li>').join('');
+  return '<main><article><p>VELUCE Studio · Digital planning resource</p>' +
+    '<h1>' + escapeHtml(product.title) + '</h1>' +
+    '<p><strong>' + escapeHtml(product.method) + '</strong> · One-time price ' + escapeHtml(product.price) + ' (ZAR; checkout subject to availability).</p>' +
+    '<p>' + escapeHtml(detail.audience) + '</p>' +
+    '<h2>The decision this tool helps with</h2><p>' + escapeHtml(detail.problem) + '</p>' +
+    '<h2>How to use it</h2>' + bulletList(detail.steps) +
+    '<h2>What is included</h2>' + bulletList(detail.included) +
+    '<p>These are digital planning and decision tools, not physical fixtures, contractor services or a promise of a specific design outcome. Review the full product page and terms before purchasing.</p>' +
+    '<h2>Read related free guides</h2><ul>' + relatedLinks + '</ul>' +
+    '<p><a href="/">Explore the Veluce journal and all six Studio systems</a></p>' +
+    '</article></main>';
+}
+
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = path.resolve(__dirname, '../content/articles');
@@ -165,12 +236,12 @@ async function generateSitemap(articles) {
     { path: '/privacy' },
     { path: '/terms' },
     { path: '/affiliate' },
-    { path: '/outdoor-lighting-blueprint', lastmod: '2026-10-06' },
-    { path: '/luxury-outdoor-room-planner', lastmod: '2026-10-06' },
-    { path: '/designer-brief-builder', lastmod: '2026-10-06' },
-    { path: '/luxury-lighting-formula', lastmod: '2026-10-06' },
-    { path: '/room-procurement-system', lastmod: '2026-10-06' },
-    { path: '/complete-home-design-system', lastmod: '2026-10-06' },
+    { path: '/outdoor-lighting-blueprint', lastmod: '2026-11-05' },
+    { path: '/luxury-outdoor-room-planner', lastmod: '2026-11-05' },
+    { path: '/designer-brief-builder', lastmod: '2026-11-05' },
+    { path: '/luxury-lighting-formula', lastmod: '2026-11-05' },
+    { path: '/room-procurement-system', lastmod: '2026-11-05' },
+    { path: '/complete-home-design-system', lastmod: '2026-11-05' },
   ];
   for (const page of staticPages) {
     sitemap += `  <url>\n    <loc>${SITE_URL}${page.path}/</loc>\n`;
@@ -321,6 +392,10 @@ async function generateStaticHtml(articles) {
   ];
 
   for (const route of routes) {
+    const productSlug = route.path.slice(1);
+    if (Object.prototype.hasOwnProperty.call(crawlerProductDetails, productSlug)) {
+      route.content = renderCrawlerProductContent(productSlug);
+    }
     const routeDir = path.join(distDir, route.path);
     await fs.mkdir(routeDir, { recursive: true });
     
@@ -358,7 +433,7 @@ async function generateStaticHtml(articles) {
       customizedHtml = customizedHtml.replace('</head>', `  <link rel="canonical" href="${canonicalUrl}" />\n  </head>`);
     }
 
-    customizedHtml = customizedHtml.replace('</head>', `<meta property="og:title" content="${escapeHtml(route.title)}" /><meta property="og:description" content="${escapeHtml(route.description)}" /><meta property="og:url" content="${canonicalUrl}" /><meta property="og:type" content="${route.path.startsWith('/article/') ? 'article' : 'website'}" /><meta property="og:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /><meta name="twitter:card" content="summary_large_image" /></head>`);
+    customizedHtml = customizedHtml.replace('</head>', `<meta property="og:title" content="${escapeHtml(route.title)}" /><meta property="og:description" content="${escapeHtml(route.description)}" /><meta property="og:url" content="${canonicalUrl}" /><meta property="og:type" content="${route.path.startsWith('/article/') ? 'article' : 'website'}" /><meta property="og:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="${escapeHtml(route.title)}" /><meta name="twitter:description" content="${escapeHtml(route.description)}" /><meta name="twitter:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /></head>`);
 
     // Inject the actual content into the #root div for Googlebot to see
     if (customizedHtml.includes('<div id="root"></div>')) {
@@ -367,6 +442,46 @@ async function generateStaticHtml(articles) {
     
     await fs.writeFile(path.join(routeDir, 'index.html'), customizedHtml);
   }
+  // Vite's default root is empty. Give search and social crawlers meaningful
+  // homepage HTML immediately, even if they do not run the React client.
+  // createRoot() replaces this fallback with the full interactive homepage.
+  const siteDescription = 'VELUCE is a luxury living journal and digital home-design planning studio. Explore practical systems for outdoor and indoor lighting, outdoor rooms, designer briefs, sourcing and whole-home planning.';
+  const siteTitle = 'VELUCE | Luxury Living Journal and Home Design Systems';
+  const studioLinks = Object.values(studioProducts).map(product =>
+    '<li><a href="/' + product.id + '/">' + escapeHtml(product.title) + ' — ' + escapeHtml(product.method) + '</a></li>'
+  ).join('');
+  const homepageFallback = '<main><h1>Where Light Meets Design</h1>' +
+    '<p>Architectural lighting, thoughtful interiors and practical ways to plan a beautiful home.</p>' +
+    '<section><h2>Veluce Studio digital planning systems</h2>' +
+    '<p>Move from inspiration to clear choices with standalone planning systems, workbooks and offline tools. Explore the full scope of each resource before you buy.</p>' +
+    '<ul>' + studioLinks + '</ul></section>' +
+    '<section><h2>Explore free design guides</h2>' +
+    '<p><a href="/article/led-strip-integration-modern-deck/">Plan LED lighting on a modern deck</a> · ' +
+    '<a href="/article/copper-lanterns-age-with-grace/">Understand copper lanterns and natural patina</a> · ' +
+    '<a href="/articles/">Browse all design articles</a></p></section></main>';
+  const siteSchema = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'VELUCE - Luxury Living Journal',
+    url: SITE_URL + '/',
+    description: siteDescription
+  });
+  const homepageHead = '<meta property="og:title" content="' + escapeHtml(siteTitle) + '" />' +
+    '<meta property="og:description" content="' + escapeHtml(siteDescription) + '" />' +
+    '<meta property="og:url" content="' + SITE_URL + '/" />' +
+    '<meta property="og:type" content="website" />' +
+    '<meta property="og:image" content="' + SITE_URL + '/images/hero-luxury.jpg" />' +
+    '<meta name="twitter:card" content="summary_large_image" />' +
+    '<meta name="twitter:title" content="' + escapeHtml(siteTitle) + '" />' +
+    '<meta name="twitter:description" content="' + escapeHtml(siteDescription) + '" />' +
+    '<meta name="twitter:image" content="' + SITE_URL + '/images/hero-luxury.jpg" />' +
+    '<script type="application/ld+json">' + siteSchema + '</script>';
+  let homepageHtml = indexHtml.replace(/<title>.*?<\/title>/, '<title>' + escapeHtml(siteTitle) + '</title>');
+  homepageHtml = homepageHtml.replace(/<meta name="description" content=".*?" \/>/, '<meta name="description" content="' + escapeHtml(siteDescription) + '" />');
+  homepageHtml = homepageHtml.replace('</head>', homepageHead + '</head>');
+  homepageHtml = homepageHtml.replace('<div id="root"></div>', '<div id="root">' + homepageFallback + '</div>');
+  await fs.writeFile(path.join(distDir, 'index.html'), homepageHtml);
+
   console.log(`Generated customized static HTML for ${routes.length} routes.`);
 }
 

@@ -25,6 +25,22 @@ export function installCommerceTracking(doc, win) {
     if (payload && typeof win.gtag === 'function') {
       win.gtag('event', 'veluce_commercial_click', payload);
 
+      // Product exploration is distinct from starting checkout. Use the
+      // standard GA4 select_item event so the article-to-product path can be
+      // reported without counting the same action as a sale or checkout.
+      if (anchor.dataset.productId &&
+          anchor.dataset.checkout !== 'true' &&
+          anchor.dataset.placement !== 'payment-verification') {
+        win.gtag('event', 'select_item', {
+          item_list_name: anchor.dataset.placement || 'studio-navigation',
+          items: [{
+            item_id: anchor.dataset.productId,
+            item_name: anchor.dataset.productName || anchor.dataset.productId,
+            quantity: 1,
+          }],
+        });
+      }
+
       if (anchor.dataset.checkout === 'true') {
         const value = Number(anchor.dataset.value);
         const currency = anchor.dataset.currency || 'ZAR';

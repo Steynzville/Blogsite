@@ -4,9 +4,15 @@ on:
     branches: [main]
 permissions:
   contents: read
+# New commits supersede older PR visual validations; avoid simultaneous
+# 30-page screenshot runs and unlimited runner charges.
+concurrency:
+  group: veluce-quality-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     env:
       PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
     steps:

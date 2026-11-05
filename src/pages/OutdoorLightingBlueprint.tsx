@@ -95,7 +95,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
 export default function OutdoorLightingBlueprint() {
   useMetaTags({
     title: 'Outdoor Lighting Blueprint | VELUCE',
-    description: 'Plan a professional-looking outdoor nightscape before you buy. The Veluce 4-Axis Nightscape System includes a 48-page blueprint, calculator, AI prompt pack and offline studio tools.',
+    description: 'Plan a balanced outdoor nightscape with the VELUCE 4-Axis Nightscape System, including a 48-page blueprint, calculator, AI prompts and offline tools.',
     url: 'https://velucedesign.com/outdoor-lighting-blueprint/',
     type: 'website',
   });

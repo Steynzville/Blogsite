@@ -1,4 +1,5 @@
 import { ZarPrice } from '@/components/ZarPrice';
+import CheckoutCurrencyNotice from '@/components/CheckoutCurrencyNotice';
 import { ArrowRight, Check, Calculator, PackageCheck, Sparkles, Truck, Brain, Ruler, ReceiptText } from 'lucide-react';
 import { Link } from 'wouter';
 import Footer from '@/components/Footer';
@@ -44,7 +45,7 @@ function PurchaseButton({ compact = false }: { compact?: boolean }) {
   if (!checkoutReady) {
     return <span className={`inline-flex items-center justify-center rounded-sm bg-stone-300 px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-stone-600 ${compact ? '' : 'sm:px-7 sm:py-4'}`} aria-disabled="true" title="Checkout is being configured">Checkout unavailable</span>;
   }
-  return <a href={checkoutUrl} data-product-id="room-procurement-system" data-product-name="Room Procurement System" data-placement="product-checkout" data-checkout="true" data-value="449" data-currency="ZAR" className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`} rel="noopener">Buy now — <ZarPrice value={PRICE} /><ArrowRight size={16}/></a>;
+  return <span className="inline-flex flex-col items-start gap-2"><a href={checkoutUrl} data-product-id="room-procurement-system" data-product-name="Room Procurement System" data-placement="product-checkout" data-checkout="true" data-value="449" data-currency="ZAR" className={`inline-flex items-center justify-center gap-2 rounded-sm bg-[#f5efe4] px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#17120f] transition hover:bg-white ${compact ? '' : 'sm:px-7 sm:py-4'}`} rel="noopener">Buy now — <ZarPrice value={PRICE} /><ArrowRight size={16}/></a><CheckoutCurrencyNotice /></span>;
 }
 
 export default function RoomProcurementSystem() {

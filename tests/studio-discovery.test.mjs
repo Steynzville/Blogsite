@@ -62,3 +62,12 @@ test('static homepage has visible content, preview metadata and structured data'
   const schema = fs.readFileSync('src/lib/schema.ts','utf8');
   assert.match(schema, /hello@velucedesign\.com/);
 });
+
+test('product static HTML includes non-commercial WebPage structured data', () => {
+  const generator = fs.readFileSync('scripts/generate-static.mjs', 'utf8');
+  assert.match(generator, /const productWebPageSchema = JSON\.stringify/);
+  assert.match(generator, /'@type': 'WebPage'/);
+  assert.match(generator, /'@id': canonicalUrl/);
+  assert.match(generator, /Object\.prototype\.hasOwnProperty\.call\(crawlerProductDetails, productSlug\)/);
+  assert.doesNotMatch(generator, /'aggregateRating'/);
+});

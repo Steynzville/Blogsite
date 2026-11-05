@@ -48,6 +48,11 @@ export default function ArticleStudioRecommendation({ slug }: Props) {
             <p className="mt-3 text-sm text-stone-600">
               <ZarPrice value={recommendation.price} />{salesLive ? '' : ' · currently unavailable'}
             </p>
+            {salesLive && (
+              <p className="mt-1 max-w-xs text-xs leading-relaxed text-stone-600 md:ml-auto">
+                USD estimate only; Paystack checkout charges ZAR. Your bank sets the final exchange rate.
+              </p>
+            )}
           </div>
         </div>
       </div>

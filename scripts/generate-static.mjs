@@ -297,7 +297,7 @@ async function generateStaticHtml(articles) {
     {
       path: '/outdoor-lighting-blueprint',
       title: 'Outdoor Lighting Blueprint — VELUCE',
-      description: 'Plan a professional-looking outdoor nightscape before you buy. The Veluce 4-Axis Nightscape System includes a 48-page blueprint, calculator, AI prompt pack and offline studio tools.',
+      description: 'Plan a balanced outdoor nightscape with the VELUCE 4-Axis Nightscape System, including a 48-page blueprint, calculator, AI prompts and offline tools.',
       image: '/images/architectural-grazing-stone-wall.jpg',
       content: '<h1>Outdoor Lighting Blueprint</h1><p>The Veluce 4-Axis Nightscape System helps homeowners audit the night, define the effect, compare fixtures and plan before purchasing.</p>'
     },
@@ -434,6 +434,21 @@ async function generateStaticHtml(articles) {
     }
 
     customizedHtml = customizedHtml.replace('</head>', `<meta property="og:title" content="${escapeHtml(route.title)}" /><meta property="og:description" content="${escapeHtml(route.description)}" /><meta property="og:url" content="${canonicalUrl}" /><meta property="og:type" content="${route.path.startsWith('/article/') ? 'article' : 'website'}" /><meta property="og:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="${escapeHtml(route.title)}" /><meta name="twitter:description" content="${escapeHtml(route.description)}" /><meta name="twitter:image" content="${escapeHtml(new URL(route.image || '/images/hero-luxury.jpg', SITE_URL).href)}" /></head>`);
+
+    // Product pages expose truthful WebPage semantics in initial HTML.
+    // No unverified offers, reviews, delivery promises or stock claims.
+    if (Object.prototype.hasOwnProperty.call(crawlerProductDetails, productSlug)) {
+      const productWebPageSchema = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': canonicalUrl,
+        url: canonicalUrl,
+        name: route.title,
+        description: route.description,
+        isPartOf: { '@type': 'WebSite', name: 'VELUCE', url: SITE_URL + '/' }
+      });
+      customizedHtml = customizedHtml.replace('</head>', '<script type="application/ld+json">' + productWebPageSchema + '</script></head>');
+    }
 
     // Inject the actual content into the #root div for Googlebot to see
     if (customizedHtml.includes('<div id="root"></div>')) {

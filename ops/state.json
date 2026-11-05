@@ -3653,7 +3653,38 @@
   "weeklyArticleRefresh": {
     "version": 1,
     "weekDefinition": "Africa/Johannesburg Monday-Sunday",
-    "pendingRun": null,
+    "pendingRun": {
+      "weekStart": "2026-11-02",
+      "weekEnd": "2026-11-08",
+      "startedAt": "2026-11-05",
+      "status": "awaiting_pr_checks_and_deployment",
+      "branch": "editorial/2026-11-05-weekly-three-refreshes",
+      "minimumRequired": 3,
+      "articleSlugs": [
+        "copper-lanterns-age-with-grace",
+        "discreet-security-cameras",
+        "quartzite-vs-porcelain-countertops"
+      ],
+      "selectionEvidence": {
+        "gscPeriod": "2026-10-01 to 2026-11-02 (web, finalized)",
+        "copper": {
+          "impressions": 259,
+          "clicks": 3,
+          "position": 6.37
+        },
+        "security": {
+          "impressions": 8,
+          "clicks": 0,
+          "position": 8.125
+        },
+        "quartzite": {
+          "impressions": 10,
+          "clicks": 0,
+          "position": 4.7
+        }
+      },
+      "note": "Existing article rewrites, corrections, FAQ/SEO and already-approved heroImageAlt prepared; the three original hero assets were directly viewed and confirmed topic-relevant. PR quality gates, article-specific responsive browser review and live deployment confirmation are NOT yet complete; these do not count in history until validated."
+    },
     "history": [
       {
         "weekStart": "2026-10-19",

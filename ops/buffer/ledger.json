@@ -1936,6 +1936,32 @@
       "submitted_at": "2026-11-05T18:13:38.936Z",
       "sent_at": "2026-11-05T18:13:38.636Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716465001"
+    },
+    {
+      "creative_id": "veluce-auto-20261106-ac4c7dcc9259",
+      "workflow": "veluce_editorial",
+      "title": "LED Deck Edge Ideas: Highlight the Step Down to the Garden",
+      "description": "Will visitors notice the change from timber decking to lawn after sunset? See Veluce's outdoor LED-strip guide. Long timber deck with a warm linear light strip along the outer edge beside planting and a tree. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-03.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-06",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "ac4c7dcc925954cd771922995f146c9bdcb68531",
+      "source_path": "assets/pinterest/landscape-lighting-03.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-06T04:06:52.604Z",
+      "github_run_id": "42160510415"
     }
   ]
 }

@@ -2155,6 +2155,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6aed525e07f945cca93d228e",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716469856",
+      "pin_id": "296815431716469856",
+      "published_at": "2026-11-06T08:13:39.039Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-01.jpg",
+      "title": "How to Give a Neutral Living Room One Clear Focal Point",
+      "description": "Is your chandelier competing with the living room's real focal point? See Veluce's luxury interior-design guide. Double-height neutral living room with a tiered crystal chandelier, low curved seating and a round veined-stone coffee table facing tall garden windows. Explore how focal points.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "buffer_post_id": "6aed8c30c1e74b84e5d76b45",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

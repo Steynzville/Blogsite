@@ -2170,6 +2170,21 @@
       "board_id": "296815500381467884",
       "buffer_post_id": "6aed8c30c1e74b84e5d76b45",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716471427",
+      "pin_id": "296815431716471427",
+      "published_at": "2026-11-06T14:13:31.580Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/natural-stone-countertops-guide/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-21.jpg",
+      "title": "What to Check Before Choosing a Veined Stone Kitchen Island",
+      "description": "Are you choosing kitchen island stone based on dramatic veining alone? See Veluce's natural-stone countertop guide. Pale veined-stone kitchen island with upholstered bar stools, bronze dome pendants and a matching illuminated backsplash. Compare countertop material appearance, care and performance.",
+      "board": "Kitchen Essentials & Must-Haves 🔥",
+      "board_id": "296815500381470714",
+      "buffer_post_id": "6aede08afd32b2a5bf13bbc3",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

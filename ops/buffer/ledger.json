@@ -2026,6 +2026,27 @@
       "submitted_at": "2026-11-06T14:13:31.945Z",
       "sent_at": "2026-11-06T14:13:31.580Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716471427"
+    },
+    {
+      "creative_id": "veluce-auto-20261106-da40add9fb38",
+      "workflow": "veluce_editorial",
+      "title": "Smart Bedroom Blinds: Plan Privacy Before Sunset",
+      "description": "Would your bedroom benefit more from scheduled shading or a better manual override? See Veluce's smart-blinds and daylight guide. Neutral bedroom with floor-to-ceiling roller blinds, sunset skyline and a small bedside smart-control tablet. Compare the room's real needs, compatibility and everyday.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-02-golden-hour-bedroom.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-blinds-follow-sun/",
+      "board_service_id": "296815500381470761",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-06",
+      "topic": "smart-blinds",
+      "board_name": "Cozy Bedroom Ideas & Finds 🔥",
+      "source_blob_sha": "da40add9fb38ca768c3cde8ca9fe3ca2135d85da",
+      "source_path": "assets/pinterest/smart-home-02-golden-hour-bedroom.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-06T18:14:30.061Z",
+      "github_run_id": "42268757785"
     }
   ]
 }

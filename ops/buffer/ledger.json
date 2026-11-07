@@ -2158,6 +2158,27 @@
       "submitted_at": "2026-11-07T14:10:48.076Z",
       "sent_at": "2026-11-07T14:10:47.414Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716478426"
+    },
+    {
+      "creative_id": "veluce-auto-20261107-6a7ce876b4e4",
+      "workflow": "veluce_editorial",
+      "title": "Connected Kitchen Planning: Keep Smart Devices Off the Prep Zone",
+      "description": "Is your smart kitchen dashboard using the counter space needed for cooking? See Veluce's room-by-room smart-home planning guide. Warm island kitchen with smart refrigerator screen, small speaker and mobile control display on a stone worktop. Compare the room's real needs, compatibility and everyday.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-04-connected-kitchen%20(2).jpg",
+      "destination_url": "https://velucedesign.com/article/smart-home-planning-by-room/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-07",
+      "topic": "smart-home-planning",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "6a7ce876b4e4ad5deb73fe3bc7e4cad53336a6c1",
+      "source_path": "assets/pinterest/smart-home-04-connected-kitchen (2).jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-07T18:11:34.984Z",
+      "github_run_id": "42400008879"
     }
   ]
 }

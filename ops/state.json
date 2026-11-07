@@ -2230,6 +2230,21 @@
       "board_id": "296815500381472108",
       "buffer_post_id": "6aeedd26a7751de7c9d4a480",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716478426",
+      "pin_id": "296815431716478426",
+      "published_at": "2026-11-07T14:10:47.414Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/outdoor-fireplace-focal-point/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/patio-decor-08-modern-stone.jpg",
+      "title": "How to Arrange a Patio Lounge Around a Linear Outdoor Fireplace",
+      "description": "Does the fireplace wall give this stone patio a clear place to gather? Explore Veluce's outdoor-fireplace design guide. Modern stone patio with cream L-shaped sofa, pale stone coffee table, timber pergola and horizontal flame feature built into raised back wall. Compare how this detail works with.",
+      "board": "2026 Warm Organic Home Aesthetic",
+      "board_id": "296815500381469139",
+      "buffer_post_id": "6aef31659214322f68f7a3f7",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

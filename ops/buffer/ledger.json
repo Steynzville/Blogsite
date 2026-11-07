@@ -2051,6 +2051,32 @@
       "submitted_at": "2026-11-06T18:14:35.183Z",
       "sent_at": "2026-11-06T18:14:34.044Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716472722"
+    },
+    {
+      "creative_id": "veluce-auto-20261107-38ca0be44930",
+      "workflow": "veluce_editorial",
+      "title": "Curved Outdoor LED Strips: Plan a Smooth Light Ring Without Glare",
+      "description": "Can an illuminated circular deck edge stay comfortable from every seat? See Veluce's outdoor LED-strip guide. Circular raised outdoor lounge or fire-feature edge outlined with continuous warm linear light beneath a pergola. Explore practical lighting-placement, visibility and glare decisions before.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-06.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-07",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "38ca0be4493057bcbd214053d19771bdc73cd9b1",
+      "source_path": "assets/pinterest/landscape-lighting-06.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-07T04:06:20.645Z",
+      "github_run_id": "42336929353"
     }
   ]
 }

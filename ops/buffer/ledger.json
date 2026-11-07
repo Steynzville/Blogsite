@@ -2081,6 +2081,27 @@
       "submitted_at": "2026-11-07T04:06:25.447Z",
       "sent_at": "2026-11-07T04:06:24.370Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716476037"
+    },
+    {
+      "creative_id": "veluce-auto-20261107-a2752cef9e7d",
+      "workflow": "veluce_editorial",
+      "title": "Smart Living Room Scenes: Build Useful Lighting Layers: How to Set Up Useful Scenes",
+      "description": "Are your living-room lighting scenes practical or just bright presets? See Veluce's guide to useful smart-lighting scenes. Warm contemporary living room with ceiling coves, accent lighting and a handheld lighting-scene controller. Compare the room's real needs, compatibility and everyday controls.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-03-living-room-control.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-07",
+      "topic": "smart-lighting",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "a2752cef9e7d288b9e75b60609783e0721ad5491",
+      "source_path": "assets/pinterest/smart-home-03-living-room-control.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-07T08:11:16.961Z",
+      "github_run_id": "42354371641"
     }
   ]
 }

@@ -2138,7 +2138,7 @@
       "destination_url": "https://velucedesign.com/article/outdoor-fireplace-focal-point/",
       "board_service_id": "296815500381469139",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-07",
       "topic": "garden-fireplace",
       "board_name": "2026 Warm Organic Home Aesthetic",
@@ -2153,7 +2153,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-07T14:10:43.228Z",
-      "github_run_id": "42380339907"
+      "github_run_id": "42380339907",
+      "buffer_post_id": "6aef31659214322f68f7a3f7",
+      "submitted_at": "2026-11-07T14:10:48.076Z"
     }
   ]
 }

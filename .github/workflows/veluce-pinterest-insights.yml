@@ -30,7 +30,7 @@ jobs:
         run: node scripts/veluce/pinterest-insights-review.mjs
       - name: Save weekly measurement evidence
         run: |
-          if git diff --quiet -- ops/buffer/analytics-reviews/latest-buffer-review.json; then exit 0; fi
+          if [ -z "$(git status --porcelain -- ops/buffer/analytics-reviews/latest-buffer-review.json)" ]; then exit 0; fi
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git config user.name 'github-actions[bot]'
           git add ops/buffer/analytics-reviews/latest-buffer-review.json

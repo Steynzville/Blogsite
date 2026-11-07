@@ -2128,6 +2128,32 @@
       "submitted_at": "2026-11-07T12:13:21.888Z",
       "sent_at": "2026-11-07T12:13:20.654Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716478023"
+    },
+    {
+      "creative_id": "veluce-auto-20261107-4a1adff93169",
+      "workflow": "veluce_editorial",
+      "title": "How to Arrange a Patio Lounge Around a Linear Outdoor Fireplace",
+      "description": "Does the fireplace wall give this stone patio a clear place to gather? Explore Veluce's outdoor-fireplace design guide. Modern stone patio with cream L-shaped sofa, pale stone coffee table, timber pergola and horizontal flame feature built into raised back wall. Compare how this detail works with.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/patio-decor-08-modern-stone.jpg",
+      "destination_url": "https://velucedesign.com/article/outdoor-fireplace-focal-point/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-07",
+      "topic": "garden-fireplace",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "5488316390083463495",
+        "name": "My Moodboard"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "4a1adff93169a704c52d16b566c2b9e07d3e50c0",
+      "source_path": "assets/pinterest/patio-decor-08-modern-stone.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-07T14:10:43.228Z",
+      "github_run_id": "42380339907"
     }
   ]
 }

@@ -2268,16 +2268,10 @@
     "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
   },
   "veluce_six_product_cover_rotation_v1": {
-    "cycle": 5,
-    "last_product": "Room Procurement System",
-    "completed_products": [
-      "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner",
-      "Designer Brief Builder",
-      "Luxury Lighting Formula",
-      "Room Procurement System"
-    ],
-    "next_product": "Complete Home Design System",
+    "cycle": 6,
+    "last_product": "Complete Home Design System",
+    "completed_products": [],
+    "next_product": "Outdoor Lighting Blueprint",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -3208,6 +3202,41 @@
           "Room Procurement System"
         ],
         "next_product": "Complete Home Design System"
+      },
+      {
+        "creative_id": "veluce-product-complete-home-design-system-01-coastal-open-plan",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Complete Home Design System",
+        "cycle": 5,
+        "submission_date": "2026-11-07",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "complete-home-design-system-01-coastal-open-plan.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/complete-home-design-system-01-coastal-open-plan.jpg",
+        "hook": "Do your living room and terrace feel like different homes?",
+        "title": "Whole-Home Design: Plan a Consistent Look From Living Room to Terrace",
+        "description": "Do your living room and terrace feel like different homes? Start with a repeating timber, stone and lighting palette before choosing room-by-room finishes. Explore Veluce Studio's Complete Home Design System to connect materials, layouts and lighting across rooms.",
+        "destination_url": "https://velucedesign.com/complete-home-design-system/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "buffer_post_id": "6aef15dfa7751de7c9e735aa",
+        "published_at": "2026-11-07",
+        "published_at_timestamp": "2026-11-07T12:13:20.654Z",
+        "pin_id": "296815431716478023",
+        "pin_url": "https://www.pinterest.com/pin/296815431716478023",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula",
+          "Room Procurement System",
+          "Complete Home Design System"
+        ],
+        "next_product": "Outdoor Lighting Blueprint"
       }
     ],
     "archived_history": [

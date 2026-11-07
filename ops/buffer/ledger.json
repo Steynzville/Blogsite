@@ -2122,10 +2122,12 @@
       "source_path": "assets/pinterest-products/complete-home-design-system-01-coastal-open-plan.jpg",
       "hook": "Do your living room and terrace feel like different homes?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-07T12:13:17.090Z",
       "buffer_post_id": "6aef15dfa7751de7c9e735aa",
-      "submitted_at": "2026-11-07T12:13:21.888Z"
+      "submitted_at": "2026-11-07T12:13:21.888Z",
+      "sent_at": "2026-11-07T12:13:20.654Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716478023"
     }
   ]
 }

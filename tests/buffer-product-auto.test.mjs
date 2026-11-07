@@ -7,6 +7,17 @@ async function load(){
   const [catalog,boards,ledger,state]=await Promise.all(paths.map(async path=>JSON.parse(await readFile(path,"utf8"))));
   return {catalog,boards,ledger,state};
 }
+function rotationFixture(nextProduct="Room Procurement System"){
+  const index=PRODUCT_ORDER.indexOf(nextProduct);
+  assert.notEqual(index,-1,"fixture product must be in the rotation");
+  return {
+    cycle:42,
+    last_product:PRODUCT_ORDER[(index-1+PRODUCT_ORDER.length)%PRODUCT_ORDER.length],
+    completed_products:PRODUCT_ORDER.slice(0,index),
+    next_product:nextProduct,
+    history:[{creative_id:"fixture-history",product:"Designer Brief Builder",published_at:"2030-01-01"}]
+  };
+}
 test("All 36 product JPGs have exact Git bytes, correct dimensions, true URLs and eligible boards",async()=>{
   const {catalog,boards}=await load();
   const result=await validateCatalogue(catalog,boards);
@@ -22,39 +33,51 @@ test("All 36 product JPGs have exact Git bytes, correct dimensions, true URLs an
     assert.ok(creativeId(a).length<=80);
   }
 });
-test("Next product follows confirmed history, not a restarted six-product loop",async()=>{
-  const {catalog,ledger,state}=await load();
+test("Production rotation state follows the confirmed six-product history",async()=>{
+  const {state}=await load();
   const rot=state.veluce_six_product_cover_rotation_v1;
-  assert.equal(rot.next_product,"Room Procurement System");
-  const chosen=chooseProductAsset(catalog.image_assets,rot,ledger);
+  const lastIndex=PRODUCT_ORDER.indexOf(rot.last_product);
+  assert.notEqual(lastIndex,-1);
+  assert.equal(rot.next_product,PRODUCT_ORDER[(lastIndex+1)%PRODUCT_ORDER.length]);
+  const nextIndex=PRODUCT_ORDER.indexOf(rot.next_product);
+  assert.deepEqual(rot.completed_products,nextIndex===0?[]:PRODUCT_ORDER.slice(0,nextIndex));
+  assert.equal(rot.history.at(-1).product,rot.last_product);
+  assert.equal(rot.history.at(-1).next_product,rot.next_product);
+});
+test("Next product selection follows supplied rotation state",async()=>{
+  const {catalog}=await load();
+  const rot=rotationFixture();
+  const chosen=chooseProductAsset(catalog.image_assets,rot,{posts:[]});
   assert.match(chosen.path,/room-procurement-system-01-materials-living-room\.jpg$/);
-  const pin=buildProductPin(chosen,"2026-11-05");
+  const pin=buildProductPin(chosen,"2030-01-02");
   assert.equal(pin.destination_url,"https://velucedesign.com/room-procurement-system/");
   assert.equal(pin.board_service_id,"296815500381467884");
 });
-test("Existing November 4 product Pin prevents a second one, even on manual runs",async()=>{
-  const {ledger,state}=await load();
-  const rot=state.veluce_six_product_cover_rotation_v1;
-  assert.equal(productActivityOnDay(ledger,rot,"2026-11-04"),true);
-  assert.equal(productActivityOnDay(ledger,rot,"2026-11-05"),false);
+test("Existing same-day product activity prevents a second Pin, even on manual runs",()=>{
+  const ledger={posts:[{workflow:"veluce_six_product_cover_rotation_v1",local_date:"2030-01-02"}]};
+  const rot={history:[{published_at:"2030-01-03"}]};
+  assert.equal(productActivityOnDay(ledger,rot,"2030-01-02"),true);
+  assert.equal(productActivityOnDay(ledger,rot,"2030-01-03"),true);
+  assert.equal(productActivityOnDay(ledger,rot,"2030-01-04"),false);
   assert.equal(localDay(new Date("2026-11-04T22:45:00Z")),"2026-11-05");
   assert.equal(localDay(new Date("2026-11-04T19:45:00Z")),"2026-11-04");
 });
 test("Creative IDs, image URLs and source hashes each independently prevent duplicates",async()=>{
-  const {catalog,ledger,state}=await load();
-  const chosen=chooseProductAsset(catalog.image_assets,state.veluce_six_product_cover_rotation_v1,ledger);
-  const pin=buildProductPin(chosen,"2026-11-05");
+  const {catalog}=await load();
+  const rot=rotationFixture();
+  const chosen=chooseProductAsset(catalog.image_assets,rot,{posts:[]});
+  const pin=buildProductPin(chosen,"2030-01-02");
   for(const used of [{creative_id:pin.creative_id},{image_url:pin.image_url},{source_blob_sha:chosen.source_blob_sha}]){
-    const next=chooseProductAsset(catalog.image_assets,state.veluce_six_product_cover_rotation_v1,{posts:[...ledger.posts,used]});
+    const next=chooseProductAsset(catalog.image_assets,rot,{posts:[used]});
     assert.match(next.path,/room-procurement-system-02-curated-samples-flatlay\.jpg$/);
   }
 });
 test("Only a confirmed sent Pin advances state, preserving previous cycle history",async()=>{
-  const {catalog,ledger,state}=await load();
-  const old=state.veluce_six_product_cover_rotation_v1;
-  const chosen=chooseProductAsset(catalog.image_assets,old,ledger);
-  const p={...buildProductPin(chosen,"2026-11-05"),source_path:chosen.path,board_name:chosen.board_name,hook:chosen.hook,
-    status:"sent_buffer_confirmed",buffer_post_id:"test-buffer",sent_at:"2026-11-05T12:08:00Z",pinterest_url:"https://www.pinterest.com/pin/123"};
+  const {catalog}=await load();
+  const old=rotationFixture();
+  const chosen=chooseProductAsset(catalog.image_assets,old,{posts:[]});
+  const p={...buildProductPin(chosen,"2030-01-02"),source_path:chosen.path,board_name:chosen.board_name,hook:chosen.hook,
+    status:"sent_buffer_confirmed",buffer_post_id:"test-buffer",sent_at:"2030-01-02T12:08:00Z",pinterest_url:"https://www.pinterest.com/pin/123"};
   assert.throws(()=>advanceRotation(old,{...p,status:"reserved"}),/confirmed sent/);
   const after=advanceRotation(old,p);
   assert.equal(after.next_product,"Complete Home Design System");

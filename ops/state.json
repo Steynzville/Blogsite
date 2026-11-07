@@ -3316,7 +3316,45 @@
     "lastRunType": "NEW",
     "nextRunType": "REFRESH",
     "nextNewProduct": "Designer Brief Builder",
-    "pendingRun": null,
+    "pendingRun": {
+      "runDate": "2026-11-07",
+      "runType": "REFRESH",
+      "actualRunType": "REFRESH",
+      "articleSlug": "solar-pathway-lights-affordable",
+      "articleTitle": "Solar Pathway Lights: How to Choose, Place and Test Them",
+      "primaryTopic": "Choosing and testing solar pathway lights by site exposure, beam control and maintainability",
+      "primaryProduct": "Outdoor Lighting Blueprint",
+      "branch": "editorial/2026-11-07-refresh-solar-pathway",
+      "mergeStatus": "open_blocked_preexisting_tests",
+      "publicationDate": "2026-06-07",
+      "plannedNextRunType": "NEW",
+      "plannedNextNewProduct": "Designer Brief Builder",
+      "selectionReason": "This established guide retained strong visual and affiliate relevance but relied on universal spacing, runtime, maintenance and IP-rating claims that were not safe across products or sites. Six separate articles were refreshed by the weekly safety workflow on 1 and 5 November, so this distinct guide was selected for a factual, decision-led improvement.",
+      "analyticsEvidence": "The connected Search Console account exposes miningsignals.com only, so Veluce query and page performance were unavailable on 2026-11-07. Selection used current repository content quality, monetisation fit and recent-refresh exclusion; demand is not quantified.",
+      "sources": [
+        "https://darksky.org/get-involved/home-lighting-assessment/",
+        "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+        "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Solar-Powered%20Street%20and%20Area%20Lighting%20Considerations%20-%20Factsheet.pdf",
+        "https://webstore.iec.ch/en/publication/2452"
+      ],
+      "sourceCheckedAt": "2026-11-07",
+      "affiliateMonetisation": {
+        "contextualPlacementsRetained": 3,
+        "products": [
+          "modern cylinder solar lights (solar-lantern-lights)",
+          "traditional solar lantern lights (solar-ball-lights)",
+          "modern solar bollard (solar-bollard)"
+        ],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true
+      },
+      "imagery": "Existing relevant hero and two contextual product images retained; existing descriptive alt text preserved.",
+      "validationResult": "Current-run checks passed: TypeScript, 77 directly applicable tests including exact solar CTA mappings, 30-article audit with zero issues, 55-route production build, and ops validation. Full suite has four pre-existing unrelated failures in tests/buffer-product-auto.test.mjs caused by product-Pin state advancing beyond hard-coded November expectations on current main.",
+      "prNumber": 53,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/53",
+      "mergeBlocker": "Four pre-existing product-Pin rotation tests fail on current main because the live product-Pin state has advanced beyond hard-coded November expectations. Editorial checks pass; no Pinterest code, schedules or tests were modified merely to force green."
+    },
     "history": [
       {
         "runType": "NEW",

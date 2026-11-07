@@ -1,0 +1,39 @@
+name: Veluce Pinterest Weekly Metrics Check
+on:
+  schedule:
+    # Sunday 07:17 SAST = Sunday 05:17 UTC. Does not change posting schedules.
+    - cron: '17 5 * * 0'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: veluce-buffer-pinterest
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify read-only analytics summarizer
+        run: node --test tests/pinterest-analytics-review.test.mjs
+      - name: Pull verified Buffer metrics without publishing
+        run: node scripts/veluce/pinterest-insights-review.mjs
+      - name: Save weekly measurement evidence
+        run: |
+          if git diff --quiet -- ops/buffer/analytics-reviews/latest-buffer-review.json; then exit 0; fi
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add ops/buffer/analytics-reviews/latest-buffer-review.json
+          git commit -m 'ops(pinterest): refresh weekly Buffer measurement evidence'
+          git pull --rebase origin main
+          git push origin HEAD:main

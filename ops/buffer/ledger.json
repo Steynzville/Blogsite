@@ -2168,7 +2168,7 @@
       "destination_url": "https://velucedesign.com/article/smart-home-planning-by-room/",
       "board_service_id": "296815500381472108",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "needs_reconciliation",
       "local_date": "2026-11-07",
       "topic": "smart-home-planning",
       "board_name": "Smart Home Ideas & Gadgets 🔥",
@@ -2178,7 +2178,8 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-07T18:11:34.984Z",
-      "github_run_id": "42400008879"
+      "github_run_id": "42400008879",
+      "error": "Image must be an approved public direct Veluce or Blogsite GitHub Pinterest image URL"
     }
   ]
 }

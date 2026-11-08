@@ -2284,9 +2284,11 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 6,
-    "last_product": "Complete Home Design System",
-    "completed_products": [],
-    "next_product": "Outdoor Lighting Blueprint",
+    "last_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -3252,6 +3254,36 @@
           "Complete Home Design System"
         ],
         "next_product": "Outdoor Lighting Blueprint"
+      },
+      {
+        "creative_id": "veluce-product-outdoor-lighting-blueprint-01-illuminated-steps",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 6,
+        "submission_date": "2026-11-08",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "outdoor-lighting-blueprint-01-illuminated-steps.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/outdoor-lighting-blueprint-01-illuminated-steps.jpg",
+        "hook": "Are your garden steps visible without a harsh spotlight in the eyes?",
+        "title": "Outdoor Step Lighting: Guide Guests Without Glare",
+        "description": "Are your garden steps visible without a harsh spotlight in the eyes? Light the change in level first, then balance the scene with softer background layers. Explore Veluce Studio's Outdoor Lighting Blueprint to plan zones, reduce glare and choose fixtures with purpose.",
+        "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+        "board": "Outdoor Lighting Ideas",
+        "board_service_id": "296815500381477417",
+        "buffer_post_id": "6af06763004e4879a7b67e66",
+        "published_at": "2026-11-08",
+        "published_at_timestamp": "2026-11-08T12:13:25.296Z",
+        "pin_id": "296815431716484172",
+        "pin_url": "https://www.pinterest.com/pin/296815431716484172",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint"
+        ],
+        "next_product": "Luxury Outdoor Room Planner"
       }
     ],
     "archived_history": [

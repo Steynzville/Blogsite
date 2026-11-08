@@ -2196,8 +2196,10 @@
       "source_path": "assets/pinterest-products/outdoor-lighting-blueprint-01-illuminated-steps.jpg",
       "hook": "Are your garden steps visible without a harsh spotlight in the eyes?",
       "board_name": "Outdoor Lighting Ideas",
-      "status": "reserved",
-      "recorded_at": "2026-11-08T12:13:21.402Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-08T12:13:21.402Z",
+      "buffer_post_id": "6af06763004e4879a7b67e66",
+      "submitted_at": "2026-11-08T12:13:26.506Z"
     }
   ]
 }

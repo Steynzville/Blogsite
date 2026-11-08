@@ -2180,6 +2180,24 @@
       "recorded_at": "2026-11-07T18:11:34.984Z",
       "github_run_id": "42400008879",
       "error": "Image must be an approved public direct Veluce or Blogsite GitHub Pinterest image URL"
+    },
+    {
+      "creative_id": "veluce-product-outdoor-lighting-blueprint-01-illuminated-steps",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Outdoor Lighting Blueprint",
+      "title": "Outdoor Step Lighting: Guide Guests Without Glare",
+      "description": "Are your garden steps visible without a harsh spotlight in the eyes? Light the change in level first, then balance the scene with softer background layers. Explore Veluce Studio's Outdoor Lighting Blueprint to plan zones, reduce glare and choose fixtures with purpose.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/outdoor-lighting-blueprint-01-illuminated-steps.jpg",
+      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "local_date": "2026-11-08",
+      "source_blob_sha": "19362d0437a3eadf3bba53560a59401fec217430",
+      "source_path": "assets/pinterest-products/outdoor-lighting-blueprint-01-illuminated-steps.jpg",
+      "hook": "Are your garden steps visible without a harsh spotlight in the eyes?",
+      "board_name": "Outdoor Lighting Ideas",
+      "status": "reserved",
+      "recorded_at": "2026-11-08T12:13:21.402Z"
     }
   ]
 }

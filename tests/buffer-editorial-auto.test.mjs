@@ -1,12 +1,34 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
-import {localDate,dimensions,chooseAsset,performanceScores,eligibleBoardsForTopic,chooseBoardPlacement,TOPICS} from "../scripts/veluce/buffer-editorial-auto.mjs";
+import {localDate,dimensions,chooseAsset,performanceScores,eligibleBoardsForTopic,chooseBoardPlacement,TOPICS,freshPostSpecificWorkImage} from "../scripts/veluce/buffer-editorial-auto.mjs";
 
 test("South African local day is used for four daily slots",()=>{
   assert.equal(localDate(new Date("2026-10-18T22:30:00Z")),"2026-10-19");
   assert.equal(localDate(new Date("2026-10-19T21:30:00Z")),"2026-10-19");
 });
+
+test("fresh-image cutover rejects reserves, owner uploads and incomplete generation records",()=>{
+  const good={
+    origin:"work-generated",post_specific:true,generation_batch_id:"2026-11-09-a",
+    generation_prompt:"Post-specific Veluce pergola scene",source_blob_sha:"a".repeat(40),
+    generated_at:"2026-11-09T04:10:00Z",visual_review_date:"2026-11-09"
+  };
+  assert.equal(freshPostSpecificWorkImage(good,"2026-11-09"),true);
+  assert.equal(freshPostSpecificWorkImage({...good,origin:"owner-upload"},"2026-11-09"),false);
+  assert.equal(freshPostSpecificWorkImage({...good,post_specific:false},"2026-11-09"),false);
+  assert.equal(freshPostSpecificWorkImage({...good,generation_prompt:""},"2026-11-09"),false);
+});
+test("fresh post-specific image expires after seven days and legacy history remains readable",()=>{
+  const image={
+    origin:"work-generated",post_specific:true,generation_batch_id:"batch",
+    generation_prompt:"Exact article scene",source_blob_sha:"b".repeat(40),
+    generated_at:"2026-11-01T08:00:00Z",visual_review_date:"2026-11-01"
+  };
+  assert.equal(freshPostSpecificWorkImage(image,"2026-11-09"),false);
+  assert.equal(freshPostSpecificWorkImage({origin:"owner-upload"},"2026-11-08"),true);
+});
+
 test("PNG dimensions require a complete file, not just the IHDR",async()=>{
   const b=await readFile("assets/pinterest/studio-editorial-pergola-20261027-d4.png");
   assert.deepEqual(dimensions(b),{width:1024,height:1536,mime:"image/png"});

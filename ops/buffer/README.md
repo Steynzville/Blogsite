@@ -78,3 +78,12 @@ The fourth truncated file in the 28 October upload batch (`studio-editorial-tree
 Publisher `scripts/veluce/buffer-editorial-auto.mjs` now requires complete PNG chunk structure and IEND, JPEG end marker, and correct WebP RIFF size before a file can publish; regression tests cover truncated source. The working 29 October Work-generated JPEG reserve (f1–f4) was checked for JPEG end-of-image markers and remains eligible. The 14:00 six-product task now has additional instructions to verify full re-downloaded image bytes, visually inspect the uploaded version, and prefer genuinely compressed JPEG exports if the binary upload method has a size cap. No changes were made to the four editorial cron slots or the independent six-product publish schedule.
 
 The three already-published Pinterest images cannot be edited in place; remove them directly through Pinterest's own Edit Pin → Delete option if a clean profile is required, then use truly new complete creatives (not the corrupted sources) through the normal controlled workflow. Do not retry the broken Buffer submissions as if they had failed; their delivery status was sent.
+
+
+## Fresh GPT image per editorial Pin (effective 9 November 2026)
+
+Every new automated editorial Pin now requires its own newly generated, post-specific GPT/Work image. The historical reserve catalogue and owner-uploaded images remain in the repository for provenance but are not eligible for new publication after the cutover.
+
+The publisher fails closed unless the asset is `origin: "work-generated"`, `post_specific: true`, contains a unique generation batch, prompt summary and exact 40-character Git blob SHA, was individually visually reviewed, passes the existing conversion and full-file integrity checks, and was generated within the previous seven days. Image URL and blob SHA reuse remain prohibited permanently.
+
+The daily Work run prepares up to four exact article/topic images, uploads complete bytes, re-downloads and decodes the public raw file, then registers the verified metadata. If generation, upload, visual review, public fetch, decoding or matching fails, the affected Pin is not published. Old stock is never substituted and no blank or text-only Pin is allowed.

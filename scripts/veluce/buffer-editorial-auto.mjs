@@ -240,6 +240,23 @@ export function creativeConversionReady(asset){
   return true;
 }
 
+const FRESH_POST_IMAGE_GATE_START="2026-11-09";
+export function freshPostSpecificWorkImage(asset,day){
+  // From the owner-directed cutover onward, reserve catalogues and prior uploads
+  // are never eligible. A Work-generated image must have been made for exactly
+  // one future Pin, fully reviewed, and registered no more than seven days ago.
+  if(day<FRESH_POST_IMAGE_GATE_START)return true;
+  if(asset.origin!=="work-generated"||asset.post_specific!==true)return false;
+  if(!String(asset.generation_batch_id||"").trim()||
+     !String(asset.generation_prompt||"").trim()||
+     !String(asset.source_blob_sha||"").match(/^[0-9a-f]{40}$/i))return false;
+  const generated=String(asset.generated_at||"");
+  const reviewed=String(asset.visual_review_date||"");
+  if(!/^\d{4}-\d{2}-\d{2}T/.test(generated)||!/^\d{4}-\d{2}-\d{2}/.test(reviewed))return false;
+  const age=(Date.parse(day+"T23:59:59Z")-Date.parse(generated))/86400000;
+  return Number.isFinite(age)&&age>=0&&age<=7;
+}
+
 export function clickFocusedEditorialCopy(asset){
   const topic=TOPICS[asset.topic],intent=CLICK_INTENT[asset.topic];
   if(!topic||!intent)throw new Error("Missing approved topic/click intent: "+asset.topic);
@@ -403,7 +420,8 @@ export function chooseAsset(items,ledger,day,validPaths,performance={},coverage=
   const images=new Set(ledger.map(x=>x.image_url).filter(Boolean));
   const pending=new Set(ledger.map(x=>x.creative_id).filter(Boolean));
   const candidate=items.filter(x=>{
-    if(x.visually_verified!==true || !TOPICS[x.topic] || !validPaths.has(x.path) || !creativeConversionReady(x))return false;
+    if(x.visually_verified!==true || !TOPICS[x.topic] || !validPaths.has(x.path) ||
+       !creativeConversionReady(x) || !freshPostSpecificWorkImage(x,day))return false;
     const imageUrl=editorialAssetImageUrl(x);
     if(images.has(imageUrl)||historical.has(x.sha))return false;
     if(pending.has(x.creative_id))return false;

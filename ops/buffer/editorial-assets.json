@@ -6137,6 +6137,112 @@
         "296815500381471065",
         "296815500381474397"
       ]
+    },
+    {
+      "path": "assets/pinterest/veluce-gpt-tree-moonlighting-20261109.jpg",
+      "topic": "tree-moonlighting",
+      "title": "How to Create Soft Tree Moonlighting Without Glare",
+      "description": "A mature olive tree is lit gently from within the canopy, casting delicate leaf shadows over a limestone path and bench. See how Veluce plans restrained tree moonlighting for atmosphere and comfortable movement.",
+      "visual_description": "Blue-hour limestone courtyard with a mature olive tree, concealed warm canopy light, dappled shadows, cream bench and garden path.",
+      "source_blob_sha": "61bb320f3fa5cb47fc0de6995ec80de67f91abe4",
+      "generation_prompt": "Post-specific mature olive tree moonlighting courtyard with concealed warm canopy light and dappled shadows.",
+      "click_lead": "Want soft garden moonlight without visible glare? See Veluce's tree-canopy lighting guide.",
+      "conversion_hook": "Want soft garden moonlight without visible glare?",
+      "allowed_board_service_ids": [
+        "296815500381469139",
+        "296815500381474397",
+        "296815500381471065",
+        "296815500381477417"
+      ],
+      "origin": "work-generated",
+      "post_specific": true,
+      "generation_batch_id": "2026-11-09-gpt-fresh-a",
+      "generated_at": "2026-11-09T04:18:00Z",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-09",
+      "visual_review_method": "Individual native GPT output visual review plus 1024x1536 JPEG conversion and exact Git blob registration",
+      "conversion_verified": true,
+      "conversion_visual_kind": "image-only",
+      "conversion_review_date": "2026-11-09",
+      "conversion_review_method": "Post-specific visual matched to one live article and semantically eligible boards"
+    },
+    {
+      "path": "assets/pinterest/veluce-gpt-quartzite-porcelain-20261109.jpg",
+      "topic": "quartzite-porcelain",
+      "title": "Quartzite or Porcelain: Which Surface Fits Your Kitchen?",
+      "description": "Two full-size neutral countertop samples make the visual and care differences easier to compare before cabinetry is ordered. Read Veluce's practical quartzite-versus-porcelain guide.",
+      "visual_description": "Daylit oak kitchen design studio with one veined quartzite sample, one restrained porcelain sample, tape measure and cabinet finish.",
+      "source_blob_sha": "be7834879c5a61fecb2996fe14f8ec1fee0b42ed",
+      "generation_prompt": "Post-specific kitchen studio comparison of quartzite and porcelain countertop samples in honest daylight.",
+      "click_lead": "Quartzite or porcelain for your kitchen? Compare appearance, durability and upkeep with Veluce.",
+      "conversion_hook": "Quartzite or porcelain for your kitchen?",
+      "allowed_board_service_ids": [
+        "296815500381470714"
+      ],
+      "origin": "work-generated",
+      "post_specific": true,
+      "generation_batch_id": "2026-11-09-gpt-fresh-a",
+      "generated_at": "2026-11-09T04:18:00Z",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-09",
+      "visual_review_method": "Individual native GPT output visual review plus 1024x1536 JPEG conversion and exact Git blob registration",
+      "conversion_verified": true,
+      "conversion_visual_kind": "image-only",
+      "conversion_review_date": "2026-11-09",
+      "conversion_review_method": "Post-specific visual matched to one live article and semantically eligible boards"
+    },
+    {
+      "path": "assets/pinterest/veluce-gpt-patio-layout-20261109.jpg",
+      "topic": "garden-patio-layout",
+      "title": "How to Arrange Patio Seating Without Blocking the Garden Route",
+      "description": "A cream conversation zone sits beside a clearly open route into the garden. Use Veluce's patio-layout guide to plan seating, circulation and scale before buying furniture.",
+      "visual_description": "Warm attainable-luxury limestone patio with cream sofa, lounge chairs, timber table, pergola planting and an unobstructed garden path.",
+      "source_blob_sha": "37e23a1153f67bbcd3d873c0e41a9b5e7689065f",
+      "generation_prompt": "Post-specific patio conversation zone with a clearly visible unobstructed walking route to the garden.",
+      "click_lead": "Will your patio seating leave a clear route to the garden? Read Veluce's furniture-layout guide.",
+      "conversion_hook": "Will your patio seating leave a clear route to the garden?",
+      "allowed_board_service_ids": [
+        "296815500381471065"
+      ],
+      "origin": "work-generated",
+      "post_specific": true,
+      "generation_batch_id": "2026-11-09-gpt-fresh-a",
+      "generated_at": "2026-11-09T04:18:00Z",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-09",
+      "visual_review_method": "Individual native GPT output visual review plus 1024x1536 JPEG conversion and exact Git blob registration",
+      "conversion_verified": true,
+      "conversion_visual_kind": "image-only",
+      "conversion_review_date": "2026-11-09",
+      "conversion_review_method": "Post-specific visual matched to one live article and semantically eligible boards"
+    },
+    {
+      "path": "assets/pinterest/veluce-gpt-solar-pathway-20261109.jpg",
+      "topic": "solar-pathway",
+      "title": "What to Check Before Buying Solar Path Lights",
+      "description": "Restrained solar fixtures create alternating pools along a curving garden path instead of a harsh runway effect. See Veluce's guide to realistic placement and performance.",
+      "visual_description": "Blue-hour stepping-stone garden path with four plausible small solar fixtures, restrained warm pools, layered planting and a modern entry.",
+      "source_blob_sha": "6d19aaae26fe925469ef793862702e73ab350d0a",
+      "generation_prompt": "Post-specific realistic solar pathway lighting with alternating warm pools and plausible integrated panels.",
+      "click_lead": "Buying solar path lights? See Veluce's guide to placement and realistic performance first.",
+      "conversion_hook": "Buying solar path lights? Check placement and realistic performance first.",
+      "allowed_board_service_ids": [
+        "296815500381474927",
+        "296815500381474397",
+        "296815500381471065",
+        "296815500381477417"
+      ],
+      "origin": "work-generated",
+      "post_specific": true,
+      "generation_batch_id": "2026-11-09-gpt-fresh-a",
+      "generated_at": "2026-11-09T04:18:00Z",
+      "visually_verified": true,
+      "visual_review_date": "2026-11-09",
+      "visual_review_method": "Individual native GPT output visual review plus 1024x1536 JPEG conversion and exact Git blob registration",
+      "conversion_verified": true,
+      "conversion_visual_kind": "image-only",
+      "conversion_review_date": "2026-11-09",
+      "conversion_review_method": "Post-specific visual matched to one live article and semantically eligible boards"
     }
   ]
 }

@@ -2202,6 +2202,24 @@
       "submitted_at": "2026-11-08T12:13:26.506Z",
       "sent_at": "2026-11-08T12:13:25.296Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716484172"
+    },
+    {
+      "creative_id": "veluce-product-luxury-outdoor-room-planner-01-sunset-pool-lounge",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Outdoor Room Planner",
+      "title": "Poolside Patio Layout: Keep the Fire Lounge and Walkway Separate",
+      "description": "Can guests walk around the fire lounge without crossing the pool edge? Map your seating and walking routes before ordering outdoor furniture. Explore Veluce Studio's Luxury Outdoor Room Planner to measure furniture zones, circulation and outdoor-room flow.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-outdoor-room-planner-01-sunset-pool-lounge.jpg",
+      "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "local_date": "2026-11-10",
+      "source_blob_sha": "5d3e448e9241008f39210aa9b2582b942252e864",
+      "source_path": "assets/pinterest-products/luxury-outdoor-room-planner-01-sunset-pool-lounge.jpg",
+      "hook": "Can guests walk around the fire lounge without crossing the pool edge?",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-09T22:06:11.068Z"
     }
   ]
 }

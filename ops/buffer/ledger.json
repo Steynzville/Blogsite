@@ -2234,7 +2234,7 @@
       "destination_url": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
       "board_service_id": "296815500381470714",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-10",
       "topic": "quartzite-porcelain",
       "board_name": "Kitchen Essentials & Must-Haves 🔥",
@@ -2249,7 +2249,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-10T16:13:19.817Z",
-      "github_run_id": "42852267820"
+      "github_run_id": "42852267820",
+      "buffer_post_id": "6af342a1a9f33a390a4d936e",
+      "submitted_at": "2026-11-10T16:13:23.521Z"
     }
   ]
 }

@@ -2224,6 +2224,32 @@
       "recorded_at": "2026-11-09T22:06:11.068Z",
       "buffer_post_id": "6af243d5aec4ecc080c3b18f",
       "submitted_at": "2026-11-09T22:06:24.208Z"
+    },
+    {
+      "creative_id": "veluce-auto-20261110-be7834879c5a",
+      "workflow": "veluce_editorial",
+      "title": "Quartzite or Porcelain: Which Surface Fits Your Kitchen?",
+      "description": "Quartzite or porcelain for your kitchen? Compare appearance, durability and upkeep with Veluce. Two full-size neutral countertop samples make the visual and care differences easier to compare before cabinetry is ordered.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/veluce-gpt-quartzite-porcelain-20261109.jpg",
+      "destination_url": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
+      "board_service_id": "296815500381470714",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-10",
+      "topic": "quartzite-porcelain",
+      "board_name": "Kitchen Essentials & Must-Haves 🔥",
+      "suggested_section": {
+        "id": "3422810736930141824",
+        "name": "Premium Kitchen Upgrades"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "be7834879c5a61fecb2996fe14f8ec1fee0b42ed",
+      "source_path": "assets/pinterest/veluce-gpt-quartzite-porcelain-20261109.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-10T16:13:19.817Z",
+      "github_run_id": "42852267820"
     }
   ]
 }

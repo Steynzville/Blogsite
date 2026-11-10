@@ -499,9 +499,23 @@ async function recordCampaign(item){
     await writeFile(STATE,JSON.stringify(state,null,2)+"\n");
   }
 }
+export function quarantineConfirmedLocalPreflight(item){
+  // This exact exception originates in validatePin(), which scheduleVerified()
+  // calls BEFORE its first Buffer createPost API request. No remote post can exist
+  // from this attempt. Other ambiguous failures must remain blocking.
+  if(item?.workflow!==EDITORIAL || item.status!=="needs_reconciliation" ||
+    item.buffer_post_id || item.error!==
+      "Image must be an approved public direct Veluce or Blogsite GitHub Pinterest image URL")
+    return false;
+  item.status="rejected_before_buffer_request";
+  item.reconciliation_note="Local validatePin rejected image URL before createPost; no Buffer submission was attempted.";
+  item.reconciled_at=new Date().toISOString();
+  return true;
+}
 async function reconcile(ledger){
   let touched=false;
   for(const item of ledger.posts??[]){
+    if(quarantineConfirmedLocalPreflight(item)){touched=true;continue;}
     if(item.workflow!==EDITORIAL || item.status!=="buffer_submitted")continue;
     const post=await checkBuffer(item.buffer_post_id,item);
     if(post.status==="sent" && post.externalLink && post.sentAt){

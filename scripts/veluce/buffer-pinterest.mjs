@@ -33,7 +33,7 @@ export function validatePin(pin) {
   if (RETIRED_BOARD_IDS.has(String(board))) throw new Error("Pinterest board was deleted; retired board ID is blocked");
   let imageUrl, destinationUrl;
   try { imageUrl = new URL(image); destinationUrl = new URL(destination); } catch { throw new Error("Invalid Pin URL"); }
-  if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/(?:pinterest|pinterest-products)\/[a-z0-9-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
+  if (imageUrl.protocol !== "https:" || !( (imageUrl.hostname === "velucedesign.com" && /^\/pins\/[a-z0-9/_-]+\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) || (imageUrl.hostname === "raw.githubusercontent.com" && /^\/Steynzville\/Blogsite\/main\/assets\/(?:pinterest|pinterest-products)\/[a-z0-9-]+(?:%20\(2\))?\.(png|jpe?g|webp)$/i.test(imageUrl.pathname)) ) || imageUrl.search || imageUrl.hash)
     throw new Error("Image must be an approved public direct Veluce or Blogsite GitHub Pinterest image URL");
   if (imageUrl.hostname === "raw.githubusercontent.com" &&
       (pin.workflow === "veluce_six_product_cover_rotation_v1"

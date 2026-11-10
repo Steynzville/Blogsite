@@ -112,6 +112,12 @@ test("allows only Veluce or exact Blogsite raw first-party images",()=>{
   assert.throws(()=>validatePin({...pin,image_url:"https://raw.githubusercontent.com/other/repo/main/assets/pinterest/50e90140.png"}));
 });
 
+test("Approved owner image filename suffix is safely percent-encoded",()=>{
+  const image_url="https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-04-connected-kitchen%20(2).jpg";
+  assert.doesNotThrow(()=>validatePin({...pin,image_url}));
+  assert.throws(()=>validatePin({...pin,image_url:image_url.replace("%20(2)","%20(3)")}),/Image must be/);
+  assert.throws(()=>validatePin({...pin,image_url:image_url.replace("%20(2)","%2Fhacked")}),/Image must be/);
+});
 test("six product destinations are supported only for matching named product rotation", () => {
  const m = {
   "Outdoor Lighting Blueprint":"/outdoor-lighting-blueprint",

@@ -234,7 +234,7 @@ async function probeDraft(pin,asset){
   }
   if(problem)throw problem;
 }
-export async function run(mode="validate"){
+export async function run(mode="validate",reconciliationRetry=0){
   const catalog=JSON.parse(await readFile(MANIFEST,"utf8"));
   const boards=JSON.parse(await readFile(BOARDS,"utf8"));
   const result=await validateCatalogue(catalog,boards);
@@ -281,8 +281,15 @@ export async function run(mode="validate"){
     return;
   }
   // An update during reconciliation may change the next product.
-  if(state.veluce_six_product_cover_rotation_v1.next_product!==next.product)
-    throw Error("Rotation advanced during reconciliation; retry after checking current state");
+  if(state.veluce_six_product_cover_rotation_v1.next_product!==next.product){
+    // Buffer can confirm a previous day's post several minutes after our
+    // initial check. Reload persisted state and select the NEW next product
+    // in this same scheduled run rather than losing a day.
+    if(reconciliationRetry>=1)
+      throw Error("Product rotation changed repeatedly during reconciliation; review required");
+    console.log("Previous product confirmed; reloading current rotation before publishing.");
+    return run(mode,reconciliationRetry+1);
+  }
   await checkChannel(next);
   await checkPublicUrl(pin.destination_url,false);
   await checkPublicUrl(pin.image_url,true);

@@ -2296,7 +2296,7 @@
       "destination_url": "https://velucedesign.com/article/solar-pathway-lights-affordable/",
       "board_service_id": "296815500381474927",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-11",
       "topic": "solar-pathway",
       "board_name": "AliExpress Attainable Luxury Lighting",
@@ -2306,7 +2306,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-10T23:00:08.675Z",
-      "github_run_id": "42919519460"
+      "github_run_id": "42919519460",
+      "buffer_post_id": "6af3a1fba15deeef95181f2a",
+      "submitted_at": "2026-11-10T23:00:15.427Z"
     }
   ]
 }

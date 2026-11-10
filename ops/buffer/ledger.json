@@ -2220,10 +2220,12 @@
       "source_path": "assets/pinterest-products/luxury-outdoor-room-planner-01-sunset-pool-lounge.jpg",
       "hook": "Can guests walk around the fire lounge without crossing the pool edge?",
       "board_name": "Garden & Patio Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-09T22:06:11.068Z",
       "buffer_post_id": "6af243d5aec4ecc080c3b18f",
-      "submitted_at": "2026-11-09T22:06:24.208Z"
+      "submitted_at": "2026-11-09T22:06:24.208Z",
+      "sent_at": "2026-11-09T22:11:24.954Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716495582"
     },
     {
       "creative_id": "veluce-auto-20261110-be7834879c5a",

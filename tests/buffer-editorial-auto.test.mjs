@@ -1,8 +1,20 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
-import {localDate,dimensions,chooseAsset,performanceScores,eligibleBoardsForTopic,chooseBoardPlacement,TOPICS,freshPostSpecificWorkImage} from "../scripts/veluce/buffer-editorial-auto.mjs";
+import {localDate,dimensions,chooseAsset,performanceScores,eligibleBoardsForTopic,chooseBoardPlacement,TOPICS,freshPostSpecificWorkImage,quarantineConfirmedLocalPreflight} from "../scripts/veluce/buffer-editorial-auto.mjs";
 
+test("Only a proven local preflight rejection is released from the publication block",()=>{
+  const entry={
+    workflow:"veluce_editorial",status:"needs_reconciliation",
+    error:"Image must be an approved public direct Veluce or Blogsite GitHub Pinterest image URL"
+  };
+  assert.equal(quarantineConfirmedLocalPreflight(entry),true);
+  assert.equal(entry.status,"rejected_before_buffer_request");
+  assert.match(entry.reconciliation_note,/before createPost/);
+  assert.equal(quarantineConfirmedLocalPreflight(entry),false);
+  assert.equal(quarantineConfirmedLocalPreflight({...entry,status:"needs_reconciliation",buffer_post_id:"actual-buffer-id"}),false);
+  assert.equal(quarantineConfirmedLocalPreflight({...entry,status:"needs_reconciliation",buffer_post_id:undefined,error:"Buffer HTTP 500"}),false);
+});
 test("South African local day is used for four daily slots",()=>{
   assert.equal(localDate(new Date("2026-10-18T22:30:00Z")),"2026-10-19");
   assert.equal(localDate(new Date("2026-10-19T21:30:00Z")),"2026-10-19");

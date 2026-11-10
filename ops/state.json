@@ -2260,6 +2260,21 @@
       "board_id": "296815500381470714",
       "buffer_post_id": "6af342a1a9f33a390a4d936e",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716503046",
+      "pin_id": "296815431716503046",
+      "published_at": "2026-11-10T20:45:51.729Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/moonlighting-tree-canopies/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/veluce-gpt-tree-moonlighting-20261109.jpg",
+      "title": "How to Create Soft Tree Moonlighting Without Glare",
+      "description": "Want soft garden moonlight without visible glare? See Veluce's tree-canopy lighting guide. A mature olive tree is lit gently from within the canopy, casting delicate leaf shadows over a limestone path and bench.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6af3827e41bc75bbeb61b06a",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

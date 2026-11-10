@@ -2266,7 +2266,7 @@
       "destination_url": "https://velucedesign.com/article/moonlighting-tree-canopies/",
       "board_service_id": "296815500381471065",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-10",
       "topic": "tree-moonlighting",
       "board_name": "Garden & Patio Ideas & Finds 🔥",
@@ -2283,7 +2283,9 @@
       "recorded_at": "2026-11-10T20:45:47.422Z",
       "github_run_id": "42898394240",
       "buffer_post_id": "6af3827e41bc75bbeb61b06a",
-      "submitted_at": "2026-11-10T20:45:52.575Z"
+      "submitted_at": "2026-11-10T20:45:52.575Z",
+      "sent_at": "2026-11-10T20:45:51.729Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716503046"
     }
   ]
 }

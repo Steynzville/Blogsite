@@ -129,17 +129,20 @@ test("all 30 owner-uploaded patio decor Pins have unique click-v4 copy and subje
   }
 });
 
-test("all 316 eligible Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
+test("all verified Pins have unique individual click hooks and valid topic-specific Pinterest boards",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const coverage=JSON.parse(await readFile("ops/buffer/editorial-board-coverage.json","utf8"));
   const live=JSON.parse(await readFile("ops/buffer/boards.json","utf8")).boards;
   const liveIds=new Set(live.map(b=>String(b.id)+"|"+b.name));
   const published=assets.filter(a=>a.visually_verified);
   const held=assets.filter(a=>a.visually_verified!==true);
-  assert.equal(assets.length,320);
-  assert.equal(published.length,316);
+  // New, genuinely verified Work-generated images increase the catalogue over time.
+  // Protect the original quality baseline without freezing inventory counts.
+  assert.ok(assets.length>=320,"Previously approved image inventory shrank");
+  assert.ok(published.length>=316,"Previously verified image inventory shrank");
   assert.equal(held.length,4);
-  assert.equal(new Set(published.map(a=>a.click_lead)).size,316);
+  assert.equal(new Set(assets.map(a=>a.path)).size,assets.length,"Every image needs a unique file path");
+  assert.equal(new Set(published.map(a=>a.click_lead)).size,published.length);
   for(const a of published){
     assert.ok(a.click_lead && a.click_lead.includes("?") && a.click_lead.includes("Veluce"),a.path);
     assert.ok(a.click_lead.length>=55 && a.click_lead.length<=145,a.path);
@@ -165,7 +168,9 @@ test("all 316 eligible Pins have unique individual click hooks and valid topic-s
 test("legacy curated images remain independent and recent owner batches retain their hooks",async()=>{
   const assets=JSON.parse(await readFile("ops/buffer/editorial-assets.json","utf8")).image_assets;
   const recent=new Set(["garden-pergola","fire-pit","tree-uplighting","luxury-interiors","home-security","patio-decor"].map(x=>"2026-11-04-"+x));
-  const earlier=assets.filter(a=>!recent.has(a.source_batch) && !["2026-11-05-kitchen-essentials","2026-11-05-smart-home","2026-11-05-led-landscape-boost"].includes(a.source_batch));
+  // This is a frozen *legacy* cohort; fresh single-use Work-generated assets
+  // are not part of it and must not break its historical assertions.
+  const earlier=assets.filter(a=>!(a.origin==="work-generated" && a.post_specific===true) && !recent.has(a.source_batch) && !["2026-11-05-kitchen-essentials","2026-11-05-smart-home","2026-11-05-led-landscape-boost"].includes(a.source_batch));
   assert.equal(earlier.length,73);
   assert.equal(earlier.filter(a=>a.visually_verified && a.click_lead && a.conversion_review_method).length,69);
   assert.equal(earlier.filter(a=>!a.visually_verified && a.integrity_status==="rejected_truncated_png").length,4);

@@ -2311,6 +2311,32 @@
       "submitted_at": "2026-11-10T23:00:15.427Z",
       "sent_at": "2026-11-10T23:00:14.295Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716504129"
+    },
+    {
+      "creative_id": "veluce-auto-20261111-37e23a1153f6",
+      "workflow": "veluce_editorial",
+      "title": "How to Arrange Patio Seating Without Blocking the Garden Route",
+      "description": "Will your patio seating leave a clear route to the garden? Read Veluce's furniture-layout guide. A cream conversation zone sits beside a clearly open route into the garden. Use Veluce's patio-layout guide to plan seating, circulation and scale before buying furniture.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/veluce-gpt-patio-layout-20261109.jpg",
+      "destination_url": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
+      "board_service_id": "296815500381471065",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-11",
+      "topic": "garden-patio-layout",
+      "board_name": "Garden & Patio Ideas & Finds 🔥",
+      "suggested_section": {
+        "id": "3423684660299283840",
+        "name": "Outdoor Living Spaces"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "37e23a1153f67bbcd3d873c0e41a9b5e7689065f",
+      "source_path": "assets/pinterest/veluce-gpt-patio-layout-20261109.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-11T00:15:25.666Z",
+      "github_run_id": "42929862801"
     }
   ]
 }

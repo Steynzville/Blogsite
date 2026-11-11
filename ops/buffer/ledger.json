@@ -2357,8 +2357,10 @@
       "source_path": "assets/pinterest-products/designer-brief-builder-01-sunlit-design-studio.jpg",
       "hook": "Have you gathered inspiration without defining what the room must do?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "reserved",
-      "recorded_at": "2026-11-11T19:24:26.075Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-11T19:24:26.075Z",
+      "buffer_post_id": "6af4c0eb592a3bb919a98c07",
+      "submitted_at": "2026-11-11T19:24:29.586Z"
     }
   ]
 }

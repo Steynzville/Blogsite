@@ -2344,12 +2344,13 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 6,
-    "last_product": "Luxury Outdoor Room Planner",
+    "last_product": "Designer Brief Builder",
     "completed_products": [
       "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner"
+      "Luxury Outdoor Room Planner",
+      "Designer Brief Builder"
     ],
-    "next_product": "Designer Brief Builder",
+    "next_product": "Luxury Lighting Formula",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -3376,6 +3377,38 @@
           "Luxury Outdoor Room Planner"
         ],
         "next_product": "Designer Brief Builder"
+      },
+      {
+        "creative_id": "veluce-product-designer-brief-builder-01-sunlit-design-studio",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Designer Brief Builder",
+        "cycle": 6,
+        "submission_date": "2026-11-11",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "designer-brief-builder-01-sunlit-design-studio.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/designer-brief-builder-01-sunlit-design-studio.jpg",
+        "hook": "Have you gathered inspiration without defining what the room must do?",
+        "title": "Interior Design Brief: Turn Inspiration Into a Clear Room Plan",
+        "description": "Have you gathered inspiration without defining what the room must do? Start with room measurements, daily routines and non-negotiables before choosing a final style. Explore Veluce Studio's Designer Brief Builder to organise room requirements, priorities, references and measurements.",
+        "destination_url": "https://velucedesign.com/designer-brief-builder/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "buffer_post_id": "6af4c0eb592a3bb919a98c07",
+        "published_at": "2026-11-11",
+        "published_at_timestamp": "2026-11-11T19:24:29.163Z",
+        "pin_id": "296815431716509408",
+        "pin_url": "https://www.pinterest.com/pin/296815431716509408",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder"
+        ],
+        "next_product": "Luxury Lighting Formula"
       }
     ],
     "archived_history": [

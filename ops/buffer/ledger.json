@@ -2341,6 +2341,24 @@
       "submitted_at": "2026-11-11T00:15:30.721Z",
       "sent_at": "2026-11-11T00:15:29.559Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716504508"
+    },
+    {
+      "creative_id": "veluce-product-designer-brief-builder-01-sunlit-design-studio",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Interior Design Brief: Turn Inspiration Into a Clear Room Plan",
+      "description": "Have you gathered inspiration without defining what the room must do? Start with room measurements, daily routines and non-negotiables before choosing a final style. Explore Veluce Studio's Designer Brief Builder to organise room requirements, priorities, references and measurements.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/designer-brief-builder-01-sunlit-design-studio.jpg",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-11",
+      "source_blob_sha": "b5c59795d629dec35a8fa160bf5f982786d7f0d0",
+      "source_path": "assets/pinterest-products/designer-brief-builder-01-sunlit-design-studio.jpg",
+      "hook": "Have you gathered inspiration without defining what the room must do?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-11T19:24:26.075Z"
     }
   ]
 }

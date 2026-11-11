@@ -2321,7 +2321,7 @@
       "destination_url": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
       "board_service_id": "296815500381471065",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-11",
       "topic": "garden-patio-layout",
       "board_name": "Garden & Patio Ideas & Finds 🔥",
@@ -2336,7 +2336,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-11T00:15:25.666Z",
-      "github_run_id": "42929862801"
+      "github_run_id": "42929862801",
+      "buffer_post_id": "6af3b39fce9a7df73453a891",
+      "submitted_at": "2026-11-11T00:15:30.721Z"
     }
   ]
 }

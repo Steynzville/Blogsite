@@ -2379,8 +2379,10 @@
       "source_path": "assets/pinterest-products/luxury-lighting-formula-01-layered-living-room.jpg",
       "hook": "Does your living room feel flat even with plenty of light?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "reserved",
-      "recorded_at": "2026-11-12T19:41:39.371Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-12T19:41:39.371Z",
+      "buffer_post_id": "6af61675a8bebaf3942a314a",
+      "submitted_at": "2026-11-12T19:41:43.994Z"
     }
   ]
 }

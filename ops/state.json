@@ -2344,13 +2344,14 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 6,
-    "last_product": "Designer Brief Builder",
+    "last_product": "Luxury Lighting Formula",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
+      "Designer Brief Builder",
+      "Luxury Lighting Formula"
     ],
-    "next_product": "Luxury Lighting Formula",
+    "next_product": "Room Procurement System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -3409,6 +3410,39 @@
           "Designer Brief Builder"
         ],
         "next_product": "Luxury Lighting Formula"
+      },
+      {
+        "creative_id": "veluce-product-luxury-lighting-formula-01-layered-living-room",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Luxury Lighting Formula",
+        "cycle": 6,
+        "submission_date": "2026-11-12",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "luxury-lighting-formula-01-layered-living-room.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-lighting-formula-01-layered-living-room.jpg",
+        "hook": "Does your living room feel flat even with plenty of light?",
+        "title": "Living Room Lighting: Fix a Flat Space With Three Layers",
+        "description": "Does your living room feel flat even with plenty of light? Separate ambient glow, reading light and focal accents instead of making everything brighter. Explore Veluce Studio's Luxury Lighting Formula to balance ambient, task and accent lighting.",
+        "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "buffer_post_id": "6af61675a8bebaf3942a314a",
+        "published_at": "2026-11-12",
+        "published_at_timestamp": "2026-11-12T19:41:42.846Z",
+        "pin_id": "296815431716516453",
+        "pin_url": "https://www.pinterest.com/pin/296815431716516453",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula"
+        ],
+        "next_product": "Room Procurement System"
       }
     ],
     "archived_history": [

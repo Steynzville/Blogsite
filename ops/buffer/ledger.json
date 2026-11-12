@@ -2363,6 +2363,24 @@
       "submitted_at": "2026-11-11T19:24:29.586Z",
       "sent_at": "2026-11-11T19:24:29.163Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716509408"
+    },
+    {
+      "creative_id": "veluce-product-luxury-lighting-formula-01-layered-living-room",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "title": "Living Room Lighting: Fix a Flat Space With Three Layers",
+      "description": "Does your living room feel flat even with plenty of light? Separate ambient glow, reading light and focal accents instead of making everything brighter. Explore Veluce Studio's Luxury Lighting Formula to balance ambient, task and accent lighting.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-lighting-formula-01-layered-living-room.jpg",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-12",
+      "source_blob_sha": "9332bda5329d904b9862d6593fdb7bc8963f6f25",
+      "source_path": "assets/pinterest-products/luxury-lighting-formula-01-layered-living-room.jpg",
+      "hook": "Does your living room feel flat even with plenty of light?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-12T19:41:39.371Z"
     }
   ]
 }

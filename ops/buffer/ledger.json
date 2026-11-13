@@ -2385,6 +2385,27 @@
       "submitted_at": "2026-11-12T19:41:43.994Z",
       "sent_at": "2026-11-12T19:41:42.846Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716516453"
+    },
+    {
+      "creative_id": "veluce-auto-20261113-6d7940a326a0",
+      "workflow": "veluce_editorial",
+      "title": "Poolside Deck LED Lighting: Keep the Walking Edge Visible: What to Check Before Installing",
+      "description": "Can your poolside deck edge stay visible without reflecting glare off the water? See Veluce's outdoor LED-strip guide. Dark poolside terrace at twilight with a flowing warm linear edge beside planted grass and patio seating. Explore practical lighting-placement, visibility and glare decisions.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-08.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-13",
+      "topic": "led-deck-strips",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "6d7940a326a0991590f5d1f6c50068ce4acba40a",
+      "source_path": "assets/pinterest/landscape-lighting-08.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-13T11:47:50.050Z",
+      "github_run_id": "43419860463"
     }
   ]
 }

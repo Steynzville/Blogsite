@@ -2335,6 +2335,21 @@
       "board_id": "296815500381472050",
       "buffer_post_id": "6af733b4f21c13fd2fdc5832",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716523962",
+      "pin_id": "296815431716523962",
+      "published_at": "2026-11-13T20:49:49.921Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/smart-access-control/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-04.jpg",
+      "title": "Phone Access or Keypad: Which Smart Entry Fits Your Routine?",
+      "description": "Phone or keypad entry? Compare their everyday trade-offs in Veluce's smart-access guide. Woman using a smartphone security-app screen near black wall keypad, white wall-mounted camera and modern bright living space. Consider what happens when hands are full, guests arrive or a phone is unavailable.",
+      "board": "Smart Home Security Systems",
+      "board_id": "296815500381471465",
+      "buffer_post_id": "6af777ec9257ce33980d5872",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

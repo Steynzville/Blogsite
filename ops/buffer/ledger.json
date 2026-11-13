@@ -2435,6 +2435,24 @@
       "submitted_at": "2026-11-13T15:58:46.532Z",
       "sent_at": "2026-11-13T15:58:45.986Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716522047"
+    },
+    {
+      "creative_id": "veluce-product-room-procurement-system-02-curated-samples-flatlay",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Interior Material Samples: Check Texture and Care Before Buying",
+      "description": "Are you choosing materials by colour without comparing maintenance? Record finish performance, sample size and supplier details alongside the moodboard. Explore Veluce Studio's Room Procurement System to compare samples, sizes, budgets and supplier details.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/room-procurement-system-02-curated-samples-flatlay.jpg",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-13",
+      "source_blob_sha": "c1c03830cf2e4b6cdfe5ca4eed84cb7d2049eaa8",
+      "source_path": "assets/pinterest-products/room-procurement-system-02-curated-samples-flatlay.jpg",
+      "hook": "Are you choosing materials by colour without comparing maintenance?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-13T19:23:59.619Z"
     }
   ]
 }

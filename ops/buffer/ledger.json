@@ -2482,6 +2482,32 @@
       "submitted_at": "2026-11-13T20:49:50.220Z",
       "sent_at": "2026-11-13T20:49:49.921Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716523962"
+    },
+    {
+      "creative_id": "veluce-auto-20261114-34b93929ce3d",
+      "workflow": "veluce_editorial",
+      "title": "LED Stair Lighting Outdoors: Reveal Each Garden Tread: What to Check Before Installing",
+      "description": "Do the lights make each outdoor step easier to read from the top and bottom? See Veluce's outdoor LED-strip guide. A broad set of illuminated stone garden stairs with warm glowing under-tread edges. Explore practical lighting-placement, visibility and glare decisions before buying fixtures.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-09.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-14",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "34b93929ce3d10384f235ec00217d4f23905627c",
+      "source_path": "assets/pinterest/landscape-lighting-09.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-13T23:24:16.549Z",
+      "github_run_id": "43526815455"
     }
   ]
 }

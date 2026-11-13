@@ -242,10 +242,17 @@ export function creativeConversionReady(asset){
 
 const FRESH_POST_IMAGE_GATE_START="2026-11-09";
 export function freshPostSpecificWorkImage(asset,day){
-  // From the owner-directed cutover onward, reserve catalogues and prior uploads
-  // are never eligible. A Work-generated image must have been made for exactly
-  // one future Pin, fully reviewed, and registered no more than seven days ago.
+  // This freshness cutover applies to newly generated Work artwork only.
+  // Keep individually visually reviewed owner uploads eligible: they are the
+  // approved multi-topic library intentionally uploaded for the four daily Pins.
+  // Never treat a batch label alone as visual approval.
   if(day<FRESH_POST_IMAGE_GATE_START)return true;
+  if(asset.origin==="owner-upload"){
+    return asset.visually_verified===true &&
+      Boolean(String(asset.visual_description||"").trim()) &&
+      Boolean(String(asset.visual_review_method||"").trim()) &&
+      /^\d{4}-\d{2}-\d{2}$/.test(String(asset.visual_review_date||""));
+  }
   if(asset.origin!=="work-generated"||asset.post_specific!==true)return false;
   if(!String(asset.generation_batch_id||"").trim()||
      !String(asset.generation_prompt||"").trim()||
@@ -557,6 +564,7 @@ async function run(mode){
   const selected=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance,coverage);
   console.log(JSON.stringify({mode,local_date:today,already_reserved_or_sent:todayCount,
     remaining:entries.filter(x=>!(ledger.posts??[]).some(p=>p.image_url===editorialAssetImageUrl(x))).length,
+    unused_individually_reviewed_owner_images:entries.filter(x=>x.origin==="owner-upload" && freshPostSpecificWorkImage(x,today) && !(ledger.posts??[]).some(p=>p.image_url===editorialAssetImageUrl(x))).length,
     conversion_quality_holds:entries.filter(x=>!creativeConversionReady(x)).length,
     recent_click_evidence_topics:Object.keys(performance),
     next:selected?{path:selected.path,topic:selected.topic,board:chooseBoardPlacement(selected.topic,ledger.posts??[],today,coverage,selected)?.name}:null}));
@@ -573,7 +581,7 @@ async function run(mode){
   if(todayCount>=LIMIT){console.log("Four editorial Pin submissions already reserved today.");return}
   const used=new Set((ledger.posts??[]).map(x=>x.image_url));
   const asset=chooseAsset(entries,ledger.posts??[],today,new Set(entries.map(x=>x.path)),performance,coverage);
-  if(!asset){console.log("::warning::No individually visually verified unused images available. Do not post based on unverified batch labels.");return}
+  if(!asset)throw new Error("No eligible, individually reviewed unused editorial image. Publishing shortfall: investigate catalog approval, freshness and ledger; do not report a green publishing run.");
   const topic=TOPICS[asset.topic];
   const boardData=JSON.parse(await readFile(BOARDS,"utf8"));
   const placement=chooseBoardPlacement(asset.topic,ledger.posts??[],today,coverage,asset);

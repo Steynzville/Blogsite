@@ -2320,6 +2320,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6af6f8e866ff9797d87d004f",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716522047",
+      "pin_id": "296815431716522047",
+      "published_at": "2026-11-13T15:58:45.986Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/discreet-security-cameras/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-02.jpg",
+      "title": "Where Should a Discreet Camera Face Along Your Front Entrance?",
+      "description": "Does the camera see the approach or only the doormat? See Veluce's discreet-camera placement guide. Contemporary stone-and-wood house at dusk with small white camera mounted beneath the upper eave, illuminated path and garden beds. Check the view along the walkway and surrounding planting before.",
+      "board": "Home Security Ideas & Setups",
+      "board_id": "296815500381472050",
+      "buffer_post_id": "6af733b4f21c13fd2fdc5832",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

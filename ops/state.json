@@ -2350,6 +2350,21 @@
       "board_id": "296815500381471465",
       "buffer_post_id": "6af777ec9257ce33980d5872",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716524791",
+      "pin_id": "296815431716524791",
+      "published_at": "2026-11-13T23:24:20.477Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-09.jpg",
+      "title": "LED Stair Lighting Outdoors: Reveal Each Garden Tread: What to Check Before Installing",
+      "description": "Do the lights make each outdoor step easier to read from the top and bottom? See Veluce's outdoor LED-strip guide. A broad set of illuminated stone garden stairs with warm glowing under-tread edges. Explore practical lighting-placement, visibility and glare decisions before buying fixtures.",
+      "board": "Attainable Luxury Outdoor Lighting",
+      "board_id": "296815500381474397",
+      "buffer_post_id": "6af79c2278196a0a9729a69e",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

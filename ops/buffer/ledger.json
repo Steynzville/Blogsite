@@ -2451,10 +2451,12 @@
       "source_path": "assets/pinterest-products/room-procurement-system-02-curated-samples-flatlay.jpg",
       "hook": "Are you choosing materials by colour without comparing maintenance?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-13T19:23:59.619Z",
       "buffer_post_id": "6af763d278196a0a97162e8d",
-      "submitted_at": "2026-11-13T19:24:05.017Z"
+      "submitted_at": "2026-11-13T19:24:05.017Z",
+      "sent_at": "2026-11-13T19:24:03.815Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716523448"
     }
   ]
 }

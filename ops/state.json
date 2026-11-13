@@ -2374,14 +2374,15 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 6,
-    "last_product": "Luxury Lighting Formula",
+    "last_product": "Room Procurement System",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
       "Designer Brief Builder",
-      "Luxury Lighting Formula"
+      "Luxury Lighting Formula",
+      "Room Procurement System"
     ],
-    "next_product": "Room Procurement System",
+    "next_product": "Complete Home Design System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -3473,6 +3474,40 @@
           "Luxury Lighting Formula"
         ],
         "next_product": "Room Procurement System"
+      },
+      {
+        "creative_id": "veluce-product-room-procurement-system-02-curated-samples-flatlay",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Room Procurement System",
+        "cycle": 6,
+        "submission_date": "2026-11-13",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "room-procurement-system-02-curated-samples-flatlay.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/room-procurement-system-02-curated-samples-flatlay.jpg",
+        "hook": "Are you choosing materials by colour without comparing maintenance?",
+        "title": "Interior Material Samples: Check Texture and Care Before Buying",
+        "description": "Are you choosing materials by colour without comparing maintenance? Record finish performance, sample size and supplier details alongside the moodboard. Explore Veluce Studio's Room Procurement System to compare samples, sizes, budgets and supplier details.",
+        "destination_url": "https://velucedesign.com/room-procurement-system/",
+        "board": "Modern Home Decor Ideas & Finds 🔥",
+        "board_service_id": "296815500381467884",
+        "buffer_post_id": "6af763d278196a0a97162e8d",
+        "published_at": "2026-11-13",
+        "published_at_timestamp": "2026-11-13T19:24:03.815Z",
+        "pin_id": "296815431716523448",
+        "pin_url": "https://www.pinterest.com/pin/296815431716523448",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula",
+          "Room Procurement System"
+        ],
+        "next_product": "Complete Home Design System"
       }
     ],
     "archived_history": [

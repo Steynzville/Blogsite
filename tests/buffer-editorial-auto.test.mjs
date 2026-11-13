@@ -20,17 +20,41 @@ test("South African local day is used for four daily slots",()=>{
   assert.equal(localDate(new Date("2026-10-19T21:30:00Z")),"2026-10-19");
 });
 
-test("fresh-image cutover rejects reserves, owner uploads and incomplete generation records",()=>{
+test("fresh-image cutover permits individually reviewed owner uploads without weakening Work generation checks",()=>{
   const good={
     origin:"work-generated",post_specific:true,generation_batch_id:"2026-11-09-a",
     generation_prompt:"Post-specific Veluce pergola scene",source_blob_sha:"a".repeat(40),
     generated_at:"2026-11-09T04:10:00Z",visual_review_date:"2026-11-09"
   };
+  const owner={
+    origin:"owner-upload",visually_verified:true,
+    visual_review_date:"2026-11-04",
+    visual_review_method:"Individual visual review of source image",
+    visual_description:"Warm timber pergola and safe lit garden path"
+  };
   assert.equal(freshPostSpecificWorkImage(good,"2026-11-09"),true);
-  assert.equal(freshPostSpecificWorkImage({...good,origin:"owner-upload"},"2026-11-09"),false);
+  assert.equal(freshPostSpecificWorkImage(owner,"2026-11-13"),true);
+  assert.equal(freshPostSpecificWorkImage({...owner,visually_verified:false},"2026-11-13"),false);
+  assert.equal(freshPostSpecificWorkImage({...owner,visual_review_method:""},"2026-11-13"),false);
+  assert.equal(freshPostSpecificWorkImage({...owner,visual_description:""},"2026-11-13"),false);
+  assert.equal(freshPostSpecificWorkImage({...owner,visual_review_date:""},"2026-11-13"),false);
   assert.equal(freshPostSpecificWorkImage({...good,post_specific:false},"2026-11-09"),false);
   assert.equal(freshPostSpecificWorkImage({...good,generation_prompt:""},"2026-11-09"),false);
+  assert.equal(freshPostSpecificWorkImage({...good,origin:"other"},"2026-11-13"),false);
 });
+test("daily selection restores vetted owner library after the November cutover",()=>{
+  const owner={
+    path:"assets/pinterest/reviewed-pergola.jpg",topic:"pergola",origin:"owner-upload",
+    visually_verified:true,visual_review_date:"2026-11-04",
+    visual_review_method:"Reviewed source-image contact sheet",
+    visual_description:"A safe, correctly lit pergola scene",sha:"approved-unique-sha"
+  };
+  const unsafe={...owner,path:"assets/pinterest/unverified.jpg",visually_verified:false,sha:"other"};
+  const picked=chooseAsset([owner,unsafe],[],"2026-11-13",new Set([owner.path,unsafe.path]));
+  assert.equal(picked?.path,owner.path);
+  assert.equal(chooseAsset([owner],[{source_blob_sha:owner.sha}],"2026-11-13",new Set([owner.path])),null);
+});
+
 test("fresh post-specific image expires after seven days and legacy history remains readable",()=>{
   const image={
     origin:"work-generated",post_specific:true,generation_batch_id:"batch",

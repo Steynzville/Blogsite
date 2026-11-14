@@ -2395,6 +2395,21 @@
       "board_id": "296815500381467884",
       "buffer_post_id": "6af8417c78196a0a975b6468",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716527971",
+      "pin_id": "296815431716527971",
+      "published_at": "2026-11-14T14:51:34.062Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-06.jpg",
+      "title": "How to Layer Bedroom Light Around the Bed Without Ceiling Glare",
+      "description": "Is your bedroom ceiling light doing too much work after dark? See Veluce's layered bedroom-lighting guide. Cream upholstered bed and curved foot bench beneath a warm recessed ceiling border, with slim bedside lamps and backlit display niches. Compare ambient ceiling light, bedside task lighting and.",
+      "board": "Cozy Bedroom Ideas & Finds 🔥",
+      "board_id": "296815500381470761",
+      "buffer_post_id": "6af87574918fe79d2e85e192",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

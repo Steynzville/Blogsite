@@ -2410,6 +2410,21 @@
       "board_id": "296815500381470761",
       "buffer_post_id": "6af87574918fe79d2e85e192",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716530807",
+      "pin_id": "296815431716530807",
+      "published_at": "2026-11-14T22:09:15.322Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-11.jpg",
+      "title": "Hot Tub Deck LED Lighting: Plan Safe Level Changes Around Water",
+      "description": "Can guests see the steps beside your spa without lights shining in their eyes? See Veluce's outdoor LED-strip guide. Outdoor spa platform with illuminated timber treads and a curved lawn-edge glow at dusk. Explore practical lighting-placement, visibility and glare decisions before buying fixtures.",
+      "board": "Attainable Luxury Outdoor Lighting",
+      "board_id": "296815500381474397",
+      "buffer_post_id": "6af8dc0a918fe79d2ea8a77b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

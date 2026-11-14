@@ -2537,6 +2537,32 @@
       "submitted_at": "2026-11-14T00:28:51.875Z",
       "sent_at": "2026-11-14T00:28:51.595Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716525116"
+    },
+    {
+      "creative_id": "veluce-auto-20261114-b4045ec8145a",
+      "workflow": "veluce_editorial",
+      "title": "How to Balance Texture and Warmth in a Neutral Living Room",
+      "description": "Does your neutral lounge feel flat because the textures repeat? See Veluce's luxury interior-design guide. Cream curved sofas around a round stone coffee table with backlit shelving, bronze lamp and garden-facing glazing at golden hour. Explore how focal points, furniture scale and material balance.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-02.jpg",
+      "destination_url": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-14",
+      "topic": "interior-design",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "suggested_section": {
+        "id": "5489165536610818379",
+        "name": "Luxury Modern Interior Design"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "b4045ec8145a24124ed579e82984b7936ed2586e",
+      "source_path": "assets/pinterest/luxury-interior-02.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-14T11:09:46.488Z",
+      "github_run_id": "43588670611"
     }
   ]
 }

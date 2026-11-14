@@ -2380,6 +2380,21 @@
       "board_id": "296815500381470701",
       "buffer_post_id": "6af7ab42d16af15d4de197f1",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716527197",
+      "pin_id": "296815431716527197",
+      "published_at": "2026-11-14T11:09:49.548Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-02.jpg",
+      "title": "How to Balance Texture and Warmth in a Neutral Living Room",
+      "description": "Does your neutral lounge feel flat because the textures repeat? See Veluce's luxury interior-design guide. Cream curved sofas around a round stone coffee table with backlit shelving, bronze lamp and garden-facing glazing at golden hour. Explore how focal points, furniture scale and material balance.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "buffer_post_id": "6af8417c78196a0a975b6468",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],
@@ -3679,41 +3694,41 @@
     "pendingRun": null,
     "history": [
       {
-      "runDate": "2026-11-14",
-      "runType": "NEW",
-      "actualRunType": "NEW",
-      "articleSlug": "how-to-create-interior-design-brief",
-      "articleTitle": "How to Create an Interior Design Brief from Pinterest Inspiration",
-      "primaryTopic": "Turning visual inspiration and real-room evidence into a usable interior design brief",
-      "primaryProduct": "Designer Brief Builder",
-      "branch": "editorial/2026-11-14-new-designer-brief",
-      "mergeStatus": "merged",
-      "mergeCommit": "4c3ba7e69559453cd83e611c985e156e260e991f",
-      "prNumber": 59,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/59",
-      "publicationDate": "2026-11-14",
-      "plannedNextRunType": "REFRESH",
-      "plannedNextNewProduct": "Luxury Lighting Formula",
-      "selectionReason": "The published interior cluster explains design principles and room layouts but has no dedicated process for turning Pinterest inspiration, preliminary measurements, routines, must-keeps, constraints and approval criteria into a usable homeowner brief. This is a distinct foundational gap for Designer Brief Builder with natural, bounded examples from the approved affiliate inventory.",
-      "analyticsEvidence": "Veluce Search Console and GA4 were unavailable to this run, so demand is not quantified. An authenticated Buffer review covered 17 October to 13 November but exposes Pin opens rather than Pinterest-native outbound clicks; the fresh window is heavily lagged. No speculative Pinterest mix change was made.",
-      "sources": [],
-      "sourceCheckedAt": "2026-11-14",
-      "affiliateMonetisation": {
-        "contextualPlacementsAdded": 3,
-        "products": [
-          "roller-blind motor candidate (roller-blind-motor)",
-          "rechargeable picture light (picture-light)",
-          "smart dimmer (smart-dimmer)"
-        ],
-        "approvedInventoryUsed": true,
-        "disclosureConfirmed": true,
-        "complementaryRoles": true
-      },
-      "imagery": "Original AI-generated warm editorial hero showing a measured room plan, moodboard, samples and annotated room photograph; provenance disclosed in article.",
-      "validationResult": "Passed: TypeScript, 91 tests, 31-article audit with zero issues, 56-route production build, ops validation and exact-head GitHub quality gates including desktop/mobile capture (run 43558081784).",
-      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-14-weekly-editorial-review.md; no optimization deployed because native outbound clicks were unavailable and the fresh sample was immature.",
-      "liveUrl": "https://velucedesign.com/article/how-to-create-interior-design-brief/",
-      "completedAt": "2026-11-14"
+        "runDate": "2026-11-14",
+        "runType": "NEW",
+        "actualRunType": "NEW",
+        "articleSlug": "how-to-create-interior-design-brief",
+        "articleTitle": "How to Create an Interior Design Brief from Pinterest Inspiration",
+        "primaryTopic": "Turning visual inspiration and real-room evidence into a usable interior design brief",
+        "primaryProduct": "Designer Brief Builder",
+        "branch": "editorial/2026-11-14-new-designer-brief",
+        "mergeStatus": "merged",
+        "mergeCommit": "4c3ba7e69559453cd83e611c985e156e260e991f",
+        "prNumber": 59,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/59",
+        "publicationDate": "2026-11-14",
+        "plannedNextRunType": "REFRESH",
+        "plannedNextNewProduct": "Luxury Lighting Formula",
+        "selectionReason": "The published interior cluster explains design principles and room layouts but has no dedicated process for turning Pinterest inspiration, preliminary measurements, routines, must-keeps, constraints and approval criteria into a usable homeowner brief. This is a distinct foundational gap for Designer Brief Builder with natural, bounded examples from the approved affiliate inventory.",
+        "analyticsEvidence": "Veluce Search Console and GA4 were unavailable to this run, so demand is not quantified. An authenticated Buffer review covered 17 October to 13 November but exposes Pin opens rather than Pinterest-native outbound clicks; the fresh window is heavily lagged. No speculative Pinterest mix change was made.",
+        "sources": [],
+        "sourceCheckedAt": "2026-11-14",
+        "affiliateMonetisation": {
+          "contextualPlacementsAdded": 3,
+          "products": [
+            "roller-blind motor candidate (roller-blind-motor)",
+            "rechargeable picture light (picture-light)",
+            "smart dimmer (smart-dimmer)"
+          ],
+          "approvedInventoryUsed": true,
+          "disclosureConfirmed": true,
+          "complementaryRoles": true
+        },
+        "imagery": "Original AI-generated warm editorial hero showing a measured room plan, moodboard, samples and annotated room photograph; provenance disclosed in article.",
+        "validationResult": "Passed: TypeScript, 91 tests, 31-article audit with zero issues, 56-route production build, ops validation and exact-head GitHub quality gates including desktop/mobile capture (run 43558081784).",
+        "pinterestReview": "ops/buffer/analytics-reviews/2026-11-14-weekly-editorial-review.md; no optimization deployed because native outbound clicks were unavailable and the fresh sample was immature.",
+        "liveUrl": "https://velucedesign.com/article/how-to-create-interior-design-brief/",
+        "completedAt": "2026-11-14"
       },
       {
         "runDate": "2026-11-07",
@@ -3732,7 +3747,11 @@
         "selectionReason": "This established guide retained strong visual and affiliate relevance but relied on universal spacing, runtime, maintenance and IP-rating claims that were not safe across products or sites.",
         "affiliateMonetisation": {
           "contextualPlacementsRetained": 3,
-          "products": ["modern cylinder solar lights (solar-lantern-lights)", "traditional solar lantern lights (solar-ball-lights)", "modern solar bollard (solar-bollard)"],
+          "products": [
+            "modern cylinder solar lights (solar-lantern-lights)",
+            "traditional solar lantern lights (solar-ball-lights)",
+            "modern solar bollard (solar-bollard)"
+          ],
           "approvedInventoryUsed": true,
           "disclosureConfirmed": true,
           "complementaryRoles": true

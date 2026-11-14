@@ -2512,6 +2512,27 @@
       "submitted_at": "2026-11-13T23:24:21.537Z",
       "sent_at": "2026-11-13T23:24:20.477Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716524791"
+    },
+    {
+      "creative_id": "veluce-auto-20261114-8842d86a4e81",
+      "workflow": "veluce_editorial",
+      "title": "Kitchen Counter Essentials: Keep Cooking Oils Within Easy Reach: Organize What You Use",
+      "description": "Is your counter tray helping daily prep or simply collecting decoration? See Veluce's kitchen-essentials and prep-zone guide. Olive oil bottle, herbs, lemons and timber boards arranged on a warm light-stone counter beside the window. See the practical storage and task-zone decisions behind this.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-01.jpg",
+      "destination_url": "https://velucedesign.com/article/everyday-kitchen-essentials-organization/",
+      "board_service_id": "296815500381470701",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-14",
+      "topic": "kitchen-essentials",
+      "board_name": "Kitchen Organization Ideas",
+      "source_blob_sha": "8842d86a4e811913ea42e41d889e61e6498e1c06",
+      "source_path": "assets/pinterest/kitchen-essentials-01.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-14T00:28:48.176Z",
+      "github_run_id": "43534421082"
     }
   ]
 }

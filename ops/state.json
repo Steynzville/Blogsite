@@ -3672,11 +3672,13 @@
   },
   "editorialAutomation": {
     "version": 1,
-    "lastRunDate": "2026-11-07",
-    "lastRunType": "REFRESH",
-    "nextRunType": "NEW",
-    "nextNewProduct": "Designer Brief Builder",
-    "pendingRun": {
+    "lastRunDate": "2026-11-14",
+    "lastRunType": "NEW",
+    "nextRunType": "REFRESH",
+    "nextNewProduct": "Luxury Lighting Formula",
+    "pendingRun": null,
+    "history": [
+      {
       "runDate": "2026-11-14",
       "runType": "NEW",
       "actualRunType": "NEW",
@@ -3685,7 +3687,10 @@
       "primaryTopic": "Turning visual inspiration and real-room evidence into a usable interior design brief",
       "primaryProduct": "Designer Brief Builder",
       "branch": "editorial/2026-11-14-new-designer-brief",
-      "mergeStatus": "planned_in_pr",
+      "mergeStatus": "merged",
+      "mergeCommit": "4c3ba7e69559453cd83e611c985e156e260e991f",
+      "prNumber": 59,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/59",
       "publicationDate": "2026-11-14",
       "plannedNextRunType": "REFRESH",
       "plannedNextNewProduct": "Luxury Lighting Formula",
@@ -3705,10 +3710,11 @@
         "complementaryRoles": true
       },
       "imagery": "Original AI-generated warm editorial hero showing a measured room plan, moodboard, samples and annotated room photograph; provenance disclosed in article.",
-      "validationResult": "Local checks passed: TypeScript, 91 tests, 31-article audit with zero issues, 56-route production build and ops validation. Exact-head GitHub quality gates pending.",
-      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-14-weekly-editorial-review.md; no optimization deployed because native outbound clicks were unavailable and the fresh sample was immature."
-    },
-    "history": [
+      "validationResult": "Passed: TypeScript, 91 tests, 31-article audit with zero issues, 56-route production build, ops validation and exact-head GitHub quality gates including desktop/mobile capture (run 43558081784).",
+      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-14-weekly-editorial-review.md; no optimization deployed because native outbound clicks were unavailable and the fresh sample was immature.",
+      "liveUrl": "https://velucedesign.com/article/how-to-create-interior-design-brief/",
+      "completedAt": "2026-11-14"
+      },
       {
         "runDate": "2026-11-07",
         "runType": "REFRESH",
@@ -3849,45 +3855,24 @@
       }
     ],
     "lastRun": {
-      "runDate": "2026-10-24",
+      "runDate": "2026-11-14",
       "runType": "NEW",
-      "articleSlug": "how-to-arrange-patio-furniture",
-      "articleTitle": "How to Arrange Patio Furniture: A Layout and Spacing Guide",
-      "primaryTopic": "Patio furniture layout, occupied spacing and circulation",
-      "primaryProduct": "Luxury Outdoor Room Planner",
-      "branch": "editorial/2026-10-24-new-outdoor-room",
-      "validationResult": "Passed: TypeScript, 36 tests, 28-article audit with zero issues, production build with 53 routes, ops validation, and final-head GitHub quality gates including desktop/mobile screenshot capture (run 40062886721).",
-      "publicationDate": "2026-10-24",
-      "plannedNextRunType": "REFRESH",
-      "plannedNextNewProduct": "Designer Brief Builder",
-      "selectionReason": "The current outdoor-room cluster covers individual rugs, sectionals, fire features and pergola lighting but lacks a dedicated activity-first layout and circulation guide. Search Console through 2026-10-21 shows only three impressions for the sectional article and no established layout-query signal, so demand is unquantified; the topic was selected as a distinct foundational cluster gap with natural approved accessory placements.",
-      "sources": [
-        "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
-        "https://www.bhg.com/home-improvement/patio/designs/how-to-choose-patio-size/"
-      ],
-      "sourceCheckedAt": "2026-10-24",
-      "affiliateMonetisation": {
-        "contextualPlacementsAdded": 3,
-        "products": [
-          "sectional sofa connector clips (sofa-connectors)",
-          "reversible polypropylene outdoor rug (outdoor-rug-pp)",
-          "outdoor sectional sofa cover (sectional-sofa-cover)"
-        ],
-        "approvedInventoryUsed": true,
-        "disclosureConfirmed": true,
-        "complementaryRoles": true
-      },
-      "imagery": "Original AI-generated editorial hero showing a realistic zoned patio and clear circulation; provenance disclosed in article.",
       "actualRunType": "NEW",
-      "prNumber": 27,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/27",
+      "articleSlug": "how-to-create-interior-design-brief",
+      "articleTitle": "How to Create an Interior Design Brief from Pinterest Inspiration",
+      "primaryTopic": "Turning visual inspiration and real-room evidence into a usable interior design brief",
+      "primaryProduct": "Designer Brief Builder",
+      "branch": "editorial/2026-11-14-new-designer-brief",
+      "prNumber": 59,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/59",
       "mergeStatus": "merged",
-      "mergeCommit": "82a71d63a656b7ad328f5f110545843dfa600115",
-      "analyticsEvidence": "Search Console read 2026-10-24 for 2026-07-01–2026-10-21: modular-sectional article had 3 impressions at average position 11.3; no established patio-layout query signal was exposed. Demand remains unquantified; selected as a distinct foundational cluster gap.",
-      "deploymentVerification": "GitHub Pages deployment 40063276602 succeeded for merge 82a71d63a656b7ad328f5f110545843dfa600115. Live title/H1, 14 H2 sections, hero load and alt, three exact affiliate links, disclosure, correct Studio CTA, dynamic ZAR/USD product pricing and no desktop horizontal overflow verified in the shared browser.",
-      "liveUrl": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
-      "deployedSha": "82a71d63a656b7ad328f5f110545843dfa600115",
-      "completedAt": "2026-10-24T04:44:45.727Z"
+      "mergeCommit": "4c3ba7e69559453cd83e611c985e156e260e991f",
+      "publicationDate": "2026-11-14",
+      "plannedNextRunType": "REFRESH",
+      "plannedNextNewProduct": "Luxury Lighting Formula",
+      "validationResult": "Passed: TypeScript, 91 tests, 31-article audit with zero issues, 56-route production build, ops validation and exact-head GitHub quality gates including desktop/mobile capture (run 43558081784).",
+      "liveUrl": "https://velucedesign.com/article/how-to-create-interior-design-brief/",
+      "completedAt": "2026-11-14"
     }
   },
   "facebook_publications": [

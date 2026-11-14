@@ -2365,6 +2365,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6af79c2278196a0a9729a69e",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716525116",
+      "pin_id": "296815431716525116",
+      "published_at": "2026-11-14T00:28:51.595Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/everyday-kitchen-essentials-organization/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-01.jpg",
+      "title": "Kitchen Counter Essentials: Keep Cooking Oils Within Easy Reach: Organize What You Use",
+      "description": "Is your counter tray helping daily prep or simply collecting decoration? See Veluce's kitchen-essentials and prep-zone guide. Olive oil bottle, herbs, lemons and timber boards arranged on a warm light-stone counter beside the window. See the practical storage and task-zone decisions behind this.",
+      "board": "Kitchen Organization Ideas",
+      "board_id": "296815500381470701",
+      "buffer_post_id": "6af7ab42d16af15d4de197f1",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -2644,6 +2644,32 @@
       "submitted_at": "2026-11-14T22:09:15.789Z",
       "sent_at": "2026-11-14T22:09:15.322Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716530807"
+    },
+    {
+      "creative_id": "veluce-auto-20261115-98ff64ecd3ab",
+      "workflow": "veluce_editorial",
+      "title": "How to Uplight a Mature Olive Tree Without Losing the Garden's Shadows",
+      "description": "Are olive-tree uplights revealing the canopy while preserving deep shadows? See Veluce's mature-tree uplighting guide. Mature olive tree with multiple warm uplights, circular illuminated gravel border and softly lit backdrop at blue hour. Compare tree-up-lighting positions, bark texture and glare.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/after-dark-26.jpg",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-15",
+      "topic": "tree-uplighting",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "3487152833194786112",
+        "name": "Architectural Lighting & Outdoor Glow"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "98ff64ecd3abadb619b52aefa2278529c1a64eb1",
+      "source_path": "assets/pinterest/after-dark-26.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-14T23:24:29.907Z",
+      "github_run_id": "43653061979"
     }
   ]
 }

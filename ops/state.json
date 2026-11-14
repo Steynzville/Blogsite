@@ -2448,16 +2448,10 @@
     "ci": "2026-09-28 local validation passed: TypeScript check, 7 tests, 26-article source audit, production build with 39 prerendered routes, operating-state validation. PR checks require GitHub confirmation after push."
   },
   "veluce_six_product_cover_rotation_v1": {
-    "cycle": 6,
-    "last_product": "Room Procurement System",
-    "completed_products": [
-      "Outdoor Lighting Blueprint",
-      "Luxury Outdoor Room Planner",
-      "Designer Brief Builder",
-      "Luxury Lighting Formula",
-      "Room Procurement System"
-    ],
-    "next_product": "Complete Home Design System",
+    "cycle": 7,
+    "last_product": "Complete Home Design System",
+    "completed_products": [],
+    "next_product": "Outdoor Lighting Blueprint",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -3583,6 +3577,41 @@
           "Room Procurement System"
         ],
         "next_product": "Complete Home Design System"
+      },
+      {
+        "creative_id": "veluce-product-complete-home-design-system-02-courtyard-villa",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Complete Home Design System",
+        "cycle": 6,
+        "submission_date": "2026-11-14",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "complete-home-design-system-02-courtyard-villa.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/complete-home-design-system-02-courtyard-villa.jpg",
+        "hook": "Does your courtyard villa feel disconnected from the rooms around it?",
+        "title": "Whole-Home Style: Connect Your Courtyard to Indoor Living",
+        "description": "Does your courtyard villa feel disconnected from the rooms around it? Repeat a few material and lighting cues across the threshold rather than designing every space in isolation. Explore Veluce Studio's Complete Home Design System to connect materials, layouts and lighting across rooms.",
+        "destination_url": "https://velucedesign.com/complete-home-design-system/",
+        "board": "2026 Warm Organic Home Aesthetic",
+        "board_service_id": "296815500381469139",
+        "buffer_post_id": "6af89ee5b9a106584c5de2b5",
+        "published_at": "2026-11-14",
+        "published_at_timestamp": "2026-11-14T17:48:22.920Z",
+        "pin_id": "296815431716528960",
+        "pin_url": "https://www.pinterest.com/pin/296815431716528960",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula",
+          "Room Procurement System",
+          "Complete Home Design System"
+        ],
+        "next_product": "Outdoor Lighting Blueprint"
       }
     ],
     "archived_history": [

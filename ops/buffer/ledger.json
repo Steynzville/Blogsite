@@ -2608,10 +2608,12 @@
       "source_path": "assets/pinterest-products/complete-home-design-system-02-courtyard-villa.jpg",
       "hook": "Does your courtyard villa feel disconnected from the rooms around it?",
       "board_name": "2026 Warm Organic Home Aesthetic",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-14T17:48:20.083Z",
       "buffer_post_id": "6af89ee5b9a106584c5de2b5",
-      "submitted_at": "2026-11-14T17:48:24.054Z"
+      "submitted_at": "2026-11-14T17:48:24.054Z",
+      "sent_at": "2026-11-14T17:48:22.920Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716528960"
     }
   ]
 }

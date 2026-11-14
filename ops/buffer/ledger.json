@@ -2592,6 +2592,24 @@
       "submitted_at": "2026-11-14T14:51:35.081Z",
       "sent_at": "2026-11-14T14:51:34.062Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716527971"
+    },
+    {
+      "creative_id": "veluce-product-complete-home-design-system-02-courtyard-villa",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Complete Home Design System",
+      "title": "Whole-Home Style: Connect Your Courtyard to Indoor Living",
+      "description": "Does your courtyard villa feel disconnected from the rooms around it? Repeat a few material and lighting cues across the threshold rather than designing every space in isolation. Explore Veluce Studio's Complete Home Design System to connect materials, layouts and lighting across rooms.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/complete-home-design-system-02-courtyard-villa.jpg",
+      "destination_url": "https://velucedesign.com/complete-home-design-system/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "local_date": "2026-11-14",
+      "source_blob_sha": "a74716a34ced3525c6cc0ed89f42082fa77666d3",
+      "source_path": "assets/pinterest-products/complete-home-design-system-02-courtyard-villa.jpg",
+      "hook": "Does your courtyard villa feel disconnected from the rooms around it?",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "status": "reserved",
+      "recorded_at": "2026-11-14T17:48:20.083Z"
     }
   ]
 }

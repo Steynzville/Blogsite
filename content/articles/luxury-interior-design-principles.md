@@ -231,6 +231,8 @@ Luxury begins the moment nothing remains except what deserves to be there.
 
 Knowing that proportion, restraint, materials and lighting matter is only the beginning. The [Veluce Designer Brief Builder](/designer-brief-builder) helps you translate inspiration, measurements, lifestyle needs and aesthetic references into a clear design brief — giving every later decision a consistent point of reference.
 
+If your inspiration is still a folder of attractive but contradictory rooms, use the [interior design brief guide](/article/how-to-create-interior-design-brief/) to edit those references into measurable priorities, constraints and approval criteria before requesting concepts.
+
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

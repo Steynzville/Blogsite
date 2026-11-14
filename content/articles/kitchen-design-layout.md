@@ -204,6 +204,8 @@ A beautiful kitchen that does not work is not luxurious. A kitchen that works be
 
 Once the kitchen zones and circulation begin to take shape, the next challenge is keeping measurements, priorities, must-haves and design decisions aligned. The [Veluce Designer Brief Builder](/designer-brief-builder) helps you turn scattered ideas into a usable brief before expensive cabinetry, surfaces and appliances are ordered.
 
+Use the [interior design brief guide](/article/how-to-create-interior-design-brief/) to package the room photographs, preliminary dimensions, daily routines, must-keeps and approval criteria that should accompany the layout discussion.
+
 ## Explore More
 
 **Browse the VELUCE shop →** [VELUCE Collection](https://tr.ee/Sp8jyc)

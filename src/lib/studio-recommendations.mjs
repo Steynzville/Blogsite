@@ -57,6 +57,7 @@ export const studioProducts = {
 };
 
 export const articleStudioRecommendations = {
+  'how-to-create-interior-design-brief': { product: 'designerBrief', hook: 'Turn the room evidence and edited inspiration into one brief everyone can use.' },
   'how-to-arrange-patio-furniture': { product: 'outdoorRoom', hook: 'Turn the measured furniture test into a complete outdoor-room plan before you start buying.' },
   'outdoor-lighting-glare-night-audit': { product: 'outdoorLighting', hook: 'Turn your night-audit observations into a considered lighting plan before buying more fixtures.' },
   'fire-pit-tables-centerpiece': { product: 'outdoorRoom', hook: 'Planning the rest of the patio around a fire feature?' },

@@ -2425,6 +2425,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6af8dc0a918fe79d2ea8a77b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716531234",
+      "pin_id": "296815431716531234",
+      "published_at": "2026-11-14T23:24:34.231Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/after-dark-26.jpg",
+      "title": "How to Uplight a Mature Olive Tree Without Losing the Garden's Shadows",
+      "description": "Are olive-tree uplights revealing the canopy while preserving deep shadows? See Veluce's mature-tree uplighting guide. Mature olive tree with multiple warm uplights, circular illuminated gravel border and softly lit backdrop at blue hour. Compare tree-up-lighting positions, bark texture and glare.",
+      "board": "2026 Warm Organic Home Aesthetic",
+      "board_id": "296815500381469139",
+      "buffer_post_id": "6af8edb0e86a5789a6d9e20e",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

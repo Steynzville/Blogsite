@@ -2699,6 +2699,27 @@
       "submitted_at": "2026-11-15T11:43:24.432Z",
       "sent_at": "2026-11-15T11:43:24.014Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716534759"
+    },
+    {
+      "creative_id": "veluce-auto-20261115-7659a4cb5ecc",
+      "workflow": "veluce_editorial",
+      "title": "Where Should a Gate Intercom and Security Camera Face?",
+      "description": "Can you identify visitors before they reach your door? Explore Veluce's perimeter guide. Long modern private driveway ending at dark slatted entry gate with intercom and compact camera in illuminated stone entry wall. Plan the viewing angle, approach lighting and access point together instead of.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-11.jpg",
+      "destination_url": "https://velucedesign.com/article/perimeter-monitoring/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-15",
+      "topic": "perimeter-security",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "7659a4cb5ecce7422dd63e45ed9055cee1cc9634",
+      "source_path": "assets/pinterest/home-security-11.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-15T15:27:39.980Z",
+      "github_run_id": "43729968979"
     }
   ]
 }

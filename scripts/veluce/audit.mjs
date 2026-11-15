@@ -7,11 +7,15 @@ const files = fs.readdirSync(path.join(root,'content/articles')).filter(f=>f.end
 const slugs = new Set(files.map(f=>f.slice(0,-3)));
 const shortlinks = JSON.parse(fs.readFileSync(path.join(root,'ops/shortlinks.json'),'utf8'));
 const knownShortlinks = new Set(shortlinks.article_slugs);
+const catalogueSlugs = new Set(shortlinks.catalogue_slugs || []);
+const nonaffiliateSlugs = new Set(shortlinks.nonaffiliate_slugs || []);
 const records = new Map((shortlinks.records || []).map(record=>[record.slug,record]));
-const report = {article_count:files.length, links:[], issues:[]};
+const report = {article_count:files.length, links:[], issues:[], warnings:[]};
 if((shortlinks.records || []).length!==knownShortlinks.size || records.size!==knownShortlinks.size)
  report.issues.push({kind:'registry_mismatch',message:'Every article slug needs exactly one distinct record'});
 for(const slug of knownShortlinks) if(!records.has(slug)) report.issues.push({kind:'missing_registry_record',slug});
+for(const slug of catalogueSlugs) if(!knownShortlinks.has(slug) || !records.has(slug)) report.issues.push({kind:'invalid_catalogue_slug',slug});
+for(const slug of nonaffiliateSlugs) if(!knownShortlinks.has(slug) || !records.has(slug)) report.issues.push({kind:'invalid_nonaffiliate_slug',slug});
 for(const [slug,record] of records) {
  if(!knownShortlinks.has(slug) || record.public_url!==`https://${shortlinks.domain}/${slug}`)
   report.issues.push({kind:'invalid_registry_record',slug});
@@ -30,6 +34,7 @@ for (const file of files) {
   report.links.push({file,url,kind,line:raw.slice(0,raw.indexOf(url)).split('\n').length});
   if(kind==='amazon' || /(^|\.)(temu\.com)$/.test(host)) report.issues.push({file,kind:'unsupported_merchant',url});
   if(host===shortlinks.domain && !knownShortlinks.has(parsed.pathname.slice(1))) report.issues.push({file,kind:'unmapped_shortlink',url});
+  if(host===shortlinks.domain && nonaffiliateSlugs.has(parsed.pathname.slice(1))) report.warnings.push({file,kind:'nonaffiliate_shortlink_in_source',slug:parsed.pathname.slice(1),url});
  }
  for(const m of content.matchAll(/(?:href=["']|\]\()\/article\/([a-z0-9-]+)/g)) if(!slugs.has(m[1])) report.issues.push({file,kind:'missing_internal_article',slug:m[1]});
 }
@@ -38,9 +43,11 @@ report.commercial = [...knownShortlinks].map(slug=>({
  slug, sources:[...new Set(report.links.filter(l=>l.url===`https://${shortlinks.domain}/${slug}`).map(l=>l.file))],
  verification:records.get(slug)?.verification || 'not_recorded',
  merchant:records.get(slug)?.merchant || null,
- last_verified_at:records.get(slug)?.last_verified_at || null
+ last_verified_at:records.get(slug)?.last_verified_at || null,
+ catalogue_status:records.get(slug)?.catalogue_status || null,
+ eligible_for_new_placement:catalogueSlugs.has(slug) && !nonaffiliateSlugs.has(slug)
 }));
 const output=JSON.stringify(report,null,2)+'\n';
 if(process.argv.includes('--write')) fs.writeFileSync(path.join(root,'ops/reports/content-audit.json'),output);
-console.log(JSON.stringify({articles:report.article_count,unique_urls:new Set(report.links.map(l=>l.url)).size,issues:report.issues},null,2));
+console.log(JSON.stringify({articles:report.article_count,unique_urls:new Set(report.links.map(l=>l.url)).size,issues:report.issues,warnings:report.warnings},null,2));
 if(report.issues.length) process.exitCode=1;

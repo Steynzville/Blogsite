@@ -68,7 +68,7 @@ Not all solar lights guide movement effectively. The fixture's light distributio
 | **Upward (unshielded)** | Silhouettes plants, illuminates canopy | Drama, accent — not primary guidance |
 | **360-degree** | Soft glow in all directions | Informal paths, garden beds alongside walkways |
 
-**[→ Shop Solar Inground Lights for Path Guidance](https://steynenslin.s.gy/SolarInground)**
+Choose purpose-designed solar in-ground lights only after confirming drainage, load rating, weather resistance and replaceable-battery access.
 
 ### Solar simplicity or a permanent low-voltage system
 
@@ -76,7 +76,7 @@ For a cable-free installation, a restrained bollard can provide a more architect
 
 - <a href="https://steynenslin.s.gy/solar-bollard" target="_blank">→ Browse the modern solar bollard light</a> — a no-wiring option for paths with reliable sun exposure.
 - <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — for a permanent low-voltage landscape-lighting system; size the supply to the actual connected load.
-- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage cable connectors</a> — for weather-protected joins on the low-voltage side of the system.
+- Use correctly rated low-voltage cable connectors for weather-protected joins on the low-voltage side of the system.
 
 ## Spacing: The Rhythm of Movement
 
@@ -106,7 +106,7 @@ Stand at the beginning of a path just after dusk. Watch how the lights lead you 
 
 Orientation matters more than height. Lights should direct light **down and across** the path surface, not out toward the garden. The goal is guidance, not landscape illumination. Trees and shrubs have their own lights for that.
 
-**[→ Shop Solar Step Lights for Path Edges](https://steynenslin.s.gy/SolarStep)**
+Choose purpose-designed solar step lights only after confirming the mounting method, edge visibility, weather resistance and expected runtime.
 
 ## The Hierarchy of Garden Light
 

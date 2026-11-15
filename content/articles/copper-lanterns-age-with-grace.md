@@ -174,10 +174,10 @@ While copper lanterns handle your entrance and pathway lighting beautifully, a c
 | Layer | Solution | Purpose |
 |-------|----------|---------|
 | **Entrance & wall lighting** | Copper lanterns | Timeless beauty, natural patina |
-| **Deck & pergola lighting** | [220V smart COB](https://steynenslin.s.gy/TUYAcobLED) or [12V/24V DC COB](https://steynenslin.s.gy/24vDCplugLED) | Defines structure, creates ambience |
-| **Stair safety** | [Solar step lights](https://steynenslin.s.gy/SolarStep) | Prevents trips, soft guidance |
-| **Path definition** | [Solar ground lights](https://steynenslin.s.gy/SolarInground) | Flush-mount, walkway edges |
-| **Tree and shrub uplighting** | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) | Adds depth beyond the house |
+| **Deck & pergola lighting** | [12V/24V DC COB](https://steynenslin.s.gy/24vDCplugLED) | Defines structure, creates ambience |
+| **Stair safety** | Purpose-designed step lights | Prevents trips, soft guidance |
+| **Path definition** | Rated ground lights | Flush-mount, walkway edges |
+| **Tree and shrub uplighting** | Narrow-beam outdoor spotlights | Adds depth beyond the house |
 
 *For a complete guide to facade lighting, see our article on [Upward Lighting: The Art of Architectural Grazing](/article/upward-lighting-architectural-grazing). For modern alternatives to traditional fixtures, explore [LED Strip Lighting for Outdoors](/article/led-strip-integration-modern-deck).*
 

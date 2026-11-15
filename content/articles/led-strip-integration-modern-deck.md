@@ -50,11 +50,9 @@ Some purpose-designed 220–240V strip systems support long runs, but **longer d
 
 **Trade-off:** professional installation, limited flexibility in future alterations and more demanding protection against damage and water. A mains strip is not a default upgrade for a run longer than 10 metres.
 
-The existing catalogue includes a [220V smart/COB strip example](https://steynenslin.s.gy/TUYAcobLED). Treat it as a comparison link, **not a verified specification or installation endorsement**: check the current listing, actual voltage variant, certifications, approved installation method and compatibility before purchase.
+Treat any 220V smart/COB strip as a specialist system, **not a generic installation shortcut**: check the actual voltage variant, certifications, approved installation method and compatibility before purchase.
 
-<a href="https://steynenslin.s.gy/TUYAcobLED" target="_blank">
-  <img src="/images/led-strip-220v-installed.jpg" alt="Continuous warm strip lighting illuminating an outdoor kitchen beneath a pergola" loading="lazy">
-</a>
+<img src="/images/led-strip-220v-installed.jpg" alt="Continuous warm strip lighting illuminating an outdoor kitchen beneath a pergola" loading="lazy">
 
 ### 2. 12V/24V DC Strip: A Flexible Planning Starting Point
 
@@ -78,7 +76,7 @@ A complete solar kit can be useful where power is genuinely inaccessible, especi
 
 **Trade-off:** battery capacity, solar panel output and real-world runtime vary widely. Avoid generic claims such as '20–30 hours from a short charge' unless the exact product's tested conditions substantiate them. Do not assume a sealed solar strip can be cut or daisy-chained.
 
-The existing [solar LED strip example](https://steynenslin.s.gy/SolarLED) is a comparison option. Verify the current panel, battery, operating modes, weather rating and availability for the exact variant before ordering.
+For any solar LED strip, verify the panel, battery, operating modes, weather rating and availability for the exact variant before ordering.
 
 **Buying principle:** these are examples of product *types*, not an independently tested ranking of three individual listings.
 
@@ -96,11 +94,11 @@ The existing [solar LED strip example](https://steynenslin.s.gy/SolarLED) is a c
 
 ## When a Dedicated Fixture Is the Better Choice
 
-**On stair treads:** exposed adhesive strips are vulnerable to shoes, cleaning and moisture. Use a purpose-designed, correctly rated step light or a protected, manufacturer-approved riser detail that illuminates the walking surface. The existing [solar step-light example](https://steynenslin.s.gy/SolarStep) is a category comparison; check its actual installation instructions.
+**On stair treads:** exposed adhesive strips are vulnerable to shoes, cleaning and moisture. Use a purpose-designed, correctly rated step light or a protected, manufacturer-approved riser detail that illuminates the walking surface. Check the exact installation instructions.
 
-**In a walkway:** avoid loose strips where people walk or where standing water collects. A dedicated rated path or in-ground fixture may be more appropriate; drainage and load rating matter. See our [garden pathway lighting guide](/article/garden-pathway-lighting) and the existing [solar ground-light example](https://steynenslin.s.gy/SolarInground).
+**In a walkway:** avoid loose strips where people walk or where standing water collects. A dedicated rated path or in-ground fixture may be more appropriate; drainage and load rating matter. See our [garden pathway lighting guide](/article/garden-pathway-lighting).
 
-**On a facade without shielding:** a bright exposed strip can produce glare and reveal every fixing. A compatible recessed channel or a purpose-designed wall light may produce a calmer result. Compare our [architectural grazing guide](/article/upward-lighting-architectural-grazing) and the existing [solar wall-light example](https://steynenslin.s.gy/SolarWall).
+**On a facade without shielding:** a bright exposed strip can produce glare and reveal every fixing. A compatible recessed channel or a purpose-designed wall light may produce a calmer result. Compare our [architectural grazing guide](/article/upward-lighting-architectural-grazing).
 
 <img src="/images/step-lights-alternative.jpg" alt="Warm linear lighting beside a stepping-stone garden path; keep any strip outside the walked surface" loading="lazy">
 
@@ -179,9 +177,9 @@ A strip is best used as one quiet layer, not the entire lighting plan.
 | Layer | Purpose | Example to compare |
 |---|---|---|
 | Recessed deck or pergola edge | Define structure without dazzling seated guests | [Low-voltage COB strip](https://steynenslin.s.gy/24vDCplugLED) |
-| Steps and changes of level | Help people see where to place their feet | [Dedicated step-light category](https://steynenslin.s.gy/SolarStep) |
-| Garden route | Reveal turns and obstacles without runway brightness | [Ground-light category](https://steynenslin.s.gy/SolarInground) |
-| Trees or planting beyond the deck | Give the outdoor room depth | [Spotlight category](https://steynenslin.s.gy/SolarSpot) |
+| Steps and changes of level | Help people see where to place their feet | Dedicated step-light category |
+| Garden route | Reveal turns and obstacles without runway brightness | Rated ground-light category |
+| Trees or planting beyond the deck | Give the outdoor room depth | Narrow-beam spotlight category |
 
 These are **existing catalogue links for comparing product types**, not claims that a particular marketplace listing is independently tested, currently stocked or suitable for your jurisdiction. Start with the visual job each layer must do, then verify the exact product.
 

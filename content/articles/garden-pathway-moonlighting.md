@@ -146,7 +146,7 @@ Where a wired installation is practical, low-voltage directional fixtures give y
 
 - <a href="https://steynenslin.s.gy/tree-spotlight-12v" target="_blank">→ Browse the 12V directional landscape/tree spotlight</a> — use only where the mounting method and beam direction suit the intended downward-lighting effect.
 - <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — keeps the garden-lighting circuit on the low-voltage side after conversion.
-- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage cable connectors</a> — useful for protected outdoor joins and branch runs.
+- Use correctly rated low-voltage cable connectors for protected outdoor joins and branch runs.
 
 ## Layered Garden Light System
 

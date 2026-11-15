@@ -62,7 +62,7 @@ Recess them into the underside of beams. Tuck them into channels along the perim
 - Check the exposure rating of the complete system—strip, driver, connectors and cut ends. IP65 on a strip alone does not certify an exposed installation
 
 **For permanent pergola lighting (hardwired, electrician required):**
-**[→ Shop 220V COB LED Strip](https://steynenslin.s.gy/TUYAcobLED)**
+For any mains-voltage COB strip, require documented outdoor suitability, installation instructions and local electrical compliance.
 
 **For DIY installation (plugs into outdoor outlet):**
 **[→ Shop 12V/24V DC COB LED Strip](https://steynenslin.s.gy/24vDCplugLED)**
@@ -81,7 +81,7 @@ Drape them in a zigzag pattern across the beams for a canopy effect. Run them al
 - Allow slight sag in the wire for a relaxed, inviting look
 - Space bulbs evenly for consistent rhythm
 
-**[→ Shop Solar String Lights for Pergolas](https://steynenslin.s.gy/Solar-string)**
+**[→ Compare Solar Globe String Lights for Pergolas](https://steynenslin.s.gy/solar-globe-string-lights)**
 
 ## Layer 3: Uplighting (The Enclosure)
 
@@ -95,7 +95,7 @@ A pergola feels exposed without surrounding illumination. Uplighting on nearby t
 - Behind large shrubs to create a backdrop of light
 - Against nearby walls to define the room's edge
 
-**[→ Shop Solar Spotlights for Uplighting](https://steynenslin.s.gy/SolarSpot)**
+For uplighting, compare purpose-designed outdoor spotlights with documented beam angle, output, mounting and weather resistance.
 
 ## Dining Under the Pergola
 
@@ -121,7 +121,7 @@ Pergolas over hot tubs or spas need lighting that enhances relaxation without gl
 - Install LED strips along the deck perimeter for a floating effect
 - Add uplighting on surrounding plants for privacy and depth
 
-**[→ Shop Solar Step Lights for Stairs](https://steynenslin.s.gy/SolarStep)**
+For stairs, compare purpose-designed step lights that illuminate the walking surface without creating glare.
 
 ## Fire Pit and Lounge Areas
 
@@ -135,7 +135,7 @@ For lounging areas, prioritize warmth and intimacy over brightness. Fire pits pr
 - Use string lights for character and canopy
 - Add path lighting to guide movement to and from the area
 
-**[→ Shop Solar Inground Lights for Pathways](https://steynenslin.s.gy/SolarInground)**
+For pathways, compare purpose-designed in-ground lights only where drainage, load rating and maintenance access are suitable.
 
 ## Color Temperature: The Most Important Decision
 

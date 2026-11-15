@@ -17,6 +17,19 @@ test('solar pathway CTAs preserve cylinder and lantern product mappings',()=>{
  assert.ok(!article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-ball-lights)'));
  assert.ok(!article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
 });
+test('affiliate catalogue exposes 20 verified placements and excludes nonaffiliate links',()=>{
+ const registry=JSON.parse(fs.readFileSync('ops/shortlinks.json','utf8'));
+ const records=new Map(registry.records.map(record=>[record.slug,record]));
+ assert.equal(registry.catalogue_slugs.length,20);
+ assert.equal(new Set(registry.catalogue_slugs).size,20);
+ assert.equal(registry.nonaffiliate_slugs.length,15);
+ for(const slug of registry.catalogue_slugs){
+  assert.ok(!registry.nonaffiliate_slugs.includes(slug));
+  assert.equal(records.get(slug)?.catalogue_status,'available_for_new_and_refresh_articles');
+  assert.equal(records.get(slug)?.verification,'verified_admitad_link_checker_and_shortio_destination');
+  assert.equal(records.get(slug)?.public_url,`https://${registry.domain}/${slug}`);
+ }
+});
 test('economics includes downside and rejects missing rates',()=>{const scenarios=JSON.parse(fs.readFileSync('ops/economics-scenarios.json'));const base=economics(scenarios[0]);assert.ok(base.affiliateRevenue>0);assert.ok(economics(scenarios[2]).contributionPerOrder<base.contributionPerOrder);assert.throws(()=>economics({...scenarios[0],paymentRate:null}));assert.throws(()=>economics({...scenarios[0],approvalRate:2}))});
 test('unverified drafts cannot generate commercial pages',()=>{assert.ok(validateProduct({}).length>0);assert.ok(validateProduct(JSON.parse(fs.readFileSync('ops/templates/product.json'))).includes('Product is not verified'))});
 

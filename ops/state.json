@@ -2455,6 +2455,21 @@
       "board_id": "296815500381470701",
       "buffer_post_id": "6af99ad9c5b364e0625123af",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716535880",
+      "pin_id": "296815431716535880",
+      "published_at": "2026-11-15T15:27:44.483Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/perimeter-monitoring/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-11.jpg",
+      "title": "Where Should a Gate Intercom and Security Camera Face?",
+      "description": "Can you identify visitors before they reach your door? Explore Veluce's perimeter guide. Long modern private driveway ending at dark slatted entry gate with intercom and compact camera in illuminated stone entry wall. Plan the viewing angle, approach lighting and access point together instead of.",
+      "board": "Smart Home Ideas & Gadgets 🔥",
+      "board_id": "296815500381472108",
+      "buffer_post_id": "6af9cf6e544d0574a927837b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -1,89 +1,293 @@
 {
-  "article_count": 26,
+  "article_count": 31,
   "links": [
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://www.copper.org/publications/pub_list/pdf/A4050-Architectural-Handbook.pdf",
+      "kind": "external",
+      "line": 37
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://help.copper.fyi/hc/en-us/articles/10678632255900-How-do-copper-and-copper-alloy-surfaces-evolve-in-outdoor-conditions",
+      "kind": "external",
+      "line": 52
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://steynenslin.s.gy/copper-wall-lantern",
+      "kind": "unverified_shortlink",
+      "line": 116
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://steynenslin.s.gy/brass-pendant-lantern",
+      "kind": "unverified_shortlink",
+      "line": 117
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://steynenslin.s.gy/copper-polish",
+      "kind": "unverified_shortlink",
+      "line": 118
+    },
     {
       "file": "copper-lanterns-age-with-grace.md",
       "url": "https://steynenslin.s.gy/TUYAcobLED",
       "kind": "unverified_shortlink",
-      "line": 191
+      "line": 177
     },
     {
       "file": "copper-lanterns-age-with-grace.md",
       "url": "https://steynenslin.s.gy/24vDCplugLED",
       "kind": "unverified_shortlink",
-      "line": 191
+      "line": 177
     },
     {
       "file": "copper-lanterns-age-with-grace.md",
       "url": "https://steynenslin.s.gy/SolarStep",
-      "kind": "unverified_shortlink",
-      "line": 192
-    },
-    {
-      "file": "copper-lanterns-age-with-grace.md",
-      "url": "https://steynenslin.s.gy/SolarInground",
-      "kind": "unverified_shortlink",
-      "line": 193
-    },
-    {
-      "file": "copper-lanterns-age-with-grace.md",
-      "url": "https://steynenslin.s.gy/SolarSpot",
-      "kind": "unverified_shortlink",
-      "line": 194
-    },
-    {
-      "file": "copper-lanterns-age-with-grace.md",
-      "url": "https://tr.ee/Sp8jyc",
-      "kind": "unverified_shortlink",
-      "line": 235
-    },
-    {
-      "file": "fire-pit-tables-centerpiece.md",
-      "url": "https://tr.ee/Sp8jyc",
-      "kind": "unverified_shortlink",
-      "line": 237
-    },
-    {
-      "file": "fire-pit-tables-centerpiece.md",
-      "url": "https://www.pinterest.com/steynenslin/",
-      "kind": "external",
-      "line": 239
-    },
-    {
-      "file": "garden-pathway-lighting.md",
-      "url": "https://steynenslin.s.gy/SolarInground",
-      "kind": "unverified_shortlink",
-      "line": 71
-    },
-    {
-      "file": "garden-pathway-lighting.md",
-      "url": "https://steynenslin.s.gy/SolarStep",
-      "kind": "unverified_shortlink",
-      "line": 101
-    },
-    {
-      "file": "garden-pathway-lighting.md",
-      "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
       "line": 178
     },
     {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://steynenslin.s.gy/SolarInground",
+      "kind": "unverified_shortlink",
+      "line": 179
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://steynenslin.s.gy/SolarSpot",
+      "kind": "unverified_shortlink",
+      "line": 180
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 221
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 223
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://www.gov.uk/government/publications/guidance-on-the-use-of-domestic-cctv/domestic-cctv-using-cctv-systems-on-your-property",
+      "kind": "external",
+      "line": 75
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://steynenslin.s.gy/poe-camera",
+      "kind": "unverified_shortlink",
+      "line": 129
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://steynenslin.s.gy/video-doorbell",
+      "kind": "unverified_shortlink",
+      "line": 130
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://steynenslin.s.gy/motion-floodlight-12v",
+      "kind": "unverified_shortlink",
+      "line": 131
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://ico.org.uk/for-the-public/home-cctv-systems/",
+      "kind": "external",
+      "line": 149
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 213
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 215
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-09.jpg",
+      "kind": "external",
+      "line": 34
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-04-cutting-board.jpg",
+      "kind": "external",
+      "line": 44
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://steynenslin.s.gy/drawer-dividers",
+      "kind": "unverified_shortlink",
+      "line": 50
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-01-pantry-jars.jpg",
+      "kind": "external",
+      "line": 60
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-03-coffee-station.jpg",
+      "kind": "external",
+      "line": 74
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-10-cookware-display.jpg",
+      "kind": "external",
+      "line": 84
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://steynenslin.s.gy/under-sink-organizer",
+      "kind": "unverified_shortlink",
+      "line": 92
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-13-under-sink-organization.jpg",
+      "kind": "external",
+      "line": 94
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://steynenslin.s.gy/pull-out-cabinet",
+      "kind": "unverified_shortlink",
+      "line": 119
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 142
+    },
+    {
+      "file": "everyday-kitchen-essentials-organization.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 144
+    },
+    {
+      "file": "fire-pit-tables-centerpiece.md",
+      "url": "https://steynenslin.s.gy/fire-pit-cover",
+      "kind": "unverified_shortlink",
+      "line": 165
+    },
+    {
+      "file": "fire-pit-tables-centerpiece.md",
+      "url": "https://steynenslin.s.gy/fire-glass",
+      "kind": "unverified_shortlink",
+      "line": 166
+    },
+    {
+      "file": "fire-pit-tables-centerpiece.md",
+      "url": "https://www.usfa.fema.gov/prevention/outdoor-fires/",
+      "kind": "external",
+      "line": 187
+    },
+    {
+      "file": "fire-pit-tables-centerpiece.md",
+      "url": "https://www.intertek.com/building/standards/ansi-z21-97/",
+      "kind": "external",
+      "line": 204
+    },
+    {
+      "file": "fire-pit-tables-centerpiece.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 270
+    },
+    {
+      "file": "fire-pit-tables-centerpiece.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 272
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "url": "https://steynenslin.s.gy/SolarInground",
+      "kind": "unverified_shortlink",
+      "line": 71
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "url": "https://steynenslin.s.gy/solar-bollard",
+      "kind": "unverified_shortlink",
+      "line": 77
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "url": "https://steynenslin.s.gy/landscape-transformer-12v24v",
+      "kind": "unverified_shortlink",
+      "line": 78
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "url": "https://steynenslin.s.gy/waterproof-connectors",
+      "kind": "unverified_shortlink",
+      "line": 79
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "url": "https://steynenslin.s.gy/SolarStep",
+      "kind": "unverified_shortlink",
+      "line": 109
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 190
+    },
+    {
       "file": "garden-pathway-lighting.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 180
+      "line": 192
+    },
+    {
+      "file": "garden-pathway-moonlighting.md",
+      "url": "https://steynenslin.s.gy/tree-spotlight-12v",
+      "kind": "unverified_shortlink",
+      "line": 147
+    },
+    {
+      "file": "garden-pathway-moonlighting.md",
+      "url": "https://steynenslin.s.gy/landscape-transformer-12v24v",
+      "kind": "unverified_shortlink",
+      "line": 148
+    },
+    {
+      "file": "garden-pathway-moonlighting.md",
+      "url": "https://steynenslin.s.gy/waterproof-connectors",
+      "kind": "unverified_shortlink",
+      "line": 149
     },
     {
       "file": "garden-pathway-moonlighting.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 227
+      "line": 239
     },
     {
       "file": "garden-pathway-moonlighting.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 229
+      "line": 241
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
@@ -93,147 +297,351 @@
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
+      "url": "https://steynenslin.s.gy/wired-landscape-spotlight",
+      "kind": "unverified_shortlink",
+      "line": 77
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "url": "https://steynenslin.s.gy/landscape-transformer-12v24v",
+      "kind": "unverified_shortlink",
+      "line": 78
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "url": "https://steynenslin.s.gy/waterproof-connectors",
+      "kind": "unverified_shortlink",
+      "line": 79
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
       "url": "https://steynenslin.s.gy/SolarInground",
       "kind": "unverified_shortlink",
-      "line": 122
+      "line": 130
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
       "url": "https://steynenslin.s.gy/SolarLED",
       "kind": "unverified_shortlink",
-      "line": 123
+      "line": 131
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 197
+      "line": 209
     },
     {
       "file": "hidden-uplighting-mature-trees.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 199
+      "line": 211
+    },
+    {
+      "file": "how-to-arrange-patio-furniture.md",
+      "url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "kind": "external",
+      "line": 54
+    },
+    {
+      "file": "how-to-arrange-patio-furniture.md",
+      "url": "https://www.bhg.com/home-improvement/patio/designs/how-to-choose-patio-size/",
+      "kind": "external",
+      "line": 72
+    },
+    {
+      "file": "how-to-arrange-patio-furniture.md",
+      "url": "https://steynenslin.s.gy/sofa-connectors",
+      "kind": "unverified_shortlink",
+      "line": 102
+    },
+    {
+      "file": "how-to-arrange-patio-furniture.md",
+      "url": "https://steynenslin.s.gy/outdoor-rug-pp",
+      "kind": "unverified_shortlink",
+      "line": 140
+    },
+    {
+      "file": "how-to-arrange-patio-furniture.md",
+      "url": "https://steynenslin.s.gy/sectional-sofa-cover",
+      "kind": "unverified_shortlink",
+      "line": 148
+    },
+    {
+      "file": "how-to-create-interior-design-brief.md",
+      "url": "https://steynenslin.s.gy/roller-blind-motor",
+      "kind": "unverified_shortlink",
+      "line": 139
+    },
+    {
+      "file": "how-to-create-interior-design-brief.md",
+      "url": "https://steynenslin.s.gy/picture-light",
+      "kind": "unverified_shortlink",
+      "line": 141
+    },
+    {
+      "file": "how-to-create-interior-design-brief.md",
+      "url": "https://steynenslin.s.gy/smart-dimmer",
+      "kind": "unverified_shortlink",
+      "line": 141
+    },
+    {
+      "file": "how-to-create-interior-design-brief.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 281
+    },
+    {
+      "file": "how-to-create-interior-design-brief.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 283
     },
     {
       "file": "invisible-hvac-design.md",
-      "url": "https://tr.ee/Sp8jyc",
+      "url": "https://steynenslin.s.gy/ac-ir-controller",
       "kind": "unverified_shortlink",
-      "line": 219
+      "line": 143
     },
     {
       "file": "invisible-hvac-design.md",
-      "url": "https://www.pinterest.com/steynenslin/",
-      "kind": "external",
-      "line": 221
-    },
-    {
-      "file": "kitchen-appliances-luxury.md",
-      "url": "https://tr.ee/Sp8jyc",
+      "url": "https://steynenslin.s.gy/temp-humidity-sensor",
       "kind": "unverified_shortlink",
-      "line": 249
+      "line": 144
     },
     {
-      "file": "kitchen-appliances-luxury.md",
-      "url": "https://www.pinterest.com/steynenslin/",
-      "kind": "external",
-      "line": 251
-    },
-    {
-      "file": "kitchen-design-layout.md",
-      "url": "https://tr.ee/Sp8jyc",
-      "kind": "unverified_shortlink",
-      "line": 198
-    },
-    {
-      "file": "kitchen-design-layout.md",
-      "url": "https://www.pinterest.com/steynenslin/",
-      "kind": "external",
-      "line": 200
-    },
-    {
-      "file": "layered-lighting-bedroom.md",
+      "file": "invisible-hvac-design.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
       "line": 226
     },
     {
-      "file": "layered-lighting-bedroom.md",
+      "file": "invisible-hvac-design.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
       "line": 228
+    },
+    {
+      "file": "kitchen-appliances-luxury.md",
+      "url": "https://steynenslin.s.gy/coffee-scale",
+      "kind": "unverified_shortlink",
+      "line": 192
+    },
+    {
+      "file": "kitchen-appliances-luxury.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 259
+    },
+    {
+      "file": "kitchen-appliances-luxury.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 261
+    },
+    {
+      "file": "kitchen-design-layout.md",
+      "url": "https://nkba.org/planning-guidelines/",
+      "kind": "external",
+      "line": 74
+    },
+    {
+      "file": "kitchen-design-layout.md",
+      "url": "https://steynenslin.s.gy/pull-out-cabinet",
+      "kind": "unverified_shortlink",
+      "line": 120
+    },
+    {
+      "file": "kitchen-design-layout.md",
+      "url": "https://steynenslin.s.gy/drawer-dividers",
+      "kind": "unverified_shortlink",
+      "line": 121
+    },
+    {
+      "file": "kitchen-design-layout.md",
+      "url": "https://steynenslin.s.gy/under-sink-organizer",
+      "kind": "unverified_shortlink",
+      "line": 122
+    },
+    {
+      "file": "kitchen-design-layout.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 211
+    },
+    {
+      "file": "kitchen-design-layout.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 213
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/19.html",
+      "kind": "external",
+      "line": 71
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/02.html",
+      "kind": "external",
+      "line": 136
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://steynenslin.s.gy/motion-night-light",
+      "kind": "unverified_shortlink",
+      "line": 152
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://steynenslin.s.gy/picture-light",
+      "kind": "unverified_shortlink",
+      "line": 153
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://steynenslin.s.gy/smart-dimmer",
+      "kind": "unverified_shortlink",
+      "line": 154
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 249
+    },
+    {
+      "file": "layered-lighting-bedroom.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 251
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/TUYAcobLED",
       "kind": "unverified_shortlink",
-      "line": 67
+      "line": 53
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/24vDCplugLED",
       "kind": "unverified_shortlink",
-      "line": 88
+      "line": 67
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarLED",
       "kind": "unverified_shortlink",
-      "line": 109
+      "line": 81
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarStep",
       "kind": "unverified_shortlink",
-      "line": 134
+      "line": 99
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarInground",
       "kind": "unverified_shortlink",
-      "line": 140
+      "line": 101
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarWall",
       "kind": "unverified_shortlink",
-      "line": 146
+      "line": 103
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "url": "https://webstore.iec.ch/en/publication/2452",
+      "kind": "external",
+      "line": 136
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "url": "https://www.ledvance.com/00_Free_To_Use/asset-10795714_LEDVANCE_LED_Strip_System_-_Wave_2_-_Fall_2020_EN.pdf",
+      "kind": "external",
+      "line": 154
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "url": "https://www.esfi.org/ground-fault-circuit-interrupters-gfci/",
+      "kind": "external",
+      "line": 173
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://steynenslin.s.gy/SolarSpot",
       "kind": "unverified_shortlink",
-      "line": 228
+      "line": 184
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "url": "https://www.esfi.org/outdoor-decoration-safety-tips/",
+      "kind": "external",
+      "line": 237
     },
     {
       "file": "led-strip-integration-modern-deck.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 317
+      "line": 247
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 249
+    },
+    {
+      "file": "luxury-interior-design-principles.md",
+      "url": "https://steynenslin.s.gy/picture-light",
+      "kind": "unverified_shortlink",
+      "line": 91
+    },
+    {
+      "file": "luxury-interior-design-principles.md",
+      "url": "https://steynenslin.s.gy/smart-dimmer",
+      "kind": "unverified_shortlink",
+      "line": 92
     },
     {
       "file": "luxury-interior-design-principles.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 225
+      "line": 238
     },
     {
       "file": "luxury-interior-design-principles.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 227
+      "line": 240
+    },
+    {
+      "file": "modular-sectionals-entertaining.md",
+      "url": "https://steynenslin.s.gy/sofa-connectors",
+      "kind": "unverified_shortlink",
+      "line": 208
+    },
+    {
+      "file": "modular-sectionals-entertaining.md",
+      "url": "https://steynenslin.s.gy/sectional-sofa-cover",
+      "kind": "unverified_shortlink",
+      "line": 209
     },
     {
       "file": "modular-sectionals-entertaining.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 263
+      "line": 276
     },
     {
       "file": "modular-sectionals-entertaining.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 265
+      "line": 278
     },
     {
       "file": "moonlighting-tree-canopies.md",
@@ -243,162 +651,842 @@
     },
     {
       "file": "moonlighting-tree-canopies.md",
+      "url": "https://steynenslin.s.gy/tree-spotlight-12v",
+      "kind": "unverified_shortlink",
+      "line": 119
+    },
+    {
+      "file": "moonlighting-tree-canopies.md",
+      "url": "https://steynenslin.s.gy/landscape-transformer-12v24v",
+      "kind": "unverified_shortlink",
+      "line": 120
+    },
+    {
+      "file": "moonlighting-tree-canopies.md",
+      "url": "https://steynenslin.s.gy/waterproof-connectors",
+      "kind": "unverified_shortlink",
+      "line": 121
+    },
+    {
+      "file": "moonlighting-tree-canopies.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 126
+      "line": 134
     },
     {
       "file": "moonlighting-tree-canopies.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 193
+      "line": 205
+    },
+    {
+      "file": "natural-stone-countertops-guide.md",
+      "url": "https://steynenslin.s.gy/microfiber-cloths",
+      "kind": "unverified_shortlink",
+      "line": 260
+    },
+    {
+      "file": "natural-stone-countertops-guide.md",
+      "url": "https://steynenslin.s.gy/silicone-trivet",
+      "kind": "unverified_shortlink",
+      "line": 261
+    },
+    {
+      "file": "natural-stone-countertops-guide.md",
+      "url": "https://steynenslin.s.gy/stone-cleaner",
+      "kind": "unverified_shortlink",
+      "line": 262
+    },
+    {
+      "file": "natural-stone-countertops-guide.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 354
+    },
+    {
+      "file": "natural-stone-countertops-guide.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 356
+    },
+    {
+      "file": "natural-stone-materials.md",
+      "url": "https://steynenslin.s.gy/microfiber-cloths",
+      "kind": "unverified_shortlink",
+      "line": 252
+    },
+    {
+      "file": "natural-stone-materials.md",
+      "url": "https://steynenslin.s.gy/silicone-trivet",
+      "kind": "unverified_shortlink",
+      "line": 253
+    },
+    {
+      "file": "natural-stone-materials.md",
+      "url": "https://steynenslin.s.gy/stone-cleaner",
+      "kind": "unverified_shortlink",
+      "line": 254
     },
     {
       "file": "natural-stone-materials.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 317
+      "line": 327
+    },
+    {
+      "file": "natural-stone-materials.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 329
+    },
+    {
+      "file": "outdoor-fireplace-focal-point.md",
+      "url": "https://steynenslin.s.gy/fireplace-tool-set",
+      "kind": "unverified_shortlink",
+      "line": 158
+    },
+    {
+      "file": "outdoor-fireplace-focal-point.md",
+      "url": "https://steynenslin.s.gy/firewood-carrier",
+      "kind": "unverified_shortlink",
+      "line": 159
     },
     {
       "file": "outdoor-fireplace-focal-point.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 210
+      "line": 221
     },
     {
       "file": "outdoor-fireplace-focal-point.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 212
+      "line": 223
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://steynenslin.s.gy/wired-landscape-spotlight",
+      "kind": "unverified_shortlink",
+      "line": 119
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://steynenslin.s.gy/smart-dimmer",
+      "kind": "unverified_shortlink",
+      "line": 129
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+      "kind": "external",
+      "line": 147
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://steynenslin.s.gy/scene-switch",
+      "kind": "unverified_shortlink",
+      "line": 155
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://steynenslin.s.gy/landscape-transformer-12v24v",
+      "kind": "unverified_shortlink",
+      "line": 173
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://linktr.ee/steynenslin",
+      "kind": "external",
+      "line": 189
+    },
+    {
+      "file": "outdoor-lighting-glare-night-audit.md",
+      "url": "https://za.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 189
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "url": "https://steynenslin.s.gy/outdoor-rug-pp",
+      "kind": "unverified_shortlink",
+      "line": 44
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "url": "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rugs-ultimate-guide",
+      "kind": "external",
+      "line": 48
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "url": "https://www.trex.com/why-trex/faq/",
+      "kind": "external",
+      "line": 58
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "url": "https://steynenslin.s.gy/rug-gripper",
+      "kind": "unverified_shortlink",
+      "line": 68
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "url": "https://www.rugsusa.com/pages/rug-size-guide",
+      "kind": "external",
+      "line": 90
     },
     {
       "file": "outdoor-rugs-defy-elements.md",
       "url": "https://steynenslin.s.gy/Rug",
       "kind": "unverified_shortlink",
-      "line": 92
+      "line": 110
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "url": "https://www.rugsusa.com/blogs/the-roll-out/outdoor-rug-questions-answered",
+      "kind": "external",
+      "line": 134
     },
     {
       "file": "outdoor-rugs-defy-elements.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 237
+      "line": 168
     },
     {
       "file": "outdoor-rugs-defy-elements.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 239
+      "line": 170
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://steynenslin.s.gy/TUYAcobLED",
       "kind": "unverified_shortlink",
-      "line": 64
+      "line": 65
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://steynenslin.s.gy/24vDCplugLED",
       "kind": "unverified_shortlink",
-      "line": 67
+      "line": 68
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://steynenslin.s.gy/Solar-string",
       "kind": "unverified_shortlink",
-      "line": 83
+      "line": 84
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://steynenslin.s.gy/SolarSpot",
       "kind": "unverified_shortlink",
-      "line": 97
+      "line": 98
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://steynenslin.s.gy/SolarStep",
       "kind": "unverified_shortlink",
-      "line": 123
+      "line": 124
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://steynenslin.s.gy/SolarInground",
       "kind": "unverified_shortlink",
-      "line": 137
+      "line": 138
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 222
+      "line": 238
     },
     {
       "file": "pergola-lighting-outdoor-room.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 224
+      "line": 240
+    },
+    {
+      "file": "perimeter-monitoring.md",
+      "url": "https://steynenslin.s.gy/poe-camera",
+      "kind": "unverified_shortlink",
+      "line": 183
+    },
+    {
+      "file": "perimeter-monitoring.md",
+      "url": "https://steynenslin.s.gy/motion-floodlight-12v",
+      "kind": "unverified_shortlink",
+      "line": 184
+    },
+    {
+      "file": "perimeter-monitoring.md",
+      "url": "https://steynenslin.s.gy/driveway-alarm",
+      "kind": "unverified_shortlink",
+      "line": 185
+    },
+    {
+      "file": "perimeter-monitoring.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 336
+    },
+    {
+      "file": "perimeter-monitoring.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 338
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://www.naturalstoneinstitute.org/consumers/sealing-stone/",
+      "kind": "external",
+      "line": 55
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://usenaturalstone.org/caring-for-quartzite-countertops/",
+      "kind": "external",
+      "line": 55
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://steynenslin.s.gy/microfiber-cloths",
+      "kind": "unverified_shortlink",
+      "line": 140
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://steynenslin.s.gy/silicone-trivet",
+      "kind": "unverified_shortlink",
+      "line": 141
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://steynenslin.s.gy/stone-cleaner",
+      "kind": "unverified_shortlink",
+      "line": 142
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://www.naturalstoneinstitute.org/consumers/care/",
+      "kind": "external",
+      "line": 150
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 189
+    },
+    {
+      "file": "quartzite-vs-porcelain-countertops.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 191
+    },
+    {
+      "file": "smart-access-control.md",
+      "url": "https://steynenslin.s.gy/fingerprint-smart-lock",
+      "kind": "unverified_shortlink",
+      "line": 156
+    },
+    {
+      "file": "smart-access-control.md",
+      "url": "https://steynenslin.s.gy/video-doorbell",
+      "kind": "unverified_shortlink",
+      "line": 157
+    },
+    {
+      "file": "smart-access-control.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 297
+    },
+    {
+      "file": "smart-access-control.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 299
+    },
+    {
+      "file": "smart-blinds-follow-sun.md",
+      "url": "https://steynenslin.s.gy/roller-blind-motor",
+      "kind": "unverified_shortlink",
+      "line": 142
+    },
+    {
+      "file": "smart-blinds-follow-sun.md",
+      "url": "https://steynenslin.s.gy/curtain-motor",
+      "kind": "unverified_shortlink",
+      "line": 143
     },
     {
       "file": "smart-blinds-follow-sun.md",
       "url": "https://steynenslin.s.gy/Smart-blinds",
       "kind": "unverified_shortlink",
-      "line": 157
+      "line": 169
     },
     {
       "file": "smart-blinds-follow-sun.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 227
+      "line": 243
     },
     {
       "file": "smart-blinds-follow-sun.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 229
+      "line": 245
+    },
+    {
+      "file": "smart-home-lighting-control.md",
+      "url": "https://steynenslin.s.gy/smart-dimmer",
+      "kind": "unverified_shortlink",
+      "line": 132
+    },
+    {
+      "file": "smart-home-lighting-control.md",
+      "url": "https://steynenslin.s.gy/matter-zigbee-hub",
+      "kind": "unverified_shortlink",
+      "line": 133
+    },
+    {
+      "file": "smart-home-lighting-control.md",
+      "url": "https://steynenslin.s.gy/smart-relay",
+      "kind": "unverified_shortlink",
+      "line": 134
+    },
+    {
+      "file": "smart-home-lighting-control.md",
+      "url": "https://steynenslin.s.gy/mmwave-sensor",
+      "kind": "unverified_shortlink",
+      "line": 135
+    },
+    {
+      "file": "smart-home-lighting-control.md",
+      "url": "https://steynenslin.s.gy/scene-switch",
+      "kind": "unverified_shortlink",
+      "line": 136
     },
     {
       "file": "smart-home-lighting-control.md",
       "url": "https://tr.ee/Sp8jyc",
       "kind": "unverified_shortlink",
-      "line": 207
+      "line": 223
     },
     {
       "file": "smart-home-lighting-control.md",
       "url": "https://www.pinterest.com/steynenslin/",
       "kind": "external",
-      "line": 209
+      "line": 225
     },
     {
-      "file": "solar-pathway-lights-affordable.md",
-      "url": "https://steynenslin.s.gy/solar-ball-lights",
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-pinterest-02-living-room.jpg",
+      "kind": "external",
+      "line": 39
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-pinterest-01-entryway.jpg",
+      "kind": "external",
+      "line": 49
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-05-cinema-lighting.jpg",
+      "kind": "external",
+      "line": 59
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-02-golden-hour-bedroom.jpg",
+      "kind": "external",
+      "line": 69
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-04-connected-kitchen.jpg",
+      "kind": "external",
+      "line": 77
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-09-peaceful-nursery.jpg",
+      "kind": "external",
+      "line": 85
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-08-smart-bathroom-mirror.jpg",
+      "kind": "external",
+      "line": 93
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-pinterest-10-night.jpg",
+      "kind": "external",
+      "line": 101
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-pinterest-09-energy.jpg",
+      "kind": "external",
+      "line": 109
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://steynenslin.s.gy/smart-dimmer",
+      "kind": "unverified_shortlink",
+      "line": 124
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://steynenslin.s.gy/matter-zigbee-hub",
       "kind": "unverified_shortlink",
       "line": 125
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://steynenslin.s.gy/roller-blind-motor",
+      "kind": "unverified_shortlink",
+      "line": 126
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://steynenslin.s.gy/video-doorbell",
+      "kind": "unverified_shortlink",
+      "line": 127
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 139
+    },
+    {
+      "file": "smart-home-planning-by-room.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 141
     },
     {
       "file": "solar-pathway-lights-affordable.md",
       "url": "https://steynenslin.s.gy/solar-lantern-lights",
       "kind": "unverified_shortlink",
-      "line": 142
+      "line": 118
     },
     {
       "file": "solar-pathway-lights-affordable.md",
-      "url": "https://tr.ee/Sp8jyc",
+      "url": "https://steynenslin.s.gy/solar-ball-lights",
       "kind": "unverified_shortlink",
-      "line": 174
+      "line": 135
     },
     {
       "file": "solar-pathway-lights-affordable.md",
-      "url": "https://www.pinterest.com/steynenslin/",
+      "url": "https://steynenslin.s.gy/solar-bollard",
+      "kind": "unverified_shortlink",
+      "line": 154
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "url": "https://darksky.org/get-involved/home-lighting-assessment/",
       "kind": "external",
-      "line": 236
+      "line": 241
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "url": "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+      "kind": "external",
+      "line": 242
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Solar-Powered%20Street%20and%20Area%20Lighting%20Considerations%20-%20Factsheet.pdf",
+      "kind": "external",
+      "line": 243
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "url": "https://webstore.iec.ch/en/publication/2452",
+      "kind": "external",
+      "line": 244
     },
     {
       "file": "upward-lighting-architectural-grazing.md",
-      "url": "https://tr.ee/x9keXp",
+      "url": "https://steynenslin.s.gy/wall-washer-24v",
       "kind": "unverified_shortlink",
-      "line": 181
+      "line": 92
+    },
+    {
+      "file": "upward-lighting-architectural-grazing.md",
+      "url": "https://steynenslin.s.gy/wired-landscape-spotlight",
+      "kind": "unverified_shortlink",
+      "line": 93
+    },
+    {
+      "file": "upward-lighting-architectural-grazing.md",
+      "url": "https://steynenslin.s.gy/linear-wall-light",
+      "kind": "unverified_shortlink",
+      "line": 94
+    },
+    {
+      "file": "upward-lighting-architectural-grazing.md",
+      "url": "https://tr.ee/Sp8jyc",
+      "kind": "unverified_shortlink",
+      "line": 192
+    },
+    {
+      "file": "upward-lighting-architectural-grazing.md",
+      "url": "https://www.pinterest.com/steynenslin/",
+      "kind": "external",
+      "line": 194
     }
   ],
   "issues": [],
+  "warnings": [
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "TUYAcobLED",
+      "url": "https://steynenslin.s.gy/TUYAcobLED"
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarStep",
+      "url": "https://steynenslin.s.gy/SolarStep"
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarInground",
+      "url": "https://steynenslin.s.gy/SolarInground"
+    },
+    {
+      "file": "copper-lanterns-age-with-grace.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "discreet-security-cameras.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "poe-camera",
+      "url": "https://steynenslin.s.gy/poe-camera"
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarInground",
+      "url": "https://steynenslin.s.gy/SolarInground"
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "waterproof-connectors",
+      "url": "https://steynenslin.s.gy/waterproof-connectors"
+    },
+    {
+      "file": "garden-pathway-lighting.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarStep",
+      "url": "https://steynenslin.s.gy/SolarStep"
+    },
+    {
+      "file": "garden-pathway-moonlighting.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "waterproof-connectors",
+      "url": "https://steynenslin.s.gy/waterproof-connectors"
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "waterproof-connectors",
+      "url": "https://steynenslin.s.gy/waterproof-connectors"
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarInground",
+      "url": "https://steynenslin.s.gy/SolarInground"
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarLED",
+      "url": "https://steynenslin.s.gy/SolarLED"
+    },
+    {
+      "file": "hidden-uplighting-mature-trees.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "invisible-hvac-design.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "ac-ir-controller",
+      "url": "https://steynenslin.s.gy/ac-ir-controller"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "TUYAcobLED",
+      "url": "https://steynenslin.s.gy/TUYAcobLED"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "TUYAcobLED",
+      "url": "https://steynenslin.s.gy/TUYAcobLED"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarLED",
+      "url": "https://steynenslin.s.gy/SolarLED"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarStep",
+      "url": "https://steynenslin.s.gy/SolarStep"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarInground",
+      "url": "https://steynenslin.s.gy/SolarInground"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarWall",
+      "url": "https://steynenslin.s.gy/SolarWall"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarStep",
+      "url": "https://steynenslin.s.gy/SolarStep"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarInground",
+      "url": "https://steynenslin.s.gy/SolarInground"
+    },
+    {
+      "file": "led-strip-integration-modern-deck.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "moonlighting-tree-canopies.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "moonlighting-tree-canopies.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "waterproof-connectors",
+      "url": "https://steynenslin.s.gy/waterproof-connectors"
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "rug-gripper",
+      "url": "https://steynenslin.s.gy/rug-gripper"
+    },
+    {
+      "file": "outdoor-rugs-defy-elements.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "Rug",
+      "url": "https://steynenslin.s.gy/Rug"
+    },
+    {
+      "file": "pergola-lighting-outdoor-room.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "TUYAcobLED",
+      "url": "https://steynenslin.s.gy/TUYAcobLED"
+    },
+    {
+      "file": "pergola-lighting-outdoor-room.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "Solar-string",
+      "url": "https://steynenslin.s.gy/Solar-string"
+    },
+    {
+      "file": "pergola-lighting-outdoor-room.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarSpot",
+      "url": "https://steynenslin.s.gy/SolarSpot"
+    },
+    {
+      "file": "pergola-lighting-outdoor-room.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarStep",
+      "url": "https://steynenslin.s.gy/SolarStep"
+    },
+    {
+      "file": "pergola-lighting-outdoor-room.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "SolarInground",
+      "url": "https://steynenslin.s.gy/SolarInground"
+    },
+    {
+      "file": "perimeter-monitoring.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "poe-camera",
+      "url": "https://steynenslin.s.gy/poe-camera"
+    },
+    {
+      "file": "smart-blinds-follow-sun.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "Smart-blinds",
+      "url": "https://steynenslin.s.gy/Smart-blinds"
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "solar-lantern-lights",
+      "url": "https://steynenslin.s.gy/solar-lantern-lights"
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "solar-lantern-lights",
+      "url": "https://steynenslin.s.gy/solar-lantern-lights"
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "solar-ball-lights",
+      "url": "https://steynenslin.s.gy/solar-ball-lights"
+    },
+    {
+      "file": "solar-pathway-lights-affordable.md",
+      "kind": "nonaffiliate_shortlink_in_source",
+      "slug": "solar-ball-lights",
+      "url": "https://steynenslin.s.gy/solar-ball-lights"
+    }
+  ],
   "commercial": [
     {
       "slug": "24vDCplugLED",
@@ -409,7 +1497,300 @@
       ],
       "verification": "owner_tested_linktree_to_shortio; final_merchant_and_commission_unverified",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": "2026-09-28"
+      "last_verified_at": "2026-09-28",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "ac-ir-controller",
+      "sources": [
+        "invisible-hvac-design.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "brass-pendant-lantern",
+      "sources": [
+        "copper-lanterns-age-with-grace.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "coffee-scale",
+      "sources": [
+        "kitchen-appliances-luxury.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "copper-polish",
+      "sources": [
+        "copper-lanterns-age-with-grace.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "copper-wall-lantern",
+      "sources": [
+        "copper-lanterns-age-with-grace.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "curtain-motor",
+      "sources": [
+        "smart-blinds-follow-sun.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "drawer-dividers",
+      "sources": [
+        "everyday-kitchen-essentials-organization.md",
+        "kitchen-design-layout.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "driveway-alarm",
+      "sources": [
+        "perimeter-monitoring.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "fingerprint-smart-lock",
+      "sources": [
+        "smart-access-control.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "fire-glass",
+      "sources": [
+        "fire-pit-tables-centerpiece.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "fire-pit-cover",
+      "sources": [
+        "fire-pit-tables-centerpiece.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "fireplace-tool-set",
+      "sources": [
+        "outdoor-fireplace-focal-point.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "firewood-carrier",
+      "sources": [
+        "outdoor-fireplace-focal-point.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "landscape-transformer-12v24v",
+      "sources": [
+        "garden-pathway-lighting.md",
+        "garden-pathway-moonlighting.md",
+        "hidden-uplighting-mature-trees.md",
+        "moonlighting-tree-canopies.md",
+        "outdoor-lighting-glare-night-audit.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "linear-wall-light",
+      "sources": [
+        "upward-lighting-architectural-grazing.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "matter-zigbee-hub",
+      "sources": [
+        "smart-home-lighting-control.md",
+        "smart-home-planning-by-room.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "microfiber-cloths",
+      "sources": [
+        "natural-stone-countertops-guide.md",
+        "natural-stone-materials.md",
+        "quartzite-vs-porcelain-countertops.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "mmwave-sensor",
+      "sources": [
+        "smart-home-lighting-control.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "motion-floodlight-12v",
+      "sources": [
+        "discreet-security-cameras.md",
+        "perimeter-monitoring.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "motion-night-light",
+      "sources": [
+        "layered-lighting-bedroom.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "outdoor-rug-pp",
+      "sources": [
+        "how-to-arrange-patio-furniture.md",
+        "outdoor-rugs-defy-elements.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "picture-light",
+      "sources": [
+        "how-to-create-interior-design-brief.md",
+        "layered-lighting-bedroom.md",
+        "luxury-interior-design-principles.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "poe-camera",
+      "sources": [
+        "discreet-security-cameras.md",
+        "perimeter-monitoring.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "pull-out-cabinet",
+      "sources": [
+        "everyday-kitchen-essentials-organization.md",
+        "kitchen-design-layout.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "roller-blind-motor",
+      "sources": [
+        "how-to-create-interior-design-brief.md",
+        "smart-blinds-follow-sun.md",
+        "smart-home-planning-by-room.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "Rug",
@@ -418,7 +1799,57 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "rug-gripper",
+      "sources": [
+        "outdoor-rugs-defy-elements.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "scene-switch",
+      "sources": [
+        "outdoor-lighting-glare-night-audit.md",
+        "smart-home-lighting-control.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "sectional-sofa-cover",
+      "sources": [
+        "how-to-arrange-patio-furniture.md",
+        "modular-sectionals-entertaining.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "silicone-trivet",
+      "sources": [
+        "natural-stone-countertops-guide.md",
+        "natural-stone-materials.md",
+        "quartzite-vs-porcelain-countertops.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "Smart-blinds",
@@ -427,7 +1858,82 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "smart-dimmer",
+      "sources": [
+        "how-to-create-interior-design-brief.md",
+        "layered-lighting-bedroom.md",
+        "luxury-interior-design-principles.md",
+        "outdoor-lighting-glare-night-audit.md",
+        "smart-home-lighting-control.md",
+        "smart-home-planning-by-room.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "smart-relay",
+      "sources": [
+        "smart-home-lighting-control.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "sofa-connectors",
+      "sources": [
+        "how-to-arrange-patio-furniture.md",
+        "modular-sectionals-entertaining.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "solar-ball-lights",
+      "sources": [
+        "solar-pathway-lights-affordable.md"
+      ],
+      "verification": "owner_manually_confirmed_redirect_product_type; final_commission_unverified",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": "2026-09-28",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "solar-bollard",
+      "sources": [
+        "garden-pathway-lighting.md",
+        "solar-pathway-lights-affordable.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "solar-lantern-lights",
+      "sources": [
+        "solar-pathway-lights-affordable.md"
+      ],
+      "verification": "owner_manually_confirmed_redirect_product_type; final_commission_unverified",
+      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
+      "last_verified_at": "2026-09-28",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "Solar-string",
@@ -436,7 +1942,9 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "SolarInground",
@@ -449,7 +1957,9 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "SolarLED",
@@ -459,7 +1969,9 @@
       ],
       "verification": "verified_live_shortio_to_admitad_deeplink; final_merchant_unverified",
       "merchant": "AliExpress WW (Admitad Link Checker Active; listing stock unverified)",
-      "last_verified_at": "2026-09-28"
+      "last_verified_at": "2026-09-28",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "SolarSpot",
@@ -472,7 +1984,9 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "SolarStep",
@@ -484,7 +1998,9 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "SolarWall",
@@ -493,7 +2009,45 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "stone-cleaner",
+      "sources": [
+        "natural-stone-countertops-guide.md",
+        "natural-stone-materials.md",
+        "quartzite-vs-porcelain-countertops.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "temp-humidity-sensor",
+      "sources": [
+        "invisible-hvac-design.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "tree-spotlight-12v",
+      "sources": [
+        "garden-pathway-moonlighting.md",
+        "moonlighting-tree-canopies.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
       "slug": "TUYAcobLED",
@@ -504,25 +2058,252 @@
       ],
       "verification": "pending_live_product_and_attribution",
       "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "last_verified_at": null,
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
-      "slug": "solar-ball-lights",
+      "slug": "under-sink-organizer",
       "sources": [
-        "solar-pathway-lights-affordable.md"
+        "everyday-kitchen-essentials-organization.md",
+        "kitchen-design-layout.md"
       ],
-      "verification": "pending_live_product_and_attribution",
-      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
     },
     {
-      "slug": "solar-lantern-lights",
+      "slug": "video-doorbell",
       "sources": [
-        "solar-pathway-lights-affordable.md"
+        "discreet-security-cameras.md",
+        "smart-access-control.md",
+        "smart-home-planning-by-room.md"
       ],
-      "verification": "pending_live_product_and_attribution",
-      "merchant": "AliExpress (dashboard destination; programme eligibility unverified)",
-      "last_verified_at": null
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "wall-washer-24v",
+      "sources": [
+        "upward-lighting-architectural-grazing.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "waterproof-connectors",
+      "sources": [
+        "garden-pathway-lighting.md",
+        "garden-pathway-moonlighting.md",
+        "hidden-uplighting-mature-trees.md",
+        "moonlighting-tree-canopies.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "wired-landscape-spotlight",
+      "sources": [
+        "hidden-uplighting-mature-trees.md",
+        "outdoor-lighting-glare-night-audit.md",
+        "upward-lighting-architectural-grazing.md"
+      ],
+      "verification": "verified_admitad_deeplink_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-09-30",
+      "catalogue_status": null,
+      "eligible_for_new_placement": false
+    },
+    {
+      "slug": "pir-motion-switch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "zigbee-mini-breaker",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "smart-e27-socket",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "wifi-rf-wall-switch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "smart-dimmer-switch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "no-neutral-touch-switch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "moes-scene-switch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "zigbee-wall-switch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "rgb-speaker-clock",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "galaxy-ocean-projector",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-up-down-wall-light",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "rgbw-landscape-spotlight",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-courtyard-wall-lamp",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-motion-street-light",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "outdoor-wall-spotlight",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-motion-garden-light",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-garden-torch",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-wall-lantern",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "solar-globe-string-lights",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
+    },
+    {
+      "slug": "rgbic-net-lights",
+      "sources": [],
+      "verification": "verified_admitad_link_checker_and_shortio_destination",
+      "merchant": "AliExpress WW",
+      "last_verified_at": "2026-11-15",
+      "catalogue_status": "available_for_new_and_refresh_articles",
+      "eligible_for_new_placement": true
     }
   ]
 }

@@ -2684,7 +2684,7 @@
       "destination_url": "https://velucedesign.com/article/kitchen-design-layout/",
       "board_service_id": "296815500381470701",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-15",
       "topic": "kitchen-layout",
       "board_name": "Kitchen Organization Ideas",
@@ -2696,7 +2696,9 @@
       "recorded_at": "2026-11-15T11:43:19.798Z",
       "github_run_id": "43710258634",
       "buffer_post_id": "6af99ad9c5b364e0625123af",
-      "submitted_at": "2026-11-15T11:43:24.432Z"
+      "submitted_at": "2026-11-15T11:43:24.432Z",
+      "sent_at": "2026-11-15T11:43:24.014Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716534759"
     }
   ]
 }

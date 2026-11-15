@@ -54,7 +54,7 @@ Used together, they create a complete tree illumination system — uplighting re
 <br>
 <br>
 
-**[→ Shop Narrow-Beam Spotlights for Tree Lighting](https://steynenslin.s.gy/SolarSpot)**
+For tree lighting, compare narrow-beam spotlights whose beam angle, output, weather rating and mounting method are documented.
 
 *Note: Wired fixtures remain the preferred option for permanent moonlighting installations, while solar spotlights can work effectively in lower-access applications or where wiring is impractical.*
 
@@ -118,7 +118,7 @@ For a permanent system, low-voltage wiring gives you consistent output and avoid
 
 - <a href="https://steynenslin.s.gy/tree-spotlight-12v" target="_blank">→ Browse the 12V directional landscape/tree spotlight</a> — a candidate for directional lighting where the mounting arrangement suits the tree and desired beam.
 - <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — for converting the supply to low voltage before the landscape circuit.
-- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage connectors</a> — for weather-protected joins on the low-voltage side.
+- Use correctly rated low-voltage connectors for weather-protected joins on the low-voltage side.
 
 ## Layering Moonlighting with Other Garden Lights
 

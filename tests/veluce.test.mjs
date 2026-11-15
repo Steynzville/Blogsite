@@ -10,12 +10,14 @@ test('UTM, Pinterest and query parameters do not become routes',()=>{for(const q
 test('explicit and legacy Pages redirects preserve destination query',()=>{assert.equal(redirectPath('?__veluce_path=%2Farticle%2Ftest%3Futm_source%3Dpinterest%23faq'),'/article/test?utm_source=pinterest#faq');assert.equal(redirectPath('?article/test&utm_source=pinterest~and~utm_medium=organic'),'/article/test?utm_source=pinterest&utm_medium=organic');assert.equal(redirectPath('?__veluce_path=https%3A%2F%2Fevil.test'),null);assert.equal(redirectPath('?__veluce_path=%2F%2Fevil.test'),null)});
 test('tracking distinguishes unknown shortlinks and excludes ordinary references',()=>{assert.equal(commercialKind('https://steynenslin.s.gy/Rug'),'unverified_shortlink');assert.equal(commercialKind('https://www.amazon.com/dp/test'),null);assert.equal(commercialKind('https://evilaliexpress.com/a'),null);assert.equal(commercialKind('javascript:alert(1)'),null);const e=commercialEvent({href:'https://steynenslin.s.gy/Rug?email=secret',dataset:{}},'/article/a');assert.ok(!JSON.stringify(e).includes('secret'))});
 test('tracking never blocks navigation and records checkout stages without fabricating purchases',()=>{const events={};const doc={addEventListener:(k,v)=>events[k]=v,removeEventListener:k=>delete events[k]};const calls=[];const win={location:{pathname:'/outdoor-lighting-blueprint'},gtag:(...a)=>calls.push(a)};const stop=installCommerceTracking(doc,win);events.click({target:{closest:()=>({href:'https://paystack.com/buy/test',dataset:{productId:'outdoor-lighting-blueprint',productName:'Outdoor Lighting Blueprint',placement:'product-checkout',checkout:'true',value:'299',currency:'ZAR'}})}});assert.equal(calls[0][1],'veluce_commercial_click');assert.equal(calls[1][1],'begin_checkout');assert.equal(calls[1][2].value,299);assert.equal(calls.some(call=>call[1]==='purchase'),false);calls.length=0;events.click({target:{closest:()=>({href:'https://veluce-secure-delivery.netlify.app/download',dataset:{productId:'outdoor-lighting-blueprint',placement:'payment-verification'}})}});assert.equal(calls[1][1],'payment_verification_attempt');delete win.gtag;assert.doesNotThrow(()=>events.click({target:{closest:()=>null}}));stop();assert.equal(Object.keys(events).length,0)});
-test('solar pathway CTAs preserve cylinder and lantern product mappings',()=>{
+test('solar pathway guidance preserves both design directions without nonaffiliate CTAs',()=>{
  const article=fs.readFileSync('content/articles/solar-pathway-lights-affordable.md','utf8');
- assert.ok(article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
- assert.ok(article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-ball-lights)'));
- assert.ok(!article.includes('[→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-ball-lights)'));
- assert.ok(!article.includes('[→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-lantern-lights)'));
+ assert.ok(article.includes('### Modern Cylinder Lights'));
+ assert.ok(article.includes('### Traditional Lantern Lights'));
+ assert.ok(article.includes('/images/solar-modern-path-lights.jpg'));
+ assert.ok(article.includes('/images/solar-lantern-path-lights.jpg'));
+ assert.ok(!article.includes('steynenslin.s.gy/solar-lantern-lights'));
+ assert.ok(!article.includes('steynenslin.s.gy/solar-ball-lights'));
 });
 test('affiliate catalogue exposes 20 verified placements and excludes nonaffiliate links',()=>{
  const registry=JSON.parse(fs.readFileSync('ops/shortlinks.json','utf8'));
@@ -29,6 +31,11 @@ test('affiliate catalogue exposes 20 verified placements and excludes nonaffilia
   assert.equal(records.get(slug)?.verification,'verified_admitad_link_checker_and_shortio_destination');
   assert.equal(records.get(slug)?.public_url,`https://${registry.domain}/${slug}`);
  }
+});
+test('published article source contains no known nonaffiliate shortlink',()=>{
+ const registry=JSON.parse(fs.readFileSync('ops/shortlinks.json','utf8'));
+ const source=fs.readdirSync('content/articles').filter(name=>name.endsWith('.md')).map(name=>fs.readFileSync(`content/articles/${name}`,'utf8')).join('\n');
+ for(const slug of registry.nonaffiliate_slugs) assert.ok(!source.includes(`https://${registry.domain}/${slug}`),slug);
 });
 test('economics includes downside and rejects missing rates',()=>{const scenarios=JSON.parse(fs.readFileSync('ops/economics-scenarios.json'));const base=economics(scenarios[0]);assert.ok(base.affiliateRevenue>0);assert.ok(economics(scenarios[2]).contributionPerOrder<base.contributionPerOrder);assert.throws(()=>economics({...scenarios[0],paymentRate:null}));assert.throws(()=>economics({...scenarios[0],approvalRate:2}))});
 test('unverified drafts cannot generate commercial pages',()=>{assert.ok(validateProduct({}).length>0);assert.ok(validateProduct(JSON.parse(fs.readFileSync('ops/templates/product.json'))).includes('Product is not verified'))});

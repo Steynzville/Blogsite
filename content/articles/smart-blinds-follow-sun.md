@@ -166,7 +166,7 @@ Commission that window through a full day. Check edge light gaps, noise, speed, 
 - Tuya app control with Alexa and Google integration
 - Custom sizing suitable for professionally measured installations
 
-**[→ Shop Tuya Smart Blind](https://steynenslin.s.gy/Smart-blinds)**
+Use those criteria to compare a current Tuya-compatible motorised blind with documented sizing, power, platform support, warranty and replacement-part options.
 
 ## Installation and Setup
 

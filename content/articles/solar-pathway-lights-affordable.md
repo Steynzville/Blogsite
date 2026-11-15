@@ -115,9 +115,7 @@ Keep stakes outside the walking surface and gardening routes while directing use
 
 ### Modern Cylinder Lights
 
-<a href="https://steynenslin.s.gy/solar-lantern-lights" target="_blank">
-  <img src="/images/solar-modern-path-lights.jpg" alt="Modern curved concrete walkway at dusk with sleek cylindrical solar path lights casting warm white glow, contemporary home with floor-to-ceiling windows in background" width="1200" height="800" loading="lazy">
-</a>
+<img src="/images/solar-modern-path-lights.jpg" alt="Modern curved concrete walkway at dusk with sleek cylindrical solar path lights casting warm white glow, contemporary home with floor-to-ceiling windows in background" width="1200" height="800" loading="lazy">
 <br>
 Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beautifully with modern architecture and geometric hardscaping.
 <br>
@@ -128,13 +126,11 @@ Sleek cylindrical fixtures offer a clean, contemporary aesthetic. They pair beau
 - Warm, diffused illumination
 - Contemporary architectural character
 
-Use the approved [→ Shop Modern Cylinder Solar Lights](https://steynenslin.s.gy/solar-lantern-lights) listing to compare this form. Confirm current dimensions, light colour, weather rating, battery details and delivery before ordering; the fixture still needs an on-site trial.
+Use these criteria to compare a current modern-cylinder solar light. Confirm dimensions, light colour, weather rating, battery details and delivery before ordering; the fixture still needs an on-site trial.
 
 ### Traditional Lantern Lights
 
-<a href="https://steynenslin.s.gy/solar-ball-lights" target="_blank">
-  <img src="/images/solar-lantern-path-lights.jpg" alt="Rustic irregular stone path at dusk with traditional lantern-style solar lights casting warm golden glow, lush garden foliage framing the scene" width="1200" height="800" loading="lazy">
-</a>
+<img src="/images/solar-lantern-path-lights.jpg" alt="Rustic irregular stone path at dusk with traditional lantern-style solar lights casting warm golden glow, lush garden foliage framing the scene" width="1200" height="800" loading="lazy">
 <br>
 Classic lantern-style lights with decorative details and warm golden illumination. They complement natural stone paths and traditional architecture.
 <br>
@@ -145,7 +141,7 @@ Classic lantern-style lights with decorative details and warm golden illuminatio
 - Warm golden glow
 - Traditional architectural character
 
-Use the approved [→ Shop Traditional Solar Lantern Lights](https://steynenslin.s.gy/solar-ball-lights) listing to compare proportions and current specifications. Judge it as a possible style direction rather than a guaranteed performance result.
+Use these criteria to compare a current traditional solar lantern. Judge it as a possible style direction rather than a guaranteed performance result.
 
 ### A third design direction: minimal solar bollards
 

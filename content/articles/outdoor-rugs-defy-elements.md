@@ -65,7 +65,7 @@ Keep drainage outlets and deck-board gaps clear. A rug will not correct standing
 
 Some rugs stay stable with furniture placement; others need an appropriate underlay. A pad must suit both the rug and the floor, allow the intended drying process and avoid creating a raised trip edge.
 
-The existing [non-slip rug-gripper underlay](https://steynenslin.s.gy/rug-gripper) is an option to investigate for movement control, not an automatic outdoor recommendation. Confirm outdoor suitability, backing composition, drainage and approval for your floor before buying. If those details are missing, ask the seller or choose an alternative locally with documented compatibility.
+A non-slip rug-gripper underlay can be investigated for movement control, but it is not an automatic outdoor recommendation. Confirm outdoor suitability, backing composition, drainage and approval for your floor before buying. If those details are missing, ask the seller or choose an alternative locally with documented compatibility.
 
 Do not use adhesive tape or ground pegs indiscriminately. Adhesives can affect finishes; pegs require a suitable location and must not damage a deck, paving or waterproofing. Persistent curled edges need attention before the area is used.
 
@@ -107,7 +107,7 @@ A restrained grid or stripe can help organise a loose seating group. Consider th
 
 Mid-tones and subtle patterns can disguise everyday marks. Very pale surfaces show some spills readily; very dark ones can reveal dust and pale debris. Choose for your household and cleaning routine, rather than assuming one colour is always easiest.
 
-If you prefer a graphic pattern, the existing [grey-grid outdoor-rug option](https://steynenslin.s.gy/Rug) offers another visual direction to investigate. Confirm the current listing's material, dimensions, included accessories and care instructions before choosing it. A pattern that suits the room still needs to pass the weather and floor checks above.
+If you prefer a graphic pattern, a grey-grid outdoor rug offers another visual direction to investigate. Confirm the material, dimensions, included accessories and care instructions before choosing it. A pattern that suits the room still needs to pass the weather and floor checks above.
 
 The furniture footprint should be resolved before the rug is sized. The [patio furniture layout guide](/article/how-to-arrange-patio-furniture/) shows how to protect routes and test chairs in their occupied position.
 

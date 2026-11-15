@@ -68,7 +68,7 @@ Not all solar lights work for uplighting. The fixture's beam angle determines th
 
 This is where beam control matters more than brightness.
 
-**[→ Shop Solar Spotlights for Tree Uplighting](https://steynenslin.s.gy/SolarSpot)**
+Compare purpose-designed solar spotlights with documented beam angle, output, weather rating and mounting details.
 
 ### When a wired uplight makes more sense than solar
 
@@ -76,7 +76,7 @@ Solar is convenient where trenching or cable routes are impractical. For a perma
 
 - <a href="https://steynenslin.s.gy/wired-landscape-spotlight" target="_blank">→ Browse the 12V wired landscape spotlight</a> — choose the warm-white 12V variant for the low-voltage system described here.
 - <a href="https://steynenslin.s.gy/landscape-transformer-12v24v" target="_blank">→ Browse the 220V-to-12V/24V outdoor transformer</a> — mains stays at the supply point while the landscape circuit runs low voltage.
-- <a href="https://steynenslin.s.gy/waterproof-connectors" target="_blank">→ Browse IP68 low-voltage cable connectors</a> — for weather-protected cable joins.
+- Use correctly rated low-voltage cable connectors for weather-protected cable joins.
 
 ## Positioning Solar Uplights Correctly
 
@@ -126,10 +126,10 @@ A single uplighted tree is striking. A garden with layered lighting is transform
 
 | Layer | Purpose | Recommended Product |
 |-------|---------|---------------------|
-| **Tree uplighting** | Creates vertical drama, anchors the garden | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) |
-| **Path lighting** | Guides movement, defines circulation | [Solar inground lights](https://steynenslin.s.gy/SolarInground) |
-| **Edge lighting** | Defines garden beds, adds low-level glow | [Solar LED strips](https://steynenslin.s.gy/SolarLED) (verify the current specifications) |
-| **Accent lighting** | Highlights specific plants or features | [Solar spotlights](https://steynenslin.s.gy/SolarSpot) (narrow beam) |
+| **Tree uplighting** | Creates vertical drama, anchors the garden | Narrow-beam solar spotlights |
+| **Path lighting** | Guides movement, defines circulation | Rated solar in-ground lights |
+| **Edge lighting** | Defines garden beds, adds low-level glow | Outdoor-rated solar linear lighting |
+| **Accent lighting** | Highlights specific plants or features | Narrow-beam solar spotlights |
 
 This is the difference between structure and circulation in a garden. Trees anchor. Paths guide. Edges define. When they begin working together, the garden stops behaving like separate elements.
 

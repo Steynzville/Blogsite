@@ -2471,6 +2471,21 @@
       "board_id": "296815500381472108",
       "buffer_post_id": "6af9cf6e544d0574a927837b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716538628",
+      "pin_id": "296815431716538628",
+      "published_at": "2026-11-15T22:38:59.950Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-12.jpg",
+      "title": "Boardwalk LED Strip Ideas: Light the Edge Without a Runway Effect",
+      "description": "Do glowing boardwalk edges leave enough contrast to recognise the route? See Veluce's outdoor LED-strip guide. Long straight raised timber garden boardwalk with warm linear under-edge illumination near a spa. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6afa348260a910801c516c1a",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

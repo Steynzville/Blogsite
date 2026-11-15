@@ -2740,8 +2740,10 @@
       "source_path": "assets/pinterest-products/outdoor-lighting-blueprint-02-garden-path.jpg",
       "hook": "Are your path lights creating a bright line instead of a welcoming route?",
       "board_name": "Attainable Luxury Outdoor Lighting",
-      "status": "reserved",
-      "recorded_at": "2026-11-15T18:38:34.062Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-15T18:38:34.062Z",
+      "buffer_post_id": "6af9fc2ce5a113497a0764f2",
+      "submitted_at": "2026-11-15T18:38:37.660Z"
     }
   ]
 }

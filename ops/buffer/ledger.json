@@ -2674,6 +2674,27 @@
       "submitted_at": "2026-11-14T23:24:35.475Z",
       "sent_at": "2026-11-14T23:24:34.231Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716531234"
+    },
+    {
+      "creative_id": "veluce-auto-20261115-d4f0bf9c97b1",
+      "workflow": "veluce_editorial",
+      "title": "How to Plan Kitchen Island Seating Without Crowding the Aisles",
+      "description": "Do your island stools leave enough space to walk behind them? See Veluce's practical kitchen-layout guide. Wide warm neutral kitchen with long veined-stone island, four bar stools, globe pendants and open circulation toward dining. Check the cooking, preparation and seating zones before fixing.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-22.jpg",
+      "destination_url": "https://velucedesign.com/article/kitchen-design-layout/",
+      "board_service_id": "296815500381470701",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-15",
+      "topic": "kitchen-layout",
+      "board_name": "Kitchen Organization Ideas",
+      "source_blob_sha": "d4f0bf9c97b1867b1cd5273ece4d31edcb5212bb",
+      "source_path": "assets/pinterest/luxury-interior-22.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-15T11:43:19.798Z",
+      "github_run_id": "43710258634"
     }
   ]
 }

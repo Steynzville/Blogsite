@@ -4686,75 +4686,178 @@
           "https://www.naturalstoneinstitute.org/consumers/sealing-stone/",
           "https://usenaturalstone.org/caring-for-quartzite-countertops/"
         ]
+      },
+      {
+        "weekStart": "2026-11-09",
+        "weekEnd": "2026-11-15",
+        "status": "completed",
+        "refreshDate": "2026-11-15",
+        "exploreMoreAcceptance": {
+          "exactFinalSection": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "livePayloadLinksVerified": true
+        },
+        "articleSlug": "pergola-lighting-outdoor-room",
+        "articleTitle": "Pergola Lighting: How to Create an Outdoor Room After Dark",
+        "articleUrl": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+        "selectionReason": "Existing guide contained overbroad outdoor electrical, IP-rating and voltage guidance and placed a later section after Explore More.",
+        "substantiveChanges": [
+          "Added a measured 3 m × 4 m dining-pergola planning scenario and seated-eye-level glare test",
+          "Replaced universal IP65, DIY, brightness and mains-use claims with complete-system and qualified-electrician checks",
+          "Improved metadata and hero alt text; moved the glare audit before the exact final Explore More section"
+        ],
+        "affiliateMonetisation": {
+          "exactExistingAffiliateDestinationsPreserved": true,
+          "complementaryVeluceProduct": "Outdoor Lighting Blueprint",
+          "disclosurePresent": true
+        },
+        "prNumber": 61,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/61",
+        "mergeCommit": "f6eba04b81a71da434b7f4de2f4fe8015f731df3",
+        "validation": "Veluce quality gates run 43689321623 passed TypeScript, tests, ops audit, production build, ops validation and shared responsive screenshots. The visual artifact was correctly treated as shared-template evidence because its article capture was not the changed slug.",
+        "deployment": "Merged source and generated production article payload verified live on 15 Nov 2026; changed practical-plan text, hero alt text and final link order confirmed.",
+        "imageryAcceptance": {
+          "heroImage": "/images/pergola-hero.jpg",
+          "liveHeroLoaded": true,
+          "desktopArticleVerified": true,
+          "sharedMobileTemplateVerified": true
+        }
+      },
+      {
+        "weekStart": "2026-11-09",
+        "weekEnd": "2026-11-15",
+        "status": "completed",
+        "refreshDate": "2026-11-15",
+        "exploreMoreAcceptance": {
+          "exactFinalSection": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "livePayloadLinksVerified": true
+        },
+        "articleSlug": "smart-blinds-follow-sun",
+        "articleTitle": "Smart Blinds That Follow the Sun",
+        "articleUrl": "https://velucedesign.com/article/smart-blinds-follow-sun/",
+        "selectionReason": "Existing guide used generic prices, lifespan, recharge intervals, compatibility and sun-tracking claims without exact-system checks.",
+        "substantiveChanges": [
+          "Added a representative-window audit covering dimensions, load, power, radio coverage, override and commissioning",
+          "Removed generic price/payback and fixed lifespan claims; replaced them with itemised quote, warranty and service checks",
+          "Reworked FAQs, retrofit guidance, metadata and hero alt text while preserving all existing affiliate destinations and Room Procurement System CTA"
+        ],
+        "affiliateMonetisation": {
+          "exactExistingAffiliateDestinationsPreserved": true,
+          "complementaryVeluceProduct": "Room Procurement System",
+          "disclosurePresent": true
+        },
+        "prNumber": 62,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/62",
+        "mergeCommit": "9da655d882290847d905ebed332996dae6c78d2d",
+        "validation": "PR quality run 43692689328 passed TypeScript, all tests, ops audit, production build and ops validation. The unchanged broad screenshot sweep was cancelled when the approved head merged; article-specific production payload and shared responsive template were then checked independently.",
+        "deployment": "Generated production JSON payload, updated metadata, hero asset and exact closing links verified live on 15 Nov 2026.",
+        "imageryAcceptance": {
+          "heroImage": "/images/smart-blinds.jpg",
+          "liveHeroLoaded": true,
+          "desktopArticleStructureVerified": true,
+          "sharedMobileTemplateVerified": true
+        }
+      },
+      {
+        "weekStart": "2026-11-09",
+        "weekEnd": "2026-11-15",
+        "status": "completed",
+        "refreshDate": "2026-11-15",
+        "exploreMoreAcceptance": {
+          "exactFinalSection": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "livePayloadLinksVerified": true
+        },
+        "articleSlug": "smart-home-lighting-control",
+        "articleTitle": "Whole-Home Lighting Control Systems",
+        "articleUrl": "https://velucedesign.com/article/smart-home-lighting-control/",
+        "selectionReason": "Existing comparison used unsupported universal price ranges, brand-superiority language and compatibility/longevity claims.",
+        "substantiveChanges": [
+          "Added a room-by-room load and control brief plus representative dimming-load mock-up",
+          "Replaced generic brand, cost, compatibility and lifespan assertions with exact product-family, wiring, local-control, commissioning and service checks",
+          "Reworked comparison, cost section, FAQs, metadata and hero alt text while preserving existing affiliate destinations and Luxury Lighting Formula CTA"
+        ],
+        "affiliateMonetisation": {
+          "exactExistingAffiliateDestinationsPreserved": true,
+          "complementaryVeluceProduct": "Luxury Lighting Formula",
+          "disclosurePresent": true
+        },
+        "prNumber": 62,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/62",
+        "mergeCommit": "9da655d882290847d905ebed332996dae6c78d2d",
+        "validation": "PR quality run 43692689328 passed TypeScript, all tests, ops audit, production build and ops validation. The unchanged broad screenshot sweep was cancelled when the approved head merged; article-specific production payload and shared responsive template were then checked independently.",
+        "deployment": "Generated production JSON payload, updated metadata, hero asset and exact closing links verified live on 15 Nov 2026.",
+        "imageryAcceptance": {
+          "heroImage": "/images/lighting-control.jpg",
+          "liveHeroLoaded": true,
+          "desktopArticleStructureVerified": true,
+          "sharedMobileTemplateVerified": true
+        }
       }
     ],
-    "lastCompletedWeekStart": "2026-11-02",
+    "lastCompletedWeekStart": "2026-11-09",
     "lastRun": {
-      "weekStart": "2026-11-02",
-      "weekEnd": "2026-11-08",
+      "weekStart": "2026-11-09",
+      "weekEnd": "2026-11-15",
       "status": "completed",
-      "refreshDate": "2026-11-05",
-      "articleSlug": "quartzite-vs-porcelain-countertops",
-      "articleTitle": "Quartzite vs Porcelain Countertops: A Practical Buyer Comparison",
-      "articleUrl": "https://velucedesign.com/article/quartzite-vs-porcelain-countertops/",
-      "selectionReason": "Finalized Google Search Console web results 2026-10-01 to 2026-11-02: 10 impressions, 0 clicks, average position 4.7; selected also for substantive misinformation or practical content gaps.",
+      "refreshDate": "2026-11-15",
+      "exploreMoreAcceptance": {
+        "exactFinalSection": true,
+        "shopUrl": "https://tr.ee/Sp8jyc",
+        "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+        "livePayloadLinksVerified": true
+      },
+      "articleSlug": "smart-home-lighting-control",
+      "articleTitle": "Whole-Home Lighting Control Systems",
+      "articleUrl": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "selectionReason": "Existing comparison used unsupported universal price ranges, brand-superiority language and compatibility/longevity claims.",
       "substantiveChanges": [
-        "Removed arbitrary fixed sealing, universal material winners, unsupported installed prices and zero-maintenance/indestructibility promises",
-        "Added exact slab/panel sample assessment, edge/support/repair and local like-for-like fitted-quote checklist",
-        "Rebuilt side-by-side comparison, FAQ, metadata; inspected existing contrasting countertop hero and added accurate alt text"
+        "Added a room-by-room load and control brief plus representative dimming-load mock-up",
+        "Replaced generic brand, cost, compatibility and lifespan assertions with exact product-family, wiring, local-control, commissioning and service checks",
+        "Reworked comparison, cost section, FAQs, metadata and hero alt text while preserving existing affiliate destinations and Luxury Lighting Formula CTA"
       ],
       "affiliateMonetisation": {
-        "exactExistingShortlinksPreserved": [
-          "microfiber-cloths",
-          "silicone-trivet",
-          "stone-cleaner"
-        ],
-        "independentProductEligibilityOrCommissionVerification": false,
-        "complementaryVeluceProduct": "Room Procurement System",
+        "exactExistingAffiliateDestinationsPreserved": true,
+        "complementaryVeluceProduct": "Luxury Lighting Formula",
         "disclosurePresent": true
       },
-      "prNumber": 51,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/51",
-      "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
-      "validation": "Veluce quality gates https://github.com/Steynzville/Blogsite/actions/runs/41978762139 succeeded for PR head 248c8e9; pnpm check, test, ops:audit, build, ops:validate, general responsive screenshot review and artifact upload passed. Source diff independently checked exact affiliate slugs, image-alt, Studio CTA and final Explore More section.",
-      "deployment": "GitHub Pages https://github.com/Steynzville/Blogsite/actions/runs/41979396232 succeeded for deployed main b3fb65d8bbbc3c37675f9875557e2793cbb4e9e5; prior run on exact merge 8fe9f2b513b93caa045742970adcb8b9609e7a1a was cancelled automatically when newer main superseded it. Independent zero-cost public article fetch confirmed updated title, meta description, canonical, new substantive content and both exact final outbound destinations.",
+      "prNumber": 62,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/62",
+      "mergeCommit": "9da655d882290847d905ebed332996dae6c78d2d",
+      "validation": "PR quality run 43692689328 passed TypeScript, all tests, ops audit, production build and ops validation. The unchanged broad screenshot sweep was cancelled when the approved head merged; article-specific production payload and shared responsive template were then checked independently.",
+      "deployment": "Generated production JSON payload, updated metadata, hero asset and exact closing links verified live on 15 Nov 2026.",
       "imageryAcceptance": {
-        "heroImage": "/images/quartzite-vs-porcelain.jpg",
-        "heroAssetExistsInRepository": true,
-        "originalHeroAssetVisuallyInspected": true,
-        "descriptiveHeroImageAltAdded": true,
-        "sharedResponsiveArticleComponentValidatedByBuild": true,
-        "selectedArticleLiveHeroImageRendered": "not independently confirmed by read-only crawler (it does not expose client-side img elements)",
-        "selectedArticleMobileScreenshot": "not independently captured; generic article desktop/mobile CI captures passed"
-      },
-      "exploreMoreAcceptance": {
-        "exactFinalMarkdownSection": true,
-        "finalSectionExactlyOnce": true,
-        "liveFinalTwoLinksInOrder": true,
-        "shopUrl": "https://tr.ee/Sp8jyc",
-        "pinterestUrl": "https://www.pinterest.com/steynenslin/"
-      },
-      "sources": [
-        "https://www.naturalstoneinstitute.org/consumers/sealing-stone/",
-        "https://usenaturalstone.org/caring-for-quartzite-countertops/"
-      ]
+        "heroImage": "/images/lighting-control.jpg",
+        "liveHeroLoaded": true,
+        "desktopArticleStructureVerified": true,
+        "sharedMobileTemplateVerified": true
+      }
     },
     "minimumPerWeek": 3,
     "lastWeekSummary": {
-      "weekStart": "2026-11-02",
-      "weekEnd": "2026-11-08",
+      "weekStart": "2026-11-09",
+      "weekEnd": "2026-11-15",
       "status": "completed",
       "minimumRequired": 3,
       "verifiedCompleted": 3,
       "articleSlugs": [
-        "copper-lanterns-age-with-grace",
-        "discreet-security-cameras",
-        "quartzite-vs-porcelain-countertops"
+        "pergola-lighting-outdoor-room",
+        "smart-blinds-follow-sun",
+        "smart-home-lighting-control"
       ],
-      "prNumber": 51,
-      "mergeCommit": "8fe9f2b513b93caa045742970adcb8b9609e7a1a",
-      "deployRunId": 41979396232,
-      "liveVerification": "All three article text/metadata, canonical URLs and closing Shop/Pinterest links checked on deployed site; source hero assets visually inspected; article-specific live mobile rendering not independently inspected"
+      "prNumbers": [
+        61,
+        62
+      ],
+      "mergeCommits": [
+        "f6eba04b81a71da434b7f4de2f4fe8015f731df3",
+        "9da655d882290847d905ebed332996dae6c78d2d"
+      ],
+      "liveVerification": "All three generated production article payloads, metadata, hero assets and final Shop/Pinterest links verified. Shared mobile article template validated from CI artifact; desktop structure showed no horizontal overflow. A stale existing cloud-browser cache retained prior body JSON until cache refresh, while cache-busted production payloads contained the deployed refreshes."
     }
   }
 }

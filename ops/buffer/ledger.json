@@ -2771,6 +2771,32 @@
       "submitted_at": "2026-11-15T22:39:00.377Z",
       "sent_at": "2026-11-15T22:38:59.950Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716538628"
+    },
+    {
+      "creative_id": "veluce-auto-20261116-890569436ea3",
+      "workflow": "veluce_editorial",
+      "title": "What to Check Before Using Veined Stone Across a Bathroom",
+      "description": "Will bold veined stone make your bathroom feel too busy? Compare finishes in Veluce's natural-stone guide. Spa bathroom with a freestanding stone-look bathtub, large-format veined wall finishes and a floating timber vanity in soft daylight. Compare appearance, maintenance and the behaviour of.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-11.jpg",
+      "destination_url": "https://velucedesign.com/article/natural-stone-materials/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-16",
+      "topic": "natural-stone",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "suggested_section": {
+        "id": "5489165536610818379",
+        "name": "Luxury Modern Interior Design"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "890569436ea3fdb647e705a12881ea792325ae79",
+      "source_path": "assets/pinterest/luxury-interior-11.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-15T23:31:07.477Z",
+      "github_run_id": "43775214575"
     }
   ]
 }

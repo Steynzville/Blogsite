@@ -2841,7 +2841,7 @@
       "destination_url": "https://velucedesign.com/article/smart-blinds-follow-sun/",
       "board_service_id": "296815500381470761",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-16",
       "topic": "smart-blinds",
       "board_name": "Cozy Bedroom Ideas & Finds 🔥",
@@ -2853,7 +2853,9 @@
       "recorded_at": "2026-11-16T18:04:29.808Z",
       "github_run_id": "43924881421",
       "buffer_post_id": "6afb45b0d1e269de78f6b05e",
-      "submitted_at": "2026-11-16T18:04:35.299Z"
+      "submitted_at": "2026-11-16T18:04:35.299Z",
+      "sent_at": "2026-11-16T18:04:34.005Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716544252"
     }
   ]
 }

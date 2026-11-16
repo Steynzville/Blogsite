@@ -2831,6 +2831,27 @@
       "submitted_at": "2026-11-16T12:22:38.715Z",
       "sent_at": "2026-11-16T12:22:38.487Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716542657"
+    },
+    {
+      "creative_id": "veluce-auto-20261116-621aa44b37ce",
+      "workflow": "veluce_editorial",
+      "title": "How to Use Smart Bedroom Blinds for a Softer Morning",
+      "description": "Can your blinds admit morning light without exposing the bed to neighbouring views? See Veluce's smart-blinds and daylight guide. Warm bedroom with wide motorised-looking window shading, sunrise city view and an illustrative bedside control screen. Compare the room's real needs, compatibility and.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-02-sunrise-bedroom.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-blinds-follow-sun/",
+      "board_service_id": "296815500381470761",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-16",
+      "topic": "smart-blinds",
+      "board_name": "Cozy Bedroom Ideas & Finds 🔥",
+      "source_blob_sha": "621aa44b37cef9797980ceb786cd0a503f442eee",
+      "source_path": "assets/pinterest/smart-home-02-sunrise-bedroom.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-16T18:04:29.808Z",
+      "github_run_id": "43924881421"
     }
   ]
 }

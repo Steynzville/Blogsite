@@ -2878,6 +2878,32 @@
       "submitted_at": "2026-11-16T21:48:06.285Z",
       "sent_at": "2026-11-16T21:48:05.935Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716545603"
+    },
+    {
+      "creative_id": "veluce-auto-20261117-884c8992272d",
+      "workflow": "veluce_editorial",
+      "title": "LED Strip Lights Beside Water: Plan Pool Edge Glare Carefully",
+      "description": "Are the pool-edge lights reflecting too strongly towards the seating area? See Veluce's outdoor LED-strip guide. Blue-hour garden pool and landscaped deck with a curved warm light strip tracing the water-side border. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-14.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-17",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "884c8992272d7c0a750dad4517a55ce0f86192a6",
+      "source_path": "assets/pinterest/landscape-lighting-14.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-16T23:17:52.261Z",
+      "github_run_id": "43978003158"
     }
   ]
 }

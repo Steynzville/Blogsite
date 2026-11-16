@@ -2811,7 +2811,7 @@
       "destination_url": "https://velucedesign.com/article/natural-stone-countertops-guide/",
       "board_service_id": "296815500381470714",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-16",
       "topic": "kitchen-countertops",
       "board_name": "Kitchen Essentials & Must-Haves 🔥",
@@ -2828,7 +2828,9 @@
       "recorded_at": "2026-11-16T12:22:35.009Z",
       "github_run_id": "43865956206",
       "buffer_post_id": "6afaf58d8941ae4e48e4faf6",
-      "submitted_at": "2026-11-16T12:22:38.715Z"
+      "submitted_at": "2026-11-16T12:22:38.715Z",
+      "sent_at": "2026-11-16T12:22:38.487Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716542657"
     }
   ]
 }

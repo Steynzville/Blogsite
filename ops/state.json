@@ -2576,6 +2576,21 @@
       "board_id": "296815500381472108",
       "buffer_post_id": "6afbbe0185dca6b14a16b416",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716549407",
+      "pin_id": "296815431716549407",
+      "published_at": "2026-11-17T12:42:39.210Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/illuminated-stone-wall-11.jpg",
+      "title": "How to Graze a Textured Garden Wall With Warm Accent Lighting",
+      "description": "Why does a textured garden wall look flat under the wrong spotlight? See Veluce's wall-grazing lighting guide. Tall rough stone garden wall and trees highlighted with warm uplights in a planted courtyard. Consider how grazing angles reveal textured surfaces without creating unwanted glare.",
+      "board": "2026 Warm Organic Home Aesthetic",
+      "board_id": "296815500381469139",
+      "buffer_post_id": "6afc4bbdbdb250961b94395f",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

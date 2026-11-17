@@ -2993,6 +2993,24 @@
       "submitted_at": "2026-11-17T12:42:39.708Z",
       "sent_at": "2026-11-17T12:42:39.210Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716549407"
+    },
+    {
+      "creative_id": "veluce-product-designer-brief-builder-02-travertine-flatlay",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Designer Brief: Choose Materials That Fit the Actual Project",
+      "description": "Do your favourite samples suit the room's existing conditions? Record light, dimensions, surfaces and maintenance needs beside the material moodboard. Explore Veluce Studio's Designer Brief Builder to organise room requirements, priorities, references and measurements.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/designer-brief-builder-02-travertine-flatlay.jpg",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-17",
+      "source_blob_sha": "533e2b734baf64929bb60ee00d6bb1353a1349df",
+      "source_path": "assets/pinterest-products/designer-brief-builder-02-travertine-flatlay.jpg",
+      "hook": "Do your favourite samples suit the room's existing conditions?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-17T20:38:40.051Z"
     }
   ]
 }

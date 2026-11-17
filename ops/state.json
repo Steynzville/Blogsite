@@ -2591,6 +2591,21 @@
       "board_id": "296815500381469139",
       "buffer_post_id": "6afc4bbdbdb250961b94395f",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716552493",
+      "pin_id": "296815431716552493",
+      "published_at": "2026-11-17T22:10:18.704Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-15.jpg",
+      "title": "Outdoor LED Step Strips: Highlight the Change in Level: What to Check Before Installing",
+      "description": "Can visitors spot the edge of every step before they reach the lower terrace? See Veluce's outdoor LED-strip guide. Warm stone garden stairs with concealed strips under the stair nosings next to a modern house. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6afcd0c92c5bd1de81420c2f",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

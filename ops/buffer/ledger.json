@@ -2918,7 +2918,7 @@
       "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
       "board_service_id": "296815500381469139",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-17",
       "topic": "pergola",
       "board_name": "2026 Warm Organic Home Aesthetic",
@@ -2935,7 +2935,9 @@
       "recorded_at": "2026-11-17T01:45:01.243Z",
       "github_run_id": "43997887946",
       "buffer_post_id": "6afbb19ff83aaca8f39fe4cb",
-      "submitted_at": "2026-11-17T01:45:06.217Z"
+      "submitted_at": "2026-11-17T01:45:06.217Z",
+      "sent_at": "2026-11-17T01:45:05.887Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716547022"
     }
   ]
 }

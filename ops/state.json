@@ -2546,6 +2546,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6afb8f2285dca6b14a071f41",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716547022",
+      "pin_id": "296815431716547022",
+      "published_at": "2026-11-17T01:45:05.887Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/garden-gazebo-23.jpg",
+      "title": "How to Make a Garden Pavilion Feel Like a Room After Dark",
+      "description": "Does your garden pavilion feel disconnected from the planting around it? See Veluce's layered pergola-lighting guide. Garden gazebo with integrated warm ceiling lighting, low sofa and ambient landscape uplights. Explore the role of warm canopy light, garden accents and seating zones in an outdoor.",
+      "board": "2026 Warm Organic Home Aesthetic",
+      "board_id": "296815500381469139",
+      "buffer_post_id": "6afbb19ff83aaca8f39fe4cb",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

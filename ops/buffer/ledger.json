@@ -3009,10 +3009,12 @@
       "source_path": "assets/pinterest-products/designer-brief-builder-02-travertine-flatlay.jpg",
       "hook": "Do your favourite samples suit the room's existing conditions?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-17T20:38:40.051Z",
       "buffer_post_id": "6afcbb51ea84dfa92544d016",
-      "submitted_at": "2026-11-17T20:38:43.666Z"
+      "submitted_at": "2026-11-17T20:38:43.666Z",
+      "sent_at": "2026-11-17T20:38:43.247Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716552015"
     }
   ]
 }

@@ -2963,6 +2963,32 @@
       "submitted_at": "2026-11-17T02:37:55.317Z",
       "sent_at": "2026-11-17T02:37:54.896Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716547378"
+    },
+    {
+      "creative_id": "veluce-auto-20261117-a18d52c56a16",
+      "workflow": "veluce_editorial",
+      "title": "How to Graze a Textured Garden Wall With Warm Accent Lighting",
+      "description": "Why does a textured garden wall look flat under the wrong spotlight? See Veluce's wall-grazing lighting guide. Tall rough stone garden wall and trees highlighted with warm uplights in a planted courtyard. Consider how grazing angles reveal textured surfaces without creating unwanted glare.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/illuminated-stone-wall-11.jpg",
+      "destination_url": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-17",
+      "topic": "outdoor-wall-grazing",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "3487152833194786112",
+        "name": "Architectural Lighting & Outdoor Glow"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "a18d52c56a16cbe01bc9e33ac936b974ca405ce6",
+      "source_path": "assets/pinterest/illuminated-stone-wall-11.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-17T12:42:34.933Z",
+      "github_run_id": "44085627156"
     }
   ]
 }

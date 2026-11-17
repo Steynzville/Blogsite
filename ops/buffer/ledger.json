@@ -2973,7 +2973,7 @@
       "destination_url": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
       "board_service_id": "296815500381469139",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-17",
       "topic": "outdoor-wall-grazing",
       "board_name": "2026 Warm Organic Home Aesthetic",
@@ -2988,7 +2988,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-17T12:42:34.933Z",
-      "github_run_id": "44085627156"
+      "github_run_id": "44085627156",
+      "buffer_post_id": "6afc4bbdbdb250961b94395f",
+      "submitted_at": "2026-11-17T12:42:39.708Z"
     }
   ]
 }

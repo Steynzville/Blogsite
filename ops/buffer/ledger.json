@@ -2938,6 +2938,27 @@
       "submitted_at": "2026-11-17T01:45:06.217Z",
       "sent_at": "2026-11-17T01:45:05.887Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716547022"
+    },
+    {
+      "creative_id": "veluce-auto-20261117-7f5a7398d015",
+      "workflow": "veluce_editorial",
+      "title": "How to Control Living Room Light Without Losing Atmosphere",
+      "description": "Does your sofa lighting need separate settings for reading and relaxing? See Veluce's guide to useful smart-lighting scenes. Sunset living room with concealed warm ceiling lighting, garden view and a phone displaying conceptual room scenes. Compare the room's real needs, compatibility and everyday.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-03-living-room-scene.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-17",
+      "topic": "smart-lighting",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "7f5a7398d01588b8d153f08dc7802c3d7d57e550",
+      "source_path": "assets/pinterest/smart-home-03-living-room-scene.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-17T02:37:51.757Z",
+      "github_run_id": "44004364654"
     }
   ]
 }

@@ -2948,7 +2948,7 @@
       "destination_url": "https://velucedesign.com/article/smart-home-lighting-control/",
       "board_service_id": "296815500381472108",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-17",
       "topic": "smart-lighting",
       "board_name": "Smart Home Ideas & Gadgets 🔥",
@@ -2960,7 +2960,9 @@
       "recorded_at": "2026-11-17T02:37:51.757Z",
       "github_run_id": "44004364654",
       "buffer_post_id": "6afbbe0185dca6b14a16b416",
-      "submitted_at": "2026-11-17T02:37:55.317Z"
+      "submitted_at": "2026-11-17T02:37:55.317Z",
+      "sent_at": "2026-11-17T02:37:54.896Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716547378"
     }
   ]
 }

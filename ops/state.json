@@ -2561,6 +2561,21 @@
       "board_id": "296815500381469139",
       "buffer_post_id": "6afbb19ff83aaca8f39fe4cb",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716547378",
+      "pin_id": "296815431716547378",
+      "published_at": "2026-11-17T02:37:54.896Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-03-living-room-scene.jpg",
+      "title": "How to Control Living Room Light Without Losing Atmosphere",
+      "description": "Does your sofa lighting need separate settings for reading and relaxing? See Veluce's guide to useful smart-lighting scenes. Sunset living room with concealed warm ceiling lighting, garden view and a phone displaying conceptual room scenes. Compare the room's real needs, compatibility and everyday.",
+      "board": "Smart Home Ideas & Gadgets 🔥",
+      "board_id": "296815500381472108",
+      "buffer_post_id": "6afbbe0185dca6b14a16b416",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

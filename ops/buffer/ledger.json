@@ -3141,10 +3141,12 @@
       "source_path": "assets/pinterest-products/luxury-lighting-formula-02-sculptural-pendants.jpg",
       "hook": "Does the dining pendant look beautiful but leave the table poorly lit?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-18T20:12:17.713Z",
       "buffer_post_id": "6afe06a461c30f01f6ce9fc8",
-      "submitted_at": "2026-11-18T20:12:22.788Z"
+      "submitted_at": "2026-11-18T20:12:22.788Z",
+      "sent_at": "2026-11-18T20:12:21.593Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716558129"
     }
   ]
 }

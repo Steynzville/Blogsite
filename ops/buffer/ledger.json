@@ -3125,6 +3125,24 @@
       "submitted_at": "2026-11-18T12:34:40.648Z",
       "sent_at": "2026-11-18T12:34:40.314Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716555873"
+    },
+    {
+      "creative_id": "veluce-product-luxury-lighting-formula-02-sculptural-pendants",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "title": "Dining Room Pendant Lighting: Find the Right Balance",
+      "description": "Does the dining pendant look beautiful but leave the table poorly lit? Check task illumination at the table separately from the decorative fixture's glow. Explore Veluce Studio's Luxury Lighting Formula to balance ambient, task and accent lighting.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-lighting-formula-02-sculptural-pendants.jpg",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-18",
+      "source_blob_sha": "1ff7bff905029c9a7d6f92d63f4ff3ceec0ae80e",
+      "source_path": "assets/pinterest-products/luxury-lighting-formula-02-sculptural-pendants.jpg",
+      "hook": "Does the dining pendant look beautiful but leave the table poorly lit?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-18T20:12:17.713Z"
     }
   ]
 }

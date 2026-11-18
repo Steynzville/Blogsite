@@ -2636,6 +2636,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6afd04dc39777dd13e0a0858",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716555873",
+      "pin_id": "296815431716555873",
+      "published_at": "2026-11-18T12:34:40.314Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/evening-garden-ideas-08.jpg",
+      "title": "Where Should Lights Go Along a Stone Path Near a Maple Tree?",
+      "description": "Can guests follow the stone path without losing the maple as a focal point? See Veluce's garden-pathway lighting guide. Rust-coloured Japanese maple at end of a paved courtyard path lined by narrow warm linear edge lighting. Look at walking routes, step edges and the balance between guidance and.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6afd9b5ff712d4c5a24017f9",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

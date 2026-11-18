@@ -2621,6 +2621,21 @@
       "board_id": "296815500381472108",
       "buffer_post_id": "6afcf579f0c5ce9361afb576",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716553446",
+      "pin_id": "296815431716553446",
+      "published_at": "2026-11-18T01:52:29.569Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/balcony-garden-09.jpg",
+      "title": "How to Plan a Narrow Outdoor Lounge Without Blocking the Walkway",
+      "description": "Will your narrow outdoor terrace leave a clear route past the sofa? See Veluce's patio-layout planning guide. Long narrow outdoor terrace with built-in sofa, timber overhead structure and warm perimeter lighting. Think about furniture groupings, focal points and clear routes between outdoor zones.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6afd04dc39777dd13e0a0858",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

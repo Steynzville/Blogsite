@@ -3040,6 +3040,27 @@
       "submitted_at": "2026-11-17T22:10:19.932Z",
       "sent_at": "2026-11-17T22:10:18.704Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716552493"
+    },
+    {
+      "creative_id": "veluce-auto-20261118-d057155c8aff",
+      "workflow": "veluce_editorial",
+      "title": "Smart Kitchen Ideas: Check Controls Before Buying Appliances",
+      "description": "Will the kitchen still work normally if a connected appliance goes offline? See Veluce's room-by-room smart-home planning guide. Contemporary kitchen with integrated refrigerator display, warm task lighting and small connected speaker on the island. Compare the room's real needs, compatibility and.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-04-connected-kitchen.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-home-planning-by-room/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-18",
+      "topic": "smart-home-planning",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "d057155c8afff1f65d572fc91d78901a6e21ff61",
+      "source_path": "assets/pinterest/smart-home-04-connected-kitchen.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-18T00:46:47.340Z",
+      "github_run_id": "44210566077"
     }
   ]
 }

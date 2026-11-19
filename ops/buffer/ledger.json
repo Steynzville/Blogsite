@@ -3284,6 +3284,27 @@
       "submitted_at": "2026-11-19T20:14:46.341Z",
       "sent_at": "2026-11-19T20:14:45.296Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716564716"
+    },
+    {
+      "creative_id": "veluce-auto-20261120-84e7b1bee5b2",
+      "workflow": "veluce_editorial",
+      "title": "Outdoor LED Stair Lighting: Create a Clear Rhythm on Every Step: What to Check Before Installing",
+      "description": "Could more consistent tread lighting make a long exterior staircase easier to use? See Veluce's outdoor LED-strip guide. Broad outdoor staircase at night with warm concealed lights on each tread and a modest caption reading The Rhythm of Light. Explore practical lighting-placement, visibility and.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-18.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-20",
+      "topic": "led-deck-strips",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "84e7b1bee5b27d496bc90e81f32683df79909d47",
+      "source_path": "assets/pinterest/landscape-lighting-18.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-19T22:04:25.442Z",
+      "github_run_id": "44624970902"
     }
   ]
 }

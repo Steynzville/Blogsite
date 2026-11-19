@@ -3217,7 +3217,7 @@
       "destination_url": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
       "board_service_id": "296815500381471065",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-19",
       "topic": "outdoor-rugs",
       "board_name": "Garden & Patio Ideas & Finds 🔥",
@@ -3232,7 +3232,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-19T12:25:20.472Z",
-      "github_run_id": "44523669687"
+      "github_run_id": "44523669687",
+      "buffer_post_id": "6afeeab25eafbd656fdcc985",
+      "submitted_at": "2026-11-19T12:25:25.117Z"
     }
   ]
 }

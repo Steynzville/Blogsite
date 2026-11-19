@@ -3147,6 +3147,32 @@
       "submitted_at": "2026-11-18T20:12:22.788Z",
       "sent_at": "2026-11-18T20:12:21.593Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716558129"
+    },
+    {
+      "creative_id": "veluce-auto-20261119-496369ccc586",
+      "workflow": "veluce_editorial",
+      "title": "Pool Deck LED Lighting: Separate the Waterline From the Walkway: What to Check Before Installing",
+      "description": "Can you distinguish the pool edge from the terrace route in low light? See Veluce's outdoor LED-strip guide. Modern swimming pool with long warm illuminated deck border and subdued garden lighting. Explore practical lighting-placement, visibility and glare decisions before buying fixtures.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-16.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-19",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "496369ccc586ec783af603b9d45bc13986bd3b73",
+      "source_path": "assets/pinterest/landscape-lighting-16.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-19T00:03:55.048Z",
+      "github_run_id": "44425899717"
     }
   ]
 }

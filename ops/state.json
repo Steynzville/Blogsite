@@ -2666,6 +2666,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6afe3cec01ba7c5e79215837",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716560033",
+      "pin_id": "296815431716560033",
+      "published_at": "2026-11-19T01:30:25.695Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/fire-pit-01-courtyard-lounge.jpg",
+      "title": "How to Arrange a Courtyard Lounge Around a Square Fire Pit",
+      "description": "Can guests circulate past a square fire pit without crowding the sofa? See Veluce's fire-pit layout guide. Rectangular dark fire table within limestone outdoor lounge seating and warm-lit courtyard planting. Compare flame position, seating scale and circulation before planning a fire-pit patio.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6afe513059eff0b616cf30b4",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

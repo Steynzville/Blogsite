@@ -3278,10 +3278,12 @@
       "source_path": "assets/pinterest-products/room-procurement-system-03-showroom-selection.jpg",
       "hook": "Does a showroom sofa still fit the way your room is used?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-19T20:14:41.440Z",
       "buffer_post_id": "6aff58b3afe79203125ccbc4",
-      "submitted_at": "2026-11-19T20:14:46.341Z"
+      "submitted_at": "2026-11-19T20:14:46.341Z",
+      "sent_at": "2026-11-19T20:14:45.296Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716564716"
     }
   ]
 }

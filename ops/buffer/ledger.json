@@ -3262,6 +3262,24 @@
       "submitted_at": "2026-11-19T17:09:47.358Z",
       "sent_at": "2026-11-19T17:09:47.102Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716563694"
+    },
+    {
+      "creative_id": "veluce-product-room-procurement-system-03-showroom-selection",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Furniture Sourcing: Check Scale Before You Commit",
+      "description": "Does a showroom sofa still fit the way your room is used? Compare real furniture dimensions, delivery access and available circulation. Explore Veluce Studio's Room Procurement System to compare samples, sizes, budgets and supplier details.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/room-procurement-system-03-showroom-selection.jpg",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-19",
+      "source_blob_sha": "f80091f5c0a55f4f1ad701c53d9542a33609ca30",
+      "source_path": "assets/pinterest-products/room-procurement-system-03-showroom-selection.jpg",
+      "hook": "Does a showroom sofa still fit the way your room is used?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-19T20:14:41.440Z"
     }
   ]
 }

@@ -2696,6 +2696,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6afeeab25eafbd656fdcc985",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716563694",
+      "pin_id": "296815431716563694",
+      "published_at": "2026-11-19T17:09:47.102Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/discreet-security-cameras/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-03.jpg",
+      "title": "How to Choose Indoor Camera Views Without Sacrificing Privacy",
+      "description": "Should your indoor camera cover this living area? Explore camera placement and privacy in Veluce's guide. Family seated together on a neutral sofa in warm living room with small indoor security camera on a nearby upper shelf. Decide what movement needs documenting and which everyday family spaces.",
+      "board": "Home Security Ideas & Setups",
+      "board_id": "296815500381472050",
+      "buffer_post_id": "6aff2d599556d6ec850d28aa",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

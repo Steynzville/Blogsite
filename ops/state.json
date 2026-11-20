@@ -2726,6 +2726,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6aff726b7020505f2dec3be2",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716566222",
+      "pin_id": "296815431716566222",
+      "published_at": "2026-11-20T00:26:45.762Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/smart-access-control/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-07.jpg",
+      "title": "How to Set Up Smart Entry for Everyday Family Arrivals",
+      "description": "Who needs to open the front door without a key? Compare access options in Veluce's guide. Mother and school-aged child arriving at illuminated front entrance with smart lock, glass door and planted steps. Think about household routines, guest codes and a reliable fallback before selecting a system.",
+      "board": "Smart Home Security Systems",
+      "board_id": "296815500381471465",
+      "buffer_post_id": "6aff93c47b0a126ceb943b36",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

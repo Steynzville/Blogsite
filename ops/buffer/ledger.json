@@ -3344,7 +3344,7 @@
       "destination_url": "https://velucedesign.com/article/discreet-security-cameras/",
       "board_service_id": "296815500381472050",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-20",
       "topic": "security-cameras",
       "board_name": "Home Security Ideas & Setups",
@@ -3356,7 +3356,9 @@
       "recorded_at": "2026-11-20T01:27:04.227Z",
       "github_run_id": "44653676289",
       "buffer_post_id": "6affa1ea738ce4635f77c7c4",
-      "submitted_at": "2026-11-20T01:27:08.926Z"
+      "submitted_at": "2026-11-20T01:27:08.926Z",
+      "sent_at": "2026-11-20T01:27:07.792Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716566470"
     }
   ]
 }

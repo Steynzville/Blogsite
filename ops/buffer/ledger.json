@@ -3384,6 +3384,24 @@
       "submitted_at": "2026-11-20T12:26:20.121Z",
       "sent_at": "2026-11-20T12:26:18.789Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716568924"
+    },
+    {
+      "creative_id": "veluce-product-complete-home-design-system-03-penthouse-sunset",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Complete Home Design System",
+      "title": "Penthouse Interior Design: Make Every Space Feel Related",
+      "description": "Can your penthouse feel cohesive without making every room identical? Create one core palette, then vary the balance of texture and focal lighting across zones. Explore Veluce Studio's Complete Home Design System to connect materials, layouts and lighting across rooms.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/complete-home-design-system-03-penthouse-sunset.jpg",
+      "destination_url": "https://velucedesign.com/complete-home-design-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-20",
+      "source_blob_sha": "4d76cc1120e7a99cfa6f980e9782ef9b0dfbaba3",
+      "source_path": "assets/pinterest-products/complete-home-design-system-03-penthouse-sunset.jpg",
+      "hook": "Can your penthouse feel cohesive without making every room identical?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-20T19:47:47.948Z"
     }
   ]
 }

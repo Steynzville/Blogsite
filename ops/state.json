@@ -2771,6 +2771,21 @@
       "board_id": "296815500381471465",
       "buffer_post_id": "6b003c695d9549971ca3bd1d",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716572703",
+      "pin_id": "296815431716572703",
+      "published_at": "2026-11-20T23:49:20.234Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-19.jpg",
+      "title": "Floating Outdoor Step Lighting: Reveal Each Tread Without Glare",
+      "description": "Are the glowing floating treads distinct enough to read in the dark? See Veluce's outdoor LED-strip guide. Suspended-looking stone garden stair treads with concealed warm underglow and a small caption Floating in Light. Explore practical lighting-placement, visibility and glare decisions before.",
+      "board": "Attainable Luxury Outdoor Lighting",
+      "board_id": "296815500381474397",
+      "buffer_post_id": "6b00dc7fd9cbb430a1063b0c",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

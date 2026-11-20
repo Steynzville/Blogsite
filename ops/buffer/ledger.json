@@ -3319,7 +3319,7 @@
       "destination_url": "https://velucedesign.com/article/smart-access-control/",
       "board_service_id": "296815500381471465",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-20",
       "topic": "smart-access",
       "board_name": "Smart Home Security Systems",
@@ -3329,7 +3329,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-20T00:26:42.693Z",
-      "github_run_id": "44645873348"
+      "github_run_id": "44645873348",
+      "buffer_post_id": "6aff93c47b0a126ceb943b36",
+      "submitted_at": "2026-11-20T00:26:46.059Z"
     }
   ]
 }

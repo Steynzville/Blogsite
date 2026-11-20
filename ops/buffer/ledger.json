@@ -3334,6 +3334,27 @@
       "submitted_at": "2026-11-20T00:26:46.059Z",
       "sent_at": "2026-11-20T00:26:45.762Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716566222"
+    },
+    {
+      "creative_id": "veluce-auto-20261120-4edb1b93577d",
+      "workflow": "veluce_editorial",
+      "title": "Where Should Exterior Cameras Go Around a Lit Home Entrance?",
+      "description": "Is your outdoor camera watching a real approach route? See Veluce's camera-sightline guide. Modern residence at dusk after rain with a compact security camera under the soffit, warm entry lights and reflective paved walkway. Check the roofline view against columns, shrubs and garden paths before.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-05.jpg",
+      "destination_url": "https://velucedesign.com/article/discreet-security-cameras/",
+      "board_service_id": "296815500381472050",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-20",
+      "topic": "security-cameras",
+      "board_name": "Home Security Ideas & Setups",
+      "source_blob_sha": "4edb1b93577d32c6ad69173884665a9580ac0e51",
+      "source_path": "assets/pinterest/home-security-05.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-20T01:27:04.227Z",
+      "github_run_id": "44653676289"
     }
   ]
 }

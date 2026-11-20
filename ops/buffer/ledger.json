@@ -3400,8 +3400,10 @@
       "source_path": "assets/pinterest-products/complete-home-design-system-03-penthouse-sunset.jpg",
       "hook": "Can your penthouse feel cohesive without making every room identical?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "reserved",
-      "recorded_at": "2026-11-20T19:47:47.948Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-20T19:47:47.948Z",
+      "buffer_post_id": "6b00a3e6e3772ee0cf6105d4",
+      "submitted_at": "2026-11-20T19:47:53.214Z"
     }
   ]
 }

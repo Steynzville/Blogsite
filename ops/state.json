@@ -2756,6 +2756,21 @@
       "board_id": "296815500381472050",
       "buffer_post_id": "6affa1ea738ce4635f77c7c4",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716568924",
+      "pin_id": "296815431716568924",
+      "published_at": "2026-11-20T12:26:18.789Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/perimeter-monitoring/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-12.jpg",
+      "title": "How to Review Camera Feeds for Hidden Perimeter Blind Spots",
+      "description": "Can you see each route into your property? Use Veluce's perimeter-monitoring guide. Desktop laptop showing four camera-view panels on a bright timber desk near a window and small indoor camera. Check gate, side path, driveway and door approaches rather than counting cameras alone.",
+      "board": "Smart Home Security Systems",
+      "board_id": "296815500381471465",
+      "buffer_post_id": "6b003c695d9549971ca3bd1d",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

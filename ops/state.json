@@ -2786,6 +2786,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6b00dc7fd9cbb430a1063b0c",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716572881",
+      "pin_id": "296815431716572881",
+      "published_at": "2026-11-21T00:57:37.955Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/everyday-kitchen-essentials-organization/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-02-wooden-utensils.jpg",
+      "title": "Wooden Kitchen Utensil Storage: What Should Stay on the Counter?",
+      "description": "Are the utensils you reach for daily mixed with tools you rarely use? See Veluce's kitchen-storage and organisation guide. Wooden spoons, spatulas and a whisk stand in a cream crock beside a timber chopping board and lemon. See the practical storage and task-zone decisions behind this kitchen setup.",
+      "board": "Kitchen Organization Ideas",
+      "board_id": "296815500381470701",
+      "buffer_post_id": "6b00ec8020a2d09a0ac2487a",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

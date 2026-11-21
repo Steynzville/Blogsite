@@ -2846,6 +2846,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6b02217d846b0ee90743474d",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716579122",
+      "pin_id": "296815431716579122",
+      "published_at": "2026-11-21T23:56:05.371Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/kitchen-design-layout/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-23.jpg",
+      "title": "How to Position an Island in a Long Narrow Kitchen",
+      "description": "Will a long kitchen island leave practical working aisles? See Veluce's practical kitchen-layout guide. Long gallery-style kitchen with pale stone island, side cabinetry, bronze dome pendants and a runner defining the walkway. Check the cooking, preparation and seating zones before fixing cabinetry.",
+      "board": "Kitchen Essentials & Must-Haves 🔥",
+      "board_id": "296815500381470714",
+      "buffer_post_id": "6b022f9402479690920e7bcf",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

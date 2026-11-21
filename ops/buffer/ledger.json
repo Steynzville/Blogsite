@@ -3578,7 +3578,7 @@
       "destination_url": "https://velucedesign.com/article/kitchen-design-layout/",
       "board_service_id": "296815500381470714",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-22",
       "topic": "kitchen-layout",
       "board_name": "Kitchen Essentials & Must-Haves 🔥",
@@ -3595,7 +3595,9 @@
       "recorded_at": "2026-11-21T23:56:02.383Z",
       "github_run_id": "44964143210",
       "buffer_post_id": "6b022f9402479690920e7bcf",
-      "submitted_at": "2026-11-21T23:56:05.648Z"
+      "submitted_at": "2026-11-21T23:56:05.648Z",
+      "sent_at": "2026-11-21T23:56:05.371Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716579122"
     }
   ]
 }

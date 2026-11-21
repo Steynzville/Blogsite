@@ -3471,7 +3471,7 @@
       "destination_url": "https://velucedesign.com/article/luxury-interior-design-principles/",
       "board_service_id": "296815500381467884",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-21",
       "topic": "interior-design",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
@@ -3488,7 +3488,9 @@
       "recorded_at": "2026-11-21T11:59:37.349Z",
       "github_run_id": "44901661266",
       "buffer_post_id": "6b0187ab8bd84d5966e4f1bf",
-      "submitted_at": "2026-11-21T11:59:40.717Z"
+      "submitted_at": "2026-11-21T11:59:40.717Z",
+      "sent_at": "2026-11-21T11:59:40.392Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716575335"
     }
   ]
 }

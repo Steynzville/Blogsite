@@ -2801,6 +2801,21 @@
       "board_id": "296815500381470701",
       "buffer_post_id": "6b00ec8020a2d09a0ac2487a",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716575335",
+      "pin_id": "296815431716575335",
+      "published_at": "2026-11-21T11:59:40.392Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-03.jpg",
+      "title": "How to Create a Luxury Living Room With One Strong Centrepiece",
+      "description": "Can one strong centrepiece help organise your entire living room? See Veluce's luxury interior-design guide. Plush cream seating surrounding a circular veined-stone coffee table beneath a cascading chandelier, framed by warm wood shelves. Explore how focal points, furniture scale and material.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "buffer_post_id": "6b0187ab8bd84d5966e4f1bf",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -3532,8 +3532,10 @@
       "source_path": "assets/pinterest-products/outdoor-lighting-blueprint-03-poolside-glow.jpg",
       "hook": "Does your poolside garden look overlit from the seating area?",
       "board_name": "Outdoor Lighting Ideas",
-      "status": "reserved",
-      "recorded_at": "2026-11-21T18:53:33.263Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-21T18:53:33.263Z",
+      "buffer_post_id": "6b01e8af8bd84d59660f4f09",
+      "submitted_at": "2026-11-21T18:53:37.646Z"
     }
   ]
 }

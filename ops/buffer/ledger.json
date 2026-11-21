@@ -3501,7 +3501,7 @@
       "destination_url": "https://velucedesign.com/article/layered-lighting-bedroom/",
       "board_service_id": "296815500381470761",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-21",
       "topic": "bedroom-layered",
       "board_name": "Cozy Bedroom Ideas & Finds 🔥",
@@ -3513,7 +3513,9 @@
       "recorded_at": "2026-11-21T15:58:13.011Z",
       "github_run_id": "44921904513",
       "buffer_post_id": "6b01bf970247969092e4228b",
-      "submitted_at": "2026-11-21T15:58:17.503Z"
+      "submitted_at": "2026-11-21T15:58:17.503Z",
+      "sent_at": "2026-11-21T15:58:17.121Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716576387"
     }
   ]
 }

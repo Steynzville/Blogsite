@@ -2816,6 +2816,21 @@
       "board_id": "296815500381467884",
       "buffer_post_id": "6b0187ab8bd84d5966e4f1bf",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716576387",
+      "pin_id": "296815431716576387",
+      "published_at": "2026-11-21T15:58:17.121Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-07.jpg",
+      "title": "How to Make a Bedroom Feel Calm With Warm Bedside Lighting",
+      "description": "Do bedside lights feel warm without making reading uncomfortable? See Veluce's layered bedroom-lighting guide. Neutral bedroom with a padded upholstered bed, vertical warm wall lighting, wood panelling and natural daylight through a garden window. Compare ambient ceiling light, bedside task.",
+      "board": "Cozy Bedroom Ideas & Finds 🔥",
+      "board_id": "296815500381470761",
+      "buffer_post_id": "6b01bf970247969092e4228b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

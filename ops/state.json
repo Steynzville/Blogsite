@@ -4321,7 +4321,36 @@
     "lastRunType": "NEW",
     "nextRunType": "REFRESH",
     "nextNewProduct": "Luxury Lighting Formula",
-    "pendingRun": null,
+    "pendingRun": {
+      "runDate": "2026-11-21",
+      "runType": "REFRESH",
+      "actualRunType": "REFRESH",
+      "articleSlug": "upward-lighting-architectural-grazing",
+      "articleTitle": "Wall Grazing vs Wall Washing: How to Light a Textured Exterior",
+      "primaryTopic": "Choosing and testing wall grazing, wall washing and architectural accents",
+      "primaryProduct": "Outdoor Lighting Blueprint",
+      "branch": "editorial/2026-11-21-refresh-wall-grazing",
+      "mergeStatus": "planned",
+      "publicationDate": "2025-06-12",
+      "plannedNextRunType": "NEW",
+      "plannedNextNewProduct": "Luxury Lighting Formula",
+      "selectionReason": "GA4 for the completed 22 October–18 November window showed 18 canonical sessions but only 7.9 seconds average engagement time; the fresh Pinterest diagnostic added six referral sessions with 16.7% engagement and zero average engagement time. The article also contained unsafe universal spacing and installation claims, unverifiable product-specific assertions and invented first-hand experience despite strong Pinterest exposure.",
+      "affiliateMonetisation": {
+        "contextualPlacementsRetained": 3,
+        "products": [
+          "24V linear wall washer (wall-washer-24v)",
+          "12V wired landscape spotlight (wired-landscape-spotlight)",
+          "modern linear exterior wall light (linear-wall-light)"
+        ],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true
+      },
+      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-21-weekly-editorial-review.md",
+      "validationResult": "Passed locally on Node 24/pnpm 10.15.1: TypeScript, 93 tests, 31-article audit with zero issues, 56-route production build and ops validation. GitHub exact-head quality gates pending.",
+      "prNumber": null,
+      "prUrl": null
+    },
     "history": [
       {
         "runDate": "2026-11-14",

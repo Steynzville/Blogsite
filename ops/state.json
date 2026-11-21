@@ -4317,41 +4317,55 @@
   },
   "editorialAutomation": {
     "version": 1,
-    "lastRunDate": "2026-11-14",
-    "lastRunType": "NEW",
-    "nextRunType": "REFRESH",
+    "lastRunDate": "2026-11-21",
+    "lastRunType": "REFRESH",
+    "nextRunType": "NEW",
     "nextNewProduct": "Luxury Lighting Formula",
-    "pendingRun": {
-      "runDate": "2026-11-21",
-      "runType": "REFRESH",
-      "actualRunType": "REFRESH",
-      "articleSlug": "upward-lighting-architectural-grazing",
-      "articleTitle": "Wall Grazing vs Wall Washing: How to Light a Textured Exterior",
-      "primaryTopic": "Choosing and testing wall grazing, wall washing and architectural accents",
-      "primaryProduct": "Outdoor Lighting Blueprint",
-      "branch": "editorial/2026-11-21-refresh-wall-grazing",
-      "mergeStatus": "planned",
-      "publicationDate": "2025-06-12",
-      "plannedNextRunType": "NEW",
-      "plannedNextNewProduct": "Luxury Lighting Formula",
-      "selectionReason": "GA4 for the completed 22 October–18 November window showed 18 canonical sessions but only 7.9 seconds average engagement time; the fresh Pinterest diagnostic added six referral sessions with 16.7% engagement and zero average engagement time. The article also contained unsafe universal spacing and installation claims, unverifiable product-specific assertions and invented first-hand experience despite strong Pinterest exposure.",
-      "affiliateMonetisation": {
-        "contextualPlacementsRetained": 3,
-        "products": [
-          "24V linear wall washer (wall-washer-24v)",
-          "12V wired landscape spotlight (wired-landscape-spotlight)",
-          "modern linear exterior wall light (linear-wall-light)"
-        ],
-        "approvedInventoryUsed": true,
-        "disclosureConfirmed": true,
-        "complementaryRoles": true
-      },
-      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-21-weekly-editorial-review.md",
-      "validationResult": "Passed locally on Node 24/pnpm 10.15.1: TypeScript, 93 tests, 31-article audit with zero issues, 56-route production build and ops validation. GitHub exact-head quality gates pending.",
-      "prNumber": null,
-      "prUrl": null
-    },
+    "pendingRun": null,
     "history": [
+      {
+        "runDate": "2026-11-21",
+        "runType": "REFRESH",
+        "actualRunType": "REFRESH",
+        "articleSlug": "upward-lighting-architectural-grazing",
+        "articleTitle": "Wall Grazing vs Wall Washing: How to Light a Textured Exterior",
+        "primaryTopic": "Choosing and testing wall grazing, wall washing and architectural accents",
+        "primaryProduct": "Outdoor Lighting Blueprint",
+        "branch": "editorial/2026-11-21-refresh-wall-grazing",
+        "mergeStatus": "merged",
+        "publicationDate": "2025-06-12",
+        "plannedNextRunType": "NEW",
+        "plannedNextNewProduct": "Luxury Lighting Formula",
+        "selectionReason": "GA4 for the completed 22 October–18 November window showed 18 canonical sessions but only 7.9 seconds average engagement time; the fresh Pinterest diagnostic added six referral sessions with 16.7% engagement and zero average engagement time. The article also contained unsafe universal spacing and installation claims, unverifiable product-specific assertions and invented first-hand experience despite strong Pinterest exposure.",
+        "affiliateMonetisation": {
+          "contextualPlacementsRetained": 3,
+          "products": [
+            "24V linear wall washer (wall-washer-24v)",
+            "12V wired landscape spotlight (wired-landscape-spotlight)",
+            "modern linear exterior wall light (linear-wall-light)"
+          ],
+          "approvedInventoryUsed": true,
+          "disclosureConfirmed": true,
+          "complementaryRoles": true
+        },
+        "pinterestReview": "ops/buffer/analytics-reviews/2026-11-21-weekly-editorial-review.md; no speculative Pinterest mix change because exact native per-Pin outbound clicks were unavailable. The underperforming destination page was materially improved.",
+        "validationResult": "Passed: TypeScript, 93 tests, 31-article audit with zero issues/warnings, 56-route production build, ops validation and exact-head GitHub quality gates including the complete desktop/mobile capture matrix (run 44874264782).",
+        "prNumber": 65,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/65",
+        "mergeCommit": "bdc5e453a96c3b7f98bb1a050b2419b32218b1c5",
+        "analyticsEvidence": "GA4 completed window 2026-10-22–2026-11-18: 18 canonical sessions, 23 pageviews, 50% engagement and 7.9 seconds average engagement. Fresh Pinterest-referral diagnostic 2026-11-12–2026-11-18: 6 sessions, 16.7% engagement, zero average engagement and no recorded conversions. Pinterest native last-30-day account aggregate through 2026-11-20: 317,027 impressions, 164 outbound clicks (0.052%) and 1,520 saves; exact per-Pin outbound-click rows were unavailable.",
+        "sources": [
+          "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+          "https://darksky.org/get-involved/home-lighting-assessment/",
+          "https://www.ledvance.com/en-us/professional-lighting/insights/blog/lighting-basics/ip-rating-explained"
+        ],
+        "sourceCheckedAt": "2026-11-21",
+        "imagery": "Existing relevant hero and inline imagery retained; alt text rewritten to describe the wall-lighting effects accurately.",
+        "deploymentVerification": "GitHub Pages deployment run 44874707038 succeeded for the editorial merge. Live H1, imagery/alt, headings, disclosure, three exact affiliate links, internal links and Outdoor Lighting Blueprint destination were verified in the shared browser; exact-head CI mobile/desktop captures passed.",
+        "liveUrl": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+        "deployedSha": "bdc5e453a96c3b7f98bb1a050b2419b32218b1c5",
+        "completedAt": "2026-11-21"
+      },
       {
         "runDate": "2026-11-14",
         "runType": "NEW",
@@ -4533,24 +4547,47 @@
       }
     ],
     "lastRun": {
-      "runDate": "2026-11-14",
-      "runType": "NEW",
-      "actualRunType": "NEW",
-      "articleSlug": "how-to-create-interior-design-brief",
-      "articleTitle": "How to Create an Interior Design Brief from Pinterest Inspiration",
-      "primaryTopic": "Turning visual inspiration and real-room evidence into a usable interior design brief",
-      "primaryProduct": "Designer Brief Builder",
-      "branch": "editorial/2026-11-14-new-designer-brief",
-      "prNumber": 59,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/59",
+      "runDate": "2026-11-21",
+      "runType": "REFRESH",
+      "actualRunType": "REFRESH",
+      "articleSlug": "upward-lighting-architectural-grazing",
+      "articleTitle": "Wall Grazing vs Wall Washing: How to Light a Textured Exterior",
+      "primaryTopic": "Choosing and testing wall grazing, wall washing and architectural accents",
+      "primaryProduct": "Outdoor Lighting Blueprint",
+      "branch": "editorial/2026-11-21-refresh-wall-grazing",
       "mergeStatus": "merged",
-      "mergeCommit": "4c3ba7e69559453cd83e611c985e156e260e991f",
-      "publicationDate": "2026-11-14",
-      "plannedNextRunType": "REFRESH",
+      "publicationDate": "2025-06-12",
+      "plannedNextRunType": "NEW",
       "plannedNextNewProduct": "Luxury Lighting Formula",
-      "validationResult": "Passed: TypeScript, 91 tests, 31-article audit with zero issues, 56-route production build, ops validation and exact-head GitHub quality gates including desktop/mobile capture (run 43558081784).",
-      "liveUrl": "https://velucedesign.com/article/how-to-create-interior-design-brief/",
-      "completedAt": "2026-11-14"
+      "selectionReason": "GA4 for the completed 22 October–18 November window showed 18 canonical sessions but only 7.9 seconds average engagement time; the fresh Pinterest diagnostic added six referral sessions with 16.7% engagement and zero average engagement time. The article also contained unsafe universal spacing and installation claims, unverifiable product-specific assertions and invented first-hand experience despite strong Pinterest exposure.",
+      "affiliateMonetisation": {
+        "contextualPlacementsRetained": 3,
+        "products": [
+          "24V linear wall washer (wall-washer-24v)",
+          "12V wired landscape spotlight (wired-landscape-spotlight)",
+          "modern linear exterior wall light (linear-wall-light)"
+        ],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true
+      },
+      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-21-weekly-editorial-review.md; no speculative Pinterest mix change because exact native per-Pin outbound clicks were unavailable. The underperforming destination page was materially improved.",
+      "validationResult": "Passed: TypeScript, 93 tests, 31-article audit with zero issues/warnings, 56-route production build, ops validation and exact-head GitHub quality gates including the complete desktop/mobile capture matrix (run 44874264782).",
+      "prNumber": 65,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/65",
+      "mergeCommit": "bdc5e453a96c3b7f98bb1a050b2419b32218b1c5",
+      "analyticsEvidence": "GA4 completed window 2026-10-22–2026-11-18: 18 canonical sessions, 23 pageviews, 50% engagement and 7.9 seconds average engagement. Fresh Pinterest-referral diagnostic 2026-11-12–2026-11-18: 6 sessions, 16.7% engagement, zero average engagement and no recorded conversions. Pinterest native last-30-day account aggregate through 2026-11-20: 317,027 impressions, 164 outbound clicks (0.052%) and 1,520 saves; exact per-Pin outbound-click rows were unavailable.",
+      "sources": [
+        "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+        "https://darksky.org/get-involved/home-lighting-assessment/",
+        "https://www.ledvance.com/en-us/professional-lighting/insights/blog/lighting-basics/ip-rating-explained"
+      ],
+      "sourceCheckedAt": "2026-11-21",
+      "imagery": "Existing relevant hero and inline imagery retained; alt text rewritten to describe the wall-lighting effects accurately.",
+      "deploymentVerification": "GitHub Pages deployment run 44874707038 succeeded for the editorial merge. Live H1, imagery/alt, headings, disclosure, three exact affiliate links, internal links and Outdoor Lighting Blueprint destination were verified in the shared browser; exact-head CI mobile/desktop captures passed.",
+      "liveUrl": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+      "deployedSha": "bdc5e453a96c3b7f98bb1a050b2419b32218b1c5",
+      "completedAt": "2026-11-21"
     }
   },
   "facebook_publications": [

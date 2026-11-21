@@ -2870,9 +2870,11 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 8,
-    "last_product": "Complete Home Design System",
-    "completed_products": [],
-    "next_product": "Outdoor Lighting Blueprint",
+    "last_product": "Outdoor Lighting Blueprint",
+    "completed_products": [
+      "Outdoor Lighting Blueprint"
+    ],
+    "next_product": "Luxury Outdoor Room Planner",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -4228,6 +4230,36 @@
           "Complete Home Design System"
         ],
         "next_product": "Outdoor Lighting Blueprint"
+      },
+      {
+        "creative_id": "veluce-product-outdoor-lighting-blueprint-03-poolside-glow",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Outdoor Lighting Blueprint",
+        "cycle": 8,
+        "submission_date": "2026-11-21",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "outdoor-lighting-blueprint-03-poolside-glow.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/outdoor-lighting-blueprint-03-poolside-glow.jpg",
+        "hook": "Does your poolside garden look overlit from the seating area?",
+        "title": "Poolside Lighting: Balance Step Lights and Tree Uplights",
+        "description": "Does your poolside garden look overlit from the seating area? Use separate route, planting and architectural light layers to control glare. Explore Veluce Studio's Outdoor Lighting Blueprint to plan zones, reduce glare and choose fixtures with purpose.",
+        "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+        "board": "Outdoor Lighting Ideas",
+        "board_service_id": "296815500381477417",
+        "buffer_post_id": "6b01e8af8bd84d59660f4f09",
+        "published_at": "2026-11-21",
+        "published_at_timestamp": "2026-11-21T18:53:37.216Z",
+        "pin_id": "296815431716577406",
+        "pin_url": "https://www.pinterest.com/pin/296815431716577406",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint"
+        ],
+        "next_product": "Luxury Outdoor Room Planner"
       }
     ],
     "archived_history": [

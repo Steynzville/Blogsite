@@ -1,191 +1,206 @@
 ---
-title: "Upward Lighting: The Art of Architectural Grazing for Luxury Homes"
+title: "Wall Grazing vs Wall Washing: How to Light a Textured Exterior"
 slug: "upward-lighting-architectural-grazing"
 category: "Outdoor Lighting"
-excerpt: "Discover how upward lighting transforms ordinary facades into dramatic, textured focal points — and why it's one of the most powerful tools in luxury landscape design."
+excerpt: "Learn when to graze, wash or accent an exterior wall, then test fixture position, beam control and brightness before committing to an installation."
 heroImage: "/images/hero-dastor-patio-dusk.jpg"
+heroImageAlt: "Warm architectural lighting grazing a textured stone exterior beside a sheltered patio at dusk"
 featured: false
-seoTitle: "Upward Lighting: The Art of Architectural Grazing for Luxury Homes | VELUCE"
-metaDescription: "Discover how architectural grazing with upward lighting transforms ordinary facades into dramatic, textured focal points at night. Complete guide for luxury homes."
-wordCount: 1420
+seoTitle: "Wall Grazing vs Wall Washing for Exterior Walls | VELUCE"
+metaDescription: "Compare wall grazing, wall washing and accent uplighting. Plan fixture position, beam spread, glare control and outdoor installation for a refined facade."
+wordCount: 2050
 publishedAt: "2025-06-12T00:00:00.000000"
-updatedAt: "2025-09-28"
-faq: [{"question": "What's the difference between upward lighting and wall washing?", "answer": "Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect."}, {"question": "How many fixtures do I need for upward lighting?", "answer": "Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture."}, {"question": "Can upward lighting work on modern smooth facades?", "answer": "Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry."}, {"question": "Does DASTOR include bulbs?", "answer": "Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included."}, {"question": "How long does installation take?", "answer": "Installation time varies depending on experience and wiring conditions, but most homeowners comfortable with basic electrical work can complete the process in under an hour per fixture. All mounting hardware is included."}, {"question": "Is the DASTOR light waterproof?", "answer": "Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant."}, {"question": "What is the warranty?", "answer": "24-month manufacturer warranty."}, {"question": "Can upward lighting increase property value?", "answer": "Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury."}]
-relatedArticles: ["copper-lanterns-age-with-grace", "led-strip-lighting-outdoor-guide"]
-internalLinks: [{"text": "LED Strip Lighting for Outdoors", "slug": "led-strip-lighting-outdoor-guide"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
+updatedAt: "2026-11-21"
+faq: [{"question":"What is the difference between wall grazing and wall washing?","answer":"Wall grazing places a controlled beam close to a textured surface so projections cast visible shadows. Wall washing uses more setback or a broader distribution to create a more even field with softer texture."},{"question":"Does wall grazing work on smooth render?","answer":"It can expose every ripple and repair. Test a small section at night; a wider wash or lighting a nearby tree may create a calmer result."},{"question":"How far should a grazing light be from the wall?","answer":"There is no reliable universal distance. Fixture distribution, wall height, texture and viewing angle all matter. Mock up the exact fitting and move it incrementally."},{"question":"Should exterior wall lights point upward?","answer":"Only when the upward light has a clear purpose and is carefully limited to the intended surface. Shielding, aiming, low output and controls help reduce glare, spill and sky glow."},{"question":"Is an IP rating enough for outdoor lighting?","answer":"No. The fixture rating does not automatically cover drivers, connectors, cable entries, drainage or site-made joins. The complete system must suit the exposure and local requirements."},{"question":"What colour temperature suits exterior stone and brick?","answer":"Warm light is usually calmer and tends to suit stone, brick and timber. Treat 2700K as a useful starting point, then sample the exact light against the material."}]
+relatedArticles: ["outdoor-lighting-glare-night-audit", "hidden-uplighting-mature-trees", "copper-lanterns-age-with-grace"]
+internalLinks: [{"text":"Outdoor Lighting Glare Night Audit","slug":"outdoor-lighting-glare-night-audit"},{"text":"Hidden Uplighting for Mature Trees","slug":"hidden-uplighting-mature-trees"},{"text":"Copper Outdoor Lanterns","slug":"copper-lanterns-age-with-grace"}]
 ---
+
+A textured wall can look sculptural after dark—or oddly striped, glaring and much brighter than everything around it. The difference is rarely the price of the fitting. It is the relationship between the wall, the beam and the places from which people actually see the light.
+
+This guide helps you decide between wall grazing, wall washing and a smaller architectural accent. It also gives you a practical night test so you can refine the effect before fixing a row of lights permanently into paving, planting or masonry.
 
 ### Quick Takeaways
 
-- Architectural grazing reveals texture through shadow
-- Natural stone and brick produce the strongest results
-- Use narrow-beam up/down lights placed close to the wall
-- Warm white lighting (2700K–3000K) creates the most inviting effect
-- Layer facade lighting with tree and path lighting for a luxury result
+- **Graze texture; wash calm planes.** Close light exaggerates relief. A broader, more distant distribution softens it.
+- **Choose the effect before the fixture.** “Outdoor light” is not a useful specification on its own.
+- **One focal surface is often enough.** Darkness around the feature gives it visual weight.
+- **Test from occupied viewpoints.** Check the entrance, street, patio, bedroom and neighbouring boundary.
+- **Treat the installation as a system.** Fixture, driver, cable, joins, drainage, aiming and controls all have to suit the site.
 
-### What Is Architectural Grazing?
+## Wall Grazing, Wall Washing and Accent Uplighting
 
-Upward lighting — known in professional design circles as **architectural grazing** — is one of the most sophisticated techniques in outdoor illumination. By directing light upward along vertical surfaces, you create stunning shadow play that reveals depth, dimension, and character that daylight simply cannot show.
+These techniques are related, but they do different work.
 
-<img src="/images/architectural-grazing-wall-mounted.jpg" alt="VELUCE architectural grazing diagram showing wall-mounted up/down sconce with upward and downward warm amber light beams grazing textured stone wall surface" loading="lazy">
+| Effect | Relationship to the wall | What the eye reads | Useful starting point |
+|---|---|---|---|
+| **Wall grazing** | Controlled beam close to the surface | Strong highlights and shadows | Rough stone, raked brick, timber battens and deliberate relief |
+| **Wall washing** | Broader distribution with more setback | A calmer, more even plane | Courtyard walls and smoother masonry |
+| **Accent uplighting** | Narrower beam aimed at one element | A column, pier, arch or chimney | Architecture needing a focal point rather than full-wall coverage |
+| **Visible wall light** | Decorative fitting on the facade | The fitting and halo become part of the elevation | Entrances and rhythmic bays |
+
+A close grazer does not merely make a wall brighter; it reveals its micro-topography. A wash reduces the hard shadow that can make a facade look busy.
+
+<img src="/images/architectural-grazing-wall-mounted.jpg" alt="Diagram of a wall-mounted exterior light sending controlled warm beams along a textured stone wall" loading="lazy">
 <br>
 
-When light travels upward across a textured surface, it casts pronounced shadows that accentuate every ridge, crevice, and material detail. This technique adds visual drama and movement, making even modest architecture feel monumental after dark.
+## Begin with the Material, Not the Moodboard
 
-Well-executed upward lighting transforms how a property feels after dark. A home that appears ordinary by day becomes a striking architectural presence at night — enhancing curb appeal, perceived value, and the enjoyment of outdoor spaces well into the evening.
+Wall grazing is unforgiving. It can reveal craftsmanship, but it can also reveal every uneven joint, patch and change of plane.
 
-### Why Grazing Works: The Psychology of Light
+It often rewards split-face stone, deep mortar joints, board-formed concrete, timber battens and other consistent relief. Smooth render, glossy pale tile, dark cladding and repaired masonry need a night test. Close light may expose trowel marks, produce hot spots or require more output than a reference image suggests.
 
-Architectural grazing succeeds for three psychological reasons. First, shadows create the illusion of three-dimensionality on flat surfaces, making walls appear deeper and more substantial. Second, light draws the eye upward, emphasizing height and architectural importance. Third, thoughtful exterior lighting can enhance perceptions of quality, craftsmanship, and prestige.
+Do not assume your wall will behave like a saved image. Photograph a one-metre test section from the real approach before repeating the detail across the facade.
 
-### Best Surfaces for Architectural Grazing
+## Give the Wall One Job
 
-Not every surface deserves upward lighting. The technique works best on:
+A wall may need to mark the entrance, contain a courtyard, frame a pool or sit quietly behind planting. Give it one primary job.
 
-| Surface            | Performance                          |
-|--------------------|--------------------------------------|
-| Natural stone      | Excellent — every ridge and crevice becomes visible |
-| Stacked stone      | Outstanding — dramatic shadow play   |
-| Brick              | Good — deep mortar lines create rhythm |
-| Concrete           | Subtle but effective — emphasizes form |
-| Timber slats       | Excellent — shadows between slats create depth |
-| Board-and-batten   | Good — vertical lines are emphasized |
+At an entrance, a softly washed wall can support wayfinding while another fitting handles the door. In a courtyard, one grazed stone plane can become the evening focal point while seating and steps remain lower in brightness. Beside a pool, reflected light may already be significant, so a restrained accent may be more comfortable than a fully illuminated facade.
 
-**Surfaces to avoid**: flat stucco, smooth plaster, and vinyl siding produce minimal shadow contrast.
+Schemes become noisy when every surface is treated as an opportunity. The [outdoor lighting glare night audit](/article/outdoor-lighting-glare-night-audit/) provides a viewpoint-by-viewpoint check before you add another layer.
 
-In my experience, homeowners are often surprised by how much impact a single grazed stone wall can have. Before adding more fixtures, perfect one focal point and build outward from there.
+## A Practical Wall-Lighting Mock-Up
 
-### Where Grazing Creates the Greatest Impact
+Use one sample fitting, a temporary safe power arrangement appropriate to that product, and a helper. Do not improvise exposed mains connections or leave temporary wiring unattended.
 
-Architectural grazing transforms specific areas of a luxury home:
+### 1. Mark the viewing positions
 
-| Location                  | Effect                                      |
-|---------------------------|---------------------------------------------|
-| Entry facades             | Creates a grand, welcoming arrival experience |
-| Courtyard walls           | Defines intimate outdoor rooms              |
-| Garden retaining walls    | Turns functional structures into sculptural features |
-| Outdoor fireplaces        | Emphasizes height and material texture      |
-| Pool houses               | Extends the luxury experience into the landscape |
-| Luxury garages            | Elevates utilitarian structures             |
-| Pergolas                  | Highlights structural beams                 |
+Stand at the main arrival, front door, principal seating position, important interior windows and neighbouring boundary. The best close-up texture is not automatically the best overall composition.
 
-### Choosing Fixtures for Luxury Facades
+### 2. Test the beam in small increments
 
-Among the dozens of up/down wall fixtures currently available, **the DASTOR Up and Down Wall Lights stand out as a practical choice** for residential grazing applications. The fixture mounts flush on the wall, and its narrow beam angles send light upward and downward across the stone surface — creating the shadow play that defines architectural grazing.
+Begin near the surface for a graze. Move the fitting away gradually and note when harsh stripes become a connected field. For a wash, begin farther out and check whether the upper wall receives enough light without sending the beam beyond the building.
 
-<img src="/images/modern-up-down-wall-light.jpg" alt="Modern DASTOR up/down wall light close-up" loading="lazy">
+Do not copy a universal spacing rule. Fixture optics, aiming, mounting height and texture vary too much. Use photometric information when the supplier provides it, then verify on site.
+
+### 3. Check the beam edges
+
+Look for light passing above the parapet, spill onto windows, awkward scallops, glare at seated eye level, light crossing the boundary and inconsistent colour between fittings.
+
+Responsible outdoor lighting should be useful, targeted, no brighter than necessary, controlled and warm-coloured where possible. Those principles, developed by DarkSky International with the Illuminating Engineering Society, matter especially when a design intentionally sends light upward.
+
+### 4. Photograph at one exposure
+
+Phone cameras brighten night scenes automatically. Lock exposure if possible and photograph each option without changing settings. The comparison is more useful than one dramatic image.
+
+### 5. Sit with the effect
+
+A bright result can impress for thirty seconds and feel tiring through dinner. Walk the route and look back from inside. If your eye keeps returning to the source instead of the material, reduce output, alter the aim or change the technique.
+
+## Choose a Fixture by Effect
+
+The product name matters less than its distribution and installation context.
+
+### Linear wall washer for a connected plane
+
+A long adjustable fitting can create a more continuous field than circular spots. Check distribution, length, voltage, driver and mounting detail. A [24V linear wall washer](https://steynenslin.s.gy/wall-washer-24v) is an approved Veluce affiliate example of this category; confirm the current listing, variant and delivered details before ordering.
+
+### Landscape spotlight for a limited accent
+
+A directional spot is often more useful for a column, chimney, planting pocket or limited wall section than for an even wash. Compare beam angle, aiming range, glare control and cable route. This [12V wired landscape spotlight](https://steynenslin.s.gy/wired-landscape-spotlight) illustrates the category without pretending one spot can wash a long facade evenly.
+
+### Visible wall light for rhythm
+
+A decorative wall light creates its own pattern. Decide whether you want a tight up/down hourglass, broad halo or mostly downward light. This [modern linear exterior wall light](https://steynenslin.s.gy/linear-wall-light) is a visible mains-voltage example, so its certification, installation and local electrical requirements differ from a low-voltage landscape fitting.
+
+These recommendations solve individual execution problems. They do not replace a plan for the complete exterior scheme.
+
+<img src="/images/modern-up-down-wall-light.jpg" alt="Slim black exterior wall light creating a controlled warm architectural halo on masonry" loading="lazy">
 <br>
 
-**Why This Fixture Works for Grazing:**
+## Colour Temperature, Rendering and Brightness
 
-- Up and down light pattern creates shadow play above and below the fixture
-- 3000K warm white enhances natural stone and warm materials
-- Dusk-to-dawn sensor for automatic operation
-- Die-cast aluminum construction — built for coastal and wet climates
-- GU10 bulbs included
+Warm light is a strong starting point for stone, brick, timber and planting, but colour temperature alone does not guarantee a refined result.
 
+Around 2700K generally creates a calmer residential atmosphere. Some schemes use 3000K successfully on cooler grey materials, but shielding, output and control remain important. Compare samples against the actual wall.
 
-### Three different ways to light the architecture
+Two products with the same Kelvin value can render stone differently. Ask for colour-rendering information for the exact source and whether replacements will match later. Use the lowest useful output: pale stone, glass and water can reflect more light than expected, and dimming gives you room to balance the wall against paths and entrances.
 
-These products solve different jobs, so they should not be treated as interchangeable:
+## Outdoor Rating Is Only One Part of Durability
 
-- <a href="https://steynenslin.s.gy/wall-washer-24v" target="_blank">→ Browse the 24V linear wall washer</a> — the closest fit for a dedicated washing/grazing layer where a long adjustable fixture can throw light across the facade.
-- <a href="https://steynenslin.s.gy/wired-landscape-spotlight" target="_blank">→ Browse the 12V wired landscape spotlight</a> — better for narrow architectural accents, columns, planting, and focal uplighting than for an even wall wash.
-- <a href="https://steynenslin.s.gy/linear-wall-light" target="_blank">→ Browse the modern linear exterior wall light</a> — an **85–256V AC mains** decorative wall fixture. It is intentionally visible and creates a broad architectural halo, so use it as a design feature rather than calling it a concealed grazer.
+An IP rating describes tested resistance to solid particles and water under defined conditions. It is not a promise that every installed component tolerates every outdoor situation.
 
-For low-voltage landscape fixtures, keep the 12V/24V circuit on the output side of an appropriately sized outdoor transformer. Mains-voltage exterior fixtures should be installed in accordance with local electrical requirements.
+Review the complete path: housing, lens, cable entry, driver, transformer, connectors, junction boxes, drainage, irrigation, salt air, pool chemicals and maintenance access. IP65 does not mean suitable for submersion, and an IP-rated fitting does not make an unprotected connector weatherproof. Follow the exact manufacturer instructions and local requirements.
 
-### Layering Your Outdoor Lighting System
+## Common Wall-Lighting Mistakes
 
-<img src="/images/exterior-lighting-rhythm.jpg" alt="DASTOR lights creating rhythm on exterior wall" loading="lazy">
-<br>
+### Lighting every bay
 
-Grazing is most powerful when combined with other layers. A complete outdoor lighting system includes:
+Too many identical pools of light can make a home feel commercial. Start with the entrance, the most beautiful material and one secondary anchor.
 
-| Layer | Purpose | Recommended Product |
-|-------|---------|---------------------|
-| **Facade grazing** | Defines architecture | DASTOR Up and Down Wall Lights |
-| **Tree and shrub uplighting** | Adds depth and drama | NYMPHY Solar Spotlights |
-| **Path and ground lighting** | Defines walkways and garden edges | INCX Solar Ground Lights |
-| **Ambient and accent lighting** | Warms seating areas | FUSSION LED Strip Lights (400FT | Warm white architectural tape) |
+### Confusing symmetry with balance
 
-*Ambient layers become even more effective when integrated into architectural details. See our guide to [LED Strip Lighting for Outdoors: Voltage, Placement, and Which One to Buy](/article/led-strip-integration-modern-deck) for ideas on incorporating concealed lighting into seating areas, steps, and outdoor entertaining spaces.*
+The building may be symmetrical while planting, windows and viewing routes are not. Balance the whole night composition instead of filling every available position.
 
-### Installation Guidelines for Architectural Grazing
+### Aiming past the architecture
 
-| Rule of Thumb          | Recommendation                     |
-|------------------------|------------------------------------|
-| Fixture spacing        | 8-12 feet apart for a 20-foot wall |
-| Mounting height        | 12-18 inches from ground           |
-| Beam angle             | 15-30 degrees for true grazing     |
-| Color temperature      | 2700K–3000K for warm, inviting glow |
+An upward beam that misses the wall adds sky glow without improving the facade. Narrow the beam, lower output, alter the aim or choose a downward distribution.
 
-All mounting hardware is included, making installation straightforward for homeowners comfortable with basic electrical work.
+### Ignoring eye-level glare
 
-### Common Upward Lighting Mistakes
+Ground fittings hidden from the driveway may be visible from a sunken patio. Walk and sit through the space before final aiming.
 
-Achieving a refined result requires avoiding a few common errors:
+### Leaving controls until last
 
-- **Over-lighting** — Balanced fixture spacing ensures depth and elegance rather than a flat, over-lit appearance.
-- **Wrong color temperature** — Warm white LEDs (2700K-3000K) create an inviting glow; cool white reads as clinical.
-- **Inconsistent spacing** — Draws the eye to the fixtures themselves rather than the architecture.
-- **Lighting every surface** — Eliminates the contrast that makes grazing effective. Restraint is essential.
-- **Ignoring landscape layers** — Combining facade lighting with tree and path lighting creates a complete, intentional composition.
+Facade lighting need not run at full output all night. Timers, astronomical control, dimming or a carefully configured sensor can keep it available when useful.
 
-Well-executed architectural grazing is subtle. The goal is to make the architecture look better, not to draw attention to the lights themselves.
+### Treating a render as a specification
 
-### Maintenance and Longevity
+A visualisation communicates intent, not beam performance. Record effect, distribution, output, CCT, mounting relationship, circuit, control and acceptance test.
 
-Quality fixtures require minimal maintenance. DASTOR lights feature:
+## A Simple Exterior-Lighting Brief
 
-- **Die-casting aluminum body** — anti-rust, anti-corrosion
-- **Acrylic lampshade** — weather-resistant, won't yellow
-- **IP65 waterproof rating** — withstands rain, snow, and extreme temperatures
-- **GU10 LED bulbs** — easily replaceable
+| Decision | Example brief entry |
+|---|---|
+| Focal surface | Rough stone entrance wall only |
+| Desired effect | Texture visible, not evenly floodlit |
+| Secondary layers | Low path light and one tree accent |
+| Viewing positions | Gate, door, lounge window and neighbour-facing boundary |
+| Night character | Warm, restrained, significant shadow retained |
+| Controls | Evening scene, later dim/off time |
+| Site risks | Irrigation, salt exposure, difficult driver access |
+| Acceptance test | No visible source from seating; no beam above roofline; consistent colour |
 
-A simple seasonal cleaning keeps them performing for years. For long-term maintenance, stock spare bulbs:
-<img src="/images/bulb.jpg" alt="GU10 LED replacement bulb 3000K warm white" loading="lazy">
+This turns “make it look luxurious” into decisions a designer, supplier and installer can evaluate together.
 
+## Frequently Asked Questions
 
-### Frequently Asked Questions
+### What is the difference between wall grazing and wall washing?
 
-**What's the difference between upward lighting and wall washing?**  
-Wall-mounted grazing fixtures project light upward and downward across the surface from the face of the wall itself, creating pronounced shadow play. Wall washing uses fixtures with wider beam spreads to illuminate the surface more evenly. Grazing emphasizes texture and detail, while washing creates a softer, more uniform effect.
+Wall grazing places a controlled beam close to a textured surface so projections cast visible shadows. Wall washing uses more setback or a broader distribution to create a more even field with softer texture.
 
-**How many fixtures do I need for upward lighting?**  
-Generally, space fixtures 8-12 feet apart for a 20-foot wall. Professional designers can calculate exact spacing based on your specific architecture.
+### Does wall grazing work on smooth render?
 
-**Can upward lighting work on modern smooth facades?**  
-Yes, but the effect is more subtle. Modern facades benefit from upward lighting that emphasizes architectural lines and edges rather than heavy texture. For these surfaces, precise alignment is key, as the light beam acts as a highlighter for the building's geometry.
+It can expose every ripple and repair. Test a small section at night; a wider wash or lighting a nearby tree may create a calmer result.
 
-**Does DASTOR include bulbs?**  
-Yes — each DASTOR light comes with 2x GU10 7W 3000K LED bulbs included.
+### How far should a grazing light be from the wall?
 
-**How long does installation take?**  
-Installation time varies depending on experience and wiring conditions, but most homeowners comfortable with basic electrical work can complete the process in under an hour per fixture. All mounting hardware is included.
+There is no reliable universal distance. Fixture distribution, wall height, texture and viewing angle all matter. Mock up the exact fitting and move it incrementally.
 
-**Is the DASTOR light waterproof?**  
-Yes — IP65 rated with die-casting aluminum body and acrylic lampshade. Anti-rust, anti-corrosion, and weather-resistant.
+### Should exterior wall lights point upward?
 
-**What is the warranty?**  
-24-month manufacturer warranty.
+Only when the upward light has a clear purpose and is limited to the intended surface. Shielding, aiming, low output and controls help reduce glare, spill and sky glow.
 
-**Can upward lighting increase property value?**  
-Yes — well-executed architectural lighting is often regarded by real estate professionals as a worthwhile investment in curb appeal and perceived luxury.
+### Is an IP rating enough for outdoor lighting?
 
-*For homeowners drawn to timeless materials, our article on [Copper Lanterns That Age With Grace](/article/copper-lanterns-age-with-grace) explores another elegant approach to exterior lighting design.*
+No. The fixture rating does not automatically cover drivers, connectors, cable entries, drainage or site-made joins. The complete system must suit the exposure.
 
-### Final Thoughts
+### What colour temperature suits exterior stone and brick?
 
-Architectural grazing is one of the most cost-effective ways to elevate a home's nighttime presence. Start with a single focal area — your main facade, a courtyard wall, or a retaining garden wall — and expand from there. Combine facade grazing with landscape uplighting for a complete, layered outdoor lighting system that feels intentional, luxurious, and thoroughly designed.
+Warm light is usually calmer and tends to suit stone, brick and timber. Treat 2700K as a useful starting point, then sample the exact light against the material.
 
-> "The goal is not to light everything. The goal is to light what matters."
+## Sources and Further Reading
 
-In luxury design, restraint often creates the strongest impression.
+- [Five Principles for Responsible Outdoor Lighting](https://darksky.org/resources/guides-and-how-tos/lighting-principles/) — DarkSky International and the Illuminating Engineering Society
+- [Home Outdoor Lighting Assessment](https://darksky.org/get-involved/home-lighting-assessment/) — DarkSky International
+- [IP ratings explained for outdoor lighting](https://www.ledvance.com/en-us/professional-lighting/insights/blog/lighting-basics/ip-rating-explained) — LEDVANCE
 
-## Take One Grazed Wall into a Complete Exterior Scheme
+## Take One Wall into a Complete Exterior Scheme
 
-Architectural grazing is strongest when it works with entrances, paths, planting and other focal points rather than standing alone. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you decide what deserves emphasis, choose the effect before the fixture, and build a coherent exterior lighting plan.
+A successful grazed wall depends on what remains dark, how people move through the garden and which other layers support the architecture. The [Veluce Outdoor Lighting Blueprint](/outdoor-lighting-blueprint) helps you map zones, choose effects before fixtures, audit glare and turn isolated ideas into one coherent exterior lighting plan.
+
+The physical recommendations above help execute individual choices. The Blueprint serves the separate, broader planning role.
 
 ## Explore More
 

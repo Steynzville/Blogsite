@@ -3548,7 +3548,7 @@
       "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
       "board_service_id": "296815500381474397",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-22",
       "topic": "led-deck-strips",
       "board_name": "Attainable Luxury Outdoor Lighting",
@@ -3565,7 +3565,9 @@
       "recorded_at": "2026-11-21T22:55:55.591Z",
       "github_run_id": "44959220937",
       "buffer_post_id": "6b02217d846b0ee90743474d",
-      "submitted_at": "2026-11-21T22:55:59.406Z"
+      "submitted_at": "2026-11-21T22:55:59.406Z",
+      "sent_at": "2026-11-21T22:55:58.925Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716578828"
     }
   ]
 }

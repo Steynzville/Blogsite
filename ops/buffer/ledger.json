@@ -3516,6 +3516,24 @@
       "submitted_at": "2026-11-21T15:58:17.503Z",
       "sent_at": "2026-11-21T15:58:17.121Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716576387"
+    },
+    {
+      "creative_id": "veluce-product-outdoor-lighting-blueprint-03-poolside-glow",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Outdoor Lighting Blueprint",
+      "title": "Poolside Lighting: Balance Step Lights and Tree Uplights",
+      "description": "Does your poolside garden look overlit from the seating area? Use separate route, planting and architectural light layers to control glare. Explore Veluce Studio's Outdoor Lighting Blueprint to plan zones, reduce glare and choose fixtures with purpose.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/outdoor-lighting-blueprint-03-poolside-glow.jpg",
+      "destination_url": "https://velucedesign.com/outdoor-lighting-blueprint/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "local_date": "2026-11-21",
+      "source_blob_sha": "14693ddf19dff5794e23ec0fdb69647362fa0139",
+      "source_path": "assets/pinterest-products/outdoor-lighting-blueprint-03-poolside-glow.jpg",
+      "hook": "Does your poolside garden look overlit from the seating area?",
+      "board_name": "Outdoor Lighting Ideas",
+      "status": "reserved",
+      "recorded_at": "2026-11-21T18:53:33.263Z"
     }
   ]
 }

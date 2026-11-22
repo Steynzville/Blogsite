@@ -3598,6 +3598,32 @@
       "submitted_at": "2026-11-21T23:56:05.648Z",
       "sent_at": "2026-11-21T23:56:05.371Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716579122"
+    },
+    {
+      "creative_id": "veluce-auto-20261122-9130d49a2be2",
+      "workflow": "veluce_editorial",
+      "title": "How to Highlight a Tree Beside a Reflecting Pool After Dark",
+      "description": "Will a brightly lit tree reflection compete with the poolside scene? See Veluce's mature-tree uplighting guide. Large olive tree rising from a planted water-edge island, warm canopy illumination mirrored across dark water. Compare tree-up-lighting positions, bark texture and glare from the places.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/architectural-water-and-light-25.jpg",
+      "destination_url": "https://velucedesign.com/article/hidden-uplighting-mature-trees/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-22",
+      "topic": "tree-uplighting",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "3487152833194786112",
+        "name": "Architectural Lighting & Outdoor Glow"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "9130d49a2be2c0969e586c89936765a177700037",
+      "source_path": "assets/pinterest/architectural-water-and-light-25.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-22T12:13:58.171Z",
+      "github_run_id": "45021170869"
     }
   ]
 }

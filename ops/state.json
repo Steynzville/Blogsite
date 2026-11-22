@@ -2930,11 +2930,12 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 8,
-    "last_product": "Outdoor Lighting Blueprint",
+    "last_product": "Luxury Outdoor Room Planner",
     "completed_products": [
-      "Outdoor Lighting Blueprint"
+      "Outdoor Lighting Blueprint",
+      "Luxury Outdoor Room Planner"
     ],
-    "next_product": "Luxury Outdoor Room Planner",
+    "next_product": "Designer Brief Builder",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -4320,6 +4321,37 @@
           "Outdoor Lighting Blueprint"
         ],
         "next_product": "Luxury Outdoor Room Planner"
+      },
+      {
+        "creative_id": "veluce-product-luxury-outdoor-room-planner-03-rooftop-garden",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Luxury Outdoor Room Planner",
+        "cycle": 8,
+        "submission_date": "2026-11-22",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "luxury-outdoor-room-planner-03-rooftop-garden.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-outdoor-room-planner-03-rooftop-garden.jpg",
+        "hook": "Does your rooftop furniture block the skyline or the walking route?",
+        "title": "Rooftop Patio Layout: Design Zones Without Crowding the View",
+        "description": "Does your rooftop furniture block the skyline or the walking route? Give the main view one primary seating zone and protect circulation around it. Explore Veluce Studio's Luxury Outdoor Room Planner to measure furniture zones, circulation and outdoor-room flow.",
+        "destination_url": "https://velucedesign.com/luxury-outdoor-room-planner/",
+        "board": "Garden & Patio Ideas & Finds 🔥",
+        "board_service_id": "296815500381471065",
+        "buffer_post_id": "6b033f0ad864a01105eb2d06",
+        "published_at": "2026-11-22",
+        "published_at_timestamp": "2026-11-22T19:14:19.292Z",
+        "pin_id": "296815431716584506",
+        "pin_url": "https://www.pinterest.com/pin/296815431716584506",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner"
+        ],
+        "next_product": "Designer Brief Builder"
       }
     ],
     "archived_history": [

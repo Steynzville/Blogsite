@@ -3628,6 +3628,27 @@
       "submitted_at": "2026-11-22T12:14:03.219Z",
       "sent_at": "2026-11-22T12:14:02.369Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716582140"
+    },
+    {
+      "creative_id": "veluce-auto-20261122-d6d8fd2fb8b7",
+      "workflow": "veluce_editorial",
+      "title": "Keypad or Biometric Lock: What Should You Compare First?",
+      "description": "Would a keypad lock suit everyone using your entrance? Compare entry systems in Veluce's guide. Tight view of black smart front-door keypad and brushed-metal handle with landscaped pathway softly glowing behind. Consider shared access, backup entry and day-to-day ease of use before choosing the.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-10.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-access-control/",
+      "board_service_id": "296815500381472050",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-22",
+      "topic": "smart-access",
+      "board_name": "Home Security Ideas & Setups",
+      "source_blob_sha": "d6d8fd2fb8b7bdfa4be739e27f04ae809c2a4af6",
+      "source_path": "assets/pinterest/home-security-10.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-22T16:00:33.689Z",
+      "github_run_id": "45041361452"
     }
   ]
 }

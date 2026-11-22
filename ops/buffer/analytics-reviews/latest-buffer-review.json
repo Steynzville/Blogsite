@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "review_date": "2026-11-15",
+  "review_date": "2026-11-22",
   "period_days": 28,
-  "window_start": "2026-10-18",
-  "window_end": "2026-11-15",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-22",
   "source": "Buffer GraphQL personal-account post metrics + verified Veluce publishing ledger",
   "metric_definitions": {
     "impressions": "Buffer-reported post impressions",
@@ -11,17 +11,17 @@
     "native_outbound_clicks": "unavailable in this source; native Pinterest authorized review required"
   },
   "coverage": {
-    "verified_posts": 116,
-    "with_impressions_and_clicks": 116,
+    "verified_posts": 119,
+    "with_impressions_and_clicks": 119,
     "missing_impressions_or_clicks": 0
   },
   "by_cohort": [
     {
       "group": "editorial/bedroom-layered",
-      "posts": 2,
-      "impressions": 15,
+      "posts": 3,
+      "impressions": 23,
       "buffer_clicks": 0,
-      "observed_posts": 2,
+      "observed_posts": 3,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381470761"
@@ -29,21 +29,21 @@
     },
     {
       "group": "editorial/fire-pit",
-      "posts": 18,
-      "impressions": 5342,
-      "buffer_clicks": 133,
-      "observed_posts": 18,
+      "posts": 10,
+      "impressions": 1908,
+      "buffer_clicks": 39,
+      "observed_posts": 10,
       "missing_metric_posts": 0,
       "board_ids": [
-        "296815500381469139",
-        "296815500381471065"
+        "296815500381471065",
+        "296815500381469139"
       ]
     },
     {
       "group": "editorial/garden-fireplace",
       "posts": 1,
-      "impressions": 14,
-      "buffer_clicks": 0,
+      "impressions": 299,
+      "buffer_clicks": 7,
       "observed_posts": 1,
       "missing_metric_posts": 0,
       "board_ids": [
@@ -52,10 +52,10 @@
     },
     {
       "group": "editorial/garden-patio-layout",
-      "posts": 1,
-      "impressions": 7,
-      "buffer_clicks": 0,
-      "observed_posts": 1,
+      "posts": 2,
+      "impressions": 155,
+      "buffer_clicks": 5,
+      "observed_posts": 2,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381471065"
@@ -63,10 +63,10 @@
     },
     {
       "group": "editorial/interior-design",
-      "posts": 2,
-      "impressions": 8,
+      "posts": 3,
+      "impressions": 15,
       "buffer_clicks": 0,
-      "observed_posts": 2,
+      "observed_posts": 3,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381467884"
@@ -74,10 +74,10 @@
     },
     {
       "group": "editorial/kitchen-countertops",
-      "posts": 1,
-      "impressions": 7,
+      "posts": 2,
+      "impressions": 13,
       "buffer_clicks": 0,
-      "observed_posts": 1,
+      "observed_posts": 2,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381470714"
@@ -85,10 +85,10 @@
     },
     {
       "group": "editorial/kitchen-essentials",
-      "posts": 2,
-      "impressions": 3,
+      "posts": 3,
+      "impressions": 8,
       "buffer_clicks": 0,
-      "observed_posts": 2,
+      "observed_posts": 3,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381470701"
@@ -96,21 +96,22 @@
     },
     {
       "group": "editorial/kitchen-layout",
-      "posts": 1,
-      "impressions": 486,
-      "buffer_clicks": 24,
-      "observed_posts": 1,
+      "posts": 3,
+      "impressions": 3194,
+      "buffer_clicks": 129,
+      "observed_posts": 3,
       "missing_metric_posts": 0,
       "board_ids": [
-        "296815500381470714"
+        "296815500381470714",
+        "296815500381470701"
       ]
     },
     {
       "group": "editorial/led-deck-strips",
-      "posts": 7,
-      "impressions": 100,
-      "buffer_clicks": 4,
-      "observed_posts": 7,
+      "posts": 14,
+      "impressions": 1356,
+      "buffer_clicks": 33,
+      "observed_posts": 14,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381474397",
@@ -120,66 +121,80 @@
     },
     {
       "group": "editorial/natural-stone",
-      "posts": 1,
-      "impressions": 36,
-      "buffer_clicks": 2,
-      "observed_posts": 1,
+      "posts": 2,
+      "impressions": 602,
+      "buffer_clicks": 34,
+      "observed_posts": 2,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381467884"
       ]
     },
     {
-      "group": "editorial/outdoor-wall-grazing",
+      "group": "editorial/outdoor-rugs",
       "posts": 1,
-      "impressions": 20,
+      "impressions": 3,
       "buffer_clicks": 0,
       "observed_posts": 1,
       "missing_metric_posts": 0,
       "board_ids": [
+        "296815500381471065"
+      ]
+    },
+    {
+      "group": "editorial/outdoor-wall-grazing",
+      "posts": 2,
+      "impressions": 117,
+      "buffer_clicks": 1,
+      "observed_posts": 2,
+      "missing_metric_posts": 0,
+      "board_ids": [
+        "296815500381469139",
         "296815500381474397"
       ]
     },
     {
       "group": "editorial/pathway-lighting",
-      "posts": 10,
-      "impressions": 1264,
-      "buffer_clicks": 35,
-      "observed_posts": 10,
+      "posts": 9,
+      "impressions": 5058,
+      "buffer_clicks": 121,
+      "observed_posts": 9,
       "missing_metric_posts": 0,
       "board_ids": [
+        "296815500381471065",
         "296815500381477417"
       ]
     },
     {
       "group": "editorial/pergola",
-      "posts": 22,
-      "impressions": 2817,
-      "buffer_clicks": 96,
-      "observed_posts": 22,
+      "posts": 12,
+      "impressions": 7793,
+      "buffer_clicks": 252,
+      "observed_posts": 12,
       "missing_metric_posts": 0,
       "board_ids": [
+        "296815500381469139",
         "296815500381474397",
-        "296815500381477417",
-        "296815500381471065"
+        "296815500381477417"
       ]
     },
     {
       "group": "editorial/perimeter-security",
-      "posts": 1,
-      "impressions": 82,
-      "buffer_clicks": 5,
-      "observed_posts": 1,
+      "posts": 3,
+      "impressions": 3325,
+      "buffer_clicks": 48,
+      "observed_posts": 3,
       "missing_metric_posts": 0,
       "board_ids": [
-        "296815500381471465"
+        "296815500381471465",
+        "296815500381472108"
       ]
     },
     {
       "group": "editorial/quartzite-porcelain",
       "posts": 1,
-      "impressions": 3,
-      "buffer_clicks": 0,
+      "impressions": 20,
+      "buffer_clicks": 1,
       "observed_posts": 1,
       "missing_metric_posts": 0,
       "board_ids": [
@@ -188,10 +203,10 @@
     },
     {
       "group": "editorial/security-cameras",
-      "posts": 2,
-      "impressions": 19,
+      "posts": 4,
+      "impressions": 72,
       "buffer_clicks": 2,
-      "observed_posts": 2,
+      "observed_posts": 4,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381472050"
@@ -199,10 +214,10 @@
     },
     {
       "group": "editorial/smart-access",
-      "posts": 2,
-      "impressions": 12,
-      "buffer_clicks": 1,
-      "observed_posts": 2,
+      "posts": 3,
+      "impressions": 107,
+      "buffer_clicks": 5,
+      "observed_posts": 3,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381471465",
@@ -211,19 +226,19 @@
     },
     {
       "group": "editorial/smart-blinds",
-      "posts": 1,
-      "impressions": 9,
+      "posts": 2,
+      "impressions": 21,
       "buffer_clicks": 1,
-      "observed_posts": 1,
+      "observed_posts": 2,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381470761"
       ]
     },
     {
-      "group": "editorial/smart-lighting",
+      "group": "editorial/smart-home-planning",
       "posts": 1,
-      "impressions": 10,
+      "impressions": 1,
       "buffer_clicks": 0,
       "observed_posts": 1,
       "missing_metric_posts": 0,
@@ -232,9 +247,20 @@
       ]
     },
     {
+      "group": "editorial/smart-lighting",
+      "posts": 2,
+      "impressions": 135,
+      "buffer_clicks": 2,
+      "observed_posts": 2,
+      "missing_metric_posts": 0,
+      "board_ids": [
+        "296815500381472108"
+      ]
+    },
+    {
       "group": "editorial/solar-pathway",
       "posts": 1,
-      "impressions": 4,
+      "impressions": 47,
       "buffer_clicks": 0,
       "observed_posts": 1,
       "missing_metric_posts": 0,
@@ -245,8 +271,8 @@
     {
       "group": "editorial/tree-moonlighting",
       "posts": 1,
-      "impressions": 11,
-      "buffer_clicks": 0,
+      "impressions": 26,
+      "buffer_clicks": 1,
       "observed_posts": 1,
       "missing_metric_posts": 0,
       "board_ids": [
@@ -255,10 +281,10 @@
     },
     {
       "group": "editorial/tree-uplighting",
-      "posts": 13,
-      "impressions": 1402,
-      "buffer_clicks": 41,
-      "observed_posts": 13,
+      "posts": 10,
+      "impressions": 5178,
+      "buffer_clicks": 145,
+      "observed_posts": 10,
       "missing_metric_posts": 0,
       "board_ids": [
         "296815500381469139",
@@ -268,19 +294,19 @@
     {
       "group": "product/Complete Home Design System",
       "posts": 4,
-      "impressions": 76,
+      "impressions": 63,
       "buffer_clicks": 2,
       "observed_posts": 4,
       "missing_metric_posts": 0,
       "board_ids": [
-        "296815500381469139",
-        "296815500381467884"
+        "296815500381467884",
+        "296815500381469139"
       ]
     },
     {
       "group": "product/Designer Brief Builder",
       "posts": 4,
-      "impressions": 68,
+      "impressions": 77,
       "buffer_clicks": 1,
       "observed_posts": 4,
       "missing_metric_posts": 0,
@@ -292,8 +318,8 @@
     {
       "group": "product/Luxury Lighting Formula",
       "posts": 4,
-      "impressions": 184,
-      "buffer_clicks": 5,
+      "impressions": 99,
+      "buffer_clicks": 4,
       "observed_posts": 4,
       "missing_metric_posts": 0,
       "board_ids": [
@@ -303,8 +329,8 @@
     {
       "group": "product/Luxury Outdoor Room Planner",
       "posts": 4,
-      "impressions": 626,
-      "buffer_clicks": 11,
+      "impressions": 1457,
+      "buffer_clicks": 32,
       "observed_posts": 4,
       "missing_metric_posts": 0,
       "board_ids": [
@@ -314,18 +340,19 @@
     {
       "group": "product/Outdoor Lighting Blueprint",
       "posts": 4,
-      "impressions": 71,
-      "buffer_clicks": 3,
+      "impressions": 44,
+      "buffer_clicks": 2,
       "observed_posts": 4,
       "missing_metric_posts": 0,
       "board_ids": [
-        "296815500381477417"
+        "296815500381477417",
+        "296815500381474397"
       ]
     },
     {
       "group": "product/Room Procurement System",
       "posts": 4,
-      "impressions": 40,
+      "impressions": 45,
       "buffer_clicks": 0,
       "observed_posts": 4,
       "missing_metric_posts": 0,
@@ -336,402 +363,6 @@
   ],
   "posts": [
     {
-      "buffer_post_id": "6ad5ab0d18b302746757ef4c",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716334391",
-      "posted_at": "2026-10-19T05:30:54.589Z",
-      "metrics_updated_at": "2026-11-14T12:13:30.766Z",
-      "impressions": 35,
-      "buffer_clicks": 3
-    },
-    {
-      "buffer_post_id": "6ad5e8712bb9d16409b6d041",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716335304",
-      "posted_at": "2026-10-19T09:52:51.335Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.915Z",
-      "impressions": 22,
-      "buffer_clicks": 2
-    },
-    {
-      "buffer_post_id": "6ad608ac2dab63998e8725c9",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Outdoor Lighting Blueprint",
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716335808",
-      "posted_at": "2026-10-19T12:10:22.389Z",
-      "metrics_updated_at": "2026-11-14T12:13:30.766Z",
-      "impressions": 32,
-      "buffer_clicks": 2
-    },
-    {
-      "buffer_post_id": "6ad6356a8e3b9aca8dcb90cf",
-      "workflow": "veluce_editorial",
-      "topic": "tree-uplighting",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716336802",
-      "posted_at": "2026-10-19T15:21:16.043Z",
-      "metrics_updated_at": "2026-11-14T12:13:30.766Z",
-      "impressions": 21,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad6739e8a0f55ee807c2d21",
-      "workflow": "veluce_editorial",
-      "topic": "pathway-lighting",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716338657",
-      "posted_at": "2026-10-19T19:46:39.401Z",
-      "metrics_updated_at": "2026-11-14T12:13:30.766Z",
-      "impressions": 20,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad6952329a6896a47c9b822",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716339502",
-      "posted_at": "2026-10-19T22:09:41.295Z",
-      "metrics_updated_at": "2026-11-14T12:13:30.766Z",
-      "impressions": 11,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad72e8aed43fb48e28fd143",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716342737",
-      "posted_at": "2026-10-20T09:04:12.201Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.078Z",
-      "impressions": 122,
-      "buffer_clicks": 1
-    },
-    {
-      "buffer_post_id": "6ad757cc31ed850c40e07610",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Luxury Outdoor Room Planner",
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716343427",
-      "posted_at": "2026-10-20T12:00:14.829Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.879Z",
-      "impressions": 50,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad76b8dcf1d4d5c5e60745b",
-      "workflow": "veluce_editorial",
-      "topic": "tree-uplighting",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716343878",
-      "posted_at": "2026-10-20T13:24:31.413Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.257Z",
-      "impressions": 41,
-      "buffer_clicks": 1
-    },
-    {
-      "buffer_post_id": "6ad7b24959e93798fafac75d",
-      "workflow": "veluce_editorial",
-      "topic": "pathway-lighting",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716345976",
-      "posted_at": "2026-10-20T18:26:19.125Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.325Z",
-      "impressions": 22,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad87ff5d109f3f66b885dde",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716351287",
-      "posted_at": "2026-10-21T09:03:51.514Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.123Z",
-      "impressions": 10,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad8aa333021c1ef52b4e487",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Designer Brief Builder",
-      "board_id": "296815500381467884",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716351964",
-      "posted_at": "2026-10-21T12:04:05.800Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.392Z",
-      "impressions": 19,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad8bf4e7b5905295c2786f9",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716352282",
-      "posted_at": "2026-10-21T13:34:08.609Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.758Z",
-      "impressions": 1300,
-      "buffer_clicks": 32
-    },
-    {
-      "buffer_post_id": "6ad90536d044cd24044976e9",
-      "workflow": "veluce_editorial",
-      "topic": "tree-uplighting",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716353928",
-      "posted_at": "2026-10-21T18:32:23.801Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.086Z",
-      "impressions": 4,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad92dfb9756ed1587c9948e",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716354907",
-      "posted_at": "2026-10-21T21:26:20.650Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.967Z",
-      "impressions": 221,
-      "buffer_clicks": 7
-    },
-    {
-      "buffer_post_id": "6ad9d1f709335c6cc6f718cc",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716358799",
-      "posted_at": "2026-10-22T09:06:00.929Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.051Z",
-      "impressions": 44,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6ad9fcfea6a09108d26588a5",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Luxury Lighting Formula",
-      "board_id": "296815500381467884",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716359497",
-      "posted_at": "2026-10-22T12:09:36.211Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.991Z",
-      "impressions": 166,
-      "buffer_clicks": 3
-    },
-    {
-      "buffer_post_id": "6ada1119bf6d801ac6edbdca",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716359991",
-      "posted_at": "2026-10-22T13:35:22.802Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.207Z",
-      "impressions": 184,
-      "buffer_clicks": 7
-    },
-    {
-      "buffer_post_id": "6ada559dad1fc1b5527e0d81",
-      "workflow": "veluce_editorial",
-      "topic": "tree-uplighting",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716361782",
-      "posted_at": "2026-10-22T18:27:42.732Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.886Z",
-      "impressions": 8,
-      "buffer_clicks": 1
-    },
-    {
-      "buffer_post_id": "6ada7e559daa164787692a05",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716362992",
-      "posted_at": "2026-10-22T21:21:26.603Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.075Z",
-      "impressions": 7,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adb222d2baa602d0241235c",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716366377",
-      "posted_at": "2026-10-23T09:00:31.513Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.812Z",
-      "impressions": 24,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adb4ded7c3aac797e7dc04e",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Room Procurement System",
-      "board_id": "296815500381467884",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716367148",
-      "posted_at": "2026-10-23T12:07:10.586Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.331Z",
-      "impressions": 14,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adb5cf291ffb6bdb08592d2",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716367439",
-      "posted_at": "2026-10-23T13:11:15.853Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.055Z",
-      "impressions": 5,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adba3fd9acae620d810ff8b",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716369346",
-      "posted_at": "2026-10-23T18:14:22.715Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.718Z",
-      "impressions": 2864,
-      "buffer_clicks": 78
-    },
-    {
-      "buffer_post_id": "6adbb157e4be8a4d8620bea2",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716369617",
-      "posted_at": "2026-10-23T19:11:20.613Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.067Z",
-      "impressions": 7,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adbe2543d5b27036b558a33",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716370819",
-      "posted_at": "2026-10-23T22:40:21.508Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.782Z",
-      "impressions": 80,
-      "buffer_clicks": 4
-    },
-    {
-      "buffer_post_id": "6adc6da0e4be8a4d864b283b",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716374271",
-      "posted_at": "2026-10-24T08:34:41.652Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.351Z",
-      "impressions": 6,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adca0510b5343d070807e29",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Complete Home Design System",
-      "board_id": "296815500381467884",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716375113",
-      "posted_at": "2026-10-24T12:10:58.566Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.137Z",
-      "impressions": 45,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adca4c6bd33ce99c3216390",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716375212",
-      "posted_at": "2026-10-24T12:29:59.782Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.065Z",
-      "impressions": 9,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6adce8cb6887a2efc1ca4e6b",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716376584",
-      "posted_at": "2026-10-24T17:20:14.020Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.272Z",
-      "impressions": 10,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6addc3a13d5b27036bc3a0a7",
-      "workflow": "veluce_editorial",
-      "topic": "fire-pit",
-      "product": null,
-      "board_id": "296815500381471065",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716381478",
-      "posted_at": "2026-10-25T08:53:54.930Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.910Z",
-      "impressions": 16,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6addef258b3d437ddc068a34",
-      "workflow": "veluce_six_product_cover_rotation_v1",
-      "topic": null,
-      "product": "Outdoor Lighting Blueprint",
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716382120",
-      "posted_at": "2026-10-25T11:59:35.362Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.121Z",
-      "impressions": 14,
-      "buffer_clicks": 0
-    },
-    {
-      "buffer_post_id": "6addfda33d5b27036bd26bc5",
-      "workflow": "veluce_editorial",
-      "topic": "pergola",
-      "product": null,
-      "board_id": "296815500381477417",
-      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716382319",
-      "posted_at": "2026-10-25T13:01:25.810Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.212Z",
-      "impressions": 5,
-      "buffer_clicks": 1
-    },
-    {
       "buffer_post_id": "6ade3d8f6887a2efc1181ffb",
       "workflow": "veluce_editorial",
       "topic": "pergola",
@@ -739,8 +370,8 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716383708",
       "posted_at": "2026-10-25T17:34:08.982Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.126Z",
-      "impressions": 32,
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 78,
       "buffer_clicks": 1
     },
     {
@@ -751,9 +382,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716384871",
       "posted_at": "2026-10-25T20:37:20.282Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.313Z",
-      "impressions": 67,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 181,
+      "buffer_clicks": 4
     },
     {
       "buffer_post_id": "6ade7cf23d5b27036bf4503a",
@@ -763,9 +394,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716385646",
       "posted_at": "2026-10-25T22:04:35.920Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.798Z",
-      "impressions": 100,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 342,
+      "buffer_clicks": 5
     },
     {
       "buffer_post_id": "6adf1ef50f7767cbe7c69692",
@@ -775,9 +406,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716389806",
       "posted_at": "2026-10-26T09:35:50.795Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.166Z",
-      "impressions": 229,
-      "buffer_clicks": 11
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 1837,
+      "buffer_clicks": 53
     },
     {
       "buffer_post_id": "6adf441443e462eb447610b8",
@@ -787,9 +418,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716390408",
       "posted_at": "2026-10-26T12:14:14.399Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.835Z",
-      "impressions": 497,
-      "buffer_clicks": 9
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 1248,
+      "buffer_clicks": 26
     },
     {
       "buffer_post_id": "6adf6a20fc971906906e011d",
@@ -799,9 +430,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716391360",
       "posted_at": "2026-10-26T14:56:33.812Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.039Z",
-      "impressions": 890,
-      "buffer_clicks": 40
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 3891,
+      "buffer_clicks": 129
     },
     {
       "buffer_post_id": "6adfaf0ecb109ba5d28377aa",
@@ -811,9 +442,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716393167",
       "posted_at": "2026-10-26T19:50:40.078Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.245Z",
-      "impressions": 415,
-      "buffer_clicks": 15
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 1707,
+      "buffer_clicks": 56
     },
     {
       "buffer_post_id": "6adfd3fbc26d8b40cc7aa97d",
@@ -823,8 +454,8 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716394106",
       "posted_at": "2026-10-26T22:28:13.078Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.838Z",
-      "impressions": 38,
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 68,
       "buffer_clicks": 0
     },
     {
@@ -835,9 +466,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716394452",
       "posted_at": "2026-10-26T23:22:16.107Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.102Z",
-      "impressions": 93,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 269,
+      "buffer_clicks": 3
     },
     {
       "buffer_post_id": "6ae06fc5158d7a72af91e53e",
@@ -847,8 +478,8 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716397516",
       "posted_at": "2026-10-27T09:32:54.890Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.319Z",
-      "impressions": 12,
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 13,
       "buffer_clicks": 0
     },
     {
@@ -859,8 +490,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716398097",
       "posted_at": "2026-10-27T12:11:36.744Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.112Z",
-      "impressions": 19,
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 24,
       "buffer_clicks": 1
     },
     {
@@ -871,9 +502,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716398541",
       "posted_at": "2026-10-27T14:07:37.656Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.095Z",
-      "impressions": 20,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 60,
+      "buffer_clicks": 4
     },
     {
       "buffer_post_id": "6ae13043b24fed5fb48d3e2e",
@@ -883,9 +514,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716401781",
       "posted_at": "2026-10-27T23:14:13.475Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.059Z",
-      "impressions": 184,
-      "buffer_clicks": 4
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 418,
+      "buffer_clicks": 14
     },
     {
       "buffer_post_id": "6ae1cb86979a56d9e57d199b",
@@ -895,9 +526,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716404498",
       "posted_at": "2026-10-28T10:16:40.018Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.384Z",
-      "impressions": 102,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 236,
+      "buffer_clicks": 6
     },
     {
       "buffer_post_id": "6ae1e54cdee6d1a87ac251f4",
@@ -919,9 +550,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716405806",
       "posted_at": "2026-10-28T14:55:56.686Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.203Z",
-      "impressions": 41,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 75,
+      "buffer_clicks": 1
     },
     {
       "buffer_post_id": "6ae24ca0d6189ae98ff621d1",
@@ -931,9 +562,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716407569",
       "posted_at": "2026-10-28T19:27:30.045Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.134Z",
-      "impressions": 622,
-      "buffer_clicks": 15
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 1942,
+      "buffer_clicks": 56
     },
     {
       "buffer_post_id": "6ae275c7cc91be5434b28ef7",
@@ -943,9 +574,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716408849",
       "posted_at": "2026-10-28T22:23:04.772Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.796Z",
-      "impressions": 311,
-      "buffer_clicks": 6
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 600,
+      "buffer_clicks": 13
     },
     {
       "buffer_post_id": "6ae286af7a72c9efac066149",
@@ -955,9 +586,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716409410",
       "posted_at": "2026-10-28T23:35:13.164Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.253Z",
-      "impressions": 404,
-      "buffer_clicks": 11
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 1443,
+      "buffer_clicks": 27
     },
     {
       "buffer_post_id": "6ae322ad1db2603c2d98d4db",
@@ -967,9 +598,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716412189",
       "posted_at": "2026-10-29T10:40:47.239Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.122Z",
-      "impressions": 33,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 83,
+      "buffer_clicks": 2
     },
     {
       "buffer_post_id": "6ae33814b27bc9061f568c5d",
@@ -979,8 +610,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716412558",
       "posted_at": "2026-10-29T12:12:06.311Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.165Z",
-      "impressions": 19,
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 26,
       "buffer_clicks": 0
     },
     {
@@ -991,8 +622,8 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716413249",
       "posted_at": "2026-10-29T15:00:55.962Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.401Z",
-      "impressions": 13,
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 18,
       "buffer_clicks": 0
     },
     {
@@ -1039,9 +670,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716419174",
       "posted_at": "2026-10-30T10:41:29.487Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.029Z",
-      "impressions": 31,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.994Z",
+      "impressions": 75,
+      "buffer_clicks": 4
     },
     {
       "buffer_post_id": "6ae487c280f61ee51916be99",
@@ -1051,8 +682,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716419577",
       "posted_at": "2026-10-30T12:04:19.568Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.140Z",
-      "impressions": 23,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 36,
       "buffer_clicks": 1
     },
     {
@@ -1063,8 +694,8 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716424549",
       "posted_at": "2026-10-31T04:06:10.278Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.889Z",
-      "impressions": 36,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 41,
       "buffer_clicks": 0
     },
     {
@@ -1075,9 +706,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716425319",
       "posted_at": "2026-10-31T08:11:19.485Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.337Z",
-      "impressions": 44,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 176,
+      "buffer_clicks": 4
     },
     {
       "buffer_post_id": "6ae5f6eacf3a3112f3a740f8",
@@ -1087,9 +718,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716426793",
       "posted_at": "2026-10-31T14:10:52.150Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.216Z",
-      "impressions": 40,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 99,
+      "buffer_clicks": 2
     },
     {
       "buffer_post_id": "6ae62f6f37c1acd2a0c2f271",
@@ -1099,9 +730,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716427863",
       "posted_at": "2026-10-31T18:12:00.918Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.130Z",
-      "impressions": 85,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 397,
+      "buffer_clicks": 5
     },
     {
       "buffer_post_id": "6ae6baca1ee172cd6dda32d9",
@@ -1111,8 +742,8 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716430521",
       "posted_at": "2026-11-01T04:06:35.413Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.062Z",
-      "impressions": 131,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 319,
       "buffer_clicks": 2
     },
     {
@@ -1123,9 +754,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716431432",
       "posted_at": "2026-11-01T08:12:15.849Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.107Z",
-      "impressions": 315,
-      "buffer_clicks": 7
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 996,
+      "buffer_clicks": 24
     },
     {
       "buffer_post_id": "6ae72b1521c807e9d5b8da18",
@@ -1135,7 +766,7 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716432019",
       "posted_at": "2026-11-01T12:05:42.299Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.959Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
       "impressions": 20,
       "buffer_clicks": 1
     },
@@ -1147,9 +778,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716432651",
       "posted_at": "2026-11-01T14:10:56.694Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.396Z",
-      "impressions": 919,
-      "buffer_clicks": 29
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 2315,
+      "buffer_clicks": 86
     },
     {
       "buffer_post_id": "6ae780e8d27d61fd6605500c",
@@ -1159,9 +790,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716434127",
       "posted_at": "2026-11-01T18:11:53.929Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.389Z",
-      "impressions": 91,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 852,
+      "buffer_clicks": 16
     },
     {
       "buffer_post_id": "6ae80c4e759fc887b6c89347",
@@ -1171,9 +802,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716439586",
       "posted_at": "2026-11-02T04:06:39.474Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.840Z",
-      "impressions": 35,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 80,
+      "buffer_clicks": 3
     },
     {
       "buffer_post_id": "6ae8468b76279ec7eb9f6d1a",
@@ -1183,9 +814,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716440600",
       "posted_at": "2026-11-02T08:15:08.825Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.098Z",
-      "impressions": 35,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 99,
+      "buffer_clicks": 4
     },
     {
       "buffer_post_id": "6ae87d665a0b78bb030bf46b",
@@ -1195,9 +826,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716441305",
       "posted_at": "2026-11-02T12:09:11.550Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.934Z",
-      "impressions": 71,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 169,
+      "buffer_clicks": 6
     },
     {
       "buffer_post_id": "6ae89ae8416e2003426865e5",
@@ -1207,9 +838,9 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716442102",
       "posted_at": "2026-11-02T14:39:02.012Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.975Z",
-      "impressions": 235,
-      "buffer_clicks": 5
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 887,
+      "buffer_clicks": 26
     },
     {
       "buffer_post_id": "6ae8d2cec25538a9f8cb3c6c",
@@ -1219,9 +850,9 @@
       "board_id": "296815500381469139",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716443825",
       "posted_at": "2026-11-02T18:13:36.399Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.819Z",
-      "impressions": 51,
-      "buffer_clicks": 3
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 122,
+      "buffer_clicks": 4
     },
     {
       "buffer_post_id": "6ae95dc6b1dfe2c544ef08f8",
@@ -1231,8 +862,8 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716447571",
       "posted_at": "2026-11-03T04:06:31.597Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.620Z",
-      "impressions": 47,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 167,
       "buffer_clicks": 1
     },
     {
@@ -1243,9 +874,9 @@
       "board_id": "296815500381469139",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716448354",
       "posted_at": "2026-11-03T08:13:28.523Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.730Z",
-      "impressions": 26,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 40,
+      "buffer_clicks": 2
     },
     {
       "buffer_post_id": "6ae9cea547205d2c39990ab2",
@@ -1255,8 +886,8 @@
       "board_id": "296815500381469139",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716449380",
       "posted_at": "2026-11-03T12:08:06.722Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.586Z",
-      "impressions": 28,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 42,
       "buffer_clicks": 0
     },
     {
@@ -1267,8 +898,8 @@
       "board_id": "296815500381470761",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716450032",
       "posted_at": "2026-11-03T14:13:27.613Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.954Z",
-      "impressions": 15,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 21,
       "buffer_clicks": 0
     },
     {
@@ -1279,9 +910,9 @@
       "board_id": "296815500381470714",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716451371",
       "posted_at": "2026-11-03T18:15:23.948Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.152Z",
-      "impressions": 486,
-      "buffer_clicks": 24
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 3194,
+      "buffer_clicks": 129
     },
     {
       "buffer_post_id": "6aeaaf4a87b7c6d24c8ca5f3",
@@ -1291,9 +922,9 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716455083",
       "posted_at": "2026-11-04T04:06:35.569Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.148Z",
-      "impressions": 36,
-      "buffer_clicks": 2
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 600,
+      "buffer_clicks": 33
     },
     {
       "buffer_post_id": "6aeae910e478396c274e49be",
@@ -1303,8 +934,8 @@
       "board_id": "296815500381472050",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716455942",
       "posted_at": "2026-11-04T08:13:07.332Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.201Z",
-      "impressions": 19,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 56,
       "buffer_clicks": 2
     },
     {
@@ -1315,8 +946,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716456625",
       "posted_at": "2026-11-04T12:07:39.943Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.096Z",
-      "impressions": 18,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 67,
       "buffer_clicks": 2
     },
     {
@@ -1327,9 +958,9 @@
       "board_id": "296815500381474927",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716458557",
       "posted_at": "2026-11-04T18:13:00.078Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.823Z",
-      "impressions": 19,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 91,
+      "buffer_clicks": 5
     },
     {
       "buffer_post_id": "6aeb8c69a101dc5e772fbe2f",
@@ -1339,9 +970,9 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716458940",
       "posted_at": "2026-11-04T19:50:02.660Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.933Z",
-      "impressions": 20,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 110,
+      "buffer_clicks": 1
     },
     {
       "buffer_post_id": "6aec00e10e7f2634da74daa7",
@@ -1351,9 +982,9 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716461821",
       "posted_at": "2026-11-05T04:06:59.649Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.891Z",
-      "impressions": 50,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 378,
+      "buffer_clicks": 6
     },
     {
       "buffer_post_id": "6aec3adb7877e0eab287c59d",
@@ -1363,9 +994,9 @@
       "board_id": "296815500381472108",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716462858",
       "posted_at": "2026-11-05T08:14:20.779Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.231Z",
-      "impressions": 12,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 88,
+      "buffer_clicks": 5
     },
     {
       "buffer_post_id": "6aec7376fac32e0e658c0094",
@@ -1375,8 +1006,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716463462",
       "posted_at": "2026-11-05T12:15:51.854Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.994Z",
-      "impressions": 7,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 13,
       "buffer_clicks": 0
     },
     {
@@ -1387,9 +1018,9 @@
       "board_id": "296815500381471465",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716463846",
       "posted_at": "2026-11-05T14:13:48.232Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.936Z",
-      "impressions": 82,
-      "buffer_clicks": 5
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 3322,
+      "buffer_clicks": 48
     },
     {
       "buffer_post_id": "6aecc7510e16d1231107dd55",
@@ -1399,8 +1030,8 @@
       "board_id": "296815500381470701",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716465001",
       "posted_at": "2026-11-05T18:13:38.636Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.099Z",
-      "impressions": 3,
+      "metrics_updated_at": "2026-11-22T04:15:40.993Z",
+      "impressions": 5,
       "buffer_clicks": 0
     },
     {
@@ -1411,9 +1042,9 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716468685",
       "posted_at": "2026-11-06T04:06:56.168Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.923Z",
-      "impressions": 17,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 690,
+      "buffer_clicks": 16
     },
     {
       "buffer_post_id": "6aed8c30c1e74b84e5d76b45",
@@ -1423,8 +1054,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716469856",
       "posted_at": "2026-11-06T08:13:39.039Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.954Z",
-      "impressions": 8,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 11,
       "buffer_clicks": 0
     },
     {
@@ -1435,8 +1066,8 @@
       "board_id": "296815500381470714",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716471427",
       "posted_at": "2026-11-06T14:13:31.580Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.851Z",
-      "impressions": 7,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 11,
       "buffer_clicks": 0
     },
     {
@@ -1447,8 +1078,8 @@
       "board_id": "296815500381470761",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716472722",
       "posted_at": "2026-11-06T18:14:34.044Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.752Z",
-      "impressions": 9,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 21,
       "buffer_clicks": 1
     },
     {
@@ -1459,9 +1090,9 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716476037",
       "posted_at": "2026-11-07T04:06:24.370Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.875Z",
-      "impressions": 14,
-      "buffer_clicks": 1
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 164,
+      "buffer_clicks": 5
     },
     {
       "buffer_post_id": "6aeedd26a7751de7c9d4a480",
@@ -1471,9 +1102,9 @@
       "board_id": "296815500381472108",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716477194",
       "posted_at": "2026-11-07T08:11:20.019Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.104Z",
-      "impressions": 10,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 134,
+      "buffer_clicks": 2
     },
     {
       "buffer_post_id": "6aef15dfa7751de7c9e735aa",
@@ -1483,8 +1114,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716478023",
       "posted_at": "2026-11-07T12:13:20.654Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.073Z",
-      "impressions": 8,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 20,
       "buffer_clicks": 1
     },
     {
@@ -1495,9 +1126,9 @@
       "board_id": "296815500381469139",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716478426",
       "posted_at": "2026-11-07T14:10:47.414Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.815Z",
-      "impressions": 14,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 299,
+      "buffer_clicks": 7
     },
     {
       "buffer_post_id": "6af06763004e4879a7b67e66",
@@ -1507,8 +1138,8 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716484172",
       "posted_at": "2026-11-08T12:13:25.296Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.149Z",
-      "impressions": 5,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 19,
       "buffer_clicks": 0
     },
     {
@@ -1519,8 +1150,8 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716495582",
       "posted_at": "2026-11-09T22:11:24.954Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.645Z",
-      "impressions": 8,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 36,
       "buffer_clicks": 0
     },
     {
@@ -1531,9 +1162,9 @@
       "board_id": "296815500381470714",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716500969",
       "posted_at": "2026-11-10T16:13:23.205Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.181Z",
-      "impressions": 3,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 20,
+      "buffer_clicks": 1
     },
     {
       "buffer_post_id": "6af3827e41bc75bbeb61b06a",
@@ -1543,9 +1174,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716503046",
       "posted_at": "2026-11-10T20:45:51.729Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.998Z",
-      "impressions": 11,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 26,
+      "buffer_clicks": 1
     },
     {
       "buffer_post_id": "6af3a1fba15deeef95181f2a",
@@ -1555,8 +1186,8 @@
       "board_id": "296815500381474927",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716504129",
       "posted_at": "2026-11-10T23:00:14.295Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.534Z",
-      "impressions": 4,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 47,
       "buffer_clicks": 0
     },
     {
@@ -1567,9 +1198,9 @@
       "board_id": "296815500381471065",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716504508",
       "posted_at": "2026-11-11T00:15:29.559Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.945Z",
-      "impressions": 7,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 154,
+      "buffer_clicks": 5
     },
     {
       "buffer_post_id": "6af4c0eb592a3bb919a98c07",
@@ -1579,8 +1210,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716509408",
       "posted_at": "2026-11-11T19:24:29.163Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.110Z",
-      "impressions": 2,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 10,
       "buffer_clicks": 0
     },
     {
@@ -1591,9 +1222,9 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716516453",
       "posted_at": "2026-11-12T19:41:42.846Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.947Z",
-      "impressions": 0,
-      "buffer_clicks": 0
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 30,
+      "buffer_clicks": 2
     },
     {
       "buffer_post_id": "6af6f8e866ff9797d87d004f",
@@ -1603,8 +1234,8 @@
       "board_id": "296815500381477417",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716520783",
       "posted_at": "2026-11-13T11:47:53.977Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.072Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 14,
       "buffer_clicks": 0
     },
     {
@@ -1615,8 +1246,8 @@
       "board_id": "296815500381472050",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716522047",
       "posted_at": "2026-11-13T15:58:45.986Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.259Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 14,
       "buffer_clicks": 0
     },
     {
@@ -1627,8 +1258,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716523448",
       "posted_at": "2026-11-13T19:24:03.815Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.925Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 5,
       "buffer_clicks": 0
     },
     {
@@ -1639,8 +1270,8 @@
       "board_id": "296815500381471465",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716523962",
       "posted_at": "2026-11-13T20:49:49.921Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.428Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 17,
       "buffer_clicks": 0
     },
     {
@@ -1651,8 +1282,8 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716524791",
       "posted_at": "2026-11-13T23:24:20.477Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.955Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 8,
       "buffer_clicks": 0
     },
     {
@@ -1663,8 +1294,8 @@
       "board_id": "296815500381470701",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716525116",
       "posted_at": "2026-11-14T00:28:51.595Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.118Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 3,
       "buffer_clicks": 0
     },
     {
@@ -1675,8 +1306,8 @@
       "board_id": "296815500381467884",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716527197",
       "posted_at": "2026-11-14T11:09:49.548Z",
-      "metrics_updated_at": "2026-11-14T15:13:21.145Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 4,
       "buffer_clicks": 0
     },
     {
@@ -1687,8 +1318,8 @@
       "board_id": "296815500381470761",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716527971",
       "posted_at": "2026-11-14T14:51:34.062Z",
-      "metrics_updated_at": "2026-11-14T15:13:20.617Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 2,
       "buffer_clicks": 0
     },
     {
@@ -1699,8 +1330,8 @@
       "board_id": "296815500381469139",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716528960",
       "posted_at": "2026-11-14T17:48:22.920Z",
-      "metrics_updated_at": "2026-11-14T17:48:21.649Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 6,
       "buffer_clicks": 0
     },
     {
@@ -1711,8 +1342,8 @@
       "board_id": "296815500381474397",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716530807",
       "posted_at": "2026-11-14T22:09:15.322Z",
-      "metrics_updated_at": "2026-11-14T22:09:14.147Z",
-      "impressions": 0,
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 3,
       "buffer_clicks": 0
     },
     {
@@ -1723,7 +1354,439 @@
       "board_id": "296815500381469139",
       "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716531234",
       "posted_at": "2026-11-14T23:24:34.231Z",
-      "metrics_updated_at": "2026-11-14T23:24:32.626Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 5,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6af99ad9c5b364e0625123af",
+      "workflow": "veluce_editorial",
+      "topic": "kitchen-layout",
+      "product": null,
+      "board_id": "296815500381470701",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716534759",
+      "posted_at": "2026-11-15T11:43:24.014Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6af9cf6e544d0574a927837b",
+      "workflow": "veluce_editorial",
+      "topic": "perimeter-security",
+      "product": null,
+      "board_id": "296815500381472108",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716535880",
+      "posted_at": "2026-11-15T15:27:44.483Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 3,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6af9fc2ce5a113497a0764f2",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Outdoor Lighting Blueprint",
+      "board_id": "296815500381474397",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716536974",
+      "posted_at": "2026-11-15T18:38:37.295Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 5,
+      "buffer_clicks": 1
+    },
+    {
+      "buffer_post_id": "6afa348260a910801c516c1a",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381477417",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716538628",
+      "posted_at": "2026-11-15T22:38:59.950Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 2,
+      "buffer_clicks": 1
+    },
+    {
+      "buffer_post_id": "6afa40bda869c35e5ba375e1",
+      "workflow": "veluce_editorial",
+      "topic": "natural-stone",
+      "product": null,
+      "board_id": "296815500381467884",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716538875",
+      "posted_at": "2026-11-15T23:31:11.207Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 2,
+      "buffer_clicks": 1
+    },
+    {
+      "buffer_post_id": "6afaf58d8941ae4e48e4faf6",
+      "workflow": "veluce_editorial",
+      "topic": "kitchen-countertops",
+      "product": null,
+      "board_id": "296815500381470714",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716542657",
+      "posted_at": "2026-11-16T12:22:38.487Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.992Z",
+      "impressions": 2,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afb45b0d1e269de78f6b05e",
+      "workflow": "veluce_editorial",
+      "topic": "smart-blinds",
+      "product": null,
+      "board_id": "296815500381470761",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716544252",
+      "posted_at": "2026-11-16T18:04:34.005Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afb7a14fecb3052f0b8b2b3",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Luxury Outdoor Room Planner",
+      "board_id": "296815500381471065",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716545603",
+      "posted_at": "2026-11-16T21:48:05.935Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 4,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afb8f2285dca6b14a071f41",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381474397",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716546166",
+      "posted_at": "2026-11-16T23:17:55.220Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afbb19ff83aaca8f39fe4cb",
+      "workflow": "veluce_editorial",
+      "topic": "pergola",
+      "product": null,
+      "board_id": "296815500381469139",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716547022",
+      "posted_at": "2026-11-17T01:45:05.887Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 4,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afbbe0185dca6b14a16b416",
+      "workflow": "veluce_editorial",
+      "topic": "smart-lighting",
+      "product": null,
+      "board_id": "296815500381472108",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716547378",
+      "posted_at": "2026-11-17T02:37:54.896Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afc4bbdbdb250961b94395f",
+      "workflow": "veluce_editorial",
+      "topic": "outdoor-wall-grazing",
+      "product": null,
+      "board_id": "296815500381469139",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716549407",
+      "posted_at": "2026-11-17T12:42:39.210Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 7,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afcbb51ea84dfa92544d016",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Designer Brief Builder",
+      "board_id": "296815500381467884",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716552015",
+      "posted_at": "2026-11-17T20:38:43.247Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afcd0c92c5bd1de81420c2f",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381477417",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716552493",
+      "posted_at": "2026-11-17T22:10:18.704Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 3,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afcf579f0c5ce9361afb576",
+      "workflow": "veluce_editorial",
+      "topic": "smart-home-planning",
+      "product": null,
+      "board_id": "296815500381472108",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716553112",
+      "posted_at": "2026-11-18T00:46:51.043Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afd04dc39777dd13e0a0858",
+      "workflow": "veluce_editorial",
+      "topic": "garden-patio-layout",
+      "product": null,
+      "board_id": "296815500381471065",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716553446",
+      "posted_at": "2026-11-18T01:52:29.569Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afd9b5ff712d4c5a24017f9",
+      "workflow": "veluce_editorial",
+      "topic": "pathway-lighting",
+      "product": null,
+      "board_id": "296815500381471065",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716555873",
+      "posted_at": "2026-11-18T12:34:40.314Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 2,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afe06a461c30f01f6ce9fc8",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Luxury Lighting Formula",
+      "board_id": "296815500381467884",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716558129",
+      "posted_at": "2026-11-18T20:12:21.593Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 2,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afe3cec01ba7c5e79215837",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381474397",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716559580",
+      "posted_at": "2026-11-19T00:04:03.573Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 2,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afe513059eff0b616cf30b4",
+      "workflow": "veluce_editorial",
+      "topic": "fire-pit",
+      "product": null,
+      "board_id": "296815500381471065",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716560033",
+      "posted_at": "2026-11-19T01:30:25.695Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6afeeab25eafbd656fdcc985",
+      "workflow": "veluce_editorial",
+      "topic": "outdoor-rugs",
+      "product": null,
+      "board_id": "296815500381471065",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716562326",
+      "posted_at": "2026-11-19T12:25:24.047Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 3,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6aff2d599556d6ec850d28aa",
+      "workflow": "veluce_editorial",
+      "topic": "security-cameras",
+      "product": null,
+      "board_id": "296815500381472050",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716563694",
+      "posted_at": "2026-11-19T17:09:47.102Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6aff58b3afe79203125ccbc4",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Room Procurement System",
+      "board_id": "296815500381467884",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716564716",
+      "posted_at": "2026-11-19T20:14:45.296Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6aff726b7020505f2dec3be2",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381477417",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716565382",
+      "posted_at": "2026-11-19T22:04:28.598Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6aff93c47b0a126ceb943b36",
+      "workflow": "veluce_editorial",
+      "topic": "smart-access",
+      "product": null,
+      "board_id": "296815500381471465",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716566222",
+      "posted_at": "2026-11-20T00:26:45.762Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 2,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6affa1ea738ce4635f77c7c4",
+      "workflow": "veluce_editorial",
+      "topic": "security-cameras",
+      "product": null,
+      "board_id": "296815500381472050",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716566470",
+      "posted_at": "2026-11-20T01:27:07.792Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 2,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b003c695d9549971ca3bd1d",
+      "workflow": "veluce_editorial",
+      "topic": "perimeter-security",
+      "product": null,
+      "board_id": "296815500381471465",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716568924",
+      "posted_at": "2026-11-20T12:26:18.789Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b00a3e6e3772ee0cf6105d4",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Complete Home Design System",
+      "board_id": "296815500381467884",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716571313",
+      "posted_at": "2026-11-20T19:47:51.987Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 1,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b00dc7fd9cbb430a1063b0c",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381474397",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716572703",
+      "posted_at": "2026-11-20T23:49:20.234Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b00ec8020a2d09a0ac2487a",
+      "workflow": "veluce_editorial",
+      "topic": "kitchen-essentials",
+      "product": null,
+      "board_id": "296815500381470701",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716572881",
+      "posted_at": "2026-11-21T00:57:37.955Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b0187ab8bd84d5966e4f1bf",
+      "workflow": "veluce_editorial",
+      "topic": "interior-design",
+      "product": null,
+      "board_id": "296815500381467884",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716575335",
+      "posted_at": "2026-11-21T11:59:40.392Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b01bf970247969092e4228b",
+      "workflow": "veluce_editorial",
+      "topic": "bedroom-layered",
+      "product": null,
+      "board_id": "296815500381470761",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716576387",
+      "posted_at": "2026-11-21T15:58:17.121Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b01e8af8bd84d59660f4f09",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "topic": null,
+      "product": "Outdoor Lighting Blueprint",
+      "board_id": "296815500381477417",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716577406",
+      "posted_at": "2026-11-21T18:53:37.216Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b02217d846b0ee90743474d",
+      "workflow": "veluce_editorial",
+      "topic": "led-deck-strips",
+      "product": null,
+      "board_id": "296815500381474397",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716578828",
+      "posted_at": "2026-11-21T22:55:58.925Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b022f9402479690920e7bcf",
+      "workflow": "veluce_editorial",
+      "topic": "kitchen-layout",
+      "product": null,
+      "board_id": "296815500381470714",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716579122",
+      "posted_at": "2026-11-21T23:56:05.371Z",
+      "metrics_updated_at": "2026-11-22T04:15:40.991Z",
+      "impressions": 0,
+      "buffer_clicks": 0
+    },
+    {
+      "buffer_post_id": "6b02dc880247969092498a8f",
+      "workflow": "veluce_editorial",
+      "topic": "tree-uplighting",
+      "product": null,
+      "board_id": "296815500381469139",
+      "pinterest_pin_url": "https://www.pinterest.com/pin/296815431716582140",
+      "posted_at": "2026-11-22T12:14:02.369Z",
+      "metrics_updated_at": "2026-11-22T12:14:00.597Z",
       "impressions": 0,
       "buffer_clicks": 0
     }

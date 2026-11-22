@@ -3675,6 +3675,27 @@
       "submitted_at": "2026-11-22T19:14:19.536Z",
       "sent_at": "2026-11-22T19:14:19.292Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716584506"
+    },
+    {
+      "creative_id": "veluce-auto-20261123-d6a6a9bb30cd",
+      "workflow": "veluce_editorial",
+      "title": "Outdoor LED Risers: Light Tall Garden Steps Without Hotspots",
+      "description": "Do your tall garden steps need a more even glow instead of a brighter spotlight? See Veluce's outdoor LED-strip guide. Wide multi-level garden stone staircase with warm under-step lighting against sculpted planting. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-21.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-23",
+      "topic": "led-deck-strips",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "d6a6a9bb30cd2343aaaf011fd78a25b4e9f12742",
+      "source_path": "assets/pinterest/landscape-lighting-21.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-22T23:25:55.741Z",
+      "github_run_id": "45083190772"
     }
   ]
 }

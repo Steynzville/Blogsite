@@ -3796,10 +3796,12 @@
       "source_path": "assets/pinterest-products/designer-brief-builder-03-architects-workspace.jpg",
       "hook": "Is your moodboard missing the measurements and constraints that matter?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-23T23:36:19.644Z",
       "buffer_post_id": "6b04cdf58b92f49dc8f03bce",
-      "submitted_at": "2026-11-23T23:36:23.299Z"
+      "submitted_at": "2026-11-23T23:36:23.299Z",
+      "sent_at": "2026-11-23T23:36:22.998Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716594645"
     }
   ]
 }

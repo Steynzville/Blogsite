@@ -1,0 +1,46 @@
+name: Veluce Monday Refresh Reconciliation
+
+on:
+  schedule:
+    # 07:30 Africa/Johannesburg = 05:30 UTC year-round.
+    - cron: '30 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: veluce-weekly-refresh-reconcile
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test reconciliation rules
+        run: node --test tests/weekly-refresh-reconcile.test.mjs
+      - name: Reconcile the preceding completed reporting week
+        run: node scripts/veluce/weekly-refresh-reconcile.mjs --output-dir artifacts/weekly-refresh
+      - name: Install Chromium for live evidence
+        run: npx --yes playwright@1.65.1 install chromium
+      - name: Capture live desktop and mobile evidence for recorded refreshes
+        run: |
+          mkdir -p artifacts/weekly-refresh/screenshots
+          node -e "const r=require('./artifacts/weekly-refresh/report.json'); for(const e of r.entries.filter(x=>x.problems.length===0)) console.log([e.articleSlug,e.articleUrl].join('\t'))" | while IFS=$'\t' read -r slug url; do
+            npx --yes playwright@1.65.1 screenshot --full-page --viewport-size='1440,14000' --wait-for-selector='h1' --wait-for-timeout=1500 "$url" "artifacts/weekly-refresh/screenshots/${slug}-desktop.png"
+            npx --yes playwright@1.65.1 screenshot --full-page --viewport-size='390,14000' --wait-for-selector='h1' --wait-for-timeout=1500 "$url" "artifacts/weekly-refresh/screenshots/${slug}-mobile.png"
+          done
+      - name: Upload reconciliation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: veluce-weekly-refresh-reconciliation
+          path: artifacts/weekly-refresh
+          retention-days: 14
+      - name: Enforce the three-refresh minimum
+        run: node scripts/veluce/weekly-refresh-reconcile.mjs --output-dir artifacts/weekly-refresh --enforce

@@ -3780,6 +3780,24 @@
       "submitted_at": "2026-11-23T19:56:27.235Z",
       "sent_at": "2026-11-23T19:56:26.900Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716592765"
+    },
+    {
+      "creative_id": "veluce-product-designer-brief-builder-03-architects-workspace",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Designer Brief Builder",
+      "title": "Design Brief Checklist: Organise Layout, Materials and Priorities",
+      "description": "Is your moodboard missing the measurements and constraints that matter? Document circulation, dimensions, must-keeps and priorities beside every design reference. Explore Veluce Studio's Designer Brief Builder to organise room requirements, priorities, references and measurements.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/designer-brief-builder-03-architects-workspace.jpg",
+      "destination_url": "https://velucedesign.com/designer-brief-builder/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-24",
+      "source_blob_sha": "607383bc84f153a4d8a537680ab90f2e3daf2145",
+      "source_path": "assets/pinterest-products/designer-brief-builder-03-architects-workspace.jpg",
+      "hook": "Is your moodboard missing the measurements and constraints that matter?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-23T23:36:19.644Z"
     }
   ]
 }

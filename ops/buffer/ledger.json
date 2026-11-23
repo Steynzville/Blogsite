@@ -3710,7 +3710,7 @@
       "destination_url": "https://velucedesign.com/article/natural-stone-materials/",
       "board_service_id": "296815500381467884",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-23",
       "topic": "natural-stone",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
@@ -3725,7 +3725,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-23T00:29:31.920Z",
-      "github_run_id": "45089049131"
+      "github_run_id": "45089049131",
+      "buffer_post_id": "6b0388edcc364169c198b91f",
+      "submitted_at": "2026-11-23T00:29:35.009Z"
     }
   ]
 }

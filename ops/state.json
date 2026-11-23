@@ -2936,6 +2936,21 @@
       "board_id": "296815500381470761",
       "buffer_post_id": "6b04465e9a08ec49a631a51b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716592765",
+      "pin_id": "296815431716592765",
+      "published_at": "2026-11-23T19:56:26.900Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/perimeter-monitoring/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-13.jpg",
+      "title": "How to Layer Outdoor Cameras With Warm Security Lighting",
+      "description": "Where could motion lighting complement existing camera views? See Veluce's perimeter guide. Contemporary garden entrance at blue hour with two small exterior wall cameras, illuminated stairs, low path bollards and landscaping. Low-level path illumination and supplemental detection lighting have.",
+      "board": "Smart Home Security Systems",
+      "board_id": "296815500381471465",
+      "buffer_post_id": "6b049a69bbfe212116e42e53",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

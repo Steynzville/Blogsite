@@ -2906,6 +2906,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6b037a05846b0ee907c70fbd",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716587235",
+      "pin_id": "296815431716587235",
+      "published_at": "2026-11-23T00:29:34.808Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/natural-stone-materials/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-12.jpg",
+      "title": "How to Balance Stone Texture and Wood in a Warm Bathroom",
+      "description": "Do timber cabinets and veined stone need a quieter backdrop? Compare finishes in Veluce's natural-stone guide. Cream bathroom with veined stone-look vanity slab, timber drawers, large backlit mirror and stone-look wall cladding. Compare appearance, maintenance and the behaviour of different natural.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "buffer_post_id": "6b0388edcc364169c198b91f",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -11,8 +11,8 @@ wordCount: 2950
 publishedAt: "2026-05-13T00:00:00.000000"
 updatedAt: "2026-05-13T00:00:00.000000"
 faq: [{"question": "What's the most important principle in luxury interior design?", "answer": "Restraint and intentionality. Luxury design is about carefully curated elements, not abundance. Every piece should serve a purpose and contribute to the overall aesthetic. The finest rooms often have the fewest objects."}, {"question": "How do I choose colors for a luxury interior?", "answer": "Start with neutral backgrounds (whites, grays, taupes, warm off-whites) and add accent colors through high-quality textiles, artwork, or carefully selected pieces. This creates sophistication and flexibility while allowing materials and form to lead."}, {"question": "Should I hire a professional designer?", "answer": "For luxury interiors, professional design expertise is invaluable. Designers understand proportion, materials, and spatial relationships in ways that create truly sophisticated spaces. They also know where to invest and where to save."}, {"question": "What makes a material 'luxury'?", "answer": "Authenticity, durability, and aging characteristics. Natural stone, solid wood, quality leather, linen, wool, and genuine metals develop patina and improve with age. Materials chosen solely to imitate something they are not never achieve the same depth."}, {"question": "How much empty space should a luxury room have?", "answer": "Luxury rooms breathe. Avoid the temptation to fill every wall or corner. Negative space allows important pieces to command attention and creates a sense of calm. If a room doesn't have at least 20-30% negative space, it's probably over-furnished."}]
-relatedArticles: ["natural-stone-materials", "layered-lighting-bedroom", "copper-lanterns-age-with-grace"]
-internalLinks: [{"text": "Natural Stone", "slug": "natural-stone-materials"}, {"text": "Layered Bedroom Lighting", "slug": "layered-lighting-bedroom"}, {"text": "Copper Lanterns", "slug": "copper-lanterns-age-with-grace"}]
+relatedArticles: ["natural-stone-materials", "layered-lighting-bedroom", "living-room-lighting-scenes"]
+internalLinks: [{"text": "Natural Stone", "slug": "natural-stone-materials"}, {"text": "Layered Bedroom Lighting", "slug": "layered-lighting-bedroom"}, {"text": "Living Room Lighting Scenes", "slug": "living-room-lighting-scenes"}]
 ---
 
 ## Quick Takeaways
@@ -82,7 +82,7 @@ Light is the only design material you cannot see — only its effects. Throughou
 
 **Natural light is primary:** Window treatments should control glare and privacy without blocking light when open. Sheers, roman shades, and properly sized drapery are the tools.
 
-*For a complete guide to lighting layering, see our article on [Layered Lighting for the Perfect Bedroom Retreat](/article/layered-lighting-bedroom).*
+For room-specific application, use the [bedroom lighting scene guide](/article/layered-lighting-bedroom/) for reading, winding down and night movement, or the [living-room lighting guide](/article/living-room-lighting-scenes/) for conversation, reading, television and quiet evening scenes.
 
 ### Two low-commitment ways to improve the lighting layer
 

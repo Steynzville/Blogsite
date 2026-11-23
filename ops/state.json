@@ -5603,67 +5603,199 @@
           "desktopArticleStructureVerified": true,
           "sharedMobileTemplateVerified": true
         }
+      },
+      {
+        "weekStart": "2026-11-16",
+        "weekEnd": "2026-11-22",
+        "status": "completed",
+        "refreshDate": "2026-11-21",
+        "completionTiming": "on-time",
+        "articleSlug": "upward-lighting-architectural-grazing",
+        "articleTitle": "Wall Grazing vs Wall Washing: How to Light a Textured Exterior",
+        "articleUrl": "https://velucedesign.com/article/upward-lighting-architectural-grazing/",
+        "selectionReason": "Qualifying Saturday Editorial REFRESH. GA4 showed 18 canonical sessions but only 7.9 seconds average engagement; the article also contained unsafe universal spacing and installation claims and unverifiable product assertions.",
+        "substantiveChanges": [
+          "Rebuilt the guide around grazing versus washing, material assessment and a practical night mock-up",
+          "Removed universal spacing/DIY guidance and unverifiable product-specific claims",
+          "Improved metadata, FAQs, internal links and image alt text while retaining three approved affiliate placements"
+        ],
+        "imageryAcceptance": {
+          "heroImage": "/images/upward-lighting.jpg",
+          "existingRelevantImageryRetained": true,
+          "altTextVerified": true,
+          "desktopAndMobileEvidence": "Exact-head CI capture matrix passed; live hero and inline imagery verified in shared browser."
+        },
+        "affiliateMonetisation": {
+          "approvedExistingLinksRetained": 3,
+          "disclosureConfirmed": true,
+          "complementaryVeluceProduct": "Outdoor Lighting Blueprint"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalSection": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "liveVerified": true
+        },
+        "prNumber": 65,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/65",
+        "mergeCommit": "bdc5e453a96c3b7f98bb1a050b2419b32218b1c5",
+        "validation": "GitHub quality gates run 44874264782 passed TypeScript, 93 tests, ops audit, production build, ops validation and desktop/mobile capture matrix.",
+        "deployment": "GitHub Pages deployment run 44874707038 succeeded; live article content, imagery, disclosure, affiliate links, product CTA and exact final Explore More were verified."
+      },
+      {
+        "weekStart": "2026-11-16",
+        "weekEnd": "2026-11-22",
+        "status": "completed",
+        "refreshDate": "2026-11-23",
+        "completionTiming": "late catch-up",
+        "articleSlug": "layered-lighting-bedroom",
+        "articleTitle": "Bedroom Lighting Design: Build Three Scenes That Work",
+        "articleUrl": "https://velucedesign.com/article/layered-lighting-bedroom/",
+        "selectionReason": "The existing guide still relied on universal dimming and copied app percentages, with weak acceptance criteria for reading, wind-down and night movement.",
+        "substantiveChanges": [
+          "Reframed controls around three observable scenes and independent switching",
+          "Added compatibility guidance for LED dimmers and entry/bedside control choices",
+          "Improved glare, finish coordination, night-route advice, metadata and FAQs"
+        ],
+        "imageryAcceptance": {
+          "heroImage": "/images/bedroom-lighting.jpg",
+          "heroImageAlt": "Neutral-toned bedroom with concealed ceiling cove lighting, softly glowing bedside lamps, a central pendant and a reading nook.",
+          "assetVisuallyInspected": true,
+          "desktopAndMobileEvidence": "Shared responsive article template passed exact-head CI; live desktop structure, hero load and alt text verified. No separate target-specific mobile screenshot was produced by the current workflow."
+        },
+        "affiliateMonetisation": {
+          "approvedExistingLinksRetained": 3,
+          "categories": [
+            "motion night light",
+            "picture light",
+            "smart dimmer"
+          ],
+          "disclosureConfirmed": true,
+          "complementaryVeluceProduct": "Luxury Lighting Formula"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalSection": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "liveVerified": true
+        },
+        "prNumber": 67,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/67",
+        "mergeCommit": "c63a6a000f93feea7b799da198b7f3446b2aece3",
+        "validation": "GitHub quality gates run 45117076370 passed TypeScript, 93 tests, ops audit, production build, ops validation and the standard capture matrix.",
+        "deployment": "Live page verified after deployment: updated SEO title and H1, hero alt text, refreshed body, three affiliate placements, disclosure, Luxury Lighting Formula CTA and exact final Explore More."
+      },
+      {
+        "weekStart": "2026-11-16",
+        "weekEnd": "2026-11-22",
+        "status": "completed",
+        "refreshDate": "2026-11-23",
+        "completionTiming": "late catch-up",
+        "articleSlug": "natural-stone-materials",
+        "articleTitle": "Marble, Travertine or Limestone? Choose by Use, Finish and Sample",
+        "articleUrl": "https://velucedesign.com/article/natural-stone-materials/",
+        "selectionReason": "The existing article used universal sealing calendars, broad wet-area approvals, unsupported durability rankings and stale global price ranges.",
+        "substantiveChanges": [
+          "Replaced family-wide promises with exact-material, finish, assembly and representative-sample verification",
+          "Added installed-scope quote comparison and authoritative Natural Stone Institute care guidance",
+          "Reworked wet-area, countertop, finish, maintenance, FAQ and pricing guidance"
+        ],
+        "imageryAcceptance": {
+          "heroImage": "/images/stone-materials.jpg",
+          "heroImageAlt": "Open-plan interior combining a pale stone fireplace, textured beige feature wall and veined stone kitchen island in warm daylight",
+          "assetVisuallyInspected": true,
+          "desktopAndMobileEvidence": "Shared responsive article template passed exact-head CI; target hero asset and alt text were visually/source verified. The workflow's standard screenshots do not target this slug."
+        },
+        "affiliateMonetisation": {
+          "approvedExistingLinksRetained": 3,
+          "categories": [
+            "microfiber cloths",
+            "silicone trivet",
+            "stone cleaner"
+          ],
+          "disclosureConfirmed": true,
+          "complementaryVeluceProduct": "Room Procurement System"
+        },
+        "exploreMoreAcceptance": {
+          "exactFinalSection": true,
+          "shopUrl": "https://tr.ee/Sp8jyc",
+          "pinterestUrl": "https://www.pinterest.com/steynenslin/",
+          "livePayloadVerified": true
+        },
+        "prNumber": 68,
+        "prUrl": "https://github.com/Steynzville/Blogsite/pull/68",
+        "mergeCommit": "b02dd538aa0d6ac03a51e8a2ab05a36b5913ac8b",
+        "validation": "GitHub quality gates run 45118857980 passed on the rebased exact head: TypeScript, 93 tests, ops audit, production build, ops validation and the standard capture matrix.",
+        "deployment": "Cache-busted live production JSON and SEO title verified with refreshed H1 data, body, hero alt, affiliate links, Room Procurement System CTA and exact final Explore More. The already-open browser session continued to render its older cached body during verification."
       }
     ],
-    "lastCompletedWeekStart": "2026-11-09",
+    "lastCompletedWeekStart": "2026-11-16",
     "lastRun": {
-      "weekStart": "2026-11-09",
-      "weekEnd": "2026-11-15",
+      "weekStart": "2026-11-16",
+      "weekEnd": "2026-11-22",
       "status": "completed",
-      "refreshDate": "2026-11-15",
+      "refreshDate": "2026-11-23",
+      "completionTiming": "late catch-up",
+      "articleSlug": "natural-stone-materials",
+      "articleTitle": "Marble, Travertine or Limestone? Choose by Use, Finish and Sample",
+      "articleUrl": "https://velucedesign.com/article/natural-stone-materials/",
+      "selectionReason": "The existing article used universal sealing calendars, broad wet-area approvals, unsupported durability rankings and stale global price ranges.",
+      "substantiveChanges": [
+        "Replaced family-wide promises with exact-material, finish, assembly and representative-sample verification",
+        "Added installed-scope quote comparison and authoritative Natural Stone Institute care guidance",
+        "Reworked wet-area, countertop, finish, maintenance, FAQ and pricing guidance"
+      ],
+      "imageryAcceptance": {
+        "heroImage": "/images/stone-materials.jpg",
+        "heroImageAlt": "Open-plan interior combining a pale stone fireplace, textured beige feature wall and veined stone kitchen island in warm daylight",
+        "assetVisuallyInspected": true,
+        "desktopAndMobileEvidence": "Shared responsive article template passed exact-head CI; target hero asset and alt text were visually/source verified. The workflow's standard screenshots do not target this slug."
+      },
+      "affiliateMonetisation": {
+        "approvedExistingLinksRetained": 3,
+        "categories": [
+          "microfiber cloths",
+          "silicone trivet",
+          "stone cleaner"
+        ],
+        "disclosureConfirmed": true,
+        "complementaryVeluceProduct": "Room Procurement System"
+      },
       "exploreMoreAcceptance": {
         "exactFinalSection": true,
         "shopUrl": "https://tr.ee/Sp8jyc",
         "pinterestUrl": "https://www.pinterest.com/steynenslin/",
-        "livePayloadLinksVerified": true
+        "livePayloadVerified": true
       },
-      "articleSlug": "smart-home-lighting-control",
-      "articleTitle": "Whole-Home Lighting Control Systems",
-      "articleUrl": "https://velucedesign.com/article/smart-home-lighting-control/",
-      "selectionReason": "Existing comparison used unsupported universal price ranges, brand-superiority language and compatibility/longevity claims.",
-      "substantiveChanges": [
-        "Added a room-by-room load and control brief plus representative dimming-load mock-up",
-        "Replaced generic brand, cost, compatibility and lifespan assertions with exact product-family, wiring, local-control, commissioning and service checks",
-        "Reworked comparison, cost section, FAQs, metadata and hero alt text while preserving existing affiliate destinations and Luxury Lighting Formula CTA"
-      ],
-      "affiliateMonetisation": {
-        "exactExistingAffiliateDestinationsPreserved": true,
-        "complementaryVeluceProduct": "Luxury Lighting Formula",
-        "disclosurePresent": true
-      },
-      "prNumber": 62,
-      "prUrl": "https://github.com/Steynzville/Blogsite/pull/62",
-      "mergeCommit": "9da655d882290847d905ebed332996dae6c78d2d",
-      "validation": "PR quality run 43692689328 passed TypeScript, all tests, ops audit, production build and ops validation. The unchanged broad screenshot sweep was cancelled when the approved head merged; article-specific production payload and shared responsive template were then checked independently.",
-      "deployment": "Generated production JSON payload, updated metadata, hero asset and exact closing links verified live on 15 Nov 2026.",
-      "imageryAcceptance": {
-        "heroImage": "/images/lighting-control.jpg",
-        "liveHeroLoaded": true,
-        "desktopArticleStructureVerified": true,
-        "sharedMobileTemplateVerified": true
-      }
+      "prNumber": 68,
+      "prUrl": "https://github.com/Steynzville/Blogsite/pull/68",
+      "mergeCommit": "b02dd538aa0d6ac03a51e8a2ab05a36b5913ac8b",
+      "validation": "GitHub quality gates run 45118857980 passed on the rebased exact head: TypeScript, 93 tests, ops audit, production build, ops validation and the standard capture matrix.",
+      "deployment": "Cache-busted live production JSON and SEO title verified with refreshed H1 data, body, hero alt, affiliate links, Room Procurement System CTA and exact final Explore More. The already-open browser session continued to render its older cached body during verification."
     },
     "minimumPerWeek": 3,
     "lastWeekSummary": {
-      "weekStart": "2026-11-09",
-      "weekEnd": "2026-11-15",
+      "weekStart": "2026-11-16",
+      "weekEnd": "2026-11-22",
       "status": "completed",
       "minimumRequired": 3,
       "verifiedCompleted": 3,
       "articleSlugs": [
-        "pergola-lighting-outdoor-room",
-        "smart-blinds-follow-sun",
-        "smart-home-lighting-control"
+        "upward-lighting-architectural-grazing",
+        "layered-lighting-bedroom",
+        "natural-stone-materials"
       ],
       "prNumbers": [
-        61,
-        62
+        65,
+        67,
+        68
       ],
       "mergeCommits": [
-        "f6eba04b81a71da434b7f4de2f4fe8015f731df3",
-        "9da655d882290847d905ebed332996dae6c78d2d"
+        "bdc5e453a96c3b7f98bb1a050b2419b32218b1c5",
+        "c63a6a000f93feea7b799da198b7f3446b2aece3",
+        "b02dd538aa0d6ac03a51e8a2ab05a36b5913ac8b"
       ],
-      "liveVerification": "All three generated production article payloads, metadata, hero assets and final Shop/Pinterest links verified. Shared mobile article template validated from CI artifact; desktop structure showed no horizontal overflow. A stale existing cloud-browser cache retained prior body JSON until cache refresh, while cache-busted production payloads contained the deployed refreshes."
+      "liveVerification": "PR #65 was completed on time. PRs #67 and #68 were completed on 23 November as late catch-up. All three merged and deployed; #65 and #67 rendered pages were verified, while #68's cache-busted production payload and SEO metadata were verified and the existing browser session retained an older cached body."
     }
   }
 }

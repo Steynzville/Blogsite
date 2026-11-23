@@ -2921,6 +2921,21 @@
       "board_id": "296815500381467884",
       "buffer_post_id": "6b0388edcc364169c198b91f",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716590495",
+      "pin_id": "296815431716590495",
+      "published_at": "2026-11-23T13:57:51.385Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/smart-blinds-follow-sun/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-pinterest-04-bedroom.jpg",
+      "title": "Smart Bedroom Shades: Balance Morning Light and Privacy: What to Check Before Choosing",
+      "description": "Will your bedroom blind schedule suit your actual sleep and privacy routine? See Veluce's smart-blinds and daylight guide. Neutral city-view bedroom with roller shade, bedside tablet, phone and soft cove lighting at sunrise. Compare the room's real needs, compatibility and everyday controls before.",
+      "board": "Cozy Bedroom Ideas & Finds 🔥",
+      "board_id": "296815500381470761",
+      "buffer_post_id": "6b04465e9a08ec49a631a51b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -12,8 +12,8 @@ wordCount: 2900
 publishedAt: "2026-05-13T00:00:00.000000"
 updatedAt: "2026-11-15T00:00:00.000Z"
 faq: [{"question":"How should I compare whole-home lighting control systems?","answer":"Start with the lighting loads, dimming compatibility, wiring, keypad locations, local operation, required integrations, service model and documented handover. Then compare platforms against that brief."},{"question":"Can I install a whole-home system myself?","answer":"Some consumer wireless products support homeowner setup, while panelised, mains-wired and dealer-managed systems require appropriate design, installation and commissioning. Follow the exact product and local electrical requirements."},{"question":"What does a whole-home lighting system cost?","answer":"There is no reliable universal range. Request itemised quotes using the same fixture schedule, circuit count, keypads, sensors, integrations, programming, documentation and support assumptions."},{"question":"What is the difference between a smart switch and a control system?","answer":"A smart switch controls a circuit or load. A coordinated system can share scenes, schedules, sensors and status across rooms, but the useful difference depends on design and commissioning."},{"question":"Should lighting still work without internet access?","answer":"Core switching, dimming and wall controls should have a clearly documented local behaviour. Test what remains available if internet, cloud service, app, hub or controller connectivity is lost."}]
-relatedArticles: ["invisible-hvac-design", "smart-blinds-follow-sun", "layered-lighting-bedroom"]
-internalLinks: [{"text": "HVAC Design", "slug": "invisible-hvac-design"}, {"text": "Smart Blinds", "slug": "smart-blinds-follow-sun"}, {"text": "Layered Bedroom Lighting", "slug": "layered-lighting-bedroom"}]
+relatedArticles: ["living-room-lighting-scenes", "smart-blinds-follow-sun", "layered-lighting-bedroom"]
+internalLinks: [{"text": "Living Room Lighting Scenes", "slug": "living-room-lighting-scenes"}, {"text": "Smart Blinds", "slug": "smart-blinds-follow-sun"}, {"text": "Layered Bedroom Lighting", "slug": "layered-lighting-bedroom"}]
 ---
 
 ## Quick Takeaways
@@ -109,6 +109,8 @@ Savant is another professionally commissioned automation platform with lighting 
 ## Write the control brief before selecting a platform
 
 Create a room-by-room load schedule: fixture type, lamp or driver, circuit, dimming method, minimum stable level and required scene behaviour. Mark three-way switching, exterior circuits, emergency or code-related loads, motorised shades and integrations. Decide which functions must remain available from the wall if the app, internet or controller is unavailable.
+
+For a practical room-level example before choosing hardware, the [living-room lighting guide](/article/living-room-lighting-scenes/) maps conversation, reading, television and quiet-evening scenes, including the occupied-viewpoint glare checks a control schedule cannot replace.
 
 Ask each bidder to price the same brief and identify exclusions. Require a keypad schedule, panel and network requirements, ownership of programming files where applicable, backup and recovery procedure, warranty responsibilities, change rates and a labelled handover pack. A cheaper quote that omits programming, compatible dimmers or post-handover support is not a like-for-like comparison.
 

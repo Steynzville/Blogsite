@@ -76,6 +76,7 @@ export const articleStudioRecommendations = {
   'kitchen-appliances-luxury': { product: 'procurement', hook: 'High-ticket appliances deserve a specification and comparison before the showroom decides for you.' },
   'kitchen-design-layout': { product: 'designerBrief', hook: 'Before choosing cabinetry and finishes, turn the kitchen requirements into a brief people can actually use.' },
   'layered-lighting-bedroom': { product: 'luxuryLighting', hook: 'Want to turn these bedroom layers into a complete evening lighting plan?' },
+  'living-room-lighting-scenes': { product: 'luxuryLighting', hook: 'Turn the four living-room scenes into a complete, testable lighting hierarchy before buying more fixtures.' },
   'luxury-interior-design-principles': { product: 'designerBrief', hook: 'Turn the principles you like into a clear brief instead of a loose inspiration board.' },
   'natural-stone-countertops-guide': { product: 'procurement', hook: 'Stone selection gets easier when finish, maintenance, sample evidence and budget are compared in one system.' },
   'perimeter-monitoring': { product: 'completeHome', hook: 'Security, lighting and arrival design should work as one system at the property edge.' },

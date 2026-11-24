@@ -3928,8 +3928,10 @@
       "source_path": "assets/pinterest-products/luxury-lighting-formula-03-bedroom-glow.jpg",
       "hook": "Is the bedroom ceiling light overpowering the bedside layers?",
       "board_name": "Cozy Bedroom Ideas & Finds 🔥",
-      "status": "reserved",
-      "recorded_at": "2026-11-24T22:06:27.774Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-24T22:06:27.774Z",
+      "buffer_post_id": "6b060a65917199a4e168b38c",
+      "submitted_at": "2026-11-24T22:06:30.883Z"
     }
   ]
 }

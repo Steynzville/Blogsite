@@ -3802,6 +3802,32 @@
       "submitted_at": "2026-11-23T23:36:23.299Z",
       "sent_at": "2026-11-23T23:36:22.998Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716594645"
+    },
+    {
+      "creative_id": "veluce-auto-20261124-ee7fe4e3075a",
+      "workflow": "veluce_editorial",
+      "title": "Spa Terrace LED Lighting: Keep Steps Visible Beside the Water: What to Check Before Installing",
+      "description": "Will your raised hot tub deck show every step without dazzling bathers? See Veluce's outdoor LED-strip guide. Contemporary terrace with warm strip-lit steps leading to a raised spa beside a sunset water view. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-23.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-24",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "ee7fe4e3075a4e49e34d8a283f94db1dea4f2a9c",
+      "source_path": "assets/pinterest/landscape-lighting-23.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-24T01:36:01.550Z",
+      "github_run_id": "45306180593"
     }
   ]
 }

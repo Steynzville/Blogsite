@@ -3011,6 +3011,21 @@
       "board_id": "296815500381470701",
       "buffer_post_id": "6b059f4ec629c9c8d328e126",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716602305",
+      "pin_id": "296815431716602305",
+      "published_at": "2026-11-24T23:26:42.273Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-24.jpg",
+      "title": "Poolside LED Deck Edge: Light the Transition to the Terrace: What to Check Before Installing",
+      "description": "Does the glowing deck edge help guests notice the change in level beside the pool? See Veluce's outdoor LED-strip guide. A modern evening swimming pool with low illuminated deck borders and warm underlit patio steps. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6b061d31ec28dbadf4d07df6",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

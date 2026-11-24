@@ -3832,6 +3832,27 @@
       "submitted_at": "2026-11-24T01:36:05.993Z",
       "sent_at": "2026-11-24T01:36:05.618Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716595687"
+    },
+    {
+      "creative_id": "veluce-auto-20261124-3e1c983195b2",
+      "workflow": "veluce_editorial",
+      "title": "How to Set a Home Cinema Lighting Scene Without Total Darkness",
+      "description": "Does your movie scene leave enough light to move safely around the room? See Veluce's guide to useful smart-lighting scenes. Dark home cinema lounge with glowing television wall, indirect ceiling coves and a phone showing a dimming interface. Compare the room's real needs, compatibility and.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-05-cinema-lighting.jpg",
+      "destination_url": "https://velucedesign.com/article/smart-home-lighting-control/",
+      "board_service_id": "296815500381472108",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-24",
+      "topic": "smart-lighting",
+      "board_name": "Smart Home Ideas & Gadgets 🔥",
+      "source_blob_sha": "3e1c983195b24c5a564b48f5e04f62dc49f4060e",
+      "source_path": "assets/pinterest/smart-home-05-cinema-lighting.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-24T03:53:38.290Z",
+      "github_run_id": "45322558853"
     }
   ]
 }

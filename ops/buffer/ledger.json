@@ -3857,6 +3857,32 @@
       "submitted_at": "2026-11-24T03:53:42.571Z",
       "sent_at": "2026-11-24T03:53:42.199Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716596655"
+    },
+    {
+      "creative_id": "veluce-auto-20261124-fdcccc015408",
+      "workflow": "veluce_editorial",
+      "title": "How to Connect Interior Lighting With a Covered Outdoor Room",
+      "description": "Do indoor and outdoor lighting layers clash at the glass doors? See Veluce's layered pergola-lighting guide. Glazed indoor living area opening to an illuminated timber pergola with cream outdoor seating. Explore the role of warm canopy light, garden accents and seating zones in an outdoor room.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/glass-garden-room-27.jpg",
+      "destination_url": "https://velucedesign.com/article/pergola-lighting-outdoor-room/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-24",
+      "topic": "pergola",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "suggested_section": {
+        "id": "3487152833194786112",
+        "name": "Architectural Lighting & Outdoor Glow"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "fdcccc0154086ace9ed0dabfdec0bcc277dff343",
+      "source_path": "assets/pinterest/glass-garden-room-27.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-24T04:27:34.509Z",
+      "github_run_id": "45326501470"
     }
   ]
 }

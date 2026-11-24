@@ -3912,6 +3912,24 @@
       "submitted_at": "2026-11-24T14:29:36.640Z",
       "sent_at": "2026-11-24T14:29:35.493Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716599088"
+    },
+    {
+      "creative_id": "veluce-product-luxury-lighting-formula-03-bedroom-glow",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Luxury Lighting Formula",
+      "title": "Bedroom Lighting: Build a Soft Evening Scene Without Glare",
+      "description": "Is the bedroom ceiling light overpowering the bedside layers? Create a dim ambient backdrop with separate task lighting near the bed. Explore Veluce Studio's Luxury Lighting Formula to balance ambient, task and accent lighting.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-lighting-formula-03-bedroom-glow.jpg",
+      "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+      "board_service_id": "296815500381470761",
+      "publish_at": "now",
+      "local_date": "2026-11-25",
+      "source_blob_sha": "55559254ddd6728c8581d41a9d154b8dceb00dce",
+      "source_path": "assets/pinterest-products/luxury-lighting-formula-03-bedroom-glow.jpg",
+      "hook": "Is the bedroom ceiling light overpowering the bedside layers?",
+      "board_name": "Cozy Bedroom Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-24T22:06:27.774Z"
     }
   ]
 }

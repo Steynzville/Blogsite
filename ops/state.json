@@ -3050,13 +3050,14 @@
   },
   "veluce_six_product_cover_rotation_v1": {
     "cycle": 8,
-    "last_product": "Designer Brief Builder",
+    "last_product": "Luxury Lighting Formula",
     "completed_products": [
       "Outdoor Lighting Blueprint",
       "Luxury Outdoor Room Planner",
-      "Designer Brief Builder"
+      "Designer Brief Builder",
+      "Luxury Lighting Formula"
     ],
-    "next_product": "Luxury Lighting Formula",
+    "next_product": "Room Procurement System",
     "history": [
       {
         "product": "Outdoor Lighting Blueprint",
@@ -4505,6 +4506,39 @@
           "Designer Brief Builder"
         ],
         "next_product": "Luxury Lighting Formula"
+      },
+      {
+        "creative_id": "veluce-product-luxury-lighting-formula-03-bedroom-glow",
+        "workflow": "veluce_six_product_cover_rotation_v1",
+        "product": "Luxury Lighting Formula",
+        "cycle": 8,
+        "submission_date": "2026-11-25",
+        "status": "sent_buffer_confirmed",
+        "image_type": "owner-upload",
+        "image_dimensions": "1000x1500",
+        "image_filename": "luxury-lighting-formula-03-bedroom-glow.jpg",
+        "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/luxury-lighting-formula-03-bedroom-glow.jpg",
+        "hook": "Is the bedroom ceiling light overpowering the bedside layers?",
+        "title": "Bedroom Lighting: Build a Soft Evening Scene Without Glare",
+        "description": "Is the bedroom ceiling light overpowering the bedside layers? Create a dim ambient backdrop with separate task lighting near the bed. Explore Veluce Studio's Luxury Lighting Formula to balance ambient, task and accent lighting.",
+        "destination_url": "https://velucedesign.com/luxury-lighting-formula/",
+        "board": "Cozy Bedroom Ideas & Finds 🔥",
+        "board_service_id": "296815500381470761",
+        "buffer_post_id": "6b060a65917199a4e168b38c",
+        "published_at": "2026-11-25",
+        "published_at_timestamp": "2026-11-24T22:06:30.710Z",
+        "pin_id": "296815431716601838",
+        "pin_url": "https://www.pinterest.com/pin/296815431716601838",
+        "verification_status": "Buffer sentAt and Pinterest externalLink confirmed, exact product URL, title, board, and one image verified",
+        "product_page_verified": true,
+        "independent_clickthrough_verified": false,
+        "completed_products_this_cycle": [
+          "Outdoor Lighting Blueprint",
+          "Luxury Outdoor Room Planner",
+          "Designer Brief Builder",
+          "Luxury Lighting Formula"
+        ],
+        "next_product": "Room Procurement System"
       }
     ],
     "archived_history": [

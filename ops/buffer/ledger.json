@@ -4044,6 +4044,32 @@
       "submitted_at": "2026-11-25T13:49:11.172Z",
       "sent_at": "2026-11-25T13:49:09.971Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716606287"
+    },
+    {
+      "creative_id": "veluce-auto-20261126-bb83a8865800",
+      "workflow": "veluce_editorial",
+      "title": "Modern Pool Deck LED Strips: Keep Walkway and Water Distinct: What to Check Before Installing",
+      "description": "Can you clearly tell where the deck steps end and the pool begins after dark? See Veluce's outdoor LED-strip guide. Contemporary property with turquoise pool, several warm illuminated deck treads and a dark planted garden. Explore practical lighting-placement, visibility and glare decisions before.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-25.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381474397",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-26",
+      "topic": "led-deck-strips",
+      "board_name": "Attainable Luxury Outdoor Lighting",
+      "suggested_section": {
+        "id": "3556835137344193344",
+        "name": "Pure Inspiration"
+      },
+      "section_status": "advisory_only_buffer_has_no_section_target",
+      "source_blob_sha": "bb83a8865800e796a82bb7aed65e8e450f608b65",
+      "source_path": "assets/pinterest/landscape-lighting-25.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-25T23:01:46.972Z",
+      "github_run_id": "45718051617"
     }
   ]
 }

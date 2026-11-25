@@ -5275,6 +5275,30 @@
       "status": "published",
       "verified": true,
       "verification_note": "Author, caption and actual attached photo verified in published Facebook permalink; live matching guide inspected."
+    },
+    {
+      "destination": "page",
+      "johannesburg_date": "2026-11-25",
+      "category": "interior lighting / bedrooms and living spaces",
+      "article_slug": "living-room-lighting-scenes",
+      "source_url": "https://velucedesign.com/article/living-room-lighting-scenes/",
+      "theme": "living-room lighting scenes for conversation, reading, television and quiet evenings",
+      "advice_angle": "map four real evening scenes, assign each source one job, then test seated glare and screen reflections",
+      "opening_phrase": "A living room rarely needs more light everywhere; it needs the right light for each part of the evening.",
+      "image_filename": "living-room-lighting-scenes-hero.jpg",
+      "image_repository_path": "public/images/living-room-lighting-scenes-hero.jpg",
+      "image_blob_sha": "c3746fdeced88b199ababa407bbffd913e3e0a47",
+      "image_asset_id": "122124693159497940",
+      "image_source": "github_repository",
+      "image_newly_generated": false,
+      "facebook_post_id": "1380934031768194_122124693183497940",
+      "facebook_url": "https://www.facebook.com/122113949439497940/posts/122124693183497940",
+      "author_identity": "Veluce Studio",
+      "page_id": "1380934031768194",
+      "image_visible": true,
+      "link_verified": true,
+      "publication_status": "published_and_verified",
+      "published_at": "2026-11-25T07:03:48+02:00"
     }
   ],
   "conversion_followup_20261015": {

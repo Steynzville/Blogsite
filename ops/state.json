@@ -3026,6 +3026,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6b061d31ec28dbadf4d07df6",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716603250",
+      "pin_id": "296815431716603250",
+      "published_at": "2026-11-25T02:04:01.618Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/smart-home-planning-by-room/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/smart-home-05-comfort-thermostat.jpg",
+      "title": "Smart Thermostat Planning: Compare Comfort With Compatibility",
+      "description": "Will this thermostat work with your actual heating and cooling equipment? See Veluce's room-by-room smart-home planning guide. Warm living room with subtle circular wall thermostat, neutral sofas and daylight-filtering window blinds. Compare the room's real needs, compatibility and everyday.",
+      "board": "Smart Home Ideas & Gadgets 🔥",
+      "board_id": "296815500381472108",
+      "buffer_post_id": "6b06420fc4ff71faa8283f2b",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

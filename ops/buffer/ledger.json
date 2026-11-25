@@ -3969,7 +3969,7 @@
       "destination_url": "https://velucedesign.com/article/smart-home-planning-by-room/",
       "board_service_id": "296815500381472108",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-25",
       "topic": "smart-home-planning",
       "board_name": "Smart Home Ideas & Gadgets 🔥",
@@ -3981,7 +3981,9 @@
       "recorded_at": "2026-11-25T02:03:57.864Z",
       "github_run_id": "45530219682",
       "buffer_post_id": "6b06420fc4ff71faa8283f2b",
-      "submitted_at": "2026-11-25T02:04:01.992Z"
+      "submitted_at": "2026-11-25T02:04:01.992Z",
+      "sent_at": "2026-11-25T02:04:01.618Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716603250"
     }
   ]
 }

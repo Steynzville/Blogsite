@@ -3056,6 +3056,21 @@
       "board_id": "296815500381469139",
       "buffer_post_id": "6b0651ac9cddd8483aa3a53a",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716606287",
+      "pin_id": "296815431716606287",
+      "published_at": "2026-11-25T13:49:09.971Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/how-to-arrange-patio-furniture/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/modern-patio-22.jpg",
+      "title": "How to Zone a Modern Patio for Conversation and Easy Movement",
+      "description": "Is the fire feature interrupting the route between your patio seats? See Veluce's patio-layout planning guide. Two outdoor seating groups and a warm fire feature beneath a terrace pergola with lit stairs. Think about furniture groupings, focal points and clear routes between outdoor zones.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6b06e754d71f914956724457",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

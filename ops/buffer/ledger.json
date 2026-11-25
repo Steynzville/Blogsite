@@ -3994,7 +3994,7 @@
       "destination_url": "https://velucedesign.com/article/garden-pathway-lighting/",
       "board_service_id": "296815500381469139",
       "publish_at": "now",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "local_date": "2026-11-25",
       "topic": "pathway-lighting",
       "board_name": "2026 Warm Organic Home Aesthetic",
@@ -4011,7 +4011,9 @@
       "recorded_at": "2026-11-25T03:10:33.881Z",
       "github_run_id": "45538083076",
       "buffer_post_id": "6b0651ac9cddd8483aa3a53a",
-      "submitted_at": "2026-11-25T03:10:37.968Z"
+      "submitted_at": "2026-11-25T03:10:37.968Z",
+      "sent_at": "2026-11-25T03:10:37.548Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716603601"
     }
   ]
 }

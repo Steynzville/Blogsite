@@ -3041,6 +3041,21 @@
       "board_id": "296815500381472108",
       "buffer_post_id": "6b06420fc4ff71faa8283f2b",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716603601",
+      "pin_id": "296815431716603601",
+      "published_at": "2026-11-25T03:10:37.548Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/garden-pathway-lighting/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/floating-garden-steps-21.jpg",
+      "title": "How to Light Floating Garden Steps Without Exposed Bulbs",
+      "description": "Could hidden lighting make floating garden steps easier to read at dusk? See Veluce's garden-pathway lighting guide. Floating garden stair treads with continuous concealed warm lighting and dense planting along both sides. Compare path edges, steps and approaches to plan comfortable guidance after.",
+      "board": "2026 Warm Organic Home Aesthetic",
+      "board_id": "296815500381469139",
+      "buffer_post_id": "6b0651ac9cddd8483aa3a53a",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

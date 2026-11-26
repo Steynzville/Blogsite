@@ -4175,8 +4175,10 @@
       "source_path": "assets/pinterest-products/room-procurement-system-04-linen-and-stone.jpg",
       "hook": "Do the fabric and stone look right online but clash in daylight?",
       "board_name": "Modern Home Decor Ideas & Finds 🔥",
-      "status": "reserved",
-      "recorded_at": "2026-11-26T21:09:31.444Z"
+      "status": "buffer_submitted",
+      "recorded_at": "2026-11-26T21:09:31.444Z",
+      "buffer_post_id": "6b08a00dce64081689f34d31",
+      "submitted_at": "2026-11-26T21:09:36.146Z"
     }
   ]
 }

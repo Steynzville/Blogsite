@@ -3101,6 +3101,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6b078e739f6dda31ccb33ad4",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716610271",
+      "pin_id": "296815431716610271",
+      "published_at": "2026-11-26T02:27:59.512Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/outdoor-rugs-defy-elements/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/patio-06-rattan-sunset-lounge.jpg",
+      "title": "How to Choose a Rug Size for Rattan Patio Seating",
+      "description": "Is your woven outdoor rug large enough to connect the rattan lounge chairs? See Veluce's outdoor-rug sizing and material guide. Sunset patio with two rattan armchairs, circular wicker coffee table, natural-coloured woven rug, overhead festoon lights and lush planting. Compare how this detail works.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6b07992eb8e2338b8581d881",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

@@ -4159,6 +4159,24 @@
       "submitted_at": "2026-11-26T13:29:08.658Z",
       "sent_at": "2026-11-26T13:29:07.450Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716612373"
+    },
+    {
+      "creative_id": "veluce-product-room-procurement-system-04-linen-and-stone",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Room Procurement System",
+      "title": "Fabric and Stone Procurement: Compare the Details Together",
+      "description": "Do the fabric and stone look right online but clash in daylight? Test samples in your room and record specifications before ordering. Explore Veluce Studio's Room Procurement System to compare samples, sizes, budgets and supplier details.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/room-procurement-system-04-linen-and-stone.jpg",
+      "destination_url": "https://velucedesign.com/room-procurement-system/",
+      "board_service_id": "296815500381467884",
+      "publish_at": "now",
+      "local_date": "2026-11-26",
+      "source_blob_sha": "3f38d54aa142e8ff52b408fe3b360945083cbf63",
+      "source_path": "assets/pinterest-products/room-procurement-system-04-linen-and-stone.jpg",
+      "hook": "Do the fabric and stone look right online but clash in daylight?",
+      "board_name": "Modern Home Decor Ideas & Finds 🔥",
+      "status": "reserved",
+      "recorded_at": "2026-11-26T21:09:31.444Z"
     }
   ]
 }

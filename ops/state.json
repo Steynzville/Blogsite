@@ -3086,6 +3086,21 @@
       "board_id": "296815500381474397",
       "buffer_post_id": "6b0768ddb96dd8d3516c8fa0",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716610074",
+      "pin_id": "296815431716610074",
+      "published_at": "2026-11-26T01:42:12.622Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/fire-pit-02-sunken-conversation.jpg",
+      "title": "How to Plan Sunken Fire-Pit Seating With Clear Access Steps",
+      "description": "Is your sunken fire-pit seating easy to reach from the terrace? See Veluce's fire-pit layout guide. Sunken circular conversation pit with a central flame, crescent sofa and illuminated steps by a pool. Compare flame position, seating scale and circulation before planning a fire-pit patio.",
+      "board": "Garden & Patio Ideas & Finds 🔥",
+      "board_id": "296815500381471065",
+      "buffer_post_id": "6b078e739f6dda31ccb33ad4",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

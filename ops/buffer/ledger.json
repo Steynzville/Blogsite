@@ -4181,6 +4181,27 @@
       "submitted_at": "2026-11-26T21:09:36.146Z",
       "sent_at": "2026-11-26T21:09:35.063Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716614689"
+    },
+    {
+      "creative_id": "veluce-auto-20261127-fdbbd244cb59",
+      "workflow": "veluce_editorial",
+      "title": "Warm LED Step Strips: Prevent Pool Reflections From Overpowering: What to Check Before Installing",
+      "description": "Are poolside reflections hiding the actual steps people need to use? See Veluce's outdoor LED-strip guide. Evening residence and broad swimming pool with a warm lit stair edge along a paved walkway. Explore practical lighting-placement, visibility and glare decisions before buying fixtures.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-26.jpg",
+      "destination_url": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "board_service_id": "296815500381477417",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-27",
+      "topic": "led-deck-strips",
+      "board_name": "Outdoor Lighting Ideas",
+      "source_blob_sha": "fdbbd244cb593b32b5044272cca5a416020c23f3",
+      "source_path": "assets/pinterest/landscape-lighting-26.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "improved-topic-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-26T22:54:53.544Z",
+      "github_run_id": "45907708132"
     }
   ]
 }

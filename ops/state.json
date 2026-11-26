@@ -3116,6 +3116,21 @@
       "board_id": "296815500381471065",
       "buffer_post_id": "6b07992eb8e2338b8581d881",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716612373",
+      "pin_id": "296815431716612373",
+      "published_at": "2026-11-26T13:29:07.450Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/discreet-security-cameras/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-06.jpg",
+      "title": "How to Position a Doorbell Camera for Parcel Deliveries",
+      "description": "Can your doorbell camera actually see a dropped-off parcel? Explore Veluce's placement guide. Small delivery parcel at entrance below a video doorbell, black front door, tall planting and lantern-style exterior light. Frame the approach and delivery area rather than just the visitor's face; plan.",
+      "board": "Home Security Ideas & Setups",
+      "board_id": "296815500381472050",
+      "buffer_post_id": "6b083422a9849181fe536a58",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

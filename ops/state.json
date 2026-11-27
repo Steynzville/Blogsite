@@ -3146,6 +3146,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6b08b8bfe44dd487fc03690c",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716615722",
+      "pin_id": "296815431716615722",
+      "published_at": "2026-11-27T01:35:41.564Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/discreet-security-cameras/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-09.jpg",
+      "title": "How to Check Outdoor Camera Angles Across a Poolside Terrace",
+      "description": "Could a camera miss movement along the poolside approach? See Veluce's sightline guide. Wide blue-hour exterior of modern residence with visible small cameras beneath eaves, illuminated garden planting and reflective swimming pool. Look for obstructions at eaves and on the garden boundary; a wide.",
+      "board": "Smart Home Security Systems",
+      "board_id": "296815500381471465",
+      "buffer_post_id": "6b08de6b548b6e180d4e4528",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

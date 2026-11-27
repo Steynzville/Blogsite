@@ -3191,6 +3191,21 @@
       "board_id": "296815500381471465",
       "buffer_post_id": "6b0984d0658222306c173578",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716620284",
+      "pin_id": "296815431716620284",
+      "published_at": "2026-11-27T22:37:12.359Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/led-strip-integration-modern-deck/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/landscape-lighting-27.jpg",
+      "title": "LED Deck Edge Details: Give Outdoor Steps Their Own Light Layer: What to Check Before Installing",
+      "description": "Would a separate under-step light make the terrace easier to navigate at night? See Veluce's outdoor LED-strip guide. Luxury outdoor lounge beside a blue pool with several broad horizontal steps lit underneath. Explore practical lighting-placement, visibility and glare decisions before buying.",
+      "board": "Outdoor Lighting Ideas",
+      "board_id": "296815500381477417",
+      "buffer_post_id": "6b0a0617eada83daa6a42ab6",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

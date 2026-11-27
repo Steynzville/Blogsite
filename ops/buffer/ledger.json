@@ -4256,6 +4256,27 @@
       "submitted_at": "2026-11-27T02:25:05.937Z",
       "sent_at": "2026-11-27T02:25:04.710Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716615880"
+    },
+    {
+      "creative_id": "veluce-auto-20261127-c3e0f219a20b",
+      "workflow": "veluce_editorial",
+      "title": "How to Include Windows and Side Doors in a Home Security Plan",
+      "description": "Are your side windows included in the perimeter plan? See Veluce's security-zoning guide. Bright living-space window opening to garden with small white wall-mounted sensor by the interior frame. Look beyond the front door to other entry points, sensors and approach lighting.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-alt-06.jpg",
+      "destination_url": "https://velucedesign.com/article/perimeter-monitoring/",
+      "board_service_id": "296815500381471465",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-27",
+      "topic": "perimeter-security",
+      "board_name": "Smart Home Security Systems",
+      "source_blob_sha": "c3e0f219a20b7fdc4fd34fb55e913a0ee6dfea79",
+      "source_path": "assets/pinterest/home-security-alt-06.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-27T13:25:33.365Z",
+      "github_run_id": "46006928562"
     }
   ]
 }

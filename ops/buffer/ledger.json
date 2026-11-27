@@ -4281,6 +4281,24 @@
       "submitted_at": "2026-11-27T13:25:38.065Z",
       "sent_at": "2026-11-27T13:25:37.709Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716617866"
+    },
+    {
+      "creative_id": "veluce-product-complete-home-design-system-04-desert-retreat",
+      "workflow": "veluce_six_product_cover_rotation_v1",
+      "product": "Complete Home Design System",
+      "title": "Desert-Inspired Home Design: Balance Stone, Timber and Light",
+      "description": "Are your stone, timber and neutral finishes working together? Choose a consistent hierarchy for key finishes before committing to furnishings in each room. Explore Veluce Studio's Complete Home Design System to connect materials, layouts and lighting across rooms.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest-products/complete-home-design-system-04-desert-retreat.jpg",
+      "destination_url": "https://velucedesign.com/complete-home-design-system/",
+      "board_service_id": "296815500381469139",
+      "publish_at": "now",
+      "local_date": "2026-11-27",
+      "source_blob_sha": "2250e1104751611f0e60f1e8f46af89d34b0fd64",
+      "source_path": "assets/pinterest-products/complete-home-design-system-04-desert-retreat.jpg",
+      "hook": "Are your stone, timber and neutral finishes working together?",
+      "board_name": "2026 Warm Organic Home Aesthetic",
+      "status": "reserved",
+      "recorded_at": "2026-11-27T20:53:04.164Z"
     }
   ]
 }

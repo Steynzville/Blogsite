@@ -3161,6 +3161,21 @@
       "board_id": "296815500381471465",
       "buffer_post_id": "6b08de6b548b6e180d4e4528",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716615880",
+      "pin_id": "296815431716615880",
+      "published_at": "2026-11-27T02:25:04.710Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/smart-access-control/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/home-security-alt-01.jpg",
+      "title": "How to Integrate a Video Doorbell Without Cluttering the Entrance",
+      "description": "Does a doorbell compete with your entryway design? Explore discreet entry options in Veluce's guide. Front porch with black door and wall-mounted video doorbell beside lantern, hydrangea planter and a small parcel on the mat. Plan door hardware, porch lighting and the visitor's standing area as one.",
+      "board": "Home Security Ideas & Setups",
+      "board_id": "296815500381472050",
+      "buffer_post_id": "6b08e9ff70e2a88e2ced5e81",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

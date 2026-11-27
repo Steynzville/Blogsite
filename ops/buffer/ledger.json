@@ -4297,10 +4297,12 @@
       "source_path": "assets/pinterest-products/complete-home-design-system-04-desert-retreat.jpg",
       "hook": "Are your stone, timber and neutral finishes working together?",
       "board_name": "2026 Warm Organic Home Aesthetic",
-      "status": "buffer_submitted",
+      "status": "sent_buffer_confirmed",
       "recorded_at": "2026-11-27T20:53:04.164Z",
       "buffer_post_id": "6b09edb2c02ca0988ab4c227",
-      "submitted_at": "2026-11-27T20:53:08.000Z"
+      "submitted_at": "2026-11-27T20:53:08.000Z",
+      "sent_at": "2026-11-27T20:53:07.692Z",
+      "pinterest_url": "https://www.pinterest.com/pin/296815431716619845"
     }
   ]
 }

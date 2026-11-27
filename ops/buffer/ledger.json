@@ -4266,7 +4266,7 @@
       "destination_url": "https://velucedesign.com/article/perimeter-monitoring/",
       "board_service_id": "296815500381471465",
       "publish_at": "now",
-      "status": "reserved",
+      "status": "buffer_submitted",
       "local_date": "2026-11-27",
       "topic": "perimeter-security",
       "board_name": "Smart Home Security Systems",
@@ -4276,7 +4276,9 @@
       "hook_style": "original-benefit",
       "cta_style": "image-specific-question-and-early-cta",
       "recorded_at": "2026-11-27T13:25:33.365Z",
-      "github_run_id": "46006928562"
+      "github_run_id": "46006928562",
+      "buffer_post_id": "6b0984d0658222306c173578",
+      "submitted_at": "2026-11-27T13:25:38.065Z"
     }
   ]
 }

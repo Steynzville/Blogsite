@@ -4358,6 +4358,27 @@
       "submitted_at": "2026-11-28T01:15:46.058Z",
       "sent_at": "2026-11-28T01:15:45.816Z",
       "pinterest_url": "https://www.pinterest.com/pin/296815431716620923"
+    },
+    {
+      "creative_id": "veluce-auto-20261128-1253d34233dc",
+      "workflow": "veluce_editorial",
+      "title": "Where to Position Bedside Lamps in a Warm Minimal Bedroom",
+      "description": "Are bedside lamps positioned for the people who use the room? See Veluce's layered bedroom-lighting guide. Broad upholstered bed in cream and taupe with matching table lamps, wood-panelled headboard wall and warm ceiling coves. Compare ambient ceiling light, bedside task lighting and softer accent.",
+      "image_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-08.jpg",
+      "destination_url": "https://velucedesign.com/article/layered-lighting-bedroom/",
+      "board_service_id": "296815500381470761",
+      "publish_at": "now",
+      "status": "reserved",
+      "local_date": "2026-11-28",
+      "topic": "bedroom-layered",
+      "board_name": "Cozy Bedroom Ideas & Finds 🔥",
+      "source_blob_sha": "1253d34233dc252a4126dee934b726de5bd4f0b8",
+      "source_path": "assets/pinterest/luxury-interior-08.jpg",
+      "copy_version": "veluce-click-v4",
+      "hook_style": "original-benefit",
+      "cta_style": "image-specific-question-and-early-cta",
+      "recorded_at": "2026-11-28T02:11:50.424Z",
+      "github_run_id": "46096833341"
     }
   ]
 }

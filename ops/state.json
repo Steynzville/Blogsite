@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "model": "affiliate_now_local_hybrid_gated",
   "spend_authorized": false,
   "baseline_sha": "34e3ac2d70dea3a36575404502ab1f6c637cb890",
@@ -4969,7 +4969,9 @@
         "selectionReason": "Two exact mature-tree Pins produced five native outbound clicks in the completed 14-20 November window, while GA4 showed mixed destination engagement. The article still used universal fixture counts, distances, angles and runtime promises, framed solar as the default and retained old product placements outside the catalogue approved for automated refreshes.",
         "affiliateMonetisation": {
           "contextualPlacementsAdded": 1,
-          "products": ["RGBW landscape spotlight (rgbw-landscape-spotlight)"],
+          "products": [
+            "RGBW landscape spotlight (rgbw-landscape-spotlight)"
+          ],
           "approvedInventoryUsed": true,
           "disclosureConfirmed": true,
           "complementaryRoles": true
@@ -5274,7 +5276,9 @@
       "selectionReason": "Two exact mature-tree Pins produced five native outbound clicks in the completed 14-20 November window, while GA4 showed mixed destination engagement. The article still used universal fixture counts, distances, angles and runtime promises, framed solar as the default and retained old product placements outside the catalogue approved for automated refreshes.",
       "affiliateMonetisation": {
         "contextualPlacementsAdded": 1,
-        "products": ["RGBW landscape spotlight (rgbw-landscape-spotlight)"],
+        "products": [
+          "RGBW landscape spotlight (rgbw-landscape-spotlight)"
+        ],
         "approvedInventoryUsed": true,
         "disclosureConfirmed": true,
         "complementaryRoles": true
@@ -5630,6 +5634,32 @@
       "publication_status": "published_and_verified",
       "published_at": "2026-11-27T07:00:12+02:00",
       "verification_note": "Page API confirmed author ID 1380934031768194, published photo attachment, 1080x720 image and article URL; opened published permalink and visually verified the photo."
+    },
+    {
+      "destination": "page",
+      "johannesburg_date": "2026-11-28",
+      "category": "patio / outdoor living",
+      "article_slug": "fire-pit-tables-centerpiece",
+      "source_url": "https://velucedesign.com/article/fire-pit-tables-centerpiece/",
+      "theme": "fire-pit table as an outdoor-room focal point planned around manufacturer-approved clearances, occupied seating and circulation",
+      "advice_angle": "check the exact appliance manual and local restrictions first, then measure chair placement and walking routes outside its approved safety zone before choosing table size or location",
+      "opening_phrase": "A fire-pit table should be planned in two passes: first check the exact model’s manual and local rules for the surface, overhead cover and required clearances.",
+      "image_filename": "fire-pit-tables.jpg",
+      "image_repository_path": "public/images/fire-pit-tables.jpg",
+      "image_blob_sha": "db62efb58ce4a12cddf68e6654e301cb3fe3daf9",
+      "image_asset_id": "122125388859497940",
+      "image_source": "github_repository",
+      "image_newly_generated": false,
+      "facebook_post_id": "1380934031768194_122125388883497940",
+      "facebook_url": "https://www.facebook.com/122113949439497940/posts/122125388883497940",
+      "author_identity": "Veluce Studio",
+      "page_id": "1380934031768194",
+      "image_attached": true,
+      "image_visible": true,
+      "link_verified": true,
+      "publication_status": "published_and_verified",
+      "published_at": "2026-11-28T07:20:44+02:00",
+      "verification_note": "Facebook Page API confirmed Page author ID 1380934031768194, native photo attachment, image URL, caption and source link; opened the live permalink and visually verified the attached photo."
     }
   ],
   "conversion_followup_20261015": {

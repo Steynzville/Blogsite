@@ -4951,7 +4951,42 @@
     "lastRunType": "NEW",
     "nextRunType": "REFRESH",
     "nextNewProduct": "Room Procurement System",
-    "pendingRun": null,
+    "pendingRun": {
+      "runDate": "2026-11-28",
+      "runType": "REFRESH",
+      "actualRunType": "REFRESH",
+      "articleSlug": "hidden-uplighting-mature-trees",
+      "articleTitle": "How to Uplight a Mature Tree Without Harsh Glare",
+      "primaryTopic": "Mature-tree uplighting planned through sightlines, beam control, restrained output and after-dark testing",
+      "primaryProduct": "Outdoor Lighting Blueprint",
+      "branch": "editorial/2026-11-28-refresh-tree-uplighting",
+      "mergeStatus": "planned",
+      "publicationDate": "2026-06-11",
+      "plannedNextRunType": "NEW",
+      "plannedNextNewProduct": "Room Procurement System",
+      "selectionReason": "Two exact mature-tree Pins produced five native outbound clicks in the completed 14-20 November window, while GA4 showed mixed destination engagement. The article still used universal fixture counts, distances, angles and runtime promises, framed solar as the default and retained old product placements outside the catalogue approved for automated refreshes.",
+      "affiliateMonetisation": {
+        "contextualPlacementsAdded": 1,
+        "products": ["RGBW landscape spotlight (rgbw-landscape-spotlight)"],
+        "approvedInventoryUsed": true,
+        "disclosureConfirmed": true,
+        "complementaryRoles": true
+      },
+      "pinterestReview": "ops/buffer/analytics-reviews/2026-11-28-weekly-editorial-review.md; no publishing-rule or mix change because one fresh week does not justify reallocation. The qualified-click destination is materially improved.",
+      "analyticsEvidence": "Pinterest completed windows: 26 September-23 October 277,364 impressions / 195 outbound clicks (0.070%); 24 October-20 November 300,290 / 166 (0.055%). Fresh 14-20 November: 94,370 impressions / 58 outbound clicks (0.061%); exact tree-uplighting Pins contributed five. GA4 fresh Pinterest-labelled traffic: 39 sessions, 18 engaged sessions, 61 views and zero key events; exact selected article: four sessions, one engaged session and nine views.",
+      "sources": [
+        "https://darksky.org/app/uploads/2023/09/Five-Lighting-Principles-5.5x8.5inch-08-2023.pdf",
+        "https://darksky.org/get-involved/home-lighting-assessment/",
+        "https://www.energy.gov/cmei/ssl/light-night"
+      ],
+      "sourceCheckedAt": "2026-11-28",
+      "imagery": "Existing relevant tree-uplighting hero retained; descriptive hero alt added and supporting imagery preserved.",
+      "validationResult": "Local gates passed: TypeScript, 96 tests, 32-article audit with zero issues/warnings, 57-route production build, generated HTML inspection and ops validation. Exact-head GitHub quality gates pending PR.",
+      "prNumber": null,
+      "prUrl": null,
+      "mergeCommit": null,
+      "deploymentVerification": "pending"
+    },
     "history": [
       {
         "runDate": "2026-11-23",

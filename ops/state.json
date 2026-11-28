@@ -3236,6 +3236,21 @@
       "board_id": "296815500381470761",
       "buffer_post_id": "6b0a386823fb5b77000f9cbf",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716623308",
+      "pin_id": "296815431716623308",
+      "published_at": "2026-11-28T12:38:53.657Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/everyday-kitchen-essentials-organization/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/kitchen-essentials-03-coffee-station.jpg",
+      "title": "Small Coffee Station Ideas: Leave Space for Cups and Cleaning",
+      "description": "Can you make coffee without moving half the items on your counter? See Veluce's everyday kitchen-station planning guide. Compact French-press coffee station with mugs, coffee beans and pastries on a warm stone worktop. See the practical storage and task-zone decisions behind this kitchen setup.",
+      "board": "Kitchen Essentials & Must-Haves 🔥",
+      "board_id": "296815500381470714",
+      "buffer_post_id": "6b0acb5cb8ec87c6cec4ebca",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],

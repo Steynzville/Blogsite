@@ -3206,6 +3206,21 @@
       "board_id": "296815500381477417",
       "buffer_post_id": "6b0a0617eada83daa6a42ab6",
       "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
+    },
+    {
+      "pin_url": "https://www.pinterest.com/pin/296815431716620923",
+      "pin_id": "296815431716620923",
+      "published_at": "2026-11-28T01:15:45.816Z",
+      "workflow": "veluce_editorial",
+      "status": "sent",
+      "destination": "https://velucedesign.com/article/luxury-interior-design-principles/",
+      "media_url": "https://raw.githubusercontent.com/Steynzville/Blogsite/main/assets/pinterest/luxury-interior-04.jpg",
+      "title": "How to Layer Lighting and Materials in a Contemporary Lounge",
+      "description": "Would layered lighting make the stone and timber finishes feel balanced? See Veluce's luxury interior-design guide. Curved ivory seating, travertine-look round coffee table, warm recessed ceiling lights and built-in shelving beside a glazed terrace. Explore how focal points, furniture scale and.",
+      "board": "Modern Home Decor Ideas & Finds 🔥",
+      "board_id": "296815500381467884",
+      "buffer_post_id": "6b0a2b4023fb5b77000a5ade",
+      "publication_verification": "Buffer sentAt + externalLink + exact persisted destination, title and board"
     }
   ],
   "pages_created": [],
